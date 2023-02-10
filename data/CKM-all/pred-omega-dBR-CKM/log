@@ -1,0 +1,7 @@
+2023-02-10 12:08:20,098 INFO     Creating analysis with 51 priors, 8 EOS-wide constraints, 2 global options, 0 manually-entered constraints and 0 fixed parameters.
+2023-02-10 12:08:22,256 ERROR    [ConcreteObservableEntry.make] Observable 'B->omegalnu::BR' forces option key 'q' to value 'u', overriding user-provided value 'u'
+2023-02-10 12:08:22,272 ERROR    [ConcreteObservableEntry.make] Observable 'B->omegalnu::BR' forces option key 'q' to value 'u', overriding user-provided value 'u'
+2023-02-10 12:08:22,274 ERROR    [ConcreteObservableEntry.make] Observable 'B->omegalnu::BR' forces option key 'q' to value 'u', overriding user-provided value 'u'
+2023-02-10 12:08:22,276 ERROR    [ConcreteObservableEntry.make] Observable 'B->omegalnu::BR' forces option key 'q' to value 'u', overriding user-provided value 'u'
+2023-02-10 12:08:22,278 ERROR    [ConcreteObservableEntry.make] Observable 'B->omegalnu::BR' forces option key 'q' to value 'u', overriding user-provided value 'u'
+2023-02-10 12:08:22,290 INFO     likelihood probably depends on 47 parameter(s) that do not appear in the prior; check prior?

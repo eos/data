@@ -1,0 +1,36 @@
+{
+    "upload_type": "dataset",
+    "title": "EOS/DATA-2023-01: Supplementary material for EOS/ANALYSIS-2022-05",
+    "description": "Supplementary material including input files, results, and figures for EOS/ANALYSIS-2022-05, a study of the ubℓν sector of the Weak Effective Theory.",
+    "license": "CC-BY-4.0",
+    "creators": [
+        {
+            "orcid": "0000-0002-8970-5378",
+            "affiliation": "Rudjer Boskovic Institute, Division of Theoretical Physics, Bijeniˇcka 54, HR-10000 Zagreb, Croatia",
+            "name": "Leljak, Domagoj"
+        },
+        {
+            "affiliation": "Rudjer Boskovic Institute, Division of Theoretical Physics, Bijeniˇcka 54, HR-10000 Zagreb, Croatia",
+            "name": "Melić, Blaženka"
+        },
+        {
+            "affiliation": "Physik Department T31, Technische Universität München, 85748 Garching, Germany",
+            "name": "Novak, Filip"
+        },
+        {
+            "orcid": "0000-0001-6033-3606",
+            "affiliation": "Institute for Particle Physics Phenomenology and Department of Physics, Durham University, Durham DH1 3LE, UK",
+            "name": "Reboud, Méril"
+        },
+        {
+            "orcid": "0000-0002-7668-810X",
+            "affiliation": "Institute for Particle Physics Phenomenology and Department of Physics, Durham University, Durham DH1 3LE, UK",
+            "name": "van Dyk, Danny"
+        }
+    ],
+    "grants": [
+      {
+        "id": "10.13039/100014013::ST/V003941/1"
+      }
+    ]
+}
