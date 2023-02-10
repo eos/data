@@ -1,0 +1,23 @@
+observables:
+- kinematics: {}
+  name: B_s^0->K^0Kbar^0::S_CP
+- kinematics: {}
+  name: B_s^0->K^+K^-::S_CP
+- kinematics: {}
+  name: B_s^0->pi^0pi^0::S_CP
+- kinematics: {}
+  name: B_s^0->pi^+pi^-::S_CP
+- kinematics: {}
+  name: B^0->K_Spi^0::S_CP
+- kinematics: {}
+  name: B_s^0->K_Spi^0::S_CP
+- kinematics: {}
+  name: B^0->K^0Kbar^0::S_CP
+- kinematics: {}
+  name: B^0->K^+K^-::S_CP
+- kinematics: {}
+  name: B^0->pi^0pi^0::S_CP
+- kinematics: {}
+  name: B^0->pi^+pi^-::S_CP
+type: Prediction
+version: 1.0.13

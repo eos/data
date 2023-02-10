@@ -1,0 +1,15 @@
+observables:
+- kinematics: {}
+  name: B_s^0->etaeta::S_CP
+- kinematics: {}
+  name: B_s^0->etapi^0::S_CP
+- kinematics: {}
+  name: B^0->etaK_S::S_CP
+- kinematics: {}
+  name: B^0->etaeta::S_CP
+- kinematics: {}
+  name: B_s^0->etaK_S::S_CP
+- kinematics: {}
+  name: B^0->etapi^0::S_CP
+type: Prediction
+version: 1.0.13

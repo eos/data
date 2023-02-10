@@ -1,0 +1,116 @@
+dof: 15
+global_chi2: 37.991670344005314
+local_pvalues:
+  B->PP::ratio_B+K^+Kbar^0/B+K^0pi^+@LHCB:2013F: 0.544460323868669
+  B->PP::ratio_B0K^+K^-/B0K^+pi^-@LHCB:2016C: 0.49450988455630995
+  B->PP::ratio_B0pi^+pi^-/B0K^+pi^-@LHCB:2012F: 0.2035056709826365
+  B->PP::ratio_BsK^+K^-/B0K^+pi^-@LHCB:2012F: 0.02896366320394339
+  B->PP::ratio_BsK^-pi^+/B0K^+pi^-@LHCB:2012F: 0.7084315197637425
+  B->PP::ratio_Bspi^+pi^-/B0K^+pi^-@LHCB:2016C: 0.7736372995961371
+  B^+->K^+Kbar^0::A_CP@BRV:2024A: 0.8428216431781441
+  B^+->K^+Kbar^0::BR_exp@PDG:2024A: 0.6616570559911417
+  B^+->K^+pi^0::A_CP@PDG:2024A: 0.9770302281224332
+  B^+->K^+pi^0::BR_exp@PDG:2024A: 0.6955283505007187
+  B^+->K^0pi^+::A_CP@PDG:2024A: 0.6356870454345989
+  B^+->K^0pi^+::BR_exp@PDG:2024A: 0.830332184313885
+  B^+->pi^+pi^0::A_CP@PDG:2024A: 0.8575883756447881
+  B^+->pi^+pi^0::BR_exp@PDG:2024A: 0.8193245602908015
+  B^0->K^+pi^-::A_CP@PDG:2024A: 0.19984169548011088
+  B^0->K^+pi^-::BR_exp@PDG:2024A: 0.3442055735631806
+  B^0->K^0Kbar^0::A_CP@BRV:2024A: 0.9938317899323189
+  B^0->K^0Kbar^0::BR_exp@PDG:2024A: 0.9755067197390291
+  B^0->K^0Kbar^0::S_CP@PDG:2024A: 0.8692691175737931
+  B^0->K^0pi^0::A_CP@PDG:2024A: 0.35508126406675644
+  B^0->K^0pi^0::BR_exp@PDG:2024A: 0.6061827781377988
+  B^0->K_Spi^0::S_CP@PDG:2024A: 0.22465417249706554
+  B^0->pi^+pi^-::A_CP@PDG:2024A: 0.02412095122901947
+  B^0->pi^+pi^-::BR_exp@PDG:2024A: 0.20980396644513788
+  B^0->pi^+pi^-::S_CP@PDG:2024A: 0.035138110689573177
+  B^0->pi^0pi^0::A_CP@PDG:2024A: 0.7408767895841611
+  B^0->pi^0pi^0::BR_exp@PDG:2024A: 0.6927973335999594
+  B_s^0->K^+K^-::BR_exp@Belle:2010C: 0.16511777532360372
+  B_s^0->K^+K^-::CP_Observables@LHCb:2020B: 0.03739501003459156
+  B_s^0->K^-pi^+::A_CP@PDG:2024A: 0.14151978438681656
+  B_s^0->K^0Kbar^0::BR_exp@PDG:2024A: 0.9677412499829451
+  B_s^0->pi^0pi^0::BR_exp@Belle-II:2023D: 0.3915026699396038
+mode:
+- 0.6210132320478868
+- 0.4565576672458809
+- -0.3380038398816644
+- 0.0011214662454339663
+- -0.11758564222012619
+- -0.042591537967340276
+- 0.05321770621608024
+- 0.21305758863541807
+- 0.05405562991282903
+- -0.032553313028431785
+- 0.09977447065842515
+- 0.17443400266169487
+- -0.1420037190951572
+- -0.16761347735398607
+- 0.144206232184525
+- -0.1068612441015262
+- -0.04664020481355095
+- 0.05598858711627651
+- 0.009449179669448741
+parameters:
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{T}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{C}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{C}@Topological
+- max: 10.0
+  min: -10.0
+  name: nonleptonic::Re{AE}@Topological
+- max: 10.0
+  min: -10.0
+  name: nonleptonic::Im{AE}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{TPA}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{TPA}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{TP}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{TP}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{P}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{P}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{PT}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{PT}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{PC}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{PC}@Topological
+- max: 10.0
+  min: -10.0
+  name: nonleptonic::Re{PTAE}@Topological
+- max: 10.0
+  min: -10.0
+  name: nonleptonic::Im{PTAE}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{PA}@Topological
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{PA}@Topological
+pvalue: 0.0009048536310053423
+type: Mode
+version: 1.0.13

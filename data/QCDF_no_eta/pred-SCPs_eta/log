@@ -1,0 +1,4 @@
+2025-02-14 09:46:07,603 INFO       Creating analysis with 23 priors, 26 EOS-wide constraints, 2 global options, 6 manually-entered constraints and 4 fixed parameters.
+2025-02-14 09:46:07,854 INFO       likelihood probably depends on 76 parameter(s) that do not appear in the prior; check prior?
+2025-02-14 09:46:07,875 INPROGRESS Predicting observables from set 'SCPs_eta' for 57085 samples
+2025-02-14 09:46:41,561 COMPLETED  ... done

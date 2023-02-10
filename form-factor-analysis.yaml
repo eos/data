@@ -1,0 +1,116 @@
+priors:
+  - name: BToK
+    descriptions:
+      - { 'parameter': 'B->K::alpha^f+_0@BSZ2015', 'min':  0.28019, 'max':  0.38334, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^f+_1@BSZ2015', 'min':  -1.29722, 'max':  -0.63468, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^f+_2@BSZ2015', 'min':  -0.75595, 'max':  0.14644, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^f0_1@BSZ2015', 'min':  -0.05427, 'max':  0.72058, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^f0_2@BSZ2015', 'min':  -0.73440, 'max':  0.73653, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^fT_0@BSZ2015', 'min':  0.21581, 'max':  0.43173, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^fT_1@BSZ2015', 'min':  -1.90041, 'max':  -0.15736, 'type': 'uniform'}
+      - { 'parameter': 'B->K::alpha^fT_2@BSZ2015', 'min':  -2.11689, 'max':  1.32140, 'type': 'uniform'}
+
+  - name: BsToK
+    descriptions:
+      - { 'parameter': 'B_s->K::alpha^f+_0@BSZ2015', 'min':  0.24456, 'max':  0.35879, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^f+_1@BSZ2015', 'min':  -0.38380, 'max':  0.15521, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^f+_2@BSZ2015', 'min':  2.00820, 'max':  3.04884, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^f0_1@BSZ2015', 'min':  -0.02599, 'max':  0.47744, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^f0_2@BSZ2015', 'min':  -0.79807, 'max':  0.07301, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^fT_0@BSZ2015', 'min':  0.26290, 'max':  0.43893, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^fT_1@BSZ2015', 'min':  -3.02422, 'max':  1.21721, 'type': 'uniform'}
+      - { 'parameter': 'B_s->K::alpha^fT_2@BSZ2015', 'min':  -53.63842, 'max':  46.67488, 'type': 'uniform'}
+
+  - name: BTopi
+    descriptions:
+      - { 'parameter': 'B->pi::alpha^f+_0@BSZ2015', 'min':  0.14276, 'max':  0.26984, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^f+_1@BSZ2015', 'min':  -1.19774, 'max':  -0.60604, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^f+_2@BSZ2015', 'min':  -1.21315, 'max':  0.07401, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^f0_1@BSZ2015', 'min':  -0.24539, 'max':  0.20331, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^f0_2@BSZ2015', 'min':  -0.44600, 'max':  -0.01688, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^fT_0@BSZ2015', 'min':  0.14864, 'max':  0.30026, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^fT_1@BSZ2015', 'min':  -1.16030, 'max':  -0.38134, 'type': 'uniform'}
+      - { 'parameter': 'B->pi::alpha^fT_2@BSZ2015', 'min':  -1.03249, 'max':  0.15935, 'type': 'uniform'}
+
+
+likelihoods:
+  - name: BToK
+    constraints:
+      - 'B->K::f_0+f_++f_T@HPQCD:2022A'
+      - 'B->K::f_0+f_++f_T@FNAL+MILC:2015D'
+      - 'B->K::f_0+f_++f_T@HPQCD:2013A'
+  - name: BsToK
+    constraints:
+      - 'B_s->K::form-factors[f_+,f_0,f_T]@BvDV:2023A'
+      - 'B_s->K::f_++f_0@RBC+UKQCD:2023A'
+      - 'B_s->K::f_++f_0@HPQCD:2014A'
+  - name: BTopi
+    constraints:
+      - 'B->pi::form-factors[f_+,f_0,f_T]@LMvD:2021A'
+      - 'B->pi::f_++f_0+f_T@FNAL+MILC:2015C'
+      - 'B->pi::f_++f_0@RBC+UKQCD:2015A'
+
+posteriors:
+  - name: BToK
+    global_options:
+      model: WET
+      form-factors: BSZ2015
+    prior:
+      - BToK
+    likelihood:
+      - BToK
+  - name: BsToK
+    global_options:
+      model: WET
+      form-factors: BSZ2015
+    prior:
+      - BsToK
+    likelihood:
+      - BsToK
+  - name: BTopi
+    global_options:
+      model: WET
+      form-factors: BSZ2015
+    prior:
+      - BTopi
+    likelihood:
+      - BTopi
+
+
+predictions:
+  - name: BToK
+    observables:
+      - name: "B->K::f_+(q2)"
+        kinematics: {q2: 0.}
+      - name: "B->K::f_+(q2)"
+        kinematics: {q2: 0.0193} # pi
+      - name: "B->K::f_+(q2)"
+        kinematics: {q2: 0.247} # K
+      - name: "B->K::f_+(q2)"
+        kinematics: {q2: 0.300} # eta
+      - name: "B->K::f_+(q2)"
+        kinematics: {q2: 0.917} # eta'
+  - name: BsToK
+    observables:
+      - name: "B_s->K::f_+(q2)"
+        kinematics: {q2: 0.}
+      - name: "B_s->K::f_+(q2)"
+        kinematics: {q2: 0.0193} # pi
+      - name: "B_s->K::f_+(q2)"
+        kinematics: {q2: 0.247} # K
+      - name: "B_s->K::f_+(q2)"
+        kinematics: {q2: 0.300} # eta
+      - name: "B_s->K::f_+(q2)"
+        kinematics: {q2: 0.917} # eta'
+  - name: BTopi
+    observables:
+      - name: "B->pi::f_+(q2)"
+        kinematics: {q2: 0.}
+      - name: "B->pi::f_+(q2)"
+        kinematics: {q2: 0.0193} # pi
+      - name: "B->pi::f_+(q2)"
+        kinematics: {q2: 0.247} # K
+      - name: "B->pi::f_+(q2)"
+        kinematics: {q2: 0.300} # eta
+      - name: "B->pi::f_+(q2)"
+        kinematics: {q2: 0.917} # eta'

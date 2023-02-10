@@ -1,0 +1,15 @@
+observables:
+- kinematics: {}
+  name: B->PP::ratio_B+K^+Kbar^0/B+K^0pi^+
+- kinematics: {}
+  name: B->PP::ratio_B0pi^+pi^-/B0K^+pi^-
+- kinematics: {}
+  name: B->PP::ratio_B0K^+K^-/B0K^+pi^-
+- kinematics: {}
+  name: B->PP::ratio_Bspi^+pi^-/B0K^+pi^-
+- kinematics: {}
+  name: B->PP::ratio_BsK^-pi^+/B0K^+pi^-
+- kinematics: {}
+  name: B->PP::ratio_BsK^+K^-/B0K^+pi^-
+type: Prediction
+version: 1.0.13

@@ -1,0 +1,132 @@
+dof: 11
+global_chi2: 12.677642676627084
+local_pvalues:
+  B->PP::ratio_B+K^+Kbar^0/B+K^0pi^+@LHCB:2013F: 0.5414521002060595
+  B->PP::ratio_B0K^+K^-/B0K^+pi^-@LHCB:2016C: 0.8279192829131641
+  B->PP::ratio_B0pi^+pi^-/B0K^+pi^-@LHCB:2012F: 0.6945185159649521
+  B->PP::ratio_BsK^+K^-/B0K^+pi^-@LHCB:2012F: 0.8463292802426894
+  B->PP::ratio_BsK^-pi^+/B0K^+pi^-@LHCB:2012F: 0.2856127624060326
+  B->PP::ratio_Bspi^+pi^-/B0K^+pi^-@LHCB:2016C: 0.8703246428922762
+  B^+->K^+Kbar^0::A_CP@BRV:2024A: 0.9452697720434305
+  B^+->K^+Kbar^0::BR_exp@PDG:2024A: 0.6513752573554112
+  B^+->K^+pi^0::A_CP@PDG:2024A: 0.9313108880540701
+  B^+->K^+pi^0::BR_exp@PDG:2024A: 0.5969782120462872
+  B^+->K^0pi^+::A_CP@PDG:2024A: 0.963372757453276
+  B^+->K^0pi^+::BR_exp@PDG:2024A: 0.7530309814522742
+  B^+->pi^+pi^0::A_CP@PDG:2024A: 0.9886969157218461
+  B^+->pi^+pi^0::BR_exp@PDG:2024A: 0.9712457446216965
+  B^0->K^+pi^-::A_CP@PDG:2024A: 0.7436018572127092
+  B^0->K^+pi^-::BR_exp@PDG:2024A: 0.8197157591338555
+  B^0->K^0Kbar^0::A_CP@BRV:2024A: 0.999999939474543
+  B^0->K^0Kbar^0::BR_exp@PDG:2024A: 0.9999993460284471
+  B^0->K^0Kbar^0::S_CP@PDG:2024A: 0.9999973323155422
+  B^0->K^0pi^0::A_CP@PDG:2024A: 0.8548488854398044
+  B^0->K^0pi^0::BR_exp@PDG:2024A: 0.5492673219147939
+  B^0->K_Spi^0::S_CP@PDG:2024A: 0.6838062315881641
+  B^0->pi^+pi^-::A_CP@PDG:2024A: 0.15328829894171614
+  B^0->pi^+pi^-::BR_exp@PDG:2024A: 0.9860885526465658
+  B^0->pi^+pi^-::S_CP@PDG:2024A: 0.7589738518819722
+  B^0->pi^0pi^0::A_CP@PDG:2024A: 0.8025318621432735
+  B^0->pi^0pi^0::BR_exp@PDG:2024A: 0.9714184569771207
+  B_s^0->K^+K^-::BR_exp@Belle:2010C: 0.3200406279200202
+  B_s^0->K^+K^-::CP_Observables@LHCb:2020B: 0.18039728051150594
+  B_s^0->K^-pi^+::A_CP@PDG:2024A: 0.3758175403581743
+  B_s^0->K^0Kbar^0::BR_exp@PDG:2024A: 0.9999980120676595
+  B_s^0->pi^0pi^0::BR_exp@Belle-II:2023D: 0.3936374660575329
+mode:
+- 0.5921249999966571
+- 0.4329411430102543
+- -0.2703246610115895
+- 250.78047697838042
+- -122.70817599815896
+- -7.329214820353059
+- 19.369553499179318
+- 4.670482169497369
+- -2.234306660107034
+- 14.993910797276598
+- -3.5224361015872176
+- -0.3189444050228937
+- 0.13565119201553094
+- 0.038036055194272694
+- -0.011517867899539819
+- -9.970780760264127
+- 6.385376530244951
+- 37.38921260026862
+- -14.997823900000018
+- -0.10251447700009839
+- 0.043091527799970705
+- -52.675979605847175
+- 10.312883290804507
+parameters:
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{alpha1p4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{alpha2m4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{alpha2m4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{b2palpha2}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{b2palpha2}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{b1p4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{b1p4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{alpha4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{alpha4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{b4palpha4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{b4palpha4_u}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{alpha4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{alpha4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{alpha3p4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{alpha3p4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{b4p4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{b4p4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{b3malpha4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{b3malpha4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{alpha4p4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{alpha4p4EW_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Re{b4_c}@QCDF
+- max: 1.0
+  min: -1.0
+  name: nonleptonic::Im{b4_c}@QCDF
+pvalue: 0.3149155290451272
+type: Mode
+version: 1.0.13

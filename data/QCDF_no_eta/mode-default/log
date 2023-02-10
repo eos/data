@@ -1,0 +1,167 @@
+2025-04-01 10:02:37,322 INFO       Creating analysis with 23 priors, 26 EOS-wide constraints, 2 global options, 6 manually-entered constraints and 4 fixed parameters.
+2025-04-01 10:02:37,613 INFO       likelihood probably depends on 76 parameter(s) that do not appear in the prior; check prior?
+2025-04-01 10:02:37,613 INPROGRESS Beginning minimization in 100 points
+2025-04-01 10:02:37,613 INFO       Using a user-provided starting point
+2025-04-01 10:02:37,678 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:37,680 INFO       First optimization finished
+2025-04-01 10:02:37,748 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:37,814 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:37,885 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:37,955 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:38,025 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,095 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:38,166 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,241 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,304 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:38,377 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,448 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,511 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:38,573 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:38,637 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:38,700 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:38,769 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,840 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:38,905 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:38,974 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:39,044 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:39,172 SUCCESS    Optimization goal achieved after 64 function evaluations
+2025-04-01 10:02:39,241 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:39,318 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:39,387 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:39,458 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:39,523 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:39,592 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:39,658 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:39,730 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:39,794 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:39,856 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:39,926 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:39,996 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:40,065 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:40,137 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:40,198 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:40,383 SUCCESS    Optimization goal achieved after 94 function evaluations
+2025-04-01 10:02:40,448 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:40,522 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:40,587 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:40,648 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:40,720 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:40,789 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:40,928 SUCCESS    Optimization goal achieved after 66 function evaluations
+2025-04-01 10:02:40,997 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,062 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:41,124 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:41,191 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,255 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:41,323 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:41,399 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,466 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:41,536 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,599 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:41,664 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:41,723 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:41,789 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,858 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,928 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:41,994 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:42,057 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:42,126 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:42,196 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:42,395 SUCCESS    Optimization goal achieved after 96 function evaluations
+2025-04-01 10:02:42,462 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:42,531 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:42,588 SUCCESS    Optimization goal achieved after 30 function evaluations
+2025-04-01 10:02:42,652 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:42,721 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:42,782 SUCCESS    Optimization goal achieved after 30 function evaluations
+2025-04-01 10:02:42,843 SUCCESS    Optimization goal achieved after 30 function evaluations
+2025-04-01 10:02:42,911 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:42,984 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:43,175 SUCCESS    Optimization goal achieved after 97 function evaluations
+2025-04-01 10:02:43,244 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:43,317 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:43,390 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:43,455 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:43,530 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:43,596 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:43,667 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:43,740 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:43,805 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:43,877 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:43,949 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,020 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,094 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,160 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:44,226 SUCCESS    Optimization goal achieved after 32 function evaluations
+2025-04-01 10:02:44,295 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,357 SUCCESS    Optimization goal achieved after 33 function evaluations
+2025-04-01 10:02:44,424 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:44,486 SUCCESS    Optimization goal achieved after 30 function evaluations
+2025-04-01 10:02:44,555 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,624 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,688 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:44,758 SUCCESS    Optimization goal achieved after 34 function evaluations
+2025-04-01 10:02:44,833 SUCCESS    Optimization goal achieved after 35 function evaluations
+2025-04-01 10:02:44,900 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-01 10:02:44,902 COMPLETED  ... optimization finished
+2025-04-01 10:02:44,902 INFO       The best-fit point is:
+2025-04-01 10:02:44,903 INFO         - nonleptonic::Re{alpha1p4_u}@QCDF -> 0.5921249998005288
+2025-04-01 10:02:44,903 INFO         - nonleptonic::Re{alpha2m4_u}@QCDF -> 0.43294114347928947
+2025-04-01 10:02:44,903 INFO         - nonleptonic::Im{alpha2m4_u}@QCDF -> -0.27032466125159804
+2025-04-01 10:02:44,903 INFO         - nonleptonic::Re{b2palpha2}@QCDF -> 250.78047629337317
+2025-04-01 10:02:44,903 INFO         - nonleptonic::Im{b2palpha2}@QCDF -> -122.70817589377691
+2025-04-01 10:02:44,904 INFO         - nonleptonic::Re{b1p4_u}@QCDF -> -7.3292148266540025
+2025-04-01 10:02:44,904 INFO         - nonleptonic::Im{b1p4_u}@QCDF -> 19.369553472739966
+2025-04-01 10:02:44,904 INFO         - nonleptonic::Re{alpha4_u}@QCDF -> 4.670482147596111
+2025-04-01 10:02:44,904 INFO         - nonleptonic::Im{alpha4_u}@QCDF -> -2.2343066605049575
+2025-04-01 10:02:44,904 INFO         - nonleptonic::Re{b4palpha4_u}@QCDF -> 14.993910687431196
+2025-04-01 10:02:44,904 INFO         - nonleptonic::Im{b4palpha4_u}@QCDF -> -3.522436154220287
+2025-04-01 10:02:44,905 INFO         - nonleptonic::Re{alpha4EW_c}@QCDF -> -0.3189444053818016
+2025-04-01 10:02:44,905 INFO         - nonleptonic::Im{alpha4EW_c}@QCDF -> 0.1356511917830034
+2025-04-01 10:02:44,905 INFO         - nonleptonic::Re{alpha3p4EW_c}@QCDF -> 0.038036055074575595
+2025-04-01 10:02:44,905 INFO         - nonleptonic::Im{alpha3p4EW_c}@QCDF -> -0.011517867892298719
+2025-04-01 10:02:44,905 INFO         - nonleptonic::Re{b4p4EW_c}@QCDF -> -9.970780764325355
+2025-04-01 10:02:44,906 INFO         - nonleptonic::Im{b4p4EW_c}@QCDF -> 6.385376533988103
+2025-04-01 10:02:44,906 INFO         - nonleptonic::Re{b3malpha4EW_c}@QCDF -> 37.38921261919653
+2025-04-01 10:02:44,906 INFO         - nonleptonic::Im{b3malpha4EW_c}@QCDF -> -14.99782389773361
+2025-04-01 10:02:44,906 INFO         - nonleptonic::Re{alpha4p4EW_c}@QCDF -> -0.1025144770072766
+2025-04-01 10:02:44,906 INFO         - nonleptonic::Im{alpha4p4EW_c}@QCDF -> 0.04309152779956166
+2025-04-01 10:02:44,907 INFO         - nonleptonic::Re{b4_c}@QCDF -> -52.67597971822687
+2025-04-01 10:02:44,907 INFO         - nonleptonic::Im{b4_c}@QCDF -> 10.312883187357912
+2025-04-01 10:02:44,907 INFO       total chi^2 = 12.68
+2025-04-01 10:02:44,907 INFO       total dof   = 11
+2025-04-01 10:02:44,910 INFO       p value     = 31.49%
+2025-04-01 10:02:44,910 INFO       individual test statistics:
+2025-04-01 10:02:44,911 INFO         - B->PP::ratio_B+K^+Kbar^0/B+K^0pi^+@LHCB:2013F: chi^2 / dof = 0.37 / 1, local_pvalue = 54.15%
+2025-04-01 10:02:44,912 INFO         - B->PP::ratio_B0K^+K^-/B0K^+pi^-@LHCB:2016C: chi^2 / dof = 0.05 / 1, local_pvalue = 82.79%
+2025-04-01 10:02:44,912 INFO         - B->PP::ratio_B0pi^+pi^-/B0K^+pi^-@LHCB:2012F: chi^2 / dof = 0.15 / 1, local_pvalue = 69.45%
+2025-04-01 10:02:44,913 INFO         - B->PP::ratio_BsK^+K^-/B0K^+pi^-@LHCB:2012F: chi^2 / dof = 0.04 / 1, local_pvalue = 84.63%
+2025-04-01 10:02:44,914 INFO         - B->PP::ratio_BsK^-pi^+/B0K^+pi^-@LHCB:2012F: chi^2 / dof = 1.14 / 1, local_pvalue = 28.56%
+2025-04-01 10:02:44,914 INFO         - B->PP::ratio_Bspi^+pi^-/B0K^+pi^-@LHCB:2016C: chi^2 / dof = 0.03 / 1, local_pvalue = 87.03%
+2025-04-01 10:02:44,915 INFO         - B^+->K^+Kbar^0::A_CP@BRV:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 94.53%
+2025-04-01 10:02:44,928 INFO         - B^+->K^+Kbar^0::BR_exp@PDG:2024A: chi^2 / dof = 0.20 / 1, local_pvalue = 65.14%
+2025-04-01 10:02:44,928 INFO         - B^+->K^+pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.01 / 1, local_pvalue = 93.13%
+2025-04-01 10:02:44,929 INFO         - B^+->K^+pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.28 / 1, local_pvalue = 59.70%
+2025-04-01 10:02:44,929 INFO         - B^+->K^0pi^+::A_CP@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 96.34%
+2025-04-01 10:02:44,930 INFO         - B^+->K^0pi^+::BR_exp@PDG:2024A: chi^2 / dof = 0.10 / 1, local_pvalue = 75.30%
+2025-04-01 10:02:44,930 INFO         - B^+->pi^+pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 98.87%
+2025-04-01 10:02:44,931 INFO         - B^+->pi^+pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 97.12%
+2025-04-01 10:02:44,931 INFO         - B^0->K^+pi^-::A_CP@PDG:2024A: chi^2 / dof = 0.11 / 1, local_pvalue = 74.36%
+2025-04-01 10:02:44,932 INFO         - B^0->K^+pi^-::BR_exp@PDG:2024A: chi^2 / dof = 0.05 / 1, local_pvalue = 81.97%
+2025-04-01 10:02:44,933 INFO         - B^0->K^0Kbar^0::A_CP@BRV:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-04-01 10:02:44,933 INFO         - B^0->K^0Kbar^0::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-04-01 10:02:44,934 INFO         - B^0->K^0Kbar^0::S_CP@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-04-01 10:02:44,935 INFO         - B^0->K^0pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.03 / 1, local_pvalue = 85.48%
+2025-04-01 10:02:44,935 INFO         - B^0->K^0pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.36 / 1, local_pvalue = 54.93%
+2025-04-01 10:02:44,936 INFO         - B^0->K_Spi^0::S_CP@PDG:2024A: chi^2 / dof = 0.17 / 1, local_pvalue = 68.38%
+2025-04-01 10:02:44,936 INFO         - B^0->pi^+pi^-::A_CP@PDG:2024A: chi^2 / dof = 2.04 / 1, local_pvalue = 15.33%
+2025-04-01 10:02:44,937 INFO         - B^0->pi^+pi^-::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 98.61%
+2025-04-01 10:02:44,938 INFO         - B^0->pi^+pi^-::S_CP@PDG:2024A: chi^2 / dof = 0.09 / 1, local_pvalue = 75.90%
+2025-04-01 10:02:44,938 INFO         - B^0->pi^0pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.06 / 1, local_pvalue = 80.25%
+2025-04-01 10:02:44,939 INFO         - B^0->pi^0pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 97.14%
+2025-04-01 10:02:44,939 INFO         - B_s^0->K^+K^-::BR_exp@Belle:2010C: chi^2 / dof = 0.99 / 1, local_pvalue = 32.00%
+2025-04-01 10:02:44,940 INFO         - B_s^0->K^+K^-::CP_Observables@LHCb:2020B: chi^2 / dof = 4.89 / 3, local_pvalue = 18.04%
+2025-04-01 10:02:44,941 INFO         - B_s^0->K^-pi^+::A_CP@PDG:2024A: chi^2 / dof = 0.78 / 1, local_pvalue = 37.58%
+2025-04-01 10:02:44,941 INFO         - B_s^0->K^0Kbar^0::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-04-01 10:02:44,942 INFO         - B_s^0->pi^0pi^0::BR_exp@Belle-II:2023D: chi^2 / dof = 0.73 / 1, local_pvalue = 39.36%
+2025-04-01 10:02:44,949 SUCCESS    Final p value is 31.49%, indicating a successful fit

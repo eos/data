@@ -1,0 +1,35 @@
+observables:
+- kinematics: {}
+  name: B_s^0->K^0Kbar^0::BR_exp
+- kinematics: {}
+  name: B_s^0->K^+K^-::BR_exp
+- kinematics: {}
+  name: B_s^0->pi^0pi^0::BR_exp
+- kinematics: {}
+  name: B_s^0->pi^+pi^-::BR_exp
+- kinematics: {}
+  name: B^0->K^0pi^0::BR_exp
+- kinematics: {}
+  name: B^0->K^+pi^-::BR_exp
+- kinematics: {}
+  name: B^+->K^0pi^+::BR_exp
+- kinematics: {}
+  name: B^+->K^+pi^0::BR_exp
+- kinematics: {}
+  name: B_s^0->Kbar^0pi^0::BR_exp
+- kinematics: {}
+  name: B_s^0->K^-pi^+::BR_exp
+- kinematics: {}
+  name: B^0->K^0Kbar^0::BR_exp
+- kinematics: {}
+  name: B^0->K^+K^-::BR_exp
+- kinematics: {}
+  name: B^0->pi^0pi^0::BR_exp
+- kinematics: {}
+  name: B^0->pi^+pi^-::BR_exp
+- kinematics: {}
+  name: B^+->K^+Kbar^0::BR_exp
+- kinematics: {}
+  name: B^+->pi^+pi^0::BR_exp
+type: Prediction
+version: 1.0.13

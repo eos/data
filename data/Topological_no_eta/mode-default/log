@@ -1,0 +1,66 @@
+2025-04-03 07:13:56,971 INFO       Creating analysis with 1 priors, 26 EOS-wide constraints, 2 global options, 6 manually-entered constraints and 4 fixed parameters.
+2025-04-03 07:13:57,219 INFO       likelihood probably depends on 63 parameter(s) that do not appear in the prior; check prior?
+2025-04-03 07:13:57,219 INPROGRESS Beginning minimization in 3 points
+2025-04-03 07:13:57,219 INFO       Using a user-provided starting point
+2025-04-03 07:13:58,246 SUCCESS    Optimization goal achieved after 499 function evaluations
+2025-04-03 07:13:58,248 INFO       First optimization finished
+2025-04-03 07:13:58,622 SUCCESS    Optimization goal achieved after 185 function evaluations
+2025-04-03 07:13:58,688 SUCCESS    Optimization goal achieved after 31 function evaluations
+2025-04-03 07:13:58,691 COMPLETED  ... optimization finished
+2025-04-03 07:13:58,691 INFO       The best-fit point is:
+2025-04-03 07:13:58,691 INFO         - nonleptonic::Re{T}@Topological -> 0.6210132320478868
+2025-04-03 07:13:58,691 INFO         - nonleptonic::Re{C}@Topological -> 0.4565576672458809
+2025-04-03 07:13:58,691 INFO         - nonleptonic::Im{C}@Topological -> -0.3380038398816644
+2025-04-03 07:13:58,691 INFO         - nonleptonic::Re{AE}@Topological -> 0.0011214662454339663
+2025-04-03 07:13:58,691 INFO         - nonleptonic::Im{AE}@Topological -> -0.11758564222012619
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Re{TPA}@Topological -> -0.042591537967340276
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Im{TPA}@Topological -> 0.05321770621608024
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Re{TP}@Topological -> 0.21305758863541807
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Im{TP}@Topological -> 0.05405562991282903
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Re{P}@Topological -> -0.032553313028431785
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Im{P}@Topological -> 0.09977447065842515
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Re{PT}@Topological -> 0.17443400266169487
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Im{PT}@Topological -> -0.1420037190951572
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Re{PC}@Topological -> -0.16761347735398607
+2025-04-03 07:13:58,692 INFO         - nonleptonic::Im{PC}@Topological -> 0.144206232184525
+2025-04-03 07:13:58,693 INFO         - nonleptonic::Re{PTAE}@Topological -> -0.1068612441015262
+2025-04-03 07:13:58,693 INFO         - nonleptonic::Im{PTAE}@Topological -> -0.04664020481355095
+2025-04-03 07:13:58,693 INFO         - nonleptonic::Re{PA}@Topological -> 0.05598858711627651
+2025-04-03 07:13:58,693 INFO         - nonleptonic::Im{PA}@Topological -> 0.009449179669448741
+2025-04-03 07:13:58,693 INFO       total chi^2 = 37.99
+2025-04-03 07:13:58,693 INFO       total dof   = 15
+2025-04-03 07:13:58,695 INFO       p value     = 0.09%
+2025-04-03 07:13:58,695 INFO       individual test statistics:
+2025-04-03 07:13:58,696 INFO         - B->PP::ratio_B+K^+Kbar^0/B+K^0pi^+@LHCB:2013F: chi^2 / dof = 0.37 / 1, local_pvalue = 54.45%
+2025-04-03 07:13:58,696 INFO         - B->PP::ratio_B0K^+K^-/B0K^+pi^-@LHCB:2016C: chi^2 / dof = 0.47 / 1, local_pvalue = 49.45%
+2025-04-03 07:13:58,697 INFO         - B->PP::ratio_B0pi^+pi^-/B0K^+pi^-@LHCB:2012F: chi^2 / dof = 1.62 / 1, local_pvalue = 20.35%
+2025-04-03 07:13:58,697 INFO         - B->PP::ratio_BsK^+K^-/B0K^+pi^-@LHCB:2012F: chi^2 / dof = 4.77 / 1, local_pvalue = 2.90%
+2025-04-03 07:13:58,698 INFO         - B->PP::ratio_BsK^-pi^+/B0K^+pi^-@LHCB:2012F: chi^2 / dof = 0.14 / 1, local_pvalue = 70.84%
+2025-04-03 07:13:58,698 INFO         - B->PP::ratio_Bspi^+pi^-/B0K^+pi^-@LHCB:2016C: chi^2 / dof = 0.08 / 1, local_pvalue = 77.36%
+2025-04-03 07:13:58,699 INFO         - B^+->K^+Kbar^0::A_CP@BRV:2024A: chi^2 / dof = 0.04 / 1, local_pvalue = 84.28%
+2025-04-03 07:13:58,699 INFO         - B^+->K^+Kbar^0::BR_exp@PDG:2024A: chi^2 / dof = 0.19 / 1, local_pvalue = 66.17%
+2025-04-03 07:13:58,700 INFO         - B^+->K^+pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 97.70%
+2025-04-03 07:13:58,700 INFO         - B^+->K^+pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.15 / 1, local_pvalue = 69.55%
+2025-04-03 07:13:58,701 INFO         - B^+->K^0pi^+::A_CP@PDG:2024A: chi^2 / dof = 0.22 / 1, local_pvalue = 63.57%
+2025-04-03 07:13:58,701 INFO         - B^+->K^0pi^+::BR_exp@PDG:2024A: chi^2 / dof = 0.05 / 1, local_pvalue = 83.03%
+2025-04-03 07:13:58,702 INFO         - B^+->pi^+pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.03 / 1, local_pvalue = 85.76%
+2025-04-03 07:13:58,702 INFO         - B^+->pi^+pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.05 / 1, local_pvalue = 81.93%
+2025-04-03 07:13:58,703 INFO         - B^0->K^+pi^-::A_CP@PDG:2024A: chi^2 / dof = 1.64 / 1, local_pvalue = 19.98%
+2025-04-03 07:13:58,703 INFO         - B^0->K^+pi^-::BR_exp@PDG:2024A: chi^2 / dof = 0.89 / 1, local_pvalue = 34.42%
+2025-04-03 07:13:58,704 INFO         - B^0->K^0Kbar^0::A_CP@BRV:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.38%
+2025-04-03 07:13:58,704 INFO         - B^0->K^0Kbar^0::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 97.55%
+2025-04-03 07:13:58,705 INFO         - B^0->K^0Kbar^0::S_CP@PDG:2024A: chi^2 / dof = 0.03 / 1, local_pvalue = 86.93%
+2025-04-03 07:13:58,705 INFO         - B^0->K^0pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.86 / 1, local_pvalue = 35.51%
+2025-04-03 07:13:58,706 INFO         - B^0->K^0pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.27 / 1, local_pvalue = 60.62%
+2025-04-03 07:13:58,706 INFO         - B^0->K_Spi^0::S_CP@PDG:2024A: chi^2 / dof = 1.47 / 1, local_pvalue = 22.47%
+2025-04-03 07:13:58,707 INFO         - B^0->pi^+pi^-::A_CP@PDG:2024A: chi^2 / dof = 5.09 / 1, local_pvalue = 2.41%
+2025-04-03 07:13:58,707 INFO         - B^0->pi^+pi^-::BR_exp@PDG:2024A: chi^2 / dof = 1.57 / 1, local_pvalue = 20.98%
+2025-04-03 07:13:58,708 INFO         - B^0->pi^+pi^-::S_CP@PDG:2024A: chi^2 / dof = 4.44 / 1, local_pvalue = 3.51%
+2025-04-03 07:13:58,708 INFO         - B^0->pi^0pi^0::A_CP@PDG:2024A: chi^2 / dof = 0.11 / 1, local_pvalue = 74.09%
+2025-04-03 07:13:58,708 INFO         - B^0->pi^0pi^0::BR_exp@PDG:2024A: chi^2 / dof = 0.16 / 1, local_pvalue = 69.28%
+2025-04-03 07:13:58,709 INFO         - B_s^0->K^+K^-::BR_exp@Belle:2010C: chi^2 / dof = 1.93 / 1, local_pvalue = 16.51%
+2025-04-03 07:13:58,709 INFO         - B_s^0->K^+K^-::CP_Observables@LHCb:2020B: chi^2 / dof = 8.46 / 3, local_pvalue = 3.74%
+2025-04-03 07:13:58,710 INFO         - B_s^0->K^-pi^+::A_CP@PDG:2024A: chi^2 / dof = 2.16 / 1, local_pvalue = 14.15%
+2025-04-03 07:13:58,710 INFO         - B_s^0->K^0Kbar^0::BR_exp@PDG:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 96.77%
+2025-04-03 07:13:58,711 INFO         - B_s^0->pi^0pi^0::BR_exp@Belle-II:2023D: chi^2 / dof = 0.73 / 1, local_pvalue = 39.15%
+2025-04-03 07:13:58,716 WARNING    Final p value is 0.09%, which is below the a-priori threshold 3%

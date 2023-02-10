@@ -1,0 +1,27 @@
+parameters:
+- max: 0.1959500850585235
+  min: 0.1959500850585235
+  name: B->pi::alpha^f+_0@BSZ2015
+- max: -0.7763565146997043
+  min: -0.7763565146997043
+  name: B->pi::alpha^f+_1@BSZ2015
+- max: -0.19660537219243024
+  min: -0.19660537219243024
+  name: B->pi::alpha^f+_2@BSZ2015
+- max: -0.01446803146697799
+  min: -0.01446803146697799
+  name: B->pi::alpha^f0_1@BSZ2015
+- max: -0.19529667411047308
+  min: -0.19529667411047308
+  name: B->pi::alpha^f0_2@BSZ2015
+- max: 0.17311654822482725
+  min: 0.17311654822482725
+  name: B->pi::alpha^fT_0@BSZ2015
+- max: -0.40903716524130396
+  min: -0.40903716524130396
+  name: B->pi::alpha^fT_1@BSZ2015
+- max: -0.2580355775883392
+  min: -0.2580355775883392
+  name: B->pi::alpha^fT_2@BSZ2015
+type: DynestyResults
+version: 1.0.12

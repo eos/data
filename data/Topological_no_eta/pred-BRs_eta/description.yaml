@@ -1,0 +1,19 @@
+observables:
+- kinematics: {}
+  name: B_s^0->etaeta::BR_exp
+- kinematics: {}
+  name: B_s^0->etapi^0::BR_exp
+- kinematics: {}
+  name: B^0->etaK^0::BR_exp
+- kinematics: {}
+  name: B^+->etaK^+::BR_exp
+- kinematics: {}
+  name: B^0->etaeta::BR_exp
+- kinematics: {}
+  name: B_s^0->etaK^0::BR_exp
+- kinematics: {}
+  name: B^0->etapi^0::BR_exp
+- kinematics: {}
+  name: B^+->etapi^+::BR_exp
+type: Prediction
+version: 1.0.13

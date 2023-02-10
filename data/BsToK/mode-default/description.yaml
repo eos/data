@@ -1,0 +1,43 @@
+dof: 14
+global_chi2: 18.910777425613396
+local_pvalues:
+  B_s->K::f_++f_0@HPQCD:2014A: 0.3872708244873433
+  B_s->K::f_++f_0@RBC+UKQCD:2023A: 0.9083416072788704
+  B_s->K::form-factors[f_+,f_0,f_T]@BvDV:2023A: 0.43988907149293566
+mode:
+- 0.30181779667031394
+- -0.11345410836036773
+- 2.5297601243292975
+- 0.22641174897690325
+- -0.36122404219573434
+- 0.35092236829893725
+- -0.9110208513746101
+- -3.3931040582826384
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^f+_0@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^f+_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^f+_2@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^f0_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^f0_2@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^fT_0@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^fT_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->K::alpha^fT_2@BSZ2015
+pvalue: 0.16838656881955583
+type: Mode
+version: 1.0.13
