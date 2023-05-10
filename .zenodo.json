@@ -1,0 +1,33 @@
+{
+    "upload_type": "dataset",
+    "title": "EOS/DATA-2023-02: Supplementary material for EOS/ANALYSIS-2023-02",
+    "description": "Supplementary material including input files, results, and figures for EOS/ANALYSIS-2023-02, a study of the local B→K⁽*⁾ and Bₛ→ϕ form factors",
+    "license": "CC-BY-4.0",
+    "creators": [
+        {
+            "orcid": "0000-0002-2278-2707",
+            "affiliation": "Department Physik, Universität Siegen, 57068 Siegen, Germany",
+            "name": "Gubernari, Nico"
+        },
+        {
+            "orcid": "0000-0001-6033-3606",
+            "affiliation": "Institute for Particle Physics Phenomenology and Department of Physics, Durham University, Durham DH1 3LE, UK",
+            "name": "Reboud, Méril"
+        },
+        {
+            "orcid": "0000-0002-7668-810X",
+            "affiliation": "Institute for Particle Physics Phenomenology and Department of Physics, Durham University, Durham DH1 3LE, UK",
+            "name": "van Dyk, Danny"
+        },
+        {
+            "orcid": "0000-0002-8017-841X",
+            "affiliation": "Institut de Ciencies del Cosmos, Universitat de Barcelona, E-08028 Barcelona, Spain",
+            "name": "Virto, Javier"
+        }
+    ],
+    "grants": [
+      {
+        "id": "10.13039/100014013::ST/V003941/1"
+      }
+    ]
+}

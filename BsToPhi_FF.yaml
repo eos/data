@@ -1,0 +1,888 @@
+priors:
+  - name: BSZ2
+    parameters:
+      - { 'parameter': 'B_s->phi::alpha^A0_0@BSZ2015', 'min':  0.17456, 'max':  0.58545,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A0_1@BSZ2015', 'min': -3.23904, 'max':  0.69719,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A0_2@BSZ2015', 'min': -16.24166, 'max': 21.74316,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A1_0@BSZ2015', 'min':  0.14327, 'max':  0.46607,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A1_1@BSZ2015', 'min': -1.00167, 'max':  1.94768,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A1_2@BSZ2015', 'min': -7.16269, 'max': 11.09972,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A12_1@BSZ2015', 'min': -2.41601, 'max':  3.06156,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^A12_2@BSZ2015', 'min': -16.36433, 'max': 15.07122,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^V_0@BSZ2015', 'min':  0.12435, 'max':  0.63131,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^V_1@BSZ2015', 'min': -2.81347, 'max':  1.01777,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^V_2@BSZ2015', 'min': -16.19709, 'max': 23.98915,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T1_0@BSZ2015', 'min':  0.15830, 'max':  0.51432,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T1_1@BSZ2015', 'min': -2.36787, 'max':  0.84333,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T1_2@BSZ2015', 'min': -13.07515, 'max': 15.06930,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T2_1@BSZ2015', 'min': -1.37663, 'max':  2.86109,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T2_2@BSZ2015', 'min': -10.87983, 'max': 14.88262,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T23_0@BSZ2015', 'min':  0.34826, 'max':  0.92314,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T23_1@BSZ2015', 'min': -2.30807, 'max':  4.66487,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::alpha^T23_2@BSZ2015', 'min': -23.39085, 'max': 26.99066,  'type': 'uniform'}
+
+  - name: BFW2
+    parameters:
+      - { 'parameter': 'B_s->phi::a^A0_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_1@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_0@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_1@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_2@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_1@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+
+  - name: BFW3
+    parameters:
+      - { 'parameter': 'B_s->phi::a^A0_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_1@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_3@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_0@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_1@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_2@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_3@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_1@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_3@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+
+
+  - name: BFW4
+    parameters:
+      - { 'parameter': 'B_s->phi::a^A0_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A0_4@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A1_4@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_1@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_3@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^A12_4@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_0@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_1@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_2@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_3@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^V_4@BFW2010',   'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T1_4@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_3@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T2_4@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_1@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_3@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+      - { 'parameter': 'B_s->phi::a^T23_4@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
+
+
+likelihoods:
+  - name: GRvDV2021
+    constraints:
+      - 'B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A'
+
+  - name: HLMW2015
+    constraints:
+      - 'B_s->phi::V+A_0+A_1+A_12@HLMW:2015A'
+      - 'B_s->phi::T_1+T_2+T_23@HLMW:2015A'
+
+  - name: Bounds
+    # Only accounts for Bs->phi 2 particle contributions,
+    # the other contributions can be implemented with a weighting procedure
+    manual_constraints:
+      'b->s::MesonicBound[0^-_A]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[0^-_A]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'b->s::MesonicBound[1^-_V,perp]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[1^-_V,perp]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'b->s::MesonicBound[1^+_A,0]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[1^+_A,0]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'b->s::MesonicBound[1^+_A,para]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[1^+_A,para]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'b->s::MesonicBound[1^-_T,perp]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[1^-_T,perp]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'b->s::MesonicBound[1^+_T5,0]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[1^+_T5,0]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'b->s::MesonicBound[1^+_T5,para]':
+        type: UniformBound
+        observables:
+            - 'B_s->phi::Saturation[1^+_T5,para]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+
+
+posteriors:
+  - name: BSZ
+    global_options:
+      model: WET
+      form-factors: BSZ2015
+    prior:
+      - BSZ2
+    likelihood:
+      - GRvDV2021
+      - HLMW2015
+
+  - name: Update2
+    global_options:
+      model: WET
+      form-factors: BFW2010
+    fixed_parameters:
+      B_s->phi::tp_v@BFW2010: 30.261001
+      B_s->phi::tp_a@BFW2010: 31.764496
+    prior:
+      - BFW2
+    likelihood:
+      - GRvDV2021
+      - HLMW2015
+      - Bounds
+
+  - name: Update
+    global_options:
+      model: WET
+      form-factors: BFW2010
+    fixed_parameters:
+      B_s->phi::tp_v@BFW2010: 30.261001
+      B_s->phi::tp_a@BFW2010: 31.764496
+    prior:
+      - BFW3
+    likelihood:
+      - GRvDV2021
+      - HLMW2015
+      - Bounds
+
+  - name: Update-wo-LCSR
+    global_options:
+      model: WET
+      form-factors: BFW2010
+    fixed_parameters:
+      B_s->phi::tp_v@BFW2010: 30.261001
+      B_s->phi::tp_a@BFW2010: 31.764496
+    prior:
+      - BFW3
+    likelihood:
+      - HLMW2015
+      - Bounds
+
+  - name: Update4
+    global_options:
+      model: WET
+      form-factors: BFW2010
+    fixed_parameters:
+      B_s->phi::tp_v@BFW2010: 30.261001
+      B_s->phi::tp_a@BFW2010: 31.764496
+    prior:
+      - BFW4
+    likelihood:
+      - GRvDV2021
+      - HLMW2015
+      - Bounds
+
+
+predictions:
+  - name: saturations
+    observables:
+      - name: "B_s->phi::Saturation[0^+_V]"
+      - name: "B_s->phi::Saturation[0^-_A]"
+      - name: "B_s->phi::Saturation[1^-_V,0]"
+      - name: "B_s->phi::Saturation[1^-_V,perp]"
+      - name: "B_s->phi::Saturation[1^+_A,0]"
+      - name: "B_s->phi::Saturation[1^+_A,para]"
+      - name: "B_s->phi::Saturation[1^-_T,0]"
+      - name: "B_s->phi::Saturation[1^-_T,perp]"
+      - name: "B_s->phi::Saturation[1^+_T5,0]"
+      - name: "B_s->phi::Saturation[1^+_T5,para]"
+
+  - name: V
+    observables:
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -16.00}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -15.18}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -14.36}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -13.54}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -12.72}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -11.90}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -11.08}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -10.26}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -9.44}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -8.62}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -7.80}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -6.98}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -6.16}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -5.34}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -4.52}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -3.70}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -2.88}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -2.06}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -1.24}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  -0.42}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  0.40}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  1.22}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  2.04}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  2.86}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  3.68}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  4.50}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  5.32}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  6.14}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  6.96}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  7.78}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  8.60}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  9.42}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  10.24}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  11.06}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  11.88}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  12.70}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  13.52}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  14.34}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  15.16}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  15.98}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  16.80}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  17.62}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  18.44}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  19.26}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  20.08}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  20.90}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  21.72}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  22.54}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  23.36}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  24.18}
+      - name: "B_s->phi::V(q2)"
+        kinematics: {q2:  25.00}
+
+  - name: A0
+    observables:
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -16.00}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -15.18}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -14.36}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -13.54}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -12.72}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -11.90}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -11.08}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -10.26}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -9.44}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -8.62}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -7.80}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -6.98}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -6.16}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -5.34}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -4.52}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -3.70}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -2.88}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -2.06}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -1.24}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  -0.42}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  0.40}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  1.22}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  2.04}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  2.86}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  3.68}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  4.50}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  5.32}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  6.14}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  6.96}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  7.78}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  8.60}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  9.42}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  10.24}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  11.06}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  11.88}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  12.70}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  13.52}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  14.34}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  15.16}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  15.98}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  16.80}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  17.62}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  18.44}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  19.26}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  20.08}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  20.90}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  21.72}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  22.54}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  23.36}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  24.18}
+      - name: "B_s->phi::A_0(q2)"
+        kinematics: {q2:  25.00}
+
+  - name: A1
+    observables:
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -16.00}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -15.18}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -14.36}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -13.54}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -12.72}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -11.90}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -11.08}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -10.26}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -9.44}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -8.62}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -7.80}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -6.98}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -6.16}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -5.34}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -4.52}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -3.70}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -2.88}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -2.06}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -1.24}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  -0.42}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  0.40}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  1.22}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  2.04}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  2.86}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  3.68}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  4.50}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  5.32}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  6.14}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  6.96}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  7.78}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  8.60}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  9.42}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  10.24}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  11.06}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  11.88}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  12.70}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  13.52}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  14.34}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  15.16}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  15.98}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  16.80}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  17.62}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  18.44}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  19.26}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  20.08}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  20.90}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  21.72}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  22.54}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  23.36}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  24.18}
+      - name: "B_s->phi::A_1(q2)"
+        kinematics: {q2:  25.00}
+
+  - name: T1
+    observables:
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -16.00}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -15.18}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -14.36}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -13.54}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -12.72}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -11.90}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -11.08}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -10.26}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -9.44}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -8.62}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -7.80}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -6.98}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -6.16}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -5.34}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -4.52}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -3.70}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -2.88}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -2.06}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -1.24}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  -0.42}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  0.40}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  1.22}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  2.04}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  2.86}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  3.68}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  4.50}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  5.32}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  6.14}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  6.96}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  7.78}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  8.60}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  9.42}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  10.24}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  11.06}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  11.88}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  12.70}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  13.52}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  14.34}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  15.16}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  15.98}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  16.80}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  17.62}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  18.44}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  19.26}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  20.08}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  20.90}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  21.72}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  22.54}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  23.36}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  24.18}
+      - name: "B_s->phi::T_1(q2)"
+        kinematics: {q2:  25.00}
+
+  - name: T2
+    observables:
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -16.00}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -15.18}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -14.36}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -13.54}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -12.72}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -11.90}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -11.08}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -10.26}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -9.44}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -8.62}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -7.80}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -6.98}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -6.16}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -5.34}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -4.52}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -3.70}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -2.88}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -2.06}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -1.24}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  -0.42}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  0.40}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  1.22}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  2.04}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  2.86}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  3.68}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  4.50}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  5.32}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  6.14}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  6.96}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  7.78}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  8.60}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  9.42}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  10.24}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  11.06}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  11.88}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  12.70}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  13.52}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  14.34}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  15.16}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  15.98}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  16.80}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  17.62}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  18.44}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  19.26}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  20.08}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  20.90}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  21.72}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  22.54}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  23.36}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  24.18}
+      - name: "B_s->phi::T_2(q2)"
+        kinematics: {q2:  25.00}
+
+  - name: T23
+    observables:
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -16.00}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -15.18}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -14.36}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -13.54}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -12.72}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -11.90}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -11.08}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -10.26}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -9.44}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -8.62}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -7.80}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -6.98}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -6.16}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -5.34}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -4.52}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -3.70}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -2.88}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -2.06}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -1.24}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  -0.42}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  0.40}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  1.22}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  2.04}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  2.86}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  3.68}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  4.50}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  5.32}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  6.14}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  6.96}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  7.78}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  8.60}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  9.42}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  10.24}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  11.06}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  11.88}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  12.70}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  13.52}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  14.34}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  15.16}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  15.98}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  16.80}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  17.62}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  18.44}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  19.26}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  20.08}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  20.90}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  21.72}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  22.54}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  23.36}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  24.18}
+      - name: "B_s->phi::T_23(q2)"
+        kinematics: {q2:  25.00}
