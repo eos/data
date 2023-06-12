@@ -1,0 +1,3 @@
+2023-04-13 11:38:55,476 INFO     Creating analysis with 20 priors, 2 EOS-wide constraints, 2 global options, 0 manually-entered constraints and 0 fixed parameters.
+2023-04-13 11:38:56,625 INFO     likelihood probably depends on 43 parameter(s) that do not appear in the prior; check prior?
+2023-04-13 11:39:07,318 ERROR    observable_samples.shape = (20199, 2)

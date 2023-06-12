@@ -1,0 +1,9 @@
+observables:
+- kinematics: {}
+  name: CKM::abs(V_ub)
+- kinematics:
+    q2_max: 27.0
+    q2_min: 0.05
+  name: B->pilnu::BR
+type: Prediction
+version: 1.0.7

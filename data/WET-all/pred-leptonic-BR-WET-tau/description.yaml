@@ -1,0 +1,5 @@
+observables:
+- kinematics: {}
+  name: B_u->lnu::BR
+type: Prediction
+version: 1.0.8

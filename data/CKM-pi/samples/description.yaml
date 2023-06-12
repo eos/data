@@ -1,0 +1,42 @@
+parameters:
+- max: 0.005
+  min: 0.002
+  name: CKM::abs(V_ub)
+- max: 0.32
+  min: 0.21
+  name: B->pi::f_+(0)@BCL2008
+- max: -0.6
+  min: -2.96
+  name: B->pi::b_+^1@BCL2008
+- max: 4.38
+  min: -3.98
+  name: B->pi::b_+^2@BCL2008
+- max: 9.27
+  min: -18.3
+  name: B->pi::b_+^3@BCL2008
+- max: 1.35
+  min: -0.1
+  name: B->pi::b_0^1@BCL2008
+- max: 4.65
+  min: -2.08
+  name: B->pi::b_0^2@BCL2008
+- max: 9.07
+  min: -4.73
+  name: B->pi::b_0^3@BCL2008
+- max: 38.0
+  min: -60.0
+  name: B->pi::b_0^4@BCL2008
+- max: 0.32
+  min: 0.18
+  name: B->pi::f_T(0)@BCL2008
+- max: -0.33
+  min: -3.91
+  name: B->pi::b_T^1@BCL2008
+- max: 2.0
+  min: -4.32
+  name: B->pi::b_T^2@BCL2008
+- max: 10.6
+  min: -7.39
+  name: B->pi::b_T^3@BCL2008
+type: ImportanceSamples
+version: 1.0.7
