@@ -16,4 +16,9 @@
   <td>Dispersive analysis of $b\to s\ell^+\ell^-$ form factors</td>
   <td>N. Gubernari<br/>M. Reboud<br/>D. van Dyk<br/>J. Virto</td>
 </tr>
+<tr>
+  <td><a href="http://github.com/eos/data/tree/2023-03">2023-03</a></td>
+  <td>New determination of $|V_{ub}/V_{cb}|$ from $B_s^0\to \lbrace K^-, D_s^- \rbrace \mu^+\nu$</td>
+  <td>C. Bolognani<br/>D. van Dyk<br/>K. Keri Vos</td>
+</tr>
 </table>
