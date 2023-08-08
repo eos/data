@@ -1,0 +1,488 @@
+likelihoods:
+  - name: threshold-lcsr
+    manual_constraints:
+      B_s->K::M_B(f_+)@-8GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: {q2:  -8.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_+)@-4GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: {q2:  -4.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_+)@0GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: {q2:   0.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_+)@4GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: {q2:  +4.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_+)@8GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: {q2:  +8.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_0)@-8GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: {q2:  -8}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_0)@-4GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: {q2:  -4.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_0)@0GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: {q2:   0.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_0)@4GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: {q2:  +4.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_0)@8GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: {q2:  +8.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_T)@-8eV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: {q2:  -8}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_T)@-4GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: {q2:  -4.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_T)@0GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: {q2:   0.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_T)@4GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: {q2:  +4.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+      B_s->K::M_B(f_T)@8GeV:
+        type: Gaussian
+        observable: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: {q2:  +8.0}
+        options: {rescale-factor: 0}
+        mean: 5.36692
+        sigma-stat: {hi: 0, lo: 0}
+        sigma-sys: {hi: 0.0536692, lo: 0.0536692}
+        dof: 1
+
+priors:
+  - name: qcd
+    parameters:
+      - parameter: QCD::alpha_s(MZ)
+        min:     0.1149
+        max:     0.1209
+        central: 0.1179
+        sigma:   0.0009
+        type:    gauss
+      - parameter: mass::b(MSbar)
+        min:     4.09
+        max:     4.27
+        central: 4.18
+        sigma:   0.03
+        type:    gauss
+      - parameter: mass::s(2GeV)
+        min:     0.0504
+        max:     0.1364
+        central: 0.0934
+        sigma:   0.0086
+        type:    gauss
+      - parameter: QCD::cond_GG
+        min:     0.000
+        max:     0.018
+        type:    uniform
+      - parameter: QCD::cond_ss@2GeV
+        min:     -0.05296
+        max:     +0.02004
+        central: -0.01646 #-0.0164566592
+        sigma:   0.00730
+        type:    gauss
+      - parameter: QCD::m_0^2
+        min:     0.6
+        max:     1.0
+        type:    uniform
+      - parameter: QCD::r_vac
+        min:     0.1
+        max:     1.0
+        type:    uniform
+
+  - name: decay-constant-Bs
+    parameters:
+      - parameter: 'decay-constant::B_s'
+        min: 0.2264
+        max: 0.2342
+        central: 0.2303
+        sigma: 0.0013
+        type: gauss
+
+  - name: kaon-lcda 
+    parameters:
+      - parameter: decay-constant::K_u
+        min:     0.1506
+        max:     0.1548
+        central: 0.1557
+        sigma:   0.0003
+        type:    gauss
+      - parameter: K::a1@1GeV # Based on 2201.09173 @ 2 GeV, run down to 1 GeV
+        min:     -0.430
+        max:     +0.170
+        central: -0.130
+        sigma:   +0.06
+        type:    gauss
+      - parameter: K::a2@1GeV
+        min:    -0.122
+        max:     0.578
+        central: 0.228
+        sigma:   0.07
+        type:    gauss
+      - parameter: K::f3@1GeV
+        min:     0.003
+        max:     0.006
+        type:    uniform
+      - parameter: K::omega3@1GeV
+        min:    -1.9
+        max:    -0.5
+        type:    uniform
+      - parameter: K::lambda3@1GeV
+        min:    1.2
+        max:    2.0
+        type:    uniform
+      - parameter: K::delta4@1GeV
+        min:     0.14
+        max:     0.26
+        type:    uniform
+      - parameter: K::kappa4@1GeV
+        min:     -0.11
+        max:     -0.07
+        type:    uniform
+      - parameter: K::omega4@1GeV
+        min:     0.1
+        max:     0.3
+        type:    uniform
+
+  - name: borel-lcsr
+    parameters:
+      - parameter: B_s->K::M^2@DKMMO2008
+        min:     13.0
+        max:     21.0
+        central: 17.0
+        type:    uniform
+
+  - name: threshold-lcsr-const
+    parameters:
+      - parameter: B_s->K::s_0^+(0)@DKMMO2008
+        min:     34.5           
+        max:     46.5           
+        type:    uniform
+      - parameter: B_s->K::s_0^0(0)@DKMMO2008
+        min:     34.5          
+        max:     46.5          
+        type:    uniform
+      - parameter: B_s->K::s_0^T(0)@DKMMO2008
+        min:     34.5           
+        max:     46.5           
+        type:    uniform
+
+  - name: threshold-lcsr-shape
+    parameters:
+      - parameter: B_s->K::s_0^+'(0)@DKMMO2008
+        min:     -0.5
+        max:      1.5
+        type:    uniform
+      - parameter: B_s->K::s_0^0'(0)@DKMMO2008
+        min:     -0.5
+        max:      1.5
+        type:    uniform
+      - parameter: B_s->K::s_0^T'(0)@DKMMO2008
+        min:     -0.5
+        max:      2.0
+        type:    uniform
+
+posteriors:
+  - name: lcsr-const
+    global_options: {}
+    fixed_parameters:
+      'K::a3@1GeV': 0
+      'K::a4@1GeV': 0
+      'mass::u(2GeV)': 0.002
+      'B_s->K::mu@DKMMO2008' : 3.0 # varied a posteriori to 2.4, 3.75
+    likelihood:
+      - threshold-lcsr
+    prior:
+      - qcd
+      - decay-constant-Bs
+      - kaon-lcda
+      - borel-lcsr
+      - threshold-lcsr-const
+
+  - name: lcsr
+    global_options: {}
+    fixed_parameters:
+      'K::a3@1GeV': 0
+      'K::a4@1GeV': 0
+      'mass::u(2GeV)': 0.002
+      'B_s->K::mu@DKMMO2008' : 3.0 
+    likelihood:
+      - threshold-lcsr
+    prior:
+      - qcd
+      - decay-constant-Bs
+      - kaon-lcda
+      - borel-lcsr
+      - threshold-lcsr-const
+      - threshold-lcsr-shape
+
+
+predictions:
+  - name: lcsr-thresholds-fp
+    global_options:
+        form-factors: DKMMO2008
+        rescale-factor: '0'
+    observables:
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2': -10.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -9.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -8.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -7.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -6.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -5.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -4.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -3.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -2.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -1.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':   0.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +1.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +2.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +3.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +4.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +5.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +6.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +7.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +8.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +9.0 }
+      - name: B_s->K::M_B(f_+,LCSR)@DKMMO2008
+        kinematics: { 'q2': +10.0 }
+
+  - name: lcsr-thresholds-fz
+    global_options:
+        form-factors: DKMMO2008
+        rescale-factor: '0'
+    observables:
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2': -10.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -9.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -8.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -7.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -6.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -5.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -4.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -3.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -2.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -1.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':   0.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +1.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +2.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +3.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +4.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +5.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +6.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +7.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +8.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +9.0 }
+      - name: B_s->K::M_B(f_0,LCSR)@DKMMO2008
+        kinematics: { 'q2': +10.0 }
+
+  - name: lcsr-thresholds-fT
+    global_options:
+        form-factors: DKMMO2008
+        rescale-factor: '0'
+    observables:
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2': -10.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -9.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -8.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -7.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -6.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -5.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -4.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -3.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -2.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  -1.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':   0.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +1.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +2.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +3.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +4.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +5.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +6.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +7.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +8.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2':  +9.0 }
+      - name: B_s->K::M_B(f_T,LCSR)@DKMMO2008
+        kinematics: { 'q2': +10.0 }
+
+  - name: lcsr-ff
+    global_options:
+        form-factors: DKMMO2008
+        rescale-factor: '0'
+    observables:
+      - name: B_s->K::f_+(q2)
+        kinematics: { 'q2': -10.0 }
+      - name: B_s->K::f_+(q2)
+        kinematics: { 'q2':  -5.0 }
+      - name: B_s->K::f_+(q2)
+        kinematics: { 'q2':   0.0 }
+      - name: B_s->K::f_+(q2)
+        kinematics: { 'q2':  +5.0 }
+      - name: B_s->K::f_0(q2)
+        kinematics: { 'q2': -10.0 }
+      - name: B_s->K::f_0(q2)
+        kinematics: { 'q2':  -5.0 }
+      - name: B_s->K::f_0(q2)
+        kinematics: { 'q2':  +5.0 }
+      - name: B_s->K::f_T(q2)
+        kinematics: { 'q2': -10.0 }
+      - name: B_s->K::f_T(q2)
+        kinematics: { 'q2':  -5.0 }
+      - name: B_s->K::f_T(q2)
+        kinematics: { 'q2':   0.0 }
+      - name: B_s->K::f_T(q2)
+        kinematics: { 'q2':  +5.0 }
+
+  - name: lcsr-fB
+    global_options:
+        form-factors: DKMMO2008
+        rescale-factor: '0'
+    observables:
+      - name: B_s->K::f_B@DKMMO2008
+        kinematics: { }
+      - name: B_s->K::M_B(SVZ)@DKMMO2008
+        kinematics: { }

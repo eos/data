@@ -1,0 +1,5 @@
+observables:
+- kinematics: {}
+  name: B_s->K::Saturation[0^+_V]
+type: Prediction
+version: 1.0.8

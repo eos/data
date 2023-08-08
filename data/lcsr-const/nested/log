@@ -1,0 +1,10 @@
+2023-07-05 14:21:10,444 INFO     Creating analysis with 21 priors, 0 EOS-wide constraints, 0 global options, 15 manually-entered constraints and 4 fixed parameters.
+2023-07-05 14:21:13,161 INFO     likelihood probably depends on 31 parameter(s) that do not appear in the prior; check prior?
+2023-07-05 14:21:13,161 WARNING  likelihood does not depend on parameter 'K::kappa4@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,161 WARNING  likelihood does not depend on parameter 'K::omega3@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,162 WARNING  likelihood does not depend on parameter 'K::a1@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,162 WARNING  likelihood does not depend on parameter 'K::a2@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,162 WARNING  likelihood does not depend on parameter 'K::omega4@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,162 WARNING  likelihood does not depend on parameter 'K::f3@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,163 WARNING  likelihood does not depend on parameter 'K::lambda3@1GeV'; remove from prior or check options!
+2023-07-05 14:21:13,163 WARNING  likelihood does not depend on parameter 'K::delta4@1GeV'; remove from prior or check options!

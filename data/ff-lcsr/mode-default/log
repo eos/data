@@ -1,0 +1,27 @@
+2023-08-08 10:51:00,333 INFO     Creating analysis with 14 priors, 1 EOS-wide constraints, 1 global options, 3 manually-entered constraints and 0 fixed parameters.
+2023-08-08 10:51:00,482 INFO     Starting minimization in 3 points
+2023-08-08 10:51:00,483 INFO     Starting optimization from user-provided point
+2023-08-08 10:51:00,668 WARNING  Optimization did not succeed
+2023-08-08 10:51:00,670 WARNING    optimizer message reads: Iteration limit reached
+2023-08-08 10:51:00,779 INFO     Optimization goal achieved after 958 function evaluations
+2023-08-08 10:51:00,784 INFO     Optimization goal achieved after 26 function evaluations
+2023-08-08 10:51:00,784 INFO     Minimization finished, best point is:
+2023-08-08 10:51:00,785 INFO       - B_s->K::a^f+_0@BFW2010 -> 0.0242454546807902
+2023-08-08 10:51:00,785 INFO       - B_s->K::a^f+_1@BFW2010 -> -0.061459803478039476
+2023-08-08 10:51:00,786 INFO       - B_s->K::a^f+_2@BFW2010 -> 0.2076661493207148
+2023-08-08 10:51:00,787 INFO       - B_s->K::a^f+_3@BFW2010 -> -0.9204504448801172
+2023-08-08 10:51:00,787 INFO       - B_s->K::a^f+_4@BFW2010 -> -0.18038396892975472
+2023-08-08 10:51:00,788 INFO       - B_s->K::a^f0_1@BFW2010 -> -0.07285478709314108
+2023-08-08 10:51:00,788 INFO       - B_s->K::a^f0_2@BFW2010 -> 0.15681023899298308
+2023-08-08 10:51:00,789 INFO       - B_s->K::a^f0_3@BFW2010 -> -0.8471560674663675
+2023-08-08 10:51:00,789 INFO       - B_s->K::a^f0_4@BFW2010 -> -0.5010356001206486
+2023-08-08 10:51:00,790 INFO       - B_s->K::a^fT_0@BFW2010 -> 0.05081222309790712
+2023-08-08 10:51:00,790 INFO       - B_s->K::a^fT_1@BFW2010 -> 0.0013767061607394826
+2023-08-08 10:51:00,790 INFO       - B_s->K::a^fT_2@BFW2010 -> -0.16284849073209362
+2023-08-08 10:51:00,791 INFO       - B_s->K::a^fT_3@BFW2010 -> -0.8332436390752752
+2023-08-08 10:51:00,792 INFO       - B_s->K::a^fT_4@BFW2010 -> -0.5259410561212134
+2023-08-08 10:51:00,792 INFO     total chi^2 = 0.01
+2023-08-08 10:51:00,793 INFO     total dof   = -3
+2023-08-08 10:51:00,794 INFO     p value     = nan%
+2023-08-08 10:51:00,794 INFO     individual test statistics:
+2023-08-08 10:51:00,795 INFO       - B_s->K::form-factors[f_+,f_0,f_T]@BvDV:2023A: chi^2 / dof = 0.01 / 11, local_pvalue = 100.00%

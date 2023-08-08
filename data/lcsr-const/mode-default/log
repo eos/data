@@ -1,0 +1,192 @@
+2023-07-14 09:42:09,797 INFO     Creating analysis with 21 priors, 0 EOS-wide constraints, 0 global options, 15 manually-entered constraints and 4 fixed parameters.
+2023-07-14 09:42:10,397 INFO     likelihood probably depends on 31 parameter(s) that do not appear in the prior; check prior?
+2023-07-14 09:42:10,399 WARNING  likelihood does not depend on parameter 'K::kappa4@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,400 WARNING  likelihood does not depend on parameter 'K::delta4@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,401 WARNING  likelihood does not depend on parameter 'K::omega3@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,401 WARNING  likelihood does not depend on parameter 'K::f3@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,402 WARNING  likelihood does not depend on parameter 'K::lambda3@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,402 WARNING  likelihood does not depend on parameter 'K::a2@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,403 WARNING  likelihood does not depend on parameter 'K::a1@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,403 WARNING  likelihood does not depend on parameter 'K::omega4@1GeV'; remove from prior or check options!
+2023-07-14 09:42:10,403 INFO     Starting minimization in 3 points
+2023-07-14 09:42:10,404 INFO     Starting optimization from user-provided point
+2023-07-14 09:42:16,509 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,512 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,513 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,514 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,515 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,516 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,517 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,518 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,519 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,520 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,522 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,523 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,524 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,524 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:16,526 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,868 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,871 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,872 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,872 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,873 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,874 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,875 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,876 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,877 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,878 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,879 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,880 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,881 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,883 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:22,884 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,968 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,969 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,970 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,971 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,971 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,972 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,973 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,974 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,975 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,976 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,977 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,978 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,979 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,980 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:26,981 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,108 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,109 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,110 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,111 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,112 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,113 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,114 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,115 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,116 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,116 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,117 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,118 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,119 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,120 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:30,121 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,068 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,070 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,071 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,072 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,072 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,073 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,074 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,075 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,076 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,076 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,077 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,078 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,079 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,080 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:33,081 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,637 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,640 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,641 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,642 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,643 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,644 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,645 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,646 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,647 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,648 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,649 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,649 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,651 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,652 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:39,653 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,378 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,380 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,381 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,382 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,384 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,384 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,385 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,386 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,387 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,388 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,389 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,389 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,390 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,391 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:42,392 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,962 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,964 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,965 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,967 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,967 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,968 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,969 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,970 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,971 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,972 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,973 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,974 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,975 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,975 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:47,977 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,742 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,743 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,743 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,745 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,745 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,746 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,747 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,748 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,749 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,749 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,750 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,751 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_+,LCSR)@DKMMO2008[q2=-4];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,752 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=0];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,753 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_T,LCSR)@DKMMO2008[q2=-8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:42:50,754 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=8];rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-14 09:44:09,091 INFO     Optimization goal achieved after 961 function evaluations
+2023-07-14 09:48:57,780 WARNING  Optimization did not succeed
+2023-07-14 09:48:57,783 WARNING    optimizer message reads: Iteration limit reached
+2023-07-14 09:49:00,907 INFO     Optimization goal achieved after 22 function evaluations
+2023-07-14 09:49:01,044 INFO     Minimization finished, best point is:
+2023-07-14 09:49:01,045 INFO       - QCD::alpha_s(MZ) -> 0.12089999999999997
+2023-07-14 09:49:01,045 INFO       - mass::b(MSbar) -> 4.27
+2023-07-14 09:49:01,046 INFO       - mass::s(2GeV) -> 0.1363999999997435
+2023-07-14 09:49:01,046 INFO       - QCD::cond_GG -> 0.010521169393572938
+2023-07-14 09:49:01,047 INFO       - QCD::cond_ss@2GeV -> 0.0023259036861603723
+2023-07-14 09:49:01,047 INFO       - QCD::m_0^2 -> 0.6052788094930633
+2023-07-14 09:49:01,048 INFO       - QCD::r_vac -> 0.9526892963247956
+2023-07-14 09:49:01,048 INFO       - decay-constant::B_s -> 0.23420000000000002
+2023-07-14 09:49:01,049 INFO       - decay-constant::K_u -> 0.1548
+2023-07-14 09:49:01,049 INFO       - K::a1@1GeV -> 0.16999999999821053
+2023-07-14 09:49:01,050 INFO       - K::a2@1GeV -> 0.28530396108796613
+2023-07-14 09:49:01,050 INFO       - K::f3@1GeV -> 0.0030000000000493885
+2023-07-14 09:49:01,051 INFO       - K::omega3@1GeV -> -1.8999999999893942
+2023-07-14 09:49:01,051 INFO       - K::lambda3@1GeV -> 1.2000000000331703
+2023-07-14 09:49:01,052 INFO       - K::delta4@1GeV -> 0.2599999999869391
+2023-07-14 09:49:01,052 INFO       - K::kappa4@1GeV -> -0.07000000000234394
+2023-07-14 09:49:01,053 INFO       - K::omega4@1GeV -> 0.10000000000152509
+2023-07-14 09:49:01,053 INFO       - B_s->K::M^2@DKMMO2008 -> 21.0
+2023-07-14 09:49:01,054 INFO       - B_s->K::s_0^+(0)@DKMMO2008 -> 37.49350240381977
+2023-07-14 09:49:01,054 INFO       - B_s->K::s_0^0(0)@DKMMO2008 -> 37.52738832003752
+2023-07-14 09:49:01,054 INFO       - B_s->K::s_0^T(0)@DKMMO2008 -> 38.35991646248935
+2023-07-14 09:49:01,055 INFO     total chi^2 = 8.24
+2023-07-14 09:49:01,056 INFO     total dof   = 2
+2023-07-14 09:49:01,057 INFO     p value     = 1.62%
+2023-07-14 09:49:01,058 INFO     individual test statistics:
+2023-07-14 09:49:01,059 INFO       - B_s->K::M_B(f_+)@-4GeV: chi^2 / dof = 0.23 / 1, local_pvalue = 63.41%
+2023-07-14 09:49:01,060 INFO       - B_s->K::M_B(f_+)@-8GeV: chi^2 / dof = 0.75 / 1, local_pvalue = 38.75%
+2023-07-14 09:49:01,061 INFO       - B_s->K::M_B(f_+)@0GeV: chi^2 / dof = 0.00 / 1, local_pvalue = 99.36%
+2023-07-14 09:49:01,062 INFO       - B_s->K::M_B(f_+)@4GeV: chi^2 / dof = 0.32 / 1, local_pvalue = 56.96%
+2023-07-14 09:49:01,063 INFO       - B_s->K::M_B(f_+)@8GeV: chi^2 / dof = 1.70 / 1, local_pvalue = 19.25%
+2023-07-14 09:49:01,064 INFO       - B_s->K::M_B(f_0)@-4GeV: chi^2 / dof = 0.18 / 1, local_pvalue = 67.57%
+2023-07-14 09:49:01,065 INFO       - B_s->K::M_B(f_0)@-8GeV: chi^2 / dof = 0.59 / 1, local_pvalue = 44.19%
+2023-07-14 09:49:01,066 INFO       - B_s->K::M_B(f_0)@0GeV: chi^2 / dof = 0.00 / 1, local_pvalue = 98.33%
+2023-07-14 09:49:01,068 INFO       - B_s->K::M_B(f_0)@4GeV: chi^2 / dof = 0.18 / 1, local_pvalue = 66.93%
+2023-07-14 09:49:01,069 INFO       - B_s->K::M_B(f_0)@8GeV: chi^2 / dof = 0.85 / 1, local_pvalue = 35.53%
+2023-07-14 09:49:01,070 INFO       - B_s->K::M_B(f_T)@-4GeV: chi^2 / dof = 0.26 / 1, local_pvalue = 61.27%
+2023-07-14 09:49:01,071 INFO       - B_s->K::M_B(f_T)@-8eV: chi^2 / dof = 0.87 / 1, local_pvalue = 35.08%
+2023-07-14 09:49:01,072 INFO       - B_s->K::M_B(f_T)@0GeV: chi^2 / dof = 0.00 / 1, local_pvalue = 99.84%
+2023-07-14 09:49:01,073 INFO       - B_s->K::M_B(f_T)@4GeV: chi^2 / dof = 0.38 / 1, local_pvalue = 53.63%
+2023-07-14 09:49:01,074 INFO       - B_s->K::M_B(f_T)@8GeV: chi^2 / dof = 1.93 / 1, local_pvalue = 16.46%

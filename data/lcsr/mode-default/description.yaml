@@ -1,0 +1,117 @@
+local_pvalues:
+  B_s->K::M_B(f_+)@-4GeV: 0.8781143523169793
+  B_s->K::M_B(f_+)@-8GeV: 0.8310200391153038
+  B_s->K::M_B(f_+)@0GeV: 0.7886645062921409
+  B_s->K::M_B(f_+)@4GeV: 0.9119619548374324
+  B_s->K::M_B(f_+)@8GeV: 0.7131031271788315
+  B_s->K::M_B(f_0)@-4GeV: 0.9434637863842984
+  B_s->K::M_B(f_0)@-8GeV: 0.9210701695244307
+  B_s->K::M_B(f_0)@0GeV: 0.9146249211577169
+  B_s->K::M_B(f_0)@4GeV: 0.9729318864929856
+  B_s->K::M_B(f_0)@8GeV: 0.9128504203376753
+  B_s->K::M_B(f_T)@-4GeV: 0.8649011174947464
+  B_s->K::M_B(f_T)@-8eV: 0.8277175902202456
+  B_s->K::M_B(f_T)@0GeV: 0.7832519564824831
+  B_s->K::M_B(f_T)@4GeV: 0.9156397384829278
+  B_s->K::M_B(f_T)@8GeV: 0.7016781798692487
+mode:
+- 0.11791521801712726
+- 4.18225513951343
+- 0.09378557056267336
+- 0.009423982898596996
+- -0.016460000119039732
+- 0.7547021272741018
+- 0.9776562565213254
+- 0.23029999964100936
+- 0.1548
+- -0.12328138657132114
+- 0.23335203079400357
+- 0.006
+- -1.9
+- 1.2
+- 0.26
+- -0.07
+- 0.1
+- 21.0
+- 40.35974524478611
+- 39.861056997197075
+- 42.010480476703314
+- 0.4261014804046128
+- 0.2902907833507823
+- 0.5340425835938003
+parameters:
+- max: 0.1209
+  min: 0.1149
+  name: QCD::alpha_s(MZ)
+- max: 4.27
+  min: 4.09
+  name: mass::b(MSbar)
+- max: 0.1364
+  min: 0.0504
+  name: mass::s(2GeV)
+- max: 0.018
+  min: 0.0
+  name: QCD::cond_GG
+- max: 0.02004
+  min: -0.05296
+  name: QCD::cond_ss@2GeV
+- max: 1.0
+  min: 0.6
+  name: QCD::m_0^2
+- max: 1.0
+  min: 0.1
+  name: QCD::r_vac
+- max: 0.2342
+  min: 0.2264
+  name: decay-constant::B_s
+- max: 0.1548
+  min: 0.1506
+  name: decay-constant::K_u
+- max: 0.17
+  min: -0.43
+  name: K::a1@1GeV
+- max: 0.578
+  min: -0.122
+  name: K::a2@1GeV
+- max: 0.006
+  min: 0.003
+  name: K::f3@1GeV
+- max: -0.5
+  min: -1.9
+  name: K::omega3@1GeV
+- max: 2.0
+  min: 1.2
+  name: K::lambda3@1GeV
+- max: 0.26
+  min: 0.14
+  name: K::delta4@1GeV
+- max: -0.07
+  min: -0.11
+  name: K::kappa4@1GeV
+- max: 0.3
+  min: 0.1
+  name: K::omega4@1GeV
+- max: 21.0
+  min: 13.0
+  name: B_s->K::M^2@DKMMO2008
+- max: 46.5
+  min: 34.5
+  name: B_s->K::s_0^+(0)@DKMMO2008
+- max: 46.5
+  min: 34.5
+  name: B_s->K::s_0^0(0)@DKMMO2008
+- max: 46.5
+  min: 34.5
+  name: B_s->K::s_0^T(0)@DKMMO2008
+- max: 1.5
+  min: -0.5
+  name: B_s->K::s_0^+'(0)@DKMMO2008
+- max: 1.5
+  min: -0.5
+  name: B_s->K::s_0^0'(0)@DKMMO2008
+- max: 2.0
+  min: -0.5
+  name: B_s->K::s_0^T'(0)@DKMMO2008
+pvalue: .nan
+type: Mode
+version: 1.0.8

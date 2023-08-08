@@ -1,0 +1,25 @@
+2023-08-08 10:51:01,141 INFO     Creating analysis with 9 priors, 2 EOS-wide constraints, 1 global options, 3 manually-entered constraints and 5 fixed parameters.
+2023-08-08 10:51:01,326 INFO     Starting minimization in 3 points
+2023-08-08 10:51:01,327 INFO     Starting optimization from user-provided point
+2023-08-08 10:51:01,511 WARNING  Optimization did not succeed
+2023-08-08 10:51:01,511 WARNING    optimizer message reads: Iteration limit reached
+2023-08-08 10:51:01,693 WARNING  Optimization did not succeed
+2023-08-08 10:51:01,694 WARNING    optimizer message reads: Iteration limit reached
+2023-08-08 10:51:01,877 WARNING  Optimization did not succeed
+2023-08-08 10:51:01,878 WARNING    optimizer message reads: Iteration limit reached
+2023-08-08 10:51:01,878 INFO     Minimization finished, best point is:
+2023-08-08 10:51:01,879 INFO       - B_s->K::a^f+_0@BFW2010 -> 0.017086053046464267
+2023-08-08 10:51:01,879 INFO       - B_s->K::a^f+_1@BFW2010 -> -0.05497968548947452
+2023-08-08 10:51:01,880 INFO       - B_s->K::a^f+_2@BFW2010 -> 0.0014286443657032244
+2023-08-08 10:51:01,881 INFO       - B_s->K::a^f+_3@BFW2010 -> -0.04112253790554288
+2023-08-08 10:51:01,881 INFO       - B_s->K::a^f+_4@BFW2010 -> 0.6666612695065173
+2023-08-08 10:51:01,882 INFO       - B_s->K::a^f0_1@BFW2010 -> -0.05562321074653409
+2023-08-08 10:51:01,882 INFO       - B_s->K::a^f0_2@BFW2010 -> -0.23741404917814646
+2023-08-08 10:51:01,883 INFO       - B_s->K::a^f0_3@BFW2010 -> -0.33602606481924924
+2023-08-08 10:51:01,883 INFO       - B_s->K::a^f0_4@BFW2010 -> -0.5850672528371856
+2023-08-08 10:51:01,884 INFO     total chi^2 = 5.74
+2023-08-08 10:51:01,884 INFO     total dof   = 2
+2023-08-08 10:51:01,885 INFO     p value     = 5.66%
+2023-08-08 10:51:01,886 INFO     individual test statistics:
+2023-08-08 10:51:01,887 INFO       - B_s->K::f_++f_0@HPQCD:2014: chi^2 / dof = 5.52 / 6, local_pvalue = 47.89%
+2023-08-08 10:51:01,888 INFO       - B_s->K::f_++f_0@RBCUKQCD:2023: chi^2 / dof = 0.22 / 5, local_pvalue = 99.89%

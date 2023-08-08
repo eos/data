@@ -1,0 +1,7 @@
+observables:
+- kinematics: {}
+  name: B_s->K::f_B@DKMMO2008
+- kinematics: {}
+  name: B_s->K::M_B(SVZ)@DKMMO2008
+type: Prediction
+version: 1.0.8

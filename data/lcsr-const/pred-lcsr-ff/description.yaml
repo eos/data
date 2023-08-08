@@ -1,0 +1,36 @@
+observables:
+- kinematics:
+    q2: -10.0
+  name: B_s->K::f_+(q2)
+- kinematics:
+    q2: -5.0
+  name: B_s->K::f_+(q2)
+- kinematics:
+    q2: 0.0
+  name: B_s->K::f_+(q2)
+- kinematics:
+    q2: 5.0
+  name: B_s->K::f_+(q2)
+- kinematics:
+    q2: -10.0
+  name: B_s->K::f_0(q2)
+- kinematics:
+    q2: -5.0
+  name: B_s->K::f_0(q2)
+- kinematics:
+    q2: 5.0
+  name: B_s->K::f_0(q2)
+- kinematics:
+    q2: -10.0
+  name: B_s->K::f_T(q2)
+- kinematics:
+    q2: -5.0
+  name: B_s->K::f_T(q2)
+- kinematics:
+    q2: 0.0
+  name: B_s->K::f_T(q2)
+- kinematics:
+    q2: 5.0
+  name: B_s->K::f_T(q2)
+type: Prediction
+version: 1.0.8

@@ -1,0 +1,13 @@
+2023-07-09 12:26:21,030 INFO     Creating analysis with 24 priors, 0 EOS-wide constraints, 0 global options, 15 manually-entered constraints and 4 fixed parameters.
+2023-07-09 12:26:25,614 INFO     likelihood probably depends on 28 parameter(s) that do not appear in the prior; check prior?
+2023-07-09 12:26:25,614 WARNING  likelihood does not depend on parameter 'K::omega4@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,615 WARNING  likelihood does not depend on parameter 'K::kappa4@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,615 WARNING  likelihood does not depend on parameter 'K::omega3@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,615 WARNING  likelihood does not depend on parameter 'K::f3@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,615 WARNING  likelihood does not depend on parameter 'K::a1@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,615 WARNING  likelihood does not depend on parameter 'K::delta4@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,615 WARNING  likelihood does not depend on parameter 'K::a2@1GeV'; remove from prior or check options!
+2023-07-09 12:26:25,616 WARNING  likelihood does not depend on parameter 'K::lambda3@1GeV'; remove from prior or check options!
+2023-07-09 12:28:36,140 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-10];form-factors=DKMMO2008,rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-09 12:29:05,578 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-10];form-factors=DKMMO2008,rescale-factor=0': GSL Error: could not integrate function (error code: 5)
+2023-07-09 12:37:40,427 ERROR    ObservableCache::update Exception encountered when evaluating regular observable 'B_s->K::M_B(f_0,LCSR)@DKMMO2008[q2=-10];form-factors=DKMMO2008,rescale-factor=0': GSL Error: could not integrate function (error code: 5)

@@ -1,0 +1,30 @@
+2023-08-08 10:50:58,988 INFO     Creating analysis with 14 priors, 3 EOS-wide constraints, 1 global options, 3 manually-entered constraints and 0 fixed parameters.
+2023-08-08 10:50:59,206 INFO     Starting minimization in 3 points
+2023-08-08 10:50:59,207 INFO     Starting optimization from user-provided point
+2023-08-08 10:50:59,366 INFO     Optimization goal achieved after 1009 function evaluations
+2023-08-08 10:50:59,669 WARNING  Optimization did not succeed
+2023-08-08 10:50:59,669 WARNING    optimizer message reads: Iteration limit reached
+2023-08-08 10:51:00,022 WARNING  Optimization did not succeed
+2023-08-08 10:51:00,023 WARNING    optimizer message reads: Iteration limit reached
+2023-08-08 10:51:00,024 INFO     Minimization finished, best point is:
+2023-08-08 10:51:00,024 INFO       - B_s->K::a^f+_0@BFW2010 -> 0.018364973445888833
+2023-08-08 10:51:00,025 INFO       - B_s->K::a^f+_1@BFW2010 -> -0.037271393015107734
+2023-08-08 10:51:00,025 INFO       - B_s->K::a^f+_2@BFW2010 -> 0.12440803533149891
+2023-08-08 10:51:00,026 INFO       - B_s->K::a^f+_3@BFW2010 -> -0.0847280183204957
+2023-08-08 10:51:00,027 INFO       - B_s->K::a^f+_4@BFW2010 -> -0.9909312734056408
+2023-08-08 10:51:00,027 INFO       - B_s->K::a^f0_1@BFW2010 -> -0.0394149936494993
+2023-08-08 10:51:00,028 INFO       - B_s->K::a^f0_2@BFW2010 -> -0.054315831453363494
+2023-08-08 10:51:00,028 INFO       - B_s->K::a^f0_3@BFW2010 -> 0.3002096056793808
+2023-08-08 10:51:00,029 INFO       - B_s->K::a^f0_4@BFW2010 -> -0.48976530704152155
+2023-08-08 10:51:00,029 INFO       - B_s->K::a^fT_0@BFW2010 -> 0.04765758781541751
+2023-08-08 10:51:00,030 INFO       - B_s->K::a^fT_1@BFW2010 -> -0.009111008880282156
+2023-08-08 10:51:00,030 INFO       - B_s->K::a^fT_2@BFW2010 -> -0.13357185348109124
+2023-08-08 10:51:00,031 INFO       - B_s->K::a^fT_3@BFW2010 -> -0.6308475616754499
+2023-08-08 10:51:00,032 INFO       - B_s->K::a^fT_4@BFW2010 -> -0.7627729576316465
+2023-08-08 10:51:00,032 INFO     total chi^2 = 14.97
+2023-08-08 10:51:00,033 INFO     total dof   = 8
+2023-08-08 10:51:00,034 INFO     p value     = 5.98%
+2023-08-08 10:51:00,035 INFO     individual test statistics:
+2023-08-08 10:51:00,036 INFO       - B_s->K::f_++f_0@HPQCD:2014: chi^2 / dof = 6.71 / 6, local_pvalue = 34.88%
+2023-08-08 10:51:00,038 INFO       - B_s->K::f_++f_0@RBCUKQCD:2023: chi^2 / dof = 1.12 / 5, local_pvalue = 95.20%
+2023-08-08 10:51:00,039 INFO       - B_s->K::form-factors[f_+,f_0,f_T]@BvDV:2023A: chi^2 / dof = 7.13 / 11, local_pvalue = 78.81%
