@@ -7,7 +7,7 @@
   doi: 10.5281/zenodo.8225622
   keywords:
     - form-factors
-  eos-version: 1.0.9
+  eos_version: 1.0.9
 
 2023-02:
   authors:
@@ -19,7 +19,7 @@
   doi: 10.5281/zenodo.7919635
   keywords:
     - form-factors
-  eos-version: 1.0.8
+  eos_version: 1.0.8
 
 2023-01v2:
   authors:
@@ -34,7 +34,7 @@
     - WET
     - ublnu
     - form-factors
-  eos-version: 1.0.8
+  eos_version: 1.0.8
 
 2023-01:
   authors:
@@ -49,4 +49,4 @@
     - WET
     - ublnu
     - form-factors
-  eos-version: 1.0.6
+  eos_version: 1.0.6
