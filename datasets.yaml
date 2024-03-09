@@ -5,6 +5,7 @@
     - K. Keri Vos
   title: 'New determination of $|V_{ub}/V_{cb}|$ from $B_s^0\to \lbrace K^-, D_s^- \rbrace \mu^+\nu$'
   doi: 10.5281/zenodo.8225622
+  likelihoods: {}
   keywords:
     - form-factors
   eos_version: 1.0.9
@@ -17,6 +18,7 @@
     - J. Virto
   title: 'Dispersive analysis of $b\to s\ell^+\ell^-$ form factors'
   doi: 10.5281/zenodo.7919635
+  likelihoods: {}
   keywords:
     - form-factors
   eos_version: 1.0.8
@@ -30,6 +32,10 @@
     - D. van Dyk
   title: 'Toward a complete description of $b \to u \ell^- \bar\nu$ decays within the Weak Effective Theory'
   doi: 10.5281/zenodo.8027015
+  likelihoods:
+    WET-ublnu:
+      filename: 'ublnu-wet-LMNRvD2023.yaml'
+      filetype: 'MixtureDensity'
   keywords:
     - WET
     - ublnu
@@ -45,6 +51,7 @@
     - D. van Dyk
   title: 'Toward a complete description of $b \to u \ell^- \bar\nu$ decays within the Weak Effective Theory'
   doi: 10.5281/zenodo.7628906
+  likelihoods: {}
   keywords:
     - WET
     - ublnu
