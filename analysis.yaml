@@ -1,0 +1,901 @@
+parameters:
+  'scnull::Re{cVL}' :
+      alias_of: [ 'scnuee::Re{cVL}', 'scnumumu::Re{cVL}', 'scnutautau::Re{cVL}' ]
+      central:  0.0
+      min:      0.88
+      max:      1.03
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{V_L}$'
+  'scnull::Re{cVR}' :
+      alias_of: [ 'scnuee::Re{cVR}', 'scnumumu::Re{cVR}', 'scnutautau::Re{cVR}' ]
+      central:  0.0
+      min:     -0.05
+      max:      0.02
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{V_R}$'
+  'scnull::Re{cSL}' :
+      alias_of: [ 'scnuee::Re{cSL}', 'scnumumu::Re{cSL}', 'scnutautau::Re{cSL}' ]
+      central:  0.0
+      min:     -0.055
+      max:      0.055
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{S_L}$'
+  'scnull::Re{cSR}' :
+      alias_of: [ 'scnuee::Re{cSR}', 'scnumumu::Re{cSR}', 'scnutautau::Re{cSR}' ]
+      central:  0.0
+      min:     -0.07
+      max:      0.055
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{S_R}$'
+  'scnull::Re{cT}' :
+      alias_of: [ 'scnuee::Re{cT}', 'scnumumu::Re{cT}', 'scnutautau::Re{cT}' ]
+      central:  0.0
+      min:     -0.12
+      max:      0.12
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{T}$'
+  'scnull::Im{cVL}' :
+      alias_of: [ 'scnuee::Im{cVL}', 'scnumumu::Im{cVL}', 'scnutautau::Im{cVL}' ]
+      central:  0.0
+      min:     -2.0
+      max:     +2.0
+      unit:     '1'
+      latex:    '$\mathrm{Im}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{V_L}$'
+  'scnull::Im{cVR}' :
+      alias_of: [ 'scnuee::Im{cVR}', 'scnumumu::Im{cVR}', 'scnutautau::Im{cVR}' ]
+      central:  0.0
+      min:     -0.8
+      max:      0.8
+      unit:     '1'
+      latex:    '$\mathrm{Im}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{V_R}$'
+  'scnull::Im{cSL}' :
+      alias_of: [ 'scnuee::Im{cSL}', 'scnumumu::Im{cSL}', 'scnutautau::Im{cSL}' ]
+      central:  0.0
+      min:     -0.1
+      max:      0.1
+      unit:     '1'
+      latex:    '$\mathrm{Im}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{S_L}$'
+  'scnull::Im{cSR}' :
+      alias_of: [ 'scnuee::Im{cSR}', 'scnumumu::Im{cSR}', 'scnutautau::Im{cSR}' ]
+      central:  0.0
+      min:     -0.1
+      max:      0.1
+      unit:     '1'
+      latex:    '$\mathrm{Im}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{S_R}$'
+  'scnull::Im{cT}' :
+      alias_of: [ 'scnuee::Im{cT}', 'scnumumu::Im{cT}', 'scnutautau::Im{cT}' ]
+      central:  0.0
+      min:     -0.25
+      max:      0.25
+      unit:     '1'
+      latex:    '$\mathrm{Im}\, \mathcal{C}^{\bar{s}c\bar{\nu}_\ell\ell}_{T}$'
+
+
+observables:
+  'decay-constant::D_s^*,T/D_s':
+    latex: '$\frac{f_{D_s^{*,T}}}{f_{D_s}}$'
+    unit: '1'
+    options: {}
+    expression:
+      '<<decay-constant::D_s^*,T>> / <<decay-constant::D_s>>'
+  'Lambda_c->Lambda::f_perp^T_f_perp^V(q2)':
+    latex: '$\frac{f_\perp^T}{f_\perp^V}$'
+    unit: '1'
+    options: {}
+    expression:
+      '<<Lambda_c->Lambda::f_perp^T(q2)>> / <<Lambda_c->Lambda::f_perp^V(q2)>>'
+  'Lambda_c->Lambda::f_long^T_f_long^V(q2)':
+    latex: '$\frac{f_0^T}{f_0^V}$'
+    unit: '1'
+    options: {}
+    expression:
+      '<<Lambda_c->Lambda::f_long^T(q2)>> / <<Lambda_c->Lambda::f_long^V(q2)>>'
+  'Lambda_c->Lambda::f_perp^T5_f_perp^A(q2)':
+    latex: '$\frac{f_\perp^{T5}}{f_\perp^A}$'
+    unit: '1'
+    options: {}
+    expression:
+      '<<Lambda_c->Lambda::f_perp^T5(q2)>> / <<Lambda_c->Lambda::f_perp^A(q2)>>'
+  'Lambda_c->Lambda::f_long^T5_f_long^A(q2)':
+    latex: '$\frac{f_0^{T5}}{f_0^A}$'
+    unit: '1'
+    options: {}
+    expression:
+      '<<Lambda_c->Lambda::f_long^T5(q2)>> / <<Lambda_c->Lambda::f_long^A(q2)>>'
+
+likelihoods:
+  # Theory likelihoods
+  - name: TH-Ds-Dsstar-LQCD
+    manual_constraints:
+      decay-constant::D_s@FLAG:2021A:
+        type: Gaussian
+        observable: decay-constant::D_s
+        kinematics: { }
+        options: { }
+        mean: 0.2499
+        sigma-stat: { hi: 0, lo: 0 }
+        sigma-sys: { hi: 0.0005, lo: 0.0005 }
+        dof: 1
+      decay-constant::D_s^*@MDLLSYZ:2024A:
+        type: Gaussian
+        observable: decay-constant::D_s^*
+        kinematics: { }
+        options: { }
+        mean: 0.274
+        sigma-stat: { hi: 0, lo: 0 }
+        sigma-sys: { hi: 0.006, lo: 0.006 }
+        dof: 1
+
+  - name: TH-Dsstar-QCDSR
+    manual_constraints:
+      decay-constant::D_s^*,T@PZ:2021A:
+        type: Gaussian
+        observable: decay-constant::D_s^*,T/D_s
+        kinematics: { }
+        options: { }
+        mean: 1.13
+        sigma-stat: { hi: 0, lo: 0 }
+        sigma-sys: { hi: 0.07, lo: 0.07 }
+        dof: 1
+
+  - name: TH-D-to-K-LQCD
+    constraints:
+      - 'D->K::f_0+f_++f_T@HPQCD:2022A;form-factors=BFW2010'
+      - 'D->K::f_++f_0@FNALMILC:2022A;form-factors=BFW2010'
+
+  - name: TH-D-to-K-LQCD-rescaled
+    constraints:
+      - 'D->K::f_++f_0@ETM:2017B;form-factors=BFW2010,rescale-factor=6.346'
+      - 'D->K::f_T@ETM:2018A;form-factors=BFW2010,rescale-factor=6.346'
+      - 'D->K::f_0+f_++f_T@HPQCD:2022A;form-factors=BFW2010,rescale-factor=6.346'
+      - 'D->K::f_++f_0@FNALMILC:2022A;form-factors=BFW2010,rescale-factor=6.346'
+
+  - name: TH-D-to-K-FNALMILC+HPQCD
+    constraints:
+      - 'D->K::f_0+f_++f_T@HPQCD:2022A;form-factors=BFW2010'
+      - 'D->K::f_++f_0@FNALMILC:2022A;form-factors=BFW2010'
+
+  - name: TH-D-to-K-ETM
+    constraints:
+      - 'D->K::f_++f_0@ETM:2017B;form-factors=BFW2010'
+      - 'D->K::f_T@ETM:2018A;form-factors=BFW2010'
+
+  - name: TH-Lc-to-L
+    constraints:
+      - "Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A;form-factors=BMRvD2022"
+    manual_constraints:
+      "Lambda_c->Lambda::f_perp^T_f_perp^V@SCET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_perp^T_f_perp^V(q2)"
+        kinematics: { 'q2': 0.0 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.0,  "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_long^T_f_long^V@SCET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_long^T_f_long^V(q2)"
+        kinematics: { 'q2': 0.0 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.,   "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_perp^T5_f_perp^A(q2)"
+        kinematics: { 'q2': 0.0 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.0,  "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_long^T5_f_long^A@SCET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_long^T5_f_long^A(q2)"
+        kinematics: { 'q2': 0 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.0,  "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_perp^T_f_perp^V@HQET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_perp^T_f_perp^V(q2)"
+        kinematics: { 'q2': 1.3707 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.0,  "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_long^T_f_long^V@HQET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_long^T_f_long^V(q2)"
+        kinematics: { 'q2': 1.3707 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.0,  "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_perp^T5_f_perp^A(q2)"
+        kinematics: { 'q2': 1.3707 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.0,  "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+      "Lambda_c->Lambda::f_long^T5_f_long^A@HQET":
+        type: "Gaussian"
+        observable: "Lambda_c->Lambda::f_long^T5_f_long^A(q2)"
+        kinematics: { 'q2': 1.3707 }
+        options: { 'form-factors': 'BMRvD2022' }
+        mean: 1
+        sigma-stat: { "hi": 0.,   "lo": 0.0  }
+        sigma-sys:  { "hi": 0.35, "lo": 0.35 }
+
+  - name: TH-Bounds
+    manual_constraints:
+      'c->s::DispersiveBound[0^+_V]':
+        type: UniformBound
+        observables:
+            - 'D->K::Saturation[0^+_V]'
+            - 'Lambda_c->Lambda::Saturation[0^+_V]'
+        kinematics: [ {}, {} ]
+        options: [ {}, {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[0^-_A]':
+        type: UniformBound
+        observables:
+            - 'D_s::Saturation[0^-_A]'
+            - 'Lambda_c->Lambda::Saturation[0^-_A]'
+        kinematics: [ {}, {} ]
+        options: [ {}, {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^-_V,0]':
+        type: UniformBound
+        observables:
+            - 'D_s^*::Saturation[1^-_V,0]'
+            - 'D->K::Saturation[1^-_V,0]'
+            - 'Lambda_c->Lambda::Saturation[1^-_V,0]'
+        kinematics: [ {}, {}, {} ]
+        options: [ {}, {}, {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^-_V,perp]':
+        type: UniformBound
+        observables:
+            - 'D_s^*::Saturation[1^-_V,perp]'
+            - 'Lambda_c->Lambda::Saturation[1^-_V,perp]'
+        kinematics: [ {} , {} ]
+        options: [ {} , {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^+_A,0]':
+        type: UniformBound
+        observables:
+            - 'Lambda_c->Lambda::Saturation[1^+_A,0]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^+_A,perp]':
+        type: UniformBound
+        observables:
+            - 'Lambda_c->Lambda::Saturation[1^+_A,perp]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^-_T,0]':
+        type: UniformBound
+        observables:
+            - 'D_s^*::Saturation[1^-_T,0]'
+            - 'D->K::Saturation[1^-_T,0]'
+            - 'Lambda_c->Lambda::Saturation[1^-_T,0]'
+        kinematics: [ {} , {} , {} ]
+        options: [ {} , {} , {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^-_T,perp]':
+        type: UniformBound
+        observables:
+            - 'D_s^*::Saturation[1^-_T,perp]'
+            - 'Lambda_c->Lambda::Saturation[1^-_T,perp]'
+        kinematics: [ {}, {} ]
+        options: [ {} , {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^+_T5,0]':
+        type: UniformBound
+        observables:
+            - 'Lambda_c->Lambda::Saturation[1^+_T5,0]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+      'c->s::DispersiveBound[1^+_T5,perp]':
+        type: UniformBound
+        observables:
+            - 'Lambda_c->Lambda::Saturation[1^+_T5,perp]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+
+  - name: EXP-Ds-to-mu-nu
+    manual_constraints:
+      D_s^+->mu^+nu::BR@BRvDV2024:
+        type: Gaussian
+        observable: D_s->lnu::BR;l=mu
+        kinematics: { }
+        options: { l: mu }
+        mean: 5.35e-03
+        sigma-stat: { hi: 0.10e-03, lo: 0.10e-03 }
+        sigma-sys: { hi: 0.0, lo: 0.0 }
+        dof: 1
+
+  - name: EXP-Ds-to-tau-nu
+    manual_constraints:
+      D_s^+->tau^+nu::BR@BRvDV2024:
+        type: Gaussian
+        observable: D_s->lnu::BR;l=tau
+        kinematics: { }
+        options: { l: tau }
+        mean: 5.39e-02
+        sigma-stat: { hi: 0.12e-02, lo: 0.12e-02 }
+        sigma-sys: { hi: 0.0, lo: 0.0 }
+        dof: 1
+
+  - name: EXP-Dsstar-to-e-nu
+    constraints:
+      - 'D_s^*->e^+nu::BR@BESIII:2023C'
+
+  - name: EXP-D0-to-K-e-nu
+    constraints:
+      - 'D^0->K^-e^+nu::normalizedwidth@BESIII:2015A;form-factors=BFW2010'
+    manual_constraints:
+      BR::D0-Kenue@PDG2023:
+        type: Gaussian
+        observable: D->Klnu::BR;q=u,l=e,form-factors=BFW2010
+        kinematics: { q2_min: 5.0e-6, q2_max: 1.88009 } # q2_min: avoid bug in integration routine for very small q^2
+        options: { l: e, q: u }
+        mean: 3.525e-02
+        sigma-stat: { hi: 0.023e-02, lo: 0.023e-02 }
+        sigma-sys: { hi: 0, lo: 0 }
+
+  - name: EXP-D0-to-K-mu-nu
+    manual_constraints:
+      D^0->K^-mu^+nu::BR@PDG2023:
+        type: Gaussian
+        observable: D->Klnu::BR;q=u,l=mu,form-factors=BFW2010
+        kinematics: { q2_min: 0.0112, q2_max: 1.88009 }
+        options: {l: mu, q: u}
+        mean: 3.41e-02
+        sigma-stat: {hi: 0.04e-02, lo: 0.04e-02}
+        sigma-sys: {hi: 0, lo: 0}
+    constraints:
+      - 'D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A;form-factors=BFW2010'
+
+  - name: EXP-Dp-to-K-e-nu
+    constraints:
+      - 'D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A;form-factors=BFW2010'
+    manual_constraints:
+      D^+->K0e^+nu::BR@PDG2023:
+        type: Gaussian
+        observable: D->Klnu::BR;q=d,l=e,form-factors=BFW2010
+        kinematics: { q2_min: 5.0e-6, q2_max: 1.88252 } # q2_min: avoid bug in integration routine for very small q^2
+        options: { l: e, q: d }
+        mean: 8.72e-02
+        sigma-stat: { hi: 0.09e-02, lo: 0.09e-02 }
+        sigma-sys: { hi: 0, lo: 0 }
+
+  - name: EXP-Dp-to-K-mu-nu
+    manual_constraints:
+      D^+->K0mu^+nu::BR@BESIII:2016A:
+        type: Gaussian
+        observable: D->Klnu::BR;q=d,l=mu,form-factors=BFW2010
+        kinematics: { q2_min: 0.0112, q2_max: 1.88252 }
+        options: { l: mu, q: d }
+        mean: 8.72e-02
+        sigma-stat: {hi: 0.07e-02, lo: 0.07e-02}
+        sigma-sys: {hi: 0.18e-02, lo: 0.18e-02}
+
+  - name: EXP-Lc-to-L-e-nu
+    constraints:
+      - "Lambda_c->Lambdae^+nu::BR[0.0,q2max]@BESIII:2022A;form-factors=BMRvD2022"
+
+  - name: EXP-Lc-to-L-mu-nu
+    constraints:
+      - "Lambda_c->Lambdamu^+nu::BR[0.0,q2max]@BESIII:2023A;form-factors=BMRvD2022"
+
+
+priors:
+  - name: CKM
+    descriptions:
+      - { 'parameter': 'CKM::abs(V_cs)',   'min': 0.88,    'max': 1.03,   'type': 'uniform' }
+
+  - name: WET-Re
+    descriptions:
+      - { 'parameter': 'scnull::Re{cVL}',  'min':   0.88,  'max': +1.03,  'type': 'uniform' }
+      - { 'parameter': 'scnull::Re{cVR}',  'min':  -0.05,  'max':  0.02,  'type': 'uniform' }
+      - { 'parameter': 'scnull::Re{cSL}',  'min':  -0.055, 'max':  0.055, 'type': 'uniform' }
+      - { 'parameter': 'scnull::Re{cSR}',  'min':  -0.07,  'max':  0.055, 'type': 'uniform' }
+      - { 'parameter': 'scnull::Re{cT}',   'min':  -0.12,  'max':  0.12,  'type': 'uniform' }
+
+  - name: WET-Im
+    descriptions:
+      - { 'parameter': 'scnull::Im{cVR}',  'min':  -0.8,   'max':  0.8,   'type': 'uniform' }
+      - { 'parameter': 'scnull::Im{cSL}',  'min':  -0.1,   'max':  0.1,   'type': 'uniform' }
+      - { 'parameter': 'scnull::Im{cSR}',  'min':  -0.1,   'max':  0.1,   'type': 'uniform' }
+      - { 'parameter': 'scnull::Im{cT}',   'min':  -0.25,  'max':  0.25,  'type': 'uniform' }
+
+  - name: DC-Ds-Dsstar
+    descriptions:
+      - { 'parameter': 'decay-constant::D_s',      'min':  0.24781, 'max':  0.25197, 'type': 'uniform' }
+      - { 'parameter': 'decay-constant::D_s^*',    'min':  0.24867, 'max':  0.29830, 'type': 'uniform' }
+      - { 'parameter': 'decay-constant::D_s^*,T',  'min':  0.20205, 'max':  0.35753, 'type': 'uniform' }
+
+  - name: FF-D-to-K-order3
+    descriptions:
+      - { 'parameter': 'D->K::a^f+_0@BFW2010',  'min':   0.04219, 'max':   0.04367, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^f+_1@BFW2010',  'min':  -0.10296, 'max':  -0.07851, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^f+_2@BFW2010',  'min':  -0.09755, 'max':   0.06022, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^f+_3@BFW2010',  'min':  -0.10838, 'max':   0.89484, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^f0_1@BFW2010',  'min':  -0.25136, 'max':  -0.23142, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^f0_2@BFW2010',  'min':   0.00756, 'max':   0.27770, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^f0_3@BFW2010',  'min':  -0.23736, 'max':   1.     , 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^fT_0@BFW2010',  'min':   0.07963, 'max':   0.09720, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^fT_1@BFW2010',  'min':  -0.18138, 'max':  -0.04286, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^fT_2@BFW2010',  'min':  -0.64666, 'max':   0.39906, 'type': 'uniform' }
+      - { 'parameter': 'D->K::a^fT_3@BFW2010',  'min':  -1.     , 'max':   1.     , 'type': 'uniform' }
+
+  - name: FF-D-to-K-order3-rescaled
+    descriptions:
+      - { 'parameter': 'D->K::a^f+_0@BFW2010',  'min':   0.04037, 'max':   0.04464, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^f+_1@BFW2010',  'min':  -0.12048, 'max':  -0.04694, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^f+_2@BFW2010',  'min':  -0.26818, 'max':   0.22308, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^f+_3@BFW2010',  'min':  -1.     , 'max':   1.     , 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^f0_1@BFW2010',  'min':  -0.27438, 'max':  -0.21864, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^f0_2@BFW2010',  'min':  -0.24768, 'max':   0.46293, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^f0_3@BFW2010',  'min':  -1.     , 'max':   1.     , 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^fT_0@BFW2010',  'min':   0.06187, 'max':   0.10974, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^fT_1@BFW2010',  'min':  -0.28265, 'max':   0.10180, 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^fT_2@BFW2010',  'min':  -1.     , 'max':   1.     , 'type': 'uniform'}
+      - { 'parameter': 'D->K::a^fT_3@BFW2010',  'min':  -1.     , 'max':   1.     , 'type': 'uniform'}
+
+  - name: FF-Lc-to-L-order2
+    descriptions:
+      - { 'parameter': 'Lambda_c->Lambda::a^(t,V)_1@BMRvD2022',      'min':  -0.78736, 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(t,V)_2@BMRvD2022',      'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022',   'min':  -0.40015, 'max':  0.21519, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022',   'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022',   'min':  -0.83701, 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,V)_0@BMRvD2022',      'min':  -0.10430, 'max':  0.04072, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,V)_1@BMRvD2022',      'min':  -0.22867, 'max':  0.74006, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,V)_2@BMRvD2022',      'min':  -0.06943, 'max':  0.43041, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(t,A)_1@BMRvD2022',      'min':   0.22887, 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(t,A)_2@BMRvD2022',      'min':   0.30638, 'max':  0.88852, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022',   'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022',   'min':  -0.47710, 'max':  1.42586, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,A)_0@BMRvD2022',      'min':  -0.04659, 'max': -0.01915, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,A)_1@BMRvD2022',      'min':   0.11645, 'max':  0.41525, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,A)_2@BMRvD2022',      'min':   0.09962, 'max':  0.29281, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022',   'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022',   'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,T)_0@BMRvD2022',      'min':  -0.84559, 'max':  0.68913, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,T)_1@BMRvD2022',      'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,T)_2@BMRvD2022',      'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022',  'min':  -0.30824, 'max':  0.26141, 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022',  'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022',  'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022',     'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+      - { 'parameter': 'Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022',     'min':  -1.     , 'max':  1.     , 'type': 'uniform' }
+
+posteriors:
+  # theory-only fit
+  - name: TH-all
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD
+      - TH-Lc-to-L
+      - TH-Bounds
+
+  - name: TH-all-rescaled
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3-rescaled
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD-rescaled
+      - TH-Lc-to-L
+      - TH-Bounds
+
+  - name: TH-D-to-K-ETM
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - FF-D-to-K-order3-rescaled
+    likelihood:
+      - TH-D-to-K-ETM
+      - TH-Bounds
+
+  - name: TH-D-to-K-FNALMILC+HPQCD
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - FF-D-to-K-order3
+    likelihood:
+      - TH-D-to-K-FNALMILC+HPQCD
+      - TH-Bounds
+
+  # global fits
+  - name: SM-all
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+  - name: SM-all-rescaled
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3-rescaled
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+  - name: CKM-all
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+    prior:
+      - CKM
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+  - name: CKM-all-rescaled
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+    prior:
+      - CKM
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3-rescaled
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD-rescaled
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+  - name: WET-all
+    global_options:
+      model: WET
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - WET-Re
+      - WET-Im
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+  - name: WET-all-rescaled
+    global_options:
+      model: WET
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+      'CKM::abs(V_cs)': 0.975
+    prior:
+      - WET-Re
+      - WET-Im
+      - DC-Ds-Dsstar
+      - FF-D-to-K-order3-rescaled
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-D-to-K-LQCD-rescaled
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+  # decay-specific fits
+  #   D_s^(*)->l^+nu
+  - name: CKM-Ds-Dsstar-to-l-nu
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+    prior:
+      - CKM
+      - DC-Ds-Dsstar
+    likelihood:
+      - TH-Ds-Dsstar-LQCD
+      - TH-Dsstar-QCDSR
+      - TH-Bounds
+      - EXP-Ds-to-mu-nu
+      - EXP-Ds-to-tau-nu
+      - EXP-Dsstar-to-e-nu
+  #   D->Kl^+nu
+  - name: CKM-D-to-K-l-nu
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+    prior:
+      - CKM
+      - FF-D-to-K-order3
+    likelihood:
+      - TH-D-to-K-LQCD
+      - TH-Bounds
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+  - name: CKM-D-to-K-l-nu-rescaled
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+    prior:
+      - CKM
+      - FF-D-to-K-order3-rescaled
+    likelihood:
+      - TH-D-to-K-LQCD-rescaled
+      - TH-Bounds
+      - EXP-D0-to-K-e-nu
+      - EXP-D0-to-K-mu-nu
+      - EXP-Dp-to-K-e-nu
+      - EXP-Dp-to-K-mu-nu
+  #   Lc->Ll^+nu
+  - name: CKM-Lc-to-L-l-nu
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'D->K::tp@BFW2010': 5.56488
+    prior:
+      - CKM
+      - FF-Lc-to-L-order2
+    likelihood:
+      - TH-Lc-to-L
+      - TH-Bounds
+      - EXP-Lc-to-L-e-nu
+      - EXP-Lc-to-L-mu-nu
+
+predictions:
+  - name: BR-comparison
+    observables:
+      - name: 'D_s->lnu::BR;q=s,l=mu'
+      - name: 'D_s->lnu::BR;q=s,l=tau'
+      - name: 'D_s^*->lnu::BR;l=e' #Ds+* -> e nu
+      - name: 'D->Klnu::BR;form-factors=BFW2010,q=u,l=e'
+        kinematics: { q2_min: 5.0e-6 , q2_max: 1.88009 }
+      - name: 'D->Klnu::BR;form-factors=BFW2010,q=u,l=mu'
+        kinematics: { q2_min: 0.0112, q2_max: 1.88009 }
+      - name: 'D->Klnu::BR;form-factors=BFW2010,q=d,l=e'
+        kinematics: { q2_min: 5.0e-6, q2_max: 1.88252 }
+      - name: 'D->Klnu::BR;form-factors=BFW2010,q=d,l=mu'
+        kinematics: { q2_min: 0.0112, q2_max: 1.88252 }
+      - name: 'Lambda_c->Lambdalnu::BR;form-factors=BMRvD2022,l=e'
+        kinematics: { q2_min: 5.0e-6, q2_max: 1.3707  }
+      - name: 'Lambda_c->Lambdalnu::BR;form-factors=BMRvD2022,l=mu'
+        kinematics: { q2_min: 0.0112, q2_max: 1.3707  }
+
+  - name: saturation-0mA
+    observables:
+      - name: 'D_s::Saturation[0^-_A]'
+      - name: 'Lambda_c->Lambda::Saturation[0^-_A]'
+
+  - name: saturation-0pV
+    observables:
+      - name: 'D->K::Saturation[0^+_V]'
+      - name: 'Lambda_c->Lambda::Saturation[0^+_V]'
+
+  - name: saturation-1pA-long
+    observables:
+      - name: 'Lambda_c->Lambda::Saturation[1^+_A,0]'
+
+  - name: saturation-1pA-perp
+    observables:
+      - name: 'Lambda_c->Lambda::Saturation[1^+_A,perp]'
+
+  - name: saturation-1mV-long
+    observables:
+      - name: 'D_s^*::Saturation[1^-_V,0]'
+      - name: 'D->K::Saturation[1^-_V,0]'
+      - name: 'Lambda_c->Lambda::Saturation[1^-_V,0]'
+
+  - name: saturation-1mV-perp
+    observables:
+      - name: 'D_s^*::Saturation[1^-_V,perp]'
+      - name: 'Lambda_c->Lambda::Saturation[1^-_V,perp]'
+
+  - name: saturation-1mT-long
+    observables:
+      - name: 'D_s^*::Saturation[1^-_T,0]'
+      - name: 'D->K::Saturation[1^-_T,0]'
+      - name: 'Lambda_c->Lambda::Saturation[1^-_T,0]'
+
+  - name: saturation-1mT-perp
+    observables:
+      - name: 'D_s^*::Saturation[1^-_T,perp]'
+      - name: 'Lambda_c->Lambda::Saturation[1^-_T,perp]'
+
+  - name: saturation-1pT5-long
+    observables:
+      - name: 'Lambda_c->Lambda::Saturation[1^+_T5,0]'
+
+  - name: saturation-1pT5-perp
+    observables:
+      - name: 'Lambda_c->Lambda::Saturation[1^+_T5,perp]'
+
+  - name: FF-D-to-K-fp
+    observables:
+      - name: 'D->K::f_+(q2);form-factors=BFW2010'
+        kinematics:
+          [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
+           {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
+           {'q2':  0.7}, {'q2':  0.8}, {'q2':  0.9}, {'q2':  1.0}, {'q2':  1.1}, {'q2':  1.2},
+           {'q2':  1.3}, {'q2':  1.4}, {'q2':  1.5}, {'q2':  1.6}, {'q2':  1.7}, {'q2':  1.8},
+           {'q2':  1.9}, {'q2':  2.0}]
+
+  - name: FF-D-to-K-fz
+    observables:
+      - name: 'D->K::f_0(q2);form-factors=BFW2010'
+        kinematics:
+          [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
+           {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
+           {'q2':  0.7}, {'q2':  0.8}, {'q2':  0.9}, {'q2':  1.0}, {'q2':  1.1}, {'q2':  1.2},
+           {'q2':  1.3}, {'q2':  1.4}, {'q2':  1.5}, {'q2':  1.6}, {'q2':  1.7}, {'q2':  1.8},
+           {'q2':  1.9}, {'q2':  2.0}]
+
+  - name: FF-D-to-K-ft
+    observables:
+      - name: 'D->K::f_T(q2);form-factors=BFW2010'
+        kinematics:
+          [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
+           {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
+           {'q2':  0.7}, {'q2':  0.8}, {'q2':  0.9}, {'q2':  1.0}, {'q2':  1.1}, {'q2':  1.2},
+           {'q2':  1.3}, {'q2':  1.4}, {'q2':  1.5}, {'q2':  1.6}, {'q2':  1.7}, {'q2':  1.8},
+           {'q2':  1.9}, {'q2':  2.0}]
+
+  - name: PDF-D0-to-K-e-nu
+    observables:
+      - name: D->Klnu::P(q2_min,q2_max);l=e,q=u,form-factors=BFW2010
+        kinematics:
+          [{'q2_min': 5.0e-6, 'q2_max': 0.1}, {'q2_min': 0.1, 'q2_max': 0.2}, {'q2_min': 0.2, 'q2_max': 0.3},
+           {'q2_min': 0.3,    'q2_max': 0.4}, {'q2_min': 0.4, 'q2_max': 0.5}, {'q2_min': 0.5, 'q2_max': 0.6},
+           {'q2_min': 0.6,    'q2_max': 0.7}, {'q2_min': 0.7, 'q2_max': 0.8}, {'q2_min': 0.8, 'q2_max': 0.9},
+           {'q2_min': 0.9,    'q2_max': 1.0}, {'q2_min': 1.0, 'q2_max': 1.1}, {'q2_min': 1.1, 'q2_max': 1.2},
+           {'q2_min': 1.2,    'q2_max': 1.3}, {'q2_min': 1.3, 'q2_max': 1.4}, {'q2_min': 1.4, 'q2_max': 1.5},
+           {'q2_min': 1.5,    'q2_max': 1.6}, {'q2_min': 1.6, 'q2_max': 1.7}]
+
+  - name: PDF-D0-to-K-mu-nu
+    observables:
+      - name: D->Klnu::P(q2_min,q2_max);l=mu,q=u,form-factors=BFW2010
+        kinematics:
+          [{'q2_min': 0.0112, 'q2_max': 0.1}, {'q2_min': 0.1, 'q2_max': 0.2}, {'q2_min': 0.2, 'q2_max': 0.3},
+           {'q2_min': 0.3,    'q2_max': 0.4}, {'q2_min': 0.4, 'q2_max': 0.5}, {'q2_min': 0.5, 'q2_max': 0.6},
+           {'q2_min': 0.6,    'q2_max': 0.7}, {'q2_min': 0.7, 'q2_max': 0.8}, {'q2_min': 0.8, 'q2_max': 0.9},
+           {'q2_min': 0.9,    'q2_max': 1.0}, {'q2_min': 1.0, 'q2_max': 1.1}, {'q2_min': 1.1, 'q2_max': 1.2},
+           {'q2_min': 1.2,    'q2_max': 1.3}, {'q2_min': 1.3, 'q2_max': 1.4}, {'q2_min': 1.4, 'q2_max': 1.5},
+           {'q2_min': 1.5,    'q2_max': 1.6}, {'q2_min': 1.6, 'q2_max': 1.7}]
+
+  - name: PDF-Dp-to-K-e-nu
+    observables:
+      - name: D->Klnu::P(q2_min,q2_max);l=e,q=d,form-factors=BFW2010
+        kinematics:
+          [{'q2_min': 5.0e-6, 'q2_max': 0.2}, {'q2_min': 0.2, 'q2_max': 0.4}, {'q2_min': 0.4, 'q2_max': 0.6},
+           {'q2_min': 0.6,    'q2_max': 0.8}, {'q2_min': 0.8, 'q2_max': 1.0}, {'q2_min': 1.0, 'q2_max': 1.2},
+           {'q2_min': 1.2,    'q2_max': 1.4}, {'q2_min': 1.4, 'q2_max': 1.6}]

@@ -1,0 +1,33 @@
+observables:
+- kinematics: {}
+  name: D_s->lnu::BR
+- kinematics: {}
+  name: D_s->lnu::BR
+- kinematics: {}
+  name: D_s^*->lnu::BR
+- kinematics:
+    q2_max: 1.88009
+    q2_min: 5.0e-06
+  name: D->Klnu::BR
+- kinematics:
+    q2_max: 1.88009
+    q2_min: 0.0112
+  name: D->Klnu::BR
+- kinematics:
+    q2_max: 1.88252
+    q2_min: 5.0e-06
+  name: D->Klnu::BR
+- kinematics:
+    q2_max: 1.88252
+    q2_min: 0.0112
+  name: D->Klnu::BR
+- kinematics:
+    q2_max: 1.3707
+    q2_min: 5.0e-06
+  name: Lambda_c->Lambdalnu::BR
+- kinematics:
+    q2_max: 1.3707
+    q2_min: 0.0112
+  name: Lambda_c->Lambdalnu::BR
+type: Prediction
+version: 1.0.11

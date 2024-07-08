@@ -1,0 +1,2 @@
+2024-06-26 10:57:14,176 INFO     Creating analysis with 48 priors, 11 EOS-wide constraints, 1 global options, 27 manually-entered constraints and 2 fixed parameters.
+2024-06-26 10:57:14,590 INFO     likelihood probably depends on 297 parameter(s) that do not appear in the prior; check prior?

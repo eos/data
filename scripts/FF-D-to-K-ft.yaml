@@ -1,0 +1,37 @@
+plot:
+  x:
+    label: '$q^2$'
+    unit: '$\textnormal{GeV}^2$'
+    range: [-0.5, 2.0]
+  y:
+    label: '$f_{+}^{D\to \bar{K}}$'
+    range: [0.6, 1.6 ]
+  legend:
+    location: 'upper left'
+contents:
+  - label: 'HPQCD'
+    type: 'constraint'
+    color: 'mediumblue'
+    constraints: 'D->K::f_0+f_++f_T@HPQCD:2022A'
+    variable: 'q2'
+    observable: 'D->K::f_T(q2)'
+    rescale-by-width: 'true'
+  - label: 'ETM'
+    type: 'constraint'
+    color: 'purple'
+    constraints: 'D->K::f_T@ETM:2018A'
+    variable: 'q2'
+    observable: 'D->K::f_T(q2)'
+    rescale-by-width: 'true'
+  - label: 'HPQCD+FNAL/MILC'
+    type: 'uncertainty'
+    color: 'cornflowerblue'
+    opacity: 0.5
+    data-file: 'data/TH-D-to-K-FNALMILC+HPQCD/pred-FF-D-to-K-ft'
+  - label: 'ETM'
+    type: 'uncertainty'
+    color: 'indigo'
+    opacity: 0.5
+    data-file: 'data/TH-D-to-K-ETM/pred-FF-D-to-K-ft'
+  - type: 'watermark'
+    position: [ 'right', 'bottom' ]

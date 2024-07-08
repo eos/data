@@ -1,0 +1,28 @@
+2024-06-21 11:00:33,549 INFO     Creating analysis with 11 priors, 4 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 2 fixed parameters.
+2024-06-21 11:00:33,913 INFO     likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2024-06-21 11:00:33,913 INFO     Starting minimization in 3 points
+2024-06-21 11:00:33,913 INFO     Initializing starting point from importance samples
+2024-06-21 11:00:33,936 INFO     Using starting point [ 0.04245, -0.08776, 0.01076, 0.3604, -0.2461, 0.1949, 0.4134, 0.09201, -0.1179, -0.05669, -0.9312 ] from importance samples
+2024-06-21 11:00:34,032 INFO     Optimization goal achieved after 441 function evaluations
+2024-06-21 11:00:34,089 INFO     Optimization goal achieved after 281 function evaluations
+2024-06-21 11:00:34,139 INFO     Optimization goal achieved after 249 function evaluations
+2024-06-21 11:00:34,139 INFO     Minimization finished, best point is:
+2024-06-21 11:00:34,139 INFO       - D->K::a^f+_0@BFW2010 -> 0.04254100691908252
+2024-06-21 11:00:34,139 INFO       - D->K::a^f+_1@BFW2010 -> -0.08335166074533476
+2024-06-21 11:00:34,139 INFO       - D->K::a^f+_2@BFW2010 -> -0.014985176636459555
+2024-06-21 11:00:34,139 INFO       - D->K::a^f+_3@BFW2010 -> 0.41279396883634867
+2024-06-21 11:00:34,139 INFO       - D->K::a^f0_1@BFW2010 -> -0.24119260526132993
+2024-06-21 11:00:34,139 INFO       - D->K::a^f0_2@BFW2010 -> 0.15600082808349328
+2024-06-21 11:00:34,139 INFO       - D->K::a^f0_3@BFW2010 -> 0.6326087022876069
+2024-06-21 11:00:34,139 INFO       - D->K::a^fT_0@BFW2010 -> 0.0857296349667287
+2024-06-21 11:00:34,139 INFO       - D->K::a^fT_1@BFW2010 -> -0.0905076068516054
+2024-06-21 11:00:34,140 INFO       - D->K::a^fT_2@BFW2010 -> -0.21924099531486513
+2024-06-21 11:00:34,140 INFO       - D->K::a^fT_3@BFW2010 -> 0.9999999999999996
+2024-06-21 11:00:34,140 INFO     total chi^2 = 10.00
+2024-06-21 11:00:34,140 INFO     total dof   = 10
+2024-06-21 11:00:34,141 INFO     p value     = 44.05%
+2024-06-21 11:00:34,141 INFO     individual test statistics:
+2024-06-21 11:00:34,142 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 3.41 / 3, local_pvalue = 33.30%
+2024-06-21 11:00:34,142 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 0.75 / 7, local_pvalue = 99.79%
+2024-06-21 11:00:34,143 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 2.46 / 8, local_pvalue = 96.38%
+2024-06-21 11:00:34,143 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 3.38 / 3, local_pvalue = 33.61%

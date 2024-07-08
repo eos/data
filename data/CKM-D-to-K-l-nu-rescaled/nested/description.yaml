@@ -1,0 +1,39 @@
+parameters:
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_3@BFW2010
+type: DynestyResults
+version: 1.0.12

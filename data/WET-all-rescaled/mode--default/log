@@ -1,0 +1,161 @@
+2024-07-01 16:04:50,880 INFO     Creating analysis with 48 priors, 11 EOS-wide constraints, 1 global options, 27 manually-entered constraints and 2 fixed parameters.
+2024-07-01 16:04:51,346 INFO     likelihood probably depends on 297 parameter(s) that do not appear in the prior; check prior?
+2024-07-01 16:04:51,347 INFO     Starting minimization in 75 points
+2024-07-01 16:04:51,347 INFO     Initializing starting point from importance samples
+2024-07-01 16:04:51,382 INFO     Using starting point [ 0.9828, -0.009789, -0.04136, -0.04969, 0.08673, -0.1556, -0.03581, -0.01704, 0.02963, 0.2503, 0.2786, 0.2814, 0.04243, -0.08578, -0.01569, 0.1743, -0.2466, 0.1268, 0.3213, 0.08769, -0.06706, -0.496, -0.07109, 0.2625, 0.242, 0.005442, 0.4355, 0.2928, -0.04119, 0.1596, 0.1294, 0.5156, 0.4636, 0.1258, 0.2302, -0.03027, 0.2622, 0.1922, -0.387, -0.02943, -0.06909, 0.4795, 0.3389, -0.09571, 0.4133, 0.3361, -0.1318, -0.0958 ] from importance samples
+2024-07-01 16:04:51,557 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:51,726 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:51,904 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:52,074 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:52,244 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:52,414 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:52,586 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:52,760 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:52,931 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:53,106 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:53,276 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:53,444 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:53,617 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:53,791 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:53,967 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:54,137 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:54,309 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:54,476 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:54,643 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:54,815 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:54,991 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:55,167 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:55,347 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:55,526 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:55,699 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:55,870 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:56,043 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:56,215 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:56,389 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:56,568 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:56,745 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:56,923 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:57,101 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:57,276 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:57,447 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:57,616 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:57,781 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:57,951 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:58,122 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:58,291 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:58,462 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:58,636 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:58,809 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:58,980 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:59,151 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:59,327 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:59,500 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:59,667 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:04:59,840 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:00,013 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:00,181 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:00,350 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:00,518 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:00,691 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:00,860 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:01,030 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:01,199 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:01,370 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:01,538 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:01,710 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:01,887 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:02,055 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:02,226 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:02,396 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:02,563 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:02,735 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:02,913 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:03,084 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:03,256 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:03,425 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:03,596 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:03,767 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:03,940 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:04,111 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:04,287 INFO     Optimization goal achieved after 49 function evaluations
+2024-07-01 16:05:04,291 INFO     Minimization finished, best point is:
+2024-07-01 16:05:04,291 INFO       - scnull::Re{cVL} -> 0.9828092037808949
+2024-07-01 16:05:04,291 INFO       - scnull::Re{cVR} -> -0.009788830207799137
+2024-07-01 16:05:04,291 INFO       - scnull::Re{cSL} -> -0.041357848709253686
+2024-07-01 16:05:04,291 INFO       - scnull::Re{cSR} -> -0.04968605442708918
+2024-07-01 16:05:04,291 INFO       - scnull::Re{cT} -> 0.08673108200258015
+2024-07-01 16:05:04,291 INFO       - scnull::Im{cVR} -> -0.15564276936435129
+2024-07-01 16:05:04,291 INFO       - scnull::Im{cSL} -> -0.03581453720156538
+2024-07-01 16:05:04,291 INFO       - scnull::Im{cSR} -> -0.017035561405466956
+2024-07-01 16:05:04,291 INFO       - scnull::Im{cT} -> 0.029627490016196523
+2024-07-01 16:05:04,291 INFO       - decay-constant::D_s -> 0.25032419884683166
+2024-07-01 16:05:04,291 INFO       - decay-constant::D_s^* -> 0.2786263432144653
+2024-07-01 16:05:04,291 INFO       - decay-constant::D_s^*,T -> 0.281377302655146
+2024-07-01 16:05:04,291 INFO       - D->K::a^f+_0@BFW2010 -> 0.04242688578652786
+2024-07-01 16:05:04,291 INFO       - D->K::a^f+_1@BFW2010 -> -0.08577512867526038
+2024-07-01 16:05:04,291 INFO       - D->K::a^f+_2@BFW2010 -> -0.015686133187015783
+2024-07-01 16:05:04,291 INFO       - D->K::a^f+_3@BFW2010 -> 0.17427244643633633
+2024-07-01 16:05:04,291 INFO       - D->K::a^f0_1@BFW2010 -> -0.24656307284252743
+2024-07-01 16:05:04,291 INFO       - D->K::a^f0_2@BFW2010 -> 0.12683347750606305
+2024-07-01 16:05:04,291 INFO       - D->K::a^f0_3@BFW2010 -> 0.3213152018280274
+2024-07-01 16:05:04,291 INFO       - D->K::a^fT_0@BFW2010 -> 0.08768878372351126
+2024-07-01 16:05:04,291 INFO       - D->K::a^fT_1@BFW2010 -> -0.06706075442972084
+2024-07-01 16:05:04,291 INFO       - D->K::a^fT_2@BFW2010 -> -0.4959510455857654
+2024-07-01 16:05:04,292 INFO       - D->K::a^fT_3@BFW2010 -> -0.07109131047883044
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.26252117613720094
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.2419954690904702
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> 0.005441763898991314
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> 0.43552323425466155
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> 0.29278099243285016
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.04118877514186833
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.15962363588937586
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.12941418520096581
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.5156215058972468
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.46356872307790586
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.12576684170388774
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.23016484289702616
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.030265204727621706
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.26224436331759216
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.19215985600855745
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> -0.3869990707991876
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> -0.029434058913820338
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.06908774089006253
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> 0.4795149872568376
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> 0.33891663650410364
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.09570601717417432
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> 0.4133009339136844
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> 0.33610807551696453
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> -0.13182470827311032
+2024-07-01 16:05:04,292 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> -0.09580353639400119
+2024-07-01 16:05:04,292 INFO     total chi^2 = 106.25
+2024-07-01 16:05:04,292 INFO     total dof   = 52
+2024-07-01 16:05:04,295 INFO     p value     = 0.00%
+2024-07-01 16:05:04,295 INFO     individual test statistics:
+2024-07-01 16:05:04,295 INFO       - BR::D0-Kenue@PDG2023: chi^2 / dof = 3.83 / 1, local_pvalue = 5.03%
+2024-07-01 16:05:04,296 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 3.56 / 3, local_pvalue = 31.25%
+2024-07-01 16:05:04,296 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 6.62 / 7, local_pvalue = 46.95%
+2024-07-01 16:05:04,297 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 5.17 / 8, local_pvalue = 73.88%
+2024-07-01 16:05:04,297 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 2.52 / 3, local_pvalue = 47.19%
+2024-07-01 16:05:04,298 INFO       - D^+->K0e^+nu::BR@PDG2023: chi^2 / dof = 1.62 / 1, local_pvalue = 20.36%
+2024-07-01 16:05:04,298 INFO       - D^+->K0mu^+nu::BR@BESIII:2016A: chi^2 / dof = 0.14 / 1, local_pvalue = 70.81%
+2024-07-01 16:05:04,299 INFO       - D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: chi^2 / dof = 6.40 / 8, local_pvalue = 60.23%
+2024-07-01 16:05:04,299 INFO       - D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: chi^2 / dof = 21.01 / 17, local_pvalue = 22.59%
+2024-07-01 16:05:04,300 INFO       - D^0->K^-mu^+nu::BR@PDG2023: chi^2 / dof = 0.01 / 1, local_pvalue = 93.22%
+2024-07-01 16:05:04,300 INFO       - D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: chi^2 / dof = 15.60 / 17, local_pvalue = 55.23%
+2024-07-01 16:05:04,301 INFO       - D_s^*->e^+nu::BR@BESIII:2023C: chi^2 / dof = 1.79 / 1, local_pvalue = 18.15%
+2024-07-01 16:05:04,301 INFO       - D_s^+->mu^+nu::BR@BRvDV2024: chi^2 / dof = 2.64 / 1, local_pvalue = 10.41%
+2024-07-01 16:05:04,301 INFO       - D_s^+->tau^+nu::BR@BRvDV2024: chi^2 / dof = 1.88 / 1, local_pvalue = 17.07%
+2024-07-01 16:05:04,302 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 0.13 / 1, local_pvalue = 71.35%
+2024-07-01 16:05:04,303 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 2.68 / 1, local_pvalue = 10.19%
+2024-07-01 16:05:04,303 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.10 / 1, local_pvalue = 74.68%
+2024-07-01 16:05:04,303 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 0.03 / 1, local_pvalue = 86.79%
+2024-07-01 16:05:04,304 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 0.13 / 1, local_pvalue = 71.37%
+2024-07-01 16:05:04,304 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.19 / 1, local_pvalue = 66.23%
+2024-07-01 16:05:04,305 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 0.31 / 1, local_pvalue = 57.90%
+2024-07-01 16:05:04,305 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 2.64 / 1, local_pvalue = 10.40%
+2024-07-01 16:05:04,306 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 24.35 / 17, local_pvalue = 11.03%
+2024-07-01 16:05:04,306 INFO       - Lambda_c->Lambdae^+nu::BR[0.0,q2max]@BESIII:2022A: chi^2 / dof = 0.11 / 1, local_pvalue = 74.03%
+2024-07-01 16:05:04,307 INFO       - Lambda_c->Lambdamu^+nu::BR[0.0,q2max]@BESIII:2023A: chi^2 / dof = 1.46 / 1, local_pvalue = 22.62%
+2024-07-01 16:05:04,307 INFO       - decay-constant::D_s@FLAG:2021A: chi^2 / dof = 0.72 / 1, local_pvalue = 39.62%
+2024-07-01 16:05:04,308 INFO       - decay-constant::D_s^*,T@PZ:2021A: chi^2 / dof = 0.01 / 1, local_pvalue = 93.23%
+2024-07-01 16:05:04,308 INFO       - decay-constant::D_s^*@MDLLSYZ:2024A: chi^2 / dof = 0.59 / 1, local_pvalue = 44.07%

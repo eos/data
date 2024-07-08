@@ -1,0 +1,39 @@
+plot:
+  x:
+    label: '$|V_{cs}|$'
+    range: [ 0.9, 1.02 ]
+  y:
+    range: [ 0.0, 125.0 ]
+  legend:
+    location: 'upper right'
+contents:
+  - type: 'kde'
+    color: 'C0'
+    samples: 300
+    label: 'All data'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-all/samples'
+  - type: 'kde'
+    color: 'C2'
+    samples: 300
+    label: '$D_s^{(*)}\to \ell^+\nu$'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-Ds-Dsstar-to-l-nu/samples'
+  - type: 'kde'
+    color: 'C1'
+    samples: 300
+    label: '$D\to \bar{K} \ell^+\nu$'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-D-to-K-l-nu/samples'
+  - type: 'kde'
+    color: 'C3'
+    label: '$\Lambda_c\to \Lambda \ell^+\nu$'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-Lc-to-L-l-nu/samples'
+  - name: 'expected'
+    type: 'band'
+    color: 'gray'
+    x: [ 0.969, 0.981 ]
+    label: 'PDG 2022'
+  - type: 'watermark'
+    position: [ 'left', 'top' ]

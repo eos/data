@@ -1,0 +1,31 @@
+plot:
+  x:
+    label: '$|V_{cs}|$'
+    range: [ 0.9, 1.02 ]
+  y:
+    range: [ 0.0, 125.0 ]
+  legend:
+    location: 'upper right'
+contents:
+  - type: 'kde'
+    color: 'C0'
+    level: []
+    samples: 300
+    label: 'nominal'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-all/samples'
+  - type: 'kde'
+    color: 'C0'
+    level: []
+    style: "dashed"
+    samples: 300
+    label: 'scale factor'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-all-rescaled/samples'
+  - name: 'expected'
+    type: 'band'
+    color: 'gray'
+    x: [ 0.969, 0.981 ]
+    label: 'PDG 2022'
+  - type: 'watermark'
+    position: [ 'left', 'top' ]

@@ -1,0 +1,15 @@
+parameters:
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+- max: 0.2504
+  min: 0.2494
+  name: decay-constant::D_s
+- max: 0.312
+  min: 0.274
+  name: decay-constant::D_s^*
+- max: 0.3
+  min: 0.2
+  name: decay-constant::D_s^*,T
+type: DynestyResults
+version: 1.0.11

@@ -1,0 +1,39 @@
+{
+    "upload_type": "dataset",
+    "title": "EOS/DATA-2024-01: Supplementary material for EOS/ANALYSIS-2023-08",
+    "description": "Supplementary material including input files, results, and figures for EOS/ANALYSIS-2023-08, a study of the scνℓ sector of the Weak Effective Theory.",
+    "license": "CC-BY-4.0",
+    "creators": [
+        {
+            "orcid": "0000-0003-3752-6789",
+            "affiliation": "Gravitational Waves and Fundamental Physics (GWFP), Maastricht University, Duboisdomein 30, NL-6229, GT Maastricht, the Netherlands",
+            "name": "Bolognani, Carolina"
+        },
+        {
+            "orcid": "0000-0001-6033-3606",
+            "affiliation": "Universit ́e Paris-Saclay, CNRS/IN2P3, IJCLab, 91405 Orsay, France",
+            "name": "Reboud, Méril"
+        },
+        {
+            "orcid": "0000-0002-7668-810X",
+            "affiliation": "Institute for Particle Physics Phenomenology and Department of Physics, Durham University, Durham DH1 3LE, UK",
+            "name": "van Dyk, Danny"
+        },
+        {
+            "orcid": "0000-0002-4258-4062",
+            "affiliation": "Gravitational Waves and Fundamental Physics (GWFP), Maastricht University, Duboisdomein 30, NL-6229, GT Maastricht, the Netherlands",
+            "name": "Vos, K. Keri"
+        }
+    ],
+    "grants": [
+      {
+        "id": "10.13039/100014013::ST/V003941/1"
+      },
+      {
+        "id": "10.13039/100014013::ST/X003167/1"
+      },
+      {
+        "id": "10.13039/501100003246::VI.Vidi.223.083"
+      }
+    ]
+}

@@ -1,0 +1,178 @@
+local_pvalues:
+  D->K::f_++f_0@ETM:2017B: 0.33374836923839823
+  D->K::f_++f_0@FNALMILC:2022A: 0.9978591247569166
+  D->K::f_0+f_++f_T@HPQCD:2022A: 0.9637033671549795
+  D->K::f_T@ETM:2018A: 0.33559152649024926
+  Lambda_c->Lambda::f_long^T5_f_long^A@HQET: 0.9997626701672383
+  Lambda_c->Lambda::f_long^T5_f_long^A@SCET: 0.9999878308554602
+  Lambda_c->Lambda::f_long^T_f_long^V@HQET: 0.999816839364451
+  Lambda_c->Lambda::f_long^T_f_long^V@SCET: 0.9998536280410965
+  Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: 0.9998243490582264
+  Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: 0.5770313758191572
+  Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: 0.9998798433911646
+  Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: 0.2894509297026088
+  Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: 0.6427957268858233
+  decay-constant::D_s@FLAG:2021A: 0.9860888458557616
+  decay-constant::D_s^*,T@PZ:2021A: 0.999565948674706
+  decay-constant::D_s^*@MDLLSYZ:2024A: 0.9997468038918689
+mode:
+- 0.24989128203521535
+- 0.27399809599439706
+- 0.28236763279273386
+- 0.04253998817864466
+- -0.08332566727520221
+- -0.014901543905615128
+- 0.41371241285688476
+- -0.24117820776124893
+- 0.15624934430415885
+- 0.6342872316338887
+- 0.08572634231797645
+- -0.09012028285414812
+- -0.217993828306686
+- 0.8528906532472549
+- 0.4869306880606138
+- 0.3487479975847194
+- -0.08451825681401487
+- 0.24622991022900886
+- 0.23586776929124986
+- -0.02803224741103602
+- 0.28429776259693074
+- 0.19512484970039917
+- 0.4506604069731053
+- 0.4474349242180489
+- 0.8670503944051273
+- 0.694444321400824
+- -0.03425717195349688
+- 0.2642673487783991
+- 0.1963377076929405
+- -0.07303793559442062
+- 0.17869900916949333
+- -0.08922502304663493
+- -0.08583363721650283
+- 0.02355026917356362
+- -0.01902607983311433
+- -0.8330585340213091
+- -0.48888143708328224
+- -0.4870713465987708
+- -0.1815442896835472
+parameters:
+- max: 0.2504
+  min: 0.2494
+  name: decay-constant::D_s
+- max: 0.312
+  min: 0.274
+  name: decay-constant::D_s^*
+- max: 0.3
+  min: 0.2
+  name: decay-constant::D_s^*,T
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,V)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,V)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,V)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,V)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,V)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,A)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,A)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,A)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,A)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,A)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022
+pvalue: 0.004049662612856331
+type: Mode
+version: 1.0.11

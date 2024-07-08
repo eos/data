@@ -1,0 +1,71 @@
+2024-06-25 15:40:05,827 INFO     Creating analysis with 39 priors, 5 EOS-wide constraints, 1 global options, 21 manually-entered constraints and 2 fixed parameters.
+2024-06-25 15:40:06,234 INFO     likelihood probably depends on 28 parameter(s) that do not appear in the prior; check prior?
+2024-06-25 15:40:06,234 INFO     Starting minimization in 3 points
+2024-06-25 15:40:06,235 INFO     Initializing starting point from importance samples
+2024-06-25 15:40:06,250 INFO     Using starting point [ 0.2494, 0.2715, 0.2974, 0.04314, -0.08638, -0.09408, 0.5293, -0.2367, 0.1156, 0.866, 0.08596, -0.06432, -0.4368, 0.1705, 0.1813, 0.1975, -0.1663, 0.02744, 0.1586, -0.07025, 0.001863, 0.05645, 0.2952, 0.3674, 0.7163, 0.5985, -0.04191, 0.2812, 0.2124, -0.3441, 0.1352, 0.2933, -0.1884, -0.2447, -0.006797, 0.3127, 0.2124, 0.5273, 0.4289 ] from importance samples
+2024-06-25 15:40:10,218 WARNING  Optimization did not succeed
+2024-06-25 15:40:10,218 WARNING    optimizer message reads: Iteration limit reached
+2024-06-25 15:40:14,193 WARNING  Optimization did not succeed
+2024-06-25 15:40:14,193 WARNING    optimizer message reads: Iteration limit reached
+2024-06-25 15:40:18,267 WARNING  Optimization did not succeed
+2024-06-25 15:40:18,267 WARNING    optimizer message reads: Iteration limit reached
+2024-06-25 15:40:18,268 INFO     Minimization finished, best point is:
+2024-06-25 15:40:18,268 INFO       - decay-constant::D_s -> 0.24989149117596196
+2024-06-25 15:40:18,268 INFO       - decay-constant::D_s^* -> 0.27400111802220123
+2024-06-25 15:40:18,269 INFO       - decay-constant::D_s^*,T -> 0.2823721765949707
+2024-06-25 15:40:18,269 INFO       - D->K::a^f+_0@BFW2010 -> 0.04254074257024055
+2024-06-25 15:40:18,269 INFO       - D->K::a^f+_1@BFW2010 -> -0.08335011801161218
+2024-06-25 15:40:18,269 INFO       - D->K::a^f+_2@BFW2010 -> -0.015053542276898868
+2024-06-25 15:40:18,269 INFO       - D->K::a^f+_3@BFW2010 -> 0.4120799210313181
+2024-06-25 15:40:18,269 INFO       - D->K::a^f0_1@BFW2010 -> -0.24120470192396187
+2024-06-25 15:40:18,269 INFO       - D->K::a^f0_2@BFW2010 -> 0.15583897782245273
+2024-06-25 15:40:18,269 INFO       - D->K::a^f0_3@BFW2010 -> 0.6314098826438915
+2024-06-25 15:40:18,269 INFO       - D->K::a^fT_0@BFW2010 -> 0.08572656771873942
+2024-06-25 15:40:18,270 INFO       - D->K::a^fT_1@BFW2010 -> -0.09010716408167911
+2024-06-25 15:40:18,270 INFO       - D->K::a^fT_2@BFW2010 -> -0.21817573517691186
+2024-06-25 15:40:18,270 INFO       - D->K::a^fT_3@BFW2010 -> 0.8556615142237929
+2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.4873584640509584
+2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.34897845115435056
+2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> -0.08453460531033158
+2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> 0.2462875498090178
+2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> 0.23591190103428894
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.028028801180987883
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.28441505470076134
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.19519141666124895
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.4506825791070475
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.44747569994754455
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.8683836017858333
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.6952960142972078
+2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.03426240373761048
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.2643309075772776
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.1963810015409897
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> -0.19461564893538108
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> 0.11703360470795676
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.07739510273167116
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> 0.006766934625287657
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> 0.0704910930968976
+2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.019452065915336547
+2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> -0.2264538960257465
+2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> -0.11283882543079193
+2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> 0.19274927054578583
+2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> 0.23991152145508998
+2024-06-25 15:40:18,273 INFO     total chi^2 = 25.78
+2024-06-25 15:40:18,273 INFO     total dof   = 10
+2024-06-25 15:40:18,277 INFO     p value     = 0.41%
+2024-06-25 15:40:18,277 INFO     individual test statistics:
+2024-06-25 15:40:18,278 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 3.41 / 3, local_pvalue = 33.31%
+2024-06-25 15:40:18,279 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 0.75 / 7, local_pvalue = 99.79%
+2024-06-25 15:40:18,279 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 2.46 / 8, local_pvalue = 96.36%
+2024-06-25 15:40:18,280 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 3.39 / 3, local_pvalue = 33.57%
+2024-06-25 15:40:18,280 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.98%
+2024-06-25 15:40:18,281 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-06-25 15:40:18,281 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.95%
+2024-06-25 15:40:18,282 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.97%
+2024-06-25 15:40:18,282 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-06-25 15:40:18,283 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.31 / 1, local_pvalue = 57.68%
+2024-06-25 15:40:18,283 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.98%
+2024-06-25 15:40:18,284 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 1.12 / 1, local_pvalue = 28.95%
+2024-06-25 15:40:18,284 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 14.34 / 17, local_pvalue = 64.29%
+2024-06-25 15:40:18,285 INFO       - decay-constant::D_s@FLAG:2021A: chi^2 / dof = 0.00 / 1, local_pvalue = 98.64%
+2024-06-25 15:40:18,285 INFO       - decay-constant::D_s^*,T@PZ:2021A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.98%
+2024-06-25 15:40:18,286 INFO       - decay-constant::D_s^*@MDLLSYZ:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%

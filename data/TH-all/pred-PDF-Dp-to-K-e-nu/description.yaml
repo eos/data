@@ -1,0 +1,35 @@
+observables:
+- kinematics:
+    q2_max: 0.2
+    q2_min: 5.0e-06
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 0.4
+    q2_min: 0.2
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 0.6
+    q2_min: 0.4
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 0.8
+    q2_min: 0.6
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 1.0
+    q2_min: 0.8
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 1.2
+    q2_min: 1.0
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 1.4
+    q2_min: 1.2
+  name: D->Klnu::P(q2_min,q2_max)
+- kinematics:
+    q2_max: 1.6
+    q2_min: 1.4
+  name: D->Klnu::P(q2_min,q2_max)
+type: Prediction
+version: 1.0.11

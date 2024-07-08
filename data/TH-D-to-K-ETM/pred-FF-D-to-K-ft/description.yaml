@@ -1,0 +1,81 @@
+observables:
+- kinematics:
+    q2: -0.5
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: -0.4
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: -0.3
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: -0.2
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: -0.1
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.0
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.1
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.2
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.3
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.4
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.5
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.6
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.7
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.8
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 0.9
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.0
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.1
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.2
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.3
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.4
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.5
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.6
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.7
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.8
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 1.9
+  name: D->K::f_T(q2)
+- kinematics:
+    q2: 2.0
+  name: D->K::f_T(q2)
+type: Prediction
+version: 1.0.12

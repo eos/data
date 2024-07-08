@@ -1,0 +1,224 @@
+local_pvalues:
+  BR::D0-Kenue@PDG2023: 0.07865525184138933
+  D->K::f_++f_0@FNALMILC:2022A: 0.11280043791156247
+  D->K::f_0+f_++f_T@HPQCD:2022A: 0.18699680068493574
+  D^+->K0e^+nu::BR@PDG2023: 0.1615147045442097
+  D^+->K0mu^+nu::BR@BESIII:2016A: 0.6847188653161733
+  D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: 0.8465083066465453
+  D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: 0.45242588104723924
+  D^0->K^-mu^+nu::BR@PDG2023: 0.877235378265125
+  D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: 0.4906294001954168
+  D_s^*->e^+nu::BR@BESIII:2023C: 0.2678813050212394
+  D_s^+->mu^+nu::BR@BRvDV2024: 0.07217070484667598
+  D_s^+->tau^+nu::BR@BRvDV2024: 0.9524432022988899
+  Lambda_c->Lambda::f_long^T5_f_long^A@HQET: 0.7955264352985494
+  Lambda_c->Lambda::f_long^T5_f_long^A@SCET: 0.4942624734014912
+  Lambda_c->Lambda::f_long^T_f_long^V@HQET: 0.9367169708977899
+  Lambda_c->Lambda::f_long^T_f_long^V@SCET: 0.9745151273468502
+  Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: 0.7956047644298765
+  Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: 0.1478633415960482
+  Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: 0.9265884823692307
+  Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: 0.6271556668958557
+  Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: 0.030340115162869163
+  Lambda_c->Lambdae^+nu::BR[0.0,q2max]@BESIII:2022A: 0.5515906595128288
+  Lambda_c->Lambdamu^+nu::BR[0.0,q2max]@BESIII:2023A: 0.7872367622271006
+  decay-constant::D_s@FLAG:2021A: 0.5889256295777889
+  decay-constant::D_s^*,T@PZ:2021A: 0.7997136873557884
+  decay-constant::D_s^*@MDLLSYZ:2024A: 0.29983685328002374
+mode:
+- 0.968515650452329
+- -0.015250654968765869
+- 0.017246248154271386
+- 0.010988826878506663
+- -0.028415038332823897
+- 0.25600651385717255
+- -0.030139359115679193
+- -0.04304724908164923
+- 0.08355775799848048
+- 0.25017019679345487
+- 0.26777930011122575
+- 0.2782492405384299
+- 0.042542988731605835
+- -0.08559348306171122
+- -0.022532227192905707
+- 0.33179869105173
+- -0.24207840225450608
+- 0.1313226112857659
+- 0.5176736355633521
+- 0.08774536886723396
+- -0.13181271997305039
+- 0.06540241124185309
+- 0.2560352455491084
+- 0.397292477333158
+- 0.320916555028127
+- -0.12404484723199427
+- 0.27600566764445134
+- 0.27268734598911126
+- -0.03979894922814517
+- 0.25552000241237116
+- 0.18447249297408014
+- 0.4639689803751851
+- 0.4463560885538429
+- 0.6366831230624279
+- 0.5765971073056406
+- -0.04104765107505531
+- 0.32721805776491686
+- 0.23988610071572647
+- -0.695172724941681
+- -0.16498943441576008
+- -0.09341682698491016
+- 0.09108362784884139
+- 0.12760854667396293
+- 0.031612129456910665
+- 0.2689106973887836
+- 0.1583977065301101
+- -0.2655976484297592
+- 0.00554859017801701
+parameters:
+- max: 1.03
+  min: 0.88
+  name: scnull::Re{cVL}
+- max: 0.02
+  min: -0.05
+  name: scnull::Re{cVR}
+- max: 0.055
+  min: -0.055
+  name: scnull::Re{cSL}
+- max: 0.055
+  min: -0.07
+  name: scnull::Re{cSR}
+- max: 0.12
+  min: -0.12
+  name: scnull::Re{cT}
+- max: 0.8
+  min: -0.8
+  name: scnull::Im{cVR}
+- max: 0.1
+  min: -0.1
+  name: scnull::Im{cSL}
+- max: 0.1
+  min: -0.1
+  name: scnull::Im{cSR}
+- max: 0.25
+  min: -0.25
+  name: scnull::Im{cT}
+- max: 0.2504
+  min: 0.2494
+  name: decay-constant::D_s
+- max: 0.312
+  min: 0.274
+  name: decay-constant::D_s^*
+- max: 0.3
+  min: 0.2
+  name: decay-constant::D_s^*,T
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,V)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,V)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,V)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,V)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,V)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,A)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(t,A)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,A)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,A)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,A)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022
+pvalue: 1.9066046065274733e-06
+type: Mode
+version: 1.0.11

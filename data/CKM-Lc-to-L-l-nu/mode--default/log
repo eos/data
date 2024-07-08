@@ -1,0 +1,50 @@
+2024-06-15 20:19:30,532 INFO     Creating analysis with 26 priors, 3 EOS-wide constraints, 1 global options, 18 manually-entered constraints and 1 fixed parameters.
+2024-06-15 20:19:30,962 INFO     likelihood probably depends on 94 parameter(s) that do not appear in the prior; check prior?
+2024-06-15 20:19:30,963 INFO     Starting minimization in 3 points
+2024-06-15 20:19:30,963 INFO     Initializing starting point from importance samples
+2024-06-15 20:19:30,994 INFO     Using starting point [ 0.9672, 0.358, 0.2686, -0.3159, -0.977, -0.3427, -0.01696, 0.3376, 0.2196, 0.378, 0.4229, 0.6029, 0.5487, -0.03633, 0.233, 0.1784, 0.6907, 0.5534, -0.2732, -0.06669, 0.1383, -0.02501, 0.5639, 0.3775, -0.4506, -0.1727 ] from importance samples
+2024-06-15 20:19:31,133 INFO     Optimization goal achieved after 27 function evaluations
+2024-06-15 20:19:31,271 INFO     Optimization goal achieved after 27 function evaluations
+2024-06-15 20:19:31,403 INFO     Optimization goal achieved after 27 function evaluations
+2024-06-15 20:19:31,405 INFO     Minimization finished, best point is:
+2024-06-15 20:19:31,405 INFO       - CKM::abs(V_cs) -> 0.9672040623750797
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.3580137741566062
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.2685955625232419
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> -0.31588773174576573
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> -0.9769802725712416
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> -0.3427236302894035
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.01696475783342967
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.33761820601810255
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.21960490234462232
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.37800462797895873
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.42291036385728137
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.602864033991974
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.5487324152933775
+2024-06-15 20:19:31,405 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.03632637843042361
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.23300319339586656
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.17836547729577162
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> 0.6906553300790703
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> 0.5533786176653257
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.27318049550328605
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> -0.06668998276139482
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> 0.13834706375935957
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.025006197574426403
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> 0.5639446845753928
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> 0.3775009438007666
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> -0.45061372567518976
+2024-06-15 20:19:31,406 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> -0.17267252543476308
+2024-06-15 20:19:31,406 INFO     total chi^2 = 35.58
+2024-06-15 20:19:31,406 INFO     total dof   = 1
+2024-06-15 20:19:31,408 INFO     p value     = 0.00%
+2024-06-15 20:19:31,408 INFO     individual test statistics:
+2024-06-15 20:19:31,408 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 0.36 / 1, local_pvalue = 55.07%
+2024-06-15 20:19:31,409 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 0.43 / 1, local_pvalue = 51.07%
+2024-06-15 20:19:31,410 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.57 / 1, local_pvalue = 44.86%
+2024-06-15 20:19:31,410 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 0.93 / 1, local_pvalue = 33.42%
+2024-06-15 20:19:31,411 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 0.36 / 1, local_pvalue = 55.07%
+2024-06-15 20:19:31,411 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.04 / 1, local_pvalue = 83.29%
+2024-06-15 20:19:31,412 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 0.25 / 1, local_pvalue = 61.99%
+2024-06-15 20:19:31,412 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 1.95 / 1, local_pvalue = 16.26%
+2024-06-15 20:19:31,413 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 30.40 / 17, local_pvalue = 2.36%
+2024-06-15 20:19:31,413 INFO       - Lambda_c->Lambdae^+nu::BR[0.0,q2max]@BESIII:2022A: chi^2 / dof = 0.25 / 1, local_pvalue = 61.73%
+2024-06-15 20:19:31,414 INFO       - Lambda_c->Lambdamu^+nu::BR[0.0,q2max]@BESIII:2023A: chi^2 / dof = 0.04 / 1, local_pvalue = 85.15%

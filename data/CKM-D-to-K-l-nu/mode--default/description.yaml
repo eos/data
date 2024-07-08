@@ -1,0 +1,63 @@
+local_pvalues:
+  BR::D0-Kenue@PDG2023: 0.2519809423648176
+  D->K::f_++f_0@FNALMILC:2022A: 0.8048163012935965
+  D->K::f_0+f_++f_T@HPQCD:2022A: 0.4749680451885451
+  D^+->K0e^+nu::BR@PDG2023: 0.07151367999483194
+  D^+->K0mu^+nu::BR@BESIII:2016A: 0.7868188036910095
+  D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: 0.890139243625681
+  D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: 0.27650055460030587
+  D^0->K^-mu^+nu::BR@PDG2023: 0.9203835354291703
+  D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: 0.5269486232335386
+mode:
+- 0.9531054700360251
+- 0.0430919986963141
+- -0.09405112563379316
+- -0.01369020754236934
+- 0.40037776846735773
+- -0.2416036409076412
+- 0.1470203826076347
+- 0.5784474264492152
+- 0.0888316724896304
+- -0.11460119369866797
+- -0.12512064479165608
+- 0.507414367194732
+parameters:
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f+_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^f0_3@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: D->K::a^fT_3@BFW2010
+pvalue: 0.24211766734111628
+type: Mode
+version: 1.0.11

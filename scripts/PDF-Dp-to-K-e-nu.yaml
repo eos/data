@@ -1,0 +1,24 @@
+plot:
+  x:
+    label: '$q^2$'
+    range: [-0.1 , 2.0]
+  y:
+    label: '$P(q^2)$ for $D^+\to \overline{K}^0 e^+\nu$'
+    range: [0.0,1.25]
+  legend:
+    location: 'upper right'
+contents:
+  - label: 'BESIII:2017'
+    type: 'constraint'
+    color: 'black'
+    constraints: 'D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A'
+    variable: 'q2'
+    observable: 'D->Klnu::P(q2_min,q2_max)'
+  - label: 'theory only'
+    type: 'uncertainty-binned'
+    color: 'blue'
+    opacity: 0.5
+    variable: 'q2'
+    data-file: 'data/TH-all/pred-PDF-Dp-to-K-e-nu'
+  - type: 'watermark'
+    position: ['left', 'top']

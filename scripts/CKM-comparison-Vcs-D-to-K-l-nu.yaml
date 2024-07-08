@@ -1,0 +1,28 @@
+plot:
+  x:
+    label: '$|V_{cs}|$'
+    range: [ 0.9, 1.02 ]
+  y:
+    range: [ 0.0, 125.0 ]
+  legend:
+    location: 'upper right'
+contents:
+  - type: 'kde'
+    color: 'C1'
+    samples: 300
+    label: '$D\to \bar{K} \ell^+\nu$'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-D-to-K-l-nu/samples'
+  - type: 'kde'
+    color: 'C9'
+    samples: 300
+    label: '$D\to \bar{K} \ell^+\nu$ (rescaled)'
+    variable: 'CKM::abs(V_cs)'
+    data-file: 'data/CKM-D-to-K-l-nu-rescaled/samples'
+  - name: 'expected'
+    type: 'band'
+    color: 'gray'
+    x: [ 0.969, 0.981 ]
+    label: 'PDG 2022'
+  - type: 'watermark'
+    position: [ 'left', 'top' ]

@@ -1,0 +1,34 @@
+2024-06-15 20:06:15,503 INFO     Creating analysis with 12 priors, 5 EOS-wide constraints, 1 global options, 14 manually-entered constraints and 1 fixed parameters.
+2024-06-15 20:06:15,955 INFO     likelihood probably depends on 110 parameter(s) that do not appear in the prior; check prior?
+2024-06-15 20:06:15,955 INFO     Starting minimization in 3 points
+2024-06-15 20:06:15,955 INFO     Initializing starting point from importance samples
+2024-06-15 20:06:15,977 INFO     Using starting point [ 0.9558, 0.04297, -0.09389, 0.0113, 0.5642, -0.2385, 0.1809, 0.8902, 0.09012, -0.1014, 0.05451, 0.8582 ] from importance samples
+2024-06-15 20:06:16,950 INFO     Optimization goal achieved after 742 function evaluations
+2024-06-15 20:06:17,327 INFO     Optimization goal achieved after 289 function evaluations
+2024-06-15 20:06:17,688 INFO     Optimization goal achieved after 275 function evaluations
+2024-06-15 20:06:17,690 INFO     Minimization finished, best point is:
+2024-06-15 20:06:17,690 INFO       - CKM::abs(V_cs) -> 0.9531054700360251
+2024-06-15 20:06:17,690 INFO       - D->K::a^f+_0@BFW2010 -> 0.0430919986963141
+2024-06-15 20:06:17,690 INFO       - D->K::a^f+_1@BFW2010 -> -0.09405112563379316
+2024-06-15 20:06:17,690 INFO       - D->K::a^f+_2@BFW2010 -> -0.01369020754236934
+2024-06-15 20:06:17,690 INFO       - D->K::a^f+_3@BFW2010 -> 0.40037776846735773
+2024-06-15 20:06:17,690 INFO       - D->K::a^f0_1@BFW2010 -> -0.2416036409076412
+2024-06-15 20:06:17,690 INFO       - D->K::a^f0_2@BFW2010 -> 0.1470203826076347
+2024-06-15 20:06:17,690 INFO       - D->K::a^f0_3@BFW2010 -> 0.5784474264492152
+2024-06-15 20:06:17,690 INFO       - D->K::a^fT_0@BFW2010 -> 0.0888316724896304
+2024-06-15 20:06:17,690 INFO       - D->K::a^fT_1@BFW2010 -> -0.11460119369866797
+2024-06-15 20:06:17,690 INFO       - D->K::a^fT_2@BFW2010 -> -0.12512064479165608
+2024-06-15 20:06:17,690 INFO       - D->K::a^fT_3@BFW2010 -> 0.507414367194732
+2024-06-15 20:06:17,690 INFO     total chi^2 = 55.53
+2024-06-15 20:06:17,690 INFO     total dof   = 49
+2024-06-15 20:06:17,693 INFO     p value     = 24.21%
+2024-06-15 20:06:17,693 INFO     individual test statistics:
+2024-06-15 20:06:17,694 INFO       - BR::D0-Kenue@PDG2023: chi^2 / dof = 1.31 / 1, local_pvalue = 25.20%
+2024-06-15 20:06:17,695 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 3.78 / 7, local_pvalue = 80.48%
+2024-06-15 20:06:17,695 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 7.59 / 8, local_pvalue = 47.50%
+2024-06-15 20:06:17,696 INFO       - D^+->K0e^+nu::BR@PDG2023: chi^2 / dof = 3.25 / 1, local_pvalue = 7.15%
+2024-06-15 20:06:17,696 INFO       - D^+->K0mu^+nu::BR@BESIII:2016A: chi^2 / dof = 0.07 / 1, local_pvalue = 78.68%
+2024-06-15 20:06:17,697 INFO       - D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: chi^2 / dof = 3.61 / 8, local_pvalue = 89.01%
+2024-06-15 20:06:17,697 INFO       - D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: chi^2 / dof = 19.96 / 17, local_pvalue = 27.65%
+2024-06-15 20:06:17,698 INFO       - D^0->K^-mu^+nu::BR@PDG2023: chi^2 / dof = 0.01 / 1, local_pvalue = 92.04%
+2024-06-15 20:06:17,698 INFO       - D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: chi^2 / dof = 15.96 / 17, local_pvalue = 52.69%
