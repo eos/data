@@ -7,6 +7,11 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2024-01">2024-01</a></td>
+  <td>Constraining $\boldsymbol{|V_{cs}|}$ and physics beyond the Standard Model from exclusive (semi)leptonic charm decays</td>
+  <td>C.&nbsp;Bolognani<br/>M.&nbsp;Reboud<br/>D.&nbsp;van&nbsp;Dyk<br/>K.&nbsp;Keri&nbsp;Vos</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2023-03">2023-03</a></td>
   <td>New determination of $|V_{ub}/V_{cb}|$ from $B_s^0\to \lbrace K^-, D_s^- \rbrace \mu^+\nu$</td>
   <td>C.&nbsp;Bolognani<br/>D.&nbsp;van&nbsp;Dyk<br/>K.&nbsp;Keri&nbsp;Vos</td>

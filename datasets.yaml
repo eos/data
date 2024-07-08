@@ -1,3 +1,18 @@
+2024-01:
+  authors:
+    - C. Bolognani
+    - M. Reboud
+    - D. van Dyk
+    - K. Keri Vos
+  title: ''
+  doi: 10.5281/zenodo.12688257
+  likelihoods: {}
+  keywords:
+    - WET
+    - scnul
+    - form-factors
+  eos_version: 1.0.12
+
 2023-03:
   authors:
     - C. Bolognani
