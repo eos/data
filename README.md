@@ -89,21 +89,75 @@ model in the scale factor scenario.
   </td>
 </tr>
 <tr>
+  <td><a href="figures/FF-Lc-to-L-fperpV.pdf?raw=true"><img src="/figures/FF-Lc-to-L-fperpV.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{\perp,V}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-flongV.pdf?raw=true"><img src="/figures/FF-Lc-to-L-flongV.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{0,V}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-ftimeV.pdf?raw=true"><img src="/figures/FF-Lc-to-L-ftimeV.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{t,V}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-fperpA.pdf?raw=true"><img src="/figures/FF-Lc-to-L-fperpA.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{\perp,A}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-flongA.pdf?raw=true"><img src="/figures/FF-Lc-to-L-flongA.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{0,A}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-ftimeA.pdf?raw=true"><img src="/figures/FF-Lc-to-L-ftimeA.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{t,A}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-fperpT.pdf?raw=true"><img src="/figures/FF-Lc-to-L-fperpT.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{\perp,T}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-flongT.pdf?raw=true"><img src="/figures/FF-Lc-to-L-flongT.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{0,T}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-fperpT5.pdf?raw=true"><img src="/figures/FF-Lc-to-L-fperpT5.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{\perp,T5}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF-Lc-to-L-flongT5.pdf?raw=true"><img src="/figures/FF-Lc-to-L-flongT5.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>Prior-predictive distributions for the $\Lambda_c\to \Lambda$ form factor $f_{0,T5}$ as function of the
+squared momentum transfer $q^2$ at truncation order K = 2.
+  </td>
+</tr>
+<tr>
   <td><a href="figures/FF-saturation-0mA.pdf?raw=true"><img src="/figures/FF-saturation-0mA.png?raw=true" width="1000px" height="auto"></a></td>
   <td>
   Posterior-predictive distributions of the saturation of the $J^P = 0^-$ bound for the axial current in the nominal scenario.
   </td>
 </tr>
 <tr>
-  <td><a href="figures/FF-saturation-1pA-long.pdf?raw=true"><img src="/figures/FF-saturation-1pA-long.png?raw=true" width="1000px" height="auto"></a></td>
+  <td><a href="figures/FF-saturation-1pA.pdf?raw=true"><img src="/figures/FF-saturation-1pA.png?raw=true" width="1000px" height="auto"></a></td>
   <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^+$ bound for the longitudinally polarized axial current in the nominal scenario.
-  </td>
-</tr>
-<tr>
-  <td><a href="figures/FF-saturation-1pA-perp.pdf?raw=true"><img src="/figures/FF-saturation-1pA-perp.png?raw=true" width="1000px" height="auto"></a></td>
-  <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^+$ bound for the perpendicularly polarized axial current in the nominal scenario.
+  Posterior-predictive distributions of the saturation of the $J^P = 1^+$ bound for the axial current in the nominal scenario.
   </td>
 </tr>
 <tr>
@@ -113,39 +167,21 @@ model in the scale factor scenario.
   </td>
 </tr>
 <tr>
-  <td><a href="figures/FF-saturation-1mV-long.pdf?raw=true"><img src="/figures/FF-saturation-1mV-long.png?raw=true" width="1000px" height="auto"></a></td>
+  <td><a href="figures/FF-saturation-1mV.pdf?raw=true"><img src="/figures/FF-saturation-1mV.png?raw=true" width="1000px" height="auto"></a></td>
   <td>
   Posterior-predictive distributions of the saturation of the $J^P = 1^-$ bound for the longitudinally polarized vector current in the nominal scenario.
   </td>
 </tr>
 <tr>
-  <td><a href="figures/FF-saturation-1mV-perp.pdf?raw=true"><img src="/figures/FF-saturation-1mV-perp.png?raw=true" width="1000px" height="auto"></a></td>
+  <td><a href="figures/FF-saturation-1mT.pdf?raw=true"><img src="/figures/FF-saturation-1mT.png?raw=true" width="1000px" height="auto"></a></td>
   <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^-$ bound for the perpendicularly polarized vector current in the nominal scenario.
+  Posterior-predictive distributions of the saturation of the $J^P = 1^-$ bound for the tensor current in the nominal scenario.
   </td>
 </tr>
 <tr>
-  <td><a href="figures/FF-saturation-1mT-long.pdf?raw=true"><img src="/figures/FF-saturation-1mT-long.png?raw=true" width="1000px" height="auto"></a></td>
+  <td><a href="figures/FF-saturation-1pT5.pdf?raw=true"><img src="/figures/FF-saturation-1pT5.png?raw=true" width="1000px" height="auto"></a></td>
   <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^-$ bound for the longitudinally polarized tensor current in the nominal scenario.
-  </td>
-</tr>
-<tr>
-  <td><a href="figures/FF-saturation-1mT-perp.pdf?raw=true"><img src="/figures/FF-saturation-1mT-perp.png?raw=true" width="1000px" height="auto"></a></td>
-  <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^-$ bound for the perpendicularly polarized tensor current in the nominal scenario.
-  </td>
-</tr>
-<tr>
-  <td><a href="figures/FF-saturation-1pT5-long.pdf?raw=true"><img src="/figures/FF-saturation-1pT5-long.png?raw=true" width="1000px" height="auto"></a></td>
-  <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^+$ bound for the longitudinally polarized tensor current in the nominal scenario.
-  </td>
-</tr>
-<tr>
-  <td><a href="figures/FF-saturation-1pT5-perp.pdf?raw=true"><img src="/figures/FF-saturation-1pT5-perp.png?raw=true" width="1000px" height="auto"></a></td>
-  <td>
-  Posterior-predictive distributions of the saturation of the $J^P = 1^+$ bound for the perpendicularly polarized tensor current in the nominal scenario.
+  Posterior-predictive distributions of the saturation of the $J^P = 1^+$ bound for the tensor current in the nominal scenario.
   </td>
 </tr>
 </table>

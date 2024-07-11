@@ -1,38 +1,108 @@
-2024-06-21 11:04:05,244 INFO     Creating analysis with 12 priors, 7 EOS-wide constraints, 1 global options, 14 manually-entered constraints and 1 fixed parameters.
-2024-06-21 11:04:05,614 INFO     likelihood probably depends on 110 parameter(s) that do not appear in the prior; check prior?
-2024-06-21 11:04:05,615 INFO     Starting minimization in 3 points
-2024-06-21 11:04:05,615 INFO     Initializing starting point from importance samples
-2024-06-21 11:04:05,638 INFO     Using starting point [ 0.9618, 0.04283, -0.09316, -0.04107, 0.6653, -0.2419, 0.2447, 0.8516, 0.08418, -0.05197, 0.06601, 0.5347 ] from importance samples
-2024-06-21 11:04:07,180 WARNING  Optimization did not succeed
-2024-06-21 11:04:07,180 WARNING    optimizer message reads: Iteration limit reached
-2024-06-21 11:04:08,719 WARNING  Optimization did not succeed
-2024-06-21 11:04:08,719 WARNING    optimizer message reads: Iteration limit reached
-2024-06-21 11:04:09,427 INFO     Optimization goal achieved after 629 function evaluations
-2024-06-21 11:04:09,429 INFO     Minimization finished, best point is:
-2024-06-21 11:04:09,429 INFO       - CKM::abs(V_cs) -> 0.9564924140862228
-2024-06-21 11:04:09,429 INFO       - D->K::a^f+_0@BFW2010 -> 0.042981501250628905
-2024-06-21 11:04:09,429 INFO       - D->K::a^f+_1@BFW2010 -> -0.09498357679967112
-2024-06-21 11:04:09,429 INFO       - D->K::a^f+_2@BFW2010 -> -0.01972817764059144
-2024-06-21 11:04:09,429 INFO       - D->K::a^f+_3@BFW2010 -> 0.20208266396320237
-2024-06-21 11:04:09,429 INFO       - D->K::a^f0_1@BFW2010 -> -0.2457760269320791
-2024-06-21 11:04:09,429 INFO       - D->K::a^f0_2@BFW2010 -> 0.11476112505852137
-2024-06-21 11:04:09,429 INFO       - D->K::a^f0_3@BFW2010 -> 0.228369207053179
-2024-06-21 11:04:09,429 INFO       - D->K::a^fT_0@BFW2010 -> 0.08582647520860667
-2024-06-21 11:04:09,429 INFO       - D->K::a^fT_1@BFW2010 -> -0.09237295744005886
-2024-06-21 11:04:09,429 INFO       - D->K::a^fT_2@BFW2010 -> -0.22392304130441187
-2024-06-21 11:04:09,429 INFO       - D->K::a^fT_3@BFW2010 -> 0.8843684800327636
-2024-06-21 11:04:09,429 INFO     total chi^2 = 55.59
-2024-06-21 11:04:09,429 INFO     total dof   = 55
-2024-06-21 11:04:09,432 INFO     p value     = 45.24%
-2024-06-21 11:04:09,432 INFO     individual test statistics:
-2024-06-21 11:04:09,433 INFO       - BR::D0-Kenue@PDG2023: chi^2 / dof = 1.33 / 1, local_pvalue = 24.91%
-2024-06-21 11:04:09,434 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 6.03 / 3, local_pvalue = 11.01%
-2024-06-21 11:04:09,434 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 0.77 / 7, local_pvalue = 99.77%
-2024-06-21 11:04:09,435 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 2.62 / 8, local_pvalue = 95.59%
-2024-06-21 11:04:09,435 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 3.46 / 3, local_pvalue = 32.55%
-2024-06-21 11:04:09,435 INFO       - D^+->K0e^+nu::BR@PDG2023: chi^2 / dof = 3.23 / 1, local_pvalue = 7.22%
-2024-06-21 11:04:09,436 INFO       - D^+->K0mu^+nu::BR@BESIII:2016A: chi^2 / dof = 0.07 / 1, local_pvalue = 79.25%
-2024-06-21 11:04:09,436 INFO       - D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: chi^2 / dof = 3.27 / 8, local_pvalue = 91.64%
-2024-06-21 11:04:09,437 INFO       - D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: chi^2 / dof = 19.72 / 17, local_pvalue = 28.89%
-2024-06-21 11:04:09,437 INFO       - D^0->K^-mu^+nu::BR@PDG2023: chi^2 / dof = 0.01 / 1, local_pvalue = 90.97%
-2024-06-21 11:04:09,438 INFO       - D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: chi^2 / dof = 15.07 / 17, local_pvalue = 59.04%
+2024-07-22 10:23:42,250 INFO     Creating analysis with 12 priors, 7 EOS-wide constraints, 1 global options, 10 manually-entered constraints and 1 fixed parameters.
+2024-07-22 10:23:42,599 INFO     likelihood probably depends on 110 parameter(s) that do not appear in the prior; check prior?
+2024-07-22 10:23:42,599 INFO     Starting minimization in 75 points
+2024-07-22 10:23:42,599 INFO     Initializing starting point from importance samples
+2024-07-22 10:23:42,618 INFO     Using starting point [ 0.9585, 0.043, -0.09559, 0.01045, 0.3423, -0.246, 0.1884, 0.4022, 0.08934, -0.08927, 0.09965, 0.1985 ] from importance samples
+2024-07-22 10:23:43,073 INFO     Optimization goal achieved after 396 function evaluations
+2024-07-22 10:23:43,452 INFO     Optimization goal achieved after 335 function evaluations
+2024-07-22 10:23:43,863 INFO     Optimization goal achieved after 355 function evaluations
+2024-07-22 10:23:44,051 INFO     Optimization goal achieved after 162 function evaluations
+2024-07-22 10:23:44,278 INFO     Optimization goal achieved after 186 function evaluations
+2024-07-22 10:23:44,503 INFO     Optimization goal achieved after 170 function evaluations
+2024-07-22 10:23:44,805 INFO     Optimization goal achieved after 230 function evaluations
+2024-07-22 10:23:45,082 INFO     Optimization goal achieved after 229 function evaluations
+2024-07-22 10:23:45,161 INFO     Optimization goal achieved after 65 function evaluations
+2024-07-22 10:23:45,338 INFO     Optimization goal achieved after 150 function evaluations
+2024-07-22 10:23:45,475 INFO     Optimization goal achieved after 114 function evaluations
+2024-07-22 10:23:45,687 INFO     Optimization goal achieved after 177 function evaluations
+2024-07-22 10:23:45,978 INFO     Optimization goal achieved after 248 function evaluations
+2024-07-22 10:23:46,219 INFO     Optimization goal achieved after 203 function evaluations
+2024-07-22 10:23:46,436 INFO     Optimization goal achieved after 185 function evaluations
+2024-07-22 10:23:46,661 INFO     Optimization goal achieved after 189 function evaluations
+2024-07-22 10:23:46,852 INFO     Optimization goal achieved after 162 function evaluations
+2024-07-22 10:23:47,098 INFO     Optimization goal achieved after 212 function evaluations
+2024-07-22 10:23:47,171 INFO     Optimization goal achieved after 61 function evaluations
+2024-07-22 10:23:47,314 INFO     Optimization goal achieved after 125 function evaluations
+2024-07-22 10:23:47,525 INFO     Optimization goal achieved after 184 function evaluations
+2024-07-22 10:23:47,743 INFO     Optimization goal achieved after 189 function evaluations
+2024-07-22 10:23:47,943 INFO     Optimization goal achieved after 171 function evaluations
+2024-07-22 10:23:48,173 INFO     Optimization goal achieved after 195 function evaluations
+2024-07-22 10:23:48,377 INFO     Optimization goal achieved after 174 function evaluations
+2024-07-22 10:23:48,586 INFO     Optimization goal achieved after 178 function evaluations
+2024-07-22 10:23:48,877 INFO     Optimization goal achieved after 247 function evaluations
+2024-07-22 10:23:49,202 INFO     Optimization goal achieved after 277 function evaluations
+2024-07-22 10:23:49,396 INFO     Optimization goal achieved after 164 function evaluations
+2024-07-22 10:23:49,664 INFO     Optimization goal achieved after 231 function evaluations
+2024-07-22 10:23:49,760 INFO     Optimization goal achieved after 83 function evaluations
+2024-07-22 10:23:50,027 INFO     Optimization goal achieved after 231 function evaluations
+2024-07-22 10:23:50,289 INFO     Optimization goal achieved after 224 function evaluations
+2024-07-22 10:23:50,564 INFO     Optimization goal achieved after 234 function evaluations
+2024-07-22 10:23:50,844 INFO     Optimization goal achieved after 239 function evaluations
+2024-07-22 10:23:50,967 INFO     Optimization goal achieved after 104 function evaluations
+2024-07-22 10:23:51,190 INFO     Optimization goal achieved after 185 function evaluations
+2024-07-22 10:23:51,440 INFO     Optimization goal achieved after 208 function evaluations
+2024-07-22 10:23:51,811 INFO     Optimization goal achieved after 311 function evaluations
+2024-07-22 10:23:51,965 INFO     Optimization goal achieved after 127 function evaluations
+2024-07-22 10:23:52,188 INFO     Optimization goal achieved after 188 function evaluations
+2024-07-22 10:23:52,340 INFO     Optimization goal achieved after 128 function evaluations
+2024-07-22 10:23:52,581 INFO     Optimization goal achieved after 199 function evaluations
+2024-07-22 10:23:52,711 INFO     Optimization goal achieved after 109 function evaluations
+2024-07-22 10:23:52,763 INFO     Optimization goal achieved after 42 function evaluations
+2024-07-22 10:23:53,162 INFO     Optimization goal achieved after 334 function evaluations
+2024-07-22 10:23:53,463 INFO     Optimization goal achieved after 251 function evaluations
+2024-07-22 10:23:53,797 INFO     Optimization goal achieved after 278 function evaluations
+2024-07-22 10:23:54,000 INFO     Optimization goal achieved after 170 function evaluations
+2024-07-22 10:23:54,049 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-22 10:23:54,281 INFO     Optimization goal achieved after 191 function evaluations
+2024-07-22 10:23:54,594 INFO     Optimization goal achieved after 268 function evaluations
+2024-07-22 10:23:54,842 INFO     Optimization goal achieved after 213 function evaluations
+2024-07-22 10:23:55,058 INFO     Optimization goal achieved after 186 function evaluations
+2024-07-22 10:23:55,316 INFO     Optimization goal achieved after 222 function evaluations
+2024-07-22 10:23:55,585 INFO     Optimization goal achieved after 231 function evaluations
+2024-07-22 10:23:55,833 INFO     Optimization goal achieved after 209 function evaluations
+2024-07-22 10:23:56,035 INFO     Optimization goal achieved after 167 function evaluations
+2024-07-22 10:23:56,301 INFO     Optimization goal achieved after 224 function evaluations
+2024-07-22 10:23:56,531 INFO     Optimization goal achieved after 191 function evaluations
+2024-07-22 10:23:56,778 INFO     Optimization goal achieved after 200 function evaluations
+2024-07-22 10:23:57,137 INFO     Optimization goal achieved after 298 function evaluations
+2024-07-22 10:23:57,455 INFO     Optimization goal achieved after 262 function evaluations
+2024-07-22 10:23:57,666 INFO     Optimization goal achieved after 179 function evaluations
+2024-07-22 10:23:57,915 INFO     Optimization goal achieved after 214 function evaluations
+2024-07-22 10:23:58,198 INFO     Optimization goal achieved after 239 function evaluations
+2024-07-22 10:23:58,383 INFO     Optimization goal achieved after 154 function evaluations
+2024-07-22 10:23:58,633 INFO     Optimization goal achieved after 210 function evaluations
+2024-07-22 10:23:58,863 INFO     Optimization goal achieved after 190 function evaluations
+2024-07-22 10:23:59,085 INFO     Optimization goal achieved after 191 function evaluations
+2024-07-22 10:23:59,362 INFO     Optimization goal achieved after 242 function evaluations
+2024-07-22 10:23:59,589 INFO     Optimization goal achieved after 195 function evaluations
+2024-07-22 10:23:59,735 INFO     Optimization goal achieved after 124 function evaluations
+2024-07-22 10:24:00,201 INFO     Optimization goal achieved after 391 function evaluations
+2024-07-22 10:24:00,432 INFO     Optimization goal achieved after 195 function evaluations
+2024-07-22 10:24:00,433 INFO     Minimization finished, best point is:
+2024-07-22 10:24:00,433 INFO       - CKM::abs(V_cs) -> 0.9564954653223984
+2024-07-22 10:24:00,433 INFO       - D->K::a^f+_0@BFW2010 -> 0.042981369648438385
+2024-07-22 10:24:00,433 INFO       - D->K::a^f+_1@BFW2010 -> -0.0949828288985877
+2024-07-22 10:24:00,433 INFO       - D->K::a^f+_2@BFW2010 -> -0.019738873080478225
+2024-07-22 10:24:00,433 INFO       - D->K::a^f+_3@BFW2010 -> 0.201927283273994
+2024-07-22 10:24:00,434 INFO       - D->K::a^f0_1@BFW2010 -> -0.2457791955309373
+2024-07-22 10:24:00,434 INFO       - D->K::a^f0_2@BFW2010 -> 0.11473410697435305
+2024-07-22 10:24:00,434 INFO       - D->K::a^f0_3@BFW2010 -> 0.22809461870017333
+2024-07-22 10:24:00,434 INFO       - D->K::a^fT_0@BFW2010 -> 0.08582933282008189
+2024-07-22 10:24:00,434 INFO       - D->K::a^fT_1@BFW2010 -> -0.09268679275142838
+2024-07-22 10:24:00,434 INFO       - D->K::a^fT_2@BFW2010 -> -0.2250101048790163
+2024-07-22 10:24:00,434 INFO       - D->K::a^fT_3@BFW2010 -> 1.0
+2024-07-22 10:24:00,434 INFO     total chi^2 = 55.59
+2024-07-22 10:24:00,434 INFO     total dof   = 55
+2024-07-22 10:24:00,435 INFO     p value     = 45.25%
+2024-07-22 10:24:00,435 INFO     individual test statistics:
+2024-07-22 10:24:00,436 INFO       - BR::D0-Kenue@PDG2023: chi^2 / dof = 1.33 / 1, local_pvalue = 24.91%
+2024-07-22 10:24:00,436 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 6.03 / 3, local_pvalue = 11.01%
+2024-07-22 10:24:00,437 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 0.77 / 7, local_pvalue = 99.77%
+2024-07-22 10:24:00,437 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 2.62 / 8, local_pvalue = 95.59%
+2024-07-22 10:24:00,438 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 3.46 / 3, local_pvalue = 32.59%
+2024-07-22 10:24:00,438 INFO       - D^+->K0e^+nu::BR@PDG2023: chi^2 / dof = 3.23 / 1, local_pvalue = 7.22%
+2024-07-22 10:24:00,439 INFO       - D^+->K0mu^+nu::BR@BESIII:2016A: chi^2 / dof = 0.07 / 1, local_pvalue = 79.25%
+2024-07-22 10:24:00,439 INFO       - D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: chi^2 / dof = 3.27 / 8, local_pvalue = 91.64%
+2024-07-22 10:24:00,440 INFO       - D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: chi^2 / dof = 19.72 / 17, local_pvalue = 28.88%
+2024-07-22 10:24:00,440 INFO       - D^0->K^-mu^+nu::BR@PDG2023: chi^2 / dof = 0.01 / 1, local_pvalue = 90.97%
+2024-07-22 10:24:00,441 INFO       - D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: chi^2 / dof = 15.07 / 17, local_pvalue = 59.04%

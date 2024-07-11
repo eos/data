@@ -4,4 +4,4 @@ observables:
 - kinematics: {}
   name: Lambda_c->Lambda::Saturation[0^+_V]
 type: Prediction
-version: 1.0.11
+version: 1.0.12

@@ -1,0 +1,18 @@
+plot:
+  x:
+    label: '$q^2$'
+    unit: '$\textnormal{GeV}^2$'
+    range: [-0.5, 1.37]
+  y:
+    label: '$f_{0,T}^{\Lambda_c\to \Lambda}$'
+    range: [0.0, 1.6 ]
+  legend:
+    location: 'upper left'
+contents:
+  - label: '$K=2$'
+    type: 'uncertainty'
+    color: 'cornflowerblue'
+    opacity: 0.5
+    data-file: 'data/TH-all/pred-FF-Lc-to-L-flongT'
+  - type: 'watermark'
+    position: [ 'right', 'bottom' ]

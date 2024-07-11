@@ -1,0 +1,63 @@
+observables:
+- kinematics:
+    q2: -0.5
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: -0.4
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: -0.3
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: -0.2
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: -0.1
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.0
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.1
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.2
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.3
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.4
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.5
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.6
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.7
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.8
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 0.9
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 1.0
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 1.1
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 1.2
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 1.3
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+- kinematics:
+    q2: 1.37
+  name: Lambda_c->Lambda::f_perp^T5(q2)
+type: Prediction
+version: 1.0.13

@@ -1,71 +1,215 @@
-2024-06-25 15:40:05,827 INFO     Creating analysis with 39 priors, 5 EOS-wide constraints, 1 global options, 21 manually-entered constraints and 2 fixed parameters.
-2024-06-25 15:40:06,234 INFO     likelihood probably depends on 28 parameter(s) that do not appear in the prior; check prior?
-2024-06-25 15:40:06,234 INFO     Starting minimization in 3 points
-2024-06-25 15:40:06,235 INFO     Initializing starting point from importance samples
-2024-06-25 15:40:06,250 INFO     Using starting point [ 0.2494, 0.2715, 0.2974, 0.04314, -0.08638, -0.09408, 0.5293, -0.2367, 0.1156, 0.866, 0.08596, -0.06432, -0.4368, 0.1705, 0.1813, 0.1975, -0.1663, 0.02744, 0.1586, -0.07025, 0.001863, 0.05645, 0.2952, 0.3674, 0.7163, 0.5985, -0.04191, 0.2812, 0.2124, -0.3441, 0.1352, 0.2933, -0.1884, -0.2447, -0.006797, 0.3127, 0.2124, 0.5273, 0.4289 ] from importance samples
-2024-06-25 15:40:10,218 WARNING  Optimization did not succeed
-2024-06-25 15:40:10,218 WARNING    optimizer message reads: Iteration limit reached
-2024-06-25 15:40:14,193 WARNING  Optimization did not succeed
-2024-06-25 15:40:14,193 WARNING    optimizer message reads: Iteration limit reached
-2024-06-25 15:40:18,267 WARNING  Optimization did not succeed
-2024-06-25 15:40:18,267 WARNING    optimizer message reads: Iteration limit reached
-2024-06-25 15:40:18,268 INFO     Minimization finished, best point is:
-2024-06-25 15:40:18,268 INFO       - decay-constant::D_s -> 0.24989149117596196
-2024-06-25 15:40:18,268 INFO       - decay-constant::D_s^* -> 0.27400111802220123
-2024-06-25 15:40:18,269 INFO       - decay-constant::D_s^*,T -> 0.2823721765949707
-2024-06-25 15:40:18,269 INFO       - D->K::a^f+_0@BFW2010 -> 0.04254074257024055
-2024-06-25 15:40:18,269 INFO       - D->K::a^f+_1@BFW2010 -> -0.08335011801161218
-2024-06-25 15:40:18,269 INFO       - D->K::a^f+_2@BFW2010 -> -0.015053542276898868
-2024-06-25 15:40:18,269 INFO       - D->K::a^f+_3@BFW2010 -> 0.4120799210313181
-2024-06-25 15:40:18,269 INFO       - D->K::a^f0_1@BFW2010 -> -0.24120470192396187
-2024-06-25 15:40:18,269 INFO       - D->K::a^f0_2@BFW2010 -> 0.15583897782245273
-2024-06-25 15:40:18,269 INFO       - D->K::a^f0_3@BFW2010 -> 0.6314098826438915
-2024-06-25 15:40:18,269 INFO       - D->K::a^fT_0@BFW2010 -> 0.08572656771873942
-2024-06-25 15:40:18,270 INFO       - D->K::a^fT_1@BFW2010 -> -0.09010716408167911
-2024-06-25 15:40:18,270 INFO       - D->K::a^fT_2@BFW2010 -> -0.21817573517691186
-2024-06-25 15:40:18,270 INFO       - D->K::a^fT_3@BFW2010 -> 0.8556615142237929
-2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.4873584640509584
-2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.34897845115435056
-2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> -0.08453460531033158
-2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> 0.2462875498090178
-2024-06-25 15:40:18,270 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> 0.23591190103428894
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.028028801180987883
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.28441505470076134
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.19519141666124895
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.4506825791070475
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.44747569994754455
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.8683836017858333
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.6952960142972078
-2024-06-25 15:40:18,271 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.03426240373761048
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.2643309075772776
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.1963810015409897
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> -0.19461564893538108
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> 0.11703360470795676
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.07739510273167116
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> 0.006766934625287657
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> 0.0704910930968976
-2024-06-25 15:40:18,272 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.019452065915336547
-2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> -0.2264538960257465
-2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> -0.11283882543079193
-2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> 0.19274927054578583
-2024-06-25 15:40:18,273 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> 0.23991152145508998
-2024-06-25 15:40:18,273 INFO     total chi^2 = 25.78
-2024-06-25 15:40:18,273 INFO     total dof   = 10
-2024-06-25 15:40:18,277 INFO     p value     = 0.41%
-2024-06-25 15:40:18,277 INFO     individual test statistics:
-2024-06-25 15:40:18,278 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 3.41 / 3, local_pvalue = 33.31%
-2024-06-25 15:40:18,279 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 0.75 / 7, local_pvalue = 99.79%
-2024-06-25 15:40:18,279 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 2.46 / 8, local_pvalue = 96.36%
-2024-06-25 15:40:18,280 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 3.39 / 3, local_pvalue = 33.57%
-2024-06-25 15:40:18,280 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.98%
-2024-06-25 15:40:18,281 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
-2024-06-25 15:40:18,281 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.95%
-2024-06-25 15:40:18,282 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.97%
-2024-06-25 15:40:18,282 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
-2024-06-25 15:40:18,283 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.31 / 1, local_pvalue = 57.68%
-2024-06-25 15:40:18,283 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.98%
-2024-06-25 15:40:18,284 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 1.12 / 1, local_pvalue = 28.95%
-2024-06-25 15:40:18,284 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 14.34 / 17, local_pvalue = 64.29%
-2024-06-25 15:40:18,285 INFO       - decay-constant::D_s@FLAG:2021A: chi^2 / dof = 0.00 / 1, local_pvalue = 98.64%
-2024-06-25 15:40:18,285 INFO       - decay-constant::D_s^*,T@PZ:2021A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.98%
-2024-06-25 15:40:18,286 INFO       - decay-constant::D_s^*@MDLLSYZ:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-07-22 10:44:14,608 INFO     Creating analysis with 39 priors, 5 EOS-wide constraints, 1 global options, 17 manually-entered constraints and 2 fixed parameters.
+2024-07-22 10:44:14,981 INFO     likelihood probably depends on 28 parameter(s) that do not appear in the prior; check prior?
+2024-07-22 10:44:14,982 INFO     Starting minimization in 75 points
+2024-07-22 10:44:14,982 INFO     Initializing starting point from importance samples
+2024-07-22 10:44:15,012 INFO     Using starting point [ 0.2508, 0.2688, 0.3018, 0.04214, -0.07644, -0.01888, 0.4638, -0.2454, 0.2512, 0.4908, 0.09464, -0.09453, -0.07011, -0.08449, 0.1883, 0.1928, -0.05345, 0.6759, 0.4711, -0.02396, 0.3543, 0.2346, 0.2695, 0.3693, 0.8968, 0.7057, -0.03796, 0.2502, 0.1904, -0.5822, -0.2322, -0.4569, -0.5279, -0.02804, 0.008361, 0.1927, 0.1263, -0.9605, -0.5361 ] from importance samples
+2024-07-22 10:44:18,472 WARNING  Optimization did not succeed
+2024-07-22 10:44:18,472 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:21,885 WARNING  Optimization did not succeed
+2024-07-22 10:44:21,886 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:25,332 WARNING  Optimization did not succeed
+2024-07-22 10:44:25,333 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:28,815 WARNING  Optimization did not succeed
+2024-07-22 10:44:28,815 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:32,315 WARNING  Optimization did not succeed
+2024-07-22 10:44:32,315 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:35,809 WARNING  Optimization did not succeed
+2024-07-22 10:44:35,809 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:39,283 WARNING  Optimization did not succeed
+2024-07-22 10:44:39,283 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:42,903 WARNING  Optimization did not succeed
+2024-07-22 10:44:42,904 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:46,569 WARNING  Optimization did not succeed
+2024-07-22 10:44:46,569 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:50,201 WARNING  Optimization did not succeed
+2024-07-22 10:44:50,201 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:53,876 WARNING  Optimization did not succeed
+2024-07-22 10:44:53,877 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:44:57,497 WARNING  Optimization did not succeed
+2024-07-22 10:44:57,497 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:01,037 WARNING  Optimization did not succeed
+2024-07-22 10:45:01,037 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:04,616 WARNING  Optimization did not succeed
+2024-07-22 10:45:04,616 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:08,237 WARNING  Optimization did not succeed
+2024-07-22 10:45:08,237 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:11,877 WARNING  Optimization did not succeed
+2024-07-22 10:45:11,877 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:15,508 WARNING  Optimization did not succeed
+2024-07-22 10:45:15,508 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:19,174 WARNING  Optimization did not succeed
+2024-07-22 10:45:19,175 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:22,747 WARNING  Optimization did not succeed
+2024-07-22 10:45:22,747 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:26,353 WARNING  Optimization did not succeed
+2024-07-22 10:45:26,353 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:29,989 WARNING  Optimization did not succeed
+2024-07-22 10:45:29,989 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:33,530 WARNING  Optimization did not succeed
+2024-07-22 10:45:33,530 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:37,343 WARNING  Optimization did not succeed
+2024-07-22 10:45:37,344 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:41,066 WARNING  Optimization did not succeed
+2024-07-22 10:45:41,066 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:44,804 WARNING  Optimization did not succeed
+2024-07-22 10:45:44,804 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:48,699 WARNING  Optimization did not succeed
+2024-07-22 10:45:48,700 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:52,355 WARNING  Optimization did not succeed
+2024-07-22 10:45:52,355 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:56,013 WARNING  Optimization did not succeed
+2024-07-22 10:45:56,014 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:45:59,697 WARNING  Optimization did not succeed
+2024-07-22 10:45:59,697 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:03,434 WARNING  Optimization did not succeed
+2024-07-22 10:46:03,435 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:07,169 WARNING  Optimization did not succeed
+2024-07-22 10:46:07,169 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:10,938 WARNING  Optimization did not succeed
+2024-07-22 10:46:10,939 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:14,677 WARNING  Optimization did not succeed
+2024-07-22 10:46:14,677 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:18,430 WARNING  Optimization did not succeed
+2024-07-22 10:46:18,430 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:22,185 WARNING  Optimization did not succeed
+2024-07-22 10:46:22,185 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:25,919 WARNING  Optimization did not succeed
+2024-07-22 10:46:25,919 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:29,650 WARNING  Optimization did not succeed
+2024-07-22 10:46:29,650 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:33,316 WARNING  Optimization did not succeed
+2024-07-22 10:46:33,316 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:36,915 WARNING  Optimization did not succeed
+2024-07-22 10:46:36,915 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:40,515 WARNING  Optimization did not succeed
+2024-07-22 10:46:40,515 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:44,290 WARNING  Optimization did not succeed
+2024-07-22 10:46:44,290 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:47,975 WARNING  Optimization did not succeed
+2024-07-22 10:46:47,975 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:51,682 WARNING  Optimization did not succeed
+2024-07-22 10:46:51,682 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:55,347 WARNING  Optimization did not succeed
+2024-07-22 10:46:55,347 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:46:59,144 WARNING  Optimization did not succeed
+2024-07-22 10:46:59,144 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:02,939 WARNING  Optimization did not succeed
+2024-07-22 10:47:02,939 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:06,598 WARNING  Optimization did not succeed
+2024-07-22 10:47:06,598 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:10,279 WARNING  Optimization did not succeed
+2024-07-22 10:47:10,279 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:13,926 WARNING  Optimization did not succeed
+2024-07-22 10:47:13,926 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:17,632 WARNING  Optimization did not succeed
+2024-07-22 10:47:17,632 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:21,350 WARNING  Optimization did not succeed
+2024-07-22 10:47:21,350 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:25,079 WARNING  Optimization did not succeed
+2024-07-22 10:47:25,079 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:28,791 WARNING  Optimization did not succeed
+2024-07-22 10:47:28,791 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:32,415 WARNING  Optimization did not succeed
+2024-07-22 10:47:32,415 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:36,045 WARNING  Optimization did not succeed
+2024-07-22 10:47:36,045 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:39,702 WARNING  Optimization did not succeed
+2024-07-22 10:47:39,702 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:43,349 WARNING  Optimization did not succeed
+2024-07-22 10:47:43,349 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:46,960 WARNING  Optimization did not succeed
+2024-07-22 10:47:46,960 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:50,587 WARNING  Optimization did not succeed
+2024-07-22 10:47:50,587 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:54,214 WARNING  Optimization did not succeed
+2024-07-22 10:47:54,215 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:47:57,805 WARNING  Optimization did not succeed
+2024-07-22 10:47:57,805 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:01,378 WARNING  Optimization did not succeed
+2024-07-22 10:48:01,378 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:04,967 WARNING  Optimization did not succeed
+2024-07-22 10:48:04,967 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:08,597 WARNING  Optimization did not succeed
+2024-07-22 10:48:08,597 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:12,291 WARNING  Optimization did not succeed
+2024-07-22 10:48:12,291 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:15,981 WARNING  Optimization did not succeed
+2024-07-22 10:48:15,981 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:19,566 WARNING  Optimization did not succeed
+2024-07-22 10:48:19,566 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:23,136 WARNING  Optimization did not succeed
+2024-07-22 10:48:23,136 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:26,744 WARNING  Optimization did not succeed
+2024-07-22 10:48:26,744 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:30,282 WARNING  Optimization did not succeed
+2024-07-22 10:48:30,282 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:33,901 WARNING  Optimization did not succeed
+2024-07-22 10:48:33,901 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:37,522 WARNING  Optimization did not succeed
+2024-07-22 10:48:37,522 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:41,272 WARNING  Optimization did not succeed
+2024-07-22 10:48:41,272 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:45,067 WARNING  Optimization did not succeed
+2024-07-22 10:48:45,067 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:48,851 WARNING  Optimization did not succeed
+2024-07-22 10:48:48,851 WARNING    optimizer message reads: Iteration limit reached
+2024-07-22 10:48:48,852 INFO     Minimization finished, best point is:
+2024-07-22 10:48:48,852 INFO       - decay-constant::D_s -> 0.24989125565388917
+2024-07-22 10:48:48,852 INFO       - decay-constant::D_s^* -> 0.2740003151276124
+2024-07-22 10:48:48,852 INFO       - decay-constant::D_s^*,T -> 0.28237788109443557
+2024-07-22 10:48:48,852 INFO       - D->K::a^f+_0@BFW2010 -> 0.042540990337677304
+2024-07-22 10:48:48,852 INFO       - D->K::a^f+_1@BFW2010 -> -0.08335095772014484
+2024-07-22 10:48:48,852 INFO       - D->K::a^f+_2@BFW2010 -> -0.014974764785543604
+2024-07-22 10:48:48,852 INFO       - D->K::a^f+_3@BFW2010 -> 0.4128843813428782
+2024-07-22 10:48:48,853 INFO       - D->K::a^f0_1@BFW2010 -> -0.24119055165054354
+2024-07-22 10:48:48,853 INFO       - D->K::a^f0_2@BFW2010 -> 0.15601662024406782
+2024-07-22 10:48:48,853 INFO       - D->K::a^f0_3@BFW2010 -> 0.6327637203125709
+2024-07-22 10:48:48,853 INFO       - D->K::a^fT_0@BFW2010 -> 0.08573003242680093
+2024-07-22 10:48:48,853 INFO       - D->K::a^fT_1@BFW2010 -> -0.09050201334313596
+2024-07-22 10:48:48,853 INFO       - D->K::a^fT_2@BFW2010 -> -0.21917580077935794
+2024-07-22 10:48:48,853 INFO       - D->K::a^fT_3@BFW2010 -> 0.9999986695561829
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.48778204581873086
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.3491997314580175
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> -0.08450376155774869
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> 0.2465465205006876
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> 0.23604489631399006
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.028004817557563275
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.2846787324863852
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.19533088269101778
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.450671627652873
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.4474736272772607
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.8685318170420233
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.695388446100289
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.034261865924651524
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.2643249426044435
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.19637692480397456
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> -0.35886590666750695
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> 0.03370552796661008
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.16695217162243026
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> -0.6966277192752537
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> -0.2862424375171685
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.0191071668464618
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> -0.7421332655664429
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> -0.4325026195795111
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> -0.554632146681975
+2024-07-22 10:48:48,853 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> -0.22337675293649129
+2024-07-22 10:48:48,853 INFO     total chi^2 = 25.77
+2024-07-22 10:48:48,853 INFO     total dof   = 10
+2024-07-22 10:48:48,855 INFO     p value     = 0.41%
+2024-07-22 10:48:48,855 INFO     individual test statistics:
+2024-07-22 10:48:48,855 INFO       - D->K::f_++f_0@ETM:2017B: chi^2 / dof = 3.41 / 3, local_pvalue = 33.31%
+2024-07-22 10:48:48,856 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 0.75 / 7, local_pvalue = 99.79%
+2024-07-22 10:48:48,856 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 2.46 / 8, local_pvalue = 96.38%
+2024-07-22 10:48:48,857 INFO       - D->K::f_T@ETM:2018A: chi^2 / dof = 3.39 / 3, local_pvalue = 33.60%
+2024-07-22 10:48:48,857 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-07-22 10:48:48,858 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-07-22 10:48:48,858 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-07-22 10:48:48,859 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-07-22 10:48:48,859 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-07-22 10:48:48,860 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.31 / 1, local_pvalue = 57.67%
+2024-07-22 10:48:48,860 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-07-22 10:48:48,861 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 1.12 / 1, local_pvalue = 28.96%
+2024-07-22 10:48:48,861 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 14.34 / 17, local_pvalue = 64.30%
+2024-07-22 10:48:48,862 INFO       - decay-constant::D_s@FLAG:2021A: chi^2 / dof = 0.00 / 1, local_pvalue = 98.64%
+2024-07-22 10:48:48,862 INFO       - decay-constant::D_s^*,T@PZ:2021A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.99%
+2024-07-22 10:48:48,863 INFO       - decay-constant::D_s^*@MDLLSYZ:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 99.97%

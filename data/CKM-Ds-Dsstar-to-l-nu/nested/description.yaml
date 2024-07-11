@@ -12,4 +12,4 @@ parameters:
   min: 0.2
   name: decay-constant::D_s^*,T
 type: DynestyResults
-version: 1.0.11
+version: 1.0.12

@@ -1,15 +1,15 @@
 local_pvalues:
-  D_s^*->e^+nu::BR@BESIII:2023C: 0.259724020430009
-  D_s^+->mu^+nu::BR@BRvDV2024: 0.49955781675948585
-  D_s^+->tau^+nu::BR@BRvDV2024: 0.36591441944107406
-  decay-constant::D_s@FLAG:2021A: 0.9897334341017668
-  decay-constant::D_s^*,T@PZ:2021A: 0.9999999971605207
-  decay-constant::D_s^*@MDLLSYZ:2024A: 0.887655523097679
+  D_s^*->e^+nu::BR@BESIII:2023C: 0.2597240220654842
+  D_s^+->mu^+nu::BR@BRvDV2024: 0.49955779980386184
+  D_s^+->tau^+nu::BR@BRvDV2024: 0.3659144309375777
+  decay-constant::D_s@FLAG:2021A: 0.989733354716374
+  decay-constant::D_s^*,T@PZ:2021A: 0.9999999361456036
+  decay-constant::D_s^*@MDLLSYZ:2024A: 0.8876554970186639
 mode:
-- 0.9687340990292267
-- 0.24990643379363225
-- 0.27315237145271926
-- 0.28239427012454943
+- 0.9687340990750087
+- 0.2499064338433838
+- 0.2731523712546413
+- 0.2823942688430295
 parameters:
 - max: 1.0
   min: 0.0
@@ -23,6 +23,6 @@ parameters:
 - max: 0.3
   min: 0.2
   name: decay-constant::D_s^*,T
-pvalue: 0.2775208468380175
+pvalue: 0.27752084683802225
 type: Mode
-version: 1.0.11
+version: 1.0.12

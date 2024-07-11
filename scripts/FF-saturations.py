@@ -6,24 +6,27 @@ posteriors = [
     'TH-all', 'SM-all', 'CKM-all'
 ]
 saturations = [
-    '0mA', '0pV', '1pA-long', '1pA-perp', '1mV-long', '1mV-perp', '1mT-long', '1mT-perp', '1pT5-long', '1pT5-perp'
+    '0mA', '0pV', '1pA', '1mV', '1mT', '1pT5'
 ]
 labels = [
-    '$0^-$', '$0^+$', '$1^+$ (long)', '$1^+$ (perp)', '$1^-$ (long)', '$1^-$ (perp)', '$1^-$ (long, T)', '$1^-$ (perp, T)', '$1^+$ (long, T5)', '$1^+$ (perp, T5)'
+    '$0^-$', '$0^+$', '$1^+$', '$1^-$', '$1^-$ (T)', '$1^+$ (T5)'
 ]
 samples = {}
 weights = {}
 xmax    = {
-    '0mA': 1.3, '0pV': 1.3, '1pA-long':  1.3, '1pA-perp': 1.3, '1mV-long': 1.3, '1mV-perp': 1.3, '1mT-long': 1.3, '1mT-perp': 1.3, '1pT5-long': 1.3, '1pT5-perp': 1.3
+    '0mA': 1.3, '0pV': 1.3, '1pA':  1.3, '1mV':  1.3, '1mT': 1.3, '1pT5': 1.3
 }
 ymax    = {
-    '0mA': 5.0, '0pV': 3.0, '1pA-long': 16.0, '1pA-perp': 3.0, '1mV-long': 6.0, '1mV-perp': 6.0, '1mT-long': 4.0, '1mT-perp': 5.0, '1pT5-long': 5.0, '1pT5-perp': 5.0
+    '0mA': 5.0, '0pV': 3.0, '1pA': 10.0, '1mV': 18.0, '1mT': 6.0, '1pT5': 7.0
+}
+norm    = {
+    '0mA': 1.0, '0pV': 1.0, '1pA':  3.0, '1mV':  3.0, '1mT': 3.0, '1pT5': 3.0
 }
 # Read in data
 for p in posteriors:
     for s in saturations:
         pred = eos.data.Prediction(f'data/{p}/pred-saturation-{s}')
-        samples[(p, s)] = np.sum(pred.samples, axis=1)
+        samples[(p, s)] = np.sum(pred.samples, axis=1) / norm[s]
         weights[(p, s)] = pred.weights
 
 for s, l in zip(saturations, labels):

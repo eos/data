@@ -1,101 +1,101 @@
-2024-06-26 14:07:50,648 INFO     Creating analysis with 40 priors, 9 EOS-wide constraints, 1 global options, 27 manually-entered constraints and 1 fixed parameters.
-2024-06-26 14:07:51,039 INFO     likelihood probably depends on 89 parameter(s) that do not appear in the prior; check prior?
-2024-06-26 14:07:51,039 INFO     Starting minimization in 25 points
-2024-06-26 14:07:51,039 INFO     Initializing starting point from importance samples
-2024-06-26 14:07:51,071 INFO     Using starting point [ 0.9508, 0.2498, 0.2604, 0.3367, 0.04324, -0.09608, -0.01231, 0.3786, -0.2383, 0.09396, 0.6551, 0.08892, -0.1273, -0.03182, -0.1159, 0.4564, 0.3236, -0.05755, 0.3218, 0.2641, -0.01927, 0.3912, 0.2524, 0.4364, 0.4232, 0.8422, 0.6744, -0.03071, 0.238, 0.1775, -0.06475, 0.09075, -0.2187, 0.05618, 0.1783, -0.1691, 0.9529, 0.7268, 0.6313, 0.7133 ] from importance samples
-2024-06-26 14:07:53,553 INFO     Optimization goal achieved after 289 function evaluations
-2024-06-26 14:07:54,122 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:54,714 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:55,292 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:55,864 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:56,433 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:57,002 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:57,571 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:58,152 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:58,735 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:59,383 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:07:59,954 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:00,530 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:01,091 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:01,657 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:02,215 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:02,785 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:03,363 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:03,940 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:04,505 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:05,089 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:05,675 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:06,252 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:06,857 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:07,427 INFO     Optimization goal achieved after 41 function evaluations
-2024-06-26 14:08:07,442 INFO     Minimization finished, best point is:
-2024-06-26 14:08:07,442 INFO       - CKM::abs(V_cs) -> 0.950887345786379
-2024-06-26 14:08:07,442 INFO       - decay-constant::D_s -> 0.24984882976921838
-2024-06-26 14:08:07,442 INFO       - decay-constant::D_s^* -> 0.2604314901467776
-2024-06-26 14:08:07,442 INFO       - decay-constant::D_s^*,T -> 0.33657015250592903
-2024-06-26 14:08:07,442 INFO       - D->K::a^f+_0@BFW2010 -> 0.04324084399084412
-2024-06-26 14:08:07,442 INFO       - D->K::a^f+_1@BFW2010 -> -0.09605608165491729
-2024-06-26 14:08:07,442 INFO       - D->K::a^f+_2@BFW2010 -> -0.012234604399673332
-2024-06-26 14:08:07,442 INFO       - D->K::a^f+_3@BFW2010 -> 0.3780826124656701
-2024-06-26 14:08:07,442 INFO       - D->K::a^f0_1@BFW2010 -> -0.23830697044140015
-2024-06-26 14:08:07,442 INFO       - D->K::a^f0_2@BFW2010 -> 0.09417328021930141
-2024-06-26 14:08:07,442 INFO       - D->K::a^f0_3@BFW2010 -> 0.6553840973942701
-2024-06-26 14:08:07,442 INFO       - D->K::a^fT_0@BFW2010 -> 0.08891006920770796
-2024-06-26 14:08:07,442 INFO       - D->K::a^fT_1@BFW2010 -> -0.12721003247067944
-2024-06-26 14:08:07,442 INFO       - D->K::a^fT_2@BFW2010 -> -0.032520296358691914
-2024-06-26 14:08:07,442 INFO       - D->K::a^fT_3@BFW2010 -> -0.11470676247320621
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.45492810007918816
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.32425926003664407
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> -0.05726286227787053
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> 0.32029309231993475
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> 0.26482182844900204
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.019210465905247595
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.39043054890462914
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.25205142139982584
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.4362441328128522
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.4237411038607656
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.8399126464997477
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.6751100360310749
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.03072671007529178
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.23792135341618978
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.17737744222469648
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> -0.06574541124874134
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> 0.09171346938275104
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.21763438695758985
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> 0.055008224277802054
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> 0.17914842196189618
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.16921978698008677
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> 0.9526487698806054
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> 0.724679124346777
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> 0.6292640166600552
-2024-06-26 14:08:07,443 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> 0.7112280538363092
-2024-06-26 14:08:07,443 INFO     total chi^2 = 119.85
-2024-06-26 14:08:07,443 INFO     total dof   = 54
-2024-06-26 14:08:07,446 INFO     p value     = 0.00%
-2024-06-26 14:08:07,446 INFO     individual test statistics:
-2024-06-26 14:08:07,447 INFO       - BR::D0-Kenue@PDG2023: chi^2 / dof = 1.19 / 1, local_pvalue = 27.51%
-2024-06-26 14:08:07,448 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 15.12 / 7, local_pvalue = 3.45%
-2024-06-26 14:08:07,448 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 8.47 / 8, local_pvalue = 38.87%
-2024-06-26 14:08:07,449 INFO       - D^+->K0e^+nu::BR@PDG2023: chi^2 / dof = 3.38 / 1, local_pvalue = 6.61%
-2024-06-26 14:08:07,449 INFO       - D^+->K0mu^+nu::BR@BESIII:2016A: chi^2 / dof = 0.07 / 1, local_pvalue = 79.84%
-2024-06-26 14:08:07,450 INFO       - D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: chi^2 / dof = 3.40 / 8, local_pvalue = 90.70%
-2024-06-26 14:08:07,450 INFO       - D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: chi^2 / dof = 19.70 / 17, local_pvalue = 28.99%
-2024-06-26 14:08:07,451 INFO       - D^0->K^-mu^+nu::BR@PDG2023: chi^2 / dof = 0.02 / 1, local_pvalue = 89.81%
-2024-06-26 14:08:07,451 INFO       - D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: chi^2 / dof = 15.25 / 17, local_pvalue = 57.78%
-2024-06-26 14:08:07,452 INFO       - D_s^*->e^+nu::BR@BESIII:2023C: chi^2 / dof = 0.60 / 1, local_pvalue = 43.96%
-2024-06-26 14:08:07,452 INFO       - D_s^+->mu^+nu::BR@BRvDV2024: chi^2 / dof = 1.76 / 1, local_pvalue = 18.46%
-2024-06-26 14:08:07,453 INFO       - D_s^+->tau^+nu::BR@BRvDV2024: chi^2 / dof = 6.40 / 1, local_pvalue = 1.14%
-2024-06-26 14:08:07,453 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 2.01 / 1, local_pvalue = 15.61%
-2024-06-26 14:08:07,453 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 0.00 / 1, local_pvalue = 94.83%
-2024-06-26 14:08:07,454 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.37 / 1, local_pvalue = 54.46%
-2024-06-26 14:08:07,454 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 0.33 / 1, local_pvalue = 56.63%
-2024-06-26 14:08:07,455 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 2.01 / 1, local_pvalue = 15.61%
-2024-06-26 14:08:07,455 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.20 / 1, local_pvalue = 65.14%
-2024-06-26 14:08:07,456 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 1.22 / 1, local_pvalue = 26.95%
-2024-06-26 14:08:07,456 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 2.86 / 1, local_pvalue = 9.09%
-2024-06-26 14:08:07,457 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 20.63 / 17, local_pvalue = 24.35%
-2024-06-26 14:08:07,457 INFO       - Lambda_c->Lambdae^+nu::BR[0.0,q2max]@BESIII:2022A: chi^2 / dof = 0.03 / 1, local_pvalue = 86.74%
-2024-06-26 14:08:07,458 INFO       - Lambda_c->Lambdamu^+nu::BR[0.0,q2max]@BESIII:2023A: chi^2 / dof = 0.10 / 1, local_pvalue = 74.71%
-2024-06-26 14:08:07,458 INFO       - decay-constant::D_s@FLAG:2021A: chi^2 / dof = 0.01 / 1, local_pvalue = 91.85%
-2024-06-26 14:08:07,459 INFO       - decay-constant::D_s^*,T@PZ:2021A: chi^2 / dof = 9.62 / 1, local_pvalue = 0.19%
-2024-06-26 14:08:07,459 INFO       - decay-constant::D_s^*@MDLLSYZ:2024A: chi^2 / dof = 5.11 / 1, local_pvalue = 2.37%
+2024-07-20 13:40:34,021 INFO     Creating analysis with 40 priors, 9 EOS-wide constraints, 1 global options, 23 manually-entered constraints and 1 fixed parameters.
+2024-07-20 13:40:34,395 INFO     likelihood probably depends on 89 parameter(s) that do not appear in the prior; check prior?
+2024-07-20 13:40:34,396 INFO     Starting minimization in 25 points
+2024-07-20 13:40:34,396 INFO     Initializing starting point from importance samples
+2024-07-20 13:40:34,428 INFO     Using starting point [ 0.9551, 0.2498, 0.2605, 0.3209, 0.04296, -0.09543, -0.004676, 0.1051, -0.247, 0.09591, 0.07655, 0.09315, -0.1327, -0.2285, -0.8774, 0.5453, 0.3752, -0.1663, 0.1926, 0.2523, -0.01248, 0.4023, 0.2546, 0.4858, 0.4647, 0.862, 0.6716, -0.03289, 0.2229, 0.1699, 0.8312, 0.7762, -0.1673, 0.6111, 0.4695, -0.1768, 0.4211, 0.4013, -0.6774, -0.1755 ] from importance samples
+2024-07-20 13:40:35,006 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:35,591 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:36,179 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:36,765 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:37,353 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:37,940 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:38,528 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:39,122 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:39,716 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:40,304 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:40,915 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:41,513 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:42,115 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:42,711 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:43,310 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:43,901 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:44,492 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:45,081 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:45,689 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:46,285 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:46,892 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:47,481 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:48,073 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:48,690 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:49,287 INFO     Optimization goal achieved after 41 function evaluations
+2024-07-20 13:40:49,302 INFO     Minimization finished, best point is:
+2024-07-20 13:40:49,302 INFO       - CKM::abs(V_cs) -> 0.9551000671458342
+2024-07-20 13:40:49,302 INFO       - decay-constant::D_s -> 0.249771285993654
+2024-07-20 13:40:49,302 INFO       - decay-constant::D_s^* -> 0.2605354397417191
+2024-07-20 13:40:49,302 INFO       - decay-constant::D_s^*,T -> 0.32087556011885965
+2024-07-20 13:40:49,302 INFO       - D->K::a^f+_0@BFW2010 -> 0.04296451112385266
+2024-07-20 13:40:49,303 INFO       - D->K::a^f+_1@BFW2010 -> -0.09543210526159401
+2024-07-20 13:40:49,303 INFO       - D->K::a^f+_2@BFW2010 -> -0.0046758487080641176
+2024-07-20 13:40:49,303 INFO       - D->K::a^f+_3@BFW2010 -> 0.10508446877392624
+2024-07-20 13:40:49,303 INFO       - D->K::a^f0_1@BFW2010 -> -0.24703559249711787
+2024-07-20 13:40:49,303 INFO       - D->K::a^f0_2@BFW2010 -> 0.09591125390954373
+2024-07-20 13:40:49,303 INFO       - D->K::a^f0_3@BFW2010 -> 0.07654830187226211
+2024-07-20 13:40:49,303 INFO       - D->K::a^fT_0@BFW2010 -> 0.09315113043048372
+2024-07-20 13:40:49,303 INFO       - D->K::a^fT_1@BFW2010 -> -0.1327321847030566
+2024-07-20 13:40:49,303 INFO       - D->K::a^fT_2@BFW2010 -> -0.22850664082388633
+2024-07-20 13:40:49,303 INFO       - D->K::a^fT_3@BFW2010 -> -0.877396503946976
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(t,V)_1@BMRvD2022 -> 0.5453029072799004
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(t,V)_2@BMRvD2022 -> 0.37516249289229786
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,V)_0@BMRvD2022 -> -0.16625993810689893
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,V)_1@BMRvD2022 -> 0.19260146157781133
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,V)_2@BMRvD2022 -> 0.2523176386571988
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,V)_0@BMRvD2022 -> -0.012479481754249871
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,V)_1@BMRvD2022 -> 0.4023189419169281
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,V)_2@BMRvD2022 -> 0.2546144922371869
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(t,A)_1@BMRvD2022 -> 0.4857661900673348
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(t,A)_2@BMRvD2022 -> 0.46470729353340046
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,A)_1@BMRvD2022 -> 0.861950532830378
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,A)_2@BMRvD2022 -> 0.6716246174337859
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,A)_0@BMRvD2022 -> -0.032890463611437076
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,A)_1@BMRvD2022 -> 0.22287293618379056
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,A)_2@BMRvD2022 -> 0.16989535467077208
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,T)_1@BMRvD2022 -> 0.8311873291442238
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,T)_2@BMRvD2022 -> 0.7761566415176744
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,T)_0@BMRvD2022 -> -0.16732576675549904
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,T)_1@BMRvD2022 -> 0.611098817947636
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(0,T)_2@BMRvD2022 -> 0.46949652020043775
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,T5)_0@BMRvD2022 -> -0.1767539784844627
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,T5)_1@BMRvD2022 -> 0.4211114571213532
+2024-07-20 13:40:49,303 INFO       - Lambda_c->Lambda::a^(perp,T5)_2@BMRvD2022 -> 0.40132173586639186
+2024-07-20 13:40:49,304 INFO       - Lambda_c->Lambda::a^(0,T5)_1@BMRvD2022 -> -0.6773872392843996
+2024-07-20 13:40:49,304 INFO       - Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022 -> -0.17552651438860112
+2024-07-20 13:40:49,304 INFO     total chi^2 = 122.18
+2024-07-20 13:40:49,304 INFO     total dof   = 54
+2024-07-20 13:40:49,305 INFO     p value     = 0.00%
+2024-07-20 13:40:49,305 INFO     individual test statistics:
+2024-07-20 13:40:49,305 INFO       - BR::D0-Kenue@PDG2023: chi^2 / dof = 2.94 / 1, local_pvalue = 8.67%
+2024-07-20 13:40:49,306 INFO       - D->K::f_++f_0@FNALMILC:2022A: chi^2 / dof = 5.98 / 7, local_pvalue = 54.17%
+2024-07-20 13:40:49,306 INFO       - D->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 20.55 / 8, local_pvalue = 0.84%
+2024-07-20 13:40:49,307 INFO       - D^+->K0e^+nu::BR@PDG2023: chi^2 / dof = 2.06 / 1, local_pvalue = 15.14%
+2024-07-20 13:40:49,307 INFO       - D^+->K0mu^+nu::BR@BESIII:2016A: chi^2 / dof = 0.18 / 1, local_pvalue = 67.11%
+2024-07-20 13:40:49,308 INFO       - D^+->Kbar^0e^+nu::normalizedwidth@BESIII:2017A: chi^2 / dof = 3.32 / 8, local_pvalue = 91.29%
+2024-07-20 13:40:49,308 INFO       - D^0->K^-e^+nu::normalizedwidth@BESIII:2015A: chi^2 / dof = 19.56 / 17, local_pvalue = 29.72%
+2024-07-20 13:40:49,309 INFO       - D^0->K^-mu^+nu::BR@PDG2023: chi^2 / dof = 0.04 / 1, local_pvalue = 84.63%
+2024-07-20 13:40:49,309 INFO       - D^0->K^-mu^+nu::normalizedwidth@BESIII:2019A: chi^2 / dof = 15.10 / 17, local_pvalue = 58.79%
+2024-07-20 13:40:49,310 INFO       - D_s^*->e^+nu::BR@BESIII:2023C: chi^2 / dof = 0.64 / 1, local_pvalue = 42.55%
+2024-07-20 13:40:49,310 INFO       - D_s^+->mu^+nu::BR@BRvDV2024: chi^2 / dof = 0.80 / 1, local_pvalue = 37.03%
+2024-07-20 13:40:49,311 INFO       - D_s^+->tau^+nu::BR@BRvDV2024: chi^2 / dof = 4.75 / 1, local_pvalue = 2.92%
+2024-07-20 13:40:49,311 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@HQET: chi^2 / dof = 2.00 / 1, local_pvalue = 15.75%
+2024-07-20 13:40:49,312 INFO       - Lambda_c->Lambda::f_long^T5_f_long^A@SCET: chi^2 / dof = 0.60 / 1, local_pvalue = 43.89%
+2024-07-20 13:40:49,312 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@HQET: chi^2 / dof = 0.21 / 1, local_pvalue = 64.35%
+2024-07-20 13:40:49,313 INFO       - Lambda_c->Lambda::f_long^T_f_long^V@SCET: chi^2 / dof = 1.17 / 1, local_pvalue = 28.04%
+2024-07-20 13:40:49,313 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@HQET: chi^2 / dof = 2.00 / 1, local_pvalue = 15.75%
+2024-07-20 13:40:49,313 INFO       - Lambda_c->Lambda::f_perp^T5_f_perp^A@SCET: chi^2 / dof = 0.36 / 1, local_pvalue = 54.60%
+2024-07-20 13:40:49,314 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@HQET: chi^2 / dof = 0.17 / 1, local_pvalue = 68.13%
+2024-07-20 13:40:49,314 INFO       - Lambda_c->Lambda::f_perp^T_f_perp^V@SCET: chi^2 / dof = 2.41 / 1, local_pvalue = 12.04%
+2024-07-20 13:40:49,315 INFO       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 25.09 / 17, local_pvalue = 9.28%
+2024-07-20 13:40:49,315 INFO       - Lambda_c->Lambdae^+nu::BR[0.0,q2max]@BESIII:2022A: chi^2 / dof = 1.68 / 1, local_pvalue = 19.45%
+2024-07-20 13:40:49,316 INFO       - Lambda_c->Lambdamu^+nu::BR[0.0,q2max]@BESIII:2023A: chi^2 / dof = 0.58 / 1, local_pvalue = 44.47%
+2024-07-20 13:40:49,316 INFO       - decay-constant::D_s@FLAG:2021A: chi^2 / dof = 0.07 / 1, local_pvalue = 79.68%
+2024-07-20 13:40:49,317 INFO       - decay-constant::D_s^*,T@PZ:2021A: chi^2 / dof = 4.88 / 1, local_pvalue = 2.71%
+2024-07-20 13:40:49,317 INFO       - decay-constant::D_s^*@MDLLSYZ:2024A: chi^2 / dof = 5.04 / 1, local_pvalue = 2.48%

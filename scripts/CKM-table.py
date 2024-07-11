@@ -10,7 +10,7 @@ labels = [
     r'$\Lambda_c\to\Lambda\ell^+\nu$',
     r'joint fit (nominal)',
     r'$D\to \bar{K}\ell^+\nu$ (scale factor)',
-    r'joint fit (scale factor)',
+    r'joint fit (scale factor)'
 ]
 ids = [
     'CKM-Ds-Dsstar-to-l-nu',

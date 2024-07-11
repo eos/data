@@ -186,12 +186,6 @@ for key in d.keys():
     # predicts_err_WET[0].append(d[key]["predict-err-WET"][0] / d[key]["measured-cen"])
     # predicts_err_WET[1].append(d[key]["predict-err-WET"][1] / d[key]["measured-cen"])
 
-ax.errorbar(measures_val,     yvals,     xerr=measures_err,     color="black", fmt="d", label=r"measurement")
-ax.errorbar(predicts_val_TH,  yvals_TH,  xerr=predicts_err_TH,  color="C4",    fmt="o", label=r"theory only")
-ax.errorbar(predicts_val_SM,  yvals_SM,  xerr=predicts_err_SM,  color="C6",    fmt="v", label=r"SM posterior prediction")
-ax.errorbar(predicts_val_CKM, yvals_CKM, xerr=predicts_err_CKM, color="C9",    fmt="s", label=r"CKM posterior prediction")
-# ax.errorbar(predicts_val_WET, yvals_WET, xerr=predicts_err_WET, color="C10",   fmt="*", label=r"WET posterior prediction")
-
 ax.yaxis.set_ticklabels(labels[::-1])
 ax.set_xlabel(r"$\mathcal{B}/\mathcal{B}_{\textrm{measured}}$")
 ax.set_xlim([0.945,1.13])
@@ -199,6 +193,12 @@ ax.axvline(x = 1, color = 'lightgray')
 ax.axhline(y = 1.5, color = 'lightgray')
 ax.axhline(y = 5.5, color = 'lightgray')
 ax.set_ylim([0.5,len(labels)-0.5])
+
+ax.errorbar(measures_val,     yvals,     xerr=measures_err,     color="black", fmt="d", label=r"measurement")
+ax.errorbar(predicts_val_TH,  yvals_TH,  xerr=predicts_err_TH,  color="C4",    fmt="o", label=r"theory only")
+ax.errorbar(predicts_val_SM,  yvals_SM,  xerr=predicts_err_SM,  color="C6",    fmt="v", label=r"SM posterior prediction")
+ax.errorbar(predicts_val_CKM, yvals_CKM, xerr=predicts_err_CKM, color="C9",    fmt="s", label=r"CKM posterior prediction")
+# ax.errorbar(predicts_val_WET, yvals_WET, xerr=predicts_err_WET, color="C10",   fmt="*", label=r"WET posterior prediction")
 
 ax.legend(loc='upper center',ncol=2,bbox_to_anchor=(0.5,1.15))
 

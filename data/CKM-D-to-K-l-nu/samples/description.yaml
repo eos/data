@@ -36,4 +36,4 @@ parameters:
   min: -1.0
   name: D->K::a^fT_3@BFW2010
 type: ImportanceSamples
-version: 1.0.11
+version: 1.0.12

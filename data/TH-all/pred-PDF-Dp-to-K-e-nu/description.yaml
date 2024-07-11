@@ -32,4 +32,4 @@ observables:
     q2_min: 1.4
   name: D->Klnu::P(q2_min,q2_max)
 type: Prediction
-version: 1.0.11
+version: 1.0.12

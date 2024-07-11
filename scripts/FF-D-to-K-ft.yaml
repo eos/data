@@ -4,7 +4,7 @@ plot:
     unit: '$\textnormal{GeV}^2$'
     range: [-0.5, 2.0]
   y:
-    label: '$f_{+}^{D\to \bar{K}}$'
+    label: '$f_{T}^{D\to \bar{K}}$'
     range: [0.6, 1.6 ]
   legend:
     location: 'upper left'

@@ -117,4 +117,4 @@ parameters:
   min: -1.0
   name: Lambda_c->Lambda::a^(0,T5)_2@BMRvD2022
 type: ImportanceSamples
-version: 1.0.11
+version: 1.0.12

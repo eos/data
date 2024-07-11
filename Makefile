@@ -21,6 +21,8 @@ FIGURES_SATURATIONS = \
 	figures/FF-saturation-1pT5-perp.png
 
 FIGURES = \
+	figures/BR-comparison.pdf \
+	figures/BR-comparison.png \
 	figures/CKM-comparison-Vcs-nominal.pdf \
 	figures/CKM-comparison-Vcs-nominal.png \
 	figures/CKM-comparison-Vcs-scale-factor.pdf \
@@ -35,6 +37,26 @@ FIGURES = \
 	figures/FF-D-to-K-fz.png \
 	figures/FF-D-to-K-ft.pdf \
 	figures/FF-D-to-K-ft.png \
+	figures/FF-Lc-to-L-fperpV.pdf \
+	figures/FF-Lc-to-L-fperpV.png \
+	figures/FF-Lc-to-L-fperpA.pdf \
+	figures/FF-Lc-to-L-fperpA.png \
+	figures/FF-Lc-to-L-fperpT.pdf \
+	figures/FF-Lc-to-L-fperpT.png \
+	figures/FF-Lc-to-L-fperpT5.pdf \
+	figures/FF-Lc-to-L-fperpT5.png \
+	figures/FF-Lc-to-L-flongV.pdf \
+	figures/FF-Lc-to-L-flongV.png \
+	figures/FF-Lc-to-L-flongA.pdf \
+	figures/FF-Lc-to-L-flongA.png \
+	figures/FF-Lc-to-L-flongT.pdf \
+	figures/FF-Lc-to-L-flongT.png \
+	figures/FF-Lc-to-L-flongT5.pdf \
+	figures/FF-Lc-to-L-flongT5.png \
+	figures/FF-Lc-to-L-ftimeV.pdf \
+	figures/FF-Lc-to-L-ftimeV.png \
+	figures/FF-Lc-to-L-ftimeA.pdf \
+	figures/FF-Lc-to-L-ftimeA.png \
 	figures/PDF-D0-to-K-e-nu.pdf \
 	figures/PDF-D0-to-K-e-nu.png \
 	figures/PDF-Dp-to-K-e-nu.pdf \

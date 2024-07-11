@@ -1,0 +1,24 @@
+plot:
+  x:
+    label: '$q^2$'
+    unit: '$\textnormal{GeV}^2$'
+    range: [-0.5, 1.37]
+  y:
+    label: '$f_{0,A}^{\Lambda_c\to \Lambda}$'
+    range: [0.4, 1.0 ]
+  legend:
+    location: 'upper left'
+contents:
+  - label: 'Meinel 2016'
+    type: 'constraint'
+    color: 'mediumblue'
+    constraints: 'Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A'
+    variable: 'q2'
+    observable: 'Lambda_c->Lambda::f_long^A(q2)'
+  - label: '$K=2$'
+    type: 'uncertainty'
+    color: 'cornflowerblue'
+    opacity: 0.5
+    data-file: 'data/TH-all/pred-FF-Lc-to-L-flongA'
+  - type: 'watermark'
+    position: [ 'right', 'bottom' ]
