@@ -1,0 +1,28 @@
+name: 'Validate an EOS analysis'
+description: 'Checks out an EOS tag or branch and runs ``eos-analysis validate``'
+
+inputs:
+  ref:
+    description: The git reference from which to check out the EOS analysis, either a branch or a tag name.
+    required: true
+  analysis_file:
+    description: The name of the main analysis file contained in the branch or tag
+    default: analysis.yaml
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ inputs.ref }}
+        path: analysis/
+        clean: false
+        set-safe-directory: false
+
+    - name: Update EOS
+      shell: bash
+      run: pip3 install --upgrade --pre eoshep>=1.0.13.dev482
+
+    - name: Validate the analysis file
+      shell: bash
+      run: eos-analysis validate --analysis-file analysis/${{ inputs.analysis_file }}
