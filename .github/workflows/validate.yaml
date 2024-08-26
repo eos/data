@@ -1,0 +1,34 @@
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/validate.yaml'
+      - '.github/actions/validate-analysis/**'
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 8 * * WED'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { ref: '2023-01', analysis_file: 'b-to-u-l-nu.yaml'  }
+          - { ref: '2023-03', analysis_file: 'lcsr-bs-to-k.yaml' }
+          - { ref: '2023-03', analysis_file: 'ff-bs-to-k.yaml'   }
+          - { ref: '2024-01', analysis_file: 'analysis.yaml'     }
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          clean: false
+          set-safe-directory: false
+
+      - uses: ./.github/actions/validate-analysis
+        with:
+          ref: ${{ matrix.ref }}
+          analysis_file: ${{ matrix.analysis_file }}
