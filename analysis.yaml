@@ -1,0 +1,182 @@
+likelihoods:
+  - name: EXP-Belle-timelike
+    constraints:
+      - '0->pipi::Abs{f_+}^2@Belle:2008C;end=19'
+  - name: EXP-CLEO-timelike
+    constraints:
+      - '0->pipi::Abs{f_+}^2@CLEO:2000B;end=29'
+  - name: EXP-NA7-spacelike
+    constraints:
+      - '0->pipi::Abs{f_+}^2@NA7:1986A'
+  - name: EXP-JLAB # From arXiv:0809.3052, table I, converted from f_pi to |f_pi|^2
+    manual_constraints:
+      "0->pipi::f+":
+        type: "Gaussian"
+        observable: "0->pipi::Abs{f_+}^2(q2);I=1"
+        kinematics: {'q2': -2.45}
+        options: {'form-factors': 'KKRvD2024'}
+        mean: 0.027889
+        sigma-stat: {"hi": 0.0033, "lo": 0.0033}
+        sigma-sys:  {"hi": 0.0043, "lo": 0.0023}
+
+priors:
+  - name: FF-fp-I1-pole-params-order1
+    descriptions:
+      - { 'parameter': '0->pipi::M_(+,1)@KKRvD2024', 'min':  0.765, 'max':  0.768, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::Gamma_(+,1)@KKRvD2024', 'min':  0.172, 'max':  0.175, 'type': 'uniform'}
+
+  - name: FF-fp-I1-pole-params-order2
+    descriptions:
+      - { 'parameter': '0->pipi::M_(+,1)@KKRvD2024', 'min':  0.7705, 'max':  0.773, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::Gamma_(+,1)@KKRvD2024', 'min':  0.149, 'max':  0.155, 'type': 'uniform'}
+  - name: FF-fp-I1-expansion-order2
+    descriptions:
+      - { 'parameter': '0->pipi::b_(+,1)^2@KKRvD2024', 'min':  0.008, 'max':  0.012, 'type': 'uniform'}
+
+  - name: FF-fp-I1-pole-params-order3
+    descriptions:
+      - { 'parameter': '0->pipi::M_(+,1)@KKRvD2024', 'min':  0.758, 'max':  0.763, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::Gamma_(+,1)@KKRvD2024', 'min':  0.14, 'max':  0.146, 'type': 'uniform'}
+  - name: FF-fp-I1-expansion-order3
+    descriptions:
+      - { 'parameter': '0->pipi::b_(+,1)^2@KKRvD2024', 'min':  -0.025, 'max':  -0.018, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::b_(+,1)^3@KKRvD2024', 'min':  -0.023, 'max':  -0.018, 'type': 'uniform'}
+
+  - name: FF-fp-I1-pole-params-order4
+    descriptions:
+      - { 'parameter': '0->pipi::M_(+,1)@KKRvD2024', 'min':  0.758, 'max':  0.762, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::Gamma_(+,1)@KKRvD2024', 'min':  0.141, 'max':  0.150, 'type': 'uniform'}
+  - name: FF-fp-I1-expansion-order4
+    descriptions:
+      - { 'parameter': '0->pipi::b_(+,1)^2@KKRvD2024', 'min':  -0.023, 'max':  0.0067, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::b_(+,1)^3@KKRvD2024', 'min':  -0.022, 'max':  0.0065, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::b_(+,1)^4@KKRvD2024', 'min':  -0.0008, 'max':  0.012, 'type': 'uniform'}
+
+  - name: FF-fp-I1-pole-params-order5
+    descriptions:
+      - { 'parameter': '0->pipi::M_(+,1)@KKRvD2024', 'min':  0.757, 'max':  0.763, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::Gamma_(+,1)@KKRvD2024', 'min':  0.141, 'max':  0.151, 'type': 'uniform'}
+  - name: FF-fp-I1-expansion-order5
+    descriptions:
+      - { 'parameter': '0->pipi::b_(+,1)^2@KKRvD2024', 'min':  -0.08, 'max':  0.08, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::b_(+,1)^3@KKRvD2024', 'min':  -0.09, 'max':  0.09, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::b_(+,1)^4@KKRvD2024', 'min':  -0.05, 'max':  0.07, 'type': 'uniform'}
+      - { 'parameter': '0->pipi::b_(+,1)^5@KKRvD2024', 'min':  -0.02, 'max':  0.02, 'type': 'uniform'}
+
+
+posteriors:
+  - name: FF-fp-I1-order1
+    global_options:
+      form-factors: KKRvD2024
+    fixed_parameters:
+      0->pipi::t_0@KKRvD2024: -1.0
+    prior:
+      - FF-fp-I1-pole-params-order1
+    likelihood:
+      - EXP-Belle-timelike
+      - EXP-CLEO-timelike
+      - EXP-NA7-spacelike
+      - EXP-JLAB
+
+  - name: FF-fp-I1-order2
+    global_options:
+      form-factors: KKRvD2024
+    fixed_parameters:
+      0->pipi::t_0@KKRvD2024: -1.0
+    prior:
+      - FF-fp-I1-pole-params-order2
+      - FF-fp-I1-expansion-order2
+    likelihood:
+      - EXP-Belle-timelike
+      - EXP-CLEO-timelike
+      - EXP-NA7-spacelike
+      - EXP-JLAB
+
+  - name: FF-fp-I1-order3
+    global_options:
+      form-factors: KKRvD2024
+    fixed_parameters:
+      0->pipi::t_0@KKRvD2024: -1.0
+    prior:
+      - FF-fp-I1-pole-params-order3
+      - FF-fp-I1-expansion-order3
+    likelihood:
+      - EXP-Belle-timelike
+      - EXP-CLEO-timelike
+      - EXP-NA7-spacelike
+      - EXP-JLAB
+
+  - name: FF-fp-I1-order4
+    global_options:
+      form-factors: KKRvD2024
+    fixed_parameters:
+      0->pipi::t_0@KKRvD2024: -1.0
+    prior:
+      - FF-fp-I1-pole-params-order4
+      - FF-fp-I1-expansion-order4
+    likelihood:
+      - EXP-Belle-timelike
+      - EXP-CLEO-timelike
+      - EXP-NA7-spacelike
+      - EXP-JLAB
+
+  - name: FF-fp-I1-order5
+    global_options:
+      form-factors: KKRvD2024
+    fixed_parameters:
+      0->pipi::t_0@KKRvD2024: -1.0
+    prior:
+      - FF-fp-I1-pole-params-order5
+      - FF-fp-I1-expansion-order5
+    likelihood:
+      - EXP-Belle-timelike
+      - EXP-CLEO-timelike
+      - EXP-NA7-spacelike
+      - EXP-JLAB
+
+
+predictions:
+  - name: FF-fp2-I1-all
+    observables:
+      - name: '0->pipi::Abs{f_+}^2(q2);I=1'
+        kinematics:
+          [{'q2': -2.5}, {'q2': -2.4081632653061225}, {'q2': -2.316326530612245}, {'q2': -2.2244897959183674},
+           {'q2': -2.13265306122449}, {'q2': -2.0408163265306123}, {'q2': -1.9489795918367347}, {'q2': -1.8571428571428572},
+           {'q2': -1.7653061224489797}, {'q2': -1.6734693877551021}, {'q2': -1.5816326530612246}, {'q2': -1.4897959183673468},
+           {'q2': -1.3979591836734693}, {'q2': -1.3061224489795917}, {'q2': -1.2142857142857142}, {'q2': -1.1224489795918366},
+           {'q2': -1.030612244897959}, {'q2': -0.9387755102040816}, {'q2': -0.846938775510204}, {'q2': -0.7551020408163265},
+           {'q2': -0.6632653061224489}, {'q2': -0.5714285714285714}, {'q2': -0.47959183673469363}, {'q2': -0.3877551020408161},
+           {'q2': -0.29591836734693855}, {'q2': -0.204081632653061}, {'q2': -0.11224489795918347}, {'q2': -0.020408163265305923},
+           {'q2': 0.07142857142857162}, {'q2': 0.16326530612244916}, {'q2': 0.2551020408163267}, {'q2': 0.34693877551020424},
+           {'q2': 0.4387755102040818}, {'q2': 0.5306122448979593}, {'q2': 0.6224489795918369}, {'q2': 0.7142857142857144},
+           {'q2': 0.806122448979592}, {'q2': 0.8979591836734695}, {'q2': 0.989795918367347}, {'q2': 1.0816326530612246},
+           {'q2': 1.1734693877551021}, {'q2': 1.2653061224489797}, {'q2': 1.3571428571428572}, {'q2': 1.4489795918367347},
+           {'q2': 1.5408163265306127}, {'q2': 1.6326530612244898}, {'q2': 1.7244897959183678}, {'q2': 1.816326530612245},
+           {'q2': 1.908163265306123}, {'q2': 2.0}]
+
+  - name: FF-arg-fp-I1-timelike
+    observables:
+      - name: '0->pipi::Arg{f_+}(q2);I=1'
+        kinematics:
+          [{'q2': 0.0779191}, # 4 mpi^2
+           {'q2': 0.11714524081632655}, {'q2': 0.15637138163265307}, {'q2': 0.1955975224489796}, {'q2': 0.23482366326530613},
+           {'q2': 0.27404980408163265}, {'q2': 0.31327594489795924}, {'q2': 0.35250208571428576}, {'q2': 0.3917282265306123},
+           {'q2': 0.4309543673469388}, {'q2': 0.47018050816326534}, {'q2': 0.5094066489795919}, {'q2': 0.5486327897959185},
+           {'q2': 0.5878589306122449}, {'q2': 0.6270850714285715}, {'q2': 0.666311212244898}, {'q2': 0.7055373530612246},
+           {'q2': 0.7447634938775511}, {'q2': 0.7839896346938776}, {'q2': 0.8232157755102042}, {'q2': 0.8624419163265307},
+           {'q2': 0.9016680571428572}, {'q2': 0.9408941979591837}, {'q2': 0.9801203387755103}, {'q2': 1.0193464795918368},
+           {'q2': 1.0585726204081634}, {'q2': 1.0977987612244897}, {'q2': 1.1370249020408163}, {'q2': 1.1762510428571429},
+           {'q2': 1.2154771836734695}, {'q2': 1.2547033244897958}, {'q2': 1.2939294653061224}, {'q2': 1.333155606122449},
+           {'q2': 1.3723817469387756}, {'q2': 1.4116078877551022}, {'q2': 1.4508340285714285}, {'q2': 1.490060169387755},
+           {'q2': 1.5292863102040817}, {'q2': 1.5685124510204083}, {'q2': 1.6077385918367346}, {'q2': 1.6469647326530612},
+           {'q2': 1.6861908734693878}, {'q2': 1.7254170142857144}, {'q2': 1.764643155102041}, {'q2': 1.8038692959183673},
+           {'q2': 1.843095436734694}, {'q2': 1.8823215775510205}, {'q2': 1.921547718367347}, {'q2': 1.9607738591836736},
+           {'q2': 2.0}]
+
+  - name: FF-fp-I1-pion-charge-radius-squared
+    observables:
+      - name: '0->pipi::r_pi^2@KKRvD2024'
+
+  - name: FF-fp-I1-dispersive-bound
+    observables:
+      - name: '0->pipi::Saturation@KKRvD2024'

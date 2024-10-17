@@ -1,0 +1,5 @@
+observables:
+- kinematics: {}
+  name: 0->pipi::r_pi^2@KKRvD2024
+type: Prediction
+version: 1.0.13

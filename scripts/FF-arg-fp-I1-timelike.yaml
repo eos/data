@@ -1,0 +1,32 @@
+plot:
+  x:
+    label: '$q^2$'
+    unit: '$\textnormal{GeV}^2$'
+    range: [0.0, 2.0]
+  y:
+    label: '$\mathrm{arg} F_\pi(I=1)$'
+    range: [0.0, 3.5]
+  legend:
+    location: 'upper left'
+contents:
+  - label: '$N=5$ fit'
+    type: 'uncertainty'
+    color: 'C4'
+    opacity: 0.5
+    data-file: 'data/FF-fp-I1-order5/pred-FF-arg-fp-I1-timelike'
+    band: ['outer', 'area']
+    range: [0.0, 1.0]
+  - type: 'uncertainty'
+    color: 'C4'
+    opacity: 0.5
+    data-file: 'data/FF-fp-I1-order5/pred-FF-arg-fp-I1-timelike'
+    style: 'dashed'
+    band: ['outer']
+    range: [1.0, 2.0]
+  - type: 'band'
+    color: 'gray'
+    opacity: 0.25
+    x: [1.0, 2.0]
+    y: [0, 4.0]
+  - type: 'watermark'
+    position: [ 'right', 'bottom' ]

@@ -1,0 +1,153 @@
+observables:
+- kinematics:
+    q2: 0.0779191
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.11714524081632655
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.15637138163265307
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.1955975224489796
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.23482366326530613
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.27404980408163265
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.31327594489795924
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.35250208571428576
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.3917282265306123
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.4309543673469388
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.47018050816326534
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.5094066489795919
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.5486327897959185
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.5878589306122449
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.6270850714285715
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.666311212244898
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.7055373530612246
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.7447634938775511
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.7839896346938776
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.8232157755102042
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.8624419163265307
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.9016680571428572
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.9408941979591837
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 0.9801203387755103
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.0193464795918368
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.0585726204081634
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.0977987612244897
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.1370249020408163
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.1762510428571429
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.2154771836734695
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.2547033244897958
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.2939294653061224
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.333155606122449
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.3723817469387756
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.4116078877551022
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.4508340285714285
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.490060169387755
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.5292863102040817
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.5685124510204083
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.6077385918367346
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.6469647326530612
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.6861908734693878
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.7254170142857144
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.764643155102041
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.8038692959183673
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.843095436734694
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.8823215775510205
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.921547718367347
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 1.9607738591836736
+  name: 0->pipi::Arg{f_+}(q2)
+- kinematics:
+    q2: 2.0
+  name: 0->pipi::Arg{f_+}(q2)
+type: Prediction
+version: 1.0.12
