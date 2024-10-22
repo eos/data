@@ -1,6 +1,6 @@
 priors:
   - name: BSZ2
-    parameters:
+    descriptions:
       - { 'parameter': 'B_s->phi::alpha^A0_0@BSZ2015', 'min':  0.17456, 'max':  0.58545,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::alpha^A0_1@BSZ2015', 'min': -3.23904, 'max':  0.69719,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::alpha^A0_2@BSZ2015', 'min': -16.24166, 'max': 21.74316,  'type': 'uniform'}
@@ -22,7 +22,7 @@ priors:
       - { 'parameter': 'B_s->phi::alpha^T23_2@BSZ2015', 'min': -23.39085, 'max': 26.99066,  'type': 'uniform'}
 
   - name: BFW2
-    parameters:
+    descriptions:
       - { 'parameter': 'B_s->phi::a^A0_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::a^A0_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::a^A0_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
@@ -42,7 +42,7 @@ priors:
       - { 'parameter': 'B_s->phi::a^T23_2@BFW2010', 'min': -1.0, 'max':  1.0,  'type': 'uniform'}
 
   - name: BFW3
-    parameters:
+    descriptions:
       - { 'parameter': 'B_s->phi::a^A0_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::a^A0_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::a^A0_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
@@ -70,7 +70,7 @@ priors:
 
 
   - name: BFW4
-    parameters:
+    descriptions:
       - { 'parameter': 'B_s->phi::a^A0_0@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::a^A0_1@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
       - { 'parameter': 'B_s->phi::a^A0_2@BFW2010',  'min': -1.0, 'max':  1.0,  'type': 'uniform'}
@@ -126,50 +126,34 @@ likelihoods:
         options: [ {} ]
         bound: 1.0
         uncertainty: 0.1
-      'b->s::MesonicBound[1^-_V,perp]':
+      'b->s::MesonicBound[1^-_V]':
         type: UniformBound
         observables:
-            - 'B_s->phi::Saturation[1^-_V,perp]'
+            - 'B_s->phi::Saturation[1^-_V]'
         kinematics: [ {} ]
         options: [ {} ]
         bound: 1.0
         uncertainty: 0.1
-      'b->s::MesonicBound[1^+_A,0]':
+      'b->s::MesonicBound[1^+_A]':
         type: UniformBound
         observables:
-            - 'B_s->phi::Saturation[1^+_A,0]'
+            - 'B_s->phi::Saturation[1^+_A]'
         kinematics: [ {} ]
         options: [ {} ]
         bound: 1.0
         uncertainty: 0.1
-      'b->s::MesonicBound[1^+_A,para]':
+      'b->s::MesonicBound[1^-_T]':
         type: UniformBound
         observables:
-            - 'B_s->phi::Saturation[1^+_A,para]'
+            - 'B_s->phi::Saturation[1^-_T]'
         kinematics: [ {} ]
         options: [ {} ]
         bound: 1.0
         uncertainty: 0.1
-      'b->s::MesonicBound[1^-_T,perp]':
+      'b->s::MesonicBound[1^+_T5]':
         type: UniformBound
         observables:
-            - 'B_s->phi::Saturation[1^-_T,perp]'
-        kinematics: [ {} ]
-        options: [ {} ]
-        bound: 1.0
-        uncertainty: 0.1
-      'b->s::MesonicBound[1^+_T5,0]':
-        type: UniformBound
-        observables:
-            - 'B_s->phi::Saturation[1^+_T5,0]'
-        kinematics: [ {} ]
-        options: [ {} ]
-        bound: 1.0
-        uncertainty: 0.1
-      'b->s::MesonicBound[1^+_T5,para]':
-        type: UniformBound
-        observables:
-            - 'B_s->phi::Saturation[1^+_T5,para]'
+            - 'B_s->phi::Saturation[1^+_T5]'
         kinematics: [ {} ]
         options: [ {} ]
         bound: 1.0
@@ -248,14 +232,10 @@ predictions:
     observables:
       - name: "B_s->phi::Saturation[0^+_V]"
       - name: "B_s->phi::Saturation[0^-_A]"
-      - name: "B_s->phi::Saturation[1^-_V,0]"
-      - name: "B_s->phi::Saturation[1^-_V,perp]"
-      - name: "B_s->phi::Saturation[1^+_A,0]"
-      - name: "B_s->phi::Saturation[1^+_A,para]"
-      - name: "B_s->phi::Saturation[1^-_T,0]"
-      - name: "B_s->phi::Saturation[1^-_T,perp]"
-      - name: "B_s->phi::Saturation[1^+_T5,0]"
-      - name: "B_s->phi::Saturation[1^+_T5,para]"
+      - name: "B_s->phi::Saturation[1^-_V]"
+      - name: "B_s->phi::Saturation[1^+_A]"
+      - name: "B_s->phi::Saturation[1^-_T]"
+      - name: "B_s->phi::Saturation[1^+_T5]"
 
   - name: V
     observables:
