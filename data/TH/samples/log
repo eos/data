@@ -1,0 +1,5 @@
+2024-10-08 14:42:17,948 INFO       Creating analysis with 1 priors, 0 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 38 fixed parameters.
+2024-10-08 14:42:17,948 WARNING    likelihood does not depend on parameter 'B_s->D_spi::f_0(Mpi2)'; remove from prior or check options!
+2024-10-08 14:42:17,948 WARNING    likelihood does not depend on parameter 'B_s->D_s^*pi::A_0(Mpi2)'; remove from prior or check options!
+2024-10-08 14:42:17,948 WARNING    likelihood does not depend on parameter 'B->D^*K::A_0(MK2)'; remove from prior or check options!
+2024-10-08 14:42:17,949 WARNING    likelihood does not depend on parameter 'B->DK::f_0(MK2)'; remove from prior or check options!

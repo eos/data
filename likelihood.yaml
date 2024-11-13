@@ -1,0 +1,373 @@
+parameters:
+  # parameters of interest for B->PP
+  B_s^0->D_s^-pi^+::BR@Parametric:
+    central: 0.0
+    min: 1.0e-4
+    max: 1.0e-2
+    unit: '1'
+    latex: '$\mathcal{B}(\bar{B}_s\to D_s^-\pi^+)$'
+  B^0->D^-K^+::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(\bar{B}\to D^-K^+)$'
+  # parameters of interest for B->VP
+  B_s^0->D_s^*-pi^+::BR@Parametric:
+    central: 0.0
+    min: 1.0e-4
+    max: 1.0e-2
+    unit: '1'
+    latex: '$\mathcal{B}(\bar{B}_s\to D_s^{*-}\pi^+)$'
+  B^0->D^*-K^+::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(\bar{B}\to D^{*-}K^+)$'
+  # nuisance parameters (BRs) for B->PP
+  B^0->D^-pi^+::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(\bar{B}\to D^-\pi^+)$'
+  D_s^-->phipi^-::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(D_s^-\to \phi\pi^-)$'
+  D_s^-->K^+K^-pi^-::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(D_s^-\to K^+K^-\pi^-)$'
+  D^-->K^+pi^-pi^-::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(D^-\to K^+\pi^-\pi^-)$'
+  # nuisance parameters (BRs) for B->VP
+  B^0->D^*-pi^+::BR@Parametric:
+    central: 0.0
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$\mathcal{B}(\bar{B}^0\to D^{*-}\pi^+)$'
+  # nuisance parameters (hadronization)
+  hadronization::fs/fd@Tevatron:
+    central: 0.334
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$f_s / f_d\big|_{\textrm{Tevatron}}$'
+  hadronization::fs/fd@LHCb(7TeV):
+    central: 0.300
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$f_s / f_d\big|_{\textrm{LHCb,7TeV}}$'
+  hadronization::f_00@Upsilon(4S):
+    central: 0.488
+    min: 0.0
+    max: 1.0
+    unit: '1'
+    latex: '$f_{00}$'
+observables:
+  # observables related to B->PP
+  # D_s^-->phipi^-::BR@Parametric here also includes phi->K^+K^-
+  aux::R(pi)@CDF:
+    expression: >
+      [[hadronization::fs/fd@Tevatron]]
+      * [[B_s^0->D_s^-pi^+::BR@Parametric]] / [[B^0->D^-pi^+::BR@Parametric]]
+      * [[D_s^-->phipi^-::BR@Parametric]] / [[D^-->K^+pi^-pi^-::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{f_s}{f_d}\, \frac{\mathcal{B}(B_s^0 \to D_s^-(\to \phi(\to K^+ K^-)\pi^-)\pi^+)}{\mathcal{B}(B^0\to D^-(\to K^+\pi^-\pi^-)\pi^+)}'
+  aux::R(pi)@LHCb:
+    # see arXiv:1204.1273, eq. (3), p. 10
+    expression: >
+      [[hadronization::fs/fd@LHCb(7TeV)]]
+      * [[B_s^0->D_s^-pi^+::BR@Parametric]]  / [[B^0->D^-pi^+::BR@Parametric]]
+      * [[D_s^-->K^+K^-pi^-::BR@Parametric]] / [[D^-->K^+pi^-pi^-::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{f_s}{f_d}\, \frac{\mathcal{B}(B_s^0 \to D_s^-(\to K^+K^-\pi^-)\pi^+)}{\mathcal{B}(B^0\to D^-(\to K^+\pi^-\pi^-)\pi^+)}'
+  aux::R(pi,K)@LHCb:
+    # see arXiv:1301.5286, eq. (1), p. 1
+    # BR[D_s^-->K^+K^-pi^-] has been changed w.r.t. arXiv:1204.1273
+    expression: >
+      [[hadronization::fs/fd@LHCb(7TeV)]]
+      * [[B_s^0->D_s^-pi^+::BR@Parametric]]  / [[B^0->D^-K^+::BR@Parametric]]
+      * [[D_s^-->K^+K^-pi^-::BR@Parametric]] / [[D^-->K^+pi^-pi^-::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{f_s}{f_d}\, \frac{\mathcal{B}(B_s^0 \to D_s^-(\to K^+K^- \pi^-)\pi^+)}{\mathcal{B}(B^0\to D^-(\to K^+\pi^-\pi^-)K^+)}'
+  B->DL::R(K^+,pi^+):
+    expression: >
+      [[B^0->D^-K^+::BR@Parametric]] / [[B^0->D^-pi^+::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{\mathcal{B}(\bar{B}^0\to D^-K^+)}{\mathcal{B}(\bar{B}^0\to D^-K^+)}'
+  B->D(->Kpipi)pi::BR:
+    expression: >
+      [[B^0->D^-pi^+::BR@Parametric]]
+      * [[D^-->K^+pi^-pi^-::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\mathcal{B}(\bar{B}^0\to D^-(\to K^+\pi^-\pi^-)\pi^+)'
+  aux::Upsilon(4S):
+    # see arXiv:hep-ex/0610027 for f_00 = 0.5
+    # PDG 2006 for BR(D^-->K^+pi^-pi^-) = 9.51 +/ 0.34 %
+    expression: >
+      [[hadronization::f_00@Upsilon(4S)]]
+      * [[B^0->D^-pi^+::BR@Parametric]]
+      * [[D^-->K^+pi^-pi^-::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: 'f_{00}\, \mathcal{B}(\bar{B}^0\to D^-\pi^+)\, \mathcal{B}(D^-\to K^+\pi^-\pi^-)'
+  # observables related to B->VP
+  aux::R(Ds,Ds*)@Belle:
+    expression: >
+      [[B_s^0->D_s^*-pi^+::BR@Parametric]] / [[B_s^0->D_s^-pi^+::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{\mathcal{B}(B_s^0 \to D_s^{*-}\pi^+}{\mathcal{B}(B_s^0\to D_s^-\pi^+)}'
+  aux::R(K,pi)@LHCb+BaBar+Belle:
+    expression: >
+      [[B^0->D^*-K^+::BR@Parametric]] / [[B^0->D^*-pi^+::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{\mathcal{B}(B^0 \to D^{*-}K^+}{\mathcal{B}(B^0\to D^{*-}\pi^+)}'
+  aux::BD^*-pi^+:
+    expression: >
+      [[hadronization::f_00@Upsilon(4S)]]
+      * [[B^0->D^*-pi^+::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: 'f_{00} \mathcal{B}(B^0 \to D^{*-}\pi^+)'
+  aux::R(D,D*)@BaBar:
+    expression: >
+      [[B^0->D^*-pi^+::BR@Parametric]] / [[B^0->D^-pi^+::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '\frac{\mathcal{B}(B^0 \to D^{*-}\pi^+}{\mathcal{B}(B^0\to D^-\pi^+)}'
+  # observables related to fs / fd
+  aux::fs/fd7TeV@LHCb:
+    expression: >
+      [[hadronization::fs/fd@LHCb(7TeV)]]
+      * [[D_s^-->K^+K^-pi^-::BR@Parametric]]
+    unit: '1'
+    options: {}
+    latex: '(\frac{f_s}{f_d})^{7TeV}\, \mathcal{B}(D_s^- \to K^+K^-\pi^-)'
+priors:
+  - name: BRs-interest
+    parameters:
+      - { parameter: B_s^0->D_s^-pi^+::BR@Parametric,  min: 0.00e-3, max: 7.00e-3, type: uniform }
+      - { parameter: B^0->D^-K^+::BR@Parametric,       min: 1.65e-4, max: 3.58e-4, type: uniform }
+      - { parameter: B_s^0->D_s^*-pi^+::BR@Parametric, min: 0.00e-3, max: 6.00e-3, type: uniform }
+      - { parameter: B^0->D^*-K^+::BR@Parametric,      min: 1.20e-4, max: 3.00e-4, type: uniform }
+  - name: BRs-nuisance
+    parameters:
+      - { parameter: B^0->D^-pi^+::BR@Parametric,      min: 2.00e-3, max: 3.80e-3, type: uniform }
+      - { parameter: D_s^-->phipi^-::BR@Parametric,    min: 1.40e-2, max: 2.80e-2, type: uniform }
+      - { parameter: D_s^-->K^+K^-pi^-::BR@Parametric, min: 4.50e-2, max: 6.50e-2, type: uniform }
+      - { parameter: D^-->K^+pi^-pi^-::BR@Parametric,  min: 8.30e-2, max: 10.5e-2, type: uniform }
+      - { parameter: B^0->D^*-pi^+::BR@Parametric,     min: 1.80e-3, max: 4.00e-3, type: uniform }
+  - name: hadronization-f00
+    parameters:
+      - { parameter: hadronization::f_00@Upsilon(4S),  min: 0.438,   max: 0.538,   type: uniform }
+  - name: hadronization-fsfd
+    parameters:
+      - { parameter: hadronization::fs/fd@Tevatron,    min: 0.000,   max: 0.800,   type: uniform }
+      - { parameter: hadronization::fs/fd@LHCb(7TeV),  min: 0.000,   max: 0.800,   type: uniform }
+likelihoods:
+  # likelihoods related to B->PP
+  - name: BaBar-B-to-D-pi
+    manual_constraints:
+      B^0->D^-pi^+::BR@BaBar:2008A:
+        type: Gaussian
+        observable: B->D(->Kpipi)pi::BR
+        options: {}
+        kinematics: {}
+        mean: 2.88e-4
+        sigma-stat: { hi: 0.29e-4, lo: 0.29e-4 }
+        sigma-sys:  { hi: 0.00e-4, lo: 0.00e-4 }
+  - name: BaBar+CLEO-B-to-D-pi
+    manual_constraints:
+      B^0->D^-pi^+::BR@BaBar+CLEO:
+        type: Gaussian
+        observable: aux::Upsilon(4S)
+        options: {}
+        kinematics: {}
+        mean: 1.21e-4
+        sigma-stat: { hi: 0.05e-4, lo: 0.05e-4 }
+        sigma-sys:  { hi: 0.00e-4, lo: 0.00e-4 }
+  - name: Belle-Bs-to-Ds-pi
+    manual_constraints:
+      B_s^0->D_s^-pi^+::BR@Belle:2008A:
+        type: Gaussian
+        observable: B_s^0->D_s^-pi^+::BR@Parametric
+        options: {}
+        kinematics: {}
+        mean: 3.6e-3
+        sigma-stat: { hi: 0.5e-3, lo: 0.5e-3 }
+        sigma-sys:  { hi: 0.5e-3, lo: 0.5e-3 }
+  - name: Belle-B-to-D-Kvspi
+    manual_constraints:
+      B->DL::R(K^+,pi^+)@Belle:2001A:
+        type: Gaussian
+        observable: B->DL::R(K^+,pi^+)
+        options: {}
+        kinematics: {}
+        mean: 6.8e-2
+        sigma-stat: { hi: 1.7e-2, lo: 1.7e-2 }
+        sigma-sys:  { hi: 0.0e-2, lo: 0.0e-2 }
+  - name: CDF-Bq-to-Dq-P
+    manual_constraints:
+      aux::R(pi)@CDF:2006:
+        type: Gaussian
+        observable: aux::R(pi)@CDF
+        options: {}
+        kinematics: {}
+        mean: 6.7e-2
+        sigma-stat: { hi: 0.5e-2, lo: 0.5e-2 }
+        sigma-sys:  { hi: 0.0e-2, lo: 0.0e-2 }
+  - name: LHCb-Bq-to-Dq-P
+    manual_constraints:
+      aux::R(pi)@LHCb:2012:
+        type: Gaussian
+        observable: aux::R(pi)@LHCb
+        options: {}
+        kinematics: {}
+        mean: 17.4e-2
+        sigma-stat: { hi: 0.7e-2, lo: 0.7e-2 }
+        sigma-sys:  { hi: 0.0e-2, lo: 0.0e-2 }
+      aux::JointLikelihood@LHCb:2013:
+        type: MultivariateGaussian
+        observables:
+          -   aux::R(pi,K)@LHCb
+          -   B->DL::R(K^+,pi^+)
+        kinematics:
+          -   {}
+          -   {}
+        options:
+          -   {}
+          -   {}
+        means: [2.08, 8.22e-2]
+        sigma-stat-hi: [0.08, 0.28e-2]
+        sigma-stat-lo: [0.08, 0.28e-2]
+        sigma-sys: [0.0, 0.0]
+        correlations:
+          -   [1, -0.56]
+          -   [-0.56, 1]
+  # likelihoods related to B->VP
+  - name: Belle-Bs-to-Ds(star)-pi
+    manual_constraints:
+      aux::R(Ds,Ds*)@Belle:
+        type: Gaussian
+        observable: aux::R(Ds,Ds*)@Belle
+        options: {}
+        kinematics: {}
+        mean: 0.66
+        sigma-stat: { hi: 0.16, lo: 0.16 }
+        sigma-sys:  { hi: 0.0, lo: 0.0 }
+  - name: LHCb+BaBar+Belle-B-to-Dstar-Kvspi
+    manual_constraints:
+      aux::R(K,pi)@LHCb+BaBar+Belle:
+        type: Gaussian
+        observable: aux::R(K,pi)@LHCb+BaBar+Belle
+        options: {}
+        kinematics: {}
+        mean: 7.75e-2
+        sigma-stat: { hi: 0.30e-2, lo: 0.30e-2 }
+        sigma-sys:  { hi: 0.0, lo: 0.0 }
+  - name: BaBar+Cleo-B-to-Dstar-pi
+    manual_constraints:
+      B->D^*-pi^+::BR:
+        type: Gaussian
+        observable: aux::BD^*-pi^+
+        options: {}
+        kinematics: {}
+        mean: 1.40e-3
+        sigma-stat: { hi: 0.07e-3, lo: 0.07e-3 }
+        sigma-sys:  { hi: 0.0, lo: 0.0 }
+  - name: BaBar-B-to-D(star)-pi
+    manual_constraints:
+      aux::R(D,D*)@BaBar:
+        type: Gaussian
+        observable: aux::R(D,D*)@BaBar
+        options: {}
+        kinematics: {}
+        mean: 0.99
+        sigma-stat: { hi: 0.14, lo: 0.14 }
+        sigma-sys:  { hi: 0.0, lo: 0.0 }
+  - name: fs/fd-auxilliary
+    manual_constraints:
+      aux::fs/fd7TeV@LHCb:
+        type: Gaussian
+        observable: aux::fs/fd7TeV@LHCb
+        options: {}
+        kinematics: {}
+        mean: 1.44e-2
+        sigma-stat: { hi: 0.10e-2, lo: 0.10e-2 }
+        sigma-sys:  { hi: 0.00e-2, lo: 0.00e-2 }
+  - name: PDG-auxilliary
+    manual_constraints:
+      D_s->phipi::BR@PDG:2018:
+        type: Gaussian
+        observable: D_s^-->phipi^-::BR@Parametric
+        options: {}
+        kinematics: {}
+        mean: 2.27e-2
+        sigma-stat: { hi: 0.08e-2, lo: 0.08e-2 }
+        sigma-sys:  { hi: 0.00e-2, lo: 0.00e-2 }
+      D_s->K+K-pi::BR@PDG:2018:
+        type: Gaussian
+        observable: D_s^-->K^+K^-pi^-::BR@Parametric
+        options: {}
+        kinematics: {}
+        mean: 5.45e-2
+        sigma-stat: { hi: 0.17e-2, lo: 0.17e-2 }
+        sigma-sys:  { hi: 0.00e-2, lo: 0.00e-2 }
+      D->K+pi-pi::BR@PDG:2018:
+        type: Gaussian
+        observable: D^-->K^+pi^-pi^-::BR@Parametric
+        options: {}
+        kinematics: {}
+        mean: 9.38e-2
+        sigma-stat: { hi: 0.16e-2, lo: 0.16e-2 }
+        sigma-sys:  { hi: 0.00e-2, lo: 0.00e-2 }
+  - name: Jung-f00
+    manual_constraints:
+      hadronization::f_00@Jung:2015A:
+        type: Gaussian
+        observable: hadronization::f_00@Upsilon(4S)
+        options: {}
+        kinematics: {}
+        mean: 0.488
+        sigma-stat: { hi: 0.010, lo: 0.010 }
+        sigma-sys:  { hi: 0.000, lo: 0.000 }
+posteriors:
+  - name: no-fsfd
+    prior:
+      - BRs-interest
+      - BRs-nuisance
+      - hadronization-f00
+      - hadronization-fsfd
+    likelihood:
+      - BaBar-B-to-D-pi 
+      - BaBar+CLEO-B-to-D-pi
+      - Belle-Bs-to-Ds-pi
+      - Belle-B-to-D-Kvspi
+      - CDF-Bq-to-Dq-P
+      - LHCb-Bq-to-Dq-P
+      - Belle-Bs-to-Ds(star)-pi
+      - LHCb+BaBar+Belle-B-to-Dstar-Kvspi
+      - BaBar+Cleo-B-to-Dstar-pi
+      - BaBar-B-to-D(star)-pi
+      - PDG-auxilliary
+      - Jung-f00

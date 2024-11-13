@@ -1,0 +1,33 @@
+parameters:
+- max: 0.0
+  min: 0.0
+  name: qbcu::Re{c5}
+- max: 0.0
+  min: 0.0
+  name: qbcu::Re{c6}
+- max: 0.0
+  min: 0.0
+  name: qbcu::Re{c7}
+- max: 0.0
+  min: 0.0
+  name: qbcu::Re{c8}
+- max: 0.0
+  min: 0.0
+  name: qbcu::Re{c9}
+- max: 0.0
+  min: 0.0
+  name: qbcu::Re{c10}
+- max: 0.684
+  min: 0.662
+  name: B_s->D_spi::f_0(Mpi2)
+- max: 0.683
+  min: 0.661
+  name: B->DK::f_0(MK2)
+- max: 0.753
+  min: 0.625
+  name: B_s->D_s^*pi::A_0(Mpi2)
+- max: 0.746
+  min: 0.67
+  name: B->D^*K::A_0(MK2)
+type: ImportanceSamples
+version: 1.0.12

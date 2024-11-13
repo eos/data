@@ -1,0 +1,2 @@
+logz: 9.04
+logzerr: 0.03

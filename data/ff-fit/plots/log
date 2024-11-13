@@ -1,0 +1,7 @@
+2024-02-12 11:26:45,277 WARNING  'parameters' is in the description of prior component 'HQE-up-LP3', use 'descriptions' instead
+2024-02-12 11:26:45,277 WARNING  'parameters' is in the description of prior component 'HQE-up-SLP2', use 'descriptions' instead
+2024-02-12 11:26:45,277 WARNING  'parameters' is in the description of prior component 'HQE-up-SSLP1', use 'descriptions' instead
+2024-02-12 11:26:45,277 WARNING  'parameters' is in the description of prior component 'HQE-strange-LP3', use 'descriptions' instead
+2024-02-12 11:26:45,277 WARNING  'parameters' is in the description of prior component 'HQE-strange-SLP2', use 'descriptions' instead
+2024-02-12 11:26:45,279 INFO     Creating analysis with 34 priors, 11 EOS-wide constraints, 6 global options, 11 manually-entered constraints and 12 fixed parameters.
+2024-02-12 11:26:45,306 INFO     likelihood probably depends on 11 parameter(s) that do not appear in the prior; check prior?

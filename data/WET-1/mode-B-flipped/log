@@ -1,0 +1,153 @@
+2024-09-23 13:19:32,972 INFO       Creating analysis with 5 priors, 1 EOS-wide constraints, 1 global options, 1 manually-entered constraints and 38 fixed parameters.
+2024-09-23 13:19:32,980 INFO       likelihood probably depends on 275 parameter(s) that do not appear in the prior; check prior?
+2024-09-23 13:19:32,980 INPROGRESS Beginning minimization in 100 points
+2024-09-23 13:19:32,981 INFO       Using a user-provided starting point
+2024-09-23 13:19:33,007 SUCCESS    Optimization goal achieved after 9 function evaluations
+2024-09-23 13:19:33,010 INFO       First optimization finished
+2024-09-23 13:19:33,035 SUCCESS    Optimization goal achieved after 9 function evaluations
+2024-09-23 13:19:33,062 SUCCESS    Optimization goal achieved after 9 function evaluations
+2024-09-23 13:19:33,089 SUCCESS    Optimization goal achieved after 9 function evaluations
+2024-09-23 13:19:33,115 SUCCESS    Optimization goal achieved after 9 function evaluations
+2024-09-23 13:19:33,142 SUCCESS    Optimization goal achieved after 9 function evaluations
+2024-09-23 13:19:35,914 WARNING    Optimization did not succeed
+2024-09-23 13:19:35,914 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:19:38,577 WARNING    Optimization did not succeed
+2024-09-23 13:19:38,577 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:19:41,473 WARNING    Optimization did not succeed
+2024-09-23 13:19:41,473 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:19:44,236 WARNING    Optimization did not succeed
+2024-09-23 13:19:44,236 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:19:45,148 SUCCESS    Optimization goal achieved after 316 function evaluations
+2024-09-23 13:19:47,348 SUCCESS    Optimization goal achieved after 759 function evaluations
+2024-09-23 13:19:49,849 SUCCESS    Optimization goal achieved after 863 function evaluations
+2024-09-23 13:19:52,675 WARNING    Optimization did not succeed
+2024-09-23 13:19:52,675 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:19:55,515 WARNING    Optimization did not succeed
+2024-09-23 13:19:55,515 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:19:57,532 SUCCESS    Optimization goal achieved after 710 function evaluations
+2024-09-23 13:20:01,260 WARNING    Optimization did not succeed
+2024-09-23 13:20:01,260 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:03,154 SUCCESS    Optimization goal achieved after 661 function evaluations
+2024-09-23 13:20:05,957 WARNING    Optimization did not succeed
+2024-09-23 13:20:05,957 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:09,307 WARNING    Optimization did not succeed
+2024-09-23 13:20:09,307 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:12,210 WARNING    Optimization did not succeed
+2024-09-23 13:20:12,210 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:14,144 SUCCESS    Optimization goal achieved after 677 function evaluations
+2024-09-23 13:20:16,867 SUCCESS    Optimization goal achieved after 925 function evaluations
+2024-09-23 13:20:18,593 SUCCESS    Optimization goal achieved after 558 function evaluations
+2024-09-23 13:20:19,953 SUCCESS    Optimization goal achieved after 457 function evaluations
+2024-09-23 13:20:24,700 WARNING    Optimization did not succeed
+2024-09-23 13:20:24,701 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:29,672 WARNING    Optimization did not succeed
+2024-09-23 13:20:29,673 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:33,009 SUCCESS    Optimization goal achieved after 1126 function evaluations
+2024-09-23 13:20:36,061 WARNING    Optimization did not succeed
+2024-09-23 13:20:36,061 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:38,109 SUCCESS    Optimization goal achieved after 720 function evaluations
+2024-09-23 13:20:39,550 SUCCESS    Optimization goal achieved after 498 function evaluations
+2024-09-23 13:20:41,221 SUCCESS    Optimization goal achieved after 581 function evaluations
+2024-09-23 13:20:42,572 SUCCESS    Optimization goal achieved after 465 function evaluations
+2024-09-23 13:20:45,470 WARNING    Optimization did not succeed
+2024-09-23 13:20:45,470 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:20:47,944 SUCCESS    Optimization goal achieved after 859 function evaluations
+2024-09-23 13:20:48,998 SUCCESS    Optimization goal achieved after 367 function evaluations
+2024-09-23 13:20:51,796 SUCCESS    Optimization goal achieved after 961 function evaluations
+2024-09-23 13:20:54,085 SUCCESS    Optimization goal achieved after 790 function evaluations
+2024-09-23 13:20:56,597 SUCCESS    Optimization goal achieved after 873 function evaluations
+2024-09-23 13:20:59,335 SUCCESS    Optimization goal achieved after 954 function evaluations
+2024-09-23 13:21:02,118 WARNING    Optimization did not succeed
+2024-09-23 13:21:02,118 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:21:04,773 SUCCESS    Optimization goal achieved after 931 function evaluations
+2024-09-23 13:21:07,591 SUCCESS    Optimization goal achieved after 974 function evaluations
+2024-09-23 13:21:09,961 SUCCESS    Optimization goal achieved after 816 function evaluations
+2024-09-23 13:21:12,338 SUCCESS    Optimization goal achieved after 829 function evaluations
+2024-09-23 13:21:12,978 SUCCESS    Optimization goal achieved after 226 function evaluations
+2024-09-23 13:21:16,072 WARNING    Optimization did not succeed
+2024-09-23 13:21:16,072 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:21:18,542 SUCCESS    Optimization goal achieved after 855 function evaluations
+2024-09-23 13:21:21,697 WARNING    Optimization did not succeed
+2024-09-23 13:21:21,697 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:21:23,289 SUCCESS    Optimization goal achieved after 553 function evaluations
+2024-09-23 13:21:25,206 SUCCESS    Optimization goal achieved after 670 function evaluations
+2024-09-23 13:21:26,639 SUCCESS    Optimization goal achieved after 505 function evaluations
+2024-09-23 13:21:29,338 SUCCESS    Optimization goal achieved after 943 function evaluations
+2024-09-23 13:21:31,622 SUCCESS    Optimization goal achieved after 794 function evaluations
+2024-09-23 13:21:36,141 WARNING    Optimization did not succeed
+2024-09-23 13:21:36,141 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:21:38,317 SUCCESS    Optimization goal achieved after 763 function evaluations
+2024-09-23 13:21:41,461 SUCCESS    Optimization goal achieved after 1088 function evaluations
+2024-09-23 13:21:44,435 WARNING    Optimization did not succeed
+2024-09-23 13:21:44,435 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:21:46,391 SUCCESS    Optimization goal achieved after 677 function evaluations
+2024-09-23 13:21:48,578 SUCCESS    Optimization goal achieved after 758 function evaluations
+2024-09-23 13:21:51,006 SUCCESS    Optimization goal achieved after 845 function evaluations
+2024-09-23 13:21:53,373 SUCCESS    Optimization goal achieved after 821 function evaluations
+2024-09-23 13:21:54,913 SUCCESS    Optimization goal achieved after 530 function evaluations
+2024-09-23 13:21:57,701 SUCCESS    Optimization goal achieved after 969 function evaluations
+2024-09-23 13:22:00,417 SUCCESS    Optimization goal achieved after 928 function evaluations
+2024-09-23 13:22:02,768 SUCCESS    Optimization goal achieved after 800 function evaluations
+2024-09-23 13:22:05,577 SUCCESS    Optimization goal achieved after 978 function evaluations
+2024-09-23 13:22:08,488 WARNING    Optimization did not succeed
+2024-09-23 13:22:08,488 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:11,382 SUCCESS    Optimization goal achieved after 981 function evaluations
+2024-09-23 13:22:13,232 SUCCESS    Optimization goal achieved after 635 function evaluations
+2024-09-23 13:22:15,569 SUCCESS    Optimization goal achieved after 795 function evaluations
+2024-09-23 13:22:18,378 WARNING    Optimization did not succeed
+2024-09-23 13:22:18,378 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:19,970 SUCCESS    Optimization goal achieved after 540 function evaluations
+2024-09-23 13:22:22,905 WARNING    Optimization did not succeed
+2024-09-23 13:22:22,906 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:24,860 SUCCESS    Optimization goal achieved after 671 function evaluations
+2024-09-23 13:22:26,962 SUCCESS    Optimization goal achieved after 732 function evaluations
+2024-09-23 13:22:28,937 SUCCESS    Optimization goal achieved after 689 function evaluations
+2024-09-23 13:22:31,728 WARNING    Optimization did not succeed
+2024-09-23 13:22:31,728 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:34,256 SUCCESS    Optimization goal achieved after 869 function evaluations
+2024-09-23 13:22:37,187 SUCCESS    Optimization goal achieved after 988 function evaluations
+2024-09-23 13:22:39,650 SUCCESS    Optimization goal achieved after 839 function evaluations
+2024-09-23 13:22:42,595 WARNING    Optimization did not succeed
+2024-09-23 13:22:42,595 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:45,005 SUCCESS    Optimization goal achieved after 821 function evaluations
+2024-09-23 13:22:49,572 WARNING    Optimization did not succeed
+2024-09-23 13:22:49,572 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:51,860 SUCCESS    Optimization goal achieved after 786 function evaluations
+2024-09-23 13:22:54,652 WARNING    Optimization did not succeed
+2024-09-23 13:22:54,652 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:22:58,017 WARNING    Optimization did not succeed
+2024-09-23 13:22:58,017 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:23:00,770 SUCCESS    Optimization goal achieved after 929 function evaluations
+2024-09-23 13:23:03,916 WARNING    Optimization did not succeed
+2024-09-23 13:23:03,916 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:23:07,015 WARNING    Optimization did not succeed
+2024-09-23 13:23:07,015 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:23:09,585 SUCCESS    Optimization goal achieved after 881 function evaluations
+2024-09-23 13:23:12,561 WARNING    Optimization did not succeed
+2024-09-23 13:23:12,561 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:23:14,697 SUCCESS    Optimization goal achieved after 740 function evaluations
+2024-09-23 13:23:17,054 SUCCESS    Optimization goal achieved after 814 function evaluations
+2024-09-23 13:23:18,361 SUCCESS    Optimization goal achieved after 460 function evaluations
+2024-09-23 13:23:20,293 SUCCESS    Optimization goal achieved after 685 function evaluations
+2024-09-23 13:23:22,793 SUCCESS    Optimization goal achieved after 870 function evaluations
+2024-09-23 13:23:25,750 WARNING    Optimization did not succeed
+2024-09-23 13:23:25,750 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 13:23:27,690 SUCCESS    Optimization goal achieved after 682 function evaluations
+2024-09-23 13:23:30,453 SUCCESS    Optimization goal achieved after 956 function evaluations
+2024-09-23 13:23:30,456 COMPLETED  ... optimization finished
+2024-09-23 13:23:30,456 INFO       The best-fit point is:
+2024-09-23 13:23:30,456 INFO         - qbcu::Re{c1} -> -0.13754172798496933
+2024-09-23 13:23:30,456 INFO         - qbcu::Re{c2} -> 2.0746183755856507
+2024-09-23 13:23:30,456 INFO         - qbcu::Re{c3} -> 0.10428674251243841
+2024-09-23 13:23:30,456 INFO         - qbcu::Re{c4} -> -0.19977744686133947
+2024-09-23 13:23:30,457 INFO         - B_s->D_spi::f_0(Mpi2) -> 0.6679010103387568
+2024-09-23 13:23:30,457 INFO         - B->DK::f_0(MK2) -> 0.6762612899292795
+2024-09-23 13:23:30,457 INFO         - B_s->D_s^*pi::A_0(Mpi2) -> 0.6557115155960549
+2024-09-23 13:23:30,457 INFO         - B->D^*K::A_0(MK2) -> 0.7041319415304862
+2024-09-23 13:23:30,457 INFO       total chi^2 = 1.67
+2024-09-23 13:23:30,457 INFO       total dof   = -2
+2024-09-23 13:23:30,458 INFO       p value     = nan%
+2024-09-23 13:23:30,458 INFO       individual test statistics:
+2024-09-23 13:23:30,459 INFO         - B_(s)->D_(s)^(*)::BR@MvDV:2024A: chi^2 / dof = 1.67 / 4, local_pvalue = 79.66%
+2024-09-23 13:23:30,460 INFO         - lifetime::MvDJ: chi^2 / dof = 0.00 / 1, local_pvalue = 99.97%
+2024-09-23 13:23:30,463 SUCCESS    Final p value is nan%, indicating a successful fit

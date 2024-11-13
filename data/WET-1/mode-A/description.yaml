@@ -1,0 +1,42 @@
+dof: -2
+global_chi2: 1.6116361324346469
+local_pvalues:
+  B_(s)->D_(s)^(*)::BR@MvDV:2024A: 0.8066992521743633
+  lifetime::MvDJ: 0.9999531973487372
+mode:
+- -1.4491244610039886
+- 0.4283294096718313
+- 0.04910572489768228
+- 0.09920209888464804
+- 0.6701181448316293
+- 0.6738182966329779
+- 0.6581309116900993
+- 0.7061908309965975
+parameters:
+- max: -0.041469
+  min: -0.041469
+  name: qbcu::Re{c1}
+- max: -0.899772
+  min: -0.899772
+  name: qbcu::Re{c2}
+- max: 0.011126
+  min: 0.011126
+  name: qbcu::Re{c3}
+- max: 0.194904
+  min: 0.194904
+  name: qbcu::Re{c4}
+- max: 0.684
+  min: 0.662
+  name: B_s->D_spi::f_0(Mpi2)
+- max: 0.683
+  min: 0.661
+  name: B->DK::f_0(MK2)
+- max: 0.753
+  min: 0.625
+  name: B_s->D_s^*pi::A_0(Mpi2)
+- max: 0.746
+  min: 0.67
+  name: B->D^*K::A_0(MK2)
+pvalue: .nan
+type: Mode
+version: 1.0.12

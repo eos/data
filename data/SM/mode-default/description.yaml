@@ -1,0 +1,26 @@
+dof: 2
+global_chi2: 26.694118250447328
+local_pvalues:
+  B_(s)->D_(s)^(*)::BR@MvDV:2024A: 2.291969111123393e-05
+  lifetime::MvDJ: 1.0
+mode:
+- 0.6635730445118245
+- 0.6316701127598912
+- 0.6069930404719546
+- 0.6279209541065178
+parameters:
+- max: 0.684
+  min: 0.662
+  name: B_s->D_spi::f_0(Mpi2)
+- max: 0.683
+  min: 0.661
+  name: B->DK::f_0(MK2)
+- max: 0.753
+  min: 0.625
+  name: B_s->D_s^*pi::A_0(Mpi2)
+- max: 0.746
+  min: 0.67
+  name: B->D^*K::A_0(MK2)
+pvalue: 1.5975184119998431e-06
+type: Mode
+version: 1.0.12

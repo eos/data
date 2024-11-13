@@ -1,0 +1,42 @@
+2024-09-23 15:13:02,161 INFO       Creating analysis with 5 priors, 1 EOS-wide constraints, 1 global options, 1 manually-entered constraints and 38 fixed parameters.
+2024-09-23 15:13:02,168 INFO       likelihood probably depends on 275 parameter(s) that do not appear in the prior; check prior?
+2024-09-23 15:13:02,168 INPROGRESS Beginning minimization in 10 points
+2024-09-23 15:13:02,169 INFO       Using a user-provided starting point
+2024-09-23 15:13:05,363 WARNING    Optimization did not succeed
+2024-09-23 15:13:05,363 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:05,367 INFO       First optimization finished
+2024-09-23 15:13:11,273 WARNING    Optimization did not succeed
+2024-09-23 15:13:11,274 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:16,443 WARNING    Optimization did not succeed
+2024-09-23 15:13:16,443 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:21,509 WARNING    Optimization did not succeed
+2024-09-23 15:13:21,509 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:26,362 WARNING    Optimization did not succeed
+2024-09-23 15:13:26,362 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:31,110 WARNING    Optimization did not succeed
+2024-09-23 15:13:31,110 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:35,628 WARNING    Optimization did not succeed
+2024-09-23 15:13:35,628 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:39,966 WARNING    Optimization did not succeed
+2024-09-23 15:13:39,966 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:44,610 WARNING    Optimization did not succeed
+2024-09-23 15:13:44,610 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:49,011 WARNING    Optimization did not succeed
+2024-09-23 15:13:49,011 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 15:13:49,014 COMPLETED  ... optimization finished
+2024-09-23 15:13:49,015 INFO       The best-fit point is:
+2024-09-23 15:13:49,015 INFO         - qbcu::Re{c1p} -> 0.4986834834458769
+2024-09-23 15:13:49,015 INFO         - qbcu::Re{c2p} -> -0.09139958628956535
+2024-09-23 15:13:49,016 INFO         - qbcu::Re{c3p} -> -0.11627251528512444
+2024-09-23 15:13:49,016 INFO         - qbcu::Re{c4p} -> 0.045616786934303155
+2024-09-23 15:13:49,016 INFO         - B_s->D_spi::f_0(Mpi2) -> 0.670248242620369
+2024-09-23 15:13:49,016 INFO         - B->DK::f_0(MK2) -> 0.6737521539642682
+2024-09-23 15:13:49,016 INFO         - B_s->D_s^*pi::A_0(Mpi2) -> 0.6577408020339492
+2024-09-23 15:13:49,016 INFO         - B->D^*K::A_0(MK2) -> 0.7032625713159784
+2024-09-23 15:13:49,016 INFO       total chi^2 = 1.62
+2024-09-23 15:13:49,017 INFO       total dof   = -2
+2024-09-23 15:13:49,018 INFO       p value     = nan%
+2024-09-23 15:13:49,018 INFO       individual test statistics:
+2024-09-23 15:13:49,018 INFO         - B_(s)->D_(s)^(*)::BR@MvDV:2024A: chi^2 / dof = 1.62 / 4, local_pvalue = 80.50%
+2024-09-23 15:13:49,019 INFO         - lifetime::MvDJ: chi^2 / dof = 0.00 / 1, local_pvalue = 99.95%
+2024-09-23 15:13:49,023 SUCCESS    Final p value is nan%, indicating a successful fit

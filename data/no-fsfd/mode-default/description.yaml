@@ -1,0 +1,71 @@
+dof: 4
+global_chi2: 2.7005707238797414
+local_pvalues:
+  B->DL::R(K^+,pi^+)@Belle:2001A: 0.4081007076636459
+  B->D^*-pi^+::BR: 0.867574165130507
+  B^0->D^-pi^+::BR@BaBar+CLEO: 0.587553172205826
+  B^0->D^-pi^+::BR@BaBar:2008A: 0.24934686272665008
+  B_s^0->D_s^-pi^+::BR@Belle:2008A: 0.9999966389420621
+  D->K+pi-pi::BR@PDG:2018: 0.9549725040437896
+  D_s->K+K-pi::BR@PDG:2018: 0.9999991044438337
+  D_s->phipi::BR@PDG:2018: 0.9999999627874765
+  aux::JointLikelihood@LHCb:2013: 0.9756544140415351
+  aux::R(D,D*)@BaBar: 0.6597574717576746
+  aux::R(Ds,Ds*)@Belle: 0.9999999901137091
+  aux::R(K,pi)@LHCb+BaBar+Belle: 0.9999998938088963
+  aux::R(pi)@CDF:2006: 0.9999994468026916
+  aux::R(pi)@LHCb:2012: 0.7804574093574793
+  hadronization::f_00@Jung:2015A: 0.8351360462501783
+mode:
+- 0.0036000029786600425
+- 0.00022295199843724612
+- 0.0023760019587786203
+- 0.0002214267682967018
+- 0.0027168364997932006
+- 0.022700000037311187
+- 0.05450000190810245
+- 0.09370965826371745
+- 0.002857119605644786
+- 0.4859188099250034
+- 0.2087343479270612
+- 0.2232546321145359
+parameters:
+- max: 0.01
+  min: 0.0001
+  name: B_s^0->D_s^-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^-K^+::BR@Parametric
+- max: 0.01
+  min: 0.0001
+  name: B_s^0->D_s^*-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^*-K^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: D_s^-->phipi^-::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: D_s^-->K^+K^-pi^-::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: D^-->K^+pi^-pi^-::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^*-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: hadronization::f_00@Upsilon(4S)
+- max: 1.0
+  min: 0.0
+  name: hadronization::fs/fd@Tevatron
+- max: 1.0
+  min: 0.0
+  name: hadronization::fs/fd@LHCb(7TeV)
+pvalue: 0.6091147468528462
+type: Mode
+version: 1.0.12

@@ -1,0 +1,11 @@
+observables:
+- kinematics: {}
+  name: B_s^0->D_s^+pi^-::BR
+- kinematics: {}
+  name: B^0->D^+K^-::BR
+- kinematics: {}
+  name: B_s^0->D_s^*+pi^-::BR
+- kinematics: {}
+  name: B^0->D^*+K^-::BR
+type: Prediction
+version: 1.0.12

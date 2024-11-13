@@ -1,0 +1,18 @@
+{
+    "image": "eoshep/devcontainer:latest",
+    "containerEnv": {
+        "EDITOR": "code --wait --reuse-window",
+        "EOS_BASE_DIRECTORY": "/analysis/data/"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "shardulm94.trailing-spaces"
+            ]
+        }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/analysis,type=bind",
+    "workspaceFolder": "/analysis"
+}

@@ -1,0 +1,40 @@
+2024-09-23 14:36:49,521 INFO       Creating analysis with 7 priors, 1 EOS-wide constraints, 1 global options, 1 manually-entered constraints and 38 fixed parameters.
+2024-09-23 14:36:49,535 INFO       likelihood probably depends on 273 parameter(s) that do not appear in the prior; check prior?
+2024-09-23 14:36:49,535 INPROGRESS Beginning minimization in 10 points
+2024-09-23 14:36:49,535 INFO       Using a user-provided starting point
+2024-09-23 14:37:17,612 WARNING    Optimization did not succeed
+2024-09-23 14:37:17,612 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 14:37:17,628 INFO       First optimization finished
+2024-09-23 14:37:46,977 WARNING    Optimization did not succeed
+2024-09-23 14:37:46,978 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 14:38:14,945 WARNING    Optimization did not succeed
+2024-09-23 14:38:14,945 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 14:38:41,107 WARNING    Optimization did not succeed
+2024-09-23 14:38:41,107 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 14:39:01,802 WARNING    Optimization did not succeed
+2024-09-23 14:39:01,803 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 14:39:37,806 WARNING    Optimization did not succeed
+2024-09-23 14:39:37,806 WARNING      optimizer message reads: Iteration limit reached
+2024-09-23 14:39:42,143 SUCCESS    Optimization goal achieved after 276 function evaluations
+2024-09-23 14:39:47,291 SUCCESS    Optimization goal achieved after 366 function evaluations
+2024-09-23 14:39:52,507 SUCCESS    Optimization goal achieved after 376 function evaluations
+2024-09-23 14:39:57,865 SUCCESS    Optimization goal achieved after 386 function evaluations
+2024-09-23 14:39:57,879 COMPLETED  ... optimization finished
+2024-09-23 14:39:57,879 INFO       The best-fit point is:
+2024-09-23 14:39:57,879 INFO         - qbcu::Re{c5} -> -0.3546569179566643
+2024-09-23 14:39:57,880 INFO         - qbcu::Re{c6} -> 5.711461922348537
+2024-09-23 14:39:57,880 INFO         - qbcu::Re{c7} -> 0.056866283785814264
+2024-09-23 14:39:57,880 INFO         - qbcu::Re{c8} -> -2.146141818969169
+2024-09-23 14:39:57,880 INFO         - qbcu::Re{c9} -> 0.0094184874605929
+2024-09-23 14:39:57,880 INFO         - qbcu::Re{c10} -> -0.11678449413934641
+2024-09-23 14:39:57,881 INFO         - B_s->D_spi::f_0(Mpi2) -> 0.6660257458700111
+2024-09-23 14:39:57,881 INFO         - B->DK::f_0(MK2) -> 0.6774977906317241
+2024-09-23 14:39:57,881 INFO         - B_s->D_s^*pi::A_0(Mpi2) -> 0.6973883040407027
+2024-09-23 14:39:57,881 INFO         - B->D^*K::A_0(MK2) -> 0.7016168083076467
+2024-09-23 14:39:57,881 INFO       total chi^2 = 1.34
+2024-09-23 14:39:57,882 INFO       total dof   = -4
+2024-09-23 14:39:57,883 INFO       p value     = nan%
+2024-09-23 14:39:57,883 INFO       individual test statistics:
+2024-09-23 14:39:57,884 INFO         - B_(s)->D_(s)^(*)::BR@MvDV:2024A: chi^2 / dof = 1.34 / 4, local_pvalue = 85.53%
+2024-09-23 14:39:57,885 INFO         - lifetime::MvDJ: chi^2 / dof = 0.00 / 1, local_pvalue = 99.24%
+2024-09-23 14:39:57,891 SUCCESS    Final p value is nan%, indicating a successful fit

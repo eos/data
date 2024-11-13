@@ -1,0 +1,339 @@
+2024-09-19 11:28:41,400 INFO       Creating analysis with 12 priors, 0 EOS-wide constraints, 0 global options, 15 manually-entered constraints and 0 fixed parameters.
+2024-09-19 11:28:41,422 INPROGRESS Beginning minimization in 300 points
+2024-09-19 11:28:41,422 INFO       Using a starting point based on the existing importance samples
+2024-09-19 11:28:41,433 INFO       Using starting point [ 0.003305, 0.0002017, 0.002593, 0.000211, 0.002415, 0.02317, 0.056, 0.09649, 0.002772, 0.491, 0.1975, 0.2115 ]
+2024-09-19 11:28:41,460 SUCCESS    Optimization goal achieved after 285 function evaluations
+2024-09-19 11:28:41,460 INFO       First optimization finished
+2024-09-19 11:28:41,462 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,464 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,466 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,468 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,470 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,472 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,474 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,477 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,479 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,481 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,483 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,485 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,487 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,489 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,491 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,494 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,496 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,498 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,500 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,502 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,504 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,506 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,509 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,511 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,513 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,515 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,517 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,519 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,521 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,523 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,526 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,528 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,530 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,532 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,534 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,537 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,539 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,541 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,543 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,545 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,547 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,550 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,552 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,554 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,556 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,558 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,561 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,563 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,565 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,567 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,569 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,572 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,574 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,576 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,578 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,580 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,583 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,585 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,587 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,589 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,592 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,594 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,596 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,598 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,600 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,603 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,605 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,607 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,609 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,611 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,613 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,616 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,618 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,620 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,622 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,625 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,627 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,629 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,631 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,633 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,635 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,637 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,640 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,642 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,644 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,646 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,648 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,650 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,652 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,654 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,657 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,659 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,661 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,663 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,665 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,667 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,669 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,671 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,673 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,676 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,678 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,680 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,682 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,684 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,686 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,689 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,691 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,693 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,695 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,697 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,699 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,701 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,704 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,706 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,708 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,710 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,712 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,715 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,717 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,719 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,721 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,723 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,725 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,728 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,730 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,732 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,734 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,737 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,739 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,741 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,743 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,745 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,748 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,750 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,752 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,754 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,757 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,759 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,761 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,763 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,766 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,768 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,770 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,772 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,775 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,777 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,779 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,781 SUCCESS    Optimization goal achieved after 17 function evaluations
+2024-09-19 11:28:41,783 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,785 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,787 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,790 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,792 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,794 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,796 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,799 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,801 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,803 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,805 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,807 SUCCESS    Optimization goal achieved after 20 function evaluations
+2024-09-19 11:28:41,809 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,812 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,814 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,816 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,818 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,820 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,823 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,825 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,827 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,829 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,831 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,833 SUCCESS    Optimization goal achieved after 19 function evaluations
+2024-09-19 11:28:41,835 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,838 SUCCESS    Optimization goal achieved after 37 function evaluations
+2024-09-19 11:28:41,841 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,843 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,845 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:41,847 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,850 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,852 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,854 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,856 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,858 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,861 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,863 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,865 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:41,867 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,870 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,872 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,874 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,876 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,879 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,881 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,883 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,885 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,888 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,890 SUCCESS    Optimization goal achieved after 22 function evaluations
+2024-09-19 11:28:41,892 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,894 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,896 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,899 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,901 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,903 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,905 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,908 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,910 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,912 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,914 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,917 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,919 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,921 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,923 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,925 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:41,928 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,930 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,932 SUCCESS    Optimization goal achieved after 22 function evaluations
+2024-09-19 11:28:41,934 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,936 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,938 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,941 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,943 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,945 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,947 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,950 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,952 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,954 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,957 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,959 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,961 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,964 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:41,966 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,968 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,970 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,973 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,975 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,977 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,980 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,982 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,984 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:41,986 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,989 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,991 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:41,993 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,996 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:41,998 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,000 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,002 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,005 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,007 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,009 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,012 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,014 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,016 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:42,018 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,021 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,023 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,025 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,027 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,030 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,032 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,034 SUCCESS    Optimization goal achieved after 22 function evaluations
+2024-09-19 11:28:42,037 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,039 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,041 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,043 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,045 SUCCESS    Optimization goal achieved after 21 function evaluations
+2024-09-19 11:28:42,048 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,050 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,052 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,054 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,057 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:42,059 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,061 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,063 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,065 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,067 SUCCESS    Optimization goal achieved after 23 function evaluations
+2024-09-19 11:28:42,070 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,072 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,074 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,076 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,078 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,081 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,083 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,085 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,087 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,090 SUCCESS    Optimization goal achieved after 22 function evaluations
+2024-09-19 11:28:42,092 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,094 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,096 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,099 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,101 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,103 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,105 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,107 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,110 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,112 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,114 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,116 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,119 SUCCESS    Optimization goal achieved after 24 function evaluations
+2024-09-19 11:28:42,119 COMPLETED  ... optimization finished
+2024-09-19 11:28:42,119 INFO       The best-fit point is:
+2024-09-19 11:28:42,119 INFO         - B_s^0->D_s^-pi^+::BR@Parametric -> 0.0036000029771086524
+2024-09-19 11:28:42,120 INFO         - B^0->D^-K^+::BR@Parametric -> 0.00022295199844688004
+2024-09-19 11:28:42,120 INFO         - B_s^0->D_s^*-pi^+::BR@Parametric -> 0.0023760019587657287
+2024-09-19 11:28:42,120 INFO         - B^0->D^*-K^+::BR@Parametric -> 0.00022142676829650188
+2024-09-19 11:28:42,120 INFO         - B^0->D^-pi^+::BR@Parametric -> 0.002716836499850726
+2024-09-19 11:28:42,121 INFO         - D_s^-->phipi^-::BR@Parametric -> 0.022700000037825213
+2024-09-19 11:28:42,121 INFO         - D_s^-->K^+K^-pi^-::BR@Parametric -> 0.054500001906907854
+2024-09-19 11:28:42,121 INFO         - D^-->K^+pi^-pi^-::BR@Parametric -> 0.09370965826424237
+2024-09-19 11:28:42,121 INFO         - B^0->D^*-pi^+::BR@Parametric -> 0.002857119605635771
+2024-09-19 11:28:42,121 INFO         - hadronization::f_00@Upsilon(4S) -> 0.48591880992484515
+2024-09-19 11:28:42,121 INFO         - hadronization::fs/fd@Tevatron -> 0.20873434811041644
+2024-09-19 11:28:42,121 INFO         - hadronization::fs/fd@LHCb(7TeV) -> 0.2232546316174213
+2024-09-19 11:28:42,121 INFO       total chi^2 = 2.70
+2024-09-19 11:28:42,122 INFO       total dof   = 4
+2024-09-19 11:28:42,125 INFO       p value     = 60.91%
+2024-09-19 11:28:42,125 INFO       individual test statistics:
+2024-09-19 11:28:42,126 INFO         - B->DL::R(K^+,pi^+)@Belle:2001A: chi^2 / dof = 0.68 / 1, local_pvalue = 40.81%
+2024-09-19 11:28:42,126 INFO         - B->D^*-pi^+::BR: chi^2 / dof = 0.03 / 1, local_pvalue = 86.76%
+2024-09-19 11:28:42,127 INFO         - B^0->D^-pi^+::BR@BaBar+CLEO: chi^2 / dof = 0.29 / 1, local_pvalue = 58.76%
+2024-09-19 11:28:42,127 INFO         - B^0->D^-pi^+::BR@BaBar:2008A: chi^2 / dof = 1.33 / 1, local_pvalue = 24.93%
+2024-09-19 11:28:42,128 INFO         - B_s^0->D_s^-pi^+::BR@Belle:2008A: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-09-19 11:28:42,128 INFO         - D->K+pi-pi::BR@PDG:2018: chi^2 / dof = 0.00 / 1, local_pvalue = 95.50%
+2024-09-19 11:28:42,129 INFO         - D_s->K+K-pi::BR@PDG:2018: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-09-19 11:28:42,129 INFO         - D_s->phipi::BR@PDG:2018: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-09-19 11:28:42,130 INFO         - aux::JointLikelihood@LHCb:2013: chi^2 / dof = 0.05 / 2, local_pvalue = 97.57%
+2024-09-19 11:28:42,130 INFO         - aux::R(D,D*)@BaBar: chi^2 / dof = 0.19 / 1, local_pvalue = 65.98%
+2024-09-19 11:28:42,131 INFO         - aux::R(Ds,Ds*)@Belle: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-09-19 11:28:42,131 INFO         - aux::R(K,pi)@LHCb+BaBar+Belle: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-09-19 11:28:42,132 INFO         - aux::R(pi)@CDF:2006: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2024-09-19 11:28:42,132 INFO         - aux::R(pi)@LHCb:2012: chi^2 / dof = 0.08 / 1, local_pvalue = 78.05%
+2024-09-19 11:28:42,133 INFO         - hadronization::f_00@Jung:2015A: chi^2 / dof = 0.04 / 1, local_pvalue = 83.51%
+2024-09-19 11:28:42,137 SUCCESS    Final p value is 60.91%, indicating a successful fit

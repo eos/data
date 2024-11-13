@@ -1,0 +1,15 @@
+observables:
+- kinematics:
+    q2: 0.0194799
+  name: B_s->D_s::f_0(q2)
+- kinematics:
+    q2: 0.243717
+  name: B->D::f_0(q2)
+- kinematics:
+    q2: 0.0194799
+  name: B_s->D_s^*::A_0(q2)
+- kinematics:
+    q2: 0.243717
+  name: B->D^*::A_0(q2)
+type: Prediction
+version: 1.0.11

@@ -1,0 +1,367 @@
+2024-06-18 11:52:29,088 INFO     Creating analysis with 34 priors, 11 EOS-wide constraints, 6 global options, 11 manually-entered constraints and 12 fixed parameters.
+2024-06-18 11:52:29,431 WARNING  HQETFormFactors<B_s->D_s^*,PToV> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2024-06-18 11:52:29,433 WARNING  HQETFormFactors<B->D^*,PToV> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2024-06-18 11:52:29,435 WARNING  HQETFormFactors<B_s->D_s,PToP> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2024-06-18 11:52:29,438 WARNING  HQETFormFactors<B->D,PToP> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2024-06-18 11:52:29,456 INFO     likelihood probably depends on 11 parameter(s) that do not appear in the prior; check prior?
+2024-06-18 11:52:29,456 INFO     Starting minimization in 300 points
+2024-06-18 11:52:29,456 INFO     Initializing starting point from importance samples
+2024-06-18 11:52:29,505 INFO     Using starting point [ -1.078, 1.998, -3.739, -0.04187, -0.02157, 0.1781, 0.05197, -0.1838, 0.4975, 0.07711, -0.1694, -0.1386, -8.349, -1.703, -4.846, -3.198, -1.53, -1.265, -2.116, 3.493, 5.285, -0.6004, 4.73, -1.094, 2.217, -5.116, -0.04499, -0.0299, 0.1196, 0.04281, -0.1449, 0.5419, -0.2962, 1.567 ] from importance samples
+2024-06-18 11:52:32,889 WARNING  Optimization did not succeed
+2024-06-18 11:52:32,890 WARNING    optimizer message reads: Iteration limit reached
+2024-06-18 11:52:34,567 INFO     Optimization goal achieved after 2081 function evaluations
+2024-06-18 11:52:35,678 INFO     Optimization goal achieved after 1345 function evaluations
+2024-06-18 11:52:36,448 INFO     Optimization goal achieved after 937 function evaluations
+2024-06-18 11:52:37,653 INFO     Optimization goal achieved after 1431 function evaluations
+2024-06-18 11:52:38,490 INFO     Optimization goal achieved after 987 function evaluations
+2024-06-18 11:52:38,760 INFO     Optimization goal achieved after 316 function evaluations
+2024-06-18 11:52:38,876 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:52:40,849 INFO     Optimization goal achieved after 2298 function evaluations
+2024-06-18 11:52:42,162 INFO     Optimization goal achieved after 1563 function evaluations
+2024-06-18 11:52:43,535 INFO     Optimization goal achieved after 1524 function evaluations
+2024-06-18 11:52:43,578 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:52:43,621 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:52:44,595 INFO     Optimization goal achieved after 1078 function evaluations
+2024-06-18 11:52:45,183 INFO     Optimization goal achieved after 676 function evaluations
+2024-06-18 11:52:46,827 INFO     Optimization goal achieved after 1902 function evaluations
+2024-06-18 11:52:47,485 INFO     Optimization goal achieved after 748 function evaluations
+2024-06-18 11:52:47,562 INFO     Optimization goal achieved after 88 function evaluations
+2024-06-18 11:52:49,331 INFO     Optimization goal achieved after 1783 function evaluations
+2024-06-18 11:52:49,381 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:52:49,689 INFO     Optimization goal achieved after 359 function evaluations
+2024-06-18 11:52:51,190 INFO     Optimization goal achieved after 1518 function evaluations
+2024-06-18 11:52:52,794 INFO     Optimization goal achieved after 1519 function evaluations
+2024-06-18 11:52:53,234 INFO     Optimization goal achieved after 403 function evaluations
+2024-06-18 11:52:54,134 INFO     Optimization goal achieved after 1072 function evaluations
+2024-06-18 11:52:54,754 INFO     Optimization goal achieved after 719 function evaluations
+2024-06-18 11:52:55,627 INFO     Optimization goal achieved after 1030 function evaluations
+2024-06-18 11:52:55,858 INFO     Optimization goal achieved after 269 function evaluations
+2024-06-18 11:52:56,893 INFO     Optimization goal achieved after 1208 function evaluations
+2024-06-18 11:52:57,122 INFO     Optimization goal achieved after 270 function evaluations
+2024-06-18 11:52:58,140 INFO     Optimization goal achieved after 1205 function evaluations
+2024-06-18 11:52:58,218 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:52:59,009 INFO     Optimization goal achieved after 936 function evaluations
+2024-06-18 11:52:59,502 INFO     Optimization goal achieved after 584 function evaluations
+2024-06-18 11:53:00,002 INFO     Optimization goal achieved after 581 function evaluations
+2024-06-18 11:53:00,393 INFO     Optimization goal achieved after 404 function evaluations
+2024-06-18 11:53:02,053 INFO     Optimization goal achieved after 1518 function evaluations
+2024-06-18 11:53:04,314 INFO     Optimization goal achieved after 2093 function evaluations
+2024-06-18 11:53:04,760 INFO     Optimization goal achieved after 492 function evaluations
+2024-06-18 11:53:05,170 INFO     Optimization goal achieved after 494 function evaluations
+2024-06-18 11:53:05,975 INFO     Optimization goal achieved after 984 function evaluations
+2024-06-18 11:53:06,270 INFO     Optimization goal achieved after 360 function evaluations
+2024-06-18 11:53:06,810 INFO     Optimization goal achieved after 671 function evaluations
+2024-06-18 11:53:06,909 INFO     Optimization goal achieved after 135 function evaluations
+2024-06-18 11:53:07,125 INFO     Optimization goal achieved after 270 function evaluations
+2024-06-18 11:53:07,164 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:53:07,390 INFO     Optimization goal achieved after 271 function evaluations
+2024-06-18 11:53:08,398 INFO     Optimization goal achieved after 1206 function evaluations
+2024-06-18 11:53:08,738 INFO     Optimization goal achieved after 403 function evaluations
+2024-06-18 11:53:09,001 INFO     Optimization goal achieved after 314 function evaluations
+2024-06-18 11:53:09,980 INFO     Optimization goal achieved after 1164 function evaluations
+2024-06-18 11:53:10,056 INFO     Optimization goal achieved after 90 function evaluations
+2024-06-18 11:53:10,170 INFO     Optimization goal achieved after 134 function evaluations
+2024-06-18 11:53:11,826 INFO     Optimization goal achieved after 1919 function evaluations
+2024-06-18 11:53:13,320 INFO     Optimization goal achieved after 1777 function evaluations
+2024-06-18 11:53:13,788 INFO     Optimization goal achieved after 536 function evaluations
+2024-06-18 11:53:15,078 INFO     Optimization goal achieved after 1513 function evaluations
+2024-06-18 11:53:15,506 INFO     Optimization goal achieved after 496 function evaluations
+2024-06-18 11:53:15,742 INFO     Optimization goal achieved after 270 function evaluations
+2024-06-18 11:53:16,091 INFO     Optimization goal achieved after 403 function evaluations
+2024-06-18 11:53:17,030 INFO     Optimization goal achieved after 1075 function evaluations
+2024-06-18 11:53:17,071 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:17,664 INFO     Optimization goal achieved after 670 function evaluations
+2024-06-18 11:53:18,541 INFO     Optimization goal achieved after 978 function evaluations
+2024-06-18 11:53:19,613 INFO     Optimization goal achieved after 1208 function evaluations
+2024-06-18 11:53:19,695 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:53:19,817 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:53:20,139 INFO     Optimization goal achieved after 361 function evaluations
+2024-06-18 11:53:21,227 INFO     Optimization goal achieved after 1246 function evaluations
+2024-06-18 11:53:21,788 INFO     Optimization goal achieved after 672 function evaluations
+2024-06-18 11:53:22,876 INFO     Optimization goal achieved after 1340 function evaluations
+2024-06-18 11:53:23,849 INFO     Optimization goal achieved after 1166 function evaluations
+2024-06-18 11:53:25,143 INFO     Optimization goal achieved after 1514 function evaluations
+2024-06-18 11:53:25,224 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:53:25,382 INFO     Optimization goal achieved after 180 function evaluations
+2024-06-18 11:53:25,504 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:53:25,546 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:25,787 INFO     Optimization goal achieved after 269 function evaluations
+2024-06-18 11:53:25,867 INFO     Optimization goal achieved after 90 function evaluations
+2024-06-18 11:53:27,256 INFO     Optimization goal achieved after 1553 function evaluations
+2024-06-18 11:53:28,064 INFO     Optimization goal achieved after 896 function evaluations
+2024-06-18 11:53:28,508 INFO     Optimization goal achieved after 493 function evaluations
+2024-06-18 11:53:28,712 INFO     Optimization goal achieved after 225 function evaluations
+2024-06-18 11:53:29,280 INFO     Optimization goal achieved after 626 function evaluations
+2024-06-18 11:53:29,404 INFO     Optimization goal achieved after 135 function evaluations
+2024-06-18 11:53:30,536 INFO     Optimization goal achieved after 1248 function evaluations
+2024-06-18 11:53:30,578 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:53:30,661 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:53:31,353 INFO     Optimization goal achieved after 760 function evaluations
+2024-06-18 11:53:32,092 INFO     Optimization goal achieved after 808 function evaluations
+2024-06-18 11:53:33,095 INFO     Optimization goal achieved after 1116 function evaluations
+2024-06-18 11:53:34,150 INFO     Optimization goal achieved after 1116 function evaluations
+2024-06-18 11:53:34,237 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:53:35,545 INFO     Optimization goal achieved after 1426 function evaluations
+2024-06-18 11:53:35,666 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:53:35,830 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:53:35,914 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:53:36,183 INFO     Optimization goal achieved after 314 function evaluations
+2024-06-18 11:53:36,459 INFO     Optimization goal achieved after 312 function evaluations
+2024-06-18 11:53:37,544 INFO     Optimization goal achieved after 1252 function evaluations
+2024-06-18 11:53:38,463 INFO     Optimization goal achieved after 1070 function evaluations
+2024-06-18 11:53:38,504 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:38,698 INFO     Optimization goal achieved after 224 function evaluations
+2024-06-18 11:53:39,424 INFO     Optimization goal achieved after 848 function evaluations
+2024-06-18 11:53:39,465 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:40,908 INFO     Optimization goal achieved after 1607 function evaluations
+2024-06-18 11:53:41,315 INFO     Optimization goal achieved after 447 function evaluations
+2024-06-18 11:53:41,357 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:41,517 INFO     Optimization goal achieved after 177 function evaluations
+2024-06-18 11:53:42,084 INFO     Optimization goal achieved after 630 function evaluations
+2024-06-18 11:53:42,739 INFO     Optimization goal achieved after 712 function evaluations
+2024-06-18 11:53:43,802 INFO     Optimization goal achieved after 1164 function evaluations
+2024-06-18 11:53:44,473 INFO     Optimization goal achieved after 713 function evaluations
+2024-06-18 11:53:45,740 INFO     Optimization goal achieved after 1336 function evaluations
+2024-06-18 11:53:47,231 INFO     Optimization goal achieved after 1563 function evaluations
+2024-06-18 11:53:47,842 INFO     Optimization goal achieved after 627 function evaluations
+2024-06-18 11:53:48,019 INFO     Optimization goal achieved after 179 function evaluations
+2024-06-18 11:53:48,155 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:53:48,202 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:48,945 INFO     Optimization goal achieved after 756 function evaluations
+2024-06-18 11:53:49,080 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:53:49,260 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:53:50,177 INFO     Optimization goal achieved after 936 function evaluations
+2024-06-18 11:53:50,924 INFO     Optimization goal achieved after 764 function evaluations
+2024-06-18 11:53:51,149 INFO     Optimization goal achieved after 225 function evaluations
+2024-06-18 11:53:51,195 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:51,635 INFO     Optimization goal achieved after 446 function evaluations
+2024-06-18 11:53:53,159 INFO     Optimization goal achieved after 1557 function evaluations
+2024-06-18 11:53:54,104 INFO     Optimization goal achieved after 939 function evaluations
+2024-06-18 11:53:54,150 INFO     Optimization goal achieved after 44 function evaluations
+2024-06-18 11:53:54,198 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:54,915 INFO     Optimization goal achieved after 715 function evaluations
+2024-06-18 11:53:55,260 INFO     Optimization goal achieved after 356 function evaluations
+2024-06-18 11:53:55,306 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:53:56,912 INFO     Optimization goal achieved after 1693 function evaluations
+2024-06-18 11:53:58,391 INFO     Optimization goal achieved after 1642 function evaluations
+2024-06-18 11:53:58,997 INFO     Optimization goal achieved after 667 function evaluations
+2024-06-18 11:53:59,282 INFO     Optimization goal achieved after 316 function evaluations
+2024-06-18 11:53:59,575 INFO     Optimization goal achieved after 315 function evaluations
+2024-06-18 11:54:00,031 INFO     Optimization goal achieved after 492 function evaluations
+2024-06-18 11:54:01,375 INFO     Optimization goal achieved after 1471 function evaluations
+2024-06-18 11:54:02,015 INFO     Optimization goal achieved after 673 function evaluations
+2024-06-18 11:54:02,925 INFO     Optimization goal achieved after 984 function evaluations
+2024-06-18 11:54:03,691 INFO     Optimization goal achieved after 807 function evaluations
+2024-06-18 11:54:04,368 INFO     Optimization goal achieved after 714 function evaluations
+2024-06-18 11:54:04,799 INFO     Optimization goal achieved after 446 function evaluations
+2024-06-18 11:54:06,280 INFO     Optimization goal achieved after 1557 function evaluations
+2024-06-18 11:54:07,742 INFO     Optimization goal achieved after 1559 function evaluations
+2024-06-18 11:54:08,683 INFO     Optimization goal achieved after 984 function evaluations
+2024-06-18 11:54:08,772 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:54:10,369 INFO     Optimization goal achieved after 1697 function evaluations
+2024-06-18 11:54:11,385 INFO     Optimization goal achieved after 1158 function evaluations
+2024-06-18 11:54:12,676 INFO     Optimization goal achieved after 1473 function evaluations
+2024-06-18 11:54:13,398 INFO     Optimization goal achieved after 803 function evaluations
+2024-06-18 11:54:13,879 INFO     Optimization goal achieved after 537 function evaluations
+2024-06-18 11:54:14,317 INFO     Optimization goal achieved after 492 function evaluations
+2024-06-18 11:54:14,359 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:54:14,445 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:54:15,826 INFO     Optimization goal achieved after 1513 function evaluations
+2024-06-18 11:54:15,990 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:54:17,499 INFO     Optimization goal achieved after 1690 function evaluations
+2024-06-18 11:54:17,621 INFO     Optimization goal achieved after 133 function evaluations
+2024-06-18 11:54:18,647 INFO     Optimization goal achieved after 1108 function evaluations
+2024-06-18 11:54:18,691 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:54:19,151 INFO     Optimization goal achieved after 495 function evaluations
+2024-06-18 11:54:19,931 INFO     Optimization goal achieved after 841 function evaluations
+2024-06-18 11:54:21,554 INFO     Optimization goal achieved after 1734 function evaluations
+2024-06-18 11:54:21,766 INFO     Optimization goal achieved after 224 function evaluations
+2024-06-18 11:54:22,399 INFO     Optimization goal achieved after 714 function evaluations
+2024-06-18 11:54:22,670 INFO     Optimization goal achieved after 312 function evaluations
+2024-06-18 11:54:23,123 INFO     Optimization goal achieved after 537 function evaluations
+2024-06-18 11:54:23,574 INFO     Optimization goal achieved after 537 function evaluations
+2024-06-18 11:54:23,613 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:54:24,665 INFO     Optimization goal achieved after 1296 function evaluations
+2024-06-18 11:54:25,380 INFO     Optimization goal achieved after 846 function evaluations
+2024-06-18 11:54:25,492 INFO     Optimization goal achieved after 135 function evaluations
+2024-06-18 11:54:26,617 INFO     Optimization goal achieved after 1337 function evaluations
+2024-06-18 11:54:26,842 INFO     Optimization goal achieved after 269 function evaluations
+2024-06-18 11:54:27,173 INFO     Optimization goal achieved after 404 function evaluations
+2024-06-18 11:54:27,468 INFO     Optimization goal achieved after 360 function evaluations
+2024-06-18 11:54:28,756 INFO     Optimization goal achieved after 1558 function evaluations
+2024-06-18 11:54:28,907 INFO     Optimization goal achieved after 180 function evaluations
+2024-06-18 11:54:29,280 INFO     Optimization goal achieved after 450 function evaluations
+2024-06-18 11:54:29,355 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:54:29,431 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:54:29,950 INFO     Optimization goal achieved after 625 function evaluations
+2024-06-18 11:54:30,510 INFO     Optimization goal achieved after 670 function evaluations
+2024-06-18 11:54:30,737 INFO     Optimization goal achieved after 269 function evaluations
+2024-06-18 11:54:30,958 INFO     Optimization goal achieved after 266 function evaluations
+2024-06-18 11:54:31,111 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:54:31,188 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:54:31,342 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:54:31,381 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:54:32,934 INFO     Optimization goal achieved after 1822 function evaluations
+2024-06-18 11:54:34,489 INFO     Optimization goal achieved after 1821 function evaluations
+2024-06-18 11:54:35,186 INFO     Optimization goal achieved after 805 function evaluations
+2024-06-18 11:54:36,437 INFO     Optimization goal achieved after 1427 function evaluations
+2024-06-18 11:54:36,596 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:54:37,181 INFO     Optimization goal achieved after 673 function evaluations
+2024-06-18 11:54:37,715 INFO     Optimization goal achieved after 623 function evaluations
+2024-06-18 11:54:37,833 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:54:39,011 INFO     Optimization goal achieved after 1379 function evaluations
+2024-06-18 11:54:39,201 INFO     Optimization goal achieved after 226 function evaluations
+2024-06-18 11:54:40,063 INFO     Optimization goal achieved after 1028 function evaluations
+2024-06-18 11:54:40,395 INFO     Optimization goal achieved after 404 function evaluations
+2024-06-18 11:54:41,082 INFO     Optimization goal achieved after 806 function evaluations
+2024-06-18 11:54:41,498 INFO     Optimization goal achieved after 448 function evaluations
+2024-06-18 11:54:42,737 INFO     Optimization goal achieved after 1335 function evaluations
+2024-06-18 11:54:42,782 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:54:42,827 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:54:43,000 INFO     Optimization goal achieved after 180 function evaluations
+2024-06-18 11:54:43,217 INFO     Optimization goal achieved after 226 function evaluations
+2024-06-18 11:54:43,305 INFO     Optimization goal achieved after 90 function evaluations
+2024-06-18 11:54:44,072 INFO     Optimization goal achieved after 802 function evaluations
+2024-06-18 11:54:45,092 INFO     Optimization goal achieved after 1071 function evaluations
+2024-06-18 11:54:45,373 INFO     Optimization goal achieved after 314 function evaluations
+2024-06-18 11:54:46,517 INFO     Optimization goal achieved after 1200 function evaluations
+2024-06-18 11:54:46,835 INFO     Optimization goal achieved after 360 function evaluations
+2024-06-18 11:54:47,354 INFO     Optimization goal achieved after 582 function evaluations
+2024-06-18 11:54:47,514 INFO     Optimization goal achieved after 180 function evaluations
+2024-06-18 11:54:48,152 INFO     Optimization goal achieved after 716 function evaluations
+2024-06-18 11:54:48,747 INFO     Optimization goal achieved after 667 function evaluations
+2024-06-18 11:54:49,461 INFO     Optimization goal achieved after 802 function evaluations
+2024-06-18 11:54:49,857 INFO     Optimization goal achieved after 448 function evaluations
+2024-06-18 11:54:50,374 INFO     Optimization goal achieved after 579 function evaluations
+2024-06-18 11:54:50,456 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:54:50,498 INFO     Optimization goal achieved after 46 function evaluations
+2024-06-18 11:54:50,883 INFO     Optimization goal achieved after 406 function evaluations
+2024-06-18 11:54:51,102 INFO     Optimization goal achieved after 226 function evaluations
+2024-06-18 11:54:51,381 INFO     Optimization goal achieved after 270 function evaluations
+2024-06-18 11:54:51,838 INFO     Optimization goal achieved after 406 function evaluations
+2024-06-18 11:54:52,833 INFO     Optimization goal achieved after 1068 function evaluations
+2024-06-18 11:54:53,869 INFO     Optimization goal achieved after 1160 function evaluations
+2024-06-18 11:54:53,994 INFO     Optimization goal achieved after 135 function evaluations
+2024-06-18 11:54:54,187 INFO     Optimization goal achieved after 226 function evaluations
+2024-06-18 11:54:55,313 INFO     Optimization goal achieved after 1256 function evaluations
+2024-06-18 11:54:56,549 INFO     Optimization goal achieved after 1338 function evaluations
+2024-06-18 11:54:57,439 INFO     Optimization goal achieved after 976 function evaluations
+2024-06-18 11:54:58,364 INFO     Optimization goal achieved after 1025 function evaluations
+2024-06-18 11:54:58,789 INFO     Optimization goal achieved after 491 function evaluations
+2024-06-18 11:54:59,595 INFO     Optimization goal achieved after 937 function evaluations
+2024-06-18 11:54:59,714 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:55:00,482 INFO     Optimization goal achieved after 894 function evaluations
+2024-06-18 11:55:01,678 INFO     Optimization goal achieved after 1378 function evaluations
+2024-06-18 11:55:01,877 INFO     Optimization goal achieved after 225 function evaluations
+2024-06-18 11:55:03,195 INFO     Optimization goal achieved after 1414 function evaluations
+2024-06-18 11:55:03,365 INFO     Optimization goal achieved after 180 function evaluations
+2024-06-18 11:55:03,619 INFO     Optimization goal achieved after 271 function evaluations
+2024-06-18 11:55:03,744 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:55:04,350 INFO     Optimization goal achieved after 672 function evaluations
+2024-06-18 11:55:04,630 INFO     Optimization goal achieved after 315 function evaluations
+2024-06-18 11:55:05,629 INFO     Optimization goal achieved after 1115 function evaluations
+2024-06-18 11:55:06,391 INFO     Optimization goal achieved after 846 function evaluations
+2024-06-18 11:55:07,668 INFO     Optimization goal achieved after 1423 function evaluations
+2024-06-18 11:55:08,147 INFO     Optimization goal achieved after 540 function evaluations
+2024-06-18 11:55:08,624 INFO     Optimization goal achieved after 539 function evaluations
+2024-06-18 11:55:08,982 INFO     Optimization goal achieved after 403 function evaluations
+2024-06-18 11:55:09,143 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:55:09,372 INFO     Optimization goal achieved after 269 function evaluations
+2024-06-18 11:55:10,126 INFO     Optimization goal achieved after 854 function evaluations
+2024-06-18 11:55:10,167 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:55:10,249 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:55:10,290 INFO     Optimization goal achieved after 45 function evaluations
+2024-06-18 11:55:10,771 INFO     Optimization goal achieved after 535 function evaluations
+2024-06-18 11:55:10,934 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:55:11,259 INFO     Optimization goal achieved after 360 function evaluations
+2024-06-18 11:55:11,467 INFO     Optimization goal achieved after 224 function evaluations
+2024-06-18 11:55:12,433 INFO     Optimization goal achieved after 1073 function evaluations
+2024-06-18 11:55:13,266 INFO     Optimization goal achieved after 890 function evaluations
+2024-06-18 11:55:14,072 INFO     Optimization goal achieved after 851 function evaluations
+2024-06-18 11:55:14,247 INFO     Optimization goal achieved after 181 function evaluations
+2024-06-18 11:55:15,299 INFO     Optimization goal achieved after 1116 function evaluations
+2024-06-18 11:55:15,940 INFO     Optimization goal achieved after 717 function evaluations
+2024-06-18 11:55:16,877 INFO     Optimization goal achieved after 1025 function evaluations
+2024-06-18 11:55:16,991 INFO     Optimization goal achieved after 133 function evaluations
+2024-06-18 11:55:17,263 INFO     Optimization goal achieved after 314 function evaluations
+2024-06-18 11:55:17,555 INFO     Optimization goal achieved after 359 function evaluations
+2024-06-18 11:55:17,819 INFO     Optimization goal achieved after 313 function evaluations
+2024-06-18 11:55:18,923 INFO     Optimization goal achieved after 1292 function evaluations
+2024-06-18 11:55:19,154 INFO     Optimization goal achieved after 269 function evaluations
+2024-06-18 11:55:19,273 INFO     Optimization goal achieved after 136 function evaluations
+2024-06-18 11:55:20,119 INFO     Optimization goal achieved after 975 function evaluations
+2024-06-18 11:55:20,745 INFO     Optimization goal achieved after 717 function evaluations
+2024-06-18 11:55:21,300 INFO     Optimization goal achieved after 624 function evaluations
+2024-06-18 11:55:22,277 INFO     Optimization goal achieved after 1114 function evaluations
+2024-06-18 11:55:22,435 INFO     Optimization goal achieved after 178 function evaluations
+2024-06-18 11:55:22,516 INFO     Optimization goal achieved after 90 function evaluations
+2024-06-18 11:55:23,435 INFO     Optimization goal achieved after 1023 function evaluations
+2024-06-18 11:55:24,500 INFO     Optimization goal achieved after 1158 function evaluations
+2024-06-18 11:55:24,812 INFO     Optimization goal achieved after 358 function evaluations
+2024-06-18 11:55:26,060 INFO     Optimization goal achieved after 1471 function evaluations
+2024-06-18 11:55:26,982 INFO     Optimization goal achieved after 1070 function evaluations
+2024-06-18 11:55:27,599 INFO     Optimization goal achieved after 715 function evaluations
+2024-06-18 11:55:28,833 INFO     Optimization goal achieved after 1423 function evaluations
+2024-06-18 11:55:29,629 INFO     Optimization goal achieved after 897 function evaluations
+2024-06-18 11:55:29,712 INFO     Optimization goal achieved after 91 function evaluations
+2024-06-18 11:55:29,874 INFO     Optimization goal achieved after 180 function evaluations
+2024-06-18 11:55:29,996 INFO     Optimization goal achieved after 135 function evaluations
+2024-06-18 11:55:30,517 INFO     Optimization goal achieved after 583 function evaluations
+2024-06-18 11:55:32,023 INFO     Optimization goal achieved after 1780 function evaluations
+2024-06-18 11:55:32,024 INFO     Minimization finished, best point is:
+2024-06-18 11:55:32,025 INFO       - B(*)->D(*)::xi'(1)@HQET -> -1.1031983943608146
+2024-06-18 11:55:32,025 INFO       - B(*)->D(*)::xi''(1)@HQET -> 1.8353219568427612
+2024-06-18 11:55:32,025 INFO       - B(*)->D(*)::xi'''(1)@HQET -> -3.4295448784042026
+2024-06-18 11:55:32,025 INFO       - B(*)->D(*)::chi_2(1)@HQET -> -0.061176651572563856
+2024-06-18 11:55:32,025 INFO       - B(*)->D(*)::chi_2'(1)@HQET -> -0.001016885652332808
+2024-06-18 11:55:32,026 INFO       - B(*)->D(*)::chi_2''(1)@HQET -> -0.10409622590700318
+2024-06-18 11:55:32,026 INFO       - B(*)->D(*)::chi_3'(1)@HQET -> 0.039252987198568845
+2024-06-18 11:55:32,026 INFO       - B(*)->D(*)::chi_3''(1)@HQET -> -0.10011915548363898
+2024-06-18 11:55:32,026 INFO       - B(*)->D(*)::eta(1)@HQET -> 0.5890834277595556
+2024-06-18 11:55:32,026 INFO       - B(*)->D(*)::eta'(1)@HQET -> 0.04000463627454498
+2024-06-18 11:55:32,026 INFO       - B(*)->D(*)::eta''(1)@HQET -> -0.2841480813338697
+2024-06-18 11:55:32,027 INFO       - B(*)->D(*)::l_1(1)@HQET -> 0.1728083039419821
+2024-06-18 11:55:32,027 INFO       - B(*)->D(*)::l_1'(1)@HQET -> -7.024304916623336
+2024-06-18 11:55:32,027 INFO       - B(*)->D(*)::l_2(1)@HQET -> -1.5861326779314209
+2024-06-18 11:55:32,027 INFO       - B(*)->D(*)::l_2'(1)@HQET -> -3.4004115812826328
+2024-06-18 11:55:32,027 INFO       - B(*)->D(*)::l_3(1)@HQET -> -4.245907857971636
+2024-06-18 11:55:32,028 INFO       - B(*)->D(*)::l_3'(1)@HQET -> 6.483256389800886
+2024-06-18 11:55:32,028 INFO       - B(*)->D(*)::l_4(1)@HQET -> -1.938889931212838
+2024-06-18 11:55:32,028 INFO       - B(*)->D(*)::l_4'(1)@HQET -> -0.6119796051650699
+2024-06-18 11:55:32,028 INFO       - B(*)->D(*)::l_5(1)@HQET -> 4.850311472670786
+2024-06-18 11:55:32,028 INFO       - B(*)->D(*)::l_5'(1)@HQET -> -2.024042616391366
+2024-06-18 11:55:32,028 INFO       - B(*)->D(*)::l_6(1)@HQET -> 1.679656505728369
+2024-06-18 11:55:32,029 INFO       - B(*)->D(*)::l_6'(1)@HQET -> 1.3923346631369427
+2024-06-18 11:55:32,029 INFO       - B_s(*)->D_s(*)::xi'(1)@HQET -> -1.0639270710272322
+2024-06-18 11:55:32,029 INFO       - B_s(*)->D_s(*)::xi''(1)@HQET -> 1.5110916410612876
+2024-06-18 11:55:32,029 INFO       - B_s(*)->D_s(*)::xi'''(1)@HQET -> -2.0485748188544246
+2024-06-18 11:55:32,029 INFO       - B_s(*)->D_s(*)::chi_2(1)@HQET -> -0.06614529700271857
+2024-06-18 11:55:32,030 INFO       - B_s(*)->D_s(*)::chi_2'(1)@HQET -> 0.0036585619426149074
+2024-06-18 11:55:32,030 INFO       - B_s(*)->D_s(*)::chi_2''(1)@HQET -> -0.007693350106829255
+2024-06-18 11:55:32,030 INFO       - B_s(*)->D_s(*)::chi_3'(1)@HQET -> 0.030650590071314904
+2024-06-18 11:55:32,030 INFO       - B_s(*)->D_s(*)::chi_3''(1)@HQET -> -0.0984427847097481
+2024-06-18 11:55:32,030 INFO       - B_s(*)->D_s(*)::eta(1)@HQET -> 0.6426842109400546
+2024-06-18 11:55:32,030 INFO       - B_s(*)->D_s(*)::eta'(1)@HQET -> -0.16606404075641912
+2024-06-18 11:55:32,031 INFO       - B_s(*)->D_s(*)::eta''(1)@HQET -> -0.3318594811507314
+2024-06-18 11:55:32,031 INFO     total chi^2 = 14.59
+2024-06-18 11:55:32,031 INFO     total dof   = 62
+2024-06-18 11:55:32,034 INFO     p value     = 100.00%
+2024-06-18 11:55:32,034 INFO     individual test statistics:
+2024-06-18 11:55:32,035 INFO       - B(*)->D(*)::chi_2'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 95.95%
+2024-06-18 11:55:32,035 INFO       - B(*)->D(*)::chi_2(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 95.31%
+2024-06-18 11:55:32,035 INFO       - B(*)->D(*)::chi_3'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 97.02%
+2024-06-18 11:55:32,036 INFO       - B(*)->D(*)::eta'(1)@QCDSR: chi^2 / dof = 0.04 / 1, local_pvalue = 84.14%
+2024-06-18 11:55:32,036 INFO       - B(*)->D(*)::eta(1)@QCDSR: chi^2 / dof = 0.02 / 1, local_pvalue = 87.72%
+2024-06-18 11:55:32,037 INFO       - B->D::f_++f_0@FNAL+MILC:2015B: chi^2 / dof = 4.94 / 7, local_pvalue = 66.77%
+2024-06-18 11:55:32,037 INFO       - B->D::f_++f_0@HPQCD:2015A: chi^2 / dof = 3.18 / 5, local_pvalue = 67.23%
+2024-06-18 11:55:32,038 INFO       - B->D^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A: chi^2 / dof = 2.65 / 33, local_pvalue = 100.00%
+2024-06-18 11:55:32,038 INFO       - B->D^*::A_1[s_max]@HFLAV:2019A: chi^2 / dof = 0.59 / 1, local_pvalue = 44.39%
+2024-06-18 11:55:32,039 INFO       - B_s(*)->D_s(*)::chi_2'(1)@QCDSR: chi^2 / dof = 0.01 / 1, local_pvalue = 92.71%
+2024-06-18 11:55:32,040 INFO       - B_s(*)->D_s(*)::chi_2(1)@QCDSR: chi^2 / dof = 0.01 / 1, local_pvalue = 92.32%
+2024-06-18 11:55:32,040 INFO       - B_s(*)->D_s(*)::chi_3'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 97.41%
+2024-06-18 11:55:32,040 INFO       - B_s(*)->D_s(*)::eta'(1)@QCDSR: chi^2 / dof = 0.12 / 1, local_pvalue = 72.62%
+2024-06-18 11:55:32,041 INFO       - B_s(*)->D_s(*)::eta(1)@QCDSR: chi^2 / dof = 0.17 / 1, local_pvalue = 67.98%
+2024-06-18 11:55:32,041 INFO       - B_s->D_s::f_++f_0@HPQCD:2019A: chi^2 / dof = 0.52 / 5, local_pvalue = 99.13%
+2024-06-18 11:55:32,042 INFO       - B_s->D_s::f_T(q2_max)/f_+(q2_max)@LQCD: chi^2 / dof = 0.35 / 1, local_pvalue = 55.42%
+2024-06-18 11:55:32,042 INFO       - B_s->D_s^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@BGJvD:2019A: chi^2 / dof = 1.52 / 33, local_pvalue = 100.00%
+2024-06-18 11:55:32,043 INFO       - B_s->D_s^*::A_1[s_max]@HPQCD:2019A: chi^2 / dof = 0.46 / 1, local_pvalue = 49.67%

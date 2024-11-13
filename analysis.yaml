@@ -1,0 +1,584 @@
+parameters:
+  #define aliases for WC
+  'qbcu::Re{c1}' :
+      alias_of: [ 'sbcu::Re{c1}', 'dbcu::Re{c1}' ]
+      central: -0.041469
+      min:     -0.041469
+      max:     -0.041469
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_1$'
+  'qbcu::Re{c2}' :
+      alias_of: [ 'sbcu::Re{c2}', 'dbcu::Re{c2}' ]
+      central: -0.899772
+      min:     -0.899772
+      max:     -0.899772
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_2$'
+  'qbcu::Re{c3}' :
+      alias_of: [ 'sbcu::Re{c3}', 'dbcu::Re{c3}' ]
+      central: 0.011126
+      min:     0.011126
+      max:     0.011126
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_3$'
+  'qbcu::Re{c4}' :
+      alias_of: [ 'sbcu::Re{c4}', 'dbcu::Re{c4}' ]
+      central: 0.194904
+      min:     0.194904
+      max:     0.194904
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_4$'
+  'qbcu::Re{c5}' :
+      alias_of: [ 'sbcu::Re{c5}', 'dbcu::Re{c5}' ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_5$'
+  'qbcu::Re{c6}' :
+      alias_of: [ 'sbcu::Re{c6}', 'dbcu::Re{c6}' ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_6$'
+  'qbcu::Re{c7}' :
+      alias_of: [ 'sbcu::Re{c7}', 'dbcu::Re{c7}' ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_7$'
+  'qbcu::Re{c8}' :
+      alias_of: [ 'sbcu::Re{c8}', 'dbcu::Re{c8}' ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_8$'
+  'qbcu::Re{c9}' :
+      alias_of: [ 'sbcu::Re{c9}', 'dbcu::Re{c9}' ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_9$'
+  'qbcu::Re{c10}' :
+      alias_of: [ 'sbcu::Re{c10}', 'dbcu::Re{c10}' ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{10}$'
+  'qbcu::Re{c1p}' :
+      alias_of: [ "sbcu::Re{c1'}", "dbcu::Re{c1'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{1p}$'
+  'qbcu::Re{c2p}' :
+      alias_of: [ "sbcu::Re{c2'}", "dbcu::Re{c2'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{2p}$'
+  'qbcu::Re{c3p}' :
+      alias_of: [ "sbcu::Re{c3'}", "dbcu::Re{c3'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{3p}$'
+  'qbcu::Re{c4p}' :
+      alias_of: [ "sbcu::Re{c4'}", "dbcu::Re{c4'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{4p}$'
+  'qbcu::Re{c5p}' :
+      alias_of: [ "sbcu::Re{c5'}", "dbcu::Re{c5'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{5p}$'
+  'qbcu::Re{c6p}' :
+      alias_of: [ "sbcu::Re{c6'}", "dbcu::Re{c6'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{6p}$'
+  'qbcu::Re{c7p}' :
+      alias_of: [ "sbcu::Re{c7'}", "dbcu::Re{c7'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{7p}$'
+  'qbcu::Re{c8p}' :
+      alias_of: [ "sbcu::Re{c8'}", "dbcu::Re{c8'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{8p}$'
+  'qbcu::Re{c9p}' :
+      alias_of: [ "sbcu::Re{c9'}", "dbcu::Re{c9'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{9p}$'
+  'qbcu::Re{c10p}' :
+      alias_of: [ "sbcu::Re{c10'}", "dbcu::Re{c10'}" ]
+      central: 0.0
+      min:     0.0
+      max:     0.0
+      unit:     '1'
+      latex:    '$\mathrm{Re}\, \mathcal{C}^{\bar{q}b\bar{c}u}_{10p}$'
+observables:
+  # BR observables
+  BR::BtoDK:
+    expression: >
+      <<B^0->D^+K^-::BR>>
+    unit: '1'
+    options: {}
+    latex: '\mathcal{B}(B^0 \to D K)'
+  BR::BtoDstarK:
+    expression: >
+      <<B^0->D^*+K^-::BR>>
+    unit: '1'
+    options: {}
+    latex: '\mathcal{B}(B^0 \to D^* K)'
+  BR::BstoDsPi:
+    expression: >
+      <<B_s^0->D_s^+pi^-::BR>>
+    unit: '1'
+    options: {}
+    latex: '\mathcal{B}(B_s^0 \to D_s \pi)'
+  BR::BstoDsstarPi:
+    expression: >
+      <<B_s^0->D_s^*+pi^-::BR>>
+    unit: '1'
+    options: {}
+    latex: '\mathcal{B}(B_s^0 \to D_s^* \pi)'
+  # observables related to lifetime
+  B::LifetimeLO:
+    expression: >
+      <<B::Gamma(dbcu)>> + <<B::Gamma(sbcu)>>
+    unit: 'ps^-1'
+    options: {}
+    latex: '(\Gamma(\bar{B}))'
+priors:
+  - name: WET1
+    descriptions:
+      - { parameter: "qbcu::Re{c1}",   min: -3.0, max: 3.0, type: uniform }
+      - { parameter: "qbcu::Re{c2}",   min: -4.0, max: 4.0, type: uniform }
+      - { parameter: "qbcu::Re{c3}",   min: -0.3, max: 0.3, type: uniform }
+      - { parameter: "qbcu::Re{c4}",   min: -0.4, max: 0.4, type: uniform }
+  - name: WET2
+    descriptions:
+      - { parameter: "qbcu::Re{c5}" ,   min: -3.5, max: 4.0, type: uniform }
+      - { parameter: "qbcu::Re{c6}" ,   min: -6.5, max: 6.5, type: uniform }
+      - { parameter: "qbcu::Re{c7}" ,   min: -1.5, max: 1.5, type: uniform }
+      - { parameter: "qbcu::Re{c8}" ,   min: -3.0, max: 2.0, type: uniform }
+      - { parameter: "qbcu::Re{c9}" ,   min: -0.1, max: 0.1, type: uniform }
+      - { parameter: "qbcu::Re{c10}",   min: -0.2, max: 0.2, type: uniform }
+  - name: WET3
+    descriptions:
+      - { parameter: "qbcu::Re{c1p}",   min: -2.5,  max: 2.5,  type: uniform }
+      - { parameter: "qbcu::Re{c2p}",   min: -2.5,  max: 5.0,  type: uniform }
+      - { parameter: "qbcu::Re{c3p}",   min: -0.25, max: 0.25, type: uniform }
+      - { parameter: "qbcu::Re{c4p}",   min: -0.25, max: 0.25, type: uniform }
+  - name: WET4
+    descriptions:
+      - { parameter: "qbcu::Re{c5p}" ,   min: -4.0,  max: 3.5, type: uniform }
+      - { parameter: "qbcu::Re{c6p}" ,   min: -10.0, max: 4.5, type: uniform }
+      - { parameter: "qbcu::Re{c7p}" ,   min: -1.5,  max: 1.5, type: uniform }
+      - { parameter: "qbcu::Re{c8p}" ,   min: -2.0,  max: 3.0, type: uniform }
+      - { parameter: "qbcu::Re{c9p}" ,   min: -0.1,  max: 0.1, type: uniform }
+      - { parameter: "qbcu::Re{c10p}",   min: -0.2,  max: 0.2, type: uniform }
+  - name: FFs
+    descriptions:
+      - { constraint: 'B_(s)->D_(s)^(*)::FormFactors[f_0(Mpi2),f_0(MK2),A_0(Mpi2),A_0(MK2)]@BGJvD:2019A' }
+  - name: FFs-uniform
+    descriptions:
+      - { parameter: 'B_s->D_spi::f_0(Mpi2)'  , min: 0.0, max: 1.0, type: uniform }
+      - { parameter: 'B->DK::f_0(MK2)'        , min: 0.0, max: 1.0, type: uniform }
+      - { parameter: 'B_s->D_s^*pi::A_0(Mpi2)', min: 0.0, max: 1.0, type: uniform }
+      - { parameter: 'B->D^*K::A_0(MK2)'      , min: 0.0, max: 1.0, type: uniform }
+likelihoods:
+  - name: BranchingRatios
+    constraints:
+      - 'B_(s)->D_(s)^(*)::BR@MvDV:2024A'
+  - name: LifetimeLORed
+    manual_constraints:
+      # 0.7802 * B^- lifetime (subtract semi-leptonic modes)
+      lifetime::MvDJ:
+        type: UniformBound
+        observables: [ 'B::LifetimeLO' ]
+        kinematics: [{}]
+        options: [{}]
+        bound: 0.476312
+        uncertainty: 0.0015
+  - name: FFs
+    constraints:
+      - 'B_(s)->D_(s)^(*)::FormFactors[f_0(Mpi2),f_0(MK2),A_0(Mpi2),A_0(MK2)]@BGJvD:2019A'
+posteriors:
+  - name: TH
+    global_options:
+      model: WET
+    fixed_parameters:
+      # QCD coupling from PDG 2024
+      'QCD::alpha_s(MZ)':             0.1180
+      # Vector meson masses from PDG 2024
+      'mass::W':                      80.3692
+      'mass::Z':                      91.1880
+      # Fermi constant and hbar
+      'WET::G_Fermi':                 1.1663788e-5
+      'QM::hbar':                     6.582119569e-25
+      # CKM elements PDG 2024
+      'CKM::abs(V_cb)':               0.0411
+      'CKM::arg(V_cb)':               0.0
+      'CKM::abs(V_ud)':               0.97367
+      'CKM::arg(V_ud)':               0.0
+      'CKM::abs(V_us)':               0.22431
+      'CKM::arg(V_us)':               0.0
+      # meson masses from PDG 2024
+      'mass::B_d':                    5.27972
+      'mass::B_s':                    5.36693
+      'mass::D_d':                    1.86966
+      'mass::D_d^*':                  2.01026
+      'mass::D_s':                    1.96835
+      'mass::D_s^*':                  2.1122
+      'mass::pi^+':                   0.13957039
+      'mass::K_u':                    0.493677
+      # meson lifetimes from PDG 2024
+      'life_time::B_d':               1.517e-12
+      'life_time::B_s':               1.520e-12
+      # quark masses from PDG 2024
+      'mass::b(MSbar)':               4.18
+      'mass::c':                      1.2730
+      'mass::s(2GeV)':                0.0935
+      'mass::d(2GeV)':                0.0047
+      'mass::u(2GeV)':                0.00216
+      # pion LCDA parameters from 2102.07233
+      'decay-constant::pi':           0.1302
+      'pi::a2@1GeV':                  0.157    # computed with my running from 1903.08038
+      'pi::a4@1GeV':                  0.06     # computed with my running from 2201.09173
+      'pi::f3@1GeV':                  0.0045
+      'pi::omega3@1GeV':             -1.5
+      # Kaon LCDA parameters from 2308.04347
+      'decay-constant::K_u':          0.1557
+      'K::a1@1GeV':                  -0.0633581  # computed with my running from 1903.08038
+      'K::a2@1GeV':                   0.142191   # computed with my running from 1903.08038
+      'K::a3@1GeV':                  -0.0621861  # computed with my running from 2201.09173
+      'K::a4@1GeV':                   0.111959   # computed with my running from 2201.09173
+      'K::f3@1GeV':                   0.0045
+      'K::omega3@1GeV':              -1.2
+    prior:
+      - FFs
+    likelihood: []
+  - name: SM
+    global_options:
+      model: WET
+    fixed_parameters:
+      # QCD coupling from PDG 2024
+      'QCD::alpha_s(MZ)':             0.1180
+      # Vector meson masses from PDG 2024
+      'mass::W':                      80.3692
+      'mass::Z':                      91.1880
+      # Fermi constant and hbar
+      'WET::G_Fermi':                 1.1663788e-5
+      'QM::hbar':                     6.582119569e-25
+      # CKM elements PDG 2024
+      'CKM::abs(V_cb)':               0.0411
+      'CKM::arg(V_cb)':               0.0
+      'CKM::abs(V_ud)':               0.97367
+      'CKM::arg(V_ud)':               0.0
+      'CKM::abs(V_us)':               0.22431
+      'CKM::arg(V_us)':               0.0
+      # meson masses from PDG 2024
+      'mass::B_d':                    5.27972
+      'mass::B_s':                    5.36693
+      'mass::D_d':                    1.86966
+      'mass::D_d^*':                  2.01026
+      'mass::D_s':                    1.96835
+      'mass::D_s^*':                  2.1122
+      'mass::pi^+':                   0.13957039
+      'mass::K_u':                    0.493677
+      # meson lifetimes from PDG 2024
+      'life_time::B_d':               1.517e-12
+      'life_time::B_s':               1.520e-12
+      # quark masses from PDG 2024
+      'mass::b(MSbar)':               4.18
+      'mass::c':                      1.2730
+      'mass::s(2GeV)':                0.0935
+      'mass::d(2GeV)':                0.0047
+      'mass::u(2GeV)':                0.00216
+      # pion LCDA parameters from 2102.07233
+      'decay-constant::pi':           0.1302
+      'pi::a2@1GeV':                  0.157    # computed with my running from 1903.08038
+      'pi::a4@1GeV':                  0.06     # computed with my running from 2201.09173
+      'pi::f3@1GeV':                  0.0045
+      'pi::omega3@1GeV':             -1.5
+      # Kaon LCDA parameters from 2308.04347
+      'decay-constant::K_u':          0.1557
+      'K::a1@1GeV':                  -0.0633581  # computed with my running from 1903.08038
+      'K::a2@1GeV':                   0.142191   # computed with my running from 1903.08038
+      'K::a3@1GeV':                  -0.0621861  # computed with my running from 2201.09173
+      'K::a4@1GeV':                   0.111959   # computed with my running from 2201.09173
+      'K::f3@1GeV':                   0.0045
+      'K::omega3@1GeV':              -1.2
+    prior:
+      - FFs
+    likelihood:
+      - BranchingRatios
+      - LifetimeLORed
+  - name: WET-1
+    global_options:
+      model: WET
+    fixed_parameters:
+      # QCD coupling from PDG 2024
+      'QCD::alpha_s(MZ)':             0.1180
+      # Vector meson masses from PDG 2024
+      'mass::W':                      80.3692
+      'mass::Z':                      91.1880
+      # Fermi constant and hbar
+      'WET::G_Fermi':                 1.1663788e-5
+      'QM::hbar':                     6.582119569e-25
+      # CKM elements PDG 2024
+      'CKM::abs(V_cb)':               0.0411
+      'CKM::arg(V_cb)':               0.0
+      'CKM::abs(V_ud)':               0.97367
+      'CKM::arg(V_ud)':               0.0
+      'CKM::abs(V_us)':               0.22431
+      'CKM::arg(V_us)':               0.0
+      # meson masses from PDG 2024
+      'mass::B_d':                    5.27972
+      'mass::B_s':                    5.36693
+      'mass::D_d':                    1.86966
+      'mass::D_d^*':                  2.01026
+      'mass::D_s':                    1.96835
+      'mass::D_s^*':                  2.1122
+      'mass::pi^+':                   0.13957039
+      'mass::K_u':                    0.493677
+      # meson lifetimes from PDG 2024
+      'life_time::B_d':               1.517e-12
+      'life_time::B_s':               1.520e-12
+      # quark masses from PDG 2024
+      'mass::b(MSbar)':               4.18
+      'mass::c':                      1.2730
+      'mass::s(2GeV)':                0.0935
+      'mass::d(2GeV)':                0.0047
+      'mass::u(2GeV)':                0.00216
+      # pion LCDA parameters from 2102.07233
+      'decay-constant::pi':           0.1302
+      'pi::a2@1GeV':                  0.157    # computed with my running from 1903.08038
+      'pi::a4@1GeV':                  0.06     # computed with my running from 2201.09173
+      'pi::f3@1GeV':                  0.0045
+      'pi::omega3@1GeV':             -1.5
+      # Kaon LCDA parameters from 2308.04347 (but using consistent kappa4)
+      'decay-constant::K_u':          0.1557
+      'K::a1@1GeV':                  -0.0633581  # computed with my running from 1903.08038
+      'K::a2@1GeV':                   0.142191   # computed with my running from 1903.08038
+      'K::a3@1GeV':                  -0.0621861  # computed with my running from 2201.09173
+      'K::a4@1GeV':                   0.111959   # computed with my running from 2201.09173
+      'K::f3@1GeV':                   0.0045
+      'K::omega3@1GeV':              -1.2
+    prior:
+      - WET1
+      - FFs
+    likelihood:
+      - BranchingRatios
+      - LifetimeLORed
+  - name: WET-2
+    global_options:
+      model: WET
+    fixed_parameters:
+      # QCD coupling from PDG 2024
+      'QCD::alpha_s(MZ)':             0.1180
+      # Vector meson masses from PDG 2024
+      'mass::W':                      80.3692
+      'mass::Z':                      91.1880
+      # Fermi constant and hbar
+      'WET::G_Fermi':                 1.1663788e-5
+      'QM::hbar':                     6.582119569e-25
+      # CKM elements PDG 2024
+      'CKM::abs(V_cb)':               0.0411
+      'CKM::arg(V_cb)':               0.0
+      'CKM::abs(V_ud)':               0.97367
+      'CKM::arg(V_ud)':               0.0
+      'CKM::abs(V_us)':               0.22431
+      'CKM::arg(V_us)':               0.0
+      # meson masses from PDG 2024
+      'mass::B_d':                    5.27972
+      'mass::B_s':                    5.36693
+      'mass::D_d':                    1.86966
+      'mass::D_d^*':                  2.01026
+      'mass::D_s':                    1.96835
+      'mass::D_s^*':                  2.1122
+      'mass::pi^+':                   0.13957039
+      'mass::K_u':                    0.493677
+      # meson lifetimes from PDG 2024
+      'life_time::B_d':               1.517e-12
+      'life_time::B_s':               1.520e-12
+      # quark masses from PDG 2024
+      'mass::b(MSbar)':               4.18
+      'mass::c':                      1.2730
+      'mass::s(2GeV)':                0.0935
+      'mass::d(2GeV)':                0.0047
+      'mass::u(2GeV)':                0.00216
+      # pion LCDA parameters from 2102.07233
+      'decay-constant::pi':           0.1302
+      'pi::a2@1GeV':                  0.157    # computed with my running from 1903.08038
+      'pi::a4@1GeV':                  0.06     # computed with my running from 2201.09173
+      'pi::f3@1GeV':                  0.0045
+      'pi::omega3@1GeV':             -1.5
+      # Kaon LCDA parameters from 2308.04347 (but using consistent kappa4)
+      'decay-constant::K_u':          0.1557
+      'K::a1@1GeV':                  -0.0633581  # computed with my running from 1903.08038
+      'K::a2@1GeV':                   0.142191   # computed with my running from 1903.08038
+      'K::a3@1GeV':                  -0.0621861  # computed with my running from 2201.09173
+      'K::a4@1GeV':                   0.111959   # computed with my running from 2201.09173
+      'K::f3@1GeV':                   0.0045
+      'K::omega3@1GeV':              -1.2
+    prior:
+      - WET2
+      - FFs
+    likelihood:
+      - BranchingRatios
+      - LifetimeLORed
+  - name: WET-3
+    global_options:
+      model: WET
+    fixed_parameters:
+      # QCD coupling from PDG 2024
+      'QCD::alpha_s(MZ)':             0.1180
+      # Vector meson masses from PDG 2024
+      'mass::W':                      80.3692
+      'mass::Z':                      91.1880
+      # Fermi constant and hbar
+      'WET::G_Fermi':                 1.1663788e-5
+      'QM::hbar':                     6.582119569e-25
+      # CKM elements PDG 2024
+      'CKM::abs(V_cb)':               0.0411
+      'CKM::arg(V_cb)':               0.0
+      'CKM::abs(V_ud)':               0.97367
+      'CKM::arg(V_ud)':               0.0
+      'CKM::abs(V_us)':               0.22431
+      'CKM::arg(V_us)':               0.0
+      # meson masses from PDG 2024
+      'mass::B_d':                    5.27972
+      'mass::B_s':                    5.36693
+      'mass::D_d':                    1.86966
+      'mass::D_d^*':                  2.01026
+      'mass::D_s':                    1.96835
+      'mass::D_s^*':                  2.1122
+      'mass::pi^+':                   0.13957039
+      'mass::K_u':                    0.493677
+      # meson lifetimes from PDG 2024
+      'life_time::B_d':               1.517e-12
+      'life_time::B_s':               1.520e-12
+      # quark masses from PDG 2024
+      'mass::b(MSbar)':               4.18
+      'mass::c':                      1.2730
+      'mass::s(2GeV)':                0.0935
+      'mass::d(2GeV)':                0.0047
+      'mass::u(2GeV)':                0.00216
+      # pion LCDA parameters from 2102.07233
+      'decay-constant::pi':           0.1302
+      'pi::a2@1GeV':                  0.157    # computed with my running from 1903.08038
+      'pi::a4@1GeV':                  0.06     # computed with my running from 2201.09173
+      'pi::f3@1GeV':                  0.0045
+      'pi::omega3@1GeV':             -1.5
+      # Kaon LCDA parameters from 2308.04347 (but using consistent kappa4)
+      'decay-constant::K_u':          0.1557
+      'K::a1@1GeV':                  -0.0633581  # computed with my running from 1903.08038
+      'K::a2@1GeV':                   0.142191   # computed with my running from 1903.08038
+      'K::a3@1GeV':                  -0.0621861  # computed with my running from 2201.09173
+      'K::a4@1GeV':                   0.111959   # computed with my running from 2201.09173
+      'K::f3@1GeV':                   0.0045
+      'K::omega3@1GeV':              -1.2
+    prior:
+      - WET3
+      - FFs
+    likelihood:
+      - BranchingRatios
+      - LifetimeLORed
+  - name: WET-4
+    global_options:
+      model: WET
+    fixed_parameters:
+      # QCD coupling from PDG 2024
+      'QCD::alpha_s(MZ)':             0.1180
+      # Vector meson masses from PDG 2024
+      'mass::W':                      80.3692
+      'mass::Z':                      91.1880
+      # Fermi constant and hbar
+      'WET::G_Fermi':                 1.1663788e-5
+      'QM::hbar':                     6.582119569e-25
+      # CKM elements PDG 2024
+      'CKM::abs(V_cb)':               0.0411
+      'CKM::arg(V_cb)':               0.0
+      'CKM::abs(V_ud)':               0.97367
+      'CKM::arg(V_ud)':               0.0
+      'CKM::abs(V_us)':               0.22431
+      'CKM::arg(V_us)':               0.0
+      # meson masses from PDG 2024
+      'mass::B_d':                    5.27972
+      'mass::B_s':                    5.36693
+      'mass::D_d':                    1.86966
+      'mass::D_d^*':                  2.01026
+      'mass::D_s':                    1.96835
+      'mass::D_s^*':                  2.1122
+      'mass::pi^+':                   0.13957039
+      'mass::K_u':                    0.493677
+      # meson lifetimes from PDG 2024
+      'life_time::B_d':               1.517e-12
+      'life_time::B_s':               1.520e-12
+      # quark masses from PDG 2024
+      'mass::b(MSbar)':               4.18
+      'mass::c':                      1.2730
+      'mass::s(2GeV)':                0.0935
+      'mass::d(2GeV)':                0.0047
+      'mass::u(2GeV)':                0.00216
+      # pion LCDA parameters from 2102.07233
+      'decay-constant::pi':           0.1302
+      'pi::a2@1GeV':                  0.157    # computed with my running from 1903.08038
+      'pi::a4@1GeV':                  0.06     # computed with my running from 2201.09173
+      'pi::f3@1GeV':                  0.0045
+      'pi::omega3@1GeV':             -1.5
+      # Kaon LCDA parameters from 2308.04347 (but using consistent kappa4)
+      'decay-constant::K_u':          0.1557
+      'K::a1@1GeV':                  -0.0633581  # computed with my running from 1903.08038
+      'K::a2@1GeV':                   0.142191   # computed with my running from 1903.08038
+      'K::a3@1GeV':                  -0.0621861  # computed with my running from 2201.09173
+      'K::a4@1GeV':                   0.111959   # computed with my running from 2201.09173
+      'K::f3@1GeV':                   0.0045
+      'K::omega3@1GeV':              -1.2
+    prior:
+      - WET4
+      - FFs
+    likelihood:
+      - BranchingRatios
+      - LifetimeLORed
+  - name: FF-posterior
+    prior:
+      - FFs-uniform
+    likelihood:
+      - FFs
+predictions:
+  - name: BRs
+    observables:
+      - { name: B_s^0->D_s^+pi^-::BR  }
+      - { name: B^0->D^+K^-::BR       }
+      - { name: B_s^0->D_s^*+pi^-::BR }
+      - { name: B^0->D^*+K^-::BR      }
+  - name: Gamma
+    observables:
+      - { name: 'B::LifetimeLO'  }

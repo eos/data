@@ -1,0 +1,39 @@
+parameters:
+- max: 0.01
+  min: 0.0001
+  name: B_s^0->D_s^-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^-K^+::BR@Parametric
+- max: 0.01
+  min: 0.0001
+  name: B_s^0->D_s^*-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^*-K^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: D_s^-->phipi^-::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: D_s^-->K^+K^-pi^-::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: D^-->K^+pi^-pi^-::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: B^0->D^*-pi^+::BR@Parametric
+- max: 1.0
+  min: 0.0
+  name: hadronization::f_00@Upsilon(4S)
+- max: 1.0
+  min: 0.0
+  name: hadronization::fs/fd@Tevatron
+- max: 1.0
+  min: 0.0
+  name: hadronization::fs/fd@LHCb(7TeV)
+type: DynestyResults
+version: 1.0.12

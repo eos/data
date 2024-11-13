@@ -1,0 +1,238 @@
+priors:
+  - name: HQE-up-LP3
+    parameters:
+      # leading power
+      #  xi
+      - { parameter: "B(*)->D(*)::xi'(1)@HQET",       min: -2.0000e+00, max: -0.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi''(1)@HQET",      min: +0.5000e+00, max: +4.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi'''(1)@HQET",     min: -1.2000e+01, max: +0.5000e+00, type: 'uniform' }
+  - name: HQE-up-SLP2
+    parameters:
+      # subleading power
+      #  chi_2
+      - { parameter: "B(*)->D(*)::chi_2(1)@HQET",       min: -3.0000e-01, max: +1.0000e-01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2'(1)@HQET",      min: -9.5000e-02, max: +9.5000e-02, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2''(1)@HQET",     min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B(*)->D(*)::chi_3'(1)@HQET",      min: -1.5000e-01, max: +2.0000e-01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_3''(1)@HQET",     min: -0.6000e+00, max: +0.4000e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B(*)->D(*)::eta(1)@HQET",         min: -0.5000e+00, max: +1.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta'(1)@HQET",        min: -7.5000e-01, max: +7.5000e-01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta''(1)@HQET",       min: -2.0000e+00, max: +3.0000e+00, type: 'uniform' }
+  - name: HQE-up-SSLP1
+    parameters:
+      # subsubleading power
+      #  l_1
+      - { parameter: "B(*)->D(*)::l_1(1)@HQET",         min: -2.0000e+00, max: +2.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_1'(1)@HQET",        min: -3.0000e+01, max: +3.0000e+01, type: 'uniform' }
+      #  l_2
+      - { parameter: "B(*)->D(*)::l_2(1)@HQET",         min: -5.0000e+00, max: +2.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_2'(1)@HQET",        min: -3.0000e+01, max: +3.0000e+01, type: 'uniform' }
+      #  l_3
+      - { parameter: "B(*)->D(*)::l_3(1)@HQET",         min: -2.0000e+01, max: +2.0000e+01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_3'(1)@HQET",        min: -3.0000e+01, max: +3.0000e+01, type: 'uniform' }
+      #  l_4
+      - { parameter: "B(*)->D(*)::l_4(1)@HQET",         min: -1.2000e+01, max: +0.8000e+01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_4'(1)@HQET",        min: -1.5000e+01, max: +1.5000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B(*)->D(*)::l_5(1)@HQET",         min: -1.0000e+01, max: +2.0000e+01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_5'(1)@HQET",        min: -2.0000e+01, max: +2.0000e+01, type: 'uniform' }
+      # l_6
+      - { parameter: "B(*)->D(*)::l_6(1)@HQET",         min: -1.0000e+01, max: +2.0000e+01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_6'(1)@HQET",        min: -2.0000e+01, max: +2.0000e+01, type: 'uniform' }
+  - name: HQE-strange-LP3
+    parameters:
+      # leading power
+      #  xi
+      - { parameter: "B_s(*)->D_s(*)::xi'(1)@HQET",     min: -2.2000e+00, max: -0.0700e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi''(1)@HQET",    min: -2.0000e+00, max: +6.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi'''(1)@HQET",   min: -1.4000e+01, max: +0.9000e+00, type: 'uniform' }
+  - name: HQE-strange-SLP2
+    parameters:
+      # subleading power
+      #  chi_2
+      - { parameter: "B_s(*)->D_s(*)::chi_2(1)@HQET",   min: -3.0000e-01, max: +1.3000e-01, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2'(1)@HQET",  min: -2.0000e-01, max: +2.0000e-01, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2''(1)@HQET", min: -2.0000e+00, max: +2.5000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B_s(*)->D_s(*)::chi_3'(1)@HQET",  min: -1.7000e-01, max: +2.3000e-01, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_3''(1)@HQET", min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B_s(*)->D_s(*)::eta(1)@HQET",     min: -0.5500e+00, max: +2.0500e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta'(1)@HQET",    min: -1.8400e+00, max: +1.7600e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta''(1)@HQET",   min: -6.0000e+00, max: +6.0000e+00, type: 'uniform' }
+likelihoods:
+  - name: TH-Bounds
+    constraints:
+      - b->c::Bound[0^+]
+      - b->c::Bound[0^-]
+      - b->c::Bound[1^+]
+      - b->c::Bound[1^-]
+
+  - name: TH-BToDDstar-LCSR
+    constraints:
+      - B->D^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A
+
+  - name: TH-BToD-LQCD
+    constraints:
+      - B->D::f_++f_0@FNAL+MILC:2015B
+      - B->D::f_++f_0@HPQCD:2015A
+
+  - name: TH-BToDstar-LQCD
+    constraints:
+      - B->D^*::A_1[s_max]@HFLAV:2019A
+
+  - name: TH-BToDDstar-QCDSR
+    manual_constraints:
+      "B(*)->D(*)::chi_2(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::chi_2(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: -0.06
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::chi_2'(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::chi_2'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.00
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::chi_3'(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::chi_3'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.04
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::eta(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::eta(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.62
+        sigma-stat: { hi: 0.2,  lo: 0.20 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::eta'(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::eta'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.00
+        sigma-stat: { hi: 0.20, lo: 0.20 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+
+  - name: TH-BsToDsDsstar-LCSR
+    constraints:
+      - B_s->D_s^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@BGJvD:2019A
+
+  - name: TH-BsToDs-LQCD
+    manual_constraints:
+      "B_s->D_s::f_T(q2_max)/f_+(q2_max)@LQCD":
+        type: Gaussian
+        observable: B_s->D_s::f_T(q2)/f_+(q2)
+        kinematics: { q2: 11.549 }
+        options: { }
+        mean: 1.134
+        sigma-stat: { hi: 0.073, lo: 0.073 }
+        sigma-sys:  { hi: 0.0,   lo: 0.0   }
+    constraints:
+      - B_s->D_s::f_++f_0@HPQCD:2019A
+
+  - name: TH-BsToDsstar-LQCD
+    constraints:
+      - B_s->D_s^*::A_1[s_max]@HPQCD:2019A
+
+  - name: TH-BsToDsDsstar-QCDSR
+    manual_constraints:
+      "B_s(*)->D_s(*)::chi_2(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::chi_2(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: -0.07
+        sigma-stat: { hi: 0.04, lo: 0.04 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::chi_2'(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::chi_2'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.00
+        sigma-stat: { hi: 0.04, lo: 0.04 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::chi_3'(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::chi_3'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.03
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::eta(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::eta(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.75
+        sigma-stat: { hi: 0.26, lo: 0.26 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::eta'(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::eta'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: -0.04
+        sigma-stat: { hi: 0.36, lo: 0.36 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+posteriors:
+  - name: ff-fit
+    global_options:
+      form-factors:    BGJvD2019
+      z-order-bound:   '2'
+      z-order-lp:      '3'
+      z-order-slp:     '2'
+      z-order-sslp:    '1'
+      SU3F-limit-sslp: '1'
+    fixed_parameters:
+      'B(*)->D(*)::n_f@HQET':         2.0
+      'B(*)->D(*)::a@HQET':           1.000
+      'mass::B_u':                    5.27942
+      'mass::D_u':                    1.86723
+      'mass::D_u^*':                  2.01000
+      'B_s(*)->D_s(*)::n_s@HQET':     1.0
+      'B_s(*)->D_s(*)::a@HQET':       1.000
+      'mass::B_s':                    5.36688
+      'mass::D_s':                    1.96834
+      'mass::D_s^*':                  2.1122
+      "B(*)->D(*)::xi''''(1)@HQET":   0.0
+      "B(*)->D(*)::xi'''''(1)@HQET":  0.0
+    prior:
+      - HQE-up-LP3
+      - HQE-up-SLP2
+      - HQE-up-SSLP1
+      - HQE-strange-LP3
+      - HQE-strange-SLP2
+    likelihood:
+      - TH-Bounds
+      - TH-BToDDstar-LCSR
+      - TH-BToD-LQCD
+      - TH-BToDstar-LQCD
+      - TH-BToDDstar-QCDSR
+      - TH-BsToDsDsstar-LCSR
+      - TH-BsToDs-LQCD
+      - TH-BsToDsstar-LQCD
+      - TH-BsToDsDsstar-QCDSR
+predictions:
+  - name: BToD-ff
+    observables:
+      - { name: B_s->D_s::f_0(q2),    kinematics: { q2: 0.0194799 } }
+      - { name: B->D::f_0(q2),        kinematics: { q2: 0.243717  } }
+      - { name: B_s->D_s^*::A_0(q2),  kinematics: { q2: 0.0194799 } }
+      - { name: B->D^*::A_0(q2),      kinematics: { q2: 0.243717  } }
