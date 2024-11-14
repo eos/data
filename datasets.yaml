@@ -1,10 +1,39 @@
+2024-03:
+  authors:
+    - S. Meiser
+    - D. van Dyk
+    - J. Virto
+  title: 'Towards a Global Analysis of the $b\to c\bar{u} q$ Puzzle'
+  doi: 10.5281/zenodo.12688257
+  likelihoods: {}
+  keywords:
+    - WET
+    - scnul
+    - form-factors
+  eos_version: 1.0.13
+
+2024-02:
+  authors:
+    - M. Kirk
+    - B. Kubis
+    - M. Reboud
+    - D. van Dyk
+  title: 'A Simple Parametrisation of the Pion Form Factor'
+  doi: 10.5281/zenodo.13946874
+  likelihoods: {}
+  keywords:
+    - WET
+    - scnul
+    - form-factors
+  eos_version: 1.0.13
+
 2024-01:
   authors:
     - C. Bolognani
     - M. Reboud
     - D. van Dyk
     - K. Keri Vos
-  title: ''
+  title: 'Constraining $|V_{cs}|$ and physics beyond the Standard Model from exclusive (semi)leptonic charm decays'
   doi: 10.5281/zenodo.12688257
   likelihoods: {}
   keywords:
