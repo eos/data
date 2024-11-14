@@ -7,6 +7,11 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2024-03">2024-03</a></td>
+  <td>Towards a Global Analysis of the $b \to c\bar{u} q$ Puzzle</td>
+  <td>S.&nbsp;Meiser<br/>D.&nbsp;van&nbsp;Dyk<br/>J.&nbsp;Virto</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2024-02">2024-02</a></td>
   <td>A Simple Parametrisation of the Pion Form Factor</td>
   <td>M.&nbsp;Kirk<br/>B&nbsp;Kubis<br/>M.&nbsp;Reboud<br/>D.&nbsp;van&nbsp;Dyk</td>
