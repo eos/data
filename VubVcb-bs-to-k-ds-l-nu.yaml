@@ -5,8 +5,8 @@ likelihoods:
 
   - name: bsk-lqcd
     constraints:
-      - B_s->K::f_++f_0@RBCUKQCD:2023;form-factors=BFW2010 #B_s->K::f_++f_0@RBC+UKQCD:2023A;form-factors=BFW2010
-      - B_s->K::f_++f_0@HPQCD:2014;form-factors=BFW2010 #B_s->K::f_++f_0@HPQCD:2014A;form-factors=BFW2010
+      - B_s->K::f_++f_0@RBC+UKQCD:2023A;form-factors=BFW2010
+      - B_s->K::f_++f_0@HPQCD:2014A;form-factors=BFW2010
   
   - name: bsds
     constraints:
@@ -22,18 +22,18 @@ likelihoods:
         options: [ {} ]
         bound: 1.0
         uncertainty: 0.1
-      'b->u::MesonicBound[1^-_V,0]':
+      'b->u::MesonicBound[1^-_V]':
         type: UniformBound
         observables:
-            - 'B_s->K::Saturation[1^-_V,0]'
+            - 'B_s->K::Saturation[1^-_V]'
         kinematics: [ {} ]
         options: [ {} ]
         bound: 1.0
         uncertainty: 0.1
-      'b->u::MesonicBound[1^-_T,0]':
+      'b->u::MesonicBound[1^-_T]':
         type: UniformBound
         observables:
-            - 'B_s->K::Saturation[1^-_T,0]'
+            - 'B_s->K::Saturation[1^-_T]'
         kinematics: [ {} ]
         options: [ {} ]
         bound: 1.0
@@ -129,7 +129,7 @@ posteriors:
   - name: bs-k-ds-lnu-lcsr-lqcd
     global_options:
         model: CKM
-    fixed-parameters:
+    fixed_parameters:
       'CKM::abs(V_ub)': 1.0
       'CKM::abs(V_cb)': 1.0
     likelihood:
@@ -145,7 +145,7 @@ posteriors:
   - name: bs-k-ds-lnu-lcsr
     global_options:
         model: CKM
-    fixed-parameters:
+    fixed_parameters:
       'CKM::abs(V_ub)': 1.0
       'CKM::abs(V_cb)': 1.0
     likelihood:
@@ -160,7 +160,7 @@ posteriors:
   - name: bs-k-ds-lnu-lqcd
     global_options:
         model: CKM
-    fixed-parameters:
+    fixed_parameters:
       'CKM::abs(V_ub)': 1.0
       'CKM::abs(V_cb)': 1.0
     likelihood:
@@ -172,27 +172,37 @@ posteriors:
       - k-bfw-fT
       - ds-bsz
 
+observables:
+  Ratio-Sqrt-FF::Dslnu-Klnu:
+    latex: '$R_\text{FF}$'
+    unit: '1'
+    options: {}
+    expression: >
+      <<B_s->D_slnu::normBR>>[q2_min=0.0,q2_max=11.55]
+      /
+      <<B_s->Klnu::normBR>>[q2_min=>q2_min_K,q2_max=>q2_max_K]
+
 predictions:
   - name: FF-lowhigh
-    global-options:
+    global_options:
         l: mu
     observables:
       - name: Ratio-Sqrt-FF::Dslnu-Klnu
         kinematics: { 'q2_min_K': 0.0 , 'q2_max_K': 7.0}
       - name: Ratio-Sqrt-FF::Dslnu-Klnu
         kinematics: { 'q2_min_K': 7.0 , 'q2_max_K': 25.0}
-      - name: B_s->Klnu::normGamma_BR
+      - name: B_s->Klnu::normBR
         kinematics: { 'q2_min': 0.0 , 'q2_max': 7.0}
-      - name: B_s->Klnu::normGamma_BR
+      - name: B_s->Klnu::normBR
         kinematics: { 'q2_min': 7.0 , 'q2_max': 25.0}
-      - name: B_s->D_slnu::normGamma_BR
+      - name: B_s->D_slnu::normBR
         kinematics: { 'q2_min': 0.0 , 'q2_max': 25.0}
 
   - name: FF-full
-    global-options:
+    global_options:
         l: mu
     observables:
       - name: Ratio-Sqrt-FF::Dslnu-Klnu
         kinematics: { 'q2_min_K': 0.0 , 'q2_max_K': 25.0}
-      - name: B_s->Klnu::normGamma_BR
+      - name: B_s->Klnu::normBR
         kinematics: { 'q2_min': 0.0 , 'q2_max': 25.0}
