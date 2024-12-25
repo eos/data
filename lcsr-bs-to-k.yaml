@@ -222,10 +222,13 @@ priors:
         min:     0.14
         max:     0.26
         type:    uniform
-      - parameter: K::kappa4@1GeV
-        min:     -0.11
-        max:     -0.07
-        type:    uniform
+      # This parameter has been removed from the original analysis, since the treatment of the kaon LCDA has changed in EOS.
+      # EOS does not consider kappa an independent parameter anymore; instead, it is related to a function of the quark masses.
+      # See commit cebbec07b8ee8dc8c7a57e9a9d1f97aed158e551
+      # - parameter: K::kappa4@1GeV
+      #   min:     -0.11
+      #   max:     -0.07
+      #   type:    uniform
       - parameter: K::omega4@1GeV
         min:     0.1
         max:     0.3
@@ -236,7 +239,6 @@ priors:
       - parameter: B_s->K::M^2@DKMMO2008
         min:     13.0
         max:     21.0
-        central: 17.0
         type:    uniform
 
   - name: threshold-lcsr-const
