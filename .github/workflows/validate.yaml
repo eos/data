@@ -18,10 +18,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { ref: '2023-01', analysis_file: 'b-to-u-l-nu.yaml'  }
-          - { ref: '2023-03', analysis_file: 'lcsr-bs-to-k.yaml' }
-          - { ref: '2023-03', analysis_file: 'ff-bs-to-k.yaml'   }
-          - { ref: '2024-01', analysis_file: 'analysis.yaml'     }
+          - { ref: '2023-01', analysis_file: 'b-to-u-l-nu.yaml'            }
+          - { ref: '2023-03', analysis_file: 'VubVcb-bs-to-k-ds-l-nu.yaml' }
+          - { ref: '2023-03', analysis_file: 'lcsr-bs-to-k.yaml'           }
+          - { ref: '2023-03', analysis_file: 'ff-bs-to-k.yaml'             }
+          - { ref: '2024-01', analysis_file: 'analysis.yaml'               }
     steps:
       - uses: actions/checkout@v4
         with:
