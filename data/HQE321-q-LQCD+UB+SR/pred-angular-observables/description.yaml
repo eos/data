@@ -1,0 +1,387 @@
+observables:
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_1c
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_1c
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_1c
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_1c
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_1s
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_1s
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_1s
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_1s
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_2c
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_2c
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_2c
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_2c
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_2s
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_2s
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_2s
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_2s
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_3
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_3
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_3
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_3
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_4
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_4
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_4
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_4
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_5
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_5
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_5
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_5
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_6c
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_6c
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_6c
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_6c
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_6s
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_6s
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_6s
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_6s
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_7
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_7
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_7
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_7
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_8
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_8
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_8
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_8
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B->D^*lnu::S_9
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B->D^*lnu::S_9
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B->D^*lnu::S_9
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B->D^*lnu::S_9
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_1c
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_1c
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_1c
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_1c
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_1s
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_1s
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_1s
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_1s
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_2c
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_2c
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_2c
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_2c
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_2s
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_2s
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_2s
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_2s
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_3
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_3
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_3
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_3
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_4
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_4
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_4
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_4
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_5
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_5
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_5
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_5
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_6c
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_6c
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_6c
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_6c
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_6s
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_6s
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_6s
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_6s
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_7
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_7
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_7
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_7
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_8
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_8
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_8
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_8
+- kinematics:
+    q2_max: 7.505616876400001
+    q2_min: 10.689
+  name: B_s->D_s^*lnu::S_9
+- kinematics:
+    q2_max: 5.383290036400002
+    q2_min: 7.505616876400001
+  name: B_s->D_s^*lnu::S_9
+- kinematics:
+    q2_max: 3.2609631963999988
+    q2_min: 5.383290036400002
+  name: B_s->D_s^*lnu::S_9
+- kinematics:
+    q2_max: 0.0
+    q2_min: 3.2609631963999988
+  name: B_s->D_s^*lnu::S_9
+type: Prediction
+version: 1.0.13

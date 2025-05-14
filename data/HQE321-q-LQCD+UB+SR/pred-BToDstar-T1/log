@@ -1,0 +1,3 @@
+2025-03-05 08:03:43,554 INFO       Creating analysis with 46 priors, 14 EOS-wide constraints, 7 global options, 13 manually-entered constraints and 29 fixed parameters.
+2025-03-05 08:03:43,795 INPROGRESS Predicting observables from set 'BToDstar-T1' for 46558 samples
+2025-03-05 08:03:51,522 COMPLETED  ... done

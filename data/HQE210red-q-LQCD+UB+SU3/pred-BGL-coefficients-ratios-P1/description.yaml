@@ -1,0 +1,7 @@
+observables:
+- kinematics: {}
+  name: B->D^*::a_1/a_0[P_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[P_1]@HQE
+type: Prediction
+version: 1.0.13

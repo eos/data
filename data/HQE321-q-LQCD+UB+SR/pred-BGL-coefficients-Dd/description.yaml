@@ -1,0 +1,19 @@
+observables:
+- kinematics: {}
+  name: B->D::a_1[S_1]@HQE
+- kinematics: {}
+  name: B->D::a_2[S_1]@HQE
+- kinematics: {}
+  name: B->D::a_0[V_1]@HQE
+- kinematics: {}
+  name: B->D::a_1[V_1]@HQE
+- kinematics: {}
+  name: B->D::a_2[V_1]@HQE
+- kinematics: {}
+  name: B->D::a_0[f_T]@HQE
+- kinematics: {}
+  name: B->D::a_1[f_T]@HQE
+- kinematics: {}
+  name: B->D::a_2[f_T]@HQE
+type: Prediction
+version: 1.0.14
