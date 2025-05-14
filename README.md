@@ -7,6 +7,11 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2025-01">2025-01</a></td>
+  <td>Detailed $SU(3)$ Flavour Symmetry Analysis of Charmless Two-Body $B$-Meson Decays Including Factorizable Corrections</td>
+  <td>M.&nbsp;Burgos&nbsp;Marcos<br/>M.&nbsp;Reboud<br/>K.&nbsp;K.&nbsp;Vos</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2024-03">2024-03</a></td>
   <td>Towards a Global Analysis of the $b \to c\bar{u} q$ Puzzle</td>
   <td>S.&nbsp;Meiser<br/>D.&nbsp;van&nbsp;Dyk<br/>J.&nbsp;Virto</td>

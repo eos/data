@@ -1,3 +1,16 @@
+2025-01:
+  authors:
+    - M. Burgos Marcos
+    - M. Reboud
+    - K. K. Vos
+  title: 'Detailed $SU(3)$ Flavour Symmetry Analysis of Charmless Two-Body $B$-Meson Decays Including Factorizable Corrections'
+  doi: 10.5281/zenodo.15411244
+  likelihoods: {}
+  keywords:
+    - Nonleptonic decays
+    - Flavour symmetry
+  eos_version: 1.0.14
+
 2024-03:
   authors:
     - S. Meiser
