@@ -7,6 +7,11 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2025-03">2025-03</a></td>
+  <td>A model-independent parameterization of B→ππℓν decays</td>
+  <td>F.&nbsp;Herren<br/>B.&nbsp;Kubis<br/>R.&nbsp;van&nbsp;Tonder</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2025-01">2025-01</a></td>
   <td>Detailed $SU(3)$ Flavour Symmetry Analysis of Charmless Two-Body $B$-Meson Decays Including Factorizable Corrections</td>
   <td>M.&nbsp;Burgos&nbsp;Marcos<br/>M.&nbsp;Reboud<br/>K.&nbsp;K.&nbsp;Vos</td>
