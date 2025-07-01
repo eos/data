@@ -1,0 +1,25 @@
+{
+    "upload_type": "dataset",
+    "title": "EOS/DATA-2025-03: Supplementary material for EOS/ANALYSIS-2024-05",
+    "description": "Supplementary material including input files for EOS/ANALYSIS-2024-05, a study of B -> ππℓν decays.",
+    "license": "CC-BY-4.0",
+    "creators": [
+        {
+            "orcid": "0000-0003-2810-1420",
+            "affiliation": "Physics Institute, Universit¨at Zürich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland",
+            "name": "Herren, Florian"
+        },
+        {
+            "orcid": "0000-0002-1541-6581",
+            "affiliation": "Helmholtz-Institut für Strahlen- und Kernphysik (Theorie) and Bethe Center for Theoretical Physics, Universität Bonn, 53115 Bonn, Germany",
+            "name": "Kubis, Bastian"
+        },
+        {
+            "orcid": "0000-0002-7448-4816",
+            "affiliation": "Institut für Experimentelle Teilchenphysik, Karlsruhe Institute of Technology (KIT), D-76131 Karlsruhe, Germany",
+            "name": "van Tonder, Raynette"
+        }
+    ],
+    "grants": [
+    ]
+}

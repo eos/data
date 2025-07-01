@@ -1,0 +1,1651 @@
+priors:
+  - name: HKvT2025-210
+    parameters:
+      - parameter: pipi->pipi::Gamman0_K@HKvT2025
+        min: 0.4
+        max: 0.6
+        type: uniform
+      - parameter: B->pipi::a^F1_1_1_0_0@HKvT2025
+        min: -0.47
+        max: 0.47
+        type: uniform
+      - parameter: B->pipi::a^F1_1_1_1_0@HKvT2025
+        min: -0.47
+        max: 0.47
+        type: uniform
+      - parameter: B->pipi::a^F1_1_1_0_1@HKvT2025
+        min: -0.98
+        max: 0.98
+        type: uniform
+      - parameter: B->pipi::a^f_1_1_0_0@HKvT2025
+        min: -0.41
+        max: 0.41
+        type: uniform
+      - parameter: B->pipi::a^f_1_1_1_0@HKvT2025
+        min: -0.41
+        max: 0.41
+        type: uniform
+      - parameter: B->pipi::a^f_1_1_0_1@HKvT2025
+        min: -0.53
+        max: 0.53
+        type: uniform
+      - parameter: B->pipi::a^g_1_1_0_0@HKvT2025
+        min: -0.40
+        max: 0.40
+        type: uniform
+      - parameter: B->pipi::a^g_1_1_1_0@HKvT2025
+        min: -0.40
+        max: 0.40
+        type: uniform
+      - parameter: B->pipi::a^g_1_1_0_1@HKvT2025
+        min: -0.53
+        max: 0.53
+        type: uniform
+      - parameter: B->pipi::a^F1_0_2_0_0@HKvT2025
+        min: -0.29
+        max: 0.29
+        type: uniform
+      - parameter: B->pipi::a^F1_0_2_1_0@HKvT2025
+        min: -0.29
+        max: 0.29
+        type: uniform
+      - parameter: B->pipi::a^F1_0_2_0_1@HKvT2025
+        min: -0.28
+        max: 0.28
+        type: uniform
+      - parameter: B->pipi::a^f_0_2_0_0@HKvT2025
+        min: -0.13
+        max: 0.13
+        type: uniform
+      - parameter: B->pipi::a^f_0_2_1_0@HKvT2025
+        min: -0.13
+        max: 0.13
+        type: uniform
+      - parameter: B->pipi::a^f_0_2_0_1@HKvT2025
+        min: -0.11
+        max: 0.11
+        type: uniform
+      - parameter: B->pipi::a^g_0_2_0_0@HKvT2025
+        min: -0.13
+        max: 0.13
+        type: uniform
+      - parameter: B->pipi::a^g_0_2_1_0@HKvT2025
+        min: -0.13
+        max: 0.13
+        type: uniform
+      - parameter: B->pipi::a^g_0_2_0_1@HKvT2025
+        min: -0.10
+        max: 0.10
+        type: uniform
+      - parameter: B->pipi::a^F1_0_0_0_0@HKvT2025
+        min: -1.4
+        max: 1.4
+        type: uniform
+      - parameter: B->pipi::a^F1_0_0_1_0@HKvT2025
+        min: -1.4
+        max: 1.4
+        type: uniform
+      - parameter: B->pipi::a^F1_0_0_0_1@HKvT2025
+        min: -1.7
+        max: 1.7
+        type: uniform
+
+likelihoods:
+  - name: theory
+    constraints:
+      - b->u::MesonicBound[1^-_V]
+      - b->u::MesonicBound[1^+_A]
+
+  - name: Belle
+    constraints:
+      - B^+->pi^+pi^-lnu::BR(q2_min,q2_max,sqrt(k2)_min,sqrt(k2)_max)@Belle:2020A
+
+posteriors:
+  - name: th+exp
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      scattering-amplitudes: HKvT2025
+    prior:
+      - HKvT2025-210
+    likelihood:
+      - Belle
+      - theory
+
+predictions:
+  - name: differential_Mpipi_all
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.27914 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.28 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.29 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.30 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.31 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.32 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.33 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.34 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.35 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.36 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.37 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.38 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.39 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.40 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.41 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.42 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.43 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.44 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.45 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.46 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.47 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.48 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.49 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.50 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.51 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.52 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.53 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.54 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.55 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.56 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.57 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.58 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.59 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.60 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.61 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.62 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.63 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.64 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.65 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.66 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.67 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.68 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.69 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.70 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.71 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.72 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.73 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.74 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.75 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.755 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.76 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.765 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.77 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7725 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.775 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7775 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.78 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7825 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.785 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7875 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.79 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7925 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.795 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7975 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.80 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8025 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.805 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8075 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.81 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.815 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.82 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.825 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.83 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.84 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.85 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.86 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.87 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.88 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.89 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.90 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.92 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.94 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.96 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  0.98 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.00 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.02 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.04 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.06 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.08 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.10 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.12 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.14 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.16 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.18 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.20 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.22 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.24 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.26 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.28 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.30 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.32 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.34 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.36 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.38 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.40 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.42 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.44 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.46 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.48 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.50 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.52 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.54 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.56 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.58 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.60 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.70 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.80 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  1.90 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  2.00 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  2.25 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  2.50 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  2.75 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  3.00 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  3.50 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  4.00 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  4.50 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  5.00 }
+      - name: B^+->pi^+pi^-lnu::BR(sqrt(k2))
+        kinematics: { sqrt(k2):  5.20 }
+
+  - name: differential_Mpipi_S
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.27914 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.28 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.29 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.30 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.31 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.32 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.33 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.34 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.35 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.36 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.37 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.38 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.39 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.40 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.41 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.42 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.43 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.44 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.45 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.46 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.47 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.48 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.49 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.50 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.51 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.52 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.53 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.54 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.55 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.56 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.57 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.58 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.59 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.60 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.61 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.62 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.63 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.64 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.65 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.66 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.67 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.68 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.69 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.70 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.71 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.72 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.73 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.74 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.75 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.755 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.76 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.765 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.77 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7725 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.775 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7775 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.78 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7825 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.785 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7875 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.79 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7925 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.795 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7975 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.80 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8025 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.805 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8075 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.81 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.815 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.82 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.825 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.83 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.84 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.85 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.86 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.87 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.88 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.89 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.90 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.92 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.94 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.96 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  0.98 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.00 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.02 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.04 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.06 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.08 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.10 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.12 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.14 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.16 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.18 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.20 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.22 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.24 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.26 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.28 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.30 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.32 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.34 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.36 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.38 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.40 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.42 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.44 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.46 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.48 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.50 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.52 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.54 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.56 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.58 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.60 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.70 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.80 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  1.90 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  2.00 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  2.25 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  2.50 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  2.75 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  3.00 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  3.50 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  4.00 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  4.50 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  5.00 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2))
+        kinematics: { sqrt(k2):  5.20 }
+
+  - name: differential_Mpipi_P
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.27914 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.28 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.29 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.30 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.31 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.32 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.33 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.34 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.35 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.36 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.37 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.38 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.39 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.40 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.41 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.42 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.43 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.44 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.45 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.46 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.47 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.48 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.49 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.50 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.51 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.52 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.53 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.54 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.55 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.56 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.57 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.58 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.59 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.60 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.61 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.62 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.63 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.64 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.65 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.66 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.67 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.68 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.69 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.70 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.71 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.72 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.73 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.74 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.75 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.755 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.76 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.765 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.77 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7725 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.775 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7775 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.78 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7825 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.785 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7875 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.79 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7925 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.795 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7975 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.80 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8025 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.805 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8075 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.81 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.815 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.82 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.825 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.83 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.84 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.85 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.86 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.87 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.88 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.89 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.90 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.92 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.94 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.96 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  0.98 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.00 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.02 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.04 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.06 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.08 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.10 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.12 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.14 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.16 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.18 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.20 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.22 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.24 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.26 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.28 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.30 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.32 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.34 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.36 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.38 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.40 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.42 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.44 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.46 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.48 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.50 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.52 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.54 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.56 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.58 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.60 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.70 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.80 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  1.90 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  2.00 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  2.25 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  2.50 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  2.75 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  3.00 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  3.50 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  4.00 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  4.50 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  5.00 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2))
+        kinematics: { sqrt(k2):  5.20 }
+
+  - name: differential_Mpipi_D
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.27914 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.28 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.29 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.30 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.31 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.32 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.33 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.34 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.35 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.36 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.37 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.38 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.39 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.40 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.41 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.42 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.43 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.44 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.45 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.46 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.47 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.48 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.49 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.50 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.51 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.52 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.53 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.54 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.55 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.56 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.57 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.58 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.59 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.60 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.61 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.62 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.63 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.64 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.65 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.66 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.67 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.68 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.69 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.70 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.71 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.72 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.73 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.74 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.75 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.755 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.76 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.765 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.77 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7725 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.775 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7775 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.78 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7825 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.785 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7875 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.79 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7925 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.795 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.7975 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.80 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8025 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.805 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.8075 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.81 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.815 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.82 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.825 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.83 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.84 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.85 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.86 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.87 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.88 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.89 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.90 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.92 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.94 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.96 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  0.98 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.00 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.02 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.04 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.06 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.08 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.10 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.12 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.14 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.16 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.18 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.20 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.22 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.24 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.26 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.28 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.30 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.32 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.34 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.36 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.38 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.40 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.42 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.44 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.46 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.48 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.50 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.52 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.54 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.56 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.58 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.60 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.70 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.80 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  1.90 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  2.00 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  2.25 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  2.50 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  2.75 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  3.00 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  3.50 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  4.00 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  4.50 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  5.00 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2))
+        kinematics: { sqrt(k2):  5.20 }
+
+  - name: BR+sat
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+      C: +-
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_S
+        kinematics: { }
+      - name: B^+->pi^+pi^-lnu::BR_P
+        kinematics: { }
+      - name: B^+->pi^+pi^-lnu::BR_D
+        kinematics: { }
+      - name: B->pipi::Saturation[1^+_A]
+        kinematics: { }
+      - name: B->pipi::Saturation[1^-_V]
+        kinematics: { }
+
+  - name: windows
+    global_options:
+      model: CKM 
+      form-factors: HKvT2025
+      l: e
+    observables:  
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.27914, sqrt(k2)_max: 1.02 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.27914, sqrt(k2)_max: 1.02 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.27914, sqrt(k2)_max: 1.02 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.27914, sqrt(k2)_max: 0.6 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.27914, sqrt(k2)_max: 0.6 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.27914, sqrt(k2)_max: 0.6 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.6, sqrt(k2)_max: 0.9 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.6, sqrt(k2)_max: 0.9 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 0.6, sqrt(k2)_max: 0.9 }
+      - name: B^+->pi^+pi^-lnu::BR_S(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 1.1, sqrt(k2)_max: 1.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 1.1, sqrt(k2)_max: 1.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(sqrt(k2)_min,sqrt(k2)_max)
+        kinematics: { sqrt(k2)_min: 1.1, sqrt(k2)_max: 1.5 }
+
+  - name: differential_q2_all
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 0.1 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 0.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 1.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 1.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 2.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 2.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 3.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 3.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 4.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 4.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 5.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 5.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 6.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 6.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 7.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 7.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 8.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 8.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 9.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 9.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 10.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 10.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 11.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 11.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 12.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 12.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 13.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 13.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 14.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 14.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 15.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 15.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 16.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 16.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 17.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 17.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 18.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 18.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 19.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 19.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 20.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 20.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 21.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 21.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 22.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 22.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 23.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 23.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 24.0 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 24.5 }
+      - name: B^+->pi^+pi^-lnu::BR(q2)
+        kinematics: { q2: 25.0 }
+        
+  - name: differential_q2_S
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 0.1 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 0.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 1.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 1.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 2.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 2.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 3.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 3.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 4.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 4.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 5.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 5.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 6.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 6.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 7.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 7.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 8.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 8.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 9.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 9.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 10.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 10.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 11.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 11.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 12.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 12.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 13.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 13.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 14.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 14.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 15.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 15.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 16.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 16.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 17.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 17.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 18.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 18.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 19.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 19.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 20.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 20.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 21.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 21.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 22.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 22.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 23.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 23.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 24.0 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 24.5 }
+      - name: B^+->pi^+pi^-lnu::BR_S(q2)
+        kinematics: { q2: 25.0 }
+
+  - name: differential_q2_P
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 0.1 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 0.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 1.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 1.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 2.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 2.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 3.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 3.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 4.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 4.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 5.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 5.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 6.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 6.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 7.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 7.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 8.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 8.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 9.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 9.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 10.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 10.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 11.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 11.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 12.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 12.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 13.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 13.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 14.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 14.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 15.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 15.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 16.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 16.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 17.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 17.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 18.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 18.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 19.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 19.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 20.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 20.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 21.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 21.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 22.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 22.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 23.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 23.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 24.0 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 24.5 }
+      - name: B^+->pi^+pi^-lnu::BR_P(q2)
+        kinematics: { q2: 25.0 }
+
+  - name: differential_q2_D
+    global_options:
+      model: CKM
+      form-factors: HKvT2025
+      l: e
+    observables:
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 0.1 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 0.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 1.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 1.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 2.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 2.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 3.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 3.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 4.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 4.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 5.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 5.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 6.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 6.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 7.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 7.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 8.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 8.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 9.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 9.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 10.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 10.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 11.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 11.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 12.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 12.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 13.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 13.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 14.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 14.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 15.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 15.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 16.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 16.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 17.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 17.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 18.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 18.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 19.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 19.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 20.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 20.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 21.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 21.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 22.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 22.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 23.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 23.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 24.0 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 24.5 }
+      - name: B^+->pi^+pi^-lnu::BR_D(q2)
+        kinematics: { q2: 25.0 }
