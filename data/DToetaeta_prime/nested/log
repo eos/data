@@ -1,0 +1,37 @@
+2025-07-10 13:12:11,450 INFO       Creating analysis with 16 priors, 0 EOS-wide constraints, 1 global options, 1 manually-entered constraints and 0 fixed parameters.
+2025-07-10 13:12:11,450 DEBUG      priors:
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta_prime::alpha^f+_0@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta_prime::alpha^f+_1@BSZ2015 (uniform)
+2025-07-10 13:12:11,451 DEBUG       - D->eta_prime::alpha^f+_2@BSZ2015 (uniform)
+2025-07-10 13:12:11,452 DEBUG       - D->eta_prime::alpha^f0_1@BSZ2015 (uniform)
+2025-07-10 13:12:11,452 DEBUG       - D->eta_prime::alpha^f0_2@BSZ2015 (uniform)
+2025-07-10 13:12:11,452 DEBUG       - D->eta_prime::alpha^fT_0@BSZ2015 (uniform)
+2025-07-10 13:12:11,452 DEBUG       - D->eta_prime::alpha^fT_1@BSZ2015 (uniform)
+2025-07-10 13:12:11,452 DEBUG       - D->eta_prime::alpha^fT_2@BSZ2015 (uniform)
+2025-07-10 13:12:11,452 DEBUG      constraints:
+2025-07-10 13:12:11,452 DEBUG      manual_constraints:
+2025-07-10 13:12:11,452 DEBUG       - D->etaeta_prime::f_0+f_++f_T@MR:2025A
+2025-07-10 13:12:11,452 DEBUG      fixed_parameters:
+2025-07-10 13:12:26,480 INFO       iteration 2418 | batch: 0 | bound: 42 | nc: 36 | ncall: 64304 | eff(%):  3.746 | loglstar:   -inf < -15.593 <    inf | logz: -28.024 +/-  0.211 | dlogz: 42.293 >  1.000
+2025-07-10 13:12:41,481 INFO       iteration 3834 | batch: 0 | bound: 80 | nc: 36 | ncall: 115280 | eff(%):  3.319 | loglstar:   -inf < 31.823 <    inf | logz: 15.019 +/-  0.250 | dlogz: 21.093 >  1.000
+2025-07-10 13:12:56,487 INFO       iteration 5060 | batch: 0 | bound: 112 | nc: 36 | ncall: 159416 | eff(%):  3.169 | loglstar:   -inf < 49.486 <    inf | logz: 28.866 +/-  0.277 | dlogz:  9.557 >  1.000
+2025-07-10 13:13:11,487 INFO       iteration 6252 | batch: 0 | bound: 143 | nc: 36 | ncall: 202328 | eff(%):  3.086 | loglstar:   -inf < 58.686 <    inf | logz: 34.167 +/-  0.300 | dlogz:  4.896 >  1.000
+2025-07-10 13:13:26,488 INFO       iteration 7437 | batch: 0 | bound: 175 | nc: 36 | ncall: 244988 | eff(%):  3.033 | loglstar:   -inf < 63.378 <    inf | logz: 35.726 +/-  0.313 | dlogz:  1.918 >  1.000
+2025-07-10 13:13:41,489 INFO       iteration 8606 | batch: 1 | bound: 17 | nc: 36 | ncall: 278322 | eff(%):  2.995 | loglstar: 66.685 < 65.807 <    inf | logz: 36.021 +/-  0.667 | stop:  5.576
+2025-07-10 13:13:56,498 INFO       iteration 9817 | batch: 1 | bound: 50 | nc: 36 | ncall: 321918 | eff(%):  2.967 | loglstar: 66.685 < 67.573 <    inf | logz: 36.021 +/-  0.667 | stop:  5.576
+2025-07-10 13:14:11,504 INFO       iteration 11004 | batch: 2 | bound: 19 | nc: 36 | ncall: 364650 | eff(%):  2.945 | loglstar: 59.350 < 62.332 < 62.786 | logz: 36.032 +/-  0.314 | stop:  3.780
+2025-07-10 13:14:27,089 INFO       iteration 12232 | batch: 5 | bound: 0 | nc: 36 | ncall: 408858 | eff(%):  2.992 | loglstar: 56.763 < 56.958 < 64.244 | logz: 36.077 +/-  0.244 | stop:  1.966
+2025-07-10 13:14:42,093 INFO       iteration 13407 | batch: 5 | bound: 31 | nc: 36 | ncall: 451158 | eff(%):  2.914 | loglstar: 56.763 < 62.435 < 64.244 | logz: 36.077 +/-  0.244 | stop:  1.966
+2025-07-10 13:14:57,316 INFO       iteration 14594 | batch: 7 | bound: 0 | nc: 36 | ncall: 493890 | eff(%):  2.955 | loglstar: 55.605 < 56.121 < 63.787 | logz: 36.044 +/-  0.206 | stop:  1.318
+2025-07-10 13:15:12,324 INFO       iteration 15808 | batch: 7 | bound: 32 | nc: 36 | ncall: 537594 | eff(%):  2.892 | loglstar: 55.605 < 62.075 < 63.787 | logz: 36.044 +/-  0.206 | stop:  1.318
+2025-07-10 13:15:27,327 INFO       iteration 16988 | batch: 8 | bound: 12 | nc: 36 | ncall: 580074 | eff(%):  2.884 | loglstar: 54.914 < 57.681 < 63.298 | logz: 36.005 +/-  0.190 | stop:  1.042
+2025-07-10 13:15:42,337 INFO       iteration 18208 | batch: 8 | bound: 44 | nc: 36 | ncall: 623994 | eff(%):  2.876 | loglstar: 54.914 < 63.103 < 63.298 | logz: 36.005 +/-  0.190 | stop:  1.042
+2025-07-10 13:15:43,457 INFO       Finished sampling with 18529 samples and evidence estimate 36.01 +/- 0.18

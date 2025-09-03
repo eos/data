@@ -1,0 +1,216 @@
+2025-07-08 12:46:06,064 INFO       Creating analysis with 17 priors, 5 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-08 12:46:06,065 DEBUG      priors:
+2025-07-08 12:46:06,065 DEBUG       - B->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-08 12:46:06,065 DEBUG       - B->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-08 12:46:06,065 DEBUG       - B->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-08 12:46:06,065 DEBUG       - B->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-08 12:46:06,065 DEBUG       - B->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-08 12:46:06,065 DEBUG       - B->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta_prime::alpha^f+_0@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta_prime::alpha^f+_1@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta_prime::alpha^f+_2@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta_prime::alpha^f0_1@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta_prime::alpha^f0_2@BSZ2015 (uniform)
+2025-07-08 12:46:06,066 DEBUG       - B->eta_prime::alpha^fT_0@BSZ2015 (uniform)
+2025-07-08 12:46:06,067 DEBUG       - B->eta_prime::alpha^fT_1@BSZ2015 (uniform)
+2025-07-08 12:46:06,067 DEBUG       - B->eta_prime::alpha^fT_2@BSZ2015 (uniform)
+2025-07-08 12:46:06,067 DEBUG       - CKM::abs(V_ub) (uniform)
+2025-07-08 12:46:06,067 DEBUG      constraints:
+2025-07-08 12:46:06,067 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-07-08 12:46:06,067 DEBUG       - B^+->etalnu::BR@HFLAV:2024A
+2025-07-08 12:46:06,067 DEBUG       - B^+->etalnu::KinematicalDistribution[q2]@BaBar:2012D
+2025-07-08 12:46:06,068 DEBUG       - B->eta_prime::f_0+f_++f_T@MR:2025A
+2025-07-08 12:46:06,068 DEBUG       - B^+->eta_primelnu::BR@HFLAV:2024A
+2025-07-08 12:46:06,068 DEBUG      manual_constraints:
+2025-07-08 12:46:06,068 DEBUG      fixed_parameters:
+2025-07-08 12:46:06,093 INFO       likelihood probably depends on 55 parameter(s) that do not appear in the prior; check prior?
+2025-07-08 12:46:06,093 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2025-07-08 12:46:06,093 DEBUG      used, but not included in any prior: 'mass::c'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'ubmunumu::mu'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'mass::W'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-07-08 12:46:06,094 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'mass::B_u'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'mass::eta_prime'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-07-08 12:46:06,095 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'mass::eta'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-07-08 12:46:06,096 DEBUG      used, but not included in any prior: 'life_time::B_u'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-07-08 12:46:06,097 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-07-08 12:46:06,098 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-07-08 12:46:06,098 INPROGRESS Beginning minimization in 100 points
+2025-07-08 12:46:06,099 INFO       Using a starting point based on the existing importance samples
+2025-07-08 12:46:06,107 INFO       Using starting point [ 0.2195, -0.5105, -0.07232, 0.07063, -0.6046, 0.2212, -0.5537, -2.773, 0.1453, -0.561, -1.125, 0.0233, -4.614, 0.1563, -0.7111, 3.671, 0.002355 ]
+2025-07-08 12:46:08,149 SUCCESS    Optimization goal achieved after 506 function evaluations
+2025-07-08 12:46:08,153 INFO       First optimization finished
+2025-07-08 12:46:08,247 SUCCESS    Optimization goal achieved after 23 function evaluations
+2025-07-08 12:46:08,348 SUCCESS    Optimization goal achieved after 23 function evaluations
+2025-07-08 12:46:08,451 SUCCESS    Optimization goal achieved after 24 function evaluations
+2025-07-08 12:46:09,396 SUCCESS    Optimization goal achieved after 229 function evaluations
+2025-07-08 12:46:09,882 SUCCESS    Optimization goal achieved after 120 function evaluations
+2025-07-08 12:46:09,994 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:10,115 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,240 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,354 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,479 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,598 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,717 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,836 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:10,956 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,080 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,196 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:11,322 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,439 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,561 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,683 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,803 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:11,925 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:12,048 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:12,166 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:12,275 SUCCESS    Optimization goal achieved after 26 function evaluations
+2025-07-08 12:46:12,399 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:12,522 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:12,648 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:12,764 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:12,885 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,002 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:13,126 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,245 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,367 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,487 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,609 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,731 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:13,848 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:13,964 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,087 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,208 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,330 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,451 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,563 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:14,686 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,806 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:14,923 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:15,043 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:15,164 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:15,288 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:15,404 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:15,530 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:15,648 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:15,762 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:15,882 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,002 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,118 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:16,235 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,357 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,477 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,597 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,716 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:16,827 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:16,945 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:17,071 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:17,197 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:17,313 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:17,438 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:17,559 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:17,688 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:17,803 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:17,922 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,040 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,163 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,277 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:18,401 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,523 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,644 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,769 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:18,890 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,008 SUCCESS    Optimization goal achieved after 28 function evaluations
+2025-07-08 12:46:19,130 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,250 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,372 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,495 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,615 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,736 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,859 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:19,973 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:20,092 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:20,202 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:20,323 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:20,448 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:20,571 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:20,694 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:20,815 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:20,932 SUCCESS    Optimization goal achieved after 27 function evaluations
+2025-07-08 12:46:21,055 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:21,176 SUCCESS    Optimization goal achieved after 29 function evaluations
+2025-07-08 12:46:21,180 COMPLETED  ... optimization finished
+2025-07-08 12:46:21,181 INFO       The best-fit point is:
+2025-07-08 12:46:21,181 INFO         - B->eta::alpha^f+_0@BSZ2015 -> 0.16942918401874335
+2025-07-08 12:46:21,182 INFO         - B->eta::alpha^f+_1@BSZ2015 -> -0.40741896272768185
+2025-07-08 12:46:21,182 INFO         - B->eta::alpha^f+_2@BSZ2015 -> -0.4699444535371988
+2025-07-08 12:46:21,183 INFO         - B->eta::alpha^f0_1@BSZ2015 -> 0.07484076734498235
+2025-07-08 12:46:21,183 INFO         - B->eta::alpha^f0_2@BSZ2015 -> -0.05666967164435732
+2025-07-08 12:46:21,183 INFO         - B->eta::alpha^fT_0@BSZ2015 -> 0.17417959265671842
+2025-07-08 12:46:21,184 INFO         - B->eta::alpha^fT_1@BSZ2015 -> -0.47441365827222226
+2025-07-08 12:46:21,184 INFO         - B->eta::alpha^fT_2@BSZ2015 -> 0.5703559406358707
+2025-07-08 12:46:21,184 INFO         - B->eta_prime::alpha^f+_0@BSZ2015 -> 0.1586289718153108
+2025-07-08 12:46:21,185 INFO         - B->eta_prime::alpha^f+_1@BSZ2015 -> -0.49040533376760087
+2025-07-08 12:46:21,185 INFO         - B->eta_prime::alpha^f+_2@BSZ2015 -> 0.8119551764156583
+2025-07-08 12:46:21,186 INFO         - B->eta_prime::alpha^f0_1@BSZ2015 -> 0.07458080828225278
+2025-07-08 12:46:21,186 INFO         - B->eta_prime::alpha^f0_2@BSZ2015 -> 0.24322870319659984
+2025-07-08 12:46:21,186 INFO         - B->eta_prime::alpha^fT_0@BSZ2015 -> 0.1734738248394126
+2025-07-08 12:46:21,187 INFO         - B->eta_prime::alpha^fT_1@BSZ2015 -> -0.5419852860924466
+2025-07-08 12:46:21,187 INFO         - B->eta_prime::alpha^fT_2@BSZ2015 -> 0.8589015311272767
+2025-07-08 12:46:21,187 INFO         - CKM::abs(V_ub) -> 0.0031081302116218214
+2025-07-08 12:46:21,188 INFO       total chi^2 = 0.78
+2025-07-08 12:46:21,188 INFO       total dof   = 11
+2025-07-08 12:46:21,189 INFO       p value     = 100.00%
+2025-07-08 12:46:21,190 INFO       individual test statistics:
+2025-07-08 12:46:21,191 INFO         - B->eta::f_0+f_++f_T@MR:2025A: chi^2 / dof = 0.20 / 11, local_pvalue = 100.00%
+2025-07-08 12:46:21,192 INFO         - B->eta_prime::f_0+f_++f_T@MR:2025A: chi^2 / dof = 0.10 / 11, local_pvalue = 100.00%
+2025-07-08 12:46:21,192 INFO         - B^+->eta_primelnu::BR@HFLAV:2024A: chi^2 / dof = 0.02 / 1, local_pvalue = 89.17%
+2025-07-08 12:46:21,193 INFO         - B^+->etalnu::BR@HFLAV:2024A: chi^2 / dof = 0.00 / 1, local_pvalue = 95.18%
+2025-07-08 12:46:21,194 INFO         - B^+->etalnu::KinematicalDistribution[q2]@BaBar:2012D: chi^2 / dof = 0.46 / 4, local_pvalue = 97.72%
+2025-07-08 12:46:21,198 SUCCESS    Final p value is 100.00%, indicating a successful fit

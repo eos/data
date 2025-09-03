@@ -1,0 +1,41 @@
+dof: 3
+global_chi2: 0.036628625789240796
+local_pvalues:
+  D_s->eta_prime::f_0+f_++f_T@MR:2025A: 0.9999999999990463
+mode:
+- 0.498923409792493
+- -0.6987231653331731
+- -10.017720828297456
+- 0.43862836665479765
+- -11.1282026970664
+- 0.5757052432557535
+- -0.1755088824931894
+- -29.378408382417376
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_2@BSZ2015
+pvalue: 0.9981559085305399
+type: Mode
+version: 1.0.15

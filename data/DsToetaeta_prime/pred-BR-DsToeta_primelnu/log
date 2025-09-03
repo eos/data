@@ -1,0 +1,24 @@
+2025-07-10 14:55:12,444 INFO       Creating analysis with 16 priors, 0 EOS-wide constraints, 1 global options, 1 manually-entered constraints and 0 fixed parameters.
+2025-07-10 14:55:12,445 DEBUG      priors:
+2025-07-10 14:55:12,445 DEBUG       - D_s->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-10 14:55:12,445 DEBUG       - D_s->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-10 14:55:12,445 DEBUG       - D_s->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta_prime::alpha^f+_0@BSZ2015 (uniform)
+2025-07-10 14:55:12,446 DEBUG       - D_s->eta_prime::alpha^f+_1@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG       - D_s->eta_prime::alpha^f+_2@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG       - D_s->eta_prime::alpha^f0_1@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG       - D_s->eta_prime::alpha^f0_2@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG       - D_s->eta_prime::alpha^fT_0@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG       - D_s->eta_prime::alpha^fT_1@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG       - D_s->eta_prime::alpha^fT_2@BSZ2015 (uniform)
+2025-07-10 14:55:12,447 DEBUG      constraints:
+2025-07-10 14:55:12,448 DEBUG      manual_constraints:
+2025-07-10 14:55:12,448 DEBUG       - D_s->etaeta_prime::f_0+f_++f_T@MR:2025A
+2025-07-10 14:55:12,448 DEBUG      fixed_parameters:
+2025-07-10 14:55:12,472 INPROGRESS Predicting observables from set 'BR-DsToeta_primelnu' for 17001 samples
+2025-07-10 14:55:42,085 COMPLETED  ... done

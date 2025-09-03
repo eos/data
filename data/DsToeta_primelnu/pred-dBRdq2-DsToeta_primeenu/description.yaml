@@ -1,0 +1,237 @@
+observables:
+- kinematics:
+    q2: 0.0
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.005
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.01
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.015
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.02
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.03
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.035
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.04
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.045
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.05
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.06
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.07
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.08
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.09
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.1
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.15
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.2
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.3
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.4
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.5
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.6
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.7
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.8
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 0.9
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 1.0
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+- kinematics:
+    q2: 1.02
+  name: D->eta_primelnu::P(q2)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: s
+type: Prediction
+version: 1.0.16

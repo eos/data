@@ -1,0 +1,27 @@
+parameters:
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f+_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f+_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f+_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f0_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f0_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^fT_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^fT_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^fT_2@BFW2010
+type: DynestyResults
+version: 1.0.15

@@ -1,0 +1,48 @@
+dof: 18
+global_chi2: 6.728251956596908
+local_pvalues:
+  D_s->eta::f_0+f_++f_T@MR:2025A: 0.9999999854528114
+  D_s^+->etae^+nu::BR@PDG:2024A: 0.9305036263469592
+  D_s^+->etalnu::KinematicalDistribution[q2]@MR:2025A: 0.9524008944195
+  D_s^+->etamu^+nu::BR@MR:2025A: 0.917782918575012
+mode:
+- -0.4618474100569714
+- 0.6967841493532374
+- -4.402155260726886
+- 0.5763950118354662
+- -6.810744339673022
+- -0.4542292700694244
+- 0.40343573963160173
+- 10.210287560211725
+- 0.9779096903149701
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+pvalue: 0.9922247820050414
+type: Mode
+version: 1.0.15

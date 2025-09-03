@@ -1,0 +1,52 @@
+observables:
+- kinematics:
+    q2_max: 18.67
+    q2_min: 1.0e-05
+  name: B->eta_primelnu::BR
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+- kinematics:
+    q2_max: 18.67
+    q2_min: 0.0112
+  name: B->eta_primelnu::BR
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: mu
+    model: CKM
+    q: u
+- kinematics:
+    internal_variable_2452541785: 18.67
+    internal_variable_2452541786: 18.67
+    q2_min_e: 1.0e-05
+    q2_min_mu: 0.0112
+  name: B->eta_primelnu::R_eta_prime
+  options:
+    form-factors: BSZ2015
+    model: CKM
+- kinematics:
+    q2_max: 18.67
+    q2_min: 1.0e-05
+  name: B->eta_primelnu::A_FB
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+- kinematics:
+    q2_max: 18.67
+    q2_min: 0.0112
+  name: B->eta_primelnu::A_FB
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: mu
+    model: CKM
+    q: u
+type: Prediction
+version: 1.0.16

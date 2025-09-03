@@ -1,0 +1,84 @@
+dof: 21
+global_chi2: 16.84381923325543
+local_pvalues:
+  D->eta::f_0+f_++f_T@MR:2025A: 0.9999997780691232
+  D->eta_prime::f_0+f_++f_T@MR:2025A: 0.9999840328304271
+  D^+->eta_primee^+nu::BR@MR:2025A: 0.8028765819365113
+  D^+->eta_primelnu::KinematicalDistribution[q2]@BES:2024A: 0.12368102197157838
+  D^+->eta_primemu^+nu::BR@PDG:2024A: 0.6133193188133176
+  D^+->etae^+nu::BR@MR:2025A: 0.4572024916176386
+  D^+->etalnu::KinematicalDistribution[q2]@BES:2025A: 0.6133917398868527
+  D^+->etamu^+nu::BR@BES:2025A: 0.5677159415912286
+mode:
+- 0.32765030041297105
+- -0.44336390996670083
+- -1.058378655586992
+- 0.2949550258953306
+- -6.006153869172081
+- 0.3267968732222472
+- -0.5877657881773155
+- -1.5643761325804775
+- 0.2996527310196107
+- -1.089169516439735
+- 15.019328356646326
+- 0.9407809728336489
+- -3.7632849564584205
+- 0.3623496660724813
+- -1.048975448690899
+- -6.415518993057987
+- 0.23824961536414763
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D->eta_prime::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cd)
+pvalue: 0.7205291245914014
+type: Mode
+version: 1.0.15

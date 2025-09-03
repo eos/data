@@ -1,0 +1,12 @@
+observables:
+- kinematics:
+    q2_max: 23.22
+    q2_min: 1.0e-05
+  name: B_s->etanunu::BR
+  options:
+    P: eta
+    form-factors: BSZ2015
+    model: CKM
+    q: s
+type: Prediction
+version: 1.0.16

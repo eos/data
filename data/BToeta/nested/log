@@ -1,0 +1,16 @@
+2025-07-07 13:39:50,931 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-07 13:39:50,931 DEBUG      priors:
+2025-07-07 13:39:50,932 DEBUG       - B->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-07 13:39:50,932 DEBUG       - B->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-07 13:39:50,932 DEBUG       - B->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-07 13:39:50,932 DEBUG       - B->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-07 13:39:50,932 DEBUG       - B->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-07 13:39:50,933 DEBUG       - B->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-07 13:39:50,933 DEBUG       - B->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-07 13:39:50,933 DEBUG       - B->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-07 13:39:50,933 DEBUG      constraints:
+2025-07-07 13:39:50,933 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-07-07 13:39:50,933 DEBUG      manual_constraints:
+2025-07-07 13:39:50,934 DEBUG      fixed_parameters:
+2025-07-07 13:40:05,941 INFO       iteration 12490 | batch: 8 | bound: 16 | nc: 5 | ncall: 48350 | eff(%): 25.497 | loglstar: 31.377 < 38.950 < 39.388 | logz: 24.541 +/-  0.131 | stop:  1.362
+2025-07-07 13:40:08,379 INFO       Finished sampling with 14623 samples and evidence estimate 24.50 +/- 0.11

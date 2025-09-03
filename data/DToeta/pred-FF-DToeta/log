@@ -1,0 +1,16 @@
+2025-07-07 14:08:18,507 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-07 14:08:18,507 DEBUG      priors:
+2025-07-07 14:08:18,507 DEBUG       - D->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-07 14:08:18,507 DEBUG       - D->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG       - D->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG       - D->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG       - D->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG       - D->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG       - D->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG       - D->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-07 14:08:18,508 DEBUG      constraints:
+2025-07-07 14:08:18,508 DEBUG       - D->eta::f_0+f_++f_T@MR:2025A
+2025-07-07 14:08:18,508 DEBUG      manual_constraints:
+2025-07-07 14:08:18,508 DEBUG      fixed_parameters:
+2025-07-07 14:08:18,534 INPROGRESS Predicting observables from set 'FF-DToeta' for 13619 samples
+2025-07-07 14:08:38,513 COMPLETED  ... done

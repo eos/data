@@ -1,0 +1,32 @@
+observables:
+- kinematics:
+    q2_max: 1.747
+    q2_min: 1.0e-05
+  name: D->etalnu::BR
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: d
+- kinematics:
+    q2_max: 1.747
+    q2_min: 0.0112
+  name: D->etalnu::BR
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: mu
+    model: CKM
+    q: d
+- kinematics:
+    internal_variable_1171006473: 1.747
+    internal_variable_1171006474: 1.747
+    q2_min_e: 1.0e-05
+    q2_min_mu: 0.0112
+  name: D->etalnu::R_eta
+  options:
+    form-factors: BSZ2015
+    model: CKM
+type: Prediction
+version: 1.0.16

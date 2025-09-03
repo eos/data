@@ -1,0 +1,19 @@
+2025-07-16 15:42:54,157 INFO       Creating analysis with 5 priors, 0 EOS-wide constraints, 1 global options, 1 manually-entered constraints and 2 fixed parameters.
+2025-07-16 15:42:54,158 DEBUG      priors:
+2025-07-16 15:42:54,159 DEBUG       - B_s->eta_prime::alpha^f+_0@BSZ2015 (uniform)
+2025-07-16 15:42:54,159 DEBUG       - B_s->eta_prime::alpha^f+_1@BSZ2015 (uniform)
+2025-07-16 15:42:54,159 DEBUG       - B_s->eta_prime::alpha^f+_2@BSZ2015 (uniform)
+2025-07-16 15:42:54,159 DEBUG       - B_s->eta_prime::alpha^f0_1@BSZ2015 (uniform)
+2025-07-16 15:42:54,159 DEBUG       - B_s->eta_prime::alpha^f0_2@BSZ2015 (uniform)
+2025-07-16 15:42:54,159 DEBUG      constraints:
+2025-07-16 15:42:54,159 DEBUG      manual_constraints:
+2025-07-16 15:42:54,159 DEBUG       - B_s->eta_s::f_0+f_+@HPQCD:2020A
+2025-07-16 15:42:54,159 DEBUG      fixed_parameters:
+2025-07-16 15:42:54,159 DEBUG       - mass::eta_prime
+2025-07-16 15:42:54,159 DEBUG       - mass::eta_prime@BSZ2015
+2025-07-16 15:42:54,167 INFO       likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2025-07-16 15:42:54,167 DEBUG      used, but not included in any prior: 'B_s->eta_prime::alpha^fT_1@BSZ2015'
+2025-07-16 15:42:54,168 DEBUG      used, but not included in any prior: 'B_s->eta_prime::alpha^fT_2@BSZ2015'
+2025-07-16 15:42:54,168 DEBUG      used, but not included in any prior: 'B_s->eta_prime::alpha^fT_0@BSZ2015'
+2025-07-16 15:42:54,188 INPROGRESS Predicting observables from set 'FF-BsToeta_prime' for 15371 samples
+2025-07-16 15:43:15,610 COMPLETED  ... done

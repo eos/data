@@ -1,0 +1,74 @@
+2025-07-16 16:19:41,672 INFO       Creating analysis with 9 priors, 3 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-16 16:19:41,673 DEBUG      priors:
+2025-07-16 16:19:41,673 DEBUG       - B->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-16 16:19:41,673 DEBUG       - B->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-16 16:19:41,673 DEBUG       - B->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-16 16:19:41,673 DEBUG       - B->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-16 16:19:41,674 DEBUG       - B->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-16 16:19:41,674 DEBUG       - B->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-16 16:19:41,674 DEBUG       - B->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-16 16:19:41,674 DEBUG       - B->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-16 16:19:41,674 DEBUG       - CKM::abs(V_ub) (uniform)
+2025-07-16 16:19:41,674 DEBUG      constraints:
+2025-07-16 16:19:41,674 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-07-16 16:19:41,674 DEBUG       - B^+->etalnu::BR@HFLAV:2024A
+2025-07-16 16:19:41,674 DEBUG       - B^+->etalnu::KinematicalDistribution[q2]@BaBar:2012D
+2025-07-16 16:19:41,674 DEBUG      manual_constraints:
+2025-07-16 16:19:41,674 DEBUG      fixed_parameters:
+2025-07-16 16:19:41,692 INFO       likelihood probably depends on 54 parameter(s) that do not appear in the prior; check prior?
+2025-07-16 16:19:41,693 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-07-16 16:19:41,693 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-07-16 16:19:41,693 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-07-16 16:19:41,694 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'mass::eta'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'mass::c'
+2025-07-16 16:19:41,695 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'life_time::B_u'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'mass::W'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-07-16 16:19:41,696 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'mass::B_u'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-07-16 16:19:41,697 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'ubmunumu::mu'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-07-16 16:19:41,698 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-07-16 16:19:41,707 INPROGRESS Predicting observables from set 'Pq2minmax-BToetalnu' for 15150 samples
+2025-07-16 16:19:53,353 COMPLETED  ... done

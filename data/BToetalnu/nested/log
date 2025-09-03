@@ -1,0 +1,443 @@
+2025-07-07 15:16:16,228 INFO       Creating analysis with 9 priors, 3 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-07 15:16:16,228 DEBUG      priors:
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-07 15:16:16,228 DEBUG       - B->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-07 15:16:16,229 DEBUG       - CKM::abs(V_ub) (uniform)
+2025-07-07 15:16:16,229 DEBUG      constraints:
+2025-07-07 15:16:16,229 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-07-07 15:16:16,229 DEBUG       - B^+->etalnu::BR@HFLAV:2024A
+2025-07-07 15:16:16,229 DEBUG       - B^+->etalnu::KinematicalDistribution[q2]@BaBar:2012D
+2025-07-07 15:16:16,229 DEBUG      manual_constraints:
+2025-07-07 15:16:16,229 DEBUG      fixed_parameters:
+2025-07-07 15:16:16,248 INFO       likelihood probably depends on 54 parameter(s) that do not appear in the prior; check prior?
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'mass::c'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'ubmunumu::mu'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'mass::W'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-07-07 15:16:16,249 DEBUG      used, but not included in any prior: 'mass::B_u'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-07-07 15:16:16,250 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'mass::eta'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'life_time::B_u'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-07-07 15:16:16,251 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-07-07 15:16:16,252 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-07-07 15:16:16,253 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-07-07 15:16:31,414 INFO       iteration 664 | batch: 0 | bound: 0 | nc: 46 | ncall: 3697 | eff(%): 16.823 | loglstar:   -inf < -137.661 <    inf | logz: -145.155 +/-  0.160 | dlogz: 171.730 >  1.000
+2025-07-07 15:16:46,488 INFO       iteration 831 | batch: 0 | bound: 0 | nc: 34 | ncall: 7658 | eff(%): 10.508 | loglstar:   -inf < -74.238 <    inf | logz: -81.653 +/-  0.155 | dlogz: 113.073 >  1.000
+2025-07-07 15:17:01,543 INFO       iteration 1231 | batch: 0 | bound: 9 | nc: 31 | ncall: 11514 | eff(%): 10.464 | loglstar:   -inf < -10.236 <    inf | logz: -17.889 +/-  0.165 | dlogz: 58.086 >  1.000
+2025-07-07 15:17:16,592 INFO       iteration 1538 | batch: 0 | bound: 19 | nc: 49 | ncall: 15339 | eff(%):  9.866 | loglstar:   -inf <  9.367 <    inf | logz:  0.776 +/-  0.175 | dlogz: 38.181 >  1.000
+2025-07-07 15:17:34,951 INFO       iteration 1748 | batch: 0 | bound: 32 | nc: 868 | ncall: 20024 | eff(%):  8.622 | loglstar:   -inf < 19.207 <    inf | logz:  9.975 +/-  0.181 | dlogz: 38.449 >  1.000
+2025-07-07 15:17:50,255 INFO       iteration 1803 | batch: 0 | bound: 42 | nc: 85 | ncall: 23962 | eff(%):  7.447 | loglstar:   -inf < 21.593 <    inf | logz: 12.067 +/-  0.183 | dlogz: 36.140 >  1.000
+2025-07-07 15:18:06,504 INFO       iteration 1831 | batch: 0 | bound: 53 | nc: 369 | ncall: 28136 | eff(%):  6.450 | loglstar:   -inf < 22.440 <    inf | logz: 13.079 +/-  0.183 | dlogz: 35.007 >  1.000
+2025-07-07 15:18:21,525 INFO       iteration 1844 | batch: 0 | bound: 64 | nc: 507 | ncall: 31989 | eff(%):  5.720 | loglstar:   -inf < 22.961 <    inf | logz: 13.475 +/-  0.183 | dlogz: 34.562 >  1.000
+2025-07-07 15:18:36,552 INFO       iteration 1910 | batch: 0 | bound: 74 | nc: 74 | ncall: 35858 | eff(%):  5.290 | loglstar:   -inf < 25.372 <    inf | logz: 15.725 +/-  0.185 | dlogz: 32.045 >  1.000
+2025-07-07 15:18:52,005 INFO       iteration 1969 | batch: 0 | bound: 84 | nc: 154 | ncall: 39801 | eff(%):  4.916 | loglstar:   -inf < 27.359 <    inf | logz: 17.411 +/-  0.187 | dlogz: 30.125 >  1.000
+2025-07-07 15:19:07,967 INFO       iteration 2006 | batch: 0 | bound: 95 | nc: 300 | ncall: 43887 | eff(%):  4.545 | loglstar:   -inf < 29.033 <    inf | logz: 18.816 +/-  0.191 | dlogz: 28.578 >  1.000
+2025-07-07 15:19:23,661 INFO       iteration 2022 | batch: 0 | bound: 106 | nc: 585 | ncall: 47909 | eff(%):  4.199 | loglstar:   -inf < 29.508 <    inf | logz: 19.345 +/-  0.191 | dlogz: 27.980 >  1.000
+2025-07-07 15:19:38,982 INFO       iteration 2048 | batch: 0 | bound: 116 | nc: 313 | ncall: 51842 | eff(%):  3.932 | loglstar:   -inf < 30.194 <    inf | logz: 20.085 +/-  0.191 | dlogz: 27.131 >  1.000
+2025-07-07 15:19:54,966 INFO       iteration 2089 | batch: 0 | bound: 127 | nc: 386 | ncall: 55958 | eff(%):  3.717 | loglstar:   -inf < 31.208 <    inf | logz: 21.172 +/-  0.191 | dlogz: 25.876 >  1.000
+2025-07-07 15:20:10,199 INFO       iteration 2131 | batch: 0 | bound: 138 | nc: 73 | ncall: 59860 | eff(%):  3.545 | loglstar:   -inf < 32.483 <    inf | logz: 22.144 +/-  0.191 | dlogz: 24.739 >  1.000
+2025-07-07 15:20:25,550 INFO       iteration 2178 | batch: 0 | bound: 148 | nc: 102 | ncall: 63807 | eff(%):  3.400 | loglstar:   -inf < 33.601 <    inf | logz: 23.179 +/-  0.192 | dlogz: 23.513 >  1.000
+2025-07-07 15:20:41,496 INFO       iteration 2190 | batch: 0 | bound: 159 | nc: 454 | ncall: 67888 | eff(%):  3.214 | loglstar:   -inf < 33.760 <    inf | logz: 23.431 +/-  0.193 | dlogz: 23.211 >  1.000
+2025-07-07 15:20:58,676 INFO       iteration 2206 | batch: 0 | bound: 171 | nc: 1181 | ncall: 72319 | eff(%):  3.040 | loglstar:   -inf < 34.127 <    inf | logz: 23.743 +/-  0.193 | dlogz: 22.834 >  1.000
+2025-07-07 15:21:13,731 INFO       iteration 2224 | batch: 0 | bound: 181 | nc: 636 | ncall: 76199 | eff(%):  2.909 | loglstar:   -inf < 34.553 <    inf | logz: 24.110 +/-  0.193 | dlogz: 22.396 >  1.000
+2025-07-07 15:21:31,600 INFO       iteration 2253 | batch: 0 | bound: 194 | nc: 857 | ncall: 80791 | eff(%):  2.780 | loglstar:   -inf < 35.146 <    inf | logz: 24.653 +/-  0.194 | dlogz: 21.735 >  1.000
+2025-07-07 15:21:53,550 INFO       iteration 2261 | batch: 0 | bound: 209 | nc: 2919 | ncall: 86398 | eff(%):  2.609 | loglstar:   -inf < 35.307 <    inf | logz: 24.793 +/-  0.194 | dlogz: 21.563 >  1.000
+2025-07-07 15:22:08,931 INFO       iteration 2270 | batch: 0 | bound: 219 | nc: 857 | ncall: 90336 | eff(%):  2.506 | loglstar:   -inf < 35.567 <    inf | logz: 24.953 +/-  0.194 | dlogz: 21.368 >  1.000
+2025-07-07 15:22:25,014 INFO       iteration 2276 | batch: 0 | bound: 230 | nc: 937 | ncall: 94431 | eff(%):  2.404 | loglstar:   -inf < 35.726 <    inf | logz: 25.064 +/-  0.194 | dlogz: 21.233 >  1.000
+2025-07-07 15:22:40,807 INFO       iteration 2283 | batch: 0 | bound: 241 | nc: 347 | ncall: 98481 | eff(%):  2.312 | loglstar:   -inf < 35.910 <    inf | logz: 25.200 +/-  0.195 | dlogz: 21.070 >  1.000
+2025-07-07 15:22:55,983 INFO       iteration 2367 | batch: 0 | bound: 251 | nc: 47 | ncall: 102397 | eff(%):  2.306 | loglstar:   -inf < 37.904 <    inf | logz: 26.843 +/-  0.198 | dlogz: 22.134 >  1.000
+2025-07-07 15:23:11,214 INFO       iteration 2489 | batch: 0 | bound: 262 | nc: 103 | ncall: 106273 | eff(%):  2.337 | loglstar:   -inf < 40.734 <    inf | logz: 29.231 +/-  0.203 | dlogz: 19.257 >  1.000
+2025-07-07 15:23:26,911 INFO       iteration 2576 | batch: 0 | bound: 272 | nc: 253 | ncall: 110309 | eff(%):  2.330 | loglstar:   -inf < 42.755 <    inf | logz: 31.007 +/-  0.207 | dlogz: 17.133 >  1.000
+2025-07-07 15:23:43,253 INFO       iteration 2647 | batch: 0 | bound: 284 | nc: 531 | ncall: 114489 | eff(%):  2.307 | loglstar:   -inf < 44.298 <    inf | logz: 32.268 +/-  0.208 | dlogz: 15.588 >  1.000
+2025-07-07 15:23:59,524 INFO       iteration 2671 | batch: 0 | bound: 295 | nc: 921 | ncall: 118641 | eff(%):  2.247 | loglstar:   -inf < 44.654 <    inf | logz: 32.647 +/-  0.209 | dlogz: 15.111 >  1.000
+2025-07-07 15:24:16,892 INFO       iteration 2701 | batch: 0 | bound: 306 | nc: 854 | ncall: 123074 | eff(%):  2.190 | loglstar:   -inf < 45.167 <    inf | logz: 33.095 +/-  0.209 | dlogz: 14.543 >  1.000
+2025-07-07 15:24:31,963 INFO       iteration 2755 | batch: 0 | bound: 317 | nc: 54 | ncall: 126920 | eff(%):  2.166 | loglstar:   -inf < 45.992 <    inf | logz: 33.837 +/-  0.210 | dlogz: 13.584 >  1.000
+2025-07-07 15:24:47,010 INFO       iteration 2794 | batch: 0 | bound: 327 | nc: 12 | ncall: 130759 | eff(%):  2.133 | loglstar:   -inf < 46.742 <    inf | logz: 34.355 +/-  0.211 | dlogz: 13.560 >  1.000
+2025-07-07 15:25:02,333 INFO       iteration 2805 | batch: 0 | bound: 337 | nc: 193 | ncall: 134689 | eff(%):  2.079 | loglstar:   -inf < 46.981 <    inf | logz: 34.507 +/-  0.211 | dlogz: 13.364 >  1.000
+2025-07-07 15:25:17,715 INFO       iteration 2817 | batch: 0 | bound: 348 | nc: 1050 | ncall: 138615 | eff(%):  2.029 | loglstar:   -inf < 47.228 <    inf | logz: 34.680 +/-  0.212 | dlogz: 13.144 >  1.000
+2025-07-07 15:25:46,253 INFO       iteration 2831 | batch: 0 | bound: 367 | nc: 4462 | ncall: 145905 | eff(%):  1.937 | loglstar:   -inf < 47.416 <    inf | logz: 34.878 +/-  0.212 | dlogz: 13.346 >  1.000
+2025-07-07 15:26:12,752 INFO       iteration 2832 | batch: 0 | bound: 385 | nc: 6768 | ncall: 152673 | eff(%):  1.852 | loglstar:   -inf < 47.417 <    inf | logz: 34.891 +/-  0.212 | dlogz: 13.328 >  1.000
+2025-07-07 15:26:29,770 INFO       iteration 2836 | batch: 0 | bound: 397 | nc: 2143 | ncall: 157041 | eff(%):  1.803 | loglstar:   -inf < 47.475 <    inf | logz: 34.945 +/-  0.212 | dlogz: 13.258 >  1.000
+2025-07-07 15:26:46,199 INFO       iteration 2839 | batch: 0 | bound: 408 | nc: 1524 | ncall: 161218 | eff(%):  1.758 | loglstar:   -inf < 47.523 <    inf | logz: 34.985 +/-  0.213 | dlogz: 13.206 >  1.000
+2025-07-07 15:27:07,508 INFO       iteration 2841 | batch: 0 | bound: 423 | nc: 4538 | ncall: 166654 | eff(%):  1.702 | loglstar:   -inf < 47.558 <    inf | logz: 35.012 +/-  0.213 | dlogz: 13.172 >  1.000
+2025-07-07 15:27:32,703 INFO       iteration 2843 | batch: 0 | bound: 440 | nc: 6234 | ncall: 173088 | eff(%):  1.640 | loglstar:   -inf < 47.629 <    inf | logz: 35.039 +/-  0.213 | dlogz: 13.137 >  1.000
+2025-07-07 15:27:49,250 INFO       iteration 2845 | batch: 0 | bound: 451 | nc: 1444 | ncall: 177314 | eff(%):  1.602 | loglstar:   -inf < 47.671 <    inf | logz: 35.066 +/-  0.213 | dlogz: 13.102 >  1.000
+2025-07-07 15:28:16,626 INFO       iteration 2851 | batch: 0 | bound: 470 | nc: 3149 | ncall: 184247 | eff(%):  1.545 | loglstar:   -inf < 47.727 <    inf | logz: 35.147 +/-  0.213 | dlogz: 12.996 >  1.000
+2025-07-07 15:28:33,375 INFO       iteration 2852 | batch: 0 | bound: 481 | nc: 4293 | ncall: 188540 | eff(%):  1.511 | loglstar:   -inf < 47.736 <    inf | logz: 35.160 +/-  0.213 | dlogz: 12.979 >  1.000
+2025-07-07 15:28:49,467 INFO       iteration 2853 | batch: 0 | bound: 492 | nc: 4099 | ncall: 192639 | eff(%):  1.479 | loglstar:   -inf < 47.740 <    inf | logz: 35.173 +/-  0.213 | dlogz: 12.962 >  1.000
+2025-07-07 15:29:39,408 INFO       iteration 2856 | batch: 0 | bound: 526 | nc: 10072 | ncall: 205388 | eff(%):  1.389 | loglstar:   -inf < 47.764 <    inf | logz: 35.211 +/-  0.213 | dlogz: 12.911 >  1.000
+2025-07-07 15:30:08,279 INFO       iteration 2858 | batch: 0 | bound: 546 | nc: 7284 | ncall: 212742 | eff(%):  1.342 | loglstar:   -inf < 47.788 <    inf | logz: 35.237 +/-  0.213 | dlogz: 12.878 >  1.000
+2025-07-07 15:30:38,288 INFO       iteration 2862 | batch: 0 | bound: 566 | nc: 5101 | ncall: 220430 | eff(%):  1.297 | loglstar:   -inf < 47.902 <    inf | logz: 35.288 +/-  0.213 | dlogz: 12.811 >  1.000
+2025-07-07 15:30:56,633 INFO       iteration 2863 | batch: 0 | bound: 579 | nc: 4678 | ncall: 225108 | eff(%):  1.270 | loglstar:   -inf < 47.945 <    inf | logz: 35.301 +/-  0.213 | dlogz: 12.794 >  1.000
+2025-07-07 15:31:26,174 INFO       iteration 2866 | batch: 0 | bound: 599 | nc: 5004 | ncall: 232659 | eff(%):  1.231 | loglstar:   -inf < 48.016 <    inf | logz: 35.342 +/-  0.213 | dlogz: 12.742 >  1.000
+2025-07-07 15:31:49,157 INFO       iteration 2870 | batch: 0 | bound: 614 | nc: 2205 | ncall: 238543 | eff(%):  1.202 | loglstar:   -inf < 48.073 <    inf | logz: 35.397 +/-  0.213 | dlogz: 12.671 >  1.000
+2025-07-07 15:32:26,372 INFO       iteration 2874 | batch: 0 | bound: 640 | nc: 6892 | ncall: 248093 | eff(%):  1.157 | loglstar:   -inf < 48.085 <    inf | logz: 35.449 +/-  0.214 | dlogz: 12.602 >  1.000
+2025-07-07 15:32:42,650 INFO       iteration 2875 | batch: 0 | bound: 651 | nc: 4147 | ncall: 252240 | eff(%):  1.139 | loglstar:   -inf < 48.129 <    inf | logz: 35.462 +/-  0.214 | dlogz: 12.585 >  1.000
+2025-07-07 15:33:29,002 INFO       iteration 2878 | batch: 0 | bound: 682 | nc: 10409 | ncall: 264027 | eff(%):  1.089 | loglstar:   -inf < 48.162 <    inf | logz: 35.501 +/-  0.214 | dlogz: 12.535 >  1.000
+2025-07-07 15:34:02,242 INFO       iteration 2879 | batch: 0 | bound: 705 | nc: 8427 | ncall: 272454 | eff(%):  1.056 | loglstar:   -inf < 48.167 <    inf | logz: 35.513 +/-  0.214 | dlogz: 12.518 >  1.000
+2025-07-07 15:34:53,775 INFO       iteration 2880 | batch: 0 | bound: 740 | nc: 13085 | ncall: 285539 | eff(%):  1.008 | loglstar:   -inf < 48.167 <    inf | logz: 35.526 +/-  0.214 | dlogz: 12.501 >  1.000
+2025-07-07 15:35:11,707 INFO       iteration 2885 | batch: 0 | bound: 752 | nc: 1658 | ncall: 290122 | eff(%):  0.994 | loglstar:   -inf < 48.219 <    inf | logz: 35.588 +/-  0.214 | dlogz: 12.419 >  1.000
+2025-07-07 15:35:32,939 INFO       iteration 2886 | batch: 0 | bound: 766 | nc: 5383 | ncall: 295505 | eff(%):  0.976 | loglstar:   -inf < 48.219 <    inf | logz: 35.600 +/-  0.214 | dlogz: 12.403 >  1.000
+2025-07-07 15:36:03,152 INFO       iteration 2891 | batch: 0 | bound: 787 | nc: 6899 | ncall: 303139 | eff(%):  0.953 | loglstar:   -inf < 48.369 <    inf | logz: 35.662 +/-  0.214 | dlogz: 12.321 >  1.000
+2025-07-07 15:36:26,739 INFO       iteration 2895 | batch: 0 | bound: 803 | nc: 3891 | ncall: 309151 | eff(%):  0.936 | loglstar:   -inf < 48.410 <    inf | logz: 35.713 +/-  0.214 | dlogz: 12.254 >  1.000
+2025-07-07 15:36:45,635 INFO       iteration 2900 | batch: 0 | bound: 815 | nc: 1681 | ncall: 313949 | eff(%):  0.923 | loglstar:   -inf < 48.534 <    inf | logz: 35.778 +/-  0.214 | dlogz: 12.170 >  1.000
+2025-07-07 15:37:19,531 INFO       iteration 2905 | batch: 0 | bound: 838 | nc: 4807 | ncall: 322559 | eff(%):  0.900 | loglstar:   -inf < 48.631 <    inf | logz: 35.842 +/-  0.214 | dlogz: 12.085 >  1.000
+2025-07-07 15:38:06,097 INFO       iteration 2906 | batch: 0 | bound: 870 | nc: 11845 | ncall: 334404 | eff(%):  0.868 | loglstar:   -inf < 48.677 <    inf | logz: 35.856 +/-  0.214 | dlogz: 12.068 >  1.000
+2025-07-07 15:38:25,124 INFO       iteration 2910 | batch: 0 | bound: 883 | nc: 1289 | ncall: 339246 | eff(%):  0.857 | loglstar:   -inf < 48.724 <    inf | logz: 35.909 +/-  0.215 | dlogz: 11.999 >  1.000
+2025-07-07 15:38:41,817 INFO       iteration 2914 | batch: 0 | bound: 894 | nc: 851 | ncall: 343511 | eff(%):  0.848 | loglstar:   -inf < 48.743 <    inf | logz: 35.961 +/-  0.215 | dlogz: 11.931 >  1.000
+2025-07-07 15:39:30,886 INFO       iteration 2916 | batch: 0 | bound: 928 | nc: 11270 | ncall: 356073 | eff(%):  0.818 | loglstar:   -inf < 48.756 <    inf | logz: 35.985 +/-  0.215 | dlogz: 11.898 >  1.000
+2025-07-07 15:39:48,398 INFO       iteration 2920 | batch: 0 | bound: 940 | nc: 3124 | ncall: 360516 | eff(%):  0.809 | loglstar:   -inf < 48.825 <    inf | logz: 36.035 +/-  0.215 | dlogz: 11.832 >  1.000
+2025-07-07 15:40:04,593 INFO       iteration 2929 | batch: 0 | bound: 951 | nc: 1926 | ncall: 364629 | eff(%):  0.803 | loglstar:   -inf < 48.942 <    inf | logz: 36.146 +/-  0.215 | dlogz: 11.685 >  1.000
+2025-07-07 15:40:31,909 INFO       iteration 2932 | batch: 0 | bound: 969 | nc: 4582 | ncall: 371572 | eff(%):  0.789 | loglstar:   -inf < 48.964 <    inf | logz: 36.182 +/-  0.215 | dlogz: 11.637 >  1.000
+2025-07-07 15:40:49,464 INFO       iteration 2936 | batch: 0 | bound: 981 | nc: 1070 | ncall: 376048 | eff(%):  0.780 | loglstar:   -inf < 49.003 <    inf | logz: 36.228 +/-  0.215 | dlogz: 11.574 >  1.000
+2025-07-07 15:41:11,282 INFO       iteration 2937 | batch: 0 | bound: 996 | nc: 5557 | ncall: 381605 | eff(%):  0.769 | loglstar:   -inf < 49.011 <    inf | logz: 36.240 +/-  0.215 | dlogz: 11.559 >  1.000
+2025-07-07 15:42:17,254 INFO       iteration 2940 | batch: 0 | bound: 1041 | nc: 15058 | ncall: 398399 | eff(%):  0.737 | loglstar:   -inf < 49.109 <    inf | logz: 36.275 +/-  0.215 | dlogz: 11.512 >  1.000
+2025-07-07 15:42:34,063 INFO       iteration 2948 | batch: 0 | bound: 1052 | nc: 2248 | ncall: 402703 | eff(%):  0.732 | loglstar:   -inf < 49.269 <    inf | logz: 36.373 +/-  0.216 | dlogz: 11.382 >  1.000
+2025-07-07 15:43:22,019 INFO       iteration 2951 | batch: 0 | bound: 1085 | nc: 10271 | ncall: 414979 | eff(%):  0.711 | loglstar:   -inf < 49.339 <    inf | logz: 36.411 +/-  0.216 | dlogz: 11.333 >  1.000
+2025-07-07 15:43:42,149 INFO       iteration 2954 | batch: 0 | bound: 1099 | nc: 4956 | ncall: 420164 | eff(%):  0.703 | loglstar:   -inf < 49.365 <    inf | logz: 36.448 +/-  0.216 | dlogz: 11.283 >  1.000
+2025-07-07 15:44:18,988 INFO       iteration 2956 | batch: 0 | bound: 1124 | nc: 8924 | ncall: 429606 | eff(%):  0.688 | loglstar:   -inf < 49.443 <    inf | logz: 36.474 +/-  0.216 | dlogz: 11.250 >  1.000
+2025-07-07 15:45:01,177 INFO       iteration 2958 | batch: 0 | bound: 1153 | nc: 10649 | ncall: 440406 | eff(%):  0.671 | loglstar:   -inf < 49.453 <    inf | logz: 36.499 +/-  0.216 | dlogz: 11.217 >  1.000
+2025-07-07 15:45:43,959 INFO       iteration 2959 | batch: 0 | bound: 1182 | nc: 10834 | ncall: 451240 | eff(%):  0.655 | loglstar:   -inf < 49.478 <    inf | logz: 36.512 +/-  0.216 | dlogz: 11.200 >  1.000
+2025-07-07 15:46:00,534 INFO       iteration 3008 | batch: 0 | bound: 1193 | nc: 539 | ncall: 455437 | eff(%):  0.660 | loglstar:   -inf < 50.124 <    inf | logz: 37.098 +/-  0.217 | dlogz: 10.417 >  1.000
+2025-07-07 15:46:16,707 INFO       iteration 3021 | batch: 0 | bound: 1204 | nc: 411 | ncall: 459547 | eff(%):  0.657 | loglstar:   -inf < 50.242 <    inf | logz: 37.236 +/-  0.217 | dlogz: 10.886 >  1.000
+2025-07-07 15:46:32,412 INFO       iteration 3035 | batch: 0 | bound: 1214 | nc: 533 | ncall: 463490 | eff(%):  0.654 | loglstar:   -inf < 50.470 <    inf | logz: 37.380 +/-  0.218 | dlogz: 10.686 >  1.000
+2025-07-07 15:46:49,988 INFO       iteration 3046 | batch: 0 | bound: 1226 | nc: 776 | ncall: 467893 | eff(%):  0.651 | loglstar:   -inf < 50.582 <    inf | logz: 37.495 +/-  0.218 | dlogz: 10.527 >  1.000
+2025-07-07 15:47:05,062 INFO       iteration 3101 | batch: 0 | bound: 1236 | nc: 61 | ncall: 471667 | eff(%):  0.657 | loglstar:   -inf < 51.286 <    inf | logz: 38.024 +/-  0.219 | dlogz: 13.060 >  1.000
+2025-07-07 15:47:22,456 INFO       iteration 3141 | batch: 0 | bound: 1248 | nc: 612 | ncall: 476057 | eff(%):  0.659 | loglstar:   -inf < 51.668 <    inf | logz: 38.392 +/-  0.220 | dlogz: 12.532 >  1.000
+2025-07-07 15:47:37,826 INFO       iteration 3178 | batch: 0 | bound: 1258 | nc: 144 | ncall: 479924 | eff(%):  0.662 | loglstar:   -inf < 52.083 <    inf | logz: 38.697 +/-  0.220 | dlogz: 12.078 >  1.000
+2025-07-07 15:47:55,585 INFO       iteration 3207 | batch: 0 | bound: 1270 | nc: 756 | ncall: 484352 | eff(%):  0.662 | loglstar:   -inf < 52.537 <    inf | logz: 38.944 +/-  0.221 | dlogz: 11.717 >  1.000
+2025-07-07 15:48:12,962 INFO       iteration 3228 | batch: 0 | bound: 1281 | nc: 1301 | ncall: 488676 | eff(%):  0.660 | loglstar:   -inf < 52.791 <    inf | logz: 39.122 +/-  0.222 | dlogz: 11.454 >  1.000
+2025-07-07 15:48:28,868 INFO       iteration 3238 | batch: 0 | bound: 1292 | nc: 481 | ncall: 492558 | eff(%):  0.657 | loglstar:   -inf < 52.915 <    inf | logz: 39.209 +/-  0.222 | dlogz: 11.328 >  1.000
+2025-07-07 15:49:25,302 INFO       iteration 3267 | batch: 0 | bound: 1329 | nc: 10997 | ncall: 506472 | eff(%):  0.645 | loglstar:   -inf < 53.281 <    inf | logz: 39.460 +/-  0.223 | dlogz: 10.961 >  1.000
+2025-07-07 15:49:40,331 INFO       iteration 3303 | batch: 0 | bound: 1339 | nc: 309 | ncall: 510188 | eff(%):  0.647 | loglstar:   -inf < 53.515 <    inf | logz: 39.740 +/-  0.223 | dlogz: 10.536 >  1.000
+2025-07-07 15:49:55,451 INFO       iteration 3342 | batch: 0 | bound: 1349 | nc: 171 | ncall: 513957 | eff(%):  0.650 | loglstar:   -inf < 53.927 <    inf | logz: 40.014 +/-  0.224 | dlogz: 10.106 >  1.000
+2025-07-07 15:50:10,469 INFO       iteration 3426 | batch: 0 | bound: 1359 | nc: 170 | ncall: 517710 | eff(%):  0.661 | loglstar:   -inf < 54.732 <    inf | logz: 40.583 +/-  0.226 | dlogz:  9.201 >  1.000
+2025-07-07 15:50:25,485 INFO       iteration 3496 | batch: 0 | bound: 1369 | nc: 38 | ncall: 521518 | eff(%):  0.670 | loglstar:   -inf < 55.300 <    inf | logz: 41.005 +/-  0.227 | dlogz:  8.499 >  1.000
+2025-07-07 15:50:40,981 INFO       iteration 3562 | batch: 0 | bound: 1379 | nc: 355 | ncall: 525406 | eff(%):  0.678 | loglstar:   -inf < 55.808 <    inf | logz: 41.352 +/-  0.228 | dlogz:  7.888 >  1.000
+2025-07-07 15:50:56,518 INFO       iteration 3623 | batch: 0 | bound: 1390 | nc: 229 | ncall: 529283 | eff(%):  0.684 | loglstar:   -inf < 56.260 <    inf | logz: 41.646 +/-  0.229 | dlogz:  7.350 >  1.000
+2025-07-07 15:51:11,729 INFO       iteration 3760 | batch: 0 | bound: 1400 | nc: 83 | ncall: 533141 | eff(%):  0.705 | loglstar:   -inf < 57.261 <    inf | logz: 42.217 +/-  0.232 | dlogz:  6.234 >  1.000
+2025-07-07 15:51:30,826 INFO       iteration 3835 | batch: 0 | bound: 1413 | nc: 1092 | ncall: 538005 | eff(%):  0.712 | loglstar:   -inf < 57.748 <    inf | logz: 42.512 +/-  0.233 | dlogz:  5.641 >  1.000
+2025-07-07 15:51:46,513 INFO       iteration 3890 | batch: 0 | bound: 1424 | nc: 389 | ncall: 541999 | eff(%):  0.717 | loglstar:   -inf < 58.146 <    inf | logz: 42.710 +/-  0.234 | dlogz:  5.224 >  1.000
+2025-07-07 15:52:02,694 INFO       iteration 3917 | batch: 0 | bound: 1435 | nc: 845 | ncall: 546109 | eff(%):  0.717 | loglstar:   -inf < 58.292 <    inf | logz: 42.805 +/-  0.235 | dlogz:  5.076 >  1.000
+2025-07-07 15:52:17,771 INFO       iteration 3921 | batch: 0 | bound: 1445 | nc: 838 | ncall: 549906 | eff(%):  0.713 | loglstar:   -inf < 58.306 <    inf | logz: 42.819 +/-  0.235 | dlogz:  5.047 >  1.000
+2025-07-07 15:52:35,772 INFO       iteration 3932 | batch: 0 | bound: 1457 | nc: 1724 | ncall: 554476 | eff(%):  0.709 | loglstar:   -inf < 58.378 <    inf | logz: 42.856 +/-  0.235 | dlogz:  4.967 >  1.000
+2025-07-07 15:52:53,089 INFO       iteration 3942 | batch: 0 | bound: 1469 | nc: 873 | ncall: 558868 | eff(%):  0.705 | loglstar:   -inf < 58.422 <    inf | logz: 42.889 +/-  0.235 | dlogz:  4.894 >  1.000
+2025-07-07 15:53:08,182 INFO       iteration 3954 | batch: 0 | bound: 1479 | nc: 161 | ncall: 562685 | eff(%):  0.702 | loglstar:   -inf < 58.474 <    inf | logz: 42.927 +/-  0.236 | dlogz:  4.808 >  1.000
+2025-07-07 15:53:25,948 INFO       iteration 3983 | batch: 0 | bound: 1491 | nc: 924 | ncall: 567177 | eff(%):  0.702 | loglstar:   -inf < 58.596 <    inf | logz: 43.015 +/-  0.236 | dlogz:  4.607 >  1.000
+2025-07-07 15:53:40,949 INFO       iteration 3995 | batch: 0 | bound: 1501 | nc: 1578 | ncall: 570968 | eff(%):  0.699 | loglstar:   -inf < 58.663 <    inf | logz: 43.050 +/-  0.236 | dlogz:  4.525 >  1.000
+2025-07-07 15:53:55,984 INFO       iteration 4004 | batch: 0 | bound: 1511 | nc: 12 | ncall: 574770 | eff(%):  0.696 | loglstar:   -inf < 58.739 <    inf | logz: 43.075 +/-  0.236 | dlogz:  4.464 >  1.000
+2025-07-07 15:54:13,535 INFO       iteration 4016 | batch: 0 | bound: 1523 | nc: 1466 | ncall: 579215 | eff(%):  0.693 | loglstar:   -inf < 58.858 <    inf | logz: 43.111 +/-  0.237 | dlogz:  4.381 >  1.000
+2025-07-07 15:54:29,758 INFO       iteration 4035 | batch: 0 | bound: 1534 | nc: 518 | ncall: 583347 | eff(%):  0.691 | loglstar:   -inf < 58.947 <    inf | logz: 43.167 +/-  0.237 | dlogz:  4.251 >  1.000
+2025-07-07 15:54:48,839 INFO       iteration 4039 | batch: 0 | bound: 1547 | nc: 1913 | ncall: 588167 | eff(%):  0.686 | loglstar:   -inf < 58.996 <    inf | logz: 43.179 +/-  0.237 | dlogz:  4.224 >  1.000
+2025-07-07 15:55:04,711 INFO       iteration 4046 | batch: 0 | bound: 1557 | nc: 246 | ncall: 592112 | eff(%):  0.683 | loglstar:   -inf < 59.029 <    inf | logz: 43.199 +/-  0.237 | dlogz:  4.176 >  1.000
+2025-07-07 15:55:23,377 INFO       iteration 4057 | batch: 0 | bound: 1570 | nc: 1060 | ncall: 596860 | eff(%):  0.679 | loglstar:   -inf < 59.113 <    inf | logz: 43.231 +/-  0.237 | dlogz:  4.101 >  1.000
+2025-07-07 15:55:42,665 INFO       iteration 4066 | batch: 0 | bound: 1583 | nc: 2621 | ncall: 601793 | eff(%):  0.675 | loglstar:   -inf < 59.151 <    inf | logz: 43.257 +/-  0.237 | dlogz:  4.041 >  1.000
+2025-07-07 15:56:00,524 INFO       iteration 4073 | batch: 0 | bound: 1595 | nc: 1124 | ncall: 606373 | eff(%):  0.671 | loglstar:   -inf < 59.174 <    inf | logz: 43.277 +/-  0.238 | dlogz:  3.994 >  1.000
+2025-07-07 15:56:16,908 INFO       iteration 4076 | batch: 0 | bound: 1606 | nc: 708 | ncall: 610547 | eff(%):  0.667 | loglstar:   -inf < 59.185 <    inf | logz: 43.285 +/-  0.238 | dlogz:  3.974 >  1.000
+2025-07-07 15:56:36,948 INFO       iteration 4097 | batch: 0 | bound: 1620 | nc: 1328 | ncall: 615679 | eff(%):  0.665 | loglstar:   -inf < 59.284 <    inf | logz: 43.342 +/-  0.238 | dlogz:  3.836 >  1.000
+2025-07-07 15:56:53,221 INFO       iteration 4103 | batch: 0 | bound: 1631 | nc: 1141 | ncall: 619839 | eff(%):  0.662 | loglstar:   -inf < 59.307 <    inf | logz: 43.358 +/-  0.238 | dlogz:  3.797 >  1.000
+2025-07-07 15:57:11,335 INFO       iteration 4112 | batch: 0 | bound: 1643 | nc: 1856 | ncall: 624436 | eff(%):  0.658 | loglstar:   -inf < 59.348 <    inf | logz: 43.381 +/-  0.238 | dlogz:  3.739 >  1.000
+2025-07-07 15:57:26,948 INFO       iteration 4124 | batch: 0 | bound: 1654 | nc: 1306 | ncall: 628411 | eff(%):  0.656 | loglstar:   -inf < 59.406 <    inf | logz: 43.411 +/-  0.238 | dlogz:  3.663 >  1.000
+2025-07-07 15:57:43,073 INFO       iteration 4133 | batch: 0 | bound: 1665 | nc: 1015 | ncall: 632546 | eff(%):  0.653 | loglstar:   -inf < 59.428 <    inf | logz: 43.433 +/-  0.239 | dlogz:  3.606 >  1.000
+2025-07-07 15:58:01,081 INFO       iteration 4147 | batch: 0 | bound: 1677 | nc: 794 | ncall: 637176 | eff(%):  0.651 | loglstar:   -inf < 59.500 <    inf | logz: 43.467 +/-  0.239 | dlogz:  3.519 >  1.000
+2025-07-07 15:58:17,556 INFO       iteration 4161 | batch: 0 | bound: 1689 | nc: 978 | ncall: 641381 | eff(%):  0.649 | loglstar:   -inf < 59.554 <    inf | logz: 43.499 +/-  0.239 | dlogz:  3.434 >  1.000
+2025-07-07 15:58:34,527 INFO       iteration 4169 | batch: 0 | bound: 1700 | nc: 777 | ncall: 645683 | eff(%):  0.645 | loglstar:   -inf < 59.588 <    inf | logz: 43.518 +/-  0.239 | dlogz:  3.385 >  1.000
+2025-07-07 15:58:52,071 INFO       iteration 4171 | batch: 0 | bound: 1712 | nc: 3367 | ncall: 650136 | eff(%):  0.641 | loglstar:   -inf < 59.590 <    inf | logz: 43.522 +/-  0.239 | dlogz:  3.373 >  1.000
+2025-07-07 15:59:08,499 INFO       iteration 4172 | batch: 0 | bound: 1723 | nc: 4175 | ncall: 654311 | eff(%):  0.637 | loglstar:   -inf < 59.591 <    inf | logz: 43.524 +/-  0.239 | dlogz:  3.367 >  1.000
+2025-07-07 15:59:31,398 INFO       iteration 4173 | batch: 0 | bound: 1739 | nc: 5801 | ncall: 660112 | eff(%):  0.632 | loglstar:   -inf < 59.603 <    inf | logz: 43.527 +/-  0.239 | dlogz:  3.361 >  1.000
+2025-07-07 15:59:48,117 INFO       iteration 4195 | batch: 0 | bound: 1750 | nc: 1648 | ncall: 664377 | eff(%):  0.631 | loglstar:   -inf < 59.733 <    inf | logz: 43.575 +/-  0.239 | dlogz:  3.230 >  1.000
+2025-07-07 16:00:04,088 INFO       iteration 4207 | batch: 0 | bound: 1761 | nc: 716 | ncall: 668452 | eff(%):  0.629 | loglstar:   -inf < 59.789 <    inf | logz: 43.601 +/-  0.240 | dlogz:  3.158 >  1.000
+2025-07-07 16:00:19,088 INFO       iteration 4260 | batch: 0 | bound: 1771 | nc: 147 | ncall: 672309 | eff(%):  0.633 | loglstar:   -inf < 60.065 <    inf | logz: 43.715 +/-  0.240 | dlogz:  2.850 >  1.000
+2025-07-07 16:00:34,162 INFO       iteration 4306 | batch: 0 | bound: 1781 | nc: 267 | ncall: 676184 | eff(%):  0.637 | loglstar:   -inf < 60.253 <    inf | logz: 43.807 +/-  0.241 | dlogz:  2.592 >  1.000
+2025-07-07 16:00:50,171 INFO       iteration 4348 | batch: 0 | bound: 1792 | nc: 267 | ncall: 680299 | eff(%):  0.639 | loglstar:   -inf < 60.437 <    inf | logz: 43.884 +/-  0.242 | dlogz:  2.368 >  1.000
+2025-07-07 16:01:05,256 INFO       iteration 4397 | batch: 0 | bound: 1803 | nc: 23 | ncall: 684169 | eff(%):  0.642 | loglstar:   -inf < 60.656 <    inf | logz: 43.969 +/-  0.242 | dlogz:  2.117 >  1.000
+2025-07-07 16:01:21,493 INFO       iteration 4426 | batch: 0 | bound: 1814 | nc: 604 | ncall: 688310 | eff(%):  0.643 | loglstar:   -inf < 60.776 <    inf | logz: 44.016 +/-  0.243 | dlogz:  2.516 >  1.000
+2025-07-07 16:01:36,858 INFO       iteration 4446 | batch: 0 | bound: 1824 | nc: 116 | ncall: 692189 | eff(%):  0.642 | loglstar:   -inf < 60.866 <    inf | logz: 44.048 +/-  0.243 | dlogz:  2.414 >  1.000
+2025-07-07 16:01:52,522 INFO       iteration 4457 | batch: 0 | bound: 1835 | nc: 268 | ncall: 696132 | eff(%):  0.640 | loglstar:   -inf < 60.921 <    inf | logz: 44.065 +/-  0.243 | dlogz:  2.359 >  1.000
+2025-07-07 16:02:11,682 INFO       iteration 4482 | batch: 0 | bound: 1848 | nc: 1521 | ncall: 700982 | eff(%):  0.639 | loglstar:   -inf < 61.036 <    inf | logz: 44.104 +/-  0.243 | dlogz:  2.234 >  1.000
+2025-07-07 16:02:28,216 INFO       iteration 4504 | batch: 0 | bound: 1859 | nc: 466 | ncall: 705166 | eff(%):  0.638 | loglstar:   -inf < 61.131 <    inf | logz: 44.137 +/-  0.244 | dlogz:  2.127 >  1.000
+2025-07-07 16:02:44,447 INFO       iteration 4509 | batch: 0 | bound: 1870 | nc: 2880 | ncall: 709304 | eff(%):  0.635 | loglstar:   -inf < 61.140 <    inf | logz: 44.144 +/-  0.244 | dlogz:  2.103 >  1.000
+2025-07-07 16:02:59,562 INFO       iteration 4524 | batch: 0 | bound: 1880 | nc: 37 | ncall: 713171 | eff(%):  0.634 | loglstar:   -inf < 61.183 <    inf | logz: 44.166 +/-  0.244 | dlogz:  2.032 >  1.000
+2025-07-07 16:03:18,217 INFO       iteration 4537 | batch: 0 | bound: 1893 | nc: 2485 | ncall: 717879 | eff(%):  0.632 | loglstar:   -inf < 61.215 <    inf | logz: 44.184 +/-  0.244 | dlogz:  1.971 >  1.000
+2025-07-07 16:03:34,510 INFO       iteration 4555 | batch: 0 | bound: 1904 | nc: 620 | ncall: 722056 | eff(%):  0.631 | loglstar:   -inf < 61.252 <    inf | logz: 44.207 +/-  0.244 | dlogz:  1.889 >  1.000
+2025-07-07 16:04:31,240 INFO       iteration 4566 | batch: 0 | bound: 1942 | nc: 11424 | ncall: 736294 | eff(%):  0.620 | loglstar:   -inf < 61.290 <    inf | logz: 44.221 +/-  0.245 | dlogz:  1.841 >  1.000
+2025-07-07 16:05:10,469 INFO       iteration 4575 | batch: 0 | bound: 1968 | nc: 7967 | ncall: 746063 | eff(%):  0.613 | loglstar:   -inf < 61.317 <    inf | logz: 44.233 +/-  0.245 | dlogz:  1.801 >  1.000
+2025-07-07 16:05:59,928 INFO       iteration 4582 | batch: 0 | bound: 2001 | nc: 10557 | ncall: 758395 | eff(%):  0.604 | loglstar:   -inf < 61.334 <    inf | logz: 44.241 +/-  0.245 | dlogz:  1.771 >  1.000
+2025-07-07 16:06:15,131 INFO       iteration 4590 | batch: 0 | bound: 2011 | nc: 71 | ncall: 762221 | eff(%):  0.602 | loglstar:   -inf < 61.354 <    inf | logz: 44.251 +/-  0.245 | dlogz:  1.736 >  1.000
+2025-07-07 16:06:53,775 INFO       iteration 4600 | batch: 0 | bound: 2037 | nc: 8270 | ncall: 771862 | eff(%):  0.596 | loglstar:   -inf < 61.388 <    inf | logz: 44.262 +/-  0.245 | dlogz:  1.694 >  1.000
+2025-07-07 16:07:12,080 INFO       iteration 4605 | batch: 0 | bound: 2049 | nc: 986 | ncall: 776433 | eff(%):  0.593 | loglstar:   -inf < 61.403 <    inf | logz: 44.268 +/-  0.245 | dlogz:  1.673 >  1.000
+2025-07-07 16:07:28,045 INFO       iteration 4608 | batch: 0 | bound: 2059 | nc: 3690 | ncall: 780412 | eff(%):  0.590 | loglstar:   -inf < 61.411 <    inf | logz: 44.272 +/-  0.245 | dlogz:  1.661 >  1.000
+2025-07-07 16:07:54,019 INFO       iteration 4617 | batch: 0 | bound: 2077 | nc: 4179 | ncall: 786900 | eff(%):  0.587 | loglstar:   -inf < 61.435 <    inf | logz: 44.282 +/-  0.245 | dlogz:  1.623 >  1.000
+2025-07-07 16:08:09,204 INFO       iteration 4700 | batch: 0 | bound: 2087 | nc: 66 | ncall: 790847 | eff(%):  0.594 | loglstar:   -inf < 61.672 <    inf | logz: 44.366 +/-  0.246 | dlogz:  1.304 >  1.000
+2025-07-07 16:09:14,430 INFO       iteration 5042 | batch: 1 | bound: 0 | nc: 3 | ncall: 794043 | eff(%):  0.635 | loglstar: 63.588 < 62.165 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:09:29,557 INFO       iteration 5097 | batch: 1 | bound: 11 | nc: 53 | ncall: 797976 | eff(%):  0.628 | loglstar: 63.588 < 62.072 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:09:44,598 INFO       iteration 5351 | batch: 1 | bound: 22 | nc: 10 | ncall: 801923 | eff(%):  0.656 | loglstar: 63.588 < 62.641 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:10:00,090 INFO       iteration 5469 | batch: 1 | bound: 32 | nc: 196 | ncall: 805990 | eff(%):  0.667 | loglstar: 63.588 < 62.872 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:10:15,108 INFO       iteration 5596 | batch: 1 | bound: 43 | nc: 13 | ncall: 809904 | eff(%):  0.679 | loglstar: 63.588 < 63.083 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:10:30,142 INFO       iteration 5694 | batch: 1 | bound: 53 | nc: 88 | ncall: 813870 | eff(%):  0.688 | loglstar: 63.588 < 63.194 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:10:45,575 INFO       iteration 5806 | batch: 1 | bound: 64 | nc: 283 | ncall: 817939 | eff(%):  0.698 | loglstar: 63.588 < 63.351 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:11:01,229 INFO       iteration 5925 | batch: 1 | bound: 75 | nc: 215 | ncall: 822063 | eff(%):  0.708 | loglstar: 63.588 < 63.495 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:11:16,361 INFO       iteration 5962 | batch: 1 | bound: 86 | nc: 58 | ncall: 826042 | eff(%):  0.709 | loglstar: 63.588 < 63.545 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:11:31,388 INFO       iteration 6144 | batch: 1 | bound: 97 | nc: 47 | ncall: 830052 | eff(%):  0.728 | loglstar: 63.588 < 63.734 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:11:46,444 INFO       iteration 6354 | batch: 1 | bound: 107 | nc: 63 | ncall: 834095 | eff(%):  0.749 | loglstar: 63.588 < 63.921 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:12:01,469 INFO       iteration 6542 | batch: 1 | bound: 118 | nc: 13 | ncall: 838131 | eff(%):  0.767 | loglstar: 63.588 < 64.070 <    inf | logz: 44.751 +/-  0.519 | stop:  8.071
+2025-07-07 16:12:52,768 INFO       iteration 6967 | batch: 2 | bound: 0 | nc: 1529 | ncall: 854284 | eff(%):  0.816 | loglstar: 59.073 < 59.275 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:13:08,226 INFO       iteration 7021 | batch: 2 | bound: 11 | nc: 778 | ncall: 858290 | eff(%):  0.807 | loglstar: 59.073 < 59.249 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:13:26,995 INFO       iteration 7042 | batch: 2 | bound: 24 | nc: 1058 | ncall: 863072 | eff(%):  0.805 | loglstar: 59.073 < 59.356 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:13:42,747 INFO       iteration 7071 | batch: 2 | bound: 35 | nc: 541 | ncall: 867085 | eff(%):  0.805 | loglstar: 59.073 < 59.454 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:13:58,043 INFO       iteration 7094 | batch: 2 | bound: 45 | nc: 198 | ncall: 870990 | eff(%):  0.804 | loglstar: 59.073 < 59.567 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:14:19,155 INFO       iteration 7107 | batch: 2 | bound: 59 | nc: 1685 | ncall: 876400 | eff(%):  0.800 | loglstar: 59.073 < 59.637 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:14:34,228 INFO       iteration 7114 | batch: 2 | bound: 70 | nc: 50 | ncall: 880231 | eff(%):  0.798 | loglstar: 59.073 < 59.674 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:14:50,600 INFO       iteration 7116 | batch: 2 | bound: 81 | nc: 683 | ncall: 884427 | eff(%):  0.794 | loglstar: 59.073 < 59.683 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:15:13,028 INFO       iteration 7121 | batch: 2 | bound: 96 | nc: 2034 | ncall: 890171 | eff(%):  0.790 | loglstar: 59.073 < 59.697 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:15:28,393 INFO       iteration 7146 | batch: 2 | bound: 107 | nc: 348 | ncall: 894102 | eff(%):  0.789 | loglstar: 59.073 < 59.822 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:15:43,728 INFO       iteration 7159 | batch: 2 | bound: 117 | nc: 556 | ncall: 898059 | eff(%):  0.787 | loglstar: 59.073 < 59.865 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:16:03,534 INFO       iteration 7171 | batch: 2 | bound: 131 | nc: 1380 | ncall: 903200 | eff(%):  0.784 | loglstar: 59.073 < 59.926 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:16:19,827 INFO       iteration 7183 | batch: 2 | bound: 142 | nc: 350 | ncall: 907450 | eff(%):  0.782 | loglstar: 59.073 < 59.960 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:16:35,381 INFO       iteration 7193 | batch: 2 | bound: 153 | nc: 347 | ncall: 911510 | eff(%):  0.779 | loglstar: 59.073 < 60.024 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:16:50,922 INFO       iteration 7207 | batch: 2 | bound: 164 | nc: 572 | ncall: 915549 | eff(%):  0.777 | loglstar: 59.073 < 60.094 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:17:06,249 INFO       iteration 7222 | batch: 2 | bound: 175 | nc: 102 | ncall: 919545 | eff(%):  0.776 | loglstar: 59.073 < 60.160 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:17:25,650 INFO       iteration 7233 | batch: 2 | bound: 188 | nc: 1362 | ncall: 924588 | eff(%):  0.773 | loglstar: 59.073 < 60.192 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:17:41,498 INFO       iteration 7254 | batch: 2 | bound: 199 | nc: 349 | ncall: 928674 | eff(%):  0.772 | loglstar: 59.073 < 60.248 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:17:56,519 INFO       iteration 7307 | batch: 2 | bound: 209 | nc: 43 | ncall: 932562 | eff(%):  0.774 | loglstar: 59.073 < 60.444 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:18:11,979 INFO       iteration 7357 | batch: 2 | bound: 220 | nc: 905 | ncall: 936557 | eff(%):  0.776 | loglstar: 59.073 < 60.649 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:18:27,252 INFO       iteration 7395 | batch: 2 | bound: 230 | nc: 105 | ncall: 940478 | eff(%):  0.777 | loglstar: 59.073 < 60.805 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:18:43,366 INFO       iteration 7457 | batch: 2 | bound: 241 | nc: 390 | ncall: 944648 | eff(%):  0.780 | loglstar: 59.073 < 60.997 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:18:58,560 INFO       iteration 7485 | batch: 2 | bound: 252 | nc: 290 | ncall: 948553 | eff(%):  0.780 | loglstar: 59.073 < 61.116 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:19:14,116 INFO       iteration 7528 | batch: 2 | bound: 263 | nc: 218 | ncall: 952583 | eff(%):  0.781 | loglstar: 59.073 < 61.227 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:19:29,645 INFO       iteration 7571 | batch: 2 | bound: 273 | nc: 418 | ncall: 956604 | eff(%):  0.782 | loglstar: 59.073 < 61.347 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:19:49,377 INFO       iteration 7656 | batch: 2 | bound: 287 | nc: 1527 | ncall: 961659 | eff(%):  0.787 | loglstar: 59.073 < 61.580 < 61.632 | logz: 44.757 +/-  0.243 | stop:  5.026
+2025-07-07 16:21:14,734 INFO       iteration 7926 | batch: 3 | bound: 0 | nc: 49 | ncall: 975430 | eff(%):  0.813 | loglstar: 58.218 < 59.784 < 59.074 | logz: 44.698 +/-  0.203 | stop:  3.117
+2025-07-07 16:21:30,100 INFO       iteration 7973 | batch: 3 | bound: 11 | nc: 412 | ncall: 979373 | eff(%):  0.798 | loglstar: 58.218 < 58.502 < 59.074 | logz: 44.698 +/-  0.203 | stop:  3.117
+2025-07-07 16:21:48,255 INFO       iteration 7993 | batch: 3 | bound: 23 | nc: 1121 | ncall: 984054 | eff(%):  0.796 | loglstar: 58.218 < 58.594 < 59.074 | logz: 44.698 +/-  0.203 | stop:  3.117
+2025-07-07 16:22:03,389 INFO       iteration 8044 | batch: 3 | bound: 34 | nc: 89 | ncall: 987930 | eff(%):  0.798 | loglstar: 58.218 < 58.939 < 59.074 | logz: 44.698 +/-  0.203 | stop:  3.117
+2025-07-07 16:22:21,102 INFO       iteration 8052 | batch: 3 | bound: 46 | nc: 889 | ncall: 992466 | eff(%):  0.795 | loglstar: 58.218 < 58.983 < 59.074 | logz: 44.698 +/-  0.203 | stop:  3.117
+2025-07-07 16:22:41,318 INFO       iteration 8062 | batch: 3 | bound: 60 | nc: 2191 | ncall: 997644 | eff(%):  0.792 | loglstar: 58.218 < 59.053 < 59.074 | logz: 44.698 +/-  0.203 | stop:  3.117
+2025-07-07 16:24:31,786 INFO       iteration 8319 | batch: 4 | bound: 0 | nc: 380 | ncall: 1018954 | eff(%):  0.816 | loglstar: 57.599 < 60.115 < 58.221 | logz: 44.705 +/-  0.192 | stop:  2.658
+2025-07-07 16:24:50,392 INFO       iteration 8355 | batch: 4 | bound: 13 | nc: 1098 | ncall: 1023630 | eff(%):  0.795 | loglstar: 57.599 < 57.874 < 58.221 | logz: 44.705 +/-  0.192 | stop:  2.658
+2025-07-07 16:25:05,405 INFO       iteration 8406 | batch: 4 | bound: 23 | nc: 35 | ncall: 1027472 | eff(%):  0.797 | loglstar: 57.599 < 58.218 < 58.221 | logz: 44.705 +/-  0.192 | stop:  2.658
+2025-07-07 16:26:13,815 INFO       iteration 8658 | batch: 5 | bound: 0 | nc: 45 | ncall: 1054784 | eff(%):  0.821 | loglstar: 57.002 < 58.687 < 57.611 | logz: 44.707 +/-  0.185 | stop:  2.403
+2025-07-07 16:26:30,138 INFO       iteration 8707 | batch: 5 | bound: 12 | nc: 352 | ncall: 1058964 | eff(%):  0.809 | loglstar: 57.002 < 57.370 < 57.611 | logz: 44.707 +/-  0.185 | stop:  2.403
+2025-07-07 16:27:02,346 INFO       iteration 8991 | batch: 6 | bound: 0 | nc: 254 | ncall: 1079321 | eff(%):  0.833 | loglstar: 56.392 < 58.086 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:27:20,878 INFO       iteration 9028 | batch: 6 | bound: 13 | nc: 1307 | ncall: 1083936 | eff(%):  0.829 | loglstar: 56.392 < 56.664 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:27:35,979 INFO       iteration 9033 | batch: 6 | bound: 23 | nc: 788 | ncall: 1087713 | eff(%):  0.826 | loglstar: 56.392 < 56.729 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:27:51,563 INFO       iteration 9042 | batch: 6 | bound: 33 | nc: 358 | ncall: 1091647 | eff(%):  0.824 | loglstar: 56.392 < 56.804 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:28:09,739 INFO       iteration 9051 | batch: 6 | bound: 46 | nc: 872 | ncall: 1096227 | eff(%):  0.822 | loglstar: 56.392 < 56.893 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:28:24,892 INFO       iteration 9065 | batch: 6 | bound: 56 | nc: 256 | ncall: 1100058 | eff(%):  0.820 | loglstar: 56.392 < 57.024 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:28:49,456 INFO       iteration 9081 | batch: 6 | bound: 72 | nc: 2922 | ncall: 1106317 | eff(%):  0.817 | loglstar: 56.392 < 57.128 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:29:09,819 INFO       iteration 9083 | batch: 6 | bound: 86 | nc: 5122 | ncall: 1111485 | eff(%):  0.813 | loglstar: 56.392 < 57.144 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:29:27,721 INFO       iteration 9090 | batch: 6 | bound: 98 | nc: 1021 | ncall: 1116007 | eff(%):  0.811 | loglstar: 56.392 < 57.205 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:29:45,438 INFO       iteration 9098 | batch: 6 | bound: 110 | nc: 880 | ncall: 1120473 | eff(%):  0.808 | loglstar: 56.392 < 57.271 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:30:01,655 INFO       iteration 9102 | batch: 6 | bound: 121 | nc: 1419 | ncall: 1124585 | eff(%):  0.805 | loglstar: 56.392 < 57.314 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:30:16,980 INFO       iteration 9129 | batch: 6 | bound: 132 | nc: 739 | ncall: 1128461 | eff(%):  0.805 | loglstar: 56.392 < 57.559 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:30:32,149 INFO       iteration 9136 | batch: 6 | bound: 142 | nc: 83 | ncall: 1132285 | eff(%):  0.803 | loglstar: 56.392 < 57.581 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:30:48,755 INFO       iteration 9192 | batch: 6 | bound: 153 | nc: 570 | ncall: 1136508 | eff(%):  0.805 | loglstar: 56.392 < 57.936 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:31:05,540 INFO       iteration 9203 | batch: 6 | bound: 164 | nc: 1284 | ncall: 1140790 | eff(%):  0.803 | loglstar: 56.392 < 57.971 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:31:21,188 INFO       iteration 9214 | batch: 6 | bound: 175 | nc: 546 | ncall: 1144771 | eff(%):  0.801 | loglstar: 56.392 < 58.008 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:31:36,388 INFO       iteration 9220 | batch: 6 | bound: 185 | nc: 162 | ncall: 1148646 | eff(%):  0.799 | loglstar: 56.392 < 58.042 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:31:52,443 INFO       iteration 9230 | batch: 6 | bound: 196 | nc: 306 | ncall: 1152700 | eff(%):  0.797 | loglstar: 56.392 < 58.086 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:32:07,465 INFO       iteration 9255 | batch: 6 | bound: 206 | nc: 419 | ncall: 1156501 | eff(%):  0.797 | loglstar: 56.392 < 58.275 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:32:31,395 INFO       iteration 9268 | batch: 6 | bound: 222 | nc: 2432 | ncall: 1162548 | eff(%):  0.794 | loglstar: 56.392 < 58.342 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:32:46,860 INFO       iteration 9282 | batch: 6 | bound: 233 | nc: 302 | ncall: 1166457 | eff(%):  0.792 | loglstar: 56.392 < 58.415 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:33:02,320 INFO       iteration 9318 | batch: 6 | bound: 243 | nc: 302 | ncall: 1170358 | eff(%):  0.792 | loglstar: 56.392 < 58.641 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:33:17,505 INFO       iteration 9336 | batch: 6 | bound: 254 | nc: 140 | ncall: 1174206 | eff(%):  0.791 | loglstar: 56.392 < 58.727 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:33:34,516 INFO       iteration 9349 | batch: 6 | bound: 265 | nc: 554 | ncall: 1178508 | eff(%):  0.790 | loglstar: 56.392 < 58.810 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:33:50,211 INFO       iteration 9394 | batch: 6 | bound: 276 | nc: 431 | ncall: 1182465 | eff(%):  0.791 | loglstar: 56.392 < 59.041 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:34:05,299 INFO       iteration 9453 | batch: 6 | bound: 286 | nc: 33 | ncall: 1186295 | eff(%):  0.793 | loglstar: 56.392 < 59.333 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:34:23,179 INFO       iteration 9460 | batch: 6 | bound: 298 | nc: 4196 | ncall: 1190726 | eff(%):  0.791 | loglstar: 56.392 < 59.366 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:34:44,181 INFO       iteration 9474 | batch: 6 | bound: 312 | nc: 1617 | ncall: 1195948 | eff(%):  0.789 | loglstar: 56.392 < 59.429 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:35:12,132 INFO       iteration 9478 | batch: 6 | bound: 330 | nc: 5370 | ncall: 1202911 | eff(%):  0.784 | loglstar: 56.392 < 59.453 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:35:28,328 INFO       iteration 9488 | batch: 6 | bound: 341 | nc: 653 | ncall: 1207019 | eff(%):  0.783 | loglstar: 56.392 < 59.510 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:35:45,232 INFO       iteration 9490 | batch: 6 | bound: 353 | nc: 581 | ncall: 1211359 | eff(%):  0.780 | loglstar: 56.392 < 59.513 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:36:00,634 INFO       iteration 9497 | batch: 6 | bound: 363 | nc: 115 | ncall: 1215281 | eff(%):  0.778 | loglstar: 56.392 < 59.558 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:36:19,376 INFO       iteration 9506 | batch: 6 | bound: 376 | nc: 2011 | ncall: 1220036 | eff(%):  0.776 | loglstar: 56.392 < 59.587 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:36:40,806 INFO       iteration 9514 | batch: 6 | bound: 390 | nc: 2913 | ncall: 1225451 | eff(%):  0.773 | loglstar: 56.392 < 59.622 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:36:59,716 INFO       iteration 9519 | batch: 6 | bound: 403 | nc: 1711 | ncall: 1230236 | eff(%):  0.770 | loglstar: 56.392 < 59.649 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:37:40,880 INFO       iteration 9525 | batch: 6 | bound: 430 | nc: 6927 | ncall: 1240545 | eff(%):  0.764 | loglstar: 56.392 < 59.686 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:38:07,033 INFO       iteration 9534 | batch: 6 | bound: 448 | nc: 3749 | ncall: 1247075 | eff(%):  0.761 | loglstar: 56.392 < 59.751 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:38:24,669 INFO       iteration 9546 | batch: 6 | bound: 460 | nc: 871 | ncall: 1251530 | eff(%):  0.759 | loglstar: 56.392 < 59.871 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:38:40,380 INFO       iteration 9547 | batch: 6 | bound: 470 | nc: 3923 | ncall: 1255453 | eff(%):  0.757 | loglstar: 56.392 < 59.871 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:38:59,842 INFO       iteration 9549 | batch: 6 | bound: 483 | nc: 4828 | ncall: 1260333 | eff(%):  0.754 | loglstar: 56.392 < 59.874 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:39:27,989 INFO       iteration 9553 | batch: 6 | bound: 502 | nc: 6187 | ncall: 1267335 | eff(%):  0.751 | loglstar: 56.392 < 59.911 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:39:44,376 INFO       iteration 9556 | batch: 6 | bound: 513 | nc: 1251 | ncall: 1271416 | eff(%):  0.748 | loglstar: 56.392 < 59.923 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:40:05,121 INFO       iteration 9558 | batch: 6 | bound: 527 | nc: 5027 | ncall: 1276601 | eff(%):  0.746 | loglstar: 56.392 < 59.929 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:40:38,658 INFO       iteration 9567 | batch: 6 | bound: 549 | nc: 5005 | ncall: 1284892 | eff(%):  0.741 | loglstar: 56.392 < 59.966 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:41:10,800 INFO       iteration 9569 | batch: 6 | bound: 570 | nc: 7929 | ncall: 1292828 | eff(%):  0.737 | loglstar: 56.392 < 59.969 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:41:28,465 INFO       iteration 9573 | batch: 6 | bound: 582 | nc: 2397 | ncall: 1297210 | eff(%):  0.735 | loglstar: 56.392 < 60.000 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:41:43,507 INFO       iteration 9626 | batch: 6 | bound: 592 | nc: 36 | ncall: 1301077 | eff(%):  0.737 | loglstar: 56.392 < 60.225 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:41:58,546 INFO       iteration 9649 | batch: 6 | bound: 602 | nc: 19 | ncall: 1304955 | eff(%):  0.736 | loglstar: 56.392 < 60.332 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:42:13,571 INFO       iteration 9756 | batch: 6 | bound: 612 | nc: 25 | ncall: 1308818 | eff(%):  0.742 | loglstar: 56.392 < 60.714 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:42:29,017 INFO       iteration 9839 | batch: 6 | bound: 623 | nc: 123 | ncall: 1312774 | eff(%):  0.746 | loglstar: 56.392 < 60.977 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:42:46,084 INFO       iteration 9926 | batch: 6 | bound: 635 | nc: 1204 | ncall: 1317136 | eff(%):  0.751 | loglstar: 56.392 < 61.255 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:43:01,100 INFO       iteration 9981 | batch: 6 | bound: 645 | nc: 39 | ncall: 1320976 | eff(%):  0.752 | loglstar: 56.392 < 61.406 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:43:19,313 INFO       iteration 10039 | batch: 6 | bound: 657 | nc: 964 | ncall: 1325676 | eff(%):  0.754 | loglstar: 56.392 < 61.567 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:43:35,905 INFO       iteration 10062 | batch: 6 | bound: 669 | nc: 935 | ncall: 1329908 | eff(%):  0.754 | loglstar: 56.392 < 61.647 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:43:53,696 INFO       iteration 10088 | batch: 6 | bound: 681 | nc: 1614 | ncall: 1334433 | eff(%):  0.753 | loglstar: 56.392 < 61.754 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:44:08,704 INFO       iteration 10111 | batch: 6 | bound: 691 | nc: 17 | ncall: 1338231 | eff(%):  0.753 | loglstar: 56.392 < 61.820 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:44:27,448 INFO       iteration 10145 | batch: 6 | bound: 704 | nc: 1255 | ncall: 1343047 | eff(%):  0.752 | loglstar: 56.392 < 61.926 < 61.928 | logz: 44.708 +/-  0.180 | stop:  2.235
+2025-07-07 16:44:51,865 INFO       iteration 10397 | batch: 7 | bound: 0 | nc: 16 | ncall: 1348991 | eff(%):  0.771 | loglstar: 55.727 < 60.697 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:45:07,530 INFO       iteration 10509 | batch: 7 | bound: 11 | nc: 162 | ncall: 1352895 | eff(%):  0.774 | loglstar: 55.727 < 56.543 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:45:24,224 INFO       iteration 10540 | batch: 7 | bound: 22 | nc: 550 | ncall: 1357024 | eff(%):  0.773 | loglstar: 55.727 < 56.776 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:45:44,539 INFO       iteration 10557 | batch: 7 | bound: 35 | nc: 1772 | ncall: 1362031 | eff(%):  0.772 | loglstar: 55.727 < 56.889 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:46:01,003 INFO       iteration 10572 | batch: 7 | bound: 46 | nc: 1561 | ncall: 1366098 | eff(%):  0.771 | loglstar: 55.727 < 56.998 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:46:22,873 INFO       iteration 10576 | batch: 7 | bound: 61 | nc: 1934 | ncall: 1371505 | eff(%):  0.768 | loglstar: 55.727 < 57.064 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:46:39,720 INFO       iteration 10585 | batch: 7 | bound: 72 | nc: 970 | ncall: 1375656 | eff(%):  0.766 | loglstar: 55.727 < 57.127 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:46:55,130 INFO       iteration 10592 | batch: 7 | bound: 82 | nc: 3484 | ncall: 1379430 | eff(%):  0.765 | loglstar: 55.727 < 57.157 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:47:19,448 INFO       iteration 10602 | batch: 7 | bound: 98 | nc: 2770 | ncall: 1385375 | eff(%):  0.762 | loglstar: 55.727 < 57.254 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:47:36,450 INFO       iteration 10616 | batch: 7 | bound: 109 | nc: 900 | ncall: 1389538 | eff(%):  0.761 | loglstar: 55.727 < 57.350 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:47:52,489 INFO       iteration 10629 | batch: 7 | bound: 119 | nc: 1090 | ncall: 1393493 | eff(%):  0.760 | loglstar: 55.727 < 57.485 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:48:11,769 INFO       iteration 10636 | batch: 7 | bound: 132 | nc: 2129 | ncall: 1398211 | eff(%):  0.758 | loglstar: 55.727 < 57.517 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:48:27,934 INFO       iteration 10637 | batch: 7 | bound: 142 | nc: 3992 | ncall: 1402203 | eff(%):  0.756 | loglstar: 55.727 < 57.518 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:48:45,222 INFO       iteration 10641 | batch: 7 | bound: 154 | nc: 1205 | ncall: 1406480 | eff(%):  0.754 | loglstar: 55.727 < 57.537 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:49:03,624 INFO       iteration 10645 | batch: 7 | bound: 166 | nc: 1700 | ncall: 1411050 | eff(%):  0.751 | loglstar: 55.727 < 57.566 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:49:20,010 INFO       iteration 10660 | batch: 7 | bound: 177 | nc: 580 | ncall: 1415144 | eff(%):  0.750 | loglstar: 55.727 < 57.672 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:49:37,519 INFO       iteration 10663 | batch: 7 | bound: 188 | nc: 4256 | ncall: 1419472 | eff(%):  0.748 | loglstar: 55.727 < 57.683 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:49:56,674 INFO       iteration 10665 | batch: 7 | bound: 201 | nc: 1035 | ncall: 1424201 | eff(%):  0.746 | loglstar: 55.727 < 57.687 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:50:13,716 INFO       iteration 10669 | batch: 7 | bound: 212 | nc: 650 | ncall: 1428422 | eff(%):  0.744 | loglstar: 55.727 < 57.704 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:50:31,688 INFO       iteration 10671 | batch: 7 | bound: 224 | nc: 3056 | ncall: 1432862 | eff(%):  0.742 | loglstar: 55.727 < 57.722 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:50:53,606 INFO       iteration 10675 | batch: 7 | bound: 239 | nc: 2351 | ncall: 1438286 | eff(%):  0.739 | loglstar: 55.727 < 57.733 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:51:38,213 INFO       iteration 10679 | batch: 7 | bound: 268 | nc: 7700 | ncall: 1449344 | eff(%):  0.734 | loglstar: 55.727 < 57.754 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:51:55,311 INFO       iteration 10686 | batch: 7 | bound: 279 | nc: 2656 | ncall: 1453599 | eff(%):  0.732 | loglstar: 55.727 < 57.807 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:52:27,006 INFO       iteration 10687 | batch: 7 | bound: 300 | nc: 7855 | ncall: 1461454 | eff(%):  0.728 | loglstar: 55.727 < 57.808 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:52:42,121 INFO       iteration 10692 | batch: 7 | bound: 310 | nc: 62 | ncall: 1465184 | eff(%):  0.727 | loglstar: 55.727 < 57.833 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:52:57,877 INFO       iteration 10694 | batch: 7 | bound: 321 | nc: 391 | ncall: 1469065 | eff(%):  0.725 | loglstar: 55.727 < 57.834 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:53:14,946 INFO       iteration 10706 | batch: 7 | bound: 332 | nc: 908 | ncall: 1473303 | eff(%):  0.724 | loglstar: 55.727 < 57.883 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:53:50,713 INFO       iteration 10707 | batch: 7 | bound: 356 | nc: 8864 | ncall: 1482167 | eff(%):  0.720 | loglstar: 55.727 < 57.884 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:54:09,646 INFO       iteration 10715 | batch: 7 | bound: 368 | nc: 1467 | ncall: 1486872 | eff(%):  0.718 | loglstar: 55.727 < 57.943 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:54:27,763 INFO       iteration 10721 | batch: 7 | bound: 380 | nc: 1150 | ncall: 1491331 | eff(%):  0.716 | loglstar: 55.727 < 57.982 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:54:43,563 INFO       iteration 10730 | batch: 7 | bound: 391 | nc: 916 | ncall: 1495277 | eff(%):  0.715 | loglstar: 55.727 < 58.042 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:55:01,080 INFO       iteration 10749 | batch: 7 | bound: 402 | nc: 1141 | ncall: 1499723 | eff(%):  0.714 | loglstar: 55.727 < 58.160 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:55:20,537 INFO       iteration 10808 | batch: 7 | bound: 416 | nc: 1929 | ncall: 1504643 | eff(%):  0.716 | loglstar: 55.727 < 58.612 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:55:36,870 INFO       iteration 10842 | batch: 7 | bound: 427 | nc: 377 | ncall: 1508742 | eff(%):  0.716 | loglstar: 55.727 < 58.743 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:55:52,606 INFO       iteration 10871 | batch: 7 | bound: 437 | nc: 217 | ncall: 1512667 | eff(%):  0.716 | loglstar: 55.727 < 58.908 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:56:07,644 INFO       iteration 10935 | batch: 7 | bound: 447 | nc: 10 | ncall: 1516458 | eff(%):  0.718 | loglstar: 55.727 < 59.199 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:56:23,463 INFO       iteration 10966 | batch: 7 | bound: 458 | nc: 296 | ncall: 1520435 | eff(%):  0.719 | loglstar: 55.727 < 59.341 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:56:38,980 INFO       iteration 11032 | batch: 7 | bound: 468 | nc: 253 | ncall: 1524419 | eff(%):  0.721 | loglstar: 55.727 < 59.690 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:56:59,843 INFO       iteration 11084 | batch: 7 | bound: 483 | nc: 1544 | ncall: 1529792 | eff(%):  0.722 | loglstar: 55.727 < 59.908 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:57:14,851 INFO       iteration 11110 | batch: 7 | bound: 493 | nc: 38 | ncall: 1533697 | eff(%):  0.722 | loglstar: 55.727 < 59.979 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:57:30,133 INFO       iteration 11178 | batch: 7 | bound: 503 | nc: 171 | ncall: 1537597 | eff(%):  0.724 | loglstar: 55.727 < 60.314 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:57:45,201 INFO       iteration 11225 | batch: 7 | bound: 514 | nc: 196 | ncall: 1541451 | eff(%):  0.726 | loglstar: 55.727 < 60.495 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:58:00,962 INFO       iteration 11259 | batch: 7 | bound: 525 | nc: 521 | ncall: 1545524 | eff(%):  0.726 | loglstar: 55.727 < 60.624 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:58:16,778 INFO       iteration 11269 | batch: 7 | bound: 535 | nc: 486 | ncall: 1549572 | eff(%):  0.725 | loglstar: 55.727 < 60.664 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:58:31,910 INFO       iteration 11280 | batch: 7 | bound: 546 | nc: 877 | ncall: 1553451 | eff(%):  0.723 | loglstar: 55.727 < 60.721 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:58:46,931 INFO       iteration 11303 | batch: 7 | bound: 556 | nc: 24 | ncall: 1557309 | eff(%):  0.723 | loglstar: 55.727 < 60.804 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:59:02,183 INFO       iteration 11355 | batch: 7 | bound: 566 | nc: 204 | ncall: 1561225 | eff(%):  0.725 | loglstar: 55.727 < 60.967 < 61.230 | logz: 44.730 +/-  0.160 | stop:  1.659
+2025-07-07 16:59:51,116 INFO       iteration 11691 | batch: 8 | bound: 0 | nc: 13 | ncall: 1570307 | eff(%):  0.745 | loglstar: 55.032 < 57.843 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:00:06,160 INFO       iteration 11812 | batch: 8 | bound: 11 | nc: 65 | ncall: 1574093 | eff(%):  0.746 | loglstar: 55.032 < 55.939 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:00:21,809 INFO       iteration 11845 | batch: 8 | bound: 21 | nc: 231 | ncall: 1578045 | eff(%):  0.746 | loglstar: 55.032 < 56.178 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:00:36,824 INFO       iteration 11897 | batch: 8 | bound: 31 | nc: 155 | ncall: 1581873 | eff(%):  0.748 | loglstar: 55.032 < 56.569 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:00:52,264 INFO       iteration 11933 | batch: 8 | bound: 42 | nc: 155 | ncall: 1585820 | eff(%):  0.748 | loglstar: 55.032 < 56.818 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:01:08,401 INFO       iteration 11960 | batch: 8 | bound: 53 | nc: 429 | ncall: 1589828 | eff(%):  0.748 | loglstar: 55.032 < 57.029 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:01:23,612 INFO       iteration 11977 | batch: 8 | bound: 63 | nc: 159 | ncall: 1593558 | eff(%):  0.747 | loglstar: 55.032 < 57.157 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:01:42,310 INFO       iteration 11986 | batch: 8 | bound: 75 | nc: 3139 | ncall: 1598132 | eff(%):  0.746 | loglstar: 55.032 < 57.218 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:02:04,135 INFO       iteration 11994 | batch: 8 | bound: 89 | nc: 5168 | ncall: 1603556 | eff(%):  0.744 | loglstar: 55.032 < 57.247 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:02:23,141 INFO       iteration 11995 | batch: 8 | bound: 102 | nc: 4658 | ncall: 1608214 | eff(%):  0.742 | loglstar: 55.032 < 57.248 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:02:41,773 INFO       iteration 12016 | batch: 8 | bound: 114 | nc: 1595 | ncall: 1612862 | eff(%):  0.741 | loglstar: 55.032 < 57.384 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:02:58,457 INFO       iteration 12028 | batch: 8 | bound: 125 | nc: 758 | ncall: 1617054 | eff(%):  0.740 | loglstar: 55.032 < 57.419 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:03:15,933 INFO       iteration 12048 | batch: 8 | bound: 137 | nc: 1399 | ncall: 1621444 | eff(%):  0.739 | loglstar: 55.032 < 57.554 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:03:31,059 INFO       iteration 12091 | batch: 8 | bound: 147 | nc: 48 | ncall: 1625264 | eff(%):  0.740 | loglstar: 55.032 < 57.843 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:03:46,172 INFO       iteration 12135 | batch: 8 | bound: 157 | nc: 51 | ncall: 1629115 | eff(%):  0.741 | loglstar: 55.032 < 58.097 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:04:02,064 INFO       iteration 12152 | batch: 8 | bound: 168 | nc: 791 | ncall: 1633096 | eff(%):  0.740 | loglstar: 55.032 < 58.208 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:04:18,814 INFO       iteration 12160 | batch: 8 | bound: 179 | nc: 605 | ncall: 1637246 | eff(%):  0.739 | loglstar: 55.032 < 58.246 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:04:33,979 INFO       iteration 12229 | batch: 8 | bound: 189 | nc: 56 | ncall: 1641135 | eff(%):  0.741 | loglstar: 55.032 < 58.694 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:04:49,107 INFO       iteration 12279 | batch: 8 | bound: 200 | nc: 158 | ncall: 1645014 | eff(%):  0.742 | loglstar: 55.032 < 58.986 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:05:05,102 INFO       iteration 12309 | batch: 8 | bound: 211 | nc: 341 | ncall: 1649067 | eff(%):  0.742 | loglstar: 55.032 < 59.096 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:05:20,836 INFO       iteration 12354 | batch: 8 | bound: 221 | nc: 236 | ncall: 1653045 | eff(%):  0.743 | loglstar: 55.032 < 59.329 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:05:35,886 INFO       iteration 12383 | batch: 8 | bound: 231 | nc: 86 | ncall: 1656881 | eff(%):  0.743 | loglstar: 55.032 < 59.449 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:05:51,130 INFO       iteration 12439 | batch: 8 | bound: 242 | nc: 112 | ncall: 1660752 | eff(%):  0.745 | loglstar: 55.032 < 59.744 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:06:06,153 INFO       iteration 12510 | batch: 8 | bound: 252 | nc: 80 | ncall: 1664593 | eff(%):  0.747 | loglstar: 55.032 < 60.093 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:06:21,229 INFO       iteration 12635 | batch: 8 | bound: 262 | nc: 45 | ncall: 1668433 | eff(%):  0.753 | loglstar: 55.032 < 60.590 < 60.865 | logz: 44.715 +/-  0.149 | stop:  1.360
+2025-07-07 17:07:26,346 INFO       iteration 12974 | batch: 9 | bound: 0 | nc: 42 | ncall: 1680913 | eff(%):  0.772 | loglstar: 54.415 < 55.877 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:07:41,668 INFO       iteration 13007 | batch: 9 | bound: 11 | nc: 233 | ncall: 1684810 | eff(%):  0.766 | loglstar: 54.415 < 54.703 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:07:57,755 INFO       iteration 13028 | batch: 9 | bound: 22 | nc: 361 | ncall: 1688928 | eff(%):  0.765 | loglstar: 54.415 < 54.852 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:08:13,604 INFO       iteration 13054 | batch: 9 | bound: 33 | nc: 554 | ncall: 1692977 | eff(%):  0.765 | loglstar: 54.415 < 55.125 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:08:29,662 INFO       iteration 13065 | batch: 9 | bound: 44 | nc: 489 | ncall: 1697086 | eff(%):  0.764 | loglstar: 54.415 < 55.259 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:08:44,956 INFO       iteration 13072 | batch: 9 | bound: 54 | nc: 1186 | ncall: 1700999 | eff(%):  0.762 | loglstar: 54.415 < 55.326 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:09:01,631 INFO       iteration 13081 | batch: 9 | bound: 65 | nc: 469 | ncall: 1705270 | eff(%):  0.761 | loglstar: 54.415 < 55.412 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:09:18,157 INFO       iteration 13090 | batch: 9 | bound: 77 | nc: 495 | ncall: 1709496 | eff(%):  0.760 | loglstar: 54.415 < 55.498 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:09:33,341 INFO       iteration 13107 | batch: 9 | bound: 87 | nc: 1018 | ncall: 1713374 | eff(%):  0.759 | loglstar: 54.415 < 55.631 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:09:48,757 INFO       iteration 13138 | batch: 9 | bound: 97 | nc: 146 | ncall: 1717284 | eff(%):  0.759 | loglstar: 54.415 < 55.995 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:10:05,498 INFO       iteration 13152 | batch: 9 | bound: 109 | nc: 871 | ncall: 1721496 | eff(%):  0.758 | loglstar: 54.415 < 56.078 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:10:20,699 INFO       iteration 13168 | batch: 9 | bound: 119 | nc: 228 | ncall: 1725373 | eff(%):  0.757 | loglstar: 54.415 < 56.194 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:10:35,833 INFO       iteration 13251 | batch: 9 | bound: 129 | nc: 44 | ncall: 1729208 | eff(%):  0.760 | loglstar: 54.415 < 56.804 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:10:50,871 INFO       iteration 13264 | batch: 9 | bound: 139 | nc: 56 | ncall: 1732955 | eff(%):  0.760 | loglstar: 54.415 < 56.894 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:11:06,144 INFO       iteration 13297 | batch: 9 | bound: 150 | nc: 440 | ncall: 1736821 | eff(%):  0.760 | loglstar: 54.415 < 57.162 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:11:21,184 INFO       iteration 13377 | batch: 9 | bound: 160 | nc: 103 | ncall: 1740648 | eff(%):  0.763 | loglstar: 54.415 < 57.832 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:11:37,270 INFO       iteration 13403 | batch: 9 | bound: 171 | nc: 510 | ncall: 1744740 | eff(%):  0.762 | loglstar: 54.415 < 57.990 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:11:52,399 INFO       iteration 13453 | batch: 9 | bound: 181 | nc: 69 | ncall: 1748575 | eff(%):  0.764 | loglstar: 54.415 < 58.281 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:12:07,886 INFO       iteration 13550 | batch: 9 | bound: 191 | nc: 393 | ncall: 1752523 | eff(%):  0.767 | loglstar: 54.415 < 58.815 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:12:25,073 INFO       iteration 13573 | batch: 9 | bound: 203 | nc: 726 | ncall: 1756843 | eff(%):  0.767 | loglstar: 54.415 < 58.938 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:12:42,833 INFO       iteration 13662 | batch: 9 | bound: 215 | nc: 918 | ncall: 1761330 | eff(%):  0.770 | loglstar: 54.415 < 59.354 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:12:58,060 INFO       iteration 13734 | batch: 9 | bound: 225 | nc: 195 | ncall: 1765202 | eff(%):  0.772 | loglstar: 54.415 < 59.647 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:13:15,089 INFO       iteration 13760 | batch: 9 | bound: 237 | nc: 3454 | ncall: 1769478 | eff(%):  0.772 | loglstar: 54.415 < 59.765 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:13:30,306 INFO       iteration 13852 | batch: 9 | bound: 247 | nc: 69 | ncall: 1773373 | eff(%):  0.775 | loglstar: 54.415 < 60.119 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:13:45,413 INFO       iteration 13977 | batch: 9 | bound: 257 | nc: 46 | ncall: 1777282 | eff(%):  0.781 | loglstar: 54.415 < 60.570 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:14:01,694 INFO       iteration 14017 | batch: 9 | bound: 269 | nc: 466 | ncall: 1781504 | eff(%):  0.781 | loglstar: 54.415 < 60.724 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:14:17,357 INFO       iteration 14043 | batch: 9 | bound: 280 | nc: 539 | ncall: 1785546 | eff(%):  0.781 | loglstar: 54.415 < 60.833 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:14:33,549 INFO       iteration 14072 | batch: 9 | bound: 291 | nc: 1382 | ncall: 1789729 | eff(%):  0.780 | loglstar: 54.415 < 60.935 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:14:49,554 INFO       iteration 14092 | batch: 9 | bound: 302 | nc: 1230 | ncall: 1793826 | eff(%):  0.780 | loglstar: 54.415 < 61.006 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:15:04,929 INFO       iteration 14110 | batch: 9 | bound: 312 | nc: 124 | ncall: 1797769 | eff(%):  0.779 | loglstar: 54.415 < 61.086 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:15:22,521 INFO       iteration 14125 | batch: 9 | bound: 324 | nc: 2507 | ncall: 1802241 | eff(%):  0.778 | loglstar: 54.415 < 61.126 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:15:47,761 INFO       iteration 14131 | batch: 9 | bound: 341 | nc: 2599 | ncall: 1808655 | eff(%):  0.776 | loglstar: 54.415 < 61.151 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:16:07,434 INFO       iteration 14135 | batch: 9 | bound: 354 | nc: 2043 | ncall: 1813624 | eff(%):  0.774 | loglstar: 54.415 < 61.167 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:16:34,874 INFO       iteration 14155 | batch: 9 | bound: 373 | nc: 4023 | ncall: 1820586 | eff(%):  0.772 | loglstar: 54.415 < 61.217 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:16:50,120 INFO       iteration 14221 | batch: 9 | bound: 383 | nc: 72 | ncall: 1824529 | eff(%):  0.774 | loglstar: 54.415 < 61.417 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:17:05,153 INFO       iteration 14347 | batch: 9 | bound: 394 | nc: 17 | ncall: 1828424 | eff(%):  0.779 | loglstar: 54.415 < 61.789 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:17:20,332 INFO       iteration 14448 | batch: 9 | bound: 404 | nc: 82 | ncall: 1832374 | eff(%):  0.783 | loglstar: 54.415 < 62.071 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:17:35,433 INFO       iteration 14534 | batch: 9 | bound: 415 | nc: 30 | ncall: 1836270 | eff(%):  0.786 | loglstar: 54.415 < 62.295 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:17:51,631 INFO       iteration 14620 | batch: 9 | bound: 426 | nc: 611 | ncall: 1840485 | eff(%):  0.789 | loglstar: 54.415 < 62.458 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:18:06,776 INFO       iteration 14657 | batch: 9 | bound: 437 | nc: 78 | ncall: 1844431 | eff(%):  0.789 | loglstar: 54.415 < 62.521 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:18:22,110 INFO       iteration 14735 | batch: 9 | bound: 447 | nc: 219 | ncall: 1848436 | eff(%):  0.791 | loglstar: 54.415 < 62.663 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:18:37,490 INFO       iteration 14753 | batch: 9 | bound: 458 | nc: 1004 | ncall: 1852436 | eff(%):  0.791 | loglstar: 54.415 < 62.688 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:18:52,863 INFO       iteration 14839 | batch: 9 | bound: 469 | nc: 255 | ncall: 1856436 | eff(%):  0.794 | loglstar: 54.415 < 62.862 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:19:08,039 INFO       iteration 14898 | batch: 9 | bound: 479 | nc: 102 | ncall: 1860408 | eff(%):  0.795 | loglstar: 54.415 < 62.953 < 62.954 | logz: 44.709 +/-  0.141 | stop:  1.175
+2025-07-07 17:19:09,249 INFO       Finished sampling with 15150 samples and evidence estimate 44.73 +/- 0.13

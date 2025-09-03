@@ -1,0 +1,96 @@
+2025-07-08 10:38:54,589 ℹ          Creating analysis with 9 priors, 4 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-08 10:38:54,589 DEBUG      priors:
+2025-07-08 10:38:54,589 DEBUG       - D_s->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-07-08 10:38:54,589 DEBUG       - D_s->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - D_s->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - D_s->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - D_s->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - D_s->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - D_s->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - D_s->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-07-08 10:38:54,590 DEBUG       - CKM::abs(V_cs) (uniform)
+2025-07-08 10:38:54,591 DEBUG      constraints:
+2025-07-08 10:38:54,591 DEBUG       - D_s->eta::f_0+f_++f_T@MR:2025A
+2025-07-08 10:38:54,591 DEBUG       - D_s^+->etae^+nu::BR@PDG:2024A
+2025-07-08 10:38:54,591 DEBUG       - D_s^+->etamu^+nu::BR@MR:2025A
+2025-07-08 10:38:54,591 DEBUG       - D_s^+->etalnu::KinematicalDistribution[q2]@MR:2025A
+2025-07-08 10:38:54,591 DEBUG      manual_constraints:
+2025-07-08 10:38:54,591 DEBUG      fixed_parameters:
+2025-07-08 10:38:55,820 ℹ          likelihood probably depends on 54 parameter(s) that do not appear in the prior; check prior?
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-07-08 10:38:55,820 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'mass::D_s'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-07-08 10:38:55,821 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'mass::W'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'mass::e'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'life_time::D_s'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2025-07-08 10:38:55,822 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-07-08 10:38:55,823 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'mass::eta'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-07-08 10:38:55,824 DEBUG      used, but not included in any prior: 'mass::c'
+2025-07-08 10:39:10,852 ℹ          iteration 1744 | batch: 0 | bound: 0 | nc: 20 | ncall: 4900 | eff(%): 29.559 | loglstar:   -inf < -221.746 <    inf | logz: -228.327 +/-  0.075 | dlogz: 277.316 > 10.000
+2025-07-08 10:39:25,995 ℹ          iteration 2450 | batch: 0 | bound: 0 | nc: 57 | ncall: 10800 | eff(%): 20.763 | loglstar:   -inf < -127.394 <    inf | logz: -134.719 +/-  0.080 | dlogz: 183.020 > 10.000
+2025-07-08 10:39:41,025 ℹ          iteration 2847 | batch: 0 | bound: 0 | nc: 28 | ncall: 16698 | eff(%): 16.087 | loglstar:   -inf < -89.566 <    inf | logz: -96.506 +/-  0.078 | dlogz: 144.334 > 10.000
+2025-07-08 10:39:56,098 ℹ          iteration 3143 | batch: 0 | bound: 0 | nc: 39 | ncall: 22623 | eff(%): 13.305 | loglstar:   -inf < -71.449 <    inf | logz: -78.620 +/-  0.079 | dlogz: 126.147 > 10.000
+2025-07-08 10:40:11,132 ℹ          iteration 3377 | batch: 0 | bound: 0 | nc: 32 | ncall: 28522 | eff(%): 11.439 | loglstar:   -inf < -58.685 <    inf | logz: -66.077 +/-  0.080 | dlogz: 113.639 > 10.000
+2025-07-08 10:40:26,143 ℹ          iteration 3548 | batch: 0 | bound: 0 | nc: 11 | ncall: 34416 | eff(%): 10.018 | loglstar:   -inf < -48.952 <    inf | logz: -56.234 +/-  0.080 | dlogz: 110.202 > 10.000
+2025-07-08 10:40:41,145 ℹ          iteration 4758 | batch: 0 | bound: 4 | nc: 2 | ncall: 40236 | eff(%): 11.538 | loglstar:   -inf < -5.245 <    inf | logz: -13.084 +/-  0.083 | dlogz: 66.925 > 10.000
+2025-07-08 10:40:56,150 ℹ          iteration 5907 | batch: 0 | bound: 8 | nc: 3 | ncall: 46023 | eff(%): 12.562 | loglstar:   -inf < 17.982 <    inf | logz:  9.345 +/-  0.087 | dlogz: 46.279 > 10.000
+2025-07-08 10:41:11,151 ℹ          iteration 7288 | batch: 0 | bound: 12 | nc: 2 | ncall: 51861 | eff(%): 13.787 | loglstar:   -inf < 35.431 <    inf | logz: 26.013 +/-  0.092 | dlogz: 38.236 > 10.000
+2025-07-08 10:41:26,154 ℹ          iteration 8561 | batch: 0 | bound: 16 | nc: 2 | ncall: 57725 | eff(%): 14.578 | loglstar:   -inf < 45.908 <    inf | logz: 35.559 +/-  0.096 | dlogz: 27.416 > 10.000
+2025-07-08 10:41:41,155 ℹ          iteration 9525 | batch: 0 | bound: 20 | nc: 1 | ncall: 63619 | eff(%): 14.740 | loglstar:   -inf < 51.713 <    inf | logz: 40.671 +/-  0.099 | dlogz: 21.339 > 10.000
+2025-07-08 10:41:56,166 ℹ          iteration 10608 | batch: 0 | bound: 24 | nc: 5 | ncall: 69514 | eff(%): 15.044 | loglstar:   -inf < 56.705 <    inf | logz: 44.925 +/-  0.103 | dlogz: 16.616 > 10.000
+2025-07-08 10:42:11,168 ℹ          iteration 11245 | batch: 0 | bound: 28 | nc: 6 | ncall: 75443 | eff(%): 14.710 | loglstar:   -inf < 58.953 <    inf | logz: 46.802 +/-  0.105 | dlogz: 14.102 > 10.000
+2025-07-08 10:42:26,170 ℹ          iteration 12478 | batch: 0 | bound: 32 | nc: 3 | ncall: 81367 | eff(%): 15.149 | loglstar:   -inf < 62.903 <    inf | logz: 49.732 +/-  0.109 | dlogz: 10.612 > 10.000
+2025-07-08 10:42:41,182 ℹ          iteration 14642 | batch: 1 | bound: 2 | nc: 6 | ncall: 86187 | eff(%): 16.565 | loglstar: 71.963 < 65.638 <    inf | logz: 55.261 +/-  1.607 | stop: 252.720
+2025-07-08 10:42:56,208 ℹ          iteration 16158 | batch: 1 | bound: 6 | nc: 11 | ncall: 92185 | eff(%): 17.119 | loglstar: 71.963 < 68.257 <    inf | logz: 55.261 +/-  1.607 | stop: 252.720
+2025-07-08 10:43:11,231 ℹ          iteration 17997 | batch: 1 | bound: 10 | nc: 10 | ncall: 98109 | eff(%): 17.941 | loglstar: 71.963 < 70.546 <    inf | logz: 55.261 +/-  1.607 | stop: 252.720
+2025-07-08 10:43:26,234 ℹ          iteration 20028 | batch: 1 | bound: 14 | nc: 8 | ncall: 104023 | eff(%): 18.854 | loglstar: 71.963 < 72.169 <    inf | logz: 55.261 +/-  1.607 | stop: 252.720
+2025-07-08 10:43:41,243 ℹ          iteration 22359 | batch: 1 | bound: 18 | nc: 8 | ncall: 109941 | eff(%): 19.938 | loglstar: 71.963 < 73.338 <    inf | logz: 55.261 +/-  1.607 | stop: 252.720
+2025-07-08 10:43:56,245 ℹ          iteration 24542 | batch: 1 | bound: 22 | nc: 1 | ncall: 115865 | eff(%): 20.786 | loglstar: 71.963 < 74.016 <    inf | logz: 55.261 +/-  1.607 | stop: 252.720
+2025-07-08 10:44:11,248 ℹ          iteration 26527 | batch: 2 | bound: 1 | nc: 2 | ncall: 121106 | eff(%): 21.396 | loglstar: 69.038 < 69.407 < 71.737 | logz: 55.291 +/-  0.125 | stop:  1.249
+2025-07-08 10:44:26,248 ℹ          iteration 28217 | batch: 2 | bound: 5 | nc: 1 | ncall: 127053 | eff(%): 21.718 | loglstar: 69.038 < 71.177 < 71.737 | logz: 55.291 +/-  0.125 | stop:  1.249
+2025-07-08 10:44:31,793 ℹ          Finished sampling with 29924 samples and evidence estimate 55.30 +/- 0.11

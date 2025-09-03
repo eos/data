@@ -1,0 +1,22 @@
+2025-06-20 08:15:34,776 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 2 global options, 1 manually-entered constraints and 0 fixed parameters.
+2025-06-20 08:15:34,777 DEBUG      priors:
+2025-06-20 08:15:34,777 DEBUG       - B->eta::a^f+_0@BFW2010 (uniform)
+2025-06-20 08:15:34,777 DEBUG       - B->eta::a^f+_1@BFW2010 (uniform)
+2025-06-20 08:15:34,777 DEBUG       - B->eta::a^f+_2@BFW2010 (uniform)
+2025-06-20 08:15:34,777 DEBUG       - B->eta::a^f0_1@BFW2010 (uniform)
+2025-06-20 08:15:34,778 DEBUG       - B->eta::a^f0_2@BFW2010 (uniform)
+2025-06-20 08:15:34,778 DEBUG       - B->eta::a^fT_0@BFW2010 (uniform)
+2025-06-20 08:15:34,778 DEBUG       - B->eta::a^fT_1@BFW2010 (uniform)
+2025-06-20 08:15:34,778 DEBUG       - B->eta::a^fT_2@BFW2010 (uniform)
+2025-06-20 08:15:34,778 DEBUG      constraints:
+2025-06-20 08:15:34,778 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-06-20 08:15:34,779 DEBUG      manual_constraints:
+2025-06-20 08:15:34,779 DEBUG       - b->u::DispersiveBound[0^+_V]
+2025-06-20 08:15:34,779 DEBUG      fixed_parameters:
+2025-06-20 08:15:34,791 INFO       likelihood probably depends on 6 parameter(s) that do not appear in the prior; check prior?
+2025-06-20 08:15:34,792 DEBUG      used, but not included in any prior: 'B->eta::a^f+_3@BFW2010'
+2025-06-20 08:15:34,792 DEBUG      used, but not included in any prior: 'B->eta::a^fT_4@BFW2010'
+2025-06-20 08:15:34,792 DEBUG      used, but not included in any prior: 'B->eta::a^fT_3@BFW2010'
+2025-06-20 08:15:34,792 DEBUG      used, but not included in any prior: 'B->eta::a^f0_3@BFW2010'
+2025-06-20 08:15:34,792 DEBUG      used, but not included in any prior: 'B->eta::a^f0_4@BFW2010'
+2025-06-20 08:15:34,793 DEBUG      used, but not included in any prior: 'B->eta::a^f+_4@BFW2010'

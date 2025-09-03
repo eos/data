@@ -1,0 +1,41 @@
+dof: 3
+global_chi2: 0.042994189044924684
+local_pvalues:
+  D_s->eta::f_0+f_++f_T@MR:2025A: 0.9999999999977041
+mode:
+- -0.46550542670357437
+- 0.5364414597125249
+- 4.274419725118264
+- 0.448988710181347
+- 0.4920581816521974
+- -0.45449613231734765
+- 0.39030219507856767
+- 10.344051086345246
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_2@BSZ2015
+pvalue: 0.9976593380618215
+type: Mode
+version: 1.0.15

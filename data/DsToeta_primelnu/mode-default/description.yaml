@@ -1,0 +1,48 @@
+dof: 8
+global_chi2: 3.390379633783548
+local_pvalues:
+  D_s->eta_prime::f_0+f_++f_T@MR:2025A: 0.9999910241281583
+  D_s^+->eta_primee^+nu::BR@PDG:2024A: 0.7853134154161333
+  D_s^+->eta_primelnu::KinematicalDistribution[q2]@MR:2025A: 0.6593717599306601
+  D_s^+->eta_primemu^+nu::BR@MR:2025A: 0.668724200928863
+mode:
+- 0.4907751337691252
+- -1.374640512387284
+- 24.90261404879783
+- 0.2198174771194079
+- 4.8724537214595784
+- 0.5735844755043281
+- -0.32945800475183606
+- -26.830500688472057
+- 1.0809823075437346
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+pvalue: 0.9075287841017338
+type: Mode
+version: 1.0.15

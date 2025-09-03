@@ -1,0 +1,30 @@
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+type: DynestyResults
+version: 1.0.15

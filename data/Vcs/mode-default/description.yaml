@@ -1,0 +1,84 @@
+dof: 27
+global_chi2: 11.01381860251675
+local_pvalues:
+  D_s->eta::f_0+f_++f_T@MR:2025A: 0.9999998034018416
+  D_s->eta_prime::f_0+f_++f_T@MR:2025A: 0.9996762487749052
+  D_s^+->eta_primee^+nu::BR@PDG:2024A: 0.9059636863806805
+  D_s^+->eta_primelnu::KinematicalDistribution[q2]@MR:2025A: 0.6612626466997203
+  D_s^+->eta_primemu^+nu::BR@MR:2025A: 0.5841375806852198
+  D_s^+->etae^+nu::BR@PDG:2024A: 0.8842841750348472
+  D_s^+->etalnu::KinematicalDistribution[q2]@MR:2025A: 0.95314503496906
+  D_s^+->etamu^+nu::BR@MR:2025A: 0.9780070865268972
+mode:
+- -0.4574318275794358
+- 0.6389589926662591
+- -4.816943800143207
+- 0.5945956498271654
+- -9.245566623502214
+- -0.450934002101613
+- 0.39244059847630863
+- 9.895746451142287
+- 0.53342587601271
+- -1.584576418601345
+- 24.29849767007852
+- 0.5744507537400052
+- -11.4472986672439
+- 0.6176849182577336
+- -0.19923778725641217
+- -31.81576221453821
+- 0.9899079546762988
+parameters:
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f+_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^f0_2@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_0@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_1@BSZ2015
+- max: 1.0
+  min: -1.0
+  name: D_s->eta_prime::alpha^fT_2@BSZ2015
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_cs)
+pvalue: 0.9972089934574223
+type: Mode
+version: 1.0.15

@@ -1,0 +1,14 @@
+2025-06-11 07:54:35,198 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-06-11 07:54:35,198 DEBUG      priors:
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^f+_0@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^f+_1@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^f+_2@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^f0_1@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^f0_2@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^fT_0@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^fT_1@BSZ2015 (uniform)
+2025-06-11 07:54:35,199 DEBUG       - B->eta::alpha^fT_2@BSZ2015 (uniform)
+2025-06-11 07:54:35,200 DEBUG      constraints:
+2025-06-11 07:54:35,200 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-06-11 07:54:35,200 DEBUG      manual_constraints:
+2025-06-11 07:54:35,200 DEBUG      fixed_parameters:

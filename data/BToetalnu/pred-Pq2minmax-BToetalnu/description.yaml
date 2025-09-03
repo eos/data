@@ -1,0 +1,53 @@
+observables:
+- kinematics:
+    q2_max: 4.0
+    q2_min: 0.0
+  name: B->etalnu::P(q2_min,q2_max)
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+- kinematics:
+    q2_max: 8.0
+    q2_min: 4.0
+  name: B->etalnu::P(q2_min,q2_max)
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+- kinematics:
+    q2_max: 12.0
+    q2_min: 8.0
+  name: B->etalnu::P(q2_min,q2_max)
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+- kinematics:
+    q2_max: 16.0
+    q2_min: 12.0
+  name: B->etalnu::P(q2_min,q2_max)
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+- kinematics:
+    q2_max: 22.4
+    q2_min: 16.0
+  name: B->etalnu::P(q2_min,q2_max)
+  options:
+    P: eta
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: u
+type: Prediction
+version: 1.0.16

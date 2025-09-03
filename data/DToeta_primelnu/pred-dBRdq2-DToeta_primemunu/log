@@ -1,0 +1,75 @@
+2025-07-17 07:42:37,699 INFO       Creating analysis with 9 priors, 4 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-17 07:42:37,700 DEBUG      priors:
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^f+_0@BSZ2015 (uniform)
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^f+_1@BSZ2015 (uniform)
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^f+_2@BSZ2015 (uniform)
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^f0_1@BSZ2015 (uniform)
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^f0_2@BSZ2015 (uniform)
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^fT_0@BSZ2015 (uniform)
+2025-07-17 07:42:37,700 DEBUG       - D->eta_prime::alpha^fT_1@BSZ2015 (uniform)
+2025-07-17 07:42:37,701 DEBUG       - D->eta_prime::alpha^fT_2@BSZ2015 (uniform)
+2025-07-17 07:42:37,701 DEBUG       - CKM::abs(V_cd) (uniform)
+2025-07-17 07:42:37,701 DEBUG      constraints:
+2025-07-17 07:42:37,701 DEBUG       - D->eta_prime::f_0+f_++f_T@MR:2025A
+2025-07-17 07:42:37,701 DEBUG       - D^+->eta_primemu^+nu::BR@PDG:2024A
+2025-07-17 07:42:37,701 DEBUG       - D^+->eta_primee^+nu::BR@MR:2025A
+2025-07-17 07:42:37,701 DEBUG       - D^+->eta_primelnu::KinematicalDistribution[q2]@BES:2024A
+2025-07-17 07:42:37,701 DEBUG      manual_constraints:
+2025-07-17 07:42:37,701 DEBUG      fixed_parameters:
+2025-07-17 07:42:37,724 INFO       likelihood probably depends on 54 parameter(s) that do not appear in the prior; check prior?
+2025-07-17 07:42:37,724 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-07-17 07:42:37,724 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'mass::W'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'mass::eta_prime'
+2025-07-17 07:42:37,725 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'mass::e'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'mass::D_d'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-07-17 07:42:37,726 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'life_time::D_d'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'mass::c'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-07-17 07:42:37,727 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-07-17 07:42:37,728 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-07-17 07:42:37,743 INPROGRESS Predicting observables from set 'dBRdq2-DToeta_primemunu' for 30494 samples
+2025-07-17 07:43:19,271 COMPLETED  ... done

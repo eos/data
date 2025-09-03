@@ -1,0 +1,24 @@
+2025-07-07 13:36:47,869 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 2 global options, 1 manually-entered constraints and 0 fixed parameters.
+2025-07-07 13:36:47,870 DEBUG      priors:
+2025-07-07 13:36:47,870 DEBUG       - B->eta::a^f+_0@BFW2010 (uniform)
+2025-07-07 13:36:47,870 DEBUG       - B->eta::a^f+_1@BFW2010 (uniform)
+2025-07-07 13:36:47,870 DEBUG       - B->eta::a^f+_2@BFW2010 (uniform)
+2025-07-07 13:36:47,871 DEBUG       - B->eta::a^f0_1@BFW2010 (uniform)
+2025-07-07 13:36:47,871 DEBUG       - B->eta::a^f0_2@BFW2010 (uniform)
+2025-07-07 13:36:47,871 DEBUG       - B->eta::a^fT_0@BFW2010 (uniform)
+2025-07-07 13:36:47,871 DEBUG       - B->eta::a^fT_1@BFW2010 (uniform)
+2025-07-07 13:36:47,871 DEBUG       - B->eta::a^fT_2@BFW2010 (uniform)
+2025-07-07 13:36:47,871 DEBUG      constraints:
+2025-07-07 13:36:47,871 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2025-07-07 13:36:47,871 DEBUG      manual_constraints:
+2025-07-07 13:36:47,872 DEBUG       - b->u::DispersiveBound[0^+_V]
+2025-07-07 13:36:47,872 DEBUG      fixed_parameters:
+2025-07-07 13:36:47,884 INFO       likelihood probably depends on 6 parameter(s) that do not appear in the prior; check prior?
+2025-07-07 13:36:47,884 DEBUG      used, but not included in any prior: 'B->eta::a^f+_3@BFW2010'
+2025-07-07 13:36:47,884 DEBUG      used, but not included in any prior: 'B->eta::a^f0_4@BFW2010'
+2025-07-07 13:36:47,885 DEBUG      used, but not included in any prior: 'B->eta::a^f+_4@BFW2010'
+2025-07-07 13:36:47,885 DEBUG      used, but not included in any prior: 'B->eta::a^f0_3@BFW2010'
+2025-07-07 13:36:47,885 DEBUG      used, but not included in any prior: 'B->eta::a^fT_3@BFW2010'
+2025-07-07 13:36:47,885 DEBUG      used, but not included in any prior: 'B->eta::a^fT_4@BFW2010'
+2025-07-07 13:37:02,886 INFO       iteration 11656 | batch: 4 | bound: 1 | nc: 1 | ncall: 51947 | eff(%): 22.154 | loglstar: 34.006 < 34.189 < 34.840 | logz:  7.548 +/-  0.263 | stop:  2.761
+2025-07-07 13:37:09,584 INFO       Finished sampling with 18001 samples and evidence estimate 7.53 +/- 0.17

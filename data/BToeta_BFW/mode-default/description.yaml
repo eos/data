@@ -1,0 +1,42 @@
+dof: 4
+global_chi2: 0.0004998364243050523
+local_pvalues:
+  B->eta::f_0+f_++f_T@MR:2025A: 1.0
+  b->u::DispersiveBound[0^+_V]: 1.0
+mode:
+- 0.007068164412391775
+- -0.021586002354137768
+- 0.016443948481873027
+- -0.05290501084923449
+- 0.05178394855398172
+- 0.016699654712938994
+- -0.03959081335880488
+- 0.022633040537276328
+parameters:
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f+_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f+_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f+_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f0_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^f0_2@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^fT_0@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^fT_1@BFW2010
+- max: 1.0
+  min: -1.0
+  name: B->eta::a^fT_2@BFW2010
+pvalue: 0.9999999687756463
+type: Mode
+version: 1.0.15

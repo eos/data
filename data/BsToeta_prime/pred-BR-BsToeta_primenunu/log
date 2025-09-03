@@ -1,0 +1,16 @@
+2025-07-15 13:35:44,083 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2025-07-15 13:35:44,084 DEBUG      priors:
+2025-07-15 13:35:44,084 DEBUG       - B_s->eta_prime::alpha^f+_0@BSZ2015 (uniform)
+2025-07-15 13:35:44,084 DEBUG       - B_s->eta_prime::alpha^f+_1@BSZ2015 (uniform)
+2025-07-15 13:35:44,085 DEBUG       - B_s->eta_prime::alpha^f+_2@BSZ2015 (uniform)
+2025-07-15 13:35:44,085 DEBUG       - B_s->eta_prime::alpha^f0_1@BSZ2015 (uniform)
+2025-07-15 13:35:44,085 DEBUG       - B_s->eta_prime::alpha^f0_2@BSZ2015 (uniform)
+2025-07-15 13:35:44,085 DEBUG       - B_s->eta_prime::alpha^fT_0@BSZ2015 (uniform)
+2025-07-15 13:35:44,085 DEBUG       - B_s->eta_prime::alpha^fT_1@BSZ2015 (uniform)
+2025-07-15 13:35:44,085 DEBUG       - B_s->eta_prime::alpha^fT_2@BSZ2015 (uniform)
+2025-07-15 13:35:44,086 DEBUG      constraints:
+2025-07-15 13:35:44,086 DEBUG       - B_s->eta_prime::f_0+f_++f_T@MR:2025A
+2025-07-15 13:35:44,086 DEBUG      manual_constraints:
+2025-07-15 13:35:44,086 DEBUG      fixed_parameters:
+2025-07-15 13:35:44,100 INPROGRESS Predicting observables from set 'BR-BsToeta_primenunu' for 13744 samples
+2025-07-15 13:35:47,428 COMPLETED  ... done

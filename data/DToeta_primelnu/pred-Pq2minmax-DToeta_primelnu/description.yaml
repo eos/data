@@ -1,0 +1,33 @@
+observables:
+- kinematics:
+    q2_max: 0.3
+    q2_min: 0.0
+  name: D->eta_primelnu::P(q2_min,q2_max)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: d
+- kinematics:
+    q2_max: 0.6
+    q2_min: 0.3
+  name: D->eta_primelnu::P(q2_min,q2_max)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: d
+- kinematics:
+    q2_max: 0.831
+    q2_min: 0.6
+  name: D->eta_primelnu::P(q2_min,q2_max)
+  options:
+    P: eta_prime
+    form-factors: BSZ2015
+    l: e
+    model: CKM
+    q: d
+type: Prediction
+version: 1.0.15

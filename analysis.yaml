@@ -1,0 +1,1089 @@
+observables:
+  "B->etalnu::R_eta":
+    latex: "$R_\\eta^{\\mu/e}$"
+    unit: '1'
+    options: {}
+    expression: "<<B->etalnu::BR;q=u,l=mu>>[q2_min=>q2_min_e,q2_max=22.38] / <<B->etalnu::BR;q=u,l=e>>[q2_min=>q2_min_mu,q2_max=22.38]"
+  "B->eta_primelnu::R_eta_prime":
+    latex: "$R_{\\eta^\\prime}^{\\mu/e}$"
+    unit: '1'
+    options: {}
+    expression: "<<B->eta_primelnu::BR;q=u,l=mu>>[q2_min=>q2_min_e,q2_max=18.67] / <<B->eta_primelnu::BR;q=u,l=e>>[q2_min=>q2_min_mu,q2_max=18.67]"
+  "D->etalnu::R_eta":
+    latex: "$R_\\eta^{\\mu/e}$"
+    unit: '1'
+    options: {}
+    expression: "<<D->etalnu::BR;q=d,l=mu>>[q2_min=>q2_min_e,q2_max=1.747] / <<D->etalnu::BR;q=d,l=e>>[q2_min=>q2_min_mu,q2_max=1.747]"
+  "D->eta_primelnu::R_eta_prime":
+    latex: "$R_{\\eta^\\prime}^{\\mu/e}$"
+    unit: '1'
+    options: {}
+    expression: "<<D->eta_primelnu::BR;q=d,l=mu>>[q2_min=>q2_min_e,q2_max=0.831] / <<D->eta_primelnu::BR;q=d,l=e>>[q2_min=>q2_min_mu,q2_max=0.831]"
+  "Ds->etalnu::R_eta":
+    latex: "$R_{s,\\eta}^{\\mu/e}$"
+    unit: '1'
+    options: {}
+    expression: "<<D->etalnu::BR;q=s,l=mu>>[q2_min=>q2_min_e,q2_max=2.016] / <<D->etalnu::BR;q=s,l=e>>[q2_min=>q2_min_mu,q2_max=2.016]"
+  "Ds->eta_primelnu::R_eta_prime":
+    latex: "$R_{s,\\eta^\\prime}^{\\mu/e}$"
+    unit: '1'
+    options: {}
+    expression: "<<D->eta_primelnu::BR;q=s,l=mu>>[q2_min=>q2_min_e,q2_max=1.02] / <<D->eta_primelnu::BR;q=s,l=e>>[q2_min=>q2_min_mu,q2_max=1.02]"
+
+priors:
+  - name: BToetaFormFactors
+    descriptions:
+      - { 'parameter': 'B->eta::alpha^f+_0@BSZ2015', 'min':  -0.11323, 'max':  0.48232, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^f+_1@BSZ2015', 'min':  -1.87862, 'max':  0.88578, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^f+_2@BSZ2015', 'min':  -17.40111, 'max':  18.33086, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^f0_1@BSZ2015', 'min':  -0.81462, 'max':  0.92948, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^f0_2@BSZ2015', 'min':  -17.76691, 'max':  18.31553, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^fT_0@BSZ2015', 'min':  -0.11587, 'max':  0.49485, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^fT_1@BSZ2015', 'min':  -2.01777, 'max':  0.95621, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::alpha^fT_2@BSZ2015', 'min':  -18.79357, 'max':  20.04039, 'type': 'uniform'}
+
+  - name: BToetaFormFactors_BFW
+    descriptions:
+      - { 'parameter': 'B->eta::a^f+_0@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^f+_1@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^f+_2@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^f0_1@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^f0_2@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^fT_0@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^fT_1@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+      - { 'parameter': 'B->eta::a^fT_2@BFW2010', 'min': -1.0, 'max': 1.0, 'type': 'uniform'}
+
+  - name: BToeta_primeFormFactors
+    descriptions:
+      - { 'parameter': 'B->eta_prime::alpha^f+_0@BSZ2015', 'min':  -0.14707, 'max':  0.43543, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^f+_1@BSZ2015', 'min':  -1.71965, 'max':  0.85919, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^f+_2@BSZ2015', 'min':  -17.03251, 'max':  18.19513, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^f0_1@BSZ2015', 'min':  -0.79419, 'max':  0.94054, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^f0_2@BSZ2015', 'min':  -17.56594, 'max':  18.05164, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^fT_0@BSZ2015', 'min':  -0.14815, 'max':  0.46055, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^fT_1@BSZ2015', 'min':  -1.93070, 'max':  0.97869, 'type': 'uniform'}
+      - { 'parameter': 'B->eta_prime::alpha^fT_2@BSZ2015', 'min':  -19.55451, 'max':  21.09391, 'type': 'uniform'}
+
+  - name: BsToetaFormFactors
+    descriptions:
+      - { 'parameter': 'B_s->eta::alpha^f+_0@BSZ2015', 'min':  -0.32035, 'max':  -0.16948, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^f+_1@BSZ2015', 'min':  -0.62547, 'max':  1.83843, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^f+_2@BSZ2015', 'min':  -25.30644, 'max':  24.34397, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^f0_1@BSZ2015', 'min':  -1.31241, 'max':  1.09560, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^f0_2@BSZ2015', 'min':  -25.69257, 'max':  24.71221, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^fT_0@BSZ2015', 'min':  -0.33420, 'max':  -0.17749, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^fT_1@BSZ2015', 'min':  -0.83303, 'max':  1.88863, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta::alpha^fT_2@BSZ2015', 'min':  -26.95003, 'max':  28.02534, 'type': 'uniform'}
+
+  - name: BsToeta_primeFormFactors
+    descriptions:
+      - { 'parameter': 'B_s->eta_prime::alpha^f+_0@BSZ2015', 'min':  0.13315, 'max':  0.42101, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f+_1@BSZ2015', 'min':  -2.37337, 'max':  0.80834, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f+_2@BSZ2015', 'min':  -33.73917, 'max':  35.70684, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f0_1@BSZ2015', 'min':  -1.45132, 'max':  1.71880, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f0_2@BSZ2015', 'min':  -35.08089, 'max':  36.17880, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^fT_0@BSZ2015', 'min':  0.17606, 'max':  0.44171, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^fT_1@BSZ2015', 'min':  -2.80945, 'max':  0.95145, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^fT_2@BSZ2015', 'min':  -39.74033, 'max':  42.46849, 'type': 'uniform'}
+
+  - name: BsToetasFormFactors
+    descriptions:
+      - { 'parameter': 'B_s->eta_prime::alpha^f+_0@BSZ2015', 'min':  0.21431, 'max':  0.47013, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f+_1@BSZ2015', 'min':  -2.94452, 'max':  0.79222, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f+_2@BSZ2015', 'min':  -41.92759, 'max':  45.07079, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f0_1@BSZ2015', 'min':  -1.70867, 'max':  1.92419, 'type': 'uniform'}
+      - { 'parameter': 'B_s->eta_prime::alpha^f0_2@BSZ2015', 'min':  -43.76305, 'max':  44.95733, 'type': 'uniform'}
+
+  - name: DToetaFormFactors
+    descriptions:
+      - { 'parameter': 'D->eta::alpha^f+_0@BSZ2015', 'min':  -0.39305, 'max':  1.15236, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^f+_1@BSZ2015', 'min':  -3.37082, 'max':  2.37191, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^f+_2@BSZ2015', 'min':  -106.27065, 'max':  103.56257, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^f0_1@BSZ2015', 'min':  -2.75507, 'max':  3.11824, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^f0_2@BSZ2015', 'min':  -101.49159, 'max':  101.07713, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^fT_0@BSZ2015', 'min':  -0.39141, 'max':  1.13872, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^fT_1@BSZ2015', 'min':  -3.71846, 'max':  2.48336, 'type': 'uniform'}
+      - { 'parameter': 'D->eta::alpha^fT_2@BSZ2015', 'min':  -115.91649, 'max':  111.27624, 'type': 'uniform'}
+
+  - name: DToeta_primeFormFactors
+    descriptions:
+      - { 'parameter': 'D->eta_prime::alpha^f+_0@BSZ2015', 'min':  -0.42273, 'max':  0.99512, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^f+_1@BSZ2015', 'min':  -4.43661, 'max':  3.19265, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^f+_2@BSZ2015', 'min':  -141.19725, 'max':  135.36496, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^f0_1@BSZ2015', 'min':  -2.38196, 'max':  4.32107, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^f0_2@BSZ2015', 'min':  -153.82766, 'max':  134.02185, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^fT_0@BSZ2015', 'min':  -0.49200, 'max':  1.15349, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^fT_1@BSZ2015', 'min':  -5.62840, 'max':  4.04116, 'type': 'uniform'}
+      - { 'parameter': 'D->eta_prime::alpha^fT_2@BSZ2015', 'min':  -181.51054, 'max':  168.16575, 'type': 'uniform'}
+
+  - name: DsToetaFormFactors
+    descriptions:
+      - { 'parameter': 'D_s->eta::alpha^f+_0@BSZ2015', 'min':  -0.56247, 'max':  -0.36866, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^f+_1@BSZ2015', 'min':  -3.23453, 'max':  4.28450, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^f+_2@BSZ2015', 'min':  -137.49741, 'max':  146.02124, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^f0_1@BSZ2015', 'min':  -3.31666, 'max':  4.19370, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^f0_2@BSZ2015', 'min':  -141.13404, 'max':  141.43639, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^fT_0@BSZ2015', 'min':  -0.58358, 'max':  -0.32673, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^fT_1@BSZ2015', 'min':  -3.45157, 'max':  4.07950, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta::alpha^fT_2@BSZ2015', 'min':  -132.43768, 'max':  157.40337, 'type': 'uniform'}
+
+  - name: DsToeta_primeFormFactors
+    descriptions:
+      - { 'parameter': 'D_s->eta_prime::alpha^f+_0@BSZ2015', 'min':  0.19888, 'max':  0.79917, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^f+_1@BSZ2015', 'min':  -6.18616, 'max':  4.79551, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^f+_2@BSZ2015', 'min':  -283.45232, 'max':  262.77279, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^f0_1@BSZ2015', 'min':  -5.69572, 'max':  6.55669, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^f0_2@BSZ2015', 'min':  -307.61800, 'max':  286.40572, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^fT_0@BSZ2015', 'min':  0.23786, 'max':  0.90663, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^fT_1@BSZ2015', 'min':  -7.78538, 'max':  7.26851, 'type': 'uniform'}
+      - { 'parameter': 'D_s->eta_prime::alpha^fT_2@BSZ2015', 'min':  -368.61412, 'max':  312.97131, 'type': 'uniform'}
+
+  - name: Vub
+    descriptions:
+      - { 'parameter': 'CKM::abs(V_ub)', 'min':  0, 'max':  0.01, 'type': 'uniform'}
+
+  - name: Vcd
+    descriptions:
+      - { 'parameter': 'CKM::abs(V_cd)', 'min':  -0.05308, 'max':  0.62629, 'type': 'uniform'}
+
+  - name: Vcs
+    descriptions:
+      - { 'parameter': 'CKM::abs(V_cs)', 'min':  0.6, 'max':  1.2, 'type': 'uniform'}
+
+posteriors:
+  - name: BToeta
+    global_options:
+      model: CKM
+    prior:
+      - BToetaFormFactors
+    likelihood:
+      - BToetaLCSR
+
+  - name: BToeta_BFW
+    global_options:
+      model: CKM
+      form-factors: BFW2010
+    prior:
+      - BToetaFormFactors_BFW
+    likelihood:
+      - BToetaLCSR
+      - th_bound
+
+  - name: BToeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - BToeta_primeFormFactors
+    likelihood:
+      - BToeta_primeLCSR
+
+  - name: BToetaeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - BToetaFormFactors
+      - BToeta_primeFormFactors
+    likelihood:
+      - BToetaeta_primeLCSR
+
+  - name: BsToeta
+    global_options:
+      model: CKM
+    prior:
+      - BsToetaFormFactors
+    likelihood:
+      - BsToetaLCSR
+
+  - name: BsToeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - BsToeta_primeFormFactors
+    likelihood:
+      - BsToeta_primeLCSR
+
+  - name: BsToetas
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'mass::eta_prime': 0.6885
+      'mass::eta_prime@BSZ2015': 0.6885
+    prior:
+      - BsToetasFormFactors
+    likelihood:
+      - BsToetasLCSR
+
+  - name: BsToetasLQCD
+    global_options:
+      model: CKM
+    fixed_parameters:
+      'mass::eta_prime': 0.6885
+      'mass::eta_prime@BSZ2015': 0.6885
+    prior:
+      - BsToetasFormFactors
+    likelihood:
+      - BsToetasLQCD
+
+  - name: DToeta
+    global_options:
+      model: CKM
+    prior:
+      - DToetaFormFactors
+    likelihood:
+      - DToetaLCSR
+
+  - name: DToeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - DToeta_primeFormFactors
+    likelihood:
+      - DToeta_primeLCSR
+
+  - name: DToetaeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - DToetaFormFactors
+      - DToeta_primeFormFactors
+    likelihood:
+      - DToetaeta_primeLCSR
+
+  - name: DsToeta
+    global_options:
+      model: CKM
+    prior:
+      - DsToetaFormFactors
+    likelihood:
+      - DsToetaLCSR
+
+  - name: DsToeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - DsToeta_primeFormFactors
+    likelihood:
+      - DsToeta_primeLCSR
+
+  - name: DsToetaeta_prime
+    global_options:
+      model: CKM
+    prior:
+      - DsToetaFormFactors
+      - DsToeta_primeFormFactors
+    likelihood:
+      - DsToetaeta_primeLCSR
+
+  - name: BToetalnu
+    global_options:
+      model: CKM
+    prior:
+      - BToetaFormFactors
+      - Vub
+    likelihood:
+      - BToetaLCSR
+      - BToetaExp
+
+  - name: DToetalnu
+    global_options:
+      model: CKM
+    prior:
+      - DToetaFormFactors
+      - Vcd
+    likelihood:
+      - DToetaLCSR
+      - DToetaExp
+
+  - name: DToeta_primelnu
+    global_options:
+      model: CKM
+    prior:
+      - DToeta_primeFormFactors
+      - Vcd
+    likelihood:
+      - DToeta_primeLCSR
+      - DToeta_primeExp
+
+  - name: DsToetalnu
+    global_options:
+      model: CKM
+    prior:
+      - DsToetaFormFactors
+      - Vcs
+    likelihood:
+      - DsToetaLCSR
+      - DsToetaExp
+
+  - name: DsToeta_primelnu
+    global_options:
+      model: CKM
+    prior:
+      - DsToeta_primeFormFactors
+      - Vcs
+    likelihood:
+      - DsToeta_primeLCSR
+      - DsToeta_primeExp
+
+  - name: Vub
+    global_options:
+      model: CKM
+    prior:
+      - BToetaFormFactors
+      - BToeta_primeFormFactors
+      - Vub
+    likelihood:
+      - BToetaLCSR
+      - BToetaExp
+      - BToeta_primeLCSR
+      - BToeta_primeExp
+
+  - name: Vcd
+    global_options:
+      model: CKM
+    prior:
+      - DToetaFormFactors
+      - DToeta_primeFormFactors
+      - Vcd
+    likelihood:
+      - DToetaLCSR
+      - DToetaExp
+      - DToeta_primeLCSR
+      - DToeta_primeExp
+
+  - name: Vcs
+    global_options:
+      model: CKM
+    prior:
+      - DsToetaFormFactors
+      - DsToeta_primeFormFactors
+      - Vcs
+    likelihood:
+      - DsToetaLCSR
+      - DsToetaExp
+      - DsToeta_primeLCSR
+      - DsToeta_primeExp
+
+
+predictions:
+  - name: BR-BToetalnu
+    observables:
+      - name: 'B->etalnu::BR;q=u,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 22.38}
+      - name: 'B->etalnu::BR;q=u,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 22.38}
+      - name: 'B->etalnu::R_eta;form-factors=BSZ2015'
+        kinematics: {'q2_min_e': 1.0e-5, 'q2_min_mu': 0.0112}
+      - name: 'B->etalnu::A_FB;q=u,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 2.38}
+      - name: 'B->etalnu::A_FB;q=u,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 2.38}
+  - name: BR-BToeta_primelnu
+    observables:
+      - name: 'B->eta_primelnu::BR;q=u,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 18.67}
+      - name: 'B->eta_primelnu::BR;q=u,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 18.67}
+      - name: 'B->eta_primelnu::R_eta_prime;form-factors=BSZ2015'
+        kinematics: {'q2_min_e': 1.0e-5, 'q2_min_mu': 0.0112}
+      - name: 'B->eta_primelnu::A_FB;q=u,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 18.67}
+      - name: 'B->eta_primelnu::A_FB;q=u,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 18.67}
+  - name: BR-BsToetanunu
+    observables:
+      - name: 'B_s->etanunu::BR;form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 23.22}
+  - name: BR-BsToeta_primenunu
+    observables:
+      - name: 'B_s->eta_primenunu::BR;form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 19.44}
+  - name: BR-DToetalnu
+    observables:
+      - name: 'D->etalnu::BR;q=d,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 1.747}
+      - name: 'D->etalnu::BR;q=d,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 1.747}
+      - name: 'D->etalnu::R_eta;form-factors=BSZ2015'
+        kinematics: {'q2_min_e': 1.0e-5, 'q2_min_mu': 0.0112}
+      - name: 'D->etalnu::A_FB;q=d,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 1.747}
+      - name: 'D->etalnu::A_FB;q=d,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 1.747}
+  - name: BR-DToeta_primelnu
+    observables:
+      - name: 'D->eta_primelnu::BR;q=d,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 0.831}
+      - name: 'D->eta_primelnu::BR;q=d,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 0.831}
+      - name: 'D->eta_primelnu::R_eta_prime;form-factors=BSZ2015'
+        kinematics: {'q2_min_e': 1.0e-5, 'q2_min_mu': 0.0112}
+      - name: 'D->eta_primelnu::A_FB;q=d,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 0.831}
+      - name: 'D->eta_primelnu::A_FB;q=d,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 0.831}
+  - name: BR-DsToetalnu
+    observables:
+      - name: 'D->etalnu::BR;q=s,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 2.016}
+      - name: 'D->etalnu::BR;q=s,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 2.016}
+      - name: 'Ds->etalnu::R_eta;form-factors=BSZ2015'
+        kinematics: {'q2_min_e': 1.0e-5, 'q2_min_mu': 0.0112}
+      - name: 'D->etalnu::A_FB;q=s,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 2.016}
+      - name: 'D->etalnu::A_FB;q=s,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 2.016}
+  - name: BR-DsToeta_primelnu
+    observables:
+      - name: 'D->eta_primelnu::BR;q=s,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 1.02}
+      - name: 'D->eta_primelnu::BR;q=s,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 1.02}
+      - name: 'Ds->eta_primelnu::R_eta_prime;form-factors=BSZ2015'
+        kinematics: {'q2_min_e': 1.0e-5, 'q2_min_mu': 0.0112}
+      - name: 'D->eta_primelnu::A_FB;q=s,l=e,form-factors=BSZ2015'
+        kinematics: {'q2_min': 1.0e-5, 'q2_max': 1.01}
+      - name: 'D->eta_primelnu::A_FB;q=s,l=mu,form-factors=BSZ2015'
+        kinematics: {'q2_min': 0.0112, 'q2_max': 1.01}
+
+
+  - name: FF-BToeta
+    observables:
+      - name: 'B->eta::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B->eta::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B->eta::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+
+  - name: FF-BToeta_prime
+    observables:
+      - name: 'B->eta_prime::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B->eta_prime::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B->eta_prime::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+
+  - name: FF-BsToeta
+    observables:
+      - name: 'B_s->eta::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B_s->eta::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B_s->eta::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+
+  - name: FF-BsToeta_prime
+    observables:
+      - name: 'B_s->eta_prime::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B_s->eta_prime::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+      - name: 'B_s->eta_prime::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -15.0}, {'q2': -14.0}, {'q2': -13.0}, {'q2': -12.0}, {'q2': -11.0},
+           {'q2': -10.0}, {'q2': -9.0}, {'q2': -8.0}, {'q2': -7.0}, {'q2': -6.0},
+           {'q2': -5.0}, {'q2': -4.0}, {'q2': -3.0}, {'q2': -2.0}, {'q2': -1.0},
+           {'q2': 0.0}, {'q2': 1.0}, {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0}, {'q2': 6.0}, {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 23.0}, {'q2': 24.0}, {'q2': 25.0}]
+
+  - name: FF-DToeta
+    observables:
+      - name: 'D->eta::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D->eta::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D->eta::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+
+  - name: FF-DToeta_prime
+    observables:
+      - name: 'D->eta_prime::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D->eta_prime::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D->eta_prime::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+
+  - name: FF-DsToeta
+    observables:
+      - name: 'D_s->eta::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D_s->eta::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D_s->eta::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+
+  - name: FF-DsToeta_prime
+    observables:
+      - name: 'D_s->eta_prime::f_+(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D_s->eta_prime::f_0(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+      - name: 'D_s->eta_prime::f_T(q2);form-factors=BSZ2015'
+        kinematics:
+          [{'q2': -1.5}, {'q2': -1.4}, {'q2': -1.3}, {'q2': -1.2}, {'q2': -1.1},
+           {'q2': -1.0}, {'q2': -0.9}, {'q2': -0.8}, {'q2': -0.7}, {'q2': -0.6},
+           {'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1},
+           {'q2': 0.0}, {'q2': 0.1}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6}, {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1}, {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6}, {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}, {'q2': 2.1}, {'q2': 2.2}, {'q2': 2.3}, {'q2': 2.4}, {'q2': 2.5}]
+
+  - name: Pq2minmax-BToetalnu
+    observables:
+      - name: 'B->etalnu::P(q2_min,q2_max);q=u,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2_min': 0.0, 'q2_max': 4.0}, {'q2_min': 4.0, 'q2_max': 8.0}, {'q2_min': 8.0, 'q2_max': 12.0},
+           {'q2_min': 12.0, 'q2_max': 16.0}, {'q2_min': 16.0, 'q2_max': 22.4}]
+
+  - name: dBRdq2-BToetalnu
+    observables:
+      - name: 'B->etalnu::P(q2);q=u,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0},  {'q2': 0.1},  {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5},  {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0},  {'q2': 1.5},  {'q2': 2.0}, {'q2': 3.0}, {'q2': 4.0},
+           {'q2': 5.0},  {'q2': 6.0},  {'q2': 7.0}, {'q2': 8.0}, {'q2': 9.0},
+           {'q2': 10.0}, {'q2': 11.0}, {'q2': 12.0}, {'q2': 13.0}, {'q2': 14.0},
+           {'q2': 15.0}, {'q2': 16.0}, {'q2': 17.0}, {'q2': 18.0}, {'q2': 19.0},
+           {'q2': 20.0}, {'q2': 21.0}, {'q2': 22.0}, {'q2': 22.4}]
+
+  - name: Pq2minmax-DToetalnu
+    observables:
+      - name: 'D->etalnu::P(q2_min,q2_max);q=d,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2_min': 0.0, 'q2_max': 0.3}, {'q2_min': 0.3, 'q2_max': 0.7}, {'q2_min': 0.7, 'q2_max': 1.3}, {'q2_min': 1.3, 'q2_max': 1.747}]
+
+  - name: dBRdq2-DToetaenu
+    observables:
+      - name: 'D->etalnu::P(q2);q=d,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.01}, {'q2': 0.02}, {'q2': 0.03}, {'q2': 0.04},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1},  {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6},  {'q2': 1.7}, {'q2': 1.747}]
+
+  - name: dBRdq2-DToetamunu
+    observables:
+      - name: 'D->etalnu::P(q2);q=d,l=mu,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.01}, {'q2': 0.02}, {'q2': 0.03}, {'q2': 0.04},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1},  {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6},  {'q2': 1.7}, {'q2': 1.747}]
+
+  - name: Pq2minmax-DToeta_primelnu
+    observables:
+      - name: 'D->eta_primelnu::P(q2_min,q2_max);q=d,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2_min': 0.0, 'q2_max': 0.3}, {'q2_min': 0.3, 'q2_max': 0.6}, {'q2_min': 0.6, 'q2_max': 0.831}]
+
+  - name: dBRdq2-DToeta_primeenu
+    observables:
+      - name: 'D->eta_primelnu::P(q2);q=d,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.005}, {'q2': 0.01}, {'q2': 0.015}, {'q2': 0.02},
+           {'q2': 0.025}, {'q2': 0.03}, {'q2': 0.035}, {'q2': 0.04},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.831}]
+
+  - name: dBRdq2-DToeta_primemunu
+    observables:
+      - name: 'D->eta_primelnu::P(q2);q=d,l=mu,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.005}, {'q2': 0.01}, {'q2': 0.015}, {'q2': 0.02},
+           {'q2': 0.025}, {'q2': 0.03}, {'q2': 0.035}, {'q2': 0.04},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.831}]
+
+  - name: Pq2minmax-DsToetalnu
+    observables:
+      - name: 'D->etalnu::P(q2_min,q2_max);q=s,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2_min': 0.0, 'q2_max': 0.2}, {'q2_min': 0.2, 'q2_max': 0.4}, {'q2_min': 0.4, 'q2_max': 0.6},
+           {'q2_min': 0.6, 'q2_max': 0.8}, {'q2_min': 0.8, 'q2_max': 1.0}, {'q2_min': 1.0, 'q2_max': 1.2},
+           {'q2_min': 1.2, 'q2_max': 1.4}, {'q2_min': 1.4, 'q2_max': 2.016}]
+      - name: 'D->etalnu::P(q2_min,q2_max);q=s,l=mu,form-factors=BSZ2015'
+        kinematics:
+          [{'q2_min': 0.0112, 'q2_max': 0.2}, {'q2_min': 0.2, 'q2_max': 0.4}, {'q2_min': 0.4, 'q2_max': 0.6},
+           {'q2_min': 0.6, 'q2_max': 0.8}, {'q2_min': 0.8, 'q2_max': 1.0}, {'q2_min': 1.0, 'q2_max': 1.2},
+           {'q2_min': 1.2, 'q2_max': 1.4}, {'q2_min': 1.4, 'q2_max': 2.016}]
+
+  - name: dBRdq2-DsToetaenu
+    observables:
+      - name: 'D->etalnu::P(q2);q=s,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.01}, {'q2': 0.02}, {'q2': 0.03}, {'q2': 0.04},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1},  {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6},  {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}]
+
+  - name: dBRdq2-DsToetamunu
+    observables:
+      - name: 'D->etalnu::P(q2);q=s,l=mu,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.01}, {'q2': 0.02}, {'q2': 0.03}, {'q2': 0.04},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.1},  {'q2': 1.2}, {'q2': 1.3}, {'q2': 1.4},
+           {'q2': 1.5}, {'q2': 1.6},  {'q2': 1.7}, {'q2': 1.8}, {'q2': 1.9},
+           {'q2': 2.0}]
+
+  - name: Pq2minmax-DsToeta_primelnu
+    observables:
+      - name: 'D->eta_primelnu::P(q2_min,q2_max);q=s,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2_min': 0.0, 'q2_max': 0.3}, {'q2_min': 0.3, 'q2_max': 0.6}, {'q2_min': 0.6, 'q2_max': 1.02}]
+
+  - name: dBRdq2-DsToeta_primeenu
+    observables:
+      - name: 'D->eta_primelnu::P(q2);q=s,l=e,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.005}, {'q2': 0.01}, {'q2': 0.015}, {'q2': 0.02},
+           {'q2': 0.03}, {'q2': 0.035}, {'q2': 0.04}, {'q2': 0.045},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.02}]
+
+  - name: dBRdq2-DsToeta_primemunu
+    observables:
+      - name: 'D->eta_primelnu::P(q2);q=s,l=mu,form-factors=BSZ2015'
+        kinematics:
+          [{'q2': 0.0}, {'q2': 0.005}, {'q2': 0.01}, {'q2': 0.015}, {'q2': 0.02},
+           {'q2': 0.03}, {'q2': 0.035}, {'q2': 0.04}, {'q2': 0.045},
+           {'q2': 0.05}, {'q2': 0.06}, {'q2': 0.07}, {'q2': 0.08}, {'q2': 0.09},
+           {'q2': 0.1}, {'q2': 0.15}, {'q2': 0.2}, {'q2': 0.3}, {'q2': 0.4},
+           {'q2': 0.5}, {'q2': 0.6},  {'q2': 0.7}, {'q2': 0.8}, {'q2': 0.9},
+           {'q2': 1.0}, {'q2': 1.02}]
+
+
+likelihoods:
+  - name: BToetaLCSR
+    constraints:
+      - B->eta::f_0+f_++f_T@MR:2025A
+
+  - name: BToeta_primeLCSR
+    constraints:
+      - B->eta_prime::f_0+f_++f_T@MR:2025A
+
+  - name: BsToetaLCSR
+    constraints:
+      - B_s->eta::f_0+f_++f_T@MR:2025A
+
+  - name: BsToeta_primeLCSR
+    constraints:
+      - B_s->eta_prime::f_0+f_++f_T@MR:2025A
+
+  - name: DToetaLCSR
+    constraints:
+      - D->eta::f_0+f_++f_T@MR:2025A
+
+  - name: DToeta_primeLCSR
+    constraints:
+      - D->eta_prime::f_0+f_++f_T@MR:2025A
+
+  - name: DsToetaLCSR
+    constraints:
+      - D_s->eta::f_0+f_++f_T@MR:2025A
+
+  - name: DsToeta_primeLCSR
+    constraints:
+      - D_s->eta_prime::f_0+f_++f_T@MR:2025A
+
+  - name: BToetaExp
+    constraints:
+      - B^+->etalnu::BR@HFLAV:2024A
+      - B^+->etalnu::KinematicalDistribution[q2]@BaBar:2012D
+
+  - name: BToeta_primeExp
+    constraints:
+      - B^+->eta_primelnu::BR@HFLAV:2024A
+
+  - name: DToetaExp
+    constraints:
+      - D^+->etae^+nu::BR@MR:2025A
+      - D^+->etamu^+nu::BR@BES:2025A
+      - D^+->etalnu::KinematicalDistribution[q2]@BES:2025A
+
+  - name: DToeta_primeExp
+    constraints:
+      - D^+->eta_primemu^+nu::BR@PDG:2024A
+      - D^+->eta_primee^+nu::BR@MR:2025A
+      - D^+->eta_primelnu::KinematicalDistribution[q2]@BES:2024A
+
+  - name: DsToetaExp
+    constraints:
+      - D_s^+->etae^+nu::BR@PDG:2024A
+      - D_s^+->etamu^+nu::BR@MR:2025A
+      - D_s^+->etalnu::KinematicalDistribution[q2]@MR:2025A
+
+  - name: DsToeta_primeExp
+    constraints:
+      - D_s^+->eta_primee^+nu::BR@PDG:2024A
+      - D_s^+->eta_primemu^+nu::BR@MR:2025A
+      - D_s^+->eta_primelnu::KinematicalDistribution[q2]@MR:2025A
+
+  - name: th_bound
+    manual_constraints:
+      'b->u::DispersiveBound[0^+_V]':
+        type: UniformBound
+        observables:
+            - 'B->eta::Saturation[0^+_V]'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.1
+
+  - name: BsToetasLQCD
+    manual_constraints:
+      'B_s->eta_s::f_0+f_+@HPQCD:2020A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+          [ 'B_s->eta_prime::f_+(q2)', 'B_s->eta_prime::f_+(q2)', 'B_s->eta_prime::f_+(q2)',
+            'B_s->eta_prime::f_0(q2)', 'B_s->eta_prime::f_0(q2)']
+        kinematics:
+          [ {q2: 0}, {q2: 10}, {q2: 20}, {q2: 10}, {q2: 20}]
+        options:
+          [ {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}]
+        means:
+          [ 0.295974, 0.603938, 1.7602, 0.408823, 0.696851]
+        covariance:
+          - [0.0006221, 0.000677198, 0.000790479, 0.000452511, 0.00015623]
+          - [0.000677198, 0.00179358, 0.00560716, 0.000557056, 0.000258467]
+          - [0.000790479, 0.00560716, 0.0268717, 0.000895749, 0.00063401]
+          - [0.000452511, 0.000557056, 0.000895749, 0.000374211, 0.000191296]
+          - [0.00015623, 0.000258467, 0.00063401, 0.000191296, 0.000209736]
+
+  - name: BsToetasLCSR
+    manual_constraints:
+      'B_s->eta_s::f_0+f_+@MR:2025A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+          [ 'B_s->eta_prime::f_+(q2)', 'B_s->eta_prime::f_+(q2)', 'B_s->eta_prime::f_+(q2)', 'B_s->eta_prime::f_+(q2)',
+            'B_s->eta_prime::f_0(q2)', 'B_s->eta_prime::f_0(q2)', 'B_s->eta_prime::f_0(q2)']
+        kinematics:
+          [ {q2: -10}, {q2: -5}, {q2: 0}, {q2: 5},
+            {q2: -10}, {q2: -5},          {q2: 5}]
+        options:
+          [ {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}]
+        means:
+          [ 0.211582, 0.263509, 0.339182, 0.45552, 0.262269, 0.295121, 0.400686]
+        covariance:
+          - [0.000310776, 0.000273887, 0.000302476, 0.000309378, 0.000301701, 0.000308541, 0.000276019]
+          - [0.000273887, 0.000438723, 0.000377932, 0.000406565, 0.000344853, 0.000368784, 0.000361389]
+          - [0.000302476, 0.000377932, 0.000640919, 0.000521185, 0.000379197, 0.000424596, 0.000461932]
+          - [0.000309378, 0.000406565, 0.000521185, 0.000973933, 0.000384806, 0.000455257, 0.00056713]
+          - [0.000301701, 0.000344853, 0.000379197, 0.000384806, 0.000492253, 0.000389432, 0.000342072]
+          - [0.000308541, 0.000368784, 0.000424596, 0.000455257, 0.000389432, 0.000555039, 0.000403886]
+          - [0.000276019, 0.000361389, 0.000461932, 0.00056713, 0.000342072, 0.000403886, 0.000759371]
+
+
+  - name: BToetaeta_primeLCSR
+    manual_constraints:
+      'B->etaeta_prime::f_0+f_++f_T@MR:2025A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+          [ 'B->eta::f_+(q2)', 'B->eta::f_+(q2)', 'B->eta::f_+(q2)', 'B->eta::f_+(q2)', 'B->eta::f_0(q2)', 'B->eta::f_0(q2)', 'B->eta::f_0(q2)', 'B->eta::f_T(q2)', 'B->eta::f_T(q2)', 'B->eta::f_T(q2)', 'B->eta::f_T(q2)',
+            'B->eta_prime::f_+(q2)', 'B->eta_prime::f_+(q2)', 'B->eta_prime::f_+(q2)', 'B->eta_prime::f_+(q2)', 'B->eta_prime::f_0(q2)', 'B->eta_prime::f_0(q2)', 'B->eta_prime::f_0(q2)', 'B->eta_prime::f_T(q2)', 'B->eta_prime::f_T(q2)', 'B->eta_prime::f_T(q2)', 'B->eta_prime::f_T(q2)',]
+        kinematics:
+          [ {q2: -10}, {q2: -5}, {q2: 0}, {q2: 5}, {q2: -10}, {q2: -5}, {q2: 5}, {q2: -10}, {q2: -5}, {q2: 0}, {q2: 5},
+            {q2: -10}, {q2: -5}, {q2: 0}, {q2: 5}, {q2: -10}, {q2: -5}, {q2: 5}, {q2: -10}, {q2: -5}, {q2: 0}, {q2: 5}]
+        options:
+          [ {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015},
+            {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015} ]
+        means:
+          [ 0.114912, 0.143316, 0.184894, 0.248914, 0.142932, 0.160796, 0.218525, 0.117953, 0.147419, 0.190846, 0.258684, 0.0914212, 0.113872, 0.146571, 0.196991, 0.114236, 0.128091, 0.172341, 0.0994751, 0.123996, 0.159998, 0.216045]
+        covariance:
+          - [0.000877456, 0.00109734, 0.00145076, 0.00199358, 0.00106534, 0.00123092, 0.00175272, 0.000881477, 0.00112983, 0.00149575, 0.00206468, 0.000814179, 0.00103303, 0.00135084, 0.0018377, 0.00101818, 0.00116224, 0.00160898, 0.000886918, 0.00112393, 0.00146991, 0.0020038]
+          - [0.00109734, 0.00144455, 0.0018727, 0.00258046, 0.00136493, 0.00158349, 0.00226815, 0.00112841, 0.0014527, 0.00193077, 0.002674, 0.00104396, 0.00132879, 0.0017426, 0.00237652, 0.00130526, 0.00149491, 0.00208042, 0.00113638, 0.00144526, 0.00189659, 0.00259332]
+          - [0.00145076, 0.0018727, 0.00254801, 0.0034484, 0.0018039, 0.0021004, 0.00303036, 0.0014896, 0.00192535, 0.00257015, 0.00357565, 0.00138098, 0.00176255, 0.00231836, 0.00317178, 0.00172593, 0.00198258, 0.00277632, 0.00150174, 0.00191618, 0.00252384, 0.00346476]
+          - [0.00199358, 0.00258046, 0.0034484, 0.00489023, 0.00247777, 0.00289381, 0.0042093, 0.00204315, 0.00264983, 0.00355346, 0.00497111, 0.00190035, 0.0024305, 0.0032063, 0.00440292, 0.00237391, 0.00273342, 0.00385352, 0.00206383, 0.00264045, 0.00349077, 0.00481456]
+          - [0.00106534, 0.00136493, 0.0018039, 0.00247777, 0.00135842, 0.00153128, 0.00217819, 0.00109708, 0.0014057, 0.00185993, 0.00256567, 0.0010172, 0.00129024, 0.00168643, 0.00229302, 0.00127287, 0.0014521, 0.0020069, 0.00110747, 0.00140258, 0.00183288, 0.00249628]
+          - [0.00123092, 0.00158349, 0.0021004, 0.00289381, 0.00153128, 0.0018177, 0.00254343, 0.001266, 0.00162968, 0.00216558, 0.00299847, 0.00117369, 0.00149376, 0.0019586, 0.00267053, 0.00146793, 0.00168079, 0.00233735, 0.00127719, 0.00162395, 0.00213034, 0.00291177]
+          - [0.00175272, 0.00226815, 0.00303036, 0.0042093, 0.00217819, 0.00254343, 0.00377485, 0.00179628, 0.00232914, 0.00312276, 0.00436763, 0.00166635, 0.00213105, 0.00281109, 0.00385993, 0.00208093, 0.00239623, 0.00337902, 0.00181058, 0.00231651, 0.00306267, 0.0042243]
+          - [0.000881477, 0.00112841, 0.0014896, 0.00204315, 0.00109708, 0.001266, 0.00179628, 0.000931129, 0.00116331, 0.00153698, 0.00211636, 0.000835513, 0.00105934, 0.00138369, 0.00187968, 0.00104497, 0.00119186, 0.00164597, 0.000911893, 0.00115453, 0.0015078, 0.0020517]
+          - [0.00112983, 0.0014527, 0.00192535, 0.00264983, 0.0014057, 0.00162968, 0.00232914, 0.00116331, 0.00153125, 0.00198648, 0.00274674, 0.0010699, 0.00136145, 0.00178442, 0.00243156, 0.00133742, 0.00153144, 0.00212919, 0.00116691, 0.00148372, 0.00194583, 0.00265813]
+          - [0.00149575, 0.00193077, 0.00257015, 0.00355346, 0.00185993, 0.00216558, 0.00312276, 0.00153698, 0.00198648, 0.00270926, 0.00368632, 0.00141473, 0.00180606, 0.00237587, 0.00325045, 0.00176708, 0.00203088, 0.00284638, 0.00154147, 0.00196783, 0.00259275, 0.00356002]
+          - [0.00206468, 0.002674, 0.00357565, 0.00497111, 0.00256567, 0.00299847, 0.00436763, 0.00211636, 0.00274674, 0.00368632, 0.00526816, 0.00195232, 0.00249893, 0.00329945, 0.00453503, 0.00243645, 0.00280893, 0.00397139, 0.00212426, 0.0027212, 0.00360257, 0.00497604]
+          - [0.000814179, 0.00104396, 0.00138098, 0.00190035, 0.0010172, 0.00117369, 0.00166635, 0.000835513, 0.0010699, 0.00141473, 0.00195232, 0.000910326, 0.00113328, 0.00147481, 0.00199714, 0.00113956, 0.00128614, 0.00172982, 0.000947514, 0.00118726, 0.00153288, 0.00206245]
+          - [0.00103303, 0.00132879, 0.00176255, 0.0024305, 0.00129024, 0.00149376, 0.00213105, 0.00105934, 0.00136145, 0.00180606, 0.00249893, 0.00113328, 0.00145607, 0.00187201, 0.00253984, 0.00143892, 0.00162841, 0.00220048, 0.00119766, 0.00150524, 0.00194912, 0.00262957]
+          - [0.00135084, 0.0017426, 0.00231836, 0.0032063, 0.00168643, 0.0019586, 0.00281109, 0.00138369, 0.00178442, 0.00237587, 0.00329945, 0.00147481, 0.00187201, 0.0024818, 0.00332877, 0.00187105, 0.00212297, 0.00288501, 0.00155913, 0.00196525, 0.00255319, 0.00345667]
+          - [0.0018377, 0.00237652, 0.00317178, 0.00440292, 0.00229302, 0.00267053, 0.00385993, 0.00187968, 0.00243156, 0.00325045, 0.00453503, 0.00199714, 0.00253984, 0.00332877, 0.00460317, 0.00253141, 0.002879, 0.00393715, 0.0021117, 0.0026688, 0.00347932, 0.00473043]
+          - [0.00101818, 0.00130526, 0.00172593, 0.00237391, 0.00127287, 0.00146793, 0.00208093, 0.00104497, 0.00133742, 0.00176708, 0.00243645, 0.00113956, 0.00143892, 0.00187105, 0.00253141, 0.00147107, 0.0016345, 0.00219011, 0.00120043, 0.00150199, 0.00193569, 0.00259914]
+          - [0.00116224, 0.00149491, 0.00198258, 0.00273342, 0.0014521, 0.00168079, 0.00239623, 0.00119186, 0.00153144, 0.00203088, 0.00280893, 0.00128614, 0.00162841, 0.00212297, 0.002879, 0.0016345, 0.00187465, 0.00249279, 0.00135709, 0.0017043, 0.0022048, 0.00297138]
+          - [0.00160898, 0.00208042, 0.00277632, 0.00385352, 0.0020069, 0.00233735, 0.00337902, 0.00164597, 0.00212919, 0.00284638, 0.00397139, 0.00172982, 0.00220048, 0.00288501, 0.00393715, 0.00219011, 0.00249279, 0.00346365, 0.0018328, 0.00231814, 0.00302501, 0.00411682]
+          - [0.000886918, 0.00113638, 0.00150174, 0.00206383, 0.00110747, 0.00127719, 0.00181058, 0.000911893, 0.00116691, 0.00154147, 0.00212426, 0.000947514, 0.00119766, 0.00155913, 0.0021117, 0.00120043, 0.00135709, 0.0018328, 0.00102393, 0.00126526, 0.00163634, 0.00220502]
+          - [0.00112393, 0.00144526, 0.00191618, 0.00264045, 0.00140258, 0.00162395, 0.00231651, 0.00115453, 0.00148372, 0.00196783, 0.0027212, 0.00118726, 0.00150524, 0.00196525, 0.0026688, 0.00150199, 0.0017043, 0.00231814, 0.00126526, 0.0016191, 0.00207073, 0.00280162]
+          - [0.00146991, 0.00189659, 0.00252384, 0.00349077, 0.00183288, 0.00213034, 0.00306267, 0.0015078, 0.00194583, 0.00259275, 0.00360257, 0.00153288, 0.00194912, 0.00255319, 0.00347932, 0.00193569, 0.0022048, 0.00302501, 0.00163634, 0.00207073, 0.00274312, 0.00367502]
+          - [0.0020038, 0.00259332, 0.00346476, 0.00481456, 0.00249628, 0.00291177, 0.0042243, 0.0020517, 0.00265813, 0.00356002, 0.00497604, 0.00206245, 0.00262957, 0.00345667, 0.00473043, 0.00259914, 0.00297138, 0.00411682, 0.00220502, 0.00280162, 0.00367502, 0.00510371]
+
+  - name: DToetaeta_primeLCSR
+    manual_constraints:
+      'D->etaeta_prime::f_0+f_++f_T@MR:2025A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+          [ 'D->eta::f_+(q2)', 'D->eta::f_+(q2)', 'D->eta::f_+(q2)', 'D->eta::f_+(q2)', 'D->eta::f_0(q2)', 'D->eta::f_0(q2)', 'D->eta::f_0(q2)', 'D->eta::f_T(q2)', 'D->eta::f_T(q2)', 'D->eta::f_T(q2)', 'D->eta::f_T(q2)',
+            'D->eta_prime::f_+(q2)', 'D->eta_prime::f_+(q2)', 'D->eta_prime::f_+(q2)', 'D->eta_prime::f_+(q2)', 'D->eta_prime::f_0(q2)', 'D->eta_prime::f_0(q2)', 'D->eta_prime::f_0(q2)', 'D->eta_prime::f_T(q2)', 'D->eta_prime::f_T(q2)', 'D->eta_prime::f_T(q2)', 'D->eta_prime::f_T(q2)',]
+        kinematics:
+          [ {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5},
+            {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5}]
+        options:
+          [ {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015},
+            {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015} ]
+        means:
+          [ 0.284017, 0.324259, 0.375613, 0.443579, 0.312846, 0.340417, 0.421663, 0.283296, 0.326566, 0.381407, 0.444587, 0.198676, 0.226171, 0.260539, 0.299737, 0.222124, 0.23967, 0.279394, 0.231866, 0.266417, 0.309427, 0.356986]
+        covariance:
+          - [0.00972382, 0.0108943, 0.01251, 0.0145743, 0.0105792, 0.0114431, 0.0138475, 0.00958194, 0.0109852, 0.0127166, 0.0146203, 0.00751711, 0.00872296, 0.0102209, 0.0118585, 0.00846812, 0.00928039, 0.0110028, 0.00876567, 0.0102687, 0.0121327, 0.014117]
+          - [0.0108943, 0.0125738, 0.0142606, 0.0166016, 0.0120229, 0.0130321, 0.0157947, 0.010913, 0.0125412, 0.0145175, 0.0166535, 0.00859212, 0.00998941, 0.0117197, 0.0136049, 0.009698, 0.0106385, 0.0126138, 0.0100372, 0.0117866, 0.013947, 0.0162353]
+          - [0.01251, 0.0142606, 0.016629, 0.0190989, 0.0138088, 0.0149805, 0.0181783, 0.0125367, 0.0144209, 0.0167011, 0.0191566, 0.00990212, 0.0115199, 0.0135237, 0.0157081, 0.0111862, 0.0122739, 0.014557, 0.0115664, 0.0135938, 0.0160993, 0.0187546]
+          - [0.0145743, 0.0166016, 0.0190989, 0.0225736, 0.01608, 0.0174374, 0.0211774, 0.0145745, 0.0167568, 0.0194218, 0.0223198, 0.0115592, 0.01344, 0.015778, 0.0183395, 0.0130599, 0.0143207, 0.0169903, 0.0134754, 0.0158272, 0.0187485, 0.0218667]
+          - [0.0105792, 0.0120229, 0.0138088, 0.01608, 0.0118317, 0.0126336, 0.0152774, 0.0105876, 0.0121472, 0.0140577, 0.0161434, 0.00835212, 0.00969849, 0.0113696, 0.0131988, 0.00943397, 0.0103331, 0.012227, 0.00975232, 0.0114341, 0.0135156, 0.0157317]
+          - [0.0114431, 0.0130321, 0.0149805, 0.0174374, 0.0126336, 0.0138787, 0.0165857, 0.011472, 0.013185, 0.0152611, 0.017501, 0.00905371, 0.0105274, 0.0123522, 0.0143426, 0.0102314, 0.0112188, 0.013287, 0.0105821, 0.0124282, 0.0147071, 0.017122]
+          - [0.0138475, 0.0157947, 0.0181783, 0.0211774, 0.0152774, 0.0165857, 0.0204562, 0.0138576, 0.0159489, 0.018483, 0.0212181, 0.0109787, 0.0127755, 0.0150044, 0.0174387, 0.0123975, 0.0136082, 0.0161674, 0.0128035, 0.0150535, 0.0178423, 0.0208086]
+          - [0.00958194, 0.010913, 0.0125367, 0.0145745, 0.0105876, 0.011472, 0.0138576, 0.00976653, 0.0110767, 0.0128053, 0.0146526, 0.00754153, 0.00877167, 0.0102881, 0.0119311, 0.00852052, 0.00934718, 0.0110551, 0.00884591, 0.0103917, 0.0122863, 0.0142751]
+          - [0.0109852, 0.0125412, 0.0144209, 0.0167568, 0.0121472, 0.013185, 0.0159489, 0.0110767, 0.0129263, 0.0147485, 0.0168484, 0.00869227, 0.010126, 0.0118894, 0.0137953, 0.00983617, 0.0107992, 0.0127739, 0.0102098, 0.0120176, 0.0142274, 0.0165381]
+          - [0.0127166, 0.0145175, 0.0167011, 0.0194218, 0.0140577, 0.0152611, 0.018483, 0.0128053, 0.0147485, 0.0173005, 0.0195253, 0.0100777, 0.0117386, 0.0137868, 0.016007, 0.0114048, 0.0125197, 0.0148186, 0.0118207, 0.013913, 0.0164804, 0.0191774]
+          - [0.0146203, 0.0166535, 0.0191566, 0.0223198, 0.0161434, 0.017501, 0.0212181, 0.0146526, 0.0168484, 0.0195253, 0.0227443, 0.011594, 0.0134829, 0.0158288, 0.0183968, 0.0131124, 0.0143751, 0.0170286, 0.0135446, 0.0159117, 0.0188461, 0.0219723]
+          - [0.00751711, 0.00859212, 0.00990212, 0.0115592, 0.00835212, 0.00905371, 0.0109787, 0.00754153, 0.00869227, 0.0100777, 0.011594, 0.00723893, 0.00835103, 0.00985458, 0.0116475, 0.00847351, 0.00910829, 0.010504, 0.00828638, 0.00975095, 0.0116229, 0.0138102]
+          - [0.00872296, 0.00998941, 0.0115199, 0.01344, 0.00969849, 0.0105274, 0.0127755, 0.00877167, 0.010126, 0.0117386, 0.0134829, 0.00835103, 0.00981094, 0.0114881, 0.0135797, 0.00986927, 0.0106156, 0.0122435, 0.00965628, 0.0113781, 0.0135721, 0.0161255]
+          - [0.0102209, 0.0117197, 0.0135237, 0.015778, 0.0113696, 0.0123522, 0.0150044, 0.0102881, 0.0118894, 0.0137868, 0.0158288, 0.00985458, 0.0114881, 0.0136818, 0.0160551, 0.0116635, 0.0125446, 0.0144638, 0.0113962, 0.0134394, 0.0160433, 0.0190763]
+          - [0.0118585, 0.0136049, 0.0157081, 0.0183395, 0.0131988, 0.0143426, 0.0174387, 0.0119311, 0.0137953, 0.016007, 0.0183968, 0.0116475, 0.0135797, 0.0160551, 0.0191687, 0.0138357, 0.0148573, 0.0171003, 0.013449, 0.0158642, 0.0189557, 0.0225903]
+          - [0.00846812, 0.009698, 0.0111862, 0.0130599, 0.00943397, 0.0102314, 0.0123975, 0.00852052, 0.00983617, 0.0114048, 0.0131124, 0.00847351, 0.00986927, 0.0116635, 0.0138357, 0.0101877, 0.0108234, 0.0123984, 0.00977732, 0.0115187, 0.0137535, 0.0164051]
+          - [0.00928039, 0.0106385, 0.0122739, 0.0143207, 0.0103331, 0.0112188, 0.0136082, 0.00934718, 0.0107992, 0.0125197, 0.0143751, 0.00910829, 0.0106156, 0.0125446, 0.0148573, 0.0108234, 0.0117089, 0.0133497, 0.0105278, 0.0124122, 0.0148188, 0.0176428]
+          - [0.0110028, 0.0126138, 0.014557, 0.0169903, 0.012227, 0.013287, 0.0161674, 0.0110551, 0.0127739, 0.0148186, 0.0170286, 0.010504, 0.0122435, 0.0144638, 0.0171003, 0.0123984, 0.0133497, 0.0155582, 0.0121372, 0.0143112, 0.0170844, 0.0203106]
+          - [0.00876567, 0.0100372, 0.0115664, 0.0134754, 0.00975232, 0.0105821, 0.0128035, 0.00884591, 0.0102098, 0.0118207, 0.0135446, 0.00828638, 0.00965628, 0.0113962, 0.013449, 0.00977732, 0.0105278, 0.0121372, 0.00970262, 0.0113332, 0.0135047, 0.0160058]
+          - [0.0102687, 0.0117866, 0.0135938, 0.0158272, 0.0114341, 0.0124282, 0.0150535, 0.0103917, 0.0120176, 0.013913, 0.0159117, 0.00975095, 0.0113781, 0.0134394, 0.0158642, 0.0115187, 0.0124122, 0.0143112, 0.0113332, 0.013492, 0.0159572, 0.0189143]
+          - [0.0121327, 0.013947, 0.0160993, 0.0187485, 0.0135156, 0.0147071, 0.0178423, 0.0122863, 0.0142274, 0.0164804, 0.0188461, 0.0116229, 0.0135721, 0.0160433, 0.0189557, 0.0137535, 0.0148188, 0.0170844, 0.0135047, 0.0159572, 0.0192063, 0.0226108]
+          - [0.014117, 0.0162353, 0.0187546, 0.0218667, 0.0157317, 0.017122, 0.0208086, 0.0142751, 0.0165381, 0.0191774, 0.0219723, 0.0138102, 0.0161255, 0.0190763, 0.0225903, 0.0164051, 0.0176428, 0.0203106, 0.0160058, 0.0189143, 0.0226108, 0.0271177]
+
+  - name: DsToetaeta_primeLCSR
+    manual_constraints:
+      'D_s->etaeta_prime::f_0+f_++f_T@MR:2025A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+          [ 'D_s->eta::f_+(q2)', 'D_s->eta::f_+(q2)', 'D_s->eta::f_+(q2)', 'D_s->eta::f_+(q2)', 'D_s->eta::f_0(q2)', 'D_s->eta::f_0(q2)', 'D_s->eta::f_0(q2)', 'D_s->eta::f_T(q2)', 'D_s->eta::f_T(q2)', 'D_s->eta::f_T(q2)', 'D_s->eta::f_T(q2)',
+            'D_s->eta_prime::f_+(q2)', 'D_s->eta_prime::f_+(q2)', 'D_s->eta_prime::f_+(q2)', 'D_s->eta_prime::f_+(q2)', 'D_s->eta_prime::f_0(q2)', 'D_s->eta_prime::f_0(q2)', 'D_s->eta_prime::f_0(q2)', 'D_s->eta_prime::f_T(q2)', 'D_s->eta_prime::f_T(q2)', 'D_s->eta_prime::f_T(q2)', 'D_s->eta_prime::f_T(q2)',]
+        kinematics:
+          [ {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5},
+            {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0.5}, {q2: -1.0}, {q2: -0.5}, {q2: 0}, {q2: 0.5}]
+        options:
+          [ {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015},
+            {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015}, {form-factors: BSZ2015} ]
+        means:
+          [-0.356192, -0.404905, -0.466562, -0.535014, -0.375297, -0.414902, -0.52227, -0.347613, -0.398399, -0.461724, -0.524751, 0.419116, 0.472066, 0.539386, 0.610781, 0.455753, 0.492354, 0.583999, 0.468835, 0.525209, 0.608598, 0.688022]
+        covariance:
+          - [0.000321526, 0.000111754, 0.000102825, 0.0000880434, 0.000130373, 0.000120649, 0.0000667383, 0.000148481, 0.000148112, 0.000137739, 0.0000821838, 0.000341593, 0.000410223, 0.000469387, 0.000544439, 0.000423967, 0.000436618, 0.000379962, 0.000407811, 0.000452583, 0.000471611, 0.000501395]
+          - [0.000111754, 0.000377368, 0.000119157, 0.000118457, 0.000125008, 0.000124773, 0.000096921, 0.000138347, 0.000151003, 0.000159615, 0.000132781, 0.000282864, 0.000332618, 0.000377949, 0.000445176, 0.000358708, 0.000360406, 0.00031536, 0.000332916, 0.00036143, 0.000373126, 0.000407789]
+          - [0.000102825, 0.000119157, 0.000488531, 0.000158128, 0.000117881, 0.000129972, 0.000136179, 0.000125451, 0.000155363, 0.000189275, 0.000200829, 0.000210462, 0.000236174, 0.00026366, 0.000320352, 0.000278595, 0.000265996, 0.000234086, 0.000240112, 0.000247282, 0.000248273, 0.000286553]
+          - [0.0000880434, 0.000118457, 0.000158128, 0.000655768, 0.000104157, 0.00012975, 0.000177137, 0.000104888, 0.000153476, 0.00021594, 0.000275324, 0.000125302, 0.000123323, 0.000130776, 0.000174397, 0.000185409, 0.000156681, 0.0001388, 0.000131529, 0.000115206, 0.000105327, 0.000145061]
+          - [0.000130373, 0.000125008, 0.000117881, 0.000104157, 0.000370555, 0.00013599, 0.0000787137, 0.000165096, 0.000167762, 0.000160321, 0.000103138, 0.000380627, 0.000455109, 0.000520216, 0.000605233, 0.000471775, 0.000484686, 0.000427051, 0.000451352, 0.000499196, 0.000520219, 0.000557158]
+          - [0.000120649, 0.000124773, 0.000129972, 0.00012975, 0.00013599, 0.00041145, 0.000105029, 0.000151263, 0.00016623, 0.000177078, 0.000148692, 0.000313359, 0.000367778, 0.00041717, 0.00049067, 0.00039546, 0.000397426, 0.000349565, 0.000367041, 0.000397263, 0.000408589, 0.000445198]
+          - [0.0000667383, 0.000096921, 0.000136179, 0.000177137, 0.0000787137, 0.000105029, 0.000600156, 0.0000738835, 0.000118969, 0.000178943, 0.000246635, 0.0000480296, 0.0000327685, 0.0000301207, 0.0000606496, 0.0000937874, 0.0000630357, 0.0000565287, 0.0000430566, 0.0000217677, 0.0000148077, 0.0000558505]
+          - [0.000148481, 0.000138347, 0.000125451, 0.000104888, 0.000165096, 0.000151263, 0.0000738835, 0.000392642, 0.000202627, 0.00019442, 0.0001265, 0.000469383, 0.000561636, 0.000634938, 0.000720353, 0.000571912, 0.000589653, 0.000498227, 0.000550715, 0.000600121, 0.000601952, 0.000598214]
+          - [0.000148112, 0.000151003, 0.000155363, 0.000153476, 0.000167762, 0.00016623, 0.000118969, 0.000202627, 0.000480966, 0.000248796, 0.000221127, 0.000434355, 0.000508101, 0.000565249, 0.000639368, 0.000535132, 0.00053839, 0.000444068, 0.000498213, 0.000523566, 0.000502888, 0.00048244]
+          - [0.000137739, 0.000159615, 0.000189275, 0.00021594, 0.000160321, 0.000177078, 0.000178943, 0.00019442, 0.000248796, 0.000655724, 0.000351466, 0.000357652, 0.000399463, 0.00042907, 0.000480902, 0.000450948, 0.000432138, 0.000336289, 0.000391869, 0.00037971, 0.000325864, 0.000277899]
+          - [0.0000821838, 0.000132781, 0.000200829, 0.000275324, 0.000103138, 0.000148692, 0.000246635, 0.0001265, 0.000221127, 0.000351466, 0.000947393, 0.000123443, 0.0000956082, 0.0000694274, 0.0000694299, 0.000184997, 0.000129644, 0.000054093, 0.0000937186, 0.0000187357, -0.0000760234, -0.000159974]
+          - [0.000341593, 0.000282864, 0.000210462, 0.000125302, 0.000380627, 0.000313359, 0.0000480296, 0.000469383, 0.000434355, 0.000357652, 0.000123443, 0.00191178, 0.00197261, 0.00228229, 0.0026401, 0.00198839, 0.0020891, 0.00191489, 0.00193931, 0.00218494, 0.00232412, 0.00244821]
+          - [0.000410223, 0.000332618, 0.000236174, 0.000123323, 0.000455109, 0.000367778, 0.0000327685, 0.000561636, 0.000508101, 0.000399463, 0.0000956082, 0.00197261, 0.00274929, 0.00277297, 0.00320833, 0.00240207, 0.00253091, 0.00232397, 0.00235175, 0.00265921, 0.00283821, 0.00299634]
+          - [0.000469387, 0.000377949, 0.00026366, 0.000130776, 0.000520216, 0.00041717, 0.0000301207, 0.000634938, 0.000565249, 0.00042907, 0.0000694274, 0.00228229, 0.00277297, 0.0036928, 0.0037559, 0.0027876, 0.00294159, 0.00273511, 0.00272687, 0.00310117, 0.00334542, 0.00358567]
+          - [0.000544439, 0.000445176, 0.000320352, 0.000174397, 0.000605233, 0.00049067, 0.0000606496, 0.000720353, 0.000639368, 0.000480902, 0.0000694299, 0.0026401, 0.00320833, 0.0037559, 0.00501471, 0.00324605, 0.00342436, 0.00325049, 0.00315985, 0.00361731, 0.00396299, 0.00435665]
+          - [0.000423967, 0.000358708, 0.000278595, 0.000185409, 0.000471775, 0.00039546, 0.0000937874, 0.000571912, 0.000535132, 0.000450948, 0.000184997, 0.00198839, 0.00240207, 0.0027876, 0.00324605, 0.00277526, 0.00255999, 0.00236645, 0.00236664, 0.00267275, 0.00286678, 0.00306415]
+          - [0.000436618, 0.000360406, 0.000265996, 0.000156681, 0.000484686, 0.000397426, 0.0000630357, 0.000589653, 0.00053839, 0.000432138, 0.000129644, 0.0020891, 0.00253091, 0.00294159, 0.00342436, 0.00255999, 0.00307966, 0.00249506, 0.00249145, 0.00282382, 0.00303804, 0.00325116]
+          - [0.000379962, 0.00031536, 0.000234086, 0.0001388, 0.000427051, 0.000349565, 0.0000565287, 0.000498227, 0.000444068, 0.000336289, 0.000054093, 0.00191489, 0.00232397, 0.00273511, 0.00325049, 0.00236645, 0.00249506, 0.00297127, 0.00229007, 0.00263512, 0.00292872, 0.00329487]
+          - [0.000407811, 0.000332916, 0.000240112, 0.000131529, 0.000451352, 0.000367041, 0.0000430566, 0.000550715, 0.000498213, 0.000391869, 0.0000937186, 0.00193931, 0.00235175, 0.00272687, 0.00315985, 0.00236664, 0.00249145, 0.00229007, 0.00267004, 0.00262354, 0.00280631, 0.00297625]
+          - [0.000452583, 0.00036143, 0.000247282, 0.000115206, 0.000499196, 0.000397263, 0.0000217677, 0.000600121, 0.000523566, 0.00037971, 0.0000187357, 0.00218494, 0.00265921, 0.00310117, 0.00361731, 0.00267275, 0.00282382, 0.00263512, 0.00262354, 0.00343717, 0.00325059, 0.00351127]
+          - [0.000471611, 0.000373126, 0.000248273, 0.000105327, 0.000520219, 0.000408589, 0.0000148077, 0.000601952, 0.000502888, 0.000325864, -0.0000760234, 0.00232412, 0.00283821, 0.00334542, 0.00396299, 0.00286678, 0.00303804, 0.00292872, 0.00280631, 0.00325059, 0.00421461, 0.0040608]
+          - [0.000501395, 0.000407789, 0.000286553, 0.000145061, 0.000557158, 0.000445198, 0.0000558505, 0.000598214, 0.00048244, 0.000277899, -0.000159974, 0.00244821, 0.00299634, 0.00358567, 0.00435665, 0.00306415, 0.00325116, 0.00329487, 0.00297625, 0.00351127, 0.0040608, 0.00556608]
