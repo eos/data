@@ -7,8 +7,13 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2025-04">2025-04</a></td>
+  <td>Form factors and phenomenology of $B_{(s)}$ and $D_{(s)}$ semileptonic decays to $\eta$ and $\eta^\prime$</td>
+  <td>B.&nbsp;Melic<br/>M.&nbsp;Reboud</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2025-03">2025-03</a></td>
-  <td>A model-independent parameterization of B→ππℓν decays</td>
+  <td>A model-independent parameterization of $B\to\pi\pi\ell\nu$ decays</td>
   <td>F.&nbsp;Herren<br/>B.&nbsp;Kubis<br/>R.&nbsp;van&nbsp;Tonder</td>
 </tr>
 <tr>

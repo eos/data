@@ -1,9 +1,21 @@
-2025-03:
+2025-04:
+  authors:
+    - B. Melic
+    - M. Reboud
+  title: 'Form factors and phenomenology of $B_{(s)}$ and $D_{(s)}$ semileptonic decays to $\eta$ and $\eta^\prime$'
+  doi: 10.5281/zenodo.17045425
+  likelihoods: {}
+  keywords:
+    - Semileptonic decays
+    - Form factors
+  eos_version: 1.0.17
+
+  2025-03:
   authors:
     - F. Herren
     - B. Kubis
     - R. van Tonder
-  title: 'A model-independent parameterization of B→ππℓν decays'
+  title: 'A model-independent parameterization of $B\to\pi\pi\ell\nu$ decays'
   doi: 10.5281/zenodo.15783589
   likelihoods: {}
   keywords:
