@@ -17,6 +17,11 @@
   <td>F.&nbsp;Herren<br/>B.&nbsp;Kubis<br/>R.&nbsp;van&nbsp;Tonder</td>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2025-02">2025-02</a></td>
+  <td>Challenging $\overline{B}\_{(s)}\to D\_{(s)}^{(\ast)}$ Form Factors with the Heavy Quark Expansion</td>
+  <td>M.&nbsp;Bordone<br/>N.&nbsp;Gubernari<br/>M.&nbsp;Jung<br/>D.&nbsp;van&nbsp;Dyk</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2025-01">2025-01</a></td>
   <td>Detailed $SU(3)$ Flavour Symmetry Analysis of Charmless Two-Body $B$-Meson Decays Including Factorizable Corrections</td>
   <td>M.&nbsp;Burgos&nbsp;Marcos<br/>M.&nbsp;Reboud<br/>K.&nbsp;K.&nbsp;Vos</td>

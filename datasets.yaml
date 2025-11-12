@@ -23,6 +23,20 @@
     - Form factors
   eos_version: 1.0.16
 
+2025-02:
+  authors:
+    - M. Bordone
+    - N. Gubernari
+    - M. Jung
+    - D. van Dyk
+  title: 'Challenging $\overline{B}\_{(s)}\to D\_{(s)}^{(\ast)}$ Form Factors with the Heavy Quark Expansion'
+  doi: 10.5281/zenodo.17593955
+  likelihoods: {}
+  keywords:
+    - Semileptonic decays
+    - Form factors
+  eos_version: 1.0.14
+
 2025-01:
   authors:
     - M. Burgos Marcos
