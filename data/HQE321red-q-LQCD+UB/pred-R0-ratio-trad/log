@@ -1,0 +1,3 @@
+2025-03-05 07:16:56,576 INFO       Creating analysis with 40 priors, 12 EOS-wide constraints, 7 global options, 3 manually-entered constraints and 35 fixed parameters.
+2025-03-05 07:16:56,763 INPROGRESS Predicting observables from set 'R0-ratio-trad' for 74409 samples
+2025-03-05 07:17:19,294 COMPLETED  ... done

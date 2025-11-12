@@ -1,0 +1,43 @@
+observables:
+- kinematics:
+    q2_max: 2.0
+    q2_min: 1.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 3.0
+    q2_min: 2.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 4.0
+    q2_min: 3.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 5.0
+    q2_min: 4.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 6.0
+    q2_min: 5.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 7.0
+    q2_min: 6.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 8.0
+    q2_min: 7.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 9.0
+    q2_min: 8.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 10.0
+    q2_min: 9.0
+  name: B->D^*::my_F_L(q2)
+- kinematics:
+    q2_max: 10.689
+    q2_min: 10.0
+  name: B->D^*::my_F_L(q2)
+type: Prediction
+version: 1.0.13

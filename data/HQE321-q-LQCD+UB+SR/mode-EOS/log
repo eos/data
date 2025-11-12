@@ -1,0 +1,186 @@
+2025-03-05 08:27:42,340 INFO       Creating analysis with 46 priors, 14 EOS-wide constraints, 7 global options, 13 manually-entered constraints and 29 fixed parameters.
+2025-03-05 08:27:42,570 INPROGRESS Beginning minimization in 100 points
+2025-03-05 08:27:42,570 INFO       Using a starting point based on the existing importance samples
+2025-03-05 08:27:42,583 INFO       Using starting point [ -0.7904, 1.521, -2.699, -0.04378, -0.02258, -0.1259, 0.04687, -0.1783, 0.5872, 0.2377, -0.8551, 0.3196, -17.31, -2.22, -14.92, -2.428, 7.185, -1.424, -0.123, -0.1308, 3.996, 3.188, 2.159, -0.8832, 1.508, -1.918, -0.02213, 0.04597, 0.2459, 0.02972, -0.1126, 0.508, 0.06977, -0.2776, 0.01534, -8.9, -1.755, -9.794, -2.92, 5.816, -0.4117, -2.695, 0.5438, 2.204, 3.459, 1.769 ]
+2025-03-05 08:27:50,085 ERROR      Optimization did not succeed
+2025-03-05 08:27:50,085 ERROR        optimizer message reads: Iteration limit reached
+2025-03-05 08:27:50,087 INFO       First optimization finished
+2025-03-05 08:27:55,944 SUCCESS    Optimization goal achieved after 3819 function evaluations
+2025-03-05 08:28:00,817 SUCCESS    Optimization goal achieved after 3259 function evaluations
+2025-03-05 08:28:04,471 SUCCESS    Optimization goal achieved after 2434 function evaluations
+2025-03-05 08:28:10,442 SUCCESS    Optimization goal achieved after 3853 function evaluations
+2025-03-05 08:28:14,146 SUCCESS    Optimization goal achieved after 2393 function evaluations
+2025-03-05 08:28:18,872 SUCCESS    Optimization goal achieved after 3011 function evaluations
+2025-03-05 08:28:23,358 SUCCESS    Optimization goal achieved after 2930 function evaluations
+2025-03-05 08:28:27,103 SUCCESS    Optimization goal achieved after 2424 function evaluations
+2025-03-05 08:28:31,720 SUCCESS    Optimization goal achieved after 2925 function evaluations
+2025-03-05 08:28:35,628 SUCCESS    Optimization goal achieved after 2550 function evaluations
+2025-03-05 08:28:39,664 SUCCESS    Optimization goal achieved after 2657 function evaluations
+2025-03-05 08:28:43,543 SUCCESS    Optimization goal achieved after 2579 function evaluations
+2025-03-05 08:28:46,595 SUCCESS    Optimization goal achieved after 2028 function evaluations
+2025-03-05 08:28:51,108 SUCCESS    Optimization goal achieved after 2862 function evaluations
+2025-03-05 08:28:55,885 SUCCESS    Optimization goal achieved after 3018 function evaluations
+2025-03-05 08:29:00,064 SUCCESS    Optimization goal achieved after 2754 function evaluations
+2025-03-05 08:29:04,248 SUCCESS    Optimization goal achieved after 2593 function evaluations
+2025-03-05 08:29:08,805 SUCCESS    Optimization goal achieved after 2931 function evaluations
+2025-03-05 08:29:12,546 SUCCESS    Optimization goal achieved after 2214 function evaluations
+2025-03-05 08:29:16,100 SUCCESS    Optimization goal achieved after 2151 function evaluations
+2025-03-05 08:29:18,944 SUCCESS    Optimization goal achieved after 1736 function evaluations
+2025-03-05 08:29:22,837 SUCCESS    Optimization goal achieved after 2555 function evaluations
+2025-03-05 08:29:27,232 SUCCESS    Optimization goal achieved after 2869 function evaluations
+2025-03-05 08:29:31,259 SUCCESS    Optimization goal achieved after 2434 function evaluations
+2025-03-05 08:29:35,860 SUCCESS    Optimization goal achieved after 2762 function evaluations
+2025-03-05 08:29:40,354 SUCCESS    Optimization goal achieved after 2631 function evaluations
+2025-03-05 08:29:44,200 SUCCESS    Optimization goal achieved after 2389 function evaluations
+2025-03-05 08:29:48,278 SUCCESS    Optimization goal achieved after 2461 function evaluations
+2025-03-05 08:29:51,984 SUCCESS    Optimization goal achieved after 2159 function evaluations
+2025-03-05 08:29:56,593 SUCCESS    Optimization goal achieved after 2795 function evaluations
+2025-03-05 08:30:01,912 SUCCESS    Optimization goal achieved after 3251 function evaluations
+2025-03-05 08:30:05,887 SUCCESS    Optimization goal achieved after 2490 function evaluations
+2025-03-05 08:30:09,256 SUCCESS    Optimization goal achieved after 2042 function evaluations
+2025-03-05 08:30:13,111 SUCCESS    Optimization goal achieved after 2443 function evaluations
+2025-03-05 08:30:16,921 SUCCESS    Optimization goal achieved after 2383 function evaluations
+2025-03-05 08:30:21,043 SUCCESS    Optimization goal achieved after 2606 function evaluations
+2025-03-05 08:30:24,672 SUCCESS    Optimization goal achieved after 2322 function evaluations
+2025-03-05 08:30:29,180 SUCCESS    Optimization goal achieved after 2816 function evaluations
+2025-03-05 08:30:33,287 SUCCESS    Optimization goal achieved after 2584 function evaluations
+2025-03-05 08:30:38,043 SUCCESS    Optimization goal achieved after 2869 function evaluations
+2025-03-05 08:30:41,247 SUCCESS    Optimization goal achieved after 2100 function evaluations
+2025-03-05 08:30:45,105 SUCCESS    Optimization goal achieved after 2445 function evaluations
+2025-03-05 08:30:49,199 SUCCESS    Optimization goal achieved after 2716 function evaluations
+2025-03-05 08:30:53,323 SUCCESS    Optimization goal achieved after 2681 function evaluations
+2025-03-05 08:30:57,218 SUCCESS    Optimization goal achieved after 2579 function evaluations
+2025-03-05 08:31:00,983 SUCCESS    Optimization goal achieved after 2497 function evaluations
+2025-03-05 08:31:04,393 SUCCESS    Optimization goal achieved after 2312 function evaluations
+2025-03-05 08:31:07,890 SUCCESS    Optimization goal achieved after 2254 function evaluations
+2025-03-05 08:31:11,187 SUCCESS    Optimization goal achieved after 2157 function evaluations
+2025-03-05 08:31:14,880 SUCCESS    Optimization goal achieved after 2211 function evaluations
+2025-03-05 08:31:19,288 SUCCESS    Optimization goal achieved after 2663 function evaluations
+2025-03-05 08:31:23,301 SUCCESS    Optimization goal achieved after 2603 function evaluations
+2025-03-05 08:31:27,806 SUCCESS    Optimization goal achieved after 2619 function evaluations
+2025-03-05 08:31:32,480 SUCCESS    Optimization goal achieved after 3131 function evaluations
+2025-03-05 08:31:34,294 SUCCESS    Optimization goal achieved after 1167 function evaluations
+2025-03-05 08:31:38,351 SUCCESS    Optimization goal achieved after 2546 function evaluations
+2025-03-05 08:31:42,989 SUCCESS    Optimization goal achieved after 2918 function evaluations
+2025-03-05 08:31:45,919 SUCCESS    Optimization goal achieved after 1895 function evaluations
+2025-03-05 08:31:49,271 SUCCESS    Optimization goal achieved after 2095 function evaluations
+2025-03-05 08:31:52,900 SUCCESS    Optimization goal achieved after 2278 function evaluations
+2025-03-05 08:31:56,364 SUCCESS    Optimization goal achieved after 2327 function evaluations
+2025-03-05 08:32:00,701 SUCCESS    Optimization goal achieved after 2758 function evaluations
+2025-03-05 08:32:04,590 SUCCESS    Optimization goal achieved after 2420 function evaluations
+2025-03-05 08:32:08,543 SUCCESS    Optimization goal achieved after 2600 function evaluations
+2025-03-05 08:32:12,935 SUCCESS    Optimization goal achieved after 2687 function evaluations
+2025-03-05 08:32:16,846 SUCCESS    Optimization goal achieved after 2580 function evaluations
+2025-03-05 08:32:20,869 SUCCESS    Optimization goal achieved after 2550 function evaluations
+2025-03-05 08:32:25,148 SUCCESS    Optimization goal achieved after 2815 function evaluations
+2025-03-05 08:32:29,407 SUCCESS    Optimization goal achieved after 2827 function evaluations
+2025-03-05 08:32:34,039 SUCCESS    Optimization goal achieved after 2992 function evaluations
+2025-03-05 08:32:37,424 SUCCESS    Optimization goal achieved after 2216 function evaluations
+2025-03-05 08:32:40,989 SUCCESS    Optimization goal achieved after 2387 function evaluations
+2025-03-05 08:32:45,414 SUCCESS    Optimization goal achieved after 2857 function evaluations
+2025-03-05 08:32:49,495 SUCCESS    Optimization goal achieved after 2670 function evaluations
+2025-03-05 08:32:53,340 SUCCESS    Optimization goal achieved after 2315 function evaluations
+2025-03-05 08:32:57,471 SUCCESS    Optimization goal achieved after 2532 function evaluations
+2025-03-05 08:33:00,877 SUCCESS    Optimization goal achieved after 2149 function evaluations
+2025-03-05 08:33:04,825 SUCCESS    Optimization goal achieved after 2483 function evaluations
+2025-03-05 08:33:09,272 SUCCESS    Optimization goal achieved after 2871 function evaluations
+2025-03-05 08:33:13,067 SUCCESS    Optimization goal achieved after 2391 function evaluations
+2025-03-05 08:33:16,472 SUCCESS    Optimization goal achieved after 2215 function evaluations
+2025-03-05 08:33:20,318 SUCCESS    Optimization goal achieved after 2472 function evaluations
+2025-03-05 08:33:23,671 SUCCESS    Optimization goal achieved after 2207 function evaluations
+2025-03-05 08:33:27,424 SUCCESS    Optimization goal achieved after 2431 function evaluations
+2025-03-05 08:33:30,766 SUCCESS    Optimization goal achieved after 2115 function evaluations
+2025-03-05 08:33:34,970 SUCCESS    Optimization goal achieved after 2608 function evaluations
+2025-03-05 08:33:38,351 SUCCESS    Optimization goal achieved after 2190 function evaluations
+2025-03-05 08:33:42,202 SUCCESS    Optimization goal achieved after 2488 function evaluations
+2025-03-05 08:33:46,067 SUCCESS    Optimization goal achieved after 2427 function evaluations
+2025-03-05 08:33:50,299 SUCCESS    Optimization goal achieved after 2724 function evaluations
+2025-03-05 08:33:53,952 SUCCESS    Optimization goal achieved after 2324 function evaluations
+2025-03-05 08:33:58,677 SUCCESS    Optimization goal achieved after 3107 function evaluations
+2025-03-05 08:34:03,310 SUCCESS    Optimization goal achieved after 2865 function evaluations
+2025-03-05 08:34:06,927 SUCCESS    Optimization goal achieved after 2292 function evaluations
+2025-03-05 08:34:12,561 SUCCESS    Optimization goal achieved after 3559 function evaluations
+2025-03-05 08:34:16,185 SUCCESS    Optimization goal achieved after 2323 function evaluations
+2025-03-05 08:34:20,209 SUCCESS    Optimization goal achieved after 2608 function evaluations
+2025-03-05 08:34:24,015 SUCCESS    Optimization goal achieved after 2553 function evaluations
+2025-03-05 08:34:27,745 SUCCESS    Optimization goal achieved after 2429 function evaluations
+2025-03-05 08:34:27,747 COMPLETED  ... optimization finished
+2025-03-05 08:34:27,747 INFO       The best-fit point is:
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::xi'(1)@HQET -> -0.9258155321119134
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::xi''(1)@HQET -> 1.690609169559393
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::xi'''(1)@HQET -> -3.346053785650372
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::chi_2(1)@HQET -> -0.05987488017643958
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::chi_2'(1)@HQET -> 0.00021813642707205205
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::chi_2''(1)@HQET -> -0.24960041535815758
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::chi_3'(1)@HQET -> 0.03980522565786897
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::chi_3''(1)@HQET -> -0.180159657779264
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::eta(1)@HQET -> 0.38608626607071866
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::eta'(1)@HQET -> 0.08683826042134613
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::eta''(1)@HQET -> 0.058482559784847954
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_1(1)@HQET -> 0.0953964869185373
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_1'(1)@HQET -> -12.682409560317932
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_2(1)@HQET -> -2.0962300729546293
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_2'(1)@HQET -> -9.439061776996665
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_3(1)@HQET -> -3.5298164506430822
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_3'(1)@HQET -> 6.473196608775705
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_4(1)@HQET -> -0.29348532113022774
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_4'(1)@HQET -> -0.2724066254241242
+2025-03-05 08:34:27,747 INFO         - B(*)->D(*)::l_5(1)@HQET -> 0.9205667156694624
+2025-03-05 08:34:27,748 INFO         - B(*)->D(*)::l_5'(1)@HQET -> 4.710378347757237
+2025-03-05 08:34:27,748 INFO         - B(*)->D(*)::l_6(1)@HQET -> 2.5288013531813336
+2025-03-05 08:34:27,748 INFO         - B(*)->D(*)::l_6'(1)@HQET -> 1.5874534408617045
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::xi'(1)@HQET -> -0.8865110669872001
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::xi''(1)@HQET -> 1.4865113251875186
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::xi'''(1)@HQET -> -2.448932251204692
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::chi_2(1)@HQET -> -0.06918479182463494
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::chi_2'(1)@HQET -> 0.00015687131516101127
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::chi_2''(1)@HQET -> -0.21695373117037253
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::chi_3'(1)@HQET -> 0.02954006868278275
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::chi_3''(1)@HQET -> -0.21729430110708653
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::eta(1)@HQET -> 0.3520242445967829
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::eta'(1)@HQET -> -0.07180134948288408
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::eta''(1)@HQET -> 0.016485403946173705
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_1(1)@HQET -> 0.3611802835919915
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_1'(1)@HQET -> -11.124812784535461
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_2(1)@HQET -> -1.5249275402270772
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_2'(1)@HQET -> -9.406271376857863
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_3(1)@HQET -> -2.4845480647499185
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_3'(1)@HQET -> 4.704440630184315
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_4(1)@HQET -> 0.16226039700253025
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_4'(1)@HQET -> -1.7025067156270293
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_5(1)@HQET -> 1.3696447014825384
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_5'(1)@HQET -> 3.2738573859743596
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_6(1)@HQET -> 2.314595344072494
+2025-03-05 08:34:27,748 INFO         - B_s(*)->D_s(*)::l_6'(1)@HQET -> -0.01064119970128452
+2025-03-05 08:34:27,748 INFO       total chi^2 = 66.87
+2025-03-05 08:34:27,748 INFO       total dof   = 136
+2025-03-05 08:34:27,750 INFO       p value     = 100.00%
+2025-03-05 08:34:27,750 INFO       individual test statistics:
+2025-03-05 08:34:27,751 INFO         - B(*)->D(*)::chi_2'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 99.13%
+2025-03-05 08:34:27,751 INFO         - B(*)->D(*)::chi_2(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 99.50%
+2025-03-05 08:34:27,752 INFO         - B(*)->D(*)::chi_3'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 99.22%
+2025-03-05 08:34:27,753 INFO         - B(*)->D(*)::eta'(1)@QCDSR: chi^2 / dof = 0.19 / 1, local_pvalue = 66.41%
+2025-03-05 08:34:27,753 INFO         - B(*)->D(*)::eta(1)@QCDSR: chi^2 / dof = 1.37 / 1, local_pvalue = 24.22%
+2025-03-05 08:34:27,754 INFO         - B(_s)->D(_s)::f_0(q2_max)/f_0(q2_max)@LQCD: chi^2 / dof = 0.72 / 1, local_pvalue = 39.49%
+2025-03-05 08:34:27,755 INFO         - B->D::f_++f_0@FNAL+MILC:2015B: chi^2 / dof = 3.65 / 7, local_pvalue = 81.88%
+2025-03-05 08:34:27,756 INFO         - B->D::f_++f_0@HPQCD:2015A: chi^2 / dof = 4.07 / 5, local_pvalue = 53.92%
+2025-03-05 08:34:27,756 INFO         - B->D::f_T(q2_max)/f_+(q2_max)@LQCD: chi^2 / dof = 0.06 / 1, local_pvalue = 80.86%
+2025-03-05 08:34:27,757 INFO         - B->D^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A: chi^2 / dof = 9.76 / 33, local_pvalue = 100.00%
+2025-03-05 08:34:27,758 INFO         - B->D^*::FormFactors@FNAL+MILC:2021A: chi^2 / dof = 17.42 / 12, local_pvalue = 13.46%
+2025-03-05 08:34:27,758 INFO         - B->D^*::FormFactors@JLQCD:2023A: chi^2 / dof = 3.87 / 12, local_pvalue = 98.56%
+2025-03-05 08:34:27,759 INFO         - B_(s)->D_(s)^*::FormFactors@HPQCD:2023A: chi^2 / dof = 19.75 / 56, local_pvalue = 100.00%
+2025-03-05 08:34:27,760 INFO         - B_s(*)->D_s(*)::chi_2'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 99.69%
+2025-03-05 08:34:27,761 INFO         - B_s(*)->D_s(*)::chi_2(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 98.37%
+2025-03-05 08:34:27,761 INFO         - B_s(*)->D_s(*)::chi_3'(1)@QCDSR: chi^2 / dof = 0.00 / 1, local_pvalue = 98.17%
+2025-03-05 08:34:27,762 INFO         - B_s(*)->D_s(*)::eta'(1)@QCDSR: chi^2 / dof = 0.01 / 1, local_pvalue = 92.96%
+2025-03-05 08:34:27,763 INFO         - B_s(*)->D_s(*)::eta(1)@QCDSR: chi^2 / dof = 2.34 / 1, local_pvalue = 12.58%
+2025-03-05 08:34:27,763 INFO         - B_s->D_s::f_++f_0@HPQCD:2019A: chi^2 / dof = 0.46 / 5, local_pvalue = 99.36%
+2025-03-05 08:34:27,764 INFO         - B_s->D_s::f_T(q2_max)/f_+(q2_max)@LQCD: chi^2 / dof = 0.07 / 1, local_pvalue = 78.46%
+2025-03-05 08:34:27,765 INFO         - B_s->D_s^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@BGJvD:2019A: chi^2 / dof = 3.12 / 33, local_pvalue = 100.00%
+2025-03-05 08:34:27,766 INFO         - b->c::Bound[0^+]: chi^2 / dof = 0.00 / 1, local_pvalue = 99.07%
+2025-03-05 08:34:27,766 INFO         - b->c::Bound[0^-]: chi^2 / dof = 0.00 / 1, local_pvalue = 98.43%
+2025-03-05 08:34:27,767 INFO         - b->c::Bound[1^+,T]: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-03-05 08:34:27,767 INFO         - b->c::Bound[1^+]: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-03-05 08:34:27,767 INFO         - b->c::Bound[1^-,T]: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-03-05 08:34:27,768 INFO         - b->c::Bound[1^-]: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2025-03-05 08:34:27,776 SUCCESS    Final p value is 100.00%, indicating a successful fit

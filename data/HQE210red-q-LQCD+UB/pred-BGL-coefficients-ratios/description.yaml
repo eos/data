@@ -1,0 +1,43 @@
+observables:
+- kinematics: {}
+  name: B->D::a_1/a_0[S_1]@HQE
+- kinematics: {}
+  name: B->D::a_2/a_0[S_1]@HQE
+- kinematics: {}
+  name: B->D::a_1/a_0[V_1]@HQE
+- kinematics: {}
+  name: B->D::a_2/a_0[V_1]@HQE
+- kinematics: {}
+  name: B->D::a_1/a_0[f_T]@HQE
+- kinematics: {}
+  name: B->D::a_2/a_0[f_T]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[A_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[A_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[A_5]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[A_5]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[V_4]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[V_4]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[P_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[P_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[T_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[T_1]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[T_2]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[T_2]@HQE
+- kinematics: {}
+  name: B->D^*::a_1/a_0[T_23]@HQE
+- kinematics: {}
+  name: B->D^*::a_2/a_0[T_23]@HQE
+type: Prediction
+version: 1.0.13

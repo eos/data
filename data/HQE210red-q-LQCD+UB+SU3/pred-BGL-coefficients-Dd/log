@@ -1,0 +1,3 @@
+2025-05-08 11:45:38,969 INFO       Creating analysis with 19 priors, 12 EOS-wide constraints, 7 global options, 3 manually-entered constraints and 44 fixed parameters.
+2025-05-08 11:45:39,117 INPROGRESS Predicting observables from set 'BGL-coefficients-Dd' for 24762 samples
+2025-05-08 11:45:41,503 COMPLETED  ... done

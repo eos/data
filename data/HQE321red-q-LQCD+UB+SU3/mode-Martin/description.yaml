@@ -1,0 +1,147 @@
+dof: 75
+global_chi2: 47.158141155793594
+local_pvalues:
+  B(_s)->D(_s)::f_0(q2_max)/f_0(q2_max)@LQCD: 0.43263540497011554
+  B->D::f_++f_0@FNAL+MILC:2015B: 0.8732553438547346
+  B->D::f_++f_0@HPQCD:2015A: 0.7822543576593735
+  B->D::f_T(q2_max)/f_+(q2_max)@LQCD: 0.37641044288909475
+  B->D^*::FormFactors@FNAL+MILC:2021A: 0.6924134492962353
+  B->D^*::FormFactors@JLQCD:2023A: 0.7274881774405553
+  B_(s)->D_(s)^*::FormFactors@HPQCD:2023A: 0.9999984931636058
+  B_s->D_s::f_++f_0@HPQCD:2019A: 0.9838941985812706
+  B_s->D_s::f_T(q2_max)/f_+(q2_max)@LQCD: 0.1486124812004408
+  b->c::Bound[0^+]: 1.0
+  b->c::Bound[0^-]: 0.9975300642331179
+  b->c::Bound[1^+,T]: 1.0
+  b->c::Bound[1^+]: 1.0
+  b->c::Bound[1^-,T]: 1.0
+  b->c::Bound[1^-]: 1.0
+mode:
+- -0.683454
+- 1.243746
+- -1.825566
+- -0.362042
+- 0.426137
+- -0.382923
+- -0.30161
+- 0.311322
+- -0.030719
+- 1.0325
+- 0.161696
+- 0.191386
+- -1.71642
+- -19.2841
+- 3.07209
+- -7.62934
+- 1.55248
+- 3.74189
+- 0.172039
+- 10.0304
+- -0.459968
+- 1.120282
+- -1.1240160000000001
+- -0.318162
+- 0.365827
+- -0.457692
+- -0.340463
+- 0.273439
+- -0.0361027
+- 1.01281
+- -0.616345
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::xi'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::xi''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::xi'''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::chi_2(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::chi_2'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::chi_2''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::chi_3'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::chi_3''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::eta(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::eta'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::eta''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_1(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_2(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_2'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_4(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_4'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_5(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_5'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_6(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B(*)->D(*)::l_6'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::xi'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::xi''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::xi'''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::chi_2(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::chi_2'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::chi_2''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::chi_3'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::chi_3''(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::eta(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::eta'(1)@HQET
+- max: 0.0
+  min: 0.0
+  name: B_s(*)->D_s(*)::eta''(1)@HQET
+pvalue: 0.9950769149068897
+type: Mode
+version: 1.0.12

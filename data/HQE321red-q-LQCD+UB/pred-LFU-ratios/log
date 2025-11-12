@@ -1,0 +1,3 @@
+2025-03-05 05:57:06,348 INFO       Creating analysis with 40 priors, 12 EOS-wide constraints, 7 global options, 3 manually-entered constraints and 35 fixed parameters.
+2025-03-05 05:57:06,509 INPROGRESS Predicting observables from set 'LFU-ratios' for 74409 samples
+2025-03-05 06:27:05,094 COMPLETED  ... done

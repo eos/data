@@ -1,0 +1,27 @@
+observables:
+- kinematics:
+    q2_mu_max: 11.643
+    q2_mu_min: 0.0111
+    q2_tau_max: 11.643
+    q2_tau_min: 3.154176
+  name: B->Dlnu::R_D
+- kinematics:
+    q2_mu_max: 10.689
+    q2_mu_min: 0.0111
+    q2_tau_max: 10.689
+    q2_tau_min: 3.154176
+  name: B->D^*lnu::R_D^*
+- kinematics:
+    q2_mu_max: 11.55
+    q2_mu_min: 0.0111
+    q2_tau_max: 11.55
+    q2_tau_min: 3.154176
+  name: B_s->D_slnu::R_D_s
+- kinematics:
+    q2_mu_max: 10.592
+    q2_mu_min: 0.0111
+    q2_tau_max: 10.592
+    q2_tau_min: 3.154176
+  name: B_s->D_s^*lnu::R_D_s^*
+type: Prediction
+version: 1.0.13

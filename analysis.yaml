@@ -1,0 +1,1801 @@
+priors:
+  - name: hqe210red-q-LQCD+UB+SU3
+    descriptions:
+      # leading power
+      #  xi
+      - { parameter: "B(*)->D(*)::xi'(1)@HQET",         min: -1.5000e+00, max: -1.1000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi''(1)@HQET",        min: +1.1500e+00, max: +2.2000e+00, type: 'uniform' }
+      # subleading power
+      #  chi_2
+      - { parameter: "B(*)->D(*)::chi_2(1)@HQET",       min: -0.7000e+00, max: +0.1000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2'(1)@HQET",      min: -0.7000e+00, max: +0.1000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B(*)->D(*)::chi_3'(1)@HQET",      min: -0.2000e+00, max: +0.0500e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B(*)->D(*)::eta(1)@HQET",         min: -0.6000e+00, max: +0.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta'(1)@HQET",        min: -0.6000e+00, max: +0.5000e+00, type: 'uniform' }
+      # subsubleading power
+      #  l_1
+      - { parameter: "B(*)->D(*)::l_1(1)@HQET",         min: -0.8000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  l_2
+      - { parameter: "B(*)->D(*)::l_2(1)@HQET",         min: -2.4000e+00, max: -1.2000e+00, type: 'uniform' }
+      #  l_3 is fixed
+      #- { parameter: "B(*)->D(*)::l_3(1)@HQET",         min: -2.5000e+02, max: +1.0000e+02, type: 'uniform' }
+      #  l_4
+      - { parameter: "B(*)->D(*)::l_4(1)@HQET",         min: -2.0000e+00, max: +8.0000e+00, type: 'uniform' }
+      # l_5
+      - { parameter: "B(*)->D(*)::l_5(1)@HQET",         min: -0.3000e+00, max: +3.3000e+00, type: 'uniform' }
+      # l_6
+      - { parameter: "B(*)->D(*)::l_6(1)@HQET",         min: -5.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      # leading power
+      #  xi
+      - { parameter: "B_s(*)->D_s(*)::xi'(1)@HQET",     min: -1.5000e+00, max: -1.1000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi''(1)@HQET",    min: +1.2000e+00, max: +2.4000e+00, type: 'uniform' }
+      # subleading power
+      # chi_2
+      - { parameter: "B_s(*)->D_s(*)::chi_2(1)@HQET",   min: -0.6000e+00, max: +0.1000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2'(1)@HQET",  min: -0.7000e+00, max: +0.1000e+00, type: 'uniform' }
+      # chi_3
+      # chi_3(1) is fixed
+      - { parameter: "B_s(*)->D_s(*)::chi_3'(1)@HQET",  min: -0.2000e+00, max: +0.1000e+00, type: 'uniform' }
+      # eta
+      - { parameter: "B_s(*)->D_s(*)::eta(1)@HQET",     min: -0.6000e+00, max: +0.5000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta'(1)@HQET",    min: -0.7000e+00, max: +0.6000e+00, type: 'uniform' }
+
+  - name: hqe321red-q-LQCD+UB+SU3
+    descriptions:
+      # leading power
+      #  xi
+      - { parameter: "B(*)->D(*)::xi'(1)@HQET",       min: -1.7000e+00, max: -0.1000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi''(1)@HQET",      min: +0.3000e+00, max: +2.7000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi'''(1)@HQET",     min: -7.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      # subleading power
+      #  chi_2
+      - { parameter: "B(*)->D(*)::chi_2(1)@HQET",       min: -0.8000e+00, max: +0.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2'(1)@HQET",      min: -0.5000e+00, max: +1.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2''(1)@HQET",     min: -2.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B(*)->D(*)::chi_3'(1)@HQET",      min: -0.6000e+00, max: +0.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_3''(1)@HQET",     min: -0.5000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B(*)->D(*)::eta(1)@HQET",         min: -0.8000e+00, max: +0.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta'(1)@HQET",        min: -1.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta''(1)@HQET",       min: -5.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      # subsubleading power
+      #  l_1
+      - { parameter: "B(*)->D(*)::l_1(1)@HQET",         min: -0.8000e+00, max: +1.0000e+00, type: 'uniform' }
+      #- { parameter: "B(*)->D(*)::l_1'(1)@HQET",        min: -7.0000e+01, max: +1.2000e+02, type: 'uniform' }
+      #  l_2
+      - { parameter: "B(*)->D(*)::l_2(1)@HQET",         min: -2.5000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_2'(1)@HQET",        min: -3.5000e+01, max: +0.0000e+01, type: 'uniform' }
+      #  l_3 is fixed
+      #- { parameter: "B(*)->D(*)::l_3(1)@HQET",         min: -2.5000e+02, max: +1.0000e+02, type: 'uniform' }
+      #- { parameter: "B(*)->D(*)::l_3'(1)@HQET",        min: -0.5000e+02, max: +1.0000e+02, type: 'uniform' }
+      #  l_4
+      - { parameter: "B(*)->D(*)::l_4(1)@HQET",         min: -5.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_4'(1)@HQET",        min: -3.0000e+01, max: +1.0000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B(*)->D(*)::l_5(1)@HQET",         min: -2.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_5'(1)@HQET",        min: -7.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      # l_6
+      - { parameter: "B(*)->D(*)::l_6(1)@HQET",         min: -6.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_6'(1)@HQET",        min: -1.5000e+01, max: +3.0000e+01, type: 'uniform' }
+      # leading power
+      #  xi
+      - { parameter: "B_s(*)->D_s(*)::xi'(1)@HQET",     min: -1.6000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi''(1)@HQET",    min: -0.0000e+00, max: +2.8000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi'''(1)@HQET",   min: -1.5000e+01, max: +1.0000e+01, type: 'uniform' }
+      # subleading power
+      # chi_2
+      - { parameter: "B_s(*)->D_s(*)::chi_2(1)@HQET",   min: -1.0000e+00, max: +0.3000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2'(1)@HQET",  min: -0.8000e+00, max: +1.5000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2''(1)@HQET", min: -3.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      # chi_3
+      # chi_3(1) is fixed
+      - { parameter: "B_s(*)->D_s(*)::chi_3'(1)@HQET",  min: -0.7000e+00, max: +0.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_3''(1)@HQET", min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      # eta
+      - { parameter: "B_s(*)->D_s(*)::eta(1)@HQET",     min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta'(1)@HQET",    min: -3.0000e+00, max: +4.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta''(1)@HQET",   min: -0.6000e+01, max: +4.0000e+00, type: 'uniform' }
+
+  - name: hqe210red-q-LQCD+UB
+    descriptions:
+      # leading power
+      #  xi
+      - { parameter: "B(*)->D(*)::xi'(1)@HQET",         min: -1.5000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi''(1)@HQET",        min: +1.0000e+00, max: +2.3000e+00, type: 'uniform' }
+      # subleading power
+      #  chi_2
+      - { parameter: "B(*)->D(*)::chi_2(1)@HQET",       min: -1.0000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2'(1)@HQET",      min: -0.8000e+00, max: +0.3000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B(*)->D(*)::chi_3'(1)@HQET",      min: -0.3000e+00, max: +0.1000e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B(*)->D(*)::eta(1)@HQET",         min: -0.8000e+00, max: +0.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta'(1)@HQET",        min: -0.7000e+00, max: +0.7000e+00, type: 'uniform' }
+      # subsubleading power
+      #  l_1
+      - { parameter: "B(*)->D(*)::l_1(1)@HQET",         min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  l_2
+      - { parameter: "B(*)->D(*)::l_2(1)@HQET",         min: -3.5000e+00, max: -1.0000e+00, type: 'uniform' }
+      #  l_3 is fixed
+      #- { parameter: "B(*)->D(*)::l_3(1)@HQET",         min: -2.5000e+02, max: +2.5000e+02, type: 'uniform' }
+      #  l_4
+      - { parameter: "B(*)->D(*)::l_4(1)@HQET",         min: -5.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B(*)->D(*)::l_5(1)@HQET",         min: -2.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      # l_6
+      - { parameter: "B(*)->D(*)::l_6(1)@HQET",         min: -9.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      # leading power
+      #  xi
+      - { parameter: "B_s(*)->D_s(*)::xi'(1)@HQET",     min: -1.6000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi''(1)@HQET",    min: +1.0000e+00, max: +2.5000e+00, type: 'uniform' }
+      # subleading power
+      # chi_2
+      - { parameter: "B_s(*)->D_s(*)::chi_2(1)@HQET",   min: -1.0000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2'(1)@HQET",  min: -0.8000e+00, max: +0.3000e+00, type: 'uniform' }
+      # chi_3
+      # chi_3(1) is fixed
+      - { parameter: "B_s(*)->D_s(*)::chi_3'(1)@HQET",  min: -0.3000e+00, max: +0.1000e+00, type: 'uniform' }
+      # eta
+      - { parameter: "B_s(*)->D_s(*)::eta(1)@HQET",     min: -0.8000e+00, max: +0.5000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta'(1)@HQET",    min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      # l_1
+      - { parameter: "B_s(*)->D_s(*)::l_1(1)@HQET",     min: -2.0000e+00, max: +2.0000e+00, type: 'uniform' }
+      # l_2
+      - { parameter: "B_s(*)->D_s(*)::l_2(1)@HQET",     min: -2.3000e+00, max: -1.0000e+00, type: 'uniform' }
+      # l_3
+      #- { parameter: "B_s(*)->D_s(*)::l_3(1)@HQET",     min: -2.5000e+02, max: +3.0000e+02, type: 'uniform' }
+      # l_4
+      - { parameter: "B_s(*)->D_s(*)::l_4(1)@HQET",     min: -5.0000e+00, max: +1.2000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B_s(*)->D_s(*)::l_5(1)@HQET",     min: -1.0000e+00, max: +4.0000e+00, type: 'uniform' }
+      # l_6
+      - { parameter: "B_s(*)->D_s(*)::l_6(1)@HQET",     min: -5.0000e+00, max: +5.0000e+00, type: 'uniform' }
+
+  - name: hqe321red-q-LQCD+UB
+    descriptions:
+      # leading power
+      #  xi
+      - { parameter: "B(*)->D(*)::xi'(1)@HQET",       min: -1.9000e+00, max: +0.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi''(1)@HQET",      min: +0.5000e+00, max: +4.5000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi'''(1)@HQET",     min: -1.1000e+01, max: +2.0000e+00, type: 'uniform' }
+      # subleading power
+      #  chi_2
+      - { parameter: "B(*)->D(*)::chi_2(1)@HQET",       min: -0.7000e+00, max: +0.1000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2'(1)@HQET",      min: -0.8000e+00, max: +1.3000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2''(1)@HQET",     min: -1.5000e+00, max: +1.0000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B(*)->D(*)::chi_3'(1)@HQET",      min: -0.7000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_3''(1)@HQET",     min: -0.7000e+00, max: +0.7000e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B(*)->D(*)::eta(1)@HQET",         min: -0.8000e+00, max: +0.7000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta'(1)@HQET",        min: -3.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta''(1)@HQET",       min: -3.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      # subsubleading power
+      #  l_1
+      - { parameter: "B(*)->D(*)::l_1(1)@HQET",         min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      #- { parameter: "B(*)->D(*)::l_1'(1)@HQET",        min: -1.0000e+02, max: +1.0000e+02, type: 'uniform' }
+      #  l_2
+      - { parameter: "B(*)->D(*)::l_2(1)@HQET",         min: -3.5000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_2'(1)@HQET",        min: -3.5000e+01, max: +2.0000e+01, type: 'uniform' }
+      #  l_3 is fixed
+      #- { parameter: "B(*)->D(*)::l_3(1)@HQET",         min: -2.5000e+02, max: +2.5000e+02, type: 'uniform' }
+      #- { parameter: "B(*)->D(*)::l_3'(1)@HQET",        min: -1.0000e+02, max: +1.3000e+02, type: 'uniform' }
+      #  l_4
+      - { parameter: "B(*)->D(*)::l_4(1)@HQET",         min: -5.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_4'(1)@HQET",        min: -3.0000e+01, max: +3.0000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B(*)->D(*)::l_5(1)@HQET",         min: -2.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_5'(1)@HQET",        min: -1.0000e+01, max: +1.7000e+01, type: 'uniform' }
+      # l_6
+      - { parameter: "B(*)->D(*)::l_6(1)@HQET",         min: -6.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_6'(1)@HQET",        min: -1.5000e+01, max: +3.0000e+01, type: 'uniform' }
+      # leading power
+      #  xi
+      - { parameter: "B_s(*)->D_s(*)::xi'(1)@HQET",     min: -2.3000e+00, max: +0.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi''(1)@HQET",    min: -0.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi'''(1)@HQET",   min: -1.5000e+01, max: +7.0000e+00, type: 'uniform' }
+      # subleading power
+      # chi_2
+      - { parameter: "B_s(*)->D_s(*)::chi_2(1)@HQET",   min: -0.7000e+00, max: +0.1000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2'(1)@HQET",  min: -0.5000e+00, max: +1.3000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2''(1)@HQET", min: -3.0000e+00, max: +2.5000e+00, type: 'uniform' }
+      # chi_3
+      # chi_3(1) is fixed
+      - { parameter: "B_s(*)->D_s(*)::chi_3'(1)@HQET",  min: -0.8000e+00, max: +0.4000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_3''(1)@HQET", min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      # eta
+      - { parameter: "B_s(*)->D_s(*)::eta(1)@HQET",     min: -0.6000e+00, max: +0.7000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta'(1)@HQET",    min: -4.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta''(1)@HQET",   min: -6.0000e+00, max: +6.0000e+00, type: 'uniform' }
+      # l_1
+      - { parameter: "B_s(*)->D_s(*)::l_1(1)@HQET",     min: -1.3000e+00, max: +2.0000e+00, type: 'uniform' }
+      #- { parameter: "B_s(*)->D_s(*)::l_1'(1)@HQET",    min: -2.0000e+02, max: +2.0000e+02, type: 'uniform' }
+      # l_2
+      - { parameter: "B_s(*)->D_s(*)::l_2(1)@HQET",     min: -2.4000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_2'(1)@HQET",    min: -3.5000e+01, max: +1.5000e+01, type: 'uniform' }
+      # l_3
+      #- { parameter: "B_s(*)->D_s(*)::l_3(1)@HQET",     min: -2.5000e+02, max: +3.0000e+02, type: 'uniform' }
+      #- { parameter: "B_s(*)->D_s(*)::l_3'(1)@HQET",    min: -2.2000e+02, max: +1.2000e+02, type: 'uniform' }
+      # l_4
+      - { parameter: "B_s(*)->D_s(*)::l_4(1)@HQET",     min: -7.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_4'(1)@HQET",    min: -3.0000e+01, max: +3.0000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B_s(*)->D_s(*)::l_5(1)@HQET",     min: -1.0000e+00, max: +4.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_5'(1)@HQET",    min: -1.0000e+01, max: +1.4000e+01, type: 'uniform' }
+      # l_6
+      - { parameter: "B_s(*)->D_s(*)::l_6(1)@HQET",     min: -5.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_6'(1)@HQET",    min: -2.0000e+01, max: +2.0000e+01, type: 'uniform' }
+
+  - name: hqe321-q-LQCD+UB+SR
+    descriptions:
+      # leading power
+      #  xi
+      - { parameter: "B(*)->D(*)::xi'(1)@HQET",         min: -1.7000e+00, max: -0.4000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi''(1)@HQET",        min: +0.5000e+00, max: +4.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::xi'''(1)@HQET",       min: -8.0000e+00, max: -0.5000e+00, type: 'uniform' }
+      # subleading power
+      #  chi_2
+      - { parameter: "B(*)->D(*)::chi_2(1)@HQET",       min: -0.2000e+00, max: +0.0500e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2'(1)@HQET",      min: -0.2000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_2''(1)@HQET",     min: -0.8000e+00, max: +0.8000e+00, type: 'uniform' }
+      #  chi_3
+      #  chi_3(1) is fixed
+      - { parameter: "B(*)->D(*)::chi_3'(1)@HQET",      min: -0.0500e+00, max: +0.1500e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::chi_3''(1)@HQET",     min: -0.3500e+00, max: +0.1000e+00, type: 'uniform' }
+      #  eta
+      - { parameter: "B(*)->D(*)::eta(1)@HQET",         min: -0.2000e+00, max: +0.8000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta'(1)@HQET",        min: -0.7000e+00, max: +0.8000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::eta''(1)@HQET",       min: -2.0000e+00, max: +2.0000e+00, type: 'uniform' }
+      # subsubleading power
+      #  l_1
+      - { parameter: "B(*)->D(*)::l_1(1)@HQET",         min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_1'(1)@HQET",        min: -3.0000e+01, max: +1.0000e+01, type: 'uniform' }
+      #  l_2
+      - { parameter: "B(*)->D(*)::l_2(1)@HQET",         min: -3.5000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_2'(1)@HQET",        min: -2.0000e+01, max: +1.0000e+01, type: 'uniform' }
+      #  l_3
+      - { parameter: "B(*)->D(*)::l_3(1)@HQET",         min: -1.0000e+01, max: +4.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_3'(1)@HQET",        min: -1.0000e+01, max: +2.0000e+01, type: 'uniform' }
+      #  l_4
+      - { parameter: "B(*)->D(*)::l_4(1)@HQET",         min: -5.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_4'(1)@HQET",        min: -7.0000e+00, max: +6.0000e+00, type: 'uniform' }
+      # l_5
+      - { parameter: "B(*)->D(*)::l_5(1)@HQET",         min: -2.0000e+00, max: +4.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_5'(1)@HQET",        min: -5.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      # l_6
+      - { parameter: "B(*)->D(*)::l_6(1)@HQET",         min: -2.0000e+00, max: +7.0000e+00, type: 'uniform' }
+      - { parameter: "B(*)->D(*)::l_6'(1)@HQET",        min: -1.0000e+01, max: +1.0000e+01, type: 'uniform' }
+      # leading power
+      #  xi
+      - { parameter: "B_s(*)->D_s(*)::xi'(1)@HQET",     min: -2.0000e+00, max: -0.3000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi''(1)@HQET",    min: -0.0000e+00, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::xi'''(1)@HQET",   min: -1.1000e+01, max: +2.0000e+00, type: 'uniform' }
+      # subleading power
+      # chi_2
+      - { parameter: "B_s(*)->D_s(*)::chi_2(1)@HQET",   min: -0.4000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2'(1)@HQET",  min: -0.2000e+00, max: +0.2000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_2''(1)@HQET", min: -1.0000e+00, max: +1.2000e+00, type: 'uniform' }
+      # chi_3
+      # chi_3(1) is fixed
+      - { parameter: "B_s(*)->D_s(*)::chi_3'(1)@HQET",  min: -0.0500e+00, max: +0.1500e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::chi_3''(1)@HQET", min: -0.5000e+00, max: +0.1500e+00, type: 'uniform' }
+      # eta
+      - { parameter: "B_s(*)->D_s(*)::eta(1)@HQET",     min: -0.2000e+00, max: +0.8000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta'(1)@HQET",    min: -1.0000e+00, max: +1.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::eta''(1)@HQET",   min: -3.0000e+00, max: +3.0000e+00, type: 'uniform' }
+      # l_1
+      - { parameter: "B_s(*)->D_s(*)::l_1(1)@HQET",     min: -1.0000e+00, max: +2.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_1'(1)@HQET",    min: -3.0000e+01, max: +2.0000e+01, type: 'uniform' }
+      # l_2
+      - { parameter: "B_s(*)->D_s(*)::l_2(1)@HQET",     min: -2.5000e+00, max: -1.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_2'(1)@HQET",    min: -2.0000e+01, max: +1.0000e+01, type: 'uniform' }
+      # l_3
+      - { parameter: "B_s(*)->D_s(*)::l_3(1)@HQET",     min: -1.0000e+01, max: +5.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_3'(1)@HQET",    min: -1.0000e+01, max: +1.5000e+01, type: 'uniform' }
+      # l_4
+      - { parameter: "B_s(*)->D_s(*)::l_4(1)@HQET",     min: -1.0000e+01, max: +1.0000e+01, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_4'(1)@HQET",    min: -1.5000e+01, max: +1.0000e+01, type: 'uniform' }
+      # l_5
+      - { parameter: "B_s(*)->D_s(*)::l_5(1)@HQET",     min: -1.0000e+00, max: +4.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_5'(1)@HQET",    min: -5.0000e+00, max: +1.0000e+01, type: 'uniform' }
+      # l_6
+      - { parameter: "B_s(*)->D_s(*)::l_6(1)@HQET",     min: -4.0000e+00, max: +7.0000e+00, type: 'uniform' }
+      - { parameter: "B_s(*)->D_s(*)::l_6'(1)@HQET",    min: -1.0000e+01, max: +1.0000e+01, type: 'uniform' }
+
+observables:
+  "B->D^*::R_0(q2)":
+    expression: >
+      (1.0 - {q2} / ([[mass::B_u]] + [[mass::D_u^*]])^2)
+      * <<B->D^*::A_0(q2)>> / <<B->D^*::A_1(q2)>>
+    unit: '1'
+    options: {}
+    latex: 'R_0(q^2)'
+  "B->D^*::R_1(q2)":
+    expression: >
+      (1.0 - {q2} / ([[mass::B_u]] + [[mass::D_u^*]])^2)
+      * <<B->D^*::V(q2)>> / <<B->D^*::A_1(q2)>>
+    unit: '1'
+    options: {}
+    latex: 'R_1(q^2)'
+  "B->D^*::R_2(q2)":
+    expression: >
+      (1.0 - {q2} / ([[mass::B_u]] + [[mass::D_u^*]])^2)
+      * <<B->D^*::A_2(q2)>> / <<B->D^*::A_1(q2)>>
+    unit: '1'
+    options: {}
+    latex: 'R_2^(q^2)'
+
+
+likelihoods:
+  - name: TH-Bounds
+    constraints:
+      - b->c::Bound[0^+]
+      - b->c::Bound[0^-]
+      - b->c::Bound[1^+]
+      - b->c::Bound[1^-]
+      - b->c::Bound[1^+,T]
+      - b->c::Bound[1^-,T]
+
+  - name: TH-BToD-LQCD
+    manual_constraints:
+      "B->D::f_T(q2_max)/f_+(q2_max)@LQCD": # 1310.5238
+        type: Gaussian
+        observable: B->D::f_T(q2)/f_+(q2)
+        kinematics: { q2: 11.643 }
+        options: { }
+        mean: 1.113
+        sigma-stat: { hi: 0.126, lo: 0.126 }
+        sigma-sys:  { hi: 0.0,   lo: 0.0   }
+    constraints:
+      - B->D::f_++f_0@FNAL+MILC:2015B
+      - B->D::f_++f_0@HPQCD:2015A
+
+  - name: TH-BsToDs-LQCD
+    manual_constraints:
+      "B_s->D_s::f_T(q2_max)/f_+(q2_max)@LQCD": # 1310.5238
+        type: Gaussian
+        observable: B_s->D_s::f_T(q2)/f_+(q2)
+        kinematics: { q2: 11.549 }
+        options: { }
+        mean: 1.134
+        sigma-stat: { hi: 0.073, lo: 0.073 }
+        sigma-sys:  { hi: 0.0,   lo: 0.0   }
+    constraints:
+      - B_s->D_s::f_++f_0@HPQCD:2019A
+
+  - name: TH-BqToDq-LQCD
+    manual_constraints:
+      "B(_s)->D(_s)::f_0(q2_max)/f_0(q2_max)@LQCD": # 1202.6346
+        type: Gaussian
+        observable: B(_s)->D(_s)::f_0(q2_num)/f_0(q2_denom)
+        kinematics: { q2_num: 0.0194603, q2_denom: 0.0194603 } # m_pi^2= (0.1395)^2
+        options: { }
+        mean: 1.054
+        sigma-stat: { hi: 0.047, lo: 0.047 }
+        sigma-sys:  { hi: 0.017, lo: 0.017 }
+
+  - name: TH-BToDstar-FNALMILC2021
+    constraints:
+      - B->D^*::FormFactors@FNAL+MILC:2021A
+
+  - name: TH-BToDstar-JLQCD2023
+    constraints:
+      - B->D^*::FormFactors@JLQCD:2023A
+
+  - name: TH-BqToDqstar-HPQCD2023
+    constraints:
+      - B_(s)->D_(s)^*::FormFactors@HPQCD:2023A
+
+  - name: TH-BToDDstar-LCSR
+    constraints:
+      - B->D^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A
+
+  - name: TH-BToDDstar-QCDSR
+    manual_constraints:
+      "B(*)->D(*)::chi_2(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::chi_2(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: -0.06
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::chi_2'(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::chi_2'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.00
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::chi_3'(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::chi_3'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.04
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B(*)->D(*)::eta(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::eta(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.62
+        sigma-stat: { hi: 0.20,  lo: 0.20 }
+        sigma-sys:  { hi: 0.0,   lo: 0.0  }
+      "B(*)->D(*)::eta'(1)@QCDSR":
+        type: Gaussian
+        observable: B(*)->D(*)::eta'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.00
+        sigma-stat: { hi: 0.20, lo: 0.20 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+
+  - name: TH-BsToDsDsstar-LCSR
+    constraints:
+      - B_s->D_s^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@BGJvD:2019A
+
+  - name: TH-BsToDsDsstar-QCDSR
+    manual_constraints:
+      "B_s(*)->D_s(*)::chi_2(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::chi_2(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: -0.07
+        sigma-stat: { hi: 0.04, lo: 0.04 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::chi_2'(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::chi_2'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.00
+        sigma-stat: { hi: 0.04, lo: 0.04 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::chi_3'(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::chi_3'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.03
+        sigma-stat: { hi: 0.02, lo: 0.02 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::eta(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::eta(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: +0.75
+        sigma-stat: { hi: 0.26, lo: 0.26 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+      "B_s(*)->D_s(*)::eta'(1)@QCDSR":
+        type: Gaussian
+        observable: B_s(*)->D_s(*)::eta'(1)@HQET
+        kinematics: { }
+        options: { }
+        mean: -0.04
+        sigma-stat: { hi: 0.36, lo: 0.36 }
+        sigma-sys:  { hi: 0.0,  lo: 0.0  }
+
+common_options210: &common_options210
+  form-factors:    BGJvD2019
+  model:           'CKM'
+  z-order-bound:   '1'
+  z-order-lp:      '2'
+  z-order-slp:     '1'
+  z-order-sslp:    '0'
+
+common_options321: &common_options321
+  form-factors:    BGJvD2019
+  model:           'CKM'
+  z-order-bound:   '2'
+  z-order-lp:      '3'
+  z-order-slp:     '2'
+  z-order-sslp:    '1'
+
+common_fixed_params: &common_fixed_params
+  "B(*)->D(*)::a@HQET":               1.0
+  "B(*)->D(*)::mBar@HQET":            5.313
+  "mass::B_d":                        5.27942
+  "mass::D_u":                        1.86723
+  "mass::D_u^*":                      2.01000
+  "B(*)->D(*)::xi''''(1)@HQET":       0.0
+  "B(*)->D(*)::xi'''''(1)@HQET":      0.0
+  "B(*)->D(*)::l_1''(1)@HQET":        0.0
+  "B(*)->D(*)::l_2''(1)@HQET":        0.0
+  "B(*)->D(*)::l_3''(1)@HQET":        0.0
+  "B(*)->D(*)::l_4''(1)@HQET":        0.0
+  "B(*)->D(*)::l_5''(1)@HQET":        0.0
+  "B(*)->D(*)::l_6''(1)@HQET":        0.0
+  "B_s(*)->D_s(*)::a@HQET":           1.0
+  "B_s(*)->D_s(*)::mBar@HQET":        5.403
+  "mass::B_s":                        5.36688
+  "mass::D_s":                        1.96834
+  "mass::D_s^*":                      2.1122
+  "B_s(*)->D_s(*)::xi''''(1)@HQET":   0.0
+  "B_s(*)->D_s(*)::xi'''''(1)@HQET":  0.0
+  "B_s(*)->D_s(*)::l_1''(1)@HQET":    0.0
+  "B_s(*)->D_s(*)::l_2''(1)@HQET":    0.0
+  "B_s(*)->D_s(*)::l_3''(1)@HQET":    0.0
+  "B_s(*)->D_s(*)::l_4''(1)@HQET":    0.0
+  "B_s(*)->D_s(*)::l_5''(1)@HQET":    0.0
+  "B_s(*)->D_s(*)::l_6''(1)@HQET":    0.0
+  "CKM::abs(V_cb)":                   1.0
+
+posteriors:
+  - name: HQE210red-q-LQCD+UB+SU3
+    global_options:
+      <<: *common_options210
+      SU3F-limit-sslp: '1'
+    fixed_parameters:
+      <<: *common_fixed_params
+      "B(*)->D(*)::n_f@HQET":             2.0
+      "B_s(*)->D_s(*)::n_s@HQET":         1.0
+      "B(*)->D(*)::xi'''(1)@HQET":        0.0
+      "B(*)->D(*)::chi_2''(1)@HQET":      0.0
+      "B(*)->D(*)::chi_3''(1)@HQET":      0.0
+      "B(*)->D(*)::eta''(1)@HQET":        0.0
+      "B(*)->D(*)::l_1'(1)@HQET":         0.0
+      "B(*)->D(*)::l_2'(1)@HQET":         0.0
+      "B(*)->D(*)::l_3(1)@HQET":          0.0
+      "B(*)->D(*)::l_3'(1)@HQET":         0.0
+      "B(*)->D(*)::l_4'(1)@HQET":         0.0
+      "B(*)->D(*)::l_5'(1)@HQET":         0.0
+      "B(*)->D(*)::l_6'(1)@HQET":         0.0
+      "B_s(*)->D_s(*)::xi'''(1)@HQET":    0.0
+      "B_s(*)->D_s(*)::chi_2''(1)@HQET":  0.0
+      "B_s(*)->D_s(*)::chi_3''(1)@HQET":  0.0
+      "B_s(*)->D_s(*)::eta''(1)@HQET":    0.0
+    prior:
+      - hqe210red-q-LQCD+UB+SU3
+    likelihood:
+      - TH-Bounds
+      - TH-BToD-LQCD
+      - TH-BsToDs-LQCD
+      - TH-BqToDq-LQCD
+      - TH-BToDstar-FNALMILC2021
+      - TH-BToDstar-JLQCD2023
+      - TH-BqToDqstar-HPQCD2023
+
+  - name: HQE321red-q-LQCD+UB+SU3
+    global_options:
+      <<: *common_options321
+      SU3F-limit-sslp: '1'
+    fixed_parameters:
+      <<: *common_fixed_params
+      "B(*)->D(*)::n_f@HQET":         2.0
+      "B_s(*)->D_s(*)::n_s@HQET":     1.0
+      "B(*)->D(*)::l_3(1)@HQET":      0.0
+      "B(*)->D(*)::l_3'(1)@HQET":     0.0
+      "B(*)->D(*)::l_1'(1)@HQET":     0.0
+    prior:
+      - hqe321red-q-LQCD+UB+SU3
+    likelihood:
+      - TH-Bounds
+      - TH-BToD-LQCD
+      - TH-BsToDs-LQCD
+      - TH-BqToDq-LQCD
+      - TH-BToDstar-FNALMILC2021
+      - TH-BToDstar-JLQCD2023
+      - TH-BqToDqstar-HPQCD2023
+
+  - name: HQE210red-q-LQCD+UB
+    global_options:
+      <<: *common_options210
+      SU3F-limit-sslp: '0'
+    fixed_parameters:
+      <<: *common_fixed_params
+      "B(*)->D(*)::n_f@HQET":             2.0
+      "B_s(*)->D_s(*)::n_s@HQET":         1.0
+      "B(*)->D(*)::xi'''(1)@HQET":        0.0
+      "B(*)->D(*)::chi_2''(1)@HQET":      0.0
+      "B(*)->D(*)::chi_3''(1)@HQET":      0.0
+      "B(*)->D(*)::eta''(1)@HQET":        0.0
+      "B(*)->D(*)::l_1'(1)@HQET":         0.0
+      "B(*)->D(*)::l_2'(1)@HQET":         0.0
+      "B(*)->D(*)::l_3(1)@HQET":          0.0
+      "B(*)->D(*)::l_3'(1)@HQET":         0.0
+      "B(*)->D(*)::l_4'(1)@HQET":         0.0
+      "B(*)->D(*)::l_5'(1)@HQET":         0.0
+      "B(*)->D(*)::l_6'(1)@HQET":         0.0
+      "B_s(*)->D_s(*)::xi'''(1)@HQET":    0.0
+      "B_s(*)->D_s(*)::chi_2''(1)@HQET":  0.0
+      "B_s(*)->D_s(*)::chi_3''(1)@HQET":  0.0
+      "B_s(*)->D_s(*)::eta''(1)@HQET":    0.0
+      "B_s(*)->D_s(*)::l_1'(1)@HQET":     0.0
+      "B_s(*)->D_s(*)::l_2'(1)@HQET":     0.0
+      "B_s(*)->D_s(*)::l_3(1)@HQET":      0.0
+      "B_s(*)->D_s(*)::l_3'(1)@HQET":     0.0
+      "B_s(*)->D_s(*)::l_4'(1)@HQET":     0.0
+      "B_s(*)->D_s(*)::l_5'(1)@HQET":     0.0
+      "B_s(*)->D_s(*)::l_6'(1)@HQET":     0.0
+    prior:
+      - hqe210red-q-LQCD+UB
+    likelihood:
+      - TH-Bounds
+      - TH-BToD-LQCD
+      - TH-BsToDs-LQCD
+      - TH-BqToDq-LQCD
+      - TH-BToDstar-FNALMILC2021
+      - TH-BToDstar-JLQCD2023
+      - TH-BqToDqstar-HPQCD2023
+
+  - name: HQE321red-q-LQCD+UB
+    global_options:
+      <<: *common_options321
+      SU3F-limit-sslp: '0'
+    fixed_parameters:
+      <<: *common_fixed_params
+      "B(*)->D(*)::n_f@HQET":             2.0
+      "B_s(*)->D_s(*)::n_s@HQET":         1.0
+      "B(*)->D(*)::l_3(1)@HQET":          0.0
+      "B(*)->D(*)::l_3'(1)@HQET":         0.0
+      "B(*)->D(*)::l_1'(1)@HQET":         0.0
+      "B_s(*)->D_s(*)::l_3(1)@HQET":      0.0
+      "B_s(*)->D_s(*)::l_3'(1)@HQET":     0.0
+      "B_s(*)->D_s(*)::l_1'(1)@HQET":     0.0
+    prior:
+      - hqe321red-q-LQCD+UB
+    likelihood:
+      - TH-Bounds
+      - TH-BToD-LQCD
+      - TH-BsToDs-LQCD
+      - TH-BqToDq-LQCD
+      - TH-BToDstar-FNALMILC2021
+      - TH-BToDstar-JLQCD2023
+      - TH-BqToDqstar-HPQCD2023
+
+  - name: HQE321-q-LQCD+UB+SR
+    global_options:
+      <<: *common_options321
+      SU3F-limit-sslp: '0'
+    fixed_parameters:
+      <<: *common_fixed_params
+      "B(*)->D(*)::n_f@HQET":         2.0
+      "B_s(*)->D_s(*)::n_s@HQET":     1.0
+    prior:
+      - hqe321-q-LQCD+UB+SR
+    likelihood:
+      - TH-Bounds
+      - TH-BToD-LQCD
+      - TH-BsToDs-LQCD
+      - TH-BqToDq-LQCD
+      - TH-BToDstar-FNALMILC2021
+      - TH-BToDstar-JLQCD2023
+      - TH-BqToDqstar-HPQCD2023
+      - TH-BToDDstar-LCSR
+      - TH-BToDDstar-QCDSR
+      - TH-BsToDsDsstar-LCSR
+      - TH-BsToDsDsstar-QCDSR
+
+
+predictions:
+  - name: BToD-f+
+    observables:
+      - { name: B->D::f_+(q2),          kinematics: { q2: -0.25  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  0.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  1.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  2.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  3.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  4.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  5.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  6.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  7.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  8.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2:  9.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2: 10.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2: 11.00  } }
+      - { name: B->D::f_+(q2),          kinematics: { q2: 11.643 } }
+
+  - name: BToD-f0
+    observables:
+      - { name: B->D::f_0(q2),          kinematics: { q2: -0.25  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  0.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  1.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  2.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  3.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  4.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  5.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  6.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  7.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  8.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2:  9.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2: 10.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2: 11.00  } }
+      - { name: B->D::f_0(q2),          kinematics: { q2: 11.643 } }
+
+  - name: BToD-fT
+    observables:
+      - { name: B->D::f_T(q2),          kinematics: { q2: -0.25  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  0.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  1.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  2.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  3.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  4.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  5.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  6.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  7.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  8.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2:  9.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2: 10.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2: 11.00  } }
+      - { name: B->D::f_T(q2),          kinematics: { q2: 11.643 } }
+
+  - name: BToDstar-V
+    observables:
+      - { name: B->D^*::V(q2),          kinematics: { q2: -0.25  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  0.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  1.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  2.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  3.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  4.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  5.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  6.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  7.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  8.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2:  9.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2: 10.00  } }
+      - { name: B->D^*::V(q2),          kinematics: { q2: 10.689 } }
+
+  - name: BToDstar-A0
+    observables:
+      - { name: B->D^*::A_0(q2),        kinematics: { q2: -0.25  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  0.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  1.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  2.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  3.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  4.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  5.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  6.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  7.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  8.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2:  9.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2: 10.00  } }
+      - { name: B->D^*::A_0(q2),        kinematics: { q2: 10.689 } }
+
+  - name: BToDstar-A1
+    observables:
+      - { name: B->D^*::A_1(q2),        kinematics: { q2: -0.25  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  0.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  1.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  2.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  3.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  4.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  5.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  6.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  7.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  8.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2:  9.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2: 10.00  } }
+      - { name: B->D^*::A_1(q2),        kinematics: { q2: 10.689 } }
+
+  - name: BToDstar-A12
+    observables:
+      - { name: B->D^*::A_12(q2),       kinematics: { q2: -0.25  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  0.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  1.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  2.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  3.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  4.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  5.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  6.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  7.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  8.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2:  9.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2: 10.00  } }
+      - { name: B->D^*::A_12(q2),       kinematics: { q2: 10.689 } }
+
+  - name: BToDstar-T1
+    observables:
+      - { name: B->D^*::T_1(q2),        kinematics: { q2: -0.25  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  0.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  1.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  2.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  3.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  4.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  5.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  6.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  7.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  8.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2:  9.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2: 10.00  } }
+      - { name: B->D^*::T_1(q2),        kinematics: { q2: 10.689 } }
+
+  - name: BToDstar-T2
+    observables:
+      - { name: B->D^*::T_2(q2),        kinematics: { q2: -0.25  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  0.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  1.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  2.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  3.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  4.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  5.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  6.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  7.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  8.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2:  9.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2: 10.00  } }
+      - { name: B->D^*::T_2(q2),        kinematics: { q2: 10.689 } }
+
+  - name: BToDstar-T23
+    observables:
+      - { name: B->D^*::T_23(q2),       kinematics: { q2: -0.25  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  0.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  1.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  2.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  3.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  4.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  5.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  6.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  7.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  8.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2:  9.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2: 10.00  } }
+      - { name: B->D^*::T_23(q2),       kinematics: { q2: 10.689 } }
+
+  - name: BsToDs-f+
+    observables:
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2: 11.00  } }
+      - { name: B_s->D_s::f_+(q2),      kinematics: { q2: 11.550 } }
+
+  - name: BsToDs-f0
+    observables:
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2: 11.00  } }
+      - { name: B_s->D_s::f_0(q2),       kinematics: { q2: 11.550 } }
+
+  - name: BsToDs-fT
+    observables:
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2: 11.00  } }
+      - { name: B_s->D_s::f_T(q2),       kinematics: { q2: 11.550 } }
+
+  - name: BsToDsstar-V
+    observables:
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::V(q2),       kinematics: { q2: 10.592 } }
+
+  - name: BsToDsstar-A0
+    observables:
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::A_0(q2),    kinematics: { q2: 10.592 } }
+
+  - name: BsToDsstar-A1
+    observables:
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::A_1(q2),    kinematics: { q2: 10.592 } }
+
+  - name: BsToDsstar-A12
+    observables:
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::A_12(q2),   kinematics: { q2: 10.592 } }
+
+  - name: BsToDsstar-T1
+    observables:
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::T_1(q2),    kinematics: { q2: 10.592 } }
+
+  - name: BsToDsstar-T2
+    observables:
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::T_2(q2),    kinematics: { q2: 10.592 } }
+
+  - name: BsToDsstar-T23
+    observables:
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2: -0.25  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  0.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  1.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  2.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  3.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  4.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  5.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  6.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  7.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  8.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2:  9.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2: 10.00  } }
+      - { name: B_s->D_s^*::T_23(q2),   kinematics: { q2: 10.592 } }
+
+  - name: BGL-coefficients-D
+    observables:
+      #- { name: 'B->D::a_0[S_1]@HQE'        }
+      - { name: 'B->D::a_1[S_1]@HQE'        }
+      - { name: 'B->D::a_2[S_1]@HQE'        }
+      - { name: 'B->D::a_0[V_1]@HQE'        }
+      - { name: 'B->D::a_1[V_1]@HQE'        }
+      - { name: 'B->D::a_2[V_1]@HQE'        }
+      - { name: 'B->D::a_0[f_T]@HQE'        }
+      - { name: 'B->D::a_1[f_T]@HQE'        }
+      - { name: 'B->D::a_2[f_T]@HQE'        }
+
+  - name: BGL-coefficients-Dstar
+    observables:
+      - { name: 'B->D^*::a_0[A_1]@HQE'      }
+      - { name: 'B->D^*::a_1[A_1]@HQE'      }
+      - { name: 'B->D^*::a_2[A_1]@HQE'      }
+      #- { name: 'B->D^*::a_0[A_5]@HQE'      }
+      - { name: 'B->D^*::a_1[A_5]@HQE'      }
+      - { name: 'B->D^*::a_2[A_5]@HQE'      }
+      - { name: 'B->D^*::a_0[V_4]@HQE'      }
+      - { name: 'B->D^*::a_1[V_4]@HQE'      }
+      - { name: 'B->D^*::a_2[V_4]@HQE'      }
+      #- { name: 'B->D^*::a_0[P_1]@HQE'      }
+      - { name: 'B->D^*::a_1[P_1]@HQE'      }
+      - { name: 'B->D^*::a_2[P_1]@HQE'      }
+      - { name: 'B->D^*::a_0[T_1]@HQE'      }
+      - { name: 'B->D^*::a_1[T_1]@HQE'      }
+      - { name: 'B->D^*::a_2[T_1]@HQE'      }
+      #- { name: 'B->D^*::a_0[T_2]@HQE'      }
+      - { name: 'B->D^*::a_1[T_2]@HQE'      }
+      - { name: 'B->D^*::a_2[T_2]@HQE'      }
+      #- { name: 'B->D^*::a_0[T_23]@HQE'     }
+      - { name: 'B->D^*::a_1[T_23]@HQE'     }
+      #- { name: 'B->D^*::a_2[T_23]@HQE'     } # Remove this to make the covariance matrix non-singular
+
+  - name: BGL-coefficients-Ds
+    observables:
+      #- { name: 'B_s->D_s::a_0[S_1]@HQE'    }
+      - { name: 'B_s->D_s::a_1[S_1]@HQE'    }
+      - { name: 'B_s->D_s::a_2[S_1]@HQE'    }
+      - { name: 'B_s->D_s::a_0[V_1]@HQE'    }
+      - { name: 'B_s->D_s::a_1[V_1]@HQE'    }
+      - { name: 'B_s->D_s::a_2[V_1]@HQE'    }
+      - { name: 'B_s->D_s::a_0[f_T]@HQE'    }
+      - { name: 'B_s->D_s::a_1[f_T]@HQE'    }
+      - { name: 'B_s->D_s::a_2[f_T]@HQE'    }
+
+  - name: BGL-coefficients-Dsstar
+    observables:
+      - { name: 'B_s->D_s^*::a_0[A_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_1[A_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_2[A_1]@HQE'  }
+      #- { name: 'B_s->D_s^*::a_0[A_5]@HQE'  }
+      - { name: 'B_s->D_s^*::a_1[A_5]@HQE'  }
+      - { name: 'B_s->D_s^*::a_2[A_5]@HQE'  }
+      - { name: 'B_s->D_s^*::a_0[V_4]@HQE'  }
+      - { name: 'B_s->D_s^*::a_1[V_4]@HQE'  }
+      - { name: 'B_s->D_s^*::a_2[V_4]@HQE'  }
+      #- { name: 'B_s->D_s^*::a_0[P_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_1[P_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_2[P_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_0[T_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_1[T_1]@HQE'  }
+      - { name: 'B_s->D_s^*::a_2[T_1]@HQE'  }
+      #- { name: 'B_s->D_s^*::a_0[T_2]@HQE'  }
+      - { name: 'B_s->D_s^*::a_1[T_2]@HQE'  }
+      - { name: 'B_s->D_s^*::a_2[T_2]@HQE'  }
+      #- { name: 'B_s->D_s^*::a_0[T_23]@HQE' }
+      - { name: 'B_s->D_s^*::a_1[T_23]@HQE' }
+      #- { name: 'B_s->D_s^*::a_2[T_23]@HQE' } # Remove this to make the covariance matrix non-singular
+
+  - name: BGL-coefficients-ratios-S1
+    observables:
+      - { name: 'B->D::a_1/a_0[S_1]@HQE'        }
+      - { name: 'B->D::a_2/a_0[S_1]@HQE'        }
+  - name: BGL-coefficients-ratios-V1
+    observables:
+      - { name: 'B->D::a_1/a_0[V_1]@HQE'        }
+      - { name: 'B->D::a_2/a_0[V_1]@HQE'        }
+  - name: BGL-coefficients-ratios-fT
+    observables:
+      - { name: 'B->D::a_1/a_0[f_T]@HQE'        }
+      - { name: 'B->D::a_2/a_0[f_T]@HQE'        }
+
+  - name: BGL-coefficients-ratios-A1
+    observables:
+      - { name: 'B->D^*::a_1/a_0[A_1]@HQE'      }
+      - { name: 'B->D^*::a_2/a_0[A_1]@HQE'      }
+  - name: BGL-coefficients-ratios-A5
+    observables:
+      - { name: 'B->D^*::a_1/a_0[A_5]@HQE'      }
+      - { name: 'B->D^*::a_2/a_0[A_5]@HQE'      }
+  - name: BGL-coefficients-ratios-V4
+    observables:
+      - { name: 'B->D^*::a_1/a_0[V_4]@HQE'      }
+      - { name: 'B->D^*::a_2/a_0[V_4]@HQE'      }
+  - name: BGL-coefficients-ratios-P1
+    observables:
+      - { name: 'B->D^*::a_1/a_0[P_1]@HQE'      }
+      - { name: 'B->D^*::a_2/a_0[P_1]@HQE'      }
+  - name: BGL-coefficients-ratios-T1
+    observables:
+      - { name: 'B->D^*::a_1/a_0[T_1]@HQE'      }
+      - { name: 'B->D^*::a_2/a_0[T_1]@HQE'      }
+  - name: BGL-coefficients-ratios-T2
+    observables:
+      - { name: 'B->D^*::a_1/a_0[T_2]@HQE'      }
+      - { name: 'B->D^*::a_2/a_0[T_2]@HQE'      }
+  - name: BGL-coefficients-ratios-T23
+    observables:
+      - { name: 'B->D^*::a_1/a_0[T_23]@HQE'     }
+      - { name: 'B->D^*::a_2/a_0[T_23]@HQE'     }
+
+  - name: S6s
+    observables:
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 0.0,  q2_max:  1.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 1.0,  q2_max:  2.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 2.0,  q2_max:  3.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 3.0,  q2_max:  4.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 4.0,  q2_max:  5.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 5.0,  q2_max:  6.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 6.0,  q2_max:  7.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 7.0,  q2_max:  8.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 8.0,  q2_max:  9.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 9.0,  q2_max: 10.0  } }
+      - { name: 'B->D^*lnu::S_6s',  kinematics: {q2_min: 10.0, q2_max: 10.689} }
+
+  - name: LFU-ratios
+    observables:
+      - { name: B->Dlnu::R_D,           kinematics: { q2_tau_min: 3.154176, q2_tau_max: 11.643, q2_mu_min: 0.0111, q2_mu_max: 11.643 } }
+      - { name: B->D^*lnu::R_D^*,       kinematics: { q2_tau_min: 3.154176, q2_tau_max: 10.689, q2_mu_min: 0.0111, q2_mu_max: 10.689 } }
+      - { name: B_s->D_slnu::R_D_s,     kinematics: { q2_tau_min: 3.154176, q2_tau_max: 11.550, q2_mu_min: 0.0111, q2_mu_max: 11.550 } }
+      - { name: B_s->D_s^*lnu::R_D_s^*, kinematics: { q2_tau_min: 3.154176, q2_tau_max: 10.592, q2_mu_min: 0.0111, q2_mu_max: 10.592 } }
+
+  - name: FL
+    observables:
+      - { name: 'B->D^*lnu::F_L;l=e',       kinematics: {q2_min: 0.00,  q2_max: 10.689 } }
+      - { name: 'B_s->D_s^*lnu::F_L;l=e',   kinematics: {q2_min: 0.00,  q2_max: 10.592 } }
+      - { name: 'B->D^*lnu::F_L;l=mu',      kinematics: {q2_min: 0.00,  q2_max: 10.689 } }
+      - { name: 'B_s->D_s^*lnu::F_L;l=mu',  kinematics: {q2_min: 0.00,  q2_max: 10.592 } }
+      - { name: 'B->D^*lnu::F_L;l=tau',     kinematics: {q2_min: 0.00,  q2_max: 10.689 } }
+      - { name: 'B_s->D_s^*lnu::F_L;l=tau', kinematics: {q2_min: 0.00,  q2_max: 10.592 } }
+
+  - name: saturations
+    observables:
+      - { name: 'b->c::Bound[0^+]@CLN' }
+      - { name: 'b->c::Bound[0^-]@CLN' }
+      - { name: 'b->c::Bound[1^+]@CLN' }
+      - { name: 'b->c::Bound[1^-]@CLN' }
+      - { name: 'b->c::Bound[1^+,T]@CLN' }
+      - { name: 'b->c::Bound[1^-,T]@CLN' }
+
+  - name: 'R1-ratio'
+    observables:
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2': -0.25  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  0.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  1.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  2.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  3.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  4.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  5.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  6.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  7.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  8.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2':  9.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2': 10.00  }  }
+      - { name: 'B->D^*::R_1(q2)', kinematics: { 'q2': 10.689 }  }
+
+  - name: 'R2-ratio'
+    observables:
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2': -0.25  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  0.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  1.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  2.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  3.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  4.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  5.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  6.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  7.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  8.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2':  9.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2': 10.00  }  }
+      - { name: 'B->D^*::R_2(q2)', kinematics: { 'q2': 10.689 }  }
+
+  - name: 'R0-ratio'
+    observables:
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2': -0.25  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  0.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  1.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  2.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  3.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  4.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  5.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  6.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  7.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  8.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2':  9.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2': 10.00  }  }
+      - { name: 'B->D^*::R_0(q2)', kinematics: { 'q2': 10.689 }  }
+
+#steps:
+#  - title: 'Sample from posterior HQE210red-LQCD+UB+SU3'
+#    id: HQE210red-LQCD+UB+SU3.sample
+#    depends_on: []
+#    tasks:
+#      - task: 'sample-nested'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          nlive: 500
+#          dlogz: 0.5
+#  - title: 'Sample from posterior HQE210red-LQCD+UB'
+#    id: HQE210red-LQCD+UB.sample
+#    depends_on: []
+#    tasks:
+#      - task: 'sample-nested'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          nlive: 500
+#          dlogz: 0.5
+#  - title: 'Sample from posterior HQE321red-LQCD+UB+SU3'
+#    id: HQE321red-LQCD+UB+SU3.sample
+#    depends_on: []
+#    tasks:
+#      - task: 'sample-nested'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          nlive: 500
+#          dlogz: 0.5
+#  - title: 'Sample from posterior HQE321red-LQCD+UB'
+#    id: HQE321red-LQCD+UB.sample
+#    depends_on: []
+#    tasks:
+#      - task: 'sample-nested'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          nlive: 500
+#          dlogz: 0.5
+#  - title: 'Sample from posterior HQE321-LQCD+UB+SR'
+#    id: HQE321-LQCD+UB+SR.sample
+#    depends_on: []
+#    tasks:
+#      - task: 'sample-nested'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          nlive: 500
+#          dlogz: 0.5
+#  - title: 'Find mode of posterior HQE210red-LQCD+UB+SU3'
+#    id: HQE210red-LQCD+UB+SU3.mode
+#    depends_on: [ 'HQE210red-LQCD+UB+SU3.sample' ]
+#    tasks:
+#      - task: 'find-mode'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          importance_samples: True
+#          label: EOS
+#          optimizations: 100
+#  - title: 'Find mode of posterior HQE210red-LQCD+UB'
+#    id: HQE210red-LQCD+UB.mode
+#    depends_on: [ 'HQE210red-LQCD+UB.sample' ]
+#    tasks:
+#      - task: 'find-mode'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          importance_samples: True
+#          label: EOS
+#          optimizations: 100
+#  - title: 'Find mode of posterior HQE321red-LQCD+UB+SU3'
+#    id: HQE321red-LQCD+UB+SU3.mode
+#    depends_on: [ 'HQE321red-LQCD+UB+SU3.sample' ]
+#    tasks:
+#      - task: 'find-mode'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          importance_samples: True
+#          label: EOS
+#          optimizations: 100
+#  - title: 'Find mode of posterior HQE321red-LQCD+UB'
+#    id: HQE321red-LQCD+UB.mode
+#    depends_on: [ 'HQE321red-LQCD+UB.sample' ]
+#    tasks:
+#      - task: 'find-mode'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          importance_samples: True
+#          label: EOS
+#          optimizations: 100
+#  - title: 'Find mode of posterior HQE321-LQCD+UB+SR'
+#    id: HQE321-LQCD+UB+SR.mode
+#    depends_on: [ 'HQE321-LQCD+UB+SR.sample' ]
+#    tasks:
+#      - task: 'find-mode'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          importance_samples: True
+#          label: EOS
+#          optimizations: 100
+#  - title: 'Predict observables for HQE210red-LQCD+UB+SU3'
+#    id: HQE210red-LQCD+UB+SU3.predict-observables
+#    depends_on: [ 'HQE210red-LQCD+UB+SU3.sample' ]
+#    tasks:
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToD-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToD-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToD-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDs-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDs-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDs-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BToDstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: BsToDsstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: LFU-ratios
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#          prediction: saturations
+#  - title: 'Predict observables for HQE210red-LQCD+UB'
+#    id: HQE210red-LQCD+UB.predict-observables
+#    depends_on: [ 'HQE210red-LQCD+UB.sample' ]
+#    tasks:
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToD-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToD-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToD-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDs-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDs-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDs-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BToDstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: BsToDsstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: LFU-ratios
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#          prediction: saturations
+#  - title: 'Predict observables for HQE321red-LQCD+UB+SU3'
+#    id: HQE321red-LQCD+UB+SU3.predict-observables
+#    depends_on: [ 'HQE321red-LQCD+UB+SU3.sample' ]
+#    tasks:
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToD-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToD-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToD-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDs-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDs-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDs-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BToDstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: BsToDsstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: LFU-ratios
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#          prediction: saturations
+#  - title: 'Predict observables for HQE321red-LQCD+UB'
+#    id: HQE321red-LQCD+UB.predict-observables
+#    depends_on: [ 'HQE321red-LQCD+UB.sample' ]
+#    tasks:
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToD-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToD-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToD-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDs-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDs-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDs-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BToDstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: BsToDsstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: LFU-ratios
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#          prediction: saturations
+#  - title: 'Predict observables for HQE321-LQCD+UB+SR'
+#    id: HQE321-LQCD+UB+SR.predict-observables
+#    depends_on: [ 'HQE321-LQCD+UB+SR.sample' ]
+#    tasks:
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToD-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToD-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToD-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDs-f+
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDs-f0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDs-fT
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BToDstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-V
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-A0
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-A1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-A12
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-T1
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-T2
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: BsToDsstar-T23
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: LFU-ratios
+#      - task: 'predict-observables'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+#          prediction: saturations
+#  - title: 'Produce corner-plot for HQE210red-LQCD+UB+SU3'
+#    id: HQE210red-LQCD+UB+SU3.corner-plot
+#    depends_on: [ 'HQE210red-LQCD+UB+SU3.sample' ]
+#    tasks:
+#      - task: 'corner-plot'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB+SU3
+#  - title: 'Produce corner-plot for HQE210red-LQCD+UB'
+#    id: HQE210red-LQCD+UB.corner-plot
+#    depends_on: [ 'HQE210red-LQCD+UB.sample' ]
+#    tasks:
+#      - task: 'corner-plot'
+#        arguments:
+#          posterior: HQE210red-LQCD+UB
+#  - title: 'Produce corner-plot for HQE321red-LQCD+UB+SU3'
+#    id: HQE321red-LQCD+UB+SU3.corner-plot
+#    depends_on: [ 'HQE321red-LQCD+UB+SU3.sample' ]
+#    tasks:
+#      - task: 'corner-plot'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB+SU3
+#  - title: 'Produce corner-plot for HQE321red-LQCD+UB'
+#    id: HQE321red-LQCD+UB.corner-plot
+#    depends_on: [ 'HQE321red-LQCD+UB.sample' ]
+#    tasks:
+#      - task: 'corner-plot'
+#        arguments:
+#          posterior: HQE321red-LQCD+UB
+#  - title: 'Produce corner-plot for HQE321-LQCD+UB+SR'
+#    id: HQE321-LQCD+UB+SR.corner-plot
+#    depends_on: [ 'HQE321-LQCD+UB+SR.sample' ]
+#    tasks:
+#      - task: 'corner-plot'
+#        arguments:
+#          posterior: HQE321-LQCD+UB+SR
+

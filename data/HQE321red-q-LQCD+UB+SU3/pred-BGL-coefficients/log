@@ -1,0 +1,7 @@
+2025-05-13 17:37:19,758 INFO       Creating analysis with 31 priors, 12 EOS-wide constraints, 7 global options, 3 manually-entered constraints and 32 fixed parameters.
+2025-05-13 17:37:19,764 WARNING    HQETFormFactors<B_s->D_s,PToP> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2025-05-13 17:37:20,421 WARNING    HQETFormFactors<B->D^*,PToV> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2025-05-13 17:37:20,455 WARNING    HQETFormFactors<B->D,PToP> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2025-05-13 17:37:20,473 WARNING    HQETFormFactors<B_s->D_s^*,PToV> This form factor parametrization is not a general one and requires careful attention. By default, it returns zeros for all form factors. (Further messages of this type will be suppressed.)
+2025-05-13 17:37:20,602 INPROGRESS Predicting observables from set 'BGL-coefficients' for 39309 samples
+2025-05-13 17:37:46,050 COMPLETED  ... done

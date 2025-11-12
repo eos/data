@@ -1,0 +1,15 @@
+observables:
+- kinematics: {}
+  name: b->c::Bound[0^+]@CLN
+- kinematics: {}
+  name: b->c::Bound[0^-]@CLN
+- kinematics: {}
+  name: b->c::Bound[1^+]@CLN
+- kinematics: {}
+  name: b->c::Bound[1^-]@CLN
+- kinematics: {}
+  name: b->c::Bound[1^+,T]@CLN
+- kinematics: {}
+  name: b->c::Bound[1^-,T]@CLN
+type: Prediction
+version: 1.0.13
