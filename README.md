@@ -7,6 +7,11 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="http://github.com/eos/data/tree/2025-06">2025-06</a></td>
+  <td>Exploiting Perpendicular Momentum Distributions of Semileptonic Decays: $\bar{B}_s^0\to D_s^+\mu^-\bar\nu$ as a Case Study</td>
+  <td>C.&nbsp;Earnshaw<br/>B.&nbsp;Mitreska<br/>D.&nbsp;van&nbsp;Dyk</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2025-05">2025-05</a></td>
   <td>A Global Determination of $|V_{us}|$</td>
   <td>M.&nbsp;Kirk<br/>D.&nbsp;van&nbsp;Dyk</td>
