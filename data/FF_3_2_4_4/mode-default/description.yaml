@@ -1,0 +1,70 @@
+dof: 104
+global_chi2: 125.56265566713805
+local_pvalues:
+  0->Kpi::DeltaCT: 0.608874156303943
+  0->Kpi::DeltaCTtilde: 0.9255609608705437
+  K^+->pi^0l^+nu::BR@KLOE:2008A: 0.06683730176597724
+  K_L->pi^-l^+nu::BR@scaledKLOE:2006A: 0.183727797450852
+  K_L->pi^-l^+nu::BR@scaledKTEV:2004A: 0.9272785681012897
+  K_S->pi^-e^+nu::BR@KLOE:2002A: 0.5803562402743226
+  K_S->pi^-mu^+nu::BR@KLOE-2:2020A: 0.445670305080048
+  decay-constant::K_u@FLAG:2024: 0.9999988448152548
+  decay-constant::pi@FLAG:2024: 0.624145977738306
+  s->u::Bound[0^+]: 1.0
+  s->u::Bound[1^-]: 1.0
+  tau->K^-pinu::BR@PDG:2024A: 0.16126316347826053
+  tau->K_Spinu::BR@PDG:2024A: 0.004583823661453601
+  tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A: 0.34108621900374936
+mode:
+- 0.052464889557616246
+- 0.0781468333431451
+- 0.03738459408693363
+- 0.024358142198074716
+- 0.3803917373787027
+- 0.37093732702544546
+- 0.077532966975423
+- 0.05271683923523518
+- 0.8919191923451091
+- 0.04435448630202943
+- 0.1556999995656572
+- 0.12980801365565936
+parameters:
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::M_(+,0)@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::Gamma_(+,0)@KSvD2025
+- max: 0.1572
+  min: 0.155
+  name: decay-constant::K_u
+- max: 0.1326
+  min: 0.1288
+  name: decay-constant::pi
+pvalue: 0.07377939617966367
+type: Mode
+version: 1.0.19

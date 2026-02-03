@@ -1,0 +1,27 @@
+type: single
+plot:
+  xaxis:
+    label: $q^2$
+    unit: $\textnormal{GeV}^2$
+    range: [0.35, 3.2]
+  yaxis:
+    label: $P (\tau \to K_S \pi^- \nu)$
+    range: [ 0.0001, 12 ]
+    scale: log
+  aspect: 0.618
+  legend:
+    position: 'upper right'
+  grid:
+    visible: false
+  items:
+    - label: Belle 2007
+      type: constraint
+      constraints: tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A
+      observable: tau->K_Spinu::P(q2_min,q2_max)
+      variable: q2
+    - label: nominal fit
+      type: uncertainty
+      datafile: data/FF_2_2_4_4/pred-tau-P
+      variable: 'q2'
+watermark:
+    position: 'lower left'

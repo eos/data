@@ -1,0 +1,78 @@
+dof: 102
+global_chi2: 95.60189524150711
+local_pvalues:
+  0->Kpi::DeltaCT: 0.8580980008389265
+  0->Kpi::DeltaCTtilde: 0.46713925653505894
+  K^+->pi^0l^+nu::BR@KLOE:2008A: 0.09229061437684116
+  K_L->pi^-l^+nu::BR@scaledKLOE:2006A: 0.19893666790858522
+  K_L->pi^-l^+nu::BR@scaledKTEV:2004A: 0.7073405129112035
+  K_S->pi^-e^+nu::BR@KLOE:2002A: 0.5819188493457137
+  K_S->pi^-mu^+nu::BR@KLOE-2:2020A: 0.489977689371467
+  decay-constant::K_u@FLAG:2024: 0.9999645815503875
+  decay-constant::pi@FLAG:2024: 0.9677397831829142
+  s->u::Bound[0^+]: 1.0
+  s->u::Bound[1^-]: 1.0
+  tau->K^-pinu::BR@PDG:2024A: 0.8637915551647122
+  tau->K_Spinu::BR@PDG:2024A: 0.5253183852049639
+  tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A: 0.8554561794414026
+mode:
+- 0.12038772274383294
+- 0.19478367017246442
+- 0.15223790560625475
+- 0.09615014128808955
+- 0.021729267655231598
+- 1.349360308073753
+- 2.445422520504608
+- 2.4180028553260398
+- 1.4954334254714445
+- 0.38151372443049936
+- 0.8918104278121267
+- 0.04510422299141394
+- 0.1557000133171331
+- 0.13016764543337464
+parameters:
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^5@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^5@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::M_(+,0)@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::Gamma_(+,0)@KSvD2025
+- max: 0.1572
+  min: 0.155
+  name: decay-constant::K_u
+- max: 0.1326
+  min: 0.1288
+  name: decay-constant::pi
+pvalue: 0.6593667342949585
+type: Mode
+version: 1.0.19

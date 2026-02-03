@@ -1,0 +1,85 @@
+dof: 104
+global_chi2: 103.13886066631491
+local_pvalues:
+  0->Kpi::DeltaCT: 0.7848879125937636
+  0->Kpi::DeltaCTtilde: 0.825064068667116
+  0->Kpi::f_+(0)@FLAG:2024: 0.3073077585805283
+  K->munu::BR@PDG:2024A: 0.481392134900117
+  K^+->pi^0l^+nu::BR@KLOE:2008A: 0.041678507183115054
+  K_L->pi^-l^+nu::BR@scaledKLOE:2006A: 0.4063221495763495
+  K_L->pi^-l^+nu::BR@scaledKTEV:2004A: 0.4341601135782146
+  K_S->pi^-e^+nu::BR@KLOE:2002A: 0.6328791287757527
+  K_S->pi^-mu^+nu::BR@KLOE-2:2020A: 0.5232095217430393
+  decay-constant::K_u@FLAG:2024: 0.2231023393885717
+  decay-constant::pi@FLAG:2024: 0.8310322151635848
+  s->u::Bound[0^+]: 1.0
+  s->u::Bound[1^-]: 1.0
+  tau->K^-pinu::BR@PDG:2024A: 0.9616225519241766
+  tau->K_Spinu::BR@PDG:2024A: 0.3463360828784048
+  tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A: 0.8135180625538242
+  tau->Knu::BR@PDG:2024A: 0.2559123470430543
+mode:
+- 0.08518602379113019
+- 0.14518716229487072
+- 0.11074956678918449
+- 0.07072097568208909
+- 0.013253671372581372
+- 0.9686247387708362
+- 1.70361067176938
+- 1.6872160125431903
+- 1.1214315821103242
+- 0.3042794839109797
+- 0.8918372492477313
+- 0.044985277486017904
+- 0.15533450395788728
+- 0.13002929767829668
+- 0.22517231139964533
+parameters:
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^5@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^5@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::M_(+,0)@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::Gamma_(+,0)@KSvD2025
+- max: 0.1572
+  min: 0.155
+  name: decay-constant::K_u
+- max: 0.1326
+  min: 0.1288
+  name: decay-constant::pi
+- max: 1.0
+  min: 0.0
+  name: CKM::abs(V_us)
+pvalue: 0.5054241474151715
+type: Mode
+version: 1.0.19

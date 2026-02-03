@@ -1,0 +1,258 @@
+2026-01-15 16:10:39,792 …          Beginning sampling...
+2026-01-15 16:10:39,793 INFO       Creating analysis with 13 priors, 8 EOS-wide constraints, 4 global options, 9 manually-entered constraints and 7 fixed parameters.
+2026-01-15 16:10:39,793 DEBUG      priors:
+2026-01-15 16:10:39,793 DEBUG       - 0->Kpi::b_+^1@KSvD2025 (uniform)
+2026-01-15 16:10:39,793 DEBUG       - 0->Kpi::b_+^2@KSvD2025 (uniform)
+2026-01-15 16:10:39,793 DEBUG       - 0->Kpi::b_+^3@KSvD2025 (uniform)
+2026-01-15 16:10:39,793 DEBUG       - 0->Kpi::b_+^4@KSvD2025 (uniform)
+2026-01-15 16:10:39,793 DEBUG       - 0->Kpi::b_0^1@KSvD2025 (uniform)
+2026-01-15 16:10:39,793 DEBUG       - 0->Kpi::b_0^2@KSvD2025 (uniform)
+2026-01-15 16:10:39,794 DEBUG       - 0->Kpi::b_0^3@KSvD2025 (uniform)
+2026-01-15 16:10:39,794 DEBUG       - 0->Kpi::b_0^4@KSvD2025 (uniform)
+2026-01-15 16:10:39,794 DEBUG       - 0->Kpi::M_(+,0)@KSvD2025 (uniform)
+2026-01-15 16:10:39,794 DEBUG       - 0->Kpi::Gamma_(+,0)@KSvD2025 (uniform)
+2026-01-15 16:10:39,794 DEBUG       - decay-constant::K_u (uniform)
+2026-01-15 16:10:39,794 DEBUG       - decay-constant::pi (uniform)
+2026-01-15 16:10:39,794 DEBUG       - CKM::abs(V_us) (uniform)
+2026-01-15 16:10:39,794 DEBUG      constraints:
+2026-01-15 16:10:39,794 DEBUG       - tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A
+2026-01-15 16:10:39,795 DEBUG       - tau->K_Spinu::BR@PDG:2024A
+2026-01-15 16:10:39,795 DEBUG       - tau->K^-pinu::BR@PDG:2024A
+2026-01-15 16:10:39,795 DEBUG       - K^+->pi^0l^+nu::BR@KLOE:2008A
+2026-01-15 16:10:39,795 DEBUG       - K_S->pi^-e^+nu::BR@KLOE:2002A
+2026-01-15 16:10:39,795 DEBUG       - K_S->pi^-mu^+nu::BR@KLOE-2:2020A
+2026-01-15 16:10:39,795 DEBUG       - K->munu::BR@PDG:2024A
+2026-01-15 16:10:39,795 DEBUG       - tau->Knu::BR@PDG:2024A
+2026-01-15 16:10:39,795 DEBUG      manual_constraints:
+2026-01-15 16:10:39,795 DEBUG       - K_L->pi^-l^+nu::BR@scaledKLOE:2006A
+2026-01-15 16:10:39,796 DEBUG       - K_L->pi^-l^+nu::BR@scaledKTEV:2004A
+2026-01-15 16:10:39,796 DEBUG       - 0->Kpi::DeltaCT
+2026-01-15 16:10:39,796 DEBUG       - 0->Kpi::DeltaCTtilde
+2026-01-15 16:10:39,796 DEBUG       - s->u::Bound[0^+]
+2026-01-15 16:10:39,796 DEBUG       - s->u::Bound[1^-]
+2026-01-15 16:10:39,796 DEBUG       - decay-constant::K_u@FLAG:2024
+2026-01-15 16:10:39,796 DEBUG       - decay-constant::pi@FLAG:2024
+2026-01-15 16:10:39,796 DEBUG       - 0->Kpi::f_+(0)@FLAG:2024
+2026-01-15 16:10:39,796 DEBUG      fixed_parameters:
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::t_0@KSvD2025
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::M_(+,1)@KSvD2025
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::Gamma_(+,1)@KSvD2025
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::M_(0,0)@KSvD2025
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::Gamma_(0,0)@KSvD2025
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::M_(0,1)@KSvD2025
+2026-01-15 16:10:39,797 DEBUG       - 0->Kpi::Gamma_(0,1)@KSvD2025
+2026-01-15 16:10:40,226 INFO       likelihood probably depends on 78 parameter(s) that do not appear in the prior; check prior?
+2026-01-15 16:10:40,226 DEBUG      used, but not included in any prior: '0->Kpi::b_+^7@KSvD2025'
+2026-01-15 16:10:40,226 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2026-01-15 16:10:40,226 DEBUG      used, but not included in any prior: 'life_time::K_u'
+2026-01-15 16:10:40,226 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2026-01-15 16:10:40,226 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'life_time::tau'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: '0->Kpi::b_+^6@KSvD2025'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: '0->Kpi::b_+^9@KSvD2025'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'mass::pi^+'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'usenue::mu'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2026-01-15 16:10:40,227 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'mass::mu'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: '0->Kpi::b_0^9@KSvD2025'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'life_time::K_L'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2026-01-15 16:10:40,228 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'mass::Z'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: '0->Kpi::Gamma_(+,2)@KSvD2025'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'mass::K_d'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: '0->Kpi::b_0^5@KSvD2025'
+2026-01-15 16:10:40,229 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'mass::W'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'QM::hbar'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'mass::pi^0'
+2026-01-15 16:10:40,230 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: 'ustaunutau::mu'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: '0->Kpi::b_+^5@KSvD2025'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: '0->Kpi::b_0^8@KSvD2025'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: 'life_time::K_S'
+2026-01-15 16:10:40,231 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: '0->Kpi::chi_0p'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: 'mass::tau'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: 'usmunumu::mu'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: '0->Kpi::chi_1m'
+2026-01-15 16:10:40,232 DEBUG      used, but not included in any prior: '0->Kpi::M_(+,2)@KSvD2025'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'mass::K_u'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: '0->Kpi::b_0^6@KSvD2025'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'mass::e'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: '0->Kpi::b_+^8@KSvD2025'
+2026-01-15 16:10:40,233 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'mass::c'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'decay-constant::K'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: '0->Kpi::b_0^7@KSvD2025'
+2026-01-15 16:10:40,234 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2026-01-15 16:10:55,238 INFO       iteration 1181 | batch: 0 | bound: 0 | nc: 5 | ncall: 5088 | eff(%): 21.135 | loglstar:   -inf < -343731.009 <    inf | logz: -343740.276 +/-  0.136 | dlogz: 339161.620 >  1.000
+2026-01-15 16:11:10,299 INFO       iteration 1529 | batch: 0 | bound: 0 | nc: 44 | ncall: 10773 | eff(%): 13.563 | loglstar:   -inf < -196489.908 <    inf | logz: -196499.870 +/-  0.141 | dlogz: 192175.646 >  1.000
+2026-01-15 16:11:25,347 INFO       iteration 1741 | batch: 0 | bound: 0 | nc: 166 | ncall: 16468 | eff(%): 10.260 | loglstar:   -inf < -138596.162 <    inf | logz: -138606.548 +/-  0.144 | dlogz: 136451.988 >  1.000
+2026-01-15 16:11:40,377 INFO       iteration 2031 | batch: 0 | bound: 1 | nc: 33 | ncall: 25825 | eff(%):  7.715 | loglstar:   -inf < -89614.867 <    inf | logz: -89625.833 +/-  0.148 | dlogz: 89443.826 >  1.000
+2026-01-15 16:11:55,441 INFO       iteration 2309 | batch: 0 | bound: 3 | nc: 33 | ncall: 34999 | eff(%):  6.504 | loglstar:   -inf < -58837.471 <    inf | logz: -58848.992 +/-  0.152 | dlogz: 58661.076 >  1.000
+2026-01-15 16:12:10,473 INFO       iteration 2583 | batch: 0 | bound: 3 | nc: 33 | ncall: 44041 | eff(%):  5.799 | loglstar:   -inf < -41302.535 <    inf | logz: -41314.604 +/-  0.155 | dlogz: 41181.215 >  1.000
+2026-01-15 16:12:25,507 INFO       iteration 2859 | batch: 0 | bound: 4 | nc: 33 | ncall: 53149 | eff(%):  5.329 | loglstar:   -inf < -29679.852 <    inf | logz: -29691.983 +/-  0.151 | dlogz: 29450.162 >  1.000
+2026-01-15 16:12:40,520 INFO       iteration 3130 | batch: 0 | bound: 4 | nc: 33 | ncall: 62092 | eff(%):  5.001 | loglstar:   -inf < -20926.515 <    inf | logz: -20939.677 +/-  0.162 | dlogz: 20737.096 >  1.000
+2026-01-15 16:12:55,541 INFO       iteration 3407 | batch: 0 | bound: 5 | nc: 33 | ncall: 71233 | eff(%):  4.750 | loglstar:   -inf < -14563.951 <    inf | logz: -14577.666 +/-  0.165 | dlogz: 14347.844 >  1.000
+2026-01-15 16:13:10,582 INFO       iteration 3681 | batch: 0 | bound: 5 | nc: 33 | ncall: 80275 | eff(%):  4.557 | loglstar:   -inf < -10205.842 <    inf | logz: -10219.042 +/-  0.162 | dlogz: 10507.570 >  1.000
+2026-01-15 16:13:25,585 INFO       iteration 3956 | batch: 0 | bound: 6 | nc: 33 | ncall: 89350 | eff(%):  4.403 | loglstar:   -inf < -7172.176 <    inf | logz: -7186.818 +/-  0.168 | dlogz: 7475.895 >  1.000
+2026-01-15 16:13:40,637 INFO       iteration 4217 | batch: 0 | bound: 6 | nc: 33 | ncall: 97963 | eff(%):  4.283 | loglstar:   -inf < -5262.816 <    inf | logz: -5278.149 +/-  0.175 | dlogz: 5572.814 >  1.000
+2026-01-15 16:13:55,656 INFO       iteration 4485 | batch: 0 | bound: 7 | nc: 33 | ncall: 106807 | eff(%):  4.180 | loglstar:   -inf < -3963.356 <    inf | logz: -3979.225 +/-  0.178 | dlogz: 4285.900 >  1.000
+2026-01-15 16:14:10,724 INFO       iteration 4748 | batch: 0 | bound: 8 | nc: 33 | ncall: 115486 | eff(%):  4.094 | loglstar:   -inf < -2883.601 <    inf | logz: -2899.234 +/-  0.175 | dlogz: 3185.835 >  1.000
+2026-01-15 16:14:25,776 INFO       iteration 5013 | batch: 0 | bound: 8 | nc: 33 | ncall: 124231 | eff(%):  4.019 | loglstar:   -inf < -2122.489 <    inf | logz: -2139.402 +/-  0.183 | dlogz: 2498.907 >  1.000
+2026-01-15 16:14:40,852 INFO       iteration 5275 | batch: 0 | bound: 9 | nc: 33 | ncall: 132877 | eff(%):  3.955 | loglstar:   -inf < -1469.393 <    inf | logz: -1486.723 +/-  0.184 | dlogz: 1843.251 >  1.000
+2026-01-15 16:14:55,874 INFO       iteration 5542 | batch: 0 | bound: 9 | nc: 33 | ncall: 141688 | eff(%):  3.898 | loglstar:   -inf < -1003.084 <    inf | logz: -1020.785 +/-  0.184 | dlogz: 1375.899 >  1.000
+2026-01-15 16:15:10,879 INFO       iteration 5799 | batch: 0 | bound: 10 | nc: 33 | ncall: 150169 | eff(%):  3.849 | loglstar:   -inf < -687.139 <    inf | logz: -704.692 +/-  0.184 | dlogz: 1058.619 >  1.000
+2026-01-15 16:15:25,885 INFO       iteration 6055 | batch: 0 | bound: 10 | nc: 33 | ncall: 158617 | eff(%):  3.805 | loglstar:   -inf < -431.359 <    inf | logz: -449.800 +/-  0.188 | dlogz: 803.661 >  1.000
+2026-01-15 16:15:40,899 INFO       iteration 6315 | batch: 0 | bound: 11 | nc: 33 | ncall: 167197 | eff(%):  3.766 | loglstar:   -inf < -235.121 <    inf | logz: -252.700 +/-  0.183 | dlogz: 604.947 >  1.000
+2026-01-15 16:15:55,906 INFO       iteration 6573 | batch: 0 | bound: 11 | nc: 33 | ncall: 175711 | eff(%):  3.730 | loglstar:   -inf < -85.969 <    inf | logz: -104.172 +/-  0.185 | dlogz: 475.812 >  1.000
+2026-01-15 16:16:10,906 INFO       iteration 6821 | batch: 0 | bound: 12 | nc: 33 | ncall: 183895 | eff(%):  3.699 | loglstar:   -inf < 27.559 <    inf | logz:  8.858 +/-  0.189 | dlogz: 362.294 >  1.000
+2026-01-15 16:16:25,941 INFO       iteration 7078 | batch: 0 | bound: 12 | nc: 33 | ncall: 192376 | eff(%):  3.670 | loglstar:   -inf < 120.743 <    inf | logz: 101.711 +/-  0.190 | dlogz: 268.878 >  1.000
+2026-01-15 16:16:40,978 INFO       iteration 7331 | batch: 0 | bound: 13 | nc: 33 | ncall: 200725 | eff(%):  3.643 | loglstar:   -inf < 181.000 <    inf | logz: 161.021 +/-  0.193 | dlogz: 209.205 >  1.000
+2026-01-15 16:16:55,994 INFO       iteration 7574 | batch: 0 | bound: 14 | nc: 33 | ncall: 208744 | eff(%):  3.620 | loglstar:   -inf < 227.550 <    inf | logz: 208.365 +/-  0.192 | dlogz: 161.089 >  1.000
+2026-01-15 16:17:11,068 INFO       iteration 7820 | batch: 0 | bound: 14 | nc: 33 | ncall: 216862 | eff(%):  3.598 | loglstar:   -inf < 262.265 <    inf | logz: 242.141 +/-  0.195 | dlogz: 149.924 >  1.000
+2026-01-15 16:17:26,086 INFO       iteration 8058 | batch: 0 | bound: 15 | nc: 33 | ncall: 224716 | eff(%):  3.578 | loglstar:   -inf < 285.608 <    inf | logz: 265.902 +/-  0.193 | dlogz: 125.596 >  1.000
+2026-01-15 16:17:41,092 INFO       iteration 8287 | batch: 0 | bound: 15 | nc: 33 | ncall: 232273 | eff(%):  3.560 | loglstar:   -inf < 303.079 <    inf | logz: 282.668 +/-  0.195 | dlogz: 122.959 >  1.000
+2026-01-15 16:17:56,130 INFO       iteration 8514 | batch: 0 | bound: 15 | nc: 33 | ncall: 239764 | eff(%):  3.544 | loglstar:   -inf < 321.131 <    inf | logz: 300.632 +/-  0.197 | dlogz: 104.517 >  1.000
+2026-01-15 16:18:11,214 INFO       iteration 8733 | batch: 0 | bound: 16 | nc: 33 | ncall: 246991 | eff(%):  3.529 | loglstar:   -inf < 336.009 <    inf | logz: 315.508 +/-  0.198 | dlogz: 91.389 >  1.000
+2026-01-15 16:18:26,235 INFO       iteration 8948 | batch: 0 | bound: 16 | nc: 33 | ncall: 254086 | eff(%):  3.515 | loglstar:   -inf < 347.584 <    inf | logz: 326.455 +/-  0.200 | dlogz: 80.024 >  1.000
+2026-01-15 16:18:41,300 INFO       iteration 9154 | batch: 0 | bound: 17 | nc: 33 | ncall: 260884 | eff(%):  3.502 | loglstar:   -inf < 355.986 <    inf | logz: 334.803 +/-  0.201 | dlogz: 71.248 >  1.000
+2026-01-15 16:18:56,322 INFO       iteration 9366 | batch: 0 | bound: 17 | nc: 33 | ncall: 267880 | eff(%):  3.490 | loglstar:   -inf < 363.830 <    inf | logz: 342.181 +/-  0.202 | dlogz: 63.447 >  1.000
+2026-01-15 16:19:11,332 INFO       iteration 9566 | batch: 0 | bound: 18 | nc: 33 | ncall: 274480 | eff(%):  3.479 | loglstar:   -inf < 369.587 <    inf | logz: 347.994 +/-  0.203 | dlogz: 57.222 >  1.000
+2026-01-15 16:19:26,405 INFO       iteration 9766 | batch: 0 | bound: 18 | nc: 33 | ncall: 281080 | eff(%):  3.468 | loglstar:   -inf < 375.379 <    inf | logz: 353.235 +/-  0.205 | dlogz: 51.585 >  1.000
+2026-01-15 16:19:41,485 INFO       iteration 9963 | batch: 0 | bound: 18 | nc: 33 | ncall: 287581 | eff(%):  3.458 | loglstar:   -inf < 380.941 <    inf | logz: 358.524 +/-  0.206 | dlogz: 45.899 >  1.000
+2026-01-15 16:19:56,508 INFO       iteration 10154 | batch: 0 | bound: 19 | nc: 33 | ncall: 293884 | eff(%):  3.449 | loglstar:   -inf < 385.975 <    inf | logz: 363.368 +/-  0.208 | dlogz: 40.669 >  1.000
+2026-01-15 16:20:11,565 INFO       iteration 10345 | batch: 0 | bound: 19 | nc: 33 | ncall: 300187 | eff(%):  3.440 | loglstar:   -inf < 389.985 <    inf | logz: 367.149 +/-  0.209 | dlogz: 41.677 >  1.000
+2026-01-15 16:20:26,630 INFO       iteration 10530 | batch: 0 | bound: 19 | nc: 33 | ncall: 306292 | eff(%):  3.432 | loglstar:   -inf < 393.868 <    inf | logz: 370.633 +/-  0.210 | dlogz: 37.823 >  1.000
+2026-01-15 16:20:41,701 INFO       iteration 10711 | batch: 0 | bound: 20 | nc: 33 | ncall: 312265 | eff(%):  3.425 | loglstar:   -inf < 397.307 <    inf | logz: 373.853 +/-  0.212 | dlogz: 34.239 >  1.000
+2026-01-15 16:20:56,766 INFO       iteration 10892 | batch: 0 | bound: 20 | nc: 33 | ncall: 318238 | eff(%):  3.417 | loglstar:   -inf < 400.461 <    inf | logz: 376.578 +/-  0.213 | dlogz: 33.165 >  1.000
+2026-01-15 16:21:11,809 INFO       iteration 11068 | batch: 0 | bound: 21 | nc: 33 | ncall: 324046 | eff(%):  3.410 | loglstar:   -inf < 403.286 <    inf | logz: 379.253 +/-  0.214 | dlogz: 30.136 >  1.000
+2026-01-15 16:21:26,813 INFO       iteration 11246 | batch: 0 | bound: 21 | nc: 33 | ncall: 329920 | eff(%):  3.404 | loglstar:   -inf < 405.963 <    inf | logz: 381.603 +/-  0.215 | dlogz: 27.429 >  1.000
+2026-01-15 16:21:41,830 INFO       iteration 11422 | batch: 0 | bound: 21 | nc: 33 | ncall: 335728 | eff(%):  3.397 | loglstar:   -inf < 408.441 <    inf | logz: 383.858 +/-  0.217 | dlogz: 24.821 >  1.000
+2026-01-15 16:21:56,865 INFO       iteration 11599 | batch: 0 | bound: 22 | nc: 33 | ncall: 341569 | eff(%):  3.391 | loglstar:   -inf < 410.808 <    inf | logz: 385.842 +/-  0.218 | dlogz: 22.484 >  1.000
+2026-01-15 16:22:11,916 INFO       iteration 11775 | batch: 0 | bound: 22 | nc: 33 | ncall: 347377 | eff(%):  3.385 | loglstar:   -inf < 412.454 <    inf | logz: 387.526 +/-  0.218 | dlogz: 20.445 >  1.000
+2026-01-15 16:22:26,984 INFO       iteration 11953 | batch: 0 | bound: 23 | nc: 33 | ncall: 353251 | eff(%):  3.379 | loglstar:   -inf < 414.562 <    inf | logz: 389.137 +/-  0.220 | dlogz: 18.642 >  1.000
+2026-01-15 16:22:42,062 INFO       iteration 12129 | batch: 0 | bound: 23 | nc: 33 | ncall: 359059 | eff(%):  3.373 | loglstar:   -inf < 416.295 <    inf | logz: 390.660 +/-  0.221 | dlogz: 16.767 >  1.000
+2026-01-15 16:22:57,096 INFO       iteration 12302 | batch: 0 | bound: 23 | nc: 33 | ncall: 364768 | eff(%):  3.368 | loglstar:   -inf < 417.655 <    inf | logz: 391.896 +/-  0.222 | dlogz: 18.350 >  1.000
+2026-01-15 16:23:12,168 INFO       iteration 12476 | batch: 0 | bound: 24 | nc: 33 | ncall: 370510 | eff(%):  3.363 | loglstar:   -inf < 419.293 <    inf | logz: 393.117 +/-  0.223 | dlogz: 16.781 >  1.000
+2026-01-15 16:23:27,248 INFO       iteration 12650 | batch: 0 | bound: 24 | nc: 33 | ncall: 376252 | eff(%):  3.358 | loglstar:   -inf < 420.841 <    inf | logz: 394.331 +/-  0.225 | dlogz: 15.323 >  1.000
+2026-01-15 16:23:42,320 INFO       iteration 12822 | batch: 0 | bound: 24 | nc: 33 | ncall: 381928 | eff(%):  3.353 | loglstar:   -inf < 422.173 <    inf | logz: 395.438 +/-  0.226 | dlogz: 15.149 >  1.000
+2026-01-15 16:23:57,391 INFO       iteration 12996 | batch: 0 | bound: 25 | nc: 33 | ncall: 387670 | eff(%):  3.348 | loglstar:   -inf < 423.401 <    inf | logz: 396.417 +/-  0.227 | dlogz: 13.822 >  1.000
+2026-01-15 16:24:12,415 INFO       iteration 13169 | batch: 0 | bound: 25 | nc: 33 | ncall: 393379 | eff(%):  3.343 | loglstar:   -inf < 424.682 <    inf | logz: 397.384 +/-  0.228 | dlogz: 12.509 >  1.000
+2026-01-15 16:24:27,484 INFO       iteration 13341 | batch: 0 | bound: 25 | nc: 33 | ncall: 399055 | eff(%):  3.339 | loglstar:   -inf < 425.839 <    inf | logz: 398.261 +/-  0.229 | dlogz: 11.711 >  1.000
+2026-01-15 16:24:42,558 INFO       iteration 13512 | batch: 0 | bound: 26 | nc: 33 | ncall: 404698 | eff(%):  3.335 | loglstar:   -inf < 426.960 <    inf | logz: 399.074 +/-  0.230 | dlogz: 13.569 >  1.000
+2026-01-15 16:24:57,630 INFO       iteration 13685 | batch: 0 | bound: 26 | nc: 33 | ncall: 410407 | eff(%):  3.330 | loglstar:   -inf < 428.034 <    inf | logz: 399.881 +/-  0.231 | dlogz: 12.416 >  1.000
+2026-01-15 16:25:12,681 INFO       iteration 13858 | batch: 0 | bound: 26 | nc: 33 | ncall: 416116 | eff(%):  3.326 | loglstar:   -inf < 428.986 <    inf | logz: 400.615 +/-  0.232 | dlogz: 11.335 >  1.000
+2026-01-15 16:25:27,708 INFO       iteration 14030 | batch: 0 | bound: 27 | nc: 33 | ncall: 421792 | eff(%):  3.322 | loglstar:   -inf < 429.813 <    inf | logz: 401.253 +/-  0.233 | dlogz: 10.353 >  1.000
+2026-01-15 16:25:42,720 INFO       iteration 14201 | batch: 0 | bound: 27 | nc: 33 | ncall: 427435 | eff(%):  3.318 | loglstar:   -inf < 430.561 <    inf | logz: 401.801 +/-  0.234 | dlogz: 11.193 >  1.000
+2026-01-15 16:25:57,738 INFO       iteration 14373 | batch: 0 | bound: 27 | nc: 33 | ncall: 433111 | eff(%):  3.315 | loglstar:   -inf < 431.311 <    inf | logz: 402.285 +/-  0.235 | dlogz: 10.366 >  1.000
+2026-01-15 16:26:12,788 INFO       iteration 14544 | batch: 0 | bound: 28 | nc: 33 | ncall: 438754 | eff(%):  3.311 | loglstar:   -inf < 432.080 <    inf | logz: 402.746 +/-  0.236 | dlogz:  9.563 >  1.000
+2026-01-15 16:26:27,862 INFO       iteration 14714 | batch: 0 | bound: 28 | nc: 33 | ncall: 444364 | eff(%):  3.308 | loglstar:   -inf < 432.822 <    inf | logz: 403.190 +/-  0.237 | dlogz:  8.780 >  1.000
+2026-01-15 16:26:42,935 INFO       iteration 14884 | batch: 0 | bound: 28 | nc: 33 | ncall: 449974 | eff(%):  3.304 | loglstar:   -inf < 433.436 <    inf | logz: 403.587 +/-  0.238 | dlogz:  8.043 >  1.000
+2026-01-15 16:26:57,945 INFO       iteration 15053 | batch: 0 | bound: 29 | nc: 33 | ncall: 455551 | eff(%):  3.301 | loglstar:   -inf < 434.051 <    inf | logz: 403.954 +/-  0.239 | dlogz:  7.338 >  1.000
+2026-01-15 16:27:12,967 INFO       iteration 15223 | batch: 0 | bound: 29 | nc: 33 | ncall: 461161 | eff(%):  3.297 | loglstar:   -inf < 434.731 <    inf | logz: 404.297 +/-  0.240 | dlogz:  6.656 >  1.000
+2026-01-15 16:27:28,019 INFO       iteration 15393 | batch: 0 | bound: 29 | nc: 33 | ncall: 466771 | eff(%):  3.294 | loglstar:   -inf < 435.341 <    inf | logz: 404.640 +/-  0.241 | dlogz:  5.994 >  1.000
+2026-01-15 16:27:43,042 INFO       iteration 15563 | batch: 0 | bound: 30 | nc: 33 | ncall: 472381 | eff(%):  3.291 | loglstar:   -inf < 435.884 <    inf | logz: 404.941 +/-  0.241 | dlogz:  6.002 >  1.000
+2026-01-15 16:27:58,051 INFO       iteration 15732 | batch: 0 | bound: 30 | nc: 33 | ncall: 477958 | eff(%):  3.288 | loglstar:   -inf < 436.355 <    inf | logz: 405.212 +/-  0.242 | dlogz:  5.395 >  1.000
+2026-01-15 16:28:13,084 INFO       iteration 15902 | batch: 0 | bound: 30 | nc: 33 | ncall: 483568 | eff(%):  3.285 | loglstar:   -inf < 436.888 <    inf | logz: 405.460 +/-  0.243 | dlogz:  5.021 >  1.000
+2026-01-15 16:28:28,106 INFO       iteration 16071 | batch: 0 | bound: 31 | nc: 33 | ncall: 489145 | eff(%):  3.282 | loglstar:   -inf < 437.296 <    inf | logz: 405.681 +/-  0.244 | dlogz:  4.467 >  1.000
+2026-01-15 16:28:43,155 INFO       iteration 16240 | batch: 0 | bound: 31 | nc: 33 | ncall: 494722 | eff(%):  3.279 | loglstar:   -inf < 437.738 <    inf | logz: 405.878 +/-  0.245 | dlogz:  5.303 >  1.000
+2026-01-15 16:28:58,180 INFO       iteration 16410 | batch: 0 | bound: 32 | nc: 33 | ncall: 500332 | eff(%):  3.277 | loglstar:   -inf < 438.156 <    inf | logz: 406.062 +/-  0.245 | dlogz:  4.783 >  1.000
+2026-01-15 16:29:13,209 INFO       iteration 16579 | batch: 0 | bound: 32 | nc: 33 | ncall: 505909 | eff(%):  3.274 | loglstar:   -inf < 438.623 <    inf | logz: 406.228 +/-  0.246 | dlogz:  4.284 >  1.000
+2026-01-15 16:29:28,211 INFO       iteration 16747 | batch: 0 | bound: 32 | nc: 33 | ncall: 511453 | eff(%):  3.271 | loglstar:   -inf < 439.033 <    inf | logz: 406.384 +/-  0.247 | dlogz:  3.801 >  1.000
+2026-01-15 16:29:43,223 INFO       iteration 16916 | batch: 0 | bound: 33 | nc: 33 | ncall: 517030 | eff(%):  3.269 | loglstar:   -inf < 439.420 <    inf | logz: 406.528 +/-  0.247 | dlogz:  3.333 >  1.000
+2026-01-15 16:29:58,303 INFO       iteration 17085 | batch: 0 | bound: 33 | nc: 33 | ncall: 522607 | eff(%):  3.266 | loglstar:   -inf < 439.739 <    inf | logz: 406.655 +/-  0.248 | dlogz:  2.889 >  1.000
+2026-01-15 16:30:13,390 INFO       iteration 17253 | batch: 0 | bound: 33 | nc: 33 | ncall: 528151 | eff(%):  3.264 | loglstar:   -inf < 440.076 <    inf | logz: 406.767 +/-  0.249 | dlogz:  2.583 >  1.000
+2026-01-15 16:30:28,466 INFO       iteration 17421 | batch: 0 | bound: 34 | nc: 33 | ncall: 533695 | eff(%):  3.261 | loglstar:   -inf < 440.401 <    inf | logz: 406.867 +/-  0.249 | dlogz:  2.188 >  1.000
+2026-01-15 16:30:43,535 INFO       iteration 17590 | batch: 0 | bound: 34 | nc: 33 | ncall: 539272 | eff(%):  3.259 | loglstar:   -inf < 440.694 <    inf | logz: 406.955 +/-  0.250 | dlogz:  1.820 >  1.000
+2026-01-15 16:30:58,546 INFO       iteration 17758 | batch: 0 | bound: 34 | nc: 33 | ncall: 544816 | eff(%):  3.256 | loglstar:   -inf < 440.934 <    inf | logz: 407.031 +/-  0.250 | dlogz:  1.488 >  1.000
+2026-01-15 16:31:13,622 INFO       iteration 17927 | batch: 0 | bound: 35 | nc: 33 | ncall: 550393 | eff(%):  3.254 | loglstar:   -inf < 441.174 <    inf | logz: 407.095 +/-  0.251 | dlogz:  1.192 >  1.000
+2026-01-15 16:32:09,699 INFO       iteration 18551 | batch: 1 | bound: 0 | nc: 33 | ncall: 554985 | eff(%):  3.343 | loglstar: 443.432 < 441.374 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:32:24,707 INFO       iteration 18719 | batch: 1 | bound: 1 | nc: 33 | ncall: 560529 | eff(%):  3.244 | loglstar: 443.432 < 441.596 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:32:39,739 INFO       iteration 18888 | batch: 1 | bound: 1 | nc: 33 | ncall: 566106 | eff(%):  3.242 | loglstar: 443.432 < 441.827 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:32:54,809 INFO       iteration 19058 | batch: 1 | bound: 2 | nc: 33 | ncall: 571716 | eff(%):  3.240 | loglstar: 443.432 < 442.030 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:33:09,861 INFO       iteration 19226 | batch: 1 | bound: 2 | nc: 33 | ncall: 577260 | eff(%):  3.238 | loglstar: 443.432 < 442.214 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:33:24,942 INFO       iteration 19395 | batch: 1 | bound: 3 | nc: 33 | ncall: 582837 | eff(%):  3.236 | loglstar: 443.432 < 442.417 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:33:40,003 INFO       iteration 19565 | batch: 1 | bound: 3 | nc: 33 | ncall: 588447 | eff(%):  3.234 | loglstar: 443.432 < 442.602 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:33:55,039 INFO       iteration 19734 | batch: 1 | bound: 3 | nc: 33 | ncall: 594024 | eff(%):  3.232 | loglstar: 443.432 < 442.780 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:34:10,080 INFO       iteration 19902 | batch: 1 | bound: 4 | nc: 33 | ncall: 599568 | eff(%):  3.230 | loglstar: 443.432 < 442.936 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:34:25,084 INFO       iteration 20070 | batch: 1 | bound: 4 | nc: 33 | ncall: 605112 | eff(%):  3.229 | loglstar: 443.432 < 443.103 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:34:40,100 INFO       iteration 20238 | batch: 1 | bound: 4 | nc: 33 | ncall: 610656 | eff(%):  3.227 | loglstar: 443.432 < 443.257 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:34:55,143 INFO       iteration 20406 | batch: 1 | bound: 5 | nc: 33 | ncall: 616200 | eff(%):  3.225 | loglstar: 443.432 < 443.391 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:35:10,214 INFO       iteration 20575 | batch: 1 | bound: 5 | nc: 33 | ncall: 621777 | eff(%):  3.224 | loglstar: 443.432 < 443.499 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:35:25,215 INFO       iteration 20743 | batch: 1 | bound: 5 | nc: 33 | ncall: 627321 | eff(%):  3.222 | loglstar: 443.432 < 443.604 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:35:40,270 INFO       iteration 20911 | batch: 1 | bound: 6 | nc: 33 | ncall: 632865 | eff(%):  3.220 | loglstar: 443.432 < 443.704 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:35:55,338 INFO       iteration 21078 | batch: 1 | bound: 6 | nc: 33 | ncall: 638376 | eff(%):  3.219 | loglstar: 443.432 < 443.811 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:36:10,386 INFO       iteration 21244 | batch: 1 | bound: 6 | nc: 33 | ncall: 643854 | eff(%):  3.217 | loglstar: 443.432 < 443.921 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:36:25,403 INFO       iteration 21412 | batch: 1 | bound: 7 | nc: 33 | ncall: 649398 | eff(%):  3.216 | loglstar: 443.432 < 444.012 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:36:40,477 INFO       iteration 21580 | batch: 1 | bound: 7 | nc: 33 | ncall: 654942 | eff(%):  3.214 | loglstar: 443.432 < 444.107 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:36:55,490 INFO       iteration 21746 | batch: 1 | bound: 7 | nc: 33 | ncall: 660420 | eff(%):  3.212 | loglstar: 443.432 < 444.186 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:37:10,525 INFO       iteration 21913 | batch: 1 | bound: 8 | nc: 33 | ncall: 665931 | eff(%):  3.211 | loglstar: 443.432 < 444.280 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:37:25,546 INFO       iteration 22080 | batch: 1 | bound: 8 | nc: 33 | ncall: 671442 | eff(%):  3.210 | loglstar: 443.432 < 444.363 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:37:40,553 INFO       iteration 22247 | batch: 1 | bound: 8 | nc: 33 | ncall: 676953 | eff(%):  3.208 | loglstar: 443.432 < 444.434 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:37:55,623 INFO       iteration 22415 | batch: 1 | bound: 9 | nc: 33 | ncall: 682497 | eff(%):  3.207 | loglstar: 443.432 < 444.508 <    inf | logz: 407.426 +/-  0.591 | stop:  3.824
+2026-01-15 16:38:46,999 INFO       iteration 22986 | batch: 2 | bound: 0 | nc: 33 | ncall: 701340 | eff(%):  3.277 | loglstar: 438.241 < 438.333 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:39:02,079 INFO       iteration 23154 | batch: 2 | bound: 1 | nc: 33 | ncall: 706884 | eff(%):  3.201 | loglstar: 438.241 < 438.700 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:39:17,170 INFO       iteration 23323 | batch: 2 | bound: 1 | nc: 33 | ncall: 712461 | eff(%):  3.199 | loglstar: 438.241 < 439.090 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:39:32,233 INFO       iteration 23492 | batch: 2 | bound: 2 | nc: 33 | ncall: 718038 | eff(%):  3.198 | loglstar: 438.241 < 439.454 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:39:47,290 INFO       iteration 23660 | batch: 2 | bound: 3 | nc: 33 | ncall: 723582 | eff(%):  3.197 | loglstar: 438.241 < 439.856 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:40:02,373 INFO       iteration 23830 | batch: 2 | bound: 3 | nc: 33 | ncall: 729192 | eff(%):  3.196 | loglstar: 438.241 < 440.215 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:40:17,383 INFO       iteration 23999 | batch: 2 | bound: 3 | nc: 33 | ncall: 734769 | eff(%):  3.194 | loglstar: 438.241 < 440.534 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:40:32,455 INFO       iteration 24166 | batch: 2 | bound: 4 | nc: 33 | ncall: 740280 | eff(%):  3.193 | loglstar: 438.241 < 440.783 < 441.005 | logz: 407.436 +/-  0.248 | stop:  2.127
+2026-01-15 16:41:29,642 INFO       iteration 24802 | batch: 3 | bound: 0 | nc: 33 | ncall: 761268 | eff(%):  3.258 | loglstar: 437.039 < 438.198 < 438.247 | logz: 407.461 +/-  0.211 | stop:  1.369
+2026-01-15 16:41:44,711 INFO       iteration 24970 | batch: 3 | bound: 1 | nc: 33 | ncall: 766812 | eff(%):  3.188 | loglstar: 437.039 < 437.576 < 438.247 | logz: 407.461 +/-  0.211 | stop:  1.369
+2026-01-15 16:41:59,771 INFO       iteration 25140 | batch: 3 | bound: 2 | nc: 33 | ncall: 772422 | eff(%):  3.187 | loglstar: 437.039 < 437.962 < 438.247 | logz: 407.461 +/-  0.211 | stop:  1.369
+2026-01-15 16:42:54,380 INFO       iteration 25750 | batch: 4 | bound: 0 | nc: 33 | ncall: 792552 | eff(%):  3.249 | loglstar: 436.326 < 438.353 < 437.042 | logz: 407.501 +/-  0.198 | stop:  1.161
+2026-01-15 16:43:09,405 INFO       iteration 25917 | batch: 4 | bound: 2 | nc: 33 | ncall: 798063 | eff(%):  3.182 | loglstar: 436.326 < 436.821 < 437.042 | logz: 407.501 +/-  0.198 | stop:  1.161
+2026-01-15 16:44:01,223 INFO       iteration 26492 | batch: 5 | bound: 0 | nc: 33 | ncall: 817038 | eff(%):  3.242 | loglstar: 435.552 < 435.773 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:44:16,301 INFO       iteration 26661 | batch: 5 | bound: 1 | nc: 33 | ncall: 822615 | eff(%):  3.177 | loglstar: 435.552 < 436.176 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:44:31,309 INFO       iteration 26829 | batch: 5 | bound: 1 | nc: 33 | ncall: 828159 | eff(%):  3.176 | loglstar: 435.552 < 436.675 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:44:46,312 INFO       iteration 26999 | batch: 5 | bound: 2 | nc: 33 | ncall: 833769 | eff(%):  3.175 | loglstar: 435.552 < 437.223 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:45:01,374 INFO       iteration 27168 | batch: 5 | bound: 2 | nc: 33 | ncall: 839346 | eff(%):  3.174 | loglstar: 435.552 < 437.746 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:45:16,387 INFO       iteration 27338 | batch: 5 | bound: 2 | nc: 33 | ncall: 844956 | eff(%):  3.173 | loglstar: 435.552 < 438.163 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:45:31,423 INFO       iteration 27507 | batch: 5 | bound: 3 | nc: 33 | ncall: 850533 | eff(%):  3.173 | loglstar: 435.552 < 438.544 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:45:46,482 INFO       iteration 27676 | batch: 5 | bound: 3 | nc: 33 | ncall: 856110 | eff(%):  3.172 | loglstar: 435.552 < 438.932 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:46:01,512 INFO       iteration 27845 | batch: 5 | bound: 3 | nc: 33 | ncall: 861687 | eff(%):  3.171 | loglstar: 435.552 < 439.298 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:46:16,529 INFO       iteration 28013 | batch: 5 | bound: 4 | nc: 33 | ncall: 867231 | eff(%):  3.170 | loglstar: 435.552 < 439.648 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:46:31,570 INFO       iteration 28182 | batch: 5 | bound: 4 | nc: 33 | ncall: 872808 | eff(%):  3.169 | loglstar: 435.552 < 440.003 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:46:46,625 INFO       iteration 28351 | batch: 5 | bound: 4 | nc: 33 | ncall: 878385 | eff(%):  3.168 | loglstar: 435.552 < 440.280 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:47:01,642 INFO       iteration 28520 | batch: 5 | bound: 5 | nc: 33 | ncall: 883962 | eff(%):  3.167 | loglstar: 435.552 < 440.601 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:47:16,650 INFO       iteration 28688 | batch: 5 | bound: 5 | nc: 33 | ncall: 889506 | eff(%):  3.166 | loglstar: 435.552 < 440.873 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:47:31,676 INFO       iteration 28857 | batch: 5 | bound: 5 | nc: 33 | ncall: 895083 | eff(%):  3.166 | loglstar: 435.552 < 441.132 < 441.332 | logz: 407.505 +/-  0.192 | stop:  1.072
+2026-01-15 16:47:42,829 🗸          ...finished!
+2026-01-15 16:47:42,833 INFO       Finished sampling with 29471 samples and evidence estimate 407.54 +/- 0.17

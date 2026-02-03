@@ -1,0 +1,81 @@
+dof: 105
+global_chi2: 126.2526155166359
+local_pvalues:
+  0->Kpi::DeltaCT: 0.6775886237159692
+  0->Kpi::DeltaCTtilde: 0.7936797389437655
+  0->Kpi::f_+(0)@FLAG:2024: 0.9231729940401082
+  K->munu::BR@PDG:2024A: 0.9334765469988006
+  K^+->pi^0l^+nu::BR@KLOE:2008A: 0.06537063140907695
+  K_L->pi^-l^+nu::BR@scaledKLOE:2006A: 0.16879072348570479
+  K_L->pi^-l^+nu::BR@scaledKTEV:2004A: 0.9586840110673164
+  K_S->pi^-e^+nu::BR@KLOE:2002A: 0.5769429801678283
+  K_S->pi^-mu^+nu::BR@KLOE-2:2020A: 0.4360646054595617
+  decay-constant::K_u@FLAG:2024: 0.9999867697655656
+  decay-constant::pi@FLAG:2024: 0.667536857436134
+  s->u::Bound[0^+]: 1.0
+  s->u::Bound[1^-]: 1.0
+  tau->K^-pinu::BR@PDG:2024A: 0.16674064965950997
+  tau->K_Spinu::BR@PDG:2024A: 0.004958806968281659
+  tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A: 0.3507269732318121
+  tau->Knu::BR@PDG:2024A: 0.28239396140459627
+mode:
+- 0.052260971503532136
+- 0.07785025749087526
+- 0.03724818826071691
+- 0.024272441047190313
+- 0.36805355184404676
+- 0.35660749353603816
+- 0.06966488298735474
+- 0.051955707305993526
+- 0.8919222256841792
+- 0.044347578946795196
+- 0.15570000497449196
+- 0.12985637522033835
+- 1.0128562569488202
+- 0.0035564109998176413
+parameters:
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::M_(+,0)@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::Gamma_(+,0)@KSvD2025
+- max: 0.1572
+  min: 0.155
+  name: decay-constant::K_u
+- max: 0.1326
+  min: 0.1288
+  name: decay-constant::pi
+- max: 1.1
+  min: 0.9
+  name: uslnu::Re{cVL}
+- max: 0.1
+  min: -0.1
+  name: uslnu::Re{cVR}
+pvalue: 0.07734281696125522
+type: Mode
+version: 1.0.19

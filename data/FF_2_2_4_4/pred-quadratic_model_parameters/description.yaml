@@ -1,0 +1,31 @@
+observables:
+- kinematics: {}
+  name: 0->Kpi::lambda_prime_+
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '2'
+- kinematics: {}
+  name: 0->Kpi::lambda_prime_0
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '2'
+- kinematics: {}
+  name: 0->Kpi::lambda_doubleprime_+
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '2'
+- kinematics: {}
+  name: 0->Kpi::lambda_doubleprime_0
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '2'
+type: Prediction
+version: 1.0.19

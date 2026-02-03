@@ -1,0 +1,174 @@
+2026-01-15 16:47:47,856 INFO       Creating analysis with 13 priors, 8 EOS-wide constraints, 4 global options, 9 manually-entered constraints and 7 fixed parameters.
+2026-01-15 16:47:47,856 DEBUG      priors:
+2026-01-15 16:47:47,856 DEBUG       - 0->Kpi::b_+^1@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_+^2@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_+^3@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_+^4@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_0^1@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_0^2@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_0^3@KSvD2025 (uniform)
+2026-01-15 16:47:47,857 DEBUG       - 0->Kpi::b_0^4@KSvD2025 (uniform)
+2026-01-15 16:47:47,858 DEBUG       - 0->Kpi::M_(+,0)@KSvD2025 (uniform)
+2026-01-15 16:47:47,858 DEBUG       - 0->Kpi::Gamma_(+,0)@KSvD2025 (uniform)
+2026-01-15 16:47:47,858 DEBUG       - decay-constant::K_u (uniform)
+2026-01-15 16:47:47,858 DEBUG       - decay-constant::pi (uniform)
+2026-01-15 16:47:47,858 DEBUG       - CKM::abs(V_us) (uniform)
+2026-01-15 16:47:47,858 DEBUG      constraints:
+2026-01-15 16:47:47,858 DEBUG       - tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A
+2026-01-15 16:47:47,858 DEBUG       - tau->K_Spinu::BR@PDG:2024A
+2026-01-15 16:47:47,859 DEBUG       - tau->K^-pinu::BR@PDG:2024A
+2026-01-15 16:47:47,859 DEBUG       - K^+->pi^0l^+nu::BR@KLOE:2008A
+2026-01-15 16:47:47,859 DEBUG       - K_S->pi^-e^+nu::BR@KLOE:2002A
+2026-01-15 16:47:47,859 DEBUG       - K_S->pi^-mu^+nu::BR@KLOE-2:2020A
+2026-01-15 16:47:47,859 DEBUG       - K->munu::BR@PDG:2024A
+2026-01-15 16:47:47,859 DEBUG       - tau->Knu::BR@PDG:2024A
+2026-01-15 16:47:47,859 DEBUG      manual_constraints:
+2026-01-15 16:47:47,859 DEBUG       - K_L->pi^-l^+nu::BR@scaledKLOE:2006A
+2026-01-15 16:47:47,860 DEBUG       - K_L->pi^-l^+nu::BR@scaledKTEV:2004A
+2026-01-15 16:47:47,860 DEBUG       - 0->Kpi::DeltaCT
+2026-01-15 16:47:47,860 DEBUG       - 0->Kpi::DeltaCTtilde
+2026-01-15 16:47:47,860 DEBUG       - s->u::Bound[0^+]
+2026-01-15 16:47:47,860 DEBUG       - s->u::Bound[1^-]
+2026-01-15 16:47:47,860 DEBUG       - decay-constant::K_u@FLAG:2024
+2026-01-15 16:47:47,860 DEBUG       - decay-constant::pi@FLAG:2024
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::f_+(0)@FLAG:2024
+2026-01-15 16:47:47,861 DEBUG      fixed_parameters:
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::t_0@KSvD2025
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::M_(+,1)@KSvD2025
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::Gamma_(+,1)@KSvD2025
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::M_(0,0)@KSvD2025
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::Gamma_(0,0)@KSvD2025
+2026-01-15 16:47:47,861 DEBUG       - 0->Kpi::M_(0,1)@KSvD2025
+2026-01-15 16:47:47,862 DEBUG       - 0->Kpi::Gamma_(0,1)@KSvD2025
+2026-01-15 16:47:48,291 INFO       likelihood probably depends on 78 parameter(s) that do not appear in the prior; check prior?
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'life_time::tau'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'life_time::K_u'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'mass::pi^0'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: '0->Kpi::b_0^8@KSvD2025'
+2026-01-15 16:47:48,291 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: '0->Kpi::b_+^9@KSvD2025'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'usmunumu::mu'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: '0->Kpi::chi_1m'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: '0->Kpi::M_(+,2)@KSvD2025'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: '0->Kpi::b_0^9@KSvD2025'
+2026-01-15 16:47:48,292 DEBUG      used, but not included in any prior: 'mass::K_d'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'mass::Z'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: '0->Kpi::b_+^6@KSvD2025'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'life_time::K_S'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2026-01-15 16:47:48,293 DEBUG      used, but not included in any prior: 'mass::mu'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: '0->Kpi::b_0^7@KSvD2025'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: 'mass::pi^+'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: '0->Kpi::Gamma_(+,2)@KSvD2025'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2026-01-15 16:47:48,294 DEBUG      used, but not included in any prior: 'usenue::mu'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'ustaunutau::mu'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: '0->Kpi::b_+^5@KSvD2025'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: '0->Kpi::chi_0p'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'mass::W'
+2026-01-15 16:47:48,295 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: '0->Kpi::b_0^6@KSvD2025'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: '0->Kpi::b_+^7@KSvD2025'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2026-01-15 16:47:48,296 DEBUG      used, but not included in any prior: 'mass::K_u'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'QM::hbar'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2026-01-15 16:47:48,297 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'life_time::K_L'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'decay-constant::K'
+2026-01-15 16:47:48,298 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: '0->Kpi::b_0^5@KSvD2025'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: 'mass::e'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: 'mass::tau'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: '0->Kpi::b_+^8@KSvD2025'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2026-01-15 16:47:48,299 DEBUG      used, but not included in any prior: 'mass::c'
+2026-01-15 16:47:48,299 …          Beginning minimization in 10 points
+2026-01-15 16:47:48,300 INFO       Using a starting point based on the existing importance samples
+2026-01-15 16:47:48,306 INFO       Using starting point [ 0.00637, -0.008314, -0.02934, -0.009918, 1.369, 2.116, 1.652, 0.7314, 0.892, 0.04496, 0.1555, 0.1303, 0.225 ]
+2026-01-15 16:47:49,641 🗸          Optimization goal achieved after 554 function evaluations
+2026-01-15 16:47:49,643 INFO       First optimization finished
+2026-01-15 16:47:55,017 ✖          Optimization did not succeed
+2026-01-15 16:47:55,017 ✖            optimizer message reads: Iteration limit reached
+2026-01-15 16:47:56,062 🗸          Optimization goal achieved after 454 function evaluations
+2026-01-15 16:47:56,998 🗸          Optimization goal achieved after 406 function evaluations
+2026-01-15 16:47:58,247 🗸          Optimization goal achieved after 545 function evaluations
+2026-01-15 16:48:01,499 🗸          Optimization goal achieved after 1404 function evaluations
+2026-01-15 16:48:06,405 🗸          Optimization goal achieved after 2137 function evaluations
+2026-01-15 16:48:07,236 🗸          Optimization goal achieved after 361 function evaluations
+2026-01-15 16:48:08,210 🗸          Optimization goal achieved after 426 function evaluations
+2026-01-15 16:48:13,686 ✖          Optimization did not succeed
+2026-01-15 16:48:13,686 ✖            optimizer message reads: Iteration limit reached
+2026-01-15 16:48:13,689 🗸          ... optimization finished
+2026-01-15 16:48:13,689 INFO       The best-fit point is:
+2026-01-15 16:48:13,689 INFO         - 0->Kpi::b_+^1@KSvD2025 -> 0.007670308264755867
+2026-01-15 16:48:13,689 INFO         - 0->Kpi::b_+^2@KSvD2025 -> -0.006049826434542681
+2026-01-15 16:48:13,689 INFO         - 0->Kpi::b_+^3@KSvD2025 -> -0.02743443496851912
+2026-01-15 16:48:13,689 INFO         - 0->Kpi::b_+^4@KSvD2025 -> -0.009337280764654945
+2026-01-15 16:48:13,689 INFO         - 0->Kpi::b_0^1@KSvD2025 -> 0.8211591378088647
+2026-01-15 16:48:13,690 INFO         - 0->Kpi::b_0^2@KSvD2025 -> 1.1535639858947775
+2026-01-15 16:48:13,690 INFO         - 0->Kpi::b_0^3@KSvD2025 -> 0.7632332214556721
+2026-01-15 16:48:13,690 INFO         - 0->Kpi::b_0^4@KSvD2025 -> 0.3314026954187742
+2026-01-15 16:48:13,690 INFO         - 0->Kpi::M_(+,0)@KSvD2025 -> 0.8918704102370599
+2026-01-15 16:48:13,690 INFO         - 0->Kpi::Gamma_(+,0)@KSvD2025 -> 0.045613388880445666
+2026-01-15 16:48:13,690 INFO         - decay-constant::K_u -> 0.1554594358484654
+2026-01-15 16:48:13,690 INFO         - decay-constant::pi -> 0.1300560118959072
+2026-01-15 16:48:13,690 INFO         - CKM::abs(V_us) -> 0.2249156453646404
+2026-01-15 16:48:13,691 INFO       total chi^2 = 98.23
+2026-01-15 16:48:13,691 INFO       total dof   = 106
+2026-01-15 16:48:13,692 INFO       p value     = 69.20%
+2026-01-15 16:48:13,692 INFO       individual test statistics:
+2026-01-15 16:48:13,693 INFO         - 0->Kpi::DeltaCT: chi^2 / dof = 0.07 / 1, local_pvalue = 79.55%
+2026-01-15 16:48:13,693 INFO         - 0->Kpi::DeltaCTtilde: chi^2 / dof = 0.12 / 1, local_pvalue = 72.66%
+2026-01-15 16:48:13,694 INFO         - 0->Kpi::f_+(0)@FLAG:2024: chi^2 / dof = 0.41 / 1, local_pvalue = 52.06%
+2026-01-15 16:48:13,694 INFO         - K->munu::BR@PDG:2024A: chi^2 / dof = 0.19 / 1, local_pvalue = 66.28%
+2026-01-15 16:48:13,695 INFO         - K^+->pi^0l^+nu::BR@KLOE:2008A: chi^2 / dof = 5.72 / 2, local_pvalue = 5.74%
+2026-01-15 16:48:13,695 INFO         - K_L->pi^-l^+nu::BR@scaledKLOE:2006A: chi^2 / dof = 2.20 / 2, local_pvalue = 33.35%
+2026-01-15 16:48:13,695 INFO         - K_L->pi^-l^+nu::BR@scaledKTEV:2004A: chi^2 / dof = 1.43 / 2, local_pvalue = 49.02%
+2026-01-15 16:48:13,696 INFO         - K_S->pi^-e^+nu::BR@KLOE:2002A: chi^2 / dof = 0.25 / 1, local_pvalue = 61.67%
+2026-01-15 16:48:13,696 INFO         - K_S->pi^-mu^+nu::BR@KLOE-2:2020A: chi^2 / dof = 0.41 / 1, local_pvalue = 52.14%
+2026-01-15 16:48:13,697 INFO         - decay-constant::K_u@FLAG:2024: chi^2 / dof = 0.64 / 1, local_pvalue = 42.26%
+2026-01-15 16:48:13,697 INFO         - decay-constant::pi@FLAG:2024: chi^2 / dof = 0.03 / 1, local_pvalue = 85.72%
+2026-01-15 16:48:13,698 INFO         - s->u::Bound[0^+]: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2026-01-15 16:48:13,698 INFO         - s->u::Bound[1^-]: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2026-01-15 16:48:13,699 INFO         - tau->K^-pinu::BR@PDG:2024A: chi^2 / dof = 0.21 / 1, local_pvalue = 64.31%
+2026-01-15 16:48:13,699 INFO         - tau->K_Spinu::BR@PDG:2024A: chi^2 / dof = 0.06 / 1, local_pvalue = 80.89%
+2026-01-15 16:48:13,699 INFO         - tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A: chi^2 / dof = 85.24 / 100, local_pvalue = 85.36%
+2026-01-15 16:48:13,700 INFO         - tau->Knu::BR@PDG:2024A: chi^2 / dof = 1.24 / 1, local_pvalue = 26.47%
+2026-01-15 16:48:13,703 🗸          Final p value is 69.20%, indicating a successful fit

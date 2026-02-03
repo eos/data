@@ -1,0 +1,120 @@
+2026-01-19 11:24:55,101 INFO       Creating analysis with 14 priors, 6 EOS-wide constraints, 4 global options, 8 manually-entered constraints and 10 fixed parameters.
+2026-01-19 11:24:55,101 DEBUG      priors:
+2026-01-19 11:24:55,101 DEBUG       - 0->Kpi::b_+^1@KSvD2025 (uniform)
+2026-01-19 11:24:55,101 DEBUG       - 0->Kpi::b_+^2@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_+^3@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_+^4@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_+^5@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_0^1@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_0^2@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_0^3@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_0^4@KSvD2025 (uniform)
+2026-01-19 11:24:55,102 DEBUG       - 0->Kpi::b_0^5@KSvD2025 (uniform)
+2026-01-19 11:24:55,103 DEBUG       - 0->Kpi::M_(+,0)@KSvD2025 (uniform)
+2026-01-19 11:24:55,103 DEBUG       - 0->Kpi::Gamma_(+,0)@KSvD2025 (uniform)
+2026-01-19 11:24:55,103 DEBUG       - decay-constant::K_u (uniform)
+2026-01-19 11:24:55,103 DEBUG       - decay-constant::pi (uniform)
+2026-01-19 11:24:55,103 DEBUG      constraints:
+2026-01-19 11:24:55,103 DEBUG       - tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A
+2026-01-19 11:24:55,103 DEBUG       - tau->K_Spinu::BR@PDG:2024A
+2026-01-19 11:24:55,103 DEBUG       - tau->K^-pinu::BR@PDG:2024A
+2026-01-19 11:24:55,103 DEBUG       - K^+->pi^0l^+nu::BR@KLOE:2008A
+2026-01-19 11:24:55,104 DEBUG       - K_S->pi^-e^+nu::BR@KLOE:2002A
+2026-01-19 11:24:55,104 DEBUG       - K_S->pi^-mu^+nu::BR@KLOE-2:2020A
+2026-01-19 11:24:55,104 DEBUG      manual_constraints:
+2026-01-19 11:24:55,104 DEBUG       - K_L->pi^-l^+nu::BR@scaledKLOE:2006A
+2026-01-19 11:24:55,104 DEBUG       - K_L->pi^-l^+nu::BR@scaledKTEV:2004A
+2026-01-19 11:24:55,104 DEBUG       - 0->Kpi::DeltaCT
+2026-01-19 11:24:55,104 DEBUG       - 0->Kpi::DeltaCTtilde
+2026-01-19 11:24:55,104 DEBUG       - s->u::Bound[0^+]
+2026-01-19 11:24:55,104 DEBUG       - s->u::Bound[1^-]
+2026-01-19 11:24:55,105 DEBUG       - decay-constant::K_u@FLAG:2024
+2026-01-19 11:24:55,105 DEBUG       - decay-constant::pi@FLAG:2024
+2026-01-19 11:24:55,105 DEBUG      fixed_parameters:
+2026-01-19 11:24:55,105 DEBUG       - CKM::abs(V_us)
+2026-01-19 11:24:55,105 DEBUG       - 0->Kpi::t_0@KSvD2025
+2026-01-19 11:24:55,105 DEBUG       - 0->Kpi::M_(+,1)@KSvD2025
+2026-01-19 11:24:55,105 DEBUG       - 0->Kpi::Gamma_(+,1)@KSvD2025
+2026-01-19 11:24:55,105 DEBUG       - 0->Kpi::M_(+,2)@KSvD2025
+2026-01-19 11:24:55,105 DEBUG       - 0->Kpi::Gamma_(+,2)@KSvD2025
+2026-01-19 11:24:55,106 DEBUG       - 0->Kpi::M_(0,0)@KSvD2025
+2026-01-19 11:24:55,106 DEBUG       - 0->Kpi::Gamma_(0,0)@KSvD2025
+2026-01-19 11:24:55,106 DEBUG       - 0->Kpi::M_(0,1)@KSvD2025
+2026-01-19 11:24:55,106 DEBUG       - 0->Kpi::Gamma_(0,1)@KSvD2025
+2026-01-19 11:24:55,141 INFO       likelihood probably depends on 74 parameter(s) that do not appear in the prior; check prior?
+2026-01-19 11:24:55,141 DEBUG      used, but not included in any prior: 'life_time::K_S'
+2026-01-19 11:24:55,141 DEBUG      used, but not included in any prior: 'QM::hbar'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'life_time::tau'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'life_time::K_L'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2026-01-19 11:24:55,142 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'mass::c'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'mass::e'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'mass::K_u'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: '0->Kpi::b_0^6@KSvD2025'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2026-01-19 11:24:55,143 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2026-01-19 11:24:55,144 DEBUG      used, but not included in any prior: '0->Kpi::b_+^9@KSvD2025'
+2026-01-19 11:24:55,144 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2026-01-19 11:24:55,144 DEBUG      used, but not included in any prior: '0->Kpi::b_0^7@KSvD2025'
+2026-01-19 11:24:55,144 DEBUG      used, but not included in any prior: '0->Kpi::b_0^8@KSvD2025'
+2026-01-19 11:24:55,144 DEBUG      used, but not included in any prior: '0->Kpi::chi_1m'
+2026-01-19 11:24:55,144 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'mass::tau'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2026-01-19 11:24:55,145 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: 'mass::Z'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: '0->Kpi::b_+^6@KSvD2025'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2026-01-19 11:24:55,146 DEBUG      used, but not included in any prior: 'mass::W'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: '0->Kpi::b_+^8@KSvD2025'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'mass::mu'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'life_time::K_u'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2026-01-19 11:24:55,147 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: '0->Kpi::chi_0p'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'usmunumu::mu'
+2026-01-19 11:24:55,148 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'ustaunutau::mu'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'usenue::mu'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: '0->Kpi::b_+^7@KSvD2025'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'decay-constant::K'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'mass::pi^0'
+2026-01-19 11:24:55,149 DEBUG      used, but not included in any prior: 'mass::pi^+'
+2026-01-19 11:24:55,150 DEBUG      used, but not included in any prior: '0->Kpi::b_0^9@KSvD2025'
+2026-01-19 11:24:55,150 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2026-01-19 11:24:55,150 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2026-01-19 11:24:55,150 DEBUG      used, but not included in any prior: 'mass::K_d'
+2026-01-19 11:24:55,158 …          Predicting observables from set 'quadratic_model_parameters' for 32226 samples
+2026-01-19 11:24:56,911 🗸          ... done

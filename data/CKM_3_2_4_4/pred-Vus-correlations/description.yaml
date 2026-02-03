@@ -1,0 +1,24 @@
+observables:
+- kinematics: {}
+  name: CKM::Vus
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics: {}
+  name: decay-constant::K
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics: {}
+  name: 0->Kpi::f_+(0)
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+type: Prediction
+version: 1.0.19

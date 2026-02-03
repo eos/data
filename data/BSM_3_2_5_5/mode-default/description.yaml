@@ -1,0 +1,89 @@
+dof: 103
+global_chi2: 96.34526962691955
+local_pvalues:
+  0->Kpi::DeltaCT: 0.9648618028486865
+  0->Kpi::DeltaCTtilde: 0.6872762781442961
+  0->Kpi::f_+(0)@FLAG:2024: 0.9740985326481931
+  K->munu::BR@PDG:2024A: 0.9335366444124726
+  K^+->pi^0l^+nu::BR@KLOE:2008A: 0.08339073940368302
+  K_L->pi^-l^+nu::BR@scaledKLOE:2006A: 0.20044095721361765
+  K_L->pi^-l^+nu::BR@scaledKTEV:2004A: 0.7761925499212772
+  K_S->pi^-e^+nu::BR@KLOE:2002A: 0.5827371792615481
+  K_S->pi^-mu^+nu::BR@KLOE-2:2020A: 0.47779443822725987
+  decay-constant::K_u@FLAG:2024: 0.9999176904638305
+  decay-constant::pi@FLAG:2024: 0.9772219721360483
+  s->u::Bound[0^+]: 1.0
+  s->u::Bound[1^-]: 1.0
+  tau->K^-pinu::BR@PDG:2024A: 0.8488401948239108
+  tau->K_Spinu::BR@PDG:2024A: 0.5421956618945851
+  tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A: 0.8559135054385305
+  tau->Knu::BR@PDG:2024A: 0.28239133379383685
+mode:
+- 0.119325850863995
+- 0.1929935086737921
+- 0.1506589991561165
+- 0.09515029159509318
+- 0.021483034159910194
+- 1.2826640968604734
+- 2.3163488738884
+- 2.2714748427362017
+- 1.3974535577298801
+- 0.35019951590718246
+- 0.8918091649012111
+- 0.0451032047114384
+- 0.15570003094791166
+- 0.13022284152253827
+- 1.0141580604605205
+- 0.00485828690197865
+parameters:
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_+^5@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^1@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^2@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^3@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^4@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::b_0^5@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::M_(+,0)@KSvD2025
+- max: 1.0
+  min: -1.0
+  name: 0->Kpi::Gamma_(+,0)@KSvD2025
+- max: 0.1572
+  min: 0.155
+  name: decay-constant::K_u
+- max: 0.1326
+  min: 0.1288
+  name: decay-constant::pi
+- max: 1.1
+  min: 0.9
+  name: uslnu::Re{cVL}
+- max: 0.1
+  min: -0.1
+  name: uslnu::Re{cVR}
+pvalue: 0.6654237918092674
+type: Mode
+version: 1.0.19

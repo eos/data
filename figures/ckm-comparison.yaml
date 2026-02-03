@@ -1,0 +1,50 @@
+type: single
+plot:
+  xaxis:
+    label: '$|V_{us}|$'
+    ticks: { position: 'both' }
+    range: [0.213, 0.2296]
+  yaxis:
+    ticks: { visible: False }
+    range: [0.0, 6.5]
+  items:
+    - type: errorbars
+      label: '$K_{\mu 2}/\pi_{\mu_2}$ + unitarity'
+      positions: [ [ 0.22515, 6.0 ] ]
+      xerrors: [ 0.00047 ]
+    - type: errorbars
+      label: '$K_{\ell 3}$'
+      positions: [ [ 0.22330, 5.0 ] ]
+      xerrors: [ 0.00057 ]
+    - type: errorbars
+      label: '$\tau \to X_s \nu$'
+      positions:
+        - [ 0.2184, 4.4 ]
+        - [ 0.2219, 4.2 ]
+        - [ 0.2240, 3.8 ]
+        - [ 0.2189, 3.6 ]
+      xerrors:
+        - 0.0021
+        - 0.0022
+        - 0.0018
+        - 0.0019
+    - type: errorbars
+      label: 'global CKM fit'
+      positions: [ [ 0.22535, 3.0 ] ]
+      xerrors: [ [ 0.00039, 0.00141 ] ]
+    - type: errorbars
+      label: 'hyperon'
+      positions: [ [ 0.2250, 2.0 ] ]
+      xerrors: [ 0.0027 ]
+    - type: errorbars
+      label: '$\beta$ decay + unitarity'
+      positions: [ [ 0.2280, 1.0 ] ]
+      xerrors: [ 0.0014 ]
+    - type: band
+      alpha: 0.3
+      color: 'gray'
+      x: [ 0.2246, 0.2252 ]
+  legend:
+    position: 'lower left'
+watermark:
+  position: 'upper left'

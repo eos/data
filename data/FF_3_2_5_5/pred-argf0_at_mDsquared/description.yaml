@@ -1,0 +1,19 @@
+observables:
+- kinematics:
+    q2: 3.4956285156
+  name: 0->Kpi::Arg{f_0}(q2)
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 3.8744017225
+  name: 0->Kpi::Arg{f_0}(q2)
+  options:
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+type: Prediction
+version: 1.0.19

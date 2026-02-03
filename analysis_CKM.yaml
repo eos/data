@@ -1,0 +1,463 @@
+likelihoods:
+  - name: EXP-normalised-differential-width-tau
+    constraints:
+      - 'tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A'
+  - name: EXP-BR-tau
+    constraints:
+      - 'tau->K_Spinu::BR@PDG:2024A'
+      - 'tau->K^-pinu::BR@PDG:2024A'
+  - name: EXP-BR-Kl3
+    constraints:
+      - 'K^+->pi^0l^+nu::BR@KLOE:2008A'
+      - 'K_S->pi^-e^+nu::BR@KLOE:2002A'
+      - 'K_S->pi^-mu^+nu::BR@KLOE-2:2020A'
+      # - 'K_L->pi^-l^+nu::BR@KLOE:2006A'
+      # - 'K_L->pi^-l^+nu::BR@KTEV:2004A'
+    manual_constraints:
+      # Covariance scaled by factor 2.1^2 compared to K_L->pi^-l^+nu::BR@KLOE:2006A
+      'K_L->pi^-l^+nu::BR@scaledKLOE:2006A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+            - K_L->pilnu::BR
+            - K_L->pilnu::BR
+        kinematics:
+            - {}
+            - {}
+        options:
+            - {l: e}
+            - {l: mu}
+        means: [ 0.20035, 0.1349 ]
+        covariance:
+            - [ 2.61e-6, -6.53e-7 ]
+            - [ -6.53e-7, 2.61e-6 ]
+      # Covariance scaled by factor 2.1^2 compared to K_L->pi^-l^+nu::BR@KTEV:2004A
+      'K_L->pi^-l^+nu::BR@scaledKTEV:2004A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+            - K_L->pilnu::BR
+            - K_L->pilnu::BR
+        kinematics:
+            - {}
+            - {}
+        options:
+            - {l: e}
+            - {l: mu}
+        means: [ 0.20335, 0.13505 ]
+        covariance:
+            - [ 1.33e-6, 1.64e-7 ]
+            - [ 1.64e-7, 8.93e-7 ]
+  - name: EXP-BR-Kl2
+    constraints:
+      - 'K->munu::BR@PDG:2024A'
+  - name: EXP-BR-tau-2body
+    constraints:
+      - 'tau->Knu::BR@PDG:2024A'
+  - name: TH-Callan-Treiman
+    manual_constraints:
+      "0->Kpi::DeltaCT":
+        type: "Gaussian"
+        observable: "0->Kpi::Delta_CT@KSvD2025"
+        kinematics: {}
+        options: {}
+        mean: -3.5e-3
+        sigma-stat: {"hi": 0., "lo": 0.}
+        sigma-sys:  {"hi": 8e-3, "lo": 8e-3} # See eq 2.5 in 0903.1654
+      "0->Kpi::DeltaCTtilde":
+        type: "Gaussian"
+        observable: "0->Kpi::Delta_CTtilde@KSvD2025"
+        kinematics: {}
+        options: {}
+        mean: 0.03
+        sigma-stat: {"hi": 0., "lo": 0.}
+        sigma-sys:  {"hi": 0.03, "lo": 0.03}
+  - name: TH-dispersive-bound
+    manual_constraints:
+      "s->u::Bound[0^+]":
+        type: "UniformBound"
+        observables: [ "0->Kpi::Saturation_f0@KSvD2025" ]
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.2 # Potential higher order QCD error on chi_0p
+      "s->u::Bound[1^-]":
+        type: "UniformBound"
+        observables: [ "0->Kpi::Saturation_f+@KSvD2025" ]
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.003 # Error of chi_1m
+  - name: LAT-fK-fpi
+    manual_constraints:
+      "decay-constant::K_u@FLAG:2024":
+        type: "Gaussian"
+        observable: "decay-constant::K_u"
+        kinematics: {}
+        options: {}
+        mean: 0.1557
+        sigma-stat: {"hi": 0.0003, "lo": 0.0003}
+        sigma-sys:  {"hi": 0., "lo": 0.}
+      "decay-constant::pi@FLAG:2024":
+        type: "Gaussian"
+        observable: "decay-constant::pi"
+        kinematics: {}
+        options: {}
+        mean: 0.1302
+        sigma-stat: {"hi": 0.0008, "lo": 0.0008}
+        sigma-sys:  {"hi": 0., "lo": 0.}
+  - name: LAT-fplus0
+    manual_constraints:
+      "0->Kpi::f_+(0)@FLAG:2024":
+        type: "Gaussian"
+        observable: "0->Kpi::f_+(0)"
+        kinematics: {}
+        options: {}
+        mean: 0.9698
+        sigma-stat: {"hi": 0.0017, "lo": 0.0017}
+        sigma-sys:  {"hi": 0., "lo": 0.}
+
+
+priors:
+  - name: Vus
+    descriptions:
+      - { 'parameter': 'CKM::abs(V_us)', 'min': 0.223, 'max': 0.227, 'type': 'uniform'}
+
+  - name: FF-K892-pole-parameters
+    descriptions:
+      - { 'parameter': '0->Kpi::M_(+,0)@KSvD2025', 'min': 0.890, 'max': 0.893, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::Gamma_(+,0)@KSvD2025', 'min': 0.043, 'max': 0.048, 'type': 'uniform'}
+
+  - name: decay-constants
+    descriptions:
+      - { 'parameter': 'decay-constant::K_u', 'min': 0.1542, 'max': 0.1567, 'type': 'uniform'}
+      - { 'parameter': 'decay-constant::pi', 'min': 0.1262, 'max': 0.1342, 'type': 'uniform'}
+
+  - name: 2_2_3_3-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min':  0.05, 'max': 0.08,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min':  0.05, 'max': 0.09,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min':  0.01, 'max': 0.025, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.3, 'max': 0.8, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -0.4, 'max': 0.9, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -0.4, 'max': 0.4, 'type': 'uniform'}
+  - name: 2_2_4_4-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min': -0.02,  'max': 0.08,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min': -0.05,  'max': 0.09,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min': -0.05,  'max': 0.025, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^4@KSvD2025', 'min': -0.015, 'max': 0.0,   'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.3, 'max': 1.8, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -0.5, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -0.5, 'max': 2.0, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^4@KSvD2025', 'min': -0.4, 'max': 1.0, 'type': 'uniform'}
+  - name: 3_2_4_4-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min': 0.04,  'max': 0.07,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min': 0.06,  'max': 0.10,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min': 0.025, 'max': 0.05,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^4@KSvD2025', 'min': 0.021, 'max': 0.028, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.5, 'max': 1.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -1.5, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -1.0, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^4@KSvD2025', 'min': -0.5, 'max': 1.0, 'type': 'uniform'}
+  - name: 3_2_5_5-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min': 0.04, 'max': 0.15, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min': 0.06, 'max': 0.25, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min': 0.03, 'max': 0.20, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^4@KSvD2025', 'min': 0.02, 'max': 0.13, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^5@KSvD2025', 'min': 0.00, 'max': 0.03, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.5, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -1.5, 'max': 3.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -1.0, 'max': 4.0, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^4@KSvD2025', 'min': -1.0, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^5@KSvD2025', 'min': -0.5, 'max': 1.0, 'type': 'uniform'}
+
+
+posteriors:
+  - name: "CKM_2_2_3_3"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "2"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 2_2_3_3-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+      - Vus
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - EXP-BR-Kl2
+      - EXP-BR-tau-2body
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+      - LAT-fplus0
+  - name: "CKM_2_2_4_4"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "2"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 2_2_4_4-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+      - Vus
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - EXP-BR-Kl2
+      - EXP-BR-tau-2body
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+      - LAT-fplus0
+  - name: "CKM_3_2_4_4"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "3"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(+,2)@KSvD2025: 1.718
+      0->Kpi::Gamma_(+,2)@KSvD2025: 0.320
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 3_2_4_4-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+      - Vus
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - EXP-BR-Kl2
+      - EXP-BR-tau-2body
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+      - LAT-fplus0
+  - name: "CKM_3_2_5_5"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "3"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(+,2)@KSvD2025: 1.718
+      0->Kpi::Gamma_(+,2)@KSvD2025: 0.320
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 3_2_5_5-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+      - Vus
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - EXP-BR-Kl2
+      - EXP-BR-tau-2body
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+      - LAT-fplus0
+
+
+observables:
+  'CKM::Vus':
+    latex: '|V_{us}|'
+    unit: '1'
+    options: {}
+    expression: '[[CKM::abs(V_us)]]'
+  'decay-constant::K':
+    latex: 'f_{K^+}'
+    unit: 'GeV'
+    options: {}
+    expression: '[[decay-constant::K_u]]'
+
+
+predictions:
+  - name: Vus-correlations
+    observables:
+    - name: CKM::Vus
+    - name: decay-constant::K
+    - name: 0->Kpi::f_+(0)
+
+
+steps:
+  - title: 'Sample from CKM_2_2_3_3 posterior'
+    id: 'CKM_2_2_3_3.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'CKM_2_2_3_3'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for CKM_2_2_3_3 posterior'
+    id: 'CKM_2_2_3_3.corner-plot'
+    depends_on:
+      - 'CKM_2_2_3_3.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'CKM_2_2_3_3'
+  - title: 'Find mode from CKM_2_2_3_3 posterior'
+    id: 'CKM_2_2_3_3.find-mode'
+    depends_on:
+      - 'CKM_2_2_3_3.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'CKM_2_2_3_3'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from CKM_2_2_3_3 posterior'
+    id: 'CKM_2_2_3_3.predict-observables'
+    depends_on:
+      - 'CKM_2_2_3_3.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'CKM_2_2_3_3'
+          prediction: 'Vus-correlations'
+
+  - title: 'Sample from CKM_2_2_4_4 posterior'
+    id: 'CKM_2_2_4_4.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'CKM_2_2_4_4'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for CKM_2_2_4_4 posterior'
+    id: 'CKM_2_2_4_4.corner-plot'
+    depends_on:
+      - 'CKM_2_2_4_4.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'CKM_2_2_4_4'
+  - title: 'Find mode from CKM_2_2_4_4 posterior'
+    id: 'CKM_2_2_4_4.find-mode'
+    depends_on:
+      - 'CKM_2_2_4_4.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'CKM_2_2_4_4'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from CKM_2_2_4_4 posterior'
+    id: 'CKM_2_2_4_4.predict-observables'
+    depends_on:
+      - 'CKM_2_2_4_4.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'CKM_2_2_4_4'
+          prediction: 'Vus-correlations'
+
+  - title: 'Sample from CKM_3_2_4_4 posterior'
+    id: 'CKM_3_2_4_4.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'CKM_3_2_4_4'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for CKM_3_2_4_4 posterior'
+    id: 'CKM_3_2_4_4.corner-plot'
+    depends_on:
+      - 'CKM_3_2_4_4.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'CKM_3_2_4_4'
+  - title: 'Find mode from CKM_3_2_4_4 posterior'
+    id: 'CKM_3_2_4_4.find-mode'
+    depends_on:
+      - 'CKM_3_2_4_4.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'CKM_3_2_4_4'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from CKM_3_2_4_4 posterior'
+    id: 'CKM_3_2_4_4.predict-observables'
+    depends_on:
+      - 'CKM_3_2_4_4.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'CKM_3_2_4_4'
+          prediction: 'Vus-correlations'
+
+  - title: 'Sample from CKM_3_2_5_5 posterior'
+    id: 'CKM_3_2_5_5.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'CKM_3_2_5_5'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for CKM_3_2_5_5 posterior'
+    id: 'CKM_3_2_5_5.corner-plot'
+    depends_on:
+      - 'CKM_3_2_5_5.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'CKM_3_2_5_5'
+  - title: 'Find mode from CKM_3_2_5_5 posterior'
+    id: 'CKM_3_2_5_5.find-mode'
+    depends_on:
+      - 'CKM_3_2_5_5.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'CKM_3_2_5_5'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from CKM_3_2_5_5 posterior'
+    id: 'CKM_3_2_5_5.predict-observables'
+    depends_on:
+      - 'CKM_3_2_5_5.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'CKM_3_2_5_5'
+          prediction: 'Vus-correlations'

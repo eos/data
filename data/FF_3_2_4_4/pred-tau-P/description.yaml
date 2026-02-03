@@ -1,0 +1,453 @@
+observables:
+- kinematics:
+    q2: 0.41
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.47
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.52
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.58
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.64
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.69
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.75
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.81
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.87
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.92
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 0.98
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.04
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.09
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.15
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.21
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.26
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.32
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.38
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.43
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.49
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.55
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.61
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.66
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.72
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.78
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.83
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.89
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 1.95
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.0
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.06
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.12
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.18
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.23
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.29
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.35
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.4
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.46
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.52
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.57
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.63
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.69
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.74
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.8
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.86
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.92
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 2.97
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 3.03
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 3.09
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 3.14
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+- kinematics:
+    q2: 3.2
+  name: tau->K_Spinu::P(q2)
+  options:
+    K: K_S
+    form-factors: KSvD2025
+    model: CKM
+    n-resonances-0p: '2'
+    n-resonances-1m: '3'
+type: Prediction
+version: 1.0.19

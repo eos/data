@@ -1,0 +1,525 @@
+likelihoods:
+  - name: EXP-normalised-differential-width-tau
+    constraints:
+      - 'tau->K_Spinu::P(q2_min,q2_max)@Belle:2007A'
+  - name: EXP-BR-tau
+    constraints:
+      - 'tau->K_Spinu::BR@PDG:2024A'
+      - 'tau->K^-pinu::BR@PDG:2024A'
+  - name: EXP-BR-Kl3
+    constraints:
+      - 'K^+->pi^0l^+nu::BR@KLOE:2008A'
+      - 'K_S->pi^-e^+nu::BR@KLOE:2002A'
+      - 'K_S->pi^-mu^+nu::BR@KLOE-2:2020A'
+      # - 'K_L->pi^-l^+nu::BR@KLOE:2006A'
+      # - 'K_L->pi^-l^+nu::BR@KTEV:2004A'
+    manual_constraints:
+      # Covariance scaled by factor 2.1^2 compared to K_L->pi^-l^+nu::BR@KLOE:2006A
+      'K_L->pi^-l^+nu::BR@scaledKLOE:2006A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+            - K_L->pilnu::BR
+            - K_L->pilnu::BR
+        kinematics:
+            - {}
+            - {}
+        options:
+            - {l: e}
+            - {l: mu}
+        means: [ 0.20035, 0.1349 ]
+        covariance:
+            - [ 2.61e-6, -6.53e-7 ]
+            - [ -6.53e-7, 2.61e-6 ]
+      # Covariance scaled by factor 2.1^2 compared to K_L->pi^-l^+nu::BR@KTEV:2004A
+      'K_L->pi^-l^+nu::BR@scaledKTEV:2004A':
+        type: MultivariateGaussian(Covariance)
+        observables:
+            - K_L->pilnu::BR
+            - K_L->pilnu::BR
+        kinematics:
+            - {}
+            - {}
+        options:
+            - {l: e}
+            - {l: mu}
+        means: [ 0.20335, 0.13505 ]
+        covariance:
+            - [ 1.33e-6, 1.64e-7 ]
+            - [ 1.64e-7, 8.93e-7 ]
+  - name: TH-Callan-Treiman
+    manual_constraints:
+      "0->Kpi::DeltaCT":
+        type: "Gaussian"
+        observable: "0->Kpi::Delta_CT@KSvD2025"
+        kinematics: {}
+        options: {}
+        mean: -3.5e-3
+        sigma-stat: {"hi": 0., "lo": 0.}
+        sigma-sys:  {"hi": 8e-3, "lo": 8e-3} # See eq 2.5 in 0903.1654
+      "0->Kpi::DeltaCTtilde":
+        type: "Gaussian"
+        observable: "0->Kpi::Delta_CTtilde@KSvD2025"
+        kinematics: {}
+        options: {}
+        mean: 0.03
+        sigma-stat: {"hi": 0., "lo": 0.}
+        sigma-sys:  {"hi": 0.03, "lo": 0.03}
+  - name: TH-dispersive-bound
+    manual_constraints:
+      "s->u::Bound[0^+]":
+        type: "UniformBound"
+        observables: [ "0->Kpi::Saturation_f0@KSvD2025" ]
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.2 # Potential higher order QCD error on chi_0p
+      "s->u::Bound[1^-]":
+        type: "UniformBound"
+        observables: [ "0->Kpi::Saturation_f+@KSvD2025" ]
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.003 # Error of chi_1m
+  - name: LAT-fK-fpi
+    manual_constraints:
+      "decay-constant::K_u@FLAG:2024":
+        type: "Gaussian"
+        observable: "decay-constant::K_u"
+        kinematics: {}
+        options: {}
+        mean: 0.1557
+        sigma-stat: {"hi": 0.0003, "lo": 0.0003}
+        sigma-sys:  {"hi": 0., "lo": 0.}
+      "decay-constant::pi@FLAG:2024":
+        type: "Gaussian"
+        observable: "decay-constant::pi"
+        kinematics: {}
+        options: {}
+        mean: 0.1302
+        sigma-stat: {"hi": 0.0008, "lo": 0.0008}
+        sigma-sys:  {"hi": 0., "lo": 0.}
+
+
+priors:
+  - name: 2_2_3_3-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min':  0.04,  'max': 0.08,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min':  0.05,  'max': 0.09,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min':  0.005, 'max': 0.025, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.3, 'max': 0.8, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -0.4, 'max': 0.9, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -0.4, 'max': 0.4, 'type': 'uniform'}
+  - name: 2_2_4_4-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min': -0.02,  'max': 0.1,   'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min': -0.05,  'max': 0.1,   'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min': -0.05,  'max': 0.05,  'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^4@KSvD2025', 'min': -0.015, 'max': 0.005, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.3, 'max': 1.8, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -0.5, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -0.5, 'max': 2.0, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^4@KSvD2025', 'min': -0.4, 'max': 1.0, 'type': 'uniform'}
+
+  - name: 3_2_4_4-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min': 0.04, 'max': 0.07, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min': 0.06, 'max': 0.10, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min': 0.03, 'max': 0.05, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^4@KSvD2025', 'min': 0.02, 'max': 0.03, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.5, 'max': 1.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -1.5, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -1.0, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^4@KSvD2025', 'min': -0.5, 'max': 1.0, 'type': 'uniform'}
+  - name: 3_2_5_5-FF-expansion
+    descriptions:
+      - { 'parameter': '0->Kpi::b_+^1@KSvD2025', 'min': 0.04, 'max': 0.15, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^2@KSvD2025', 'min': 0.06, 'max': 0.25, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^3@KSvD2025', 'min': 0.03, 'max': 0.20, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^4@KSvD2025', 'min': 0.02, 'max': 0.13, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_+^5@KSvD2025', 'min': 0.00, 'max': 0.04, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^1@KSvD2025', 'min': -0.5, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^2@KSvD2025', 'min': -1.5, 'max': 3.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^3@KSvD2025', 'min': -1.0, 'max': 4.0, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^4@KSvD2025', 'min': -1.0, 'max': 2.5, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::b_0^5@KSvD2025', 'min': -0.5, 'max': 1.0, 'type': 'uniform'}
+
+  - name: FF-K892-pole-parameters
+    descriptions:
+      - { 'parameter': '0->Kpi::M_(+,0)@KSvD2025', 'min': 0.890, 'max': 0.893, 'type': 'uniform'}
+      - { 'parameter': '0->Kpi::Gamma_(+,0)@KSvD2025', 'min': 0.043, 'max': 0.048, 'type': 'uniform'}
+
+  - name: decay-constants
+    descriptions:
+      - { 'parameter': 'decay-constant::K_u', 'min': 0.1542, 'max': 0.1572, 'type': 'uniform'}
+      - { 'parameter': 'decay-constant::pi', 'min': 0.1262, 'max': 0.1342, 'type': 'uniform'}
+
+
+posteriors:
+  - name: "FF_2_2_3_3"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "2"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      CKM::abs(V_us): 0.22515
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 2_2_3_3-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+  - name: "FF_2_2_4_4"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "2"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      CKM::abs(V_us): 0.22515
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 2_2_4_4-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+
+  - name: "FF_3_2_4_4"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "3"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      CKM::abs(V_us): 0.22515
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(+,2)@KSvD2025: 1.718
+      0->Kpi::Gamma_(+,2)@KSvD2025: 0.320
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 3_2_4_4-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+  - name: "FF_3_2_5_5"
+    global_options:
+      model: CKM
+      form-factors: KSvD2025
+      n-resonances-1m: "3"
+      n-resonances-0p: "2"
+    fixed_parameters:
+      CKM::abs(V_us): 0.22515
+      0->Kpi::t_0@KSvD2025: -4.0
+      0->Kpi::M_(+,1)@KSvD2025: 1.368
+      0->Kpi::Gamma_(+,1)@KSvD2025: 0.212
+      0->Kpi::M_(+,2)@KSvD2025: 1.718
+      0->Kpi::Gamma_(+,2)@KSvD2025: 0.320
+      0->Kpi::M_(0,0)@KSvD2025: 0.680
+      0->Kpi::Gamma_(0,0)@KSvD2025: 0.600
+      0->Kpi::M_(0,1)@KSvD2025: 1.431
+      0->Kpi::Gamma_(0,1)@KSvD2025: 0.220
+    prior:
+      - 3_2_5_5-FF-expansion
+      - FF-K892-pole-parameters
+      - decay-constants
+    likelihood:
+      - EXP-normalised-differential-width-tau
+      - EXP-BR-tau
+      - EXP-BR-Kl3
+      - TH-Callan-Treiman
+      - TH-dispersive-bound
+      - LAT-fK-fpi
+
+
+observables:
+  '0->Kpi::Abs{f_0}(q2)':
+    latex: '$|f_+^{0\to K\pi}(q^2)|$'
+    unit: '1'
+    options: {}
+    expression: '(<<0->Kpi::Abs{f_0}^2(q2)>>)^0.5'
+
+
+predictions:
+  - name: tau-P
+    observables:
+      - name: 'tau->K_Spinu::P(q2)'
+        kinematics:
+          [ {'q2': 0.41}, {'q2': 0.47}, {'q2': 0.52}, {'q2': 0.58}, {'q2': 0.64},
+            {'q2': 0.69}, {'q2': 0.75}, {'q2': 0.81}, {'q2': 0.87}, {'q2': 0.92},
+            {'q2': 0.98}, {'q2': 1.04}, {'q2': 1.09}, {'q2': 1.15}, {'q2': 1.21},
+            {'q2': 1.26}, {'q2': 1.32}, {'q2': 1.38}, {'q2': 1.43}, {'q2': 1.49},
+            {'q2': 1.55}, {'q2': 1.61}, {'q2': 1.66}, {'q2': 1.72}, {'q2': 1.78},
+            {'q2': 1.83}, {'q2': 1.89}, {'q2': 1.95}, {'q2': 2.00}, {'q2': 2.06},
+            {'q2': 2.12}, {'q2': 2.18}, {'q2': 2.23}, {'q2': 2.29}, {'q2': 2.35},
+            {'q2': 2.40}, {'q2': 2.46}, {'q2': 2.52}, {'q2': 2.57}, {'q2': 2.63},
+            {'q2': 2.69}, {'q2': 2.74}, {'q2': 2.80}, {'q2': 2.86}, {'q2': 2.92},
+            {'q2': 2.97}, {'q2': 3.03}, {'q2': 3.09}, {'q2': 3.14}, {'q2': 3.20} ]
+
+  - name: fp_at_0
+    observables:
+      - name: 0->Kpi::f_+(0)
+        kinematics: { }
+  - name: quadratic_model_parameters
+    observables:
+      - name: 0->Kpi::lambda_prime_+
+        kinematics: {}
+      - name: 0->Kpi::lambda_prime_0
+        kinematics: {}
+      - name: 0->Kpi::lambda_doubleprime_+
+        kinematics: {}
+      - name: 0->Kpi::lambda_doubleprime_0
+        kinematics: {}
+
+  - name: absf0_at_mDsquared
+    observables:
+      - name: 0->Kpi::Abs{f_0}(q2)
+        kinematics: [ { 'q2': 3.4956285156 } , { 'q2': 3.8744017225 } ] # m_{D+}^2, m_{D_s}^2
+  - name: argf0_at_mDsquared
+    observables:
+      - name: 0->Kpi::Arg{f_0}(q2)
+        kinematics: [ { 'q2': 3.4956285156 } , { 'q2': 3.8744017225 } ] # m_{D+}^2, m_{D_s}^2
+
+
+steps:
+  - title: 'Sample from FF_2_2_3_3 posterior'
+    id: 'FF_2_2_3_3.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for FF_2_2_3_3 posterior'
+    id: 'FF_2_2_3_3.corner-plot'
+    depends_on:
+      - 'FF_2_2_3_3.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+  - title: 'Find mode from FF_2_2_3_3 posterior'
+    id: 'FF_2_2_3_3.find-mode'
+    depends_on:
+      - 'FF_2_2_3_3.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from FF_2_2_3_3 posterior'
+    id: 'FF_2_2_3_3.predict-observables'
+    depends_on:
+      - 'FF_2_2_3_3.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          prediction: 'tau-P'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          prediction: 'fp_at_0'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          prediction: 'quadratic_model_parameters'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          prediction: 'absf0_at_mDsquared'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_3_3'
+          prediction: 'argf0_at_mDsquared'
+
+  - title: 'Sample from FF_2_2_4_4 posterior'
+    id: 'FF_2_2_4_4.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for FF_2_2_4_4 posterior'
+    id: 'FF_2_2_4_4.corner-plot'
+    depends_on:
+      - 'FF_2_2_4_4.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+  - title: 'Find mode from FF_2_2_4_4 posterior'
+    id: 'FF_2_2_4_4.find-mode'
+    depends_on:
+      - 'FF_2_2_4_4.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from FF_2_2_4_4 posterior'
+    id: 'FF_2_2_4_4.predict-observables'
+    depends_on:
+      - 'FF_2_2_4_4.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          prediction: 'tau-P'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          prediction: 'fp_at_0'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          prediction: 'quadratic_model_parameters'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          prediction: 'absf0_at_mDsquared'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_2_2_4_4'
+          prediction: 'argf0_at_mDsquared'
+
+  - title: 'Sample from FF_3_2_4_4 posterior'
+    id: 'FF_3_2_4_4.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for FF_3_2_4_4 posterior'
+    id: 'FF_3_2_4_4.corner-plot'
+    depends_on:
+      - 'FF_3_2_4_4.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+  - title: 'Find mode from FF_3_2_4_4 posterior'
+    id: 'FF_3_2_4_4.find-mode'
+    depends_on:
+      - 'FF_3_2_4_4.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from FF_3_2_4_4 posterior'
+    id: 'FF_3_2_4_4.predict-observables'
+    depends_on:
+      - 'FF_3_2_4_4.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          prediction: 'tau-P'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          prediction: 'fp_at_0'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          prediction: 'quadratic_model_parameters'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          prediction: 'absf0_at_mDsquared'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_4_4'
+          prediction: 'argf0_at_mDsquared'
+
+  - title: 'Sample from FF_3_2_5_5 posterior'
+    id: 'FF_3_2_5_5.sample'
+    tasks:
+      - task: 'sample-nested'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          sampling-method: 'rwalk'
+          nlive: 500
+  - title: 'Produce corner plot for FF_3_2_5_5 posterior'
+    id: 'FF_3_2_5_5.corner-plot'
+    depends_on:
+      - 'FF_3_2_5_5.sample'
+    tasks:
+      - task: 'corner-plot'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+  - title: 'Find mode from FF_3_2_5_5 posterior'
+    id: 'FF_3_2_5_5.find-mode'
+    depends_on:
+      - 'FF_3_2_5_5.sample'
+    tasks:
+      - task: 'find-mode'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          from-samples: true
+          optimizations: 10
+  - title: 'Predict observables from FF_3_2_5_5 posterior'
+    id: 'FF_3_2_5_5.predict-observables'
+    depends_on:
+      - 'FF_3_2_5_5.sample'
+    tasks:
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          prediction: 'tau-P'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          prediction: 'fp_at_0'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          prediction: 'quadratic_model_parameters'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          prediction: 'absf0_at_mDsquared'
+      - task: 'predict-observables'
+        arguments:
+          posterior: 'FF_3_2_5_5'
+          prediction: 'argf0_at_mDsquared'
