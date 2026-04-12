@@ -7,9 +7,15 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <th colspan=3>2026</th>
+</tr>
+<tr>
   <td><a href="https://github.com/eos/data/tree/2026-01">2026-01</a></td>
   <td>Reconciling hadronic and partonic analyticity in $b \to s\ell\ell$ transitions</td>
   <td>M.&nbsp;Hoferichter<br/>B.&nbsp;Kubis<br/>S.&nbsp;Mutke</td>
+</tr>
+<tr>
+  <th colspan=3>2025</th>
 </tr>
 <tr>
   <td><a href="http://github.com/eos/data/tree/2025-06">2025-06</a></td>
@@ -42,6 +48,9 @@
   <td>M.&nbsp;Burgos&nbsp;Marcos<br/>M.&nbsp;Reboud<br/>K.&nbsp;K.&nbsp;Vos</td>
 </tr>
 <tr>
+  <th colspan=3>2024</th>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2024-03">2024-03</a></td>
   <td>Towards a Global Analysis of the $b \to c\bar{u} q$ Puzzle</td>
   <td>S.&nbsp;Meiser<br/>D.&nbsp;van&nbsp;Dyk<br/>J.&nbsp;Virto</td>
@@ -55,6 +64,9 @@
   <td><a href="http://github.com/eos/data/tree/2024-01">2024-01</a></td>
   <td>Constraining $\boldsymbol{|V_{cs}|}$ and physics beyond the Standard Model from exclusive (semi)leptonic charm decays</td>
   <td>C.&nbsp;Bolognani<br/>M.&nbsp;Reboud<br/>D.&nbsp;van&nbsp;Dyk<br/>K.&nbsp;Keri&nbsp;Vos</td>
+</tr>
+<tr>
+  <th colspan=3>2023</th>
 </tr>
 <tr>
   <td><a href="http://github.com/eos/data/tree/2023-03">2023-03</a></td>
