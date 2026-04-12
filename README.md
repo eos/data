@@ -7,6 +7,11 @@
   <th>Authors</th>
 </tr>
 <tr>
+  <td><a href="https://github.com/eos/data/tree/2026-01">2026-01</a></td>
+  <td>Reconciling hadronic and partonic analyticity in $b \to s\ell\ell$ transitions</td>
+  <td>M.&nbsp;Hoferichter<br/>B.&nbsp;Kubis<br/>S.&nbsp;Mutke</td>
+</tr>
+<tr>
   <td><a href="http://github.com/eos/data/tree/2025-06">2025-06</a></td>
   <td>Exploiting Perpendicular Momentum Distributions of Semileptonic Decays: $\bar{B}_s^0\to D_s^+\mu^-\bar\nu$ as a Case Study</td>
   <td>C.&nbsp;Earnshaw<br/>B.&nbsp;Mitreska<br/>D.&nbsp;van&nbsp;Dyk</td>
