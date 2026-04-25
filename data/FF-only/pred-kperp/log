@@ -1,0 +1,18 @@
+2025-11-10 11:24:00,654 ℹ          Creating analysis with 5 priors, 1 EOS-wide constraints, 2 global options, 0 manually-entered constraints and 1 fixed parameters.
+2025-11-10 11:24:00,654 DEBUG      priors:
+2025-11-10 11:24:00,654 DEBUG       - B_s->D_s::alpha^f+_0@BSZ2015 (uniform)
+2025-11-10 11:24:00,654 DEBUG       - B_s->D_s::alpha^f+_1@BSZ2015 (uniform)
+2025-11-10 11:24:00,654 DEBUG       - B_s->D_s::alpha^f+_2@BSZ2015 (uniform)
+2025-11-10 11:24:00,655 DEBUG       - B_s->D_s::alpha^f0_1@BSZ2015 (uniform)
+2025-11-10 11:24:00,655 DEBUG       - B_s->D_s::alpha^f0_2@BSZ2015 (uniform)
+2025-11-10 11:24:00,655 DEBUG      constraints:
+2025-11-10 11:24:00,655 DEBUG       - B_s->D_s::f_++f_0@HPQCD:2019A
+2025-11-10 11:24:00,655 DEBUG      manual_constraints:
+2025-11-10 11:24:00,655 DEBUG      fixed_parameters:
+2025-11-10 11:24:00,655 DEBUG       - CKM::abs(V_cb)
+2025-11-10 11:24:01,881 ℹ          likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2025-11-10 11:24:01,881 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@BSZ2015'
+2025-11-10 11:24:01,881 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@BSZ2015'
+2025-11-10 11:24:01,881 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@BSZ2015'
+2025-11-10 11:24:01,914 …          Predicting observables from set 'kperp' for 31304 samples
+2025-11-10 12:43:41,281 🗸          ... done

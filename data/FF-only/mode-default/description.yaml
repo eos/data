@@ -1,0 +1,29 @@
+dof: 0
+global_chi2: 4.134621508644321e-13
+local_pvalues:
+  B_s->D_s::f_++f_0@HPQCD:2019A: 1.0
+mode:
+- 0.6656619935279344
+- -3.241128992081035
+- -0.221371496183548
+- 0.023721410505980423
+- -1.2446984441445954
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_0@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_2@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f0_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f0_2@BSZ2015
+pvalue: .nan
+type: Mode
+version: 1.0.17

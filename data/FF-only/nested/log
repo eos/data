@@ -1,0 +1,20 @@
+2025-11-09 17:14:14,228 …          Beginning sampling...
+2025-11-09 17:14:14,369 ℹ          Creating analysis with 5 priors, 1 EOS-wide constraints, 2 global options, 0 manually-entered constraints and 1 fixed parameters.
+2025-11-09 17:14:14,369 DEBUG      priors:
+2025-11-09 17:14:14,369 DEBUG       - B_s->D_s::alpha^f+_0@BSZ2015 (uniform)
+2025-11-09 17:14:14,370 DEBUG       - B_s->D_s::alpha^f+_1@BSZ2015 (uniform)
+2025-11-09 17:14:14,370 DEBUG       - B_s->D_s::alpha^f+_2@BSZ2015 (uniform)
+2025-11-09 17:14:14,370 DEBUG       - B_s->D_s::alpha^f0_1@BSZ2015 (uniform)
+2025-11-09 17:14:14,370 DEBUG       - B_s->D_s::alpha^f0_2@BSZ2015 (uniform)
+2025-11-09 17:14:14,370 DEBUG      constraints:
+2025-11-09 17:14:14,370 DEBUG       - B_s->D_s::f_++f_0@HPQCD:2019A
+2025-11-09 17:14:14,371 DEBUG      manual_constraints:
+2025-11-09 17:14:14,371 DEBUG      fixed_parameters:
+2025-11-09 17:14:14,371 DEBUG       - CKM::abs(V_cb)
+2025-11-09 17:14:15,604 ℹ          likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2025-11-09 17:14:15,604 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@BSZ2015'
+2025-11-09 17:14:15,604 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@BSZ2015'
+2025-11-09 17:14:15,604 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@BSZ2015'
+2025-11-09 17:14:30,605 ℹ          iteration 15047 | batch: 0 | bound: 6 | nc: 1 | ncall: 85397 | eff(%): 17.217 | loglstar:   -inf < 17.858 <    inf | logz: 11.237 +/-  0.051 | dlogz:  1.343 >  1.000
+2025-11-09 17:14:39,365 🗸          ...finished!
+2025-11-09 17:14:39,366 ℹ          Finished sampling with 31304 samples and evidence estimate 11.81 +/- 0.05

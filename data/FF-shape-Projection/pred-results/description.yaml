@@ -1,0 +1,19 @@
+observables:
+- kinematics: {}
+  name: CKM::abs(V_cb)
+  options: {}
+- kinematics: {}
+  name: B_s->D_s::alpha^f+_0@BSZ2015
+  options: {}
+- kinematics: {}
+  name: B_s->D_s::alpha^f+_1/alpha^f+_0@BSZ2015
+  options:
+    form-factors: BSZ2015
+    model: CKM
+- kinematics: {}
+  name: B_s->D_s::alpha^f+_2/alpha^f+_0@BSZ2015
+  options:
+    form-factors: BSZ2015
+    model: CKM
+type: Prediction
+version: 1.0.18

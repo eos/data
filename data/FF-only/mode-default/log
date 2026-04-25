@@ -1,0 +1,83 @@
+2025-11-09 17:15:53,550 ℹ          Creating analysis with 5 priors, 1 EOS-wide constraints, 2 global options, 0 manually-entered constraints and 1 fixed parameters.
+2025-11-09 17:15:53,551 DEBUG      priors:
+2025-11-09 17:15:53,551 DEBUG       - B_s->D_s::alpha^f+_0@BSZ2015 (uniform)
+2025-11-09 17:15:53,551 DEBUG       - B_s->D_s::alpha^f+_1@BSZ2015 (uniform)
+2025-11-09 17:15:53,551 DEBUG       - B_s->D_s::alpha^f+_2@BSZ2015 (uniform)
+2025-11-09 17:15:53,552 DEBUG       - B_s->D_s::alpha^f0_1@BSZ2015 (uniform)
+2025-11-09 17:15:53,552 DEBUG       - B_s->D_s::alpha^f0_2@BSZ2015 (uniform)
+2025-11-09 17:15:53,552 DEBUG      constraints:
+2025-11-09 17:15:53,552 DEBUG       - B_s->D_s::f_++f_0@HPQCD:2019A
+2025-11-09 17:15:53,553 DEBUG      manual_constraints:
+2025-11-09 17:15:53,553 DEBUG      fixed_parameters:
+2025-11-09 17:15:53,553 DEBUG       - CKM::abs(V_cb)
+2025-11-09 17:15:54,771 ℹ          likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2025-11-09 17:15:54,772 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@BSZ2015'
+2025-11-09 17:15:54,772 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@BSZ2015'
+2025-11-09 17:15:54,772 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@BSZ2015'
+2025-11-09 17:15:54,772 …          Beginning minimization in 50 points
+2025-11-09 17:15:54,773 ℹ          Using a starting point based on the existing importance samples
+2025-11-09 17:15:54,778 ℹ          Using starting point [ 0.6473, -3.11, 0.9575, -0.1013, 1.321 ]
+2025-11-09 17:15:54,796 🗸          Optimization goal achieved after 75 function evaluations
+2025-11-09 17:15:54,797 ℹ          First optimization finished
+2025-11-09 17:15:54,799 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,800 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,801 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,803 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,804 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,805 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,807 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,808 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,810 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,811 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,812 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,814 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,815 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,816 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,818 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,819 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,821 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,822 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,823 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,825 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,826 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,827 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,829 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,830 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,831 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,833 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,834 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,835 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,837 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,838 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,839 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,841 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,842 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,843 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,845 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,846 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,847 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,849 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,850 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,851 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,853 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,854 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,855 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,857 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,858 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,859 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,861 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,862 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,863 🗸          Optimization goal achieved after 6 function evaluations
+2025-11-09 17:15:54,864 🗸          ... optimization finished
+2025-11-09 17:15:54,864 ℹ          The best-fit point is:
+2025-11-09 17:15:54,864 ℹ            - B_s->D_s::alpha^f+_0@BSZ2015 -> 0.6656619935279344
+2025-11-09 17:15:54,864 ℹ            - B_s->D_s::alpha^f+_1@BSZ2015 -> -3.241128992081035
+2025-11-09 17:15:54,864 ℹ            - B_s->D_s::alpha^f+_2@BSZ2015 -> -0.221371496183548
+2025-11-09 17:15:54,864 ℹ            - B_s->D_s::alpha^f0_1@BSZ2015 -> 0.023721410505980423
+2025-11-09 17:15:54,864 ℹ            - B_s->D_s::alpha^f0_2@BSZ2015 -> -1.2446984441445954
+2025-11-09 17:15:54,865 ℹ          total chi^2 = 0.00
+2025-11-09 17:15:54,865 ℹ          total dof   = 0
+2025-11-09 17:15:54,867 ℹ          p value     = nan%
+2025-11-09 17:15:54,867 ℹ          individual test statistics:
+2025-11-09 17:15:54,868 ℹ            - B_s->D_s::f_++f_0@HPQCD:2019A: chi^2 / dof = 0.00 / 5, local_pvalue = 100.00%
+2025-11-09 17:15:54,871 🗸          Final p value is nan%, indicating a successful fit

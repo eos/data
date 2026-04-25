@@ -1,0 +1,468 @@
+priors:
+  - name: FF
+    descriptions:
+      - { 'parameter': 'B_s->D_s::alpha^f+_0@BSZ2015', 'min':   0.50,   'max':  +0.75,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f+_1@BSZ2015', 'min':  -6.00,   'max':   0.00,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f+_2@BSZ2015', 'min':  -5.00,   'max':  +5.00,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f0_1@BSZ2015', 'min':  -3.00,   'max':  +3.00,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f0_2@BSZ2015', 'min':  -6.00,   'max':  +4.00,   'type': 'uniform' }
+  - name: FF-Projection
+    descriptions:
+      - { 'parameter': 'B_s->D_s::alpha^f+_0@BSZ2015', 'min':   0.50,   'max':  +0.75,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f+_1@BSZ2015', 'min':  -6.00,   'max':   0.00,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f+_2@BSZ2015', 'min': -40.00,   'max': +80.00,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f0_1@BSZ2015', 'min':  -3.00,   'max':  +3.00,   'type': 'uniform' }
+      - { 'parameter': 'B_s->D_s::alpha^f0_2@BSZ2015', 'min':  -6.00,   'max':  +4.00,   'type': 'uniform' }
+  - name: CKM
+    descriptions:
+      - { 'parameter': 'CKM::abs(V_cb)',               'min': 30.0e-3,  'max':  50.0e-3, 'type': 'uniform' }
+
+likelihoods:
+  - name: TH-HPQCD
+    constraints:
+      - 'B_s->D_s::f_++f_0@HPQCD:2019A'
+
+  - name: EXP-LHCb
+    manual_constraints:
+      B_s^0->D_s^+mu^-nu::KinematicalDistribution[kperp,response]@LHCb:2020C:
+        type: MultivariateGaussian(Covariance)
+        observables:
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+        kinematics:
+            - {kperp_min: 0.200, kperp_max: 0.315}
+            - {kperp_min: 0.315, kperp_max: 0.430}
+            - {kperp_min: 0.430, kperp_max: 0.545}
+            - {kperp_min: 0.545, kperp_max: 0.660}
+            - {kperp_min: 0.660, kperp_max: 0.775}
+            - {kperp_min: 0.775, kperp_max: 0.890}
+            - {kperp_min: 0.890, kperp_max: 1.005}
+            - {kperp_min: 1.005, kperp_max: 1.120}
+            - {kperp_min: 1.120, kperp_max: 1.235}
+            - {kperp_min: 1.235, kperp_max: 1.350}
+            - {kperp_min: 1.350, kperp_max: 1.465}
+            - {kperp_min: 1.465, kperp_max: 1.580}
+            - {kperp_min: 1.580, kperp_max: 1.695}
+            - {kperp_min: 1.695, kperp_max: 1.810}
+            - {kperp_min: 1.810, kperp_max: 1.925}
+            - {kperp_min: 1.925, kperp_max: 2.040}
+            - {kperp_min: 2.040, kperp_max: 2.155}
+            - {kperp_min: 2.155, kperp_max: 2.270}
+            - {kperp_min: 2.270, kperp_max: 2.385}
+            - {kperp_min: 2.385, kperp_max: 2.500}
+        options:
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+        means:
+            [0.0000376716, 0.000150995, 0.000241512, 0.000366562, 0.00043195, 0.00060339, 0.000853981, 0.000774886, 0.00104968, 0.00125225, 0.00135257, 0.00155354, 0.00183877, 0.00187548, 0.00194615, 0.00199769, 0.00183581, 0.00142707, 0.000630741, 0.000158627]
+        covariance: # 20x20 diagonal matrix, squared of BR uncertainties
+            - [5.05755e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 1.03582e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 1.64616e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 2.5293e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 3.28685e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 4.60932e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 6.75408e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 6.58816e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 9.17455e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.15048e-8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.2825e-8, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.54857e-8, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.98432e-8, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.01933e-8, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.09931e-8, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.1468e-8, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.80642e-8, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.12629e-8, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.58155e-9, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.2612e-10]
+        response:
+            - [ 1.348e-01, 6.340e-02, 1.752e-02, 6.058e-03, 2.453e-03, 1.117e-03, 5.582e-04, 3.006e-04, 1.726e-04, 1.048e-04, 6.684e-05, 4.455e-05, 3.090e-05, 2.222e-05, 1.650e-05, 1.261e-05, 9.893e-06, 7.962e-06, 6.853e-06, 6.034e-06 ]
+            - [ 6.147e-02, 1.790e-01, 7.818e-02, 2.032e-02, 6.781e-03, 2.687e-03, 1.208e-03, 5.993e-04, 3.220e-04, 1.851e-04, 1.128e-04, 7.231e-05, 4.851e-05, 3.387e-05, 2.452e-05, 1.832e-05, 1.409e-05, 1.114e-05, 9.471e-06, 8.166e-06 ]
+            - [ 1.415e-02, 7.906e-02, 2.167e-01, 9.089e-02, 2.277e-02, 7.431e-03, 2.906e-03, 1.297e-03, 6.420e-04, 3.453e-04, 1.992e-04, 1.220e-04, 7.873e-05, 5.317e-05, 3.738e-05, 2.723e-05, 2.047e-05, 1.587e-05, 1.331e-05, 1.134e-05 ]
+            - [ 4.153e-03, 1.829e-02, 9.412e-02, 2.491e-01, 1.020e-01, 2.497e-02, 8.039e-03, 3.121e-03, 1.390e-03, 6.885e-04, 3.717e-04, 2.155e-04, 1.328e-04, 8.630e-05, 5.868e-05, 4.152e-05, 3.043e-05, 2.307e-05, 1.906e-05, 1.602e-05 ]
+            - [ 1.451e-03, 5.384e-03, 2.182e-02, 1.071e-01, 2.774e-01, 1.120e-01, 2.704e-02, 8.638e-03, 3.345e-03, 1.491e-03, 7.411e-04, 4.021e-04, 2.347e-04, 1.456e-04, 9.525e-05, 6.518e-05, 4.641e-05, 3.432e-05, 2.787e-05, 2.307e-05 ]
+            - [ 5.779e-04, 1.887e-03, 6.437e-03, 2.486e-02, 1.183e-01, 3.028e-01, 1.213e-01, 2.906e-02, 9.260e-03, 3.589e-03, 1.605e-03, 8.019e-04, 4.379e-04, 2.573e-04, 1.608e-04, 1.058e-04, 7.287e-05, 5.237e-05, 4.172e-05, 3.395e-05 ]
+            - [ 2.546e-04, 7.528e-04, 2.259e-03, 7.342e-03, 2.751e-02, 1.285e-01, 3.267e-01, 1.305e-01, 3.117e-02, 9.937e-03, 3.864e-03, 1.737e-03, 8.734e-04, 4.802e-04, 2.841e-04, 1.786e-04, 1.183e-04, 8.230e-05, 6.412e-05, 5.119e-05 ]
+            - [ 1.216e-04, 3.322e-04, 9.024e-04, 2.579e-03, 8.132e-03, 2.990e-02, 1.381e-01, 3.502e-01, 1.400e-01, 3.345e-02, 1.070e-02, 4.182e-03, 1.892e-03, 9.578e-04, 5.302e-04, 3.157e-04, 1.998e-04, 1.338e-04, 1.016e-04, 7.933e-05 ]
+            - [ 6.210e-05, 1.589e-04, 3.986e-04, 1.031e-03, 2.858e-03, 8.843e-03, 3.214e-02, 1.475e-01, 3.747e-01, 1.504e-01, 3.604e-02, 1.158e-02, 4.556e-03, 2.075e-03, 1.058e-03, 5.894e-04, 3.533e-04, 2.261e-04, 1.666e-04, 1.269e-04 ]
+            - [ 3.350e-05, 8.123e-05, 1.909e-04, 4.557e-04, 1.143e-03, 3.109e-03, 9.511e-03, 3.436e-02, 1.574e-01, 4.015e-01, 1.621e-01, 3.902e-02, 1.262e-02, 4.998e-03, 2.292e-03, 1.176e-03, 6.598e-04, 4.002e-04, 2.847e-04, 2.104e-04 ]
+            - [ 1.894e-05, 4.386e-05, 9.760e-05, 2.183e-04, 5.055e-04, 1.244e-03, 3.346e-03, 1.017e-02, 3.668e-02, 1.683e-01, 4.318e-01, 1.756e-01, 4.253e-02, 1.385e-02, 5.522e-03, 2.550e-03, 1.317e-03, 7.486e-04, 5.103e-04, 3.640e-04 ]
+            - [ 1.114e-05, 2.482e-05, 5.273e-05, 1.117e-04, 2.422e-04, 5.503e-04, 1.339e-03, 3.579e-03, 1.086e-02, 3.923e-02, 1.806e-01, 4.668e-01, 1.914e-01, 4.669e-02, 1.531e-02, 6.145e-03, 2.858e-03, 1.497e-03, 9.689e-04, 6.623e-04 ]
+            - [ 6.790e-06, 1.461e-05, 2.985e-05, 6.035e-05, 1.239e-04, 2.637e-04, 5.924e-04, 1.433e-03, 3.823e-03, 1.162e-02, 4.211e-02, 1.949e-01, 5.079e-01, 2.102e-01, 5.163e-02, 1.704e-02, 6.894e-03, 3.255e-03, 1.973e-03, 1.280e-03 ]
+            - [ 4.265e-06, 8.911e-06, 1.758e-05, 3.417e-05, 6.700e-05, 1.350e-04, 2.839e-04, 6.340e-04, 1.531e-03, 4.090e-03, 1.248e-02, 4.546e-02, 2.116e-01, 5.564e-01, 2.326e-01, 5.753e-02, 1.914e-02, 7.873e-03, 4.385e-03, 2.664e-03 ]
+            - [ 2.753e-06, 5.601e-06, 1.072e-05, 2.013e-05, 3.794e-05, 7.298e-05, 1.454e-04, 3.039e-04, 6.774e-04, 1.638e-03, 4.393e-03, 1.347e-02, 4.937e-02, 2.312e-01, 6.135e-01, 2.595e-01, 6.472e-02, 2.194e-02, 1.090e-02, 6.085e-03 ]
+            - [ 1.820e-06, 3.616e-06, 6.743e-06, 1.228e-05, 2.236e-05, 4.134e-05, 7.860e-05, 1.556e-04, 3.248e-04, 7.249e-04, 1.759e-03, 4.743e-03, 1.463e-02, 5.396e-02, 2.539e-01, 6.804e-01, 2.926e-01, 7.455e-02, 3.151e-02, 1.568e-02 ]
+            - [ 1.229e-06, 2.392e-06, 4.355e-06, 7.725e-06, 1.364e-05, 2.437e-05, 4.452e-05, 8.415e-05, 1.663e-04, 3.476e-04, 7.787e-04, 1.900e-03, 5.154e-03, 1.600e-02, 5.931e-02, 2.799e-01, 7.583e-01, 3.393e-01, 1.124e-01, 4.748e-02 ]
+            - [ 8.463e-07, 1.616e-06, 2.881e-06, 4.990e-06, 8.582e-06, 1.487e-05, 2.625e-05, 4.767e-05, 8.994e-05, 1.780e-04, 3.735e-04, 8.411e-04, 2.065e-03, 5.636e-03, 1.759e-02, 6.543e-02, 3.080e-01, 8.483e-01, 5.457e-01, 1.811e-01 ]
+            - [ 5.944e-07, 1.113e-06, 1.947e-06, 3.301e-06, 5.544e-06, 9.353e-06, 1.602e-05, 2.811e-05, 5.096e-05, 9.628e-05, 1.912e-04, 4.034e-04, 9.142e-04, 2.258e-03, 6.199e-03, 1.942e-02, 7.215e-02, 3.299e-01, 8.891e-01, 9.179e-01 ]
+            - [ 4.782e-07, 7.824e-07, 1.342e-06, 2.231e-06, 3.668e-06, 6.043e-06, 1.008e-05, 1.715e-05, 3.004e-05, 5.455e-05, 1.035e-04, 2.066e-04, 4.385e-04, 1.000e-03, 2.484e-03, 6.848e-03, 2.145e-02, 7.779e-02, 2.112e-01, 6.770e-01 ]
+
+  - name: EXP-Projection
+    manual_constraints:
+      B_s^0->D_s^+mu^-nu::KinematicalDistribution[kperp,response]@Projection:
+        type: MultivariateGaussian(Covariance)
+        observables:
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+            - B_s->D_slnu::BR(kperp_min,kperp_max)
+        kinematics:
+            - {kperp_min: 0.200, kperp_max: 0.315}
+            - {kperp_min: 0.315, kperp_max: 0.430}
+            - {kperp_min: 0.430, kperp_max: 0.545}
+            - {kperp_min: 0.545, kperp_max: 0.660}
+            - {kperp_min: 0.660, kperp_max: 0.775}
+            - {kperp_min: 0.775, kperp_max: 0.890}
+            - {kperp_min: 0.890, kperp_max: 1.005}
+            - {kperp_min: 1.005, kperp_max: 1.120}
+            - {kperp_min: 1.120, kperp_max: 1.235}
+            - {kperp_min: 1.235, kperp_max: 1.350}
+            - {kperp_min: 1.350, kperp_max: 1.465}
+            - {kperp_min: 1.465, kperp_max: 1.580}
+            - {kperp_min: 1.580, kperp_max: 1.695}
+            - {kperp_min: 1.695, kperp_max: 1.810}
+            - {kperp_min: 1.810, kperp_max: 1.925}
+            - {kperp_min: 1.925, kperp_max: 2.040}
+            - {kperp_min: 2.040, kperp_max: 2.155}
+            - {kperp_min: 2.155, kperp_max: 2.270}
+            - {kperp_min: 2.270, kperp_max: 2.385}
+            - {kperp_min: 2.385, kperp_max: 2.500}
+        options:
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+            - { }
+        means:
+            [0.0000376716, 0.000150995, 0.000241512, 0.000366562, 0.00043195, 0.00060339, 0.000853981, 0.000774886, 0.00104968, 0.00125225, 0.00135257, 0.00155354, 0.00183877, 0.00187548, 0.00194615, 0.00199769, 0.00183581, 0.00142707, 0.000630741, 0.000158627]
+        covariance: # 20x20 diagonal matrix, squared of BR uncertainties
+            - [5.05755e-11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 1.03582e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 1.64616e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 2.5293e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 3.28685e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 4.60932e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 6.75408e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 6.58816e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 9.17455e-10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.15048e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.2825e-9, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.54857e-9, 0, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.98432e-9, 0, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.01933e-9, 0, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.09931e-9, 0, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.1468e-9, 0, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.80642e-9, 0, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.12629e-9, 0, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.58155e-10, 0]
+            - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.2612e-11]
+        response:
+            - [ 1.348e-01, 6.340e-02, 1.752e-02, 6.058e-03, 2.453e-03, 1.117e-03, 5.582e-04, 3.006e-04, 1.726e-04, 1.048e-04, 6.684e-05, 4.455e-05, 3.090e-05, 2.222e-05, 1.650e-05, 1.261e-05, 9.893e-06, 7.962e-06, 6.853e-06, 6.034e-06 ]
+            - [ 6.147e-02, 1.790e-01, 7.818e-02, 2.032e-02, 6.781e-03, 2.687e-03, 1.208e-03, 5.993e-04, 3.220e-04, 1.851e-04, 1.128e-04, 7.231e-05, 4.851e-05, 3.387e-05, 2.452e-05, 1.832e-05, 1.409e-05, 1.114e-05, 9.471e-06, 8.166e-06 ]
+            - [ 1.415e-02, 7.906e-02, 2.167e-01, 9.089e-02, 2.277e-02, 7.431e-03, 2.906e-03, 1.297e-03, 6.420e-04, 3.453e-04, 1.992e-04, 1.220e-04, 7.873e-05, 5.317e-05, 3.738e-05, 2.723e-05, 2.047e-05, 1.587e-05, 1.331e-05, 1.134e-05 ]
+            - [ 4.153e-03, 1.829e-02, 9.412e-02, 2.491e-01, 1.020e-01, 2.497e-02, 8.039e-03, 3.121e-03, 1.390e-03, 6.885e-04, 3.717e-04, 2.155e-04, 1.328e-04, 8.630e-05, 5.868e-05, 4.152e-05, 3.043e-05, 2.307e-05, 1.906e-05, 1.602e-05 ]
+            - [ 1.451e-03, 5.384e-03, 2.182e-02, 1.071e-01, 2.774e-01, 1.120e-01, 2.704e-02, 8.638e-03, 3.345e-03, 1.491e-03, 7.411e-04, 4.021e-04, 2.347e-04, 1.456e-04, 9.525e-05, 6.518e-05, 4.641e-05, 3.432e-05, 2.787e-05, 2.307e-05 ]
+            - [ 5.779e-04, 1.887e-03, 6.437e-03, 2.486e-02, 1.183e-01, 3.028e-01, 1.213e-01, 2.906e-02, 9.260e-03, 3.589e-03, 1.605e-03, 8.019e-04, 4.379e-04, 2.573e-04, 1.608e-04, 1.058e-04, 7.287e-05, 5.237e-05, 4.172e-05, 3.395e-05 ]
+            - [ 2.546e-04, 7.528e-04, 2.259e-03, 7.342e-03, 2.751e-02, 1.285e-01, 3.267e-01, 1.305e-01, 3.117e-02, 9.937e-03, 3.864e-03, 1.737e-03, 8.734e-04, 4.802e-04, 2.841e-04, 1.786e-04, 1.183e-04, 8.230e-05, 6.412e-05, 5.119e-05 ]
+            - [ 1.216e-04, 3.322e-04, 9.024e-04, 2.579e-03, 8.132e-03, 2.990e-02, 1.381e-01, 3.502e-01, 1.400e-01, 3.345e-02, 1.070e-02, 4.182e-03, 1.892e-03, 9.578e-04, 5.302e-04, 3.157e-04, 1.998e-04, 1.338e-04, 1.016e-04, 7.933e-05 ]
+            - [ 6.210e-05, 1.589e-04, 3.986e-04, 1.031e-03, 2.858e-03, 8.843e-03, 3.214e-02, 1.475e-01, 3.747e-01, 1.504e-01, 3.604e-02, 1.158e-02, 4.556e-03, 2.075e-03, 1.058e-03, 5.894e-04, 3.533e-04, 2.261e-04, 1.666e-04, 1.269e-04 ]
+            - [ 3.350e-05, 8.123e-05, 1.909e-04, 4.557e-04, 1.143e-03, 3.109e-03, 9.511e-03, 3.436e-02, 1.574e-01, 4.015e-01, 1.621e-01, 3.902e-02, 1.262e-02, 4.998e-03, 2.292e-03, 1.176e-03, 6.598e-04, 4.002e-04, 2.847e-04, 2.104e-04 ]
+            - [ 1.894e-05, 4.386e-05, 9.760e-05, 2.183e-04, 5.055e-04, 1.244e-03, 3.346e-03, 1.017e-02, 3.668e-02, 1.683e-01, 4.318e-01, 1.756e-01, 4.253e-02, 1.385e-02, 5.522e-03, 2.550e-03, 1.317e-03, 7.486e-04, 5.103e-04, 3.640e-04 ]
+            - [ 1.114e-05, 2.482e-05, 5.273e-05, 1.117e-04, 2.422e-04, 5.503e-04, 1.339e-03, 3.579e-03, 1.086e-02, 3.923e-02, 1.806e-01, 4.668e-01, 1.914e-01, 4.669e-02, 1.531e-02, 6.145e-03, 2.858e-03, 1.497e-03, 9.689e-04, 6.623e-04 ]
+            - [ 6.790e-06, 1.461e-05, 2.985e-05, 6.035e-05, 1.239e-04, 2.637e-04, 5.924e-04, 1.433e-03, 3.823e-03, 1.162e-02, 4.211e-02, 1.949e-01, 5.079e-01, 2.102e-01, 5.163e-02, 1.704e-02, 6.894e-03, 3.255e-03, 1.973e-03, 1.280e-03 ]
+            - [ 4.265e-06, 8.911e-06, 1.758e-05, 3.417e-05, 6.700e-05, 1.350e-04, 2.839e-04, 6.340e-04, 1.531e-03, 4.090e-03, 1.248e-02, 4.546e-02, 2.116e-01, 5.564e-01, 2.326e-01, 5.753e-02, 1.914e-02, 7.873e-03, 4.385e-03, 2.664e-03 ]
+            - [ 2.753e-06, 5.601e-06, 1.072e-05, 2.013e-05, 3.794e-05, 7.298e-05, 1.454e-04, 3.039e-04, 6.774e-04, 1.638e-03, 4.393e-03, 1.347e-02, 4.937e-02, 2.312e-01, 6.135e-01, 2.595e-01, 6.472e-02, 2.194e-02, 1.090e-02, 6.085e-03 ]
+            - [ 1.820e-06, 3.616e-06, 6.743e-06, 1.228e-05, 2.236e-05, 4.134e-05, 7.860e-05, 1.556e-04, 3.248e-04, 7.249e-04, 1.759e-03, 4.743e-03, 1.463e-02, 5.396e-02, 2.539e-01, 6.804e-01, 2.926e-01, 7.455e-02, 3.151e-02, 1.568e-02 ]
+            - [ 1.229e-06, 2.392e-06, 4.355e-06, 7.725e-06, 1.364e-05, 2.437e-05, 4.452e-05, 8.415e-05, 1.663e-04, 3.476e-04, 7.787e-04, 1.900e-03, 5.154e-03, 1.600e-02, 5.931e-02, 2.799e-01, 7.583e-01, 3.393e-01, 1.124e-01, 4.748e-02 ]
+            - [ 8.463e-07, 1.616e-06, 2.881e-06, 4.990e-06, 8.582e-06, 1.487e-05, 2.625e-05, 4.767e-05, 8.994e-05, 1.780e-04, 3.735e-04, 8.411e-04, 2.065e-03, 5.636e-03, 1.759e-02, 6.543e-02, 3.080e-01, 8.483e-01, 5.457e-01, 1.811e-01 ]
+            - [ 5.944e-07, 1.113e-06, 1.947e-06, 3.301e-06, 5.544e-06, 9.353e-06, 1.602e-05, 2.811e-05, 5.096e-05, 9.628e-05, 1.912e-04, 4.034e-04, 9.142e-04, 2.258e-03, 6.199e-03, 1.942e-02, 7.215e-02, 3.299e-01, 8.891e-01, 9.179e-01 ]
+            - [ 4.782e-07, 7.824e-07, 1.342e-06, 2.231e-06, 3.668e-06, 6.043e-06, 1.008e-05, 1.715e-05, 3.004e-05, 5.455e-05, 1.035e-04, 2.066e-04, 4.385e-04, 1.000e-03, 2.484e-03, 6.848e-03, 2.145e-02, 7.779e-02, 2.112e-01, 6.770e-01 ]
+posteriors:
+  - name: FF-only
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    fixed_parameters:
+      CKM::abs(V_cb): 41.0e-3
+    prior:
+      - FF
+    likelihood:
+      - TH-HPQCD
+
+  - name: FF-shape
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    fixed_parameters:
+      CKM::abs(V_cb): 39.0e-3
+    prior:
+      - FF
+    likelihood:
+      - EXP-LHCb
+
+  - name: FF-shape-Projection
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    fixed_parameters:
+      CKM::abs(V_cb): 39.0e-3
+    prior:
+      - FF-Projection
+    likelihood:
+      - EXP-Projection
+
+  - name: CKM
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    prior:
+      - FF
+      - CKM
+    likelihood:
+      - TH-HPQCD
+      - EXP-LHCb
+
+observables:
+  B_s->D_s::alpha^f+_1/alpha^f+_0@BSZ2015:
+    latex: '\alpha^{f_+}_1 / \alpha^{f_+}_0'
+    unit: '1'
+    expression: >
+      [[B_s->D_s::alpha^f+_1@BSZ2015]] / [[B_s->D_s::alpha^f+_0@BSZ2015]]
+  B_s->D_s::alpha^f+_2/alpha^f+_0@BSZ2015:
+    latex: '\alpha^{f_+}_2 / \alpha^{f_+}_0'
+    unit: '1'
+    expression: >
+      [[B_s->D_s::alpha^f+_2@BSZ2015]] / [[B_s->D_s::alpha^f+_0@BSZ2015]]
+
+predictions:
+  - name: kperp
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    fixed_parameters:
+      CKM::abs(V_cb): 41.0e-3
+    observables:
+      - name: 'B_s->D_slnu::BR(kperp_min,kperp_max)'
+        kinematics:
+          - {kperp_min: 0.200, kperp_max: 0.315}
+          - {kperp_min: 0.315, kperp_max: 0.430}
+          - {kperp_min: 0.430, kperp_max: 0.545}
+          - {kperp_min: 0.545, kperp_max: 0.660}
+          - {kperp_min: 0.660, kperp_max: 0.775}
+          - {kperp_min: 0.775, kperp_max: 0.890}
+          - {kperp_min: 0.890, kperp_max: 1.005}
+          - {kperp_min: 1.005, kperp_max: 1.120}
+          - {kperp_min: 1.120, kperp_max: 1.235}
+          - {kperp_min: 1.235, kperp_max: 1.350}
+          - {kperp_min: 1.350, kperp_max: 1.465}
+          - {kperp_min: 1.465, kperp_max: 1.580}
+          - {kperp_min: 1.580, kperp_max: 1.695}
+          - {kperp_min: 1.695, kperp_max: 1.810}
+          - {kperp_min: 1.810, kperp_max: 1.925}
+          - {kperp_min: 1.925, kperp_max: 2.040}
+          - {kperp_min: 2.040, kperp_max: 2.155}
+          - {kperp_min: 2.155, kperp_max: 2.270}
+          - {kperp_min: 2.270, kperp_max: 2.385}
+          - {kperp_min: 2.385, kperp_max: 2.500}
+
+  - name: BR
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    fixed_parameters:
+      CKM::abs(V_cb): 41.0e-3
+    observables:
+      - name: 'B_s->D_slnu::BR(kperp_min,kperp_max)'
+        kinematics:
+          - {kperp_min: 0.200, kperp_max: 2.500}
+      - name: 'B_s->D_slnu::BR'
+        kinematics:
+          - {q2_min: 0, q2_max: 11.55}
+
+  - name: results
+    global_options:
+      form-factors: BSZ2015
+      model: CKM
+    observables:
+      - name: 'CKM::abs(V_cb)'
+      - name: 'B_s->D_s::alpha^f+_0@BSZ2015'
+      - name: 'B_s->D_s::alpha^f+_1/alpha^f+_0@BSZ2015'
+      - name: 'B_s->D_s::alpha^f+_2/alpha^f+_0@BSZ2015'
+
+steps:
+  - title: sample from FF-only posterior
+    id: FF-only.sample
+    tasks:
+      - task: sample-nested
+        arguments:
+          posterior: FF-only
+          bound: multi
+          nlive: 2000
+          dlogz: 1.0
+          seed: 24
+          miniter: 25000
+
+  - title: find mode of FF-only posterior
+    id: FF-only.mode
+    depends_on:
+      FF-only.sample
+    tasks:
+      - task: find-mode
+        arguments:
+          posterior: FF-only
+          importance_samples: True
+          optimizations: 50
+
+  - title: predict kperp distribution
+    id: FF-only.predict
+    depends_on:
+      - FF-only.sample
+    tasks:
+      - task: predict-observables
+        arguments:
+          posterior: FF-only
+          prediction: kperp
+
+  - title: sample from FF-shape posterior
+    id: FF-shape.sample
+    tasks:
+      - task: sample-nested
+        arguments:
+          posterior: FF-shape
+          bound: multi
+          nlive: 200
+          dlogz: 1.0
+          seed: 24
+          miniter: 2500
+
+  - title: predict kperp distribution
+    id: FF-shape.predict
+    depends_on:
+      - FF-shape.sample
+    tasks:
+      - task: predict-observables
+        arguments:
+          posterior: FF-shape
+          prediction: kperp
+
+  - title: sample from FF-shape-Projection posterior
+    id: FF-shape-Projection.sample
+    tasks:
+      - task: sample-nested
+        arguments:
+          posterior: FF-shape-Projection
+          bound: multi
+          nlive: 200
+          dlogz: 1.0
+          seed: 24
+          miniter: 2500
+
+  - title: prediction results for FF-shape-Projection
+    id: FF-shape-Projection.predict
+    depends_on:
+      - FF-shape-Projection.sample
+    tasks:
+      - task: predict-observables
+        arguments:
+          posterior: FF-shape-Projection
+          prediction: results
+
+  - title: sample from CKM posterior
+    id: CKM.sample
+    tasks:
+      - task: sample-nested
+        arguments:
+          posterior: CKM
+          bound: multi
+          nlive: 200
+          dlogz: 1.0
+          seed: 24
+
+  - title: predict kperp distribution
+    id: CKM.predict
+    depends_on:
+      - CKM.sample
+    tasks:
+      - task: predict-observables
+        arguments:
+          posterior: CKM
+          prediction: kperp
+
+  - title: Find CKM mode
+    id: CKM.mode
+    depends_on:
+      CKM.sample
+    tasks:
+      - task: find-mode
+        arguments:
+          posterior: CKM
+          importance_samples: True
+          optimizations: 30

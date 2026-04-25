@@ -1,0 +1,120 @@
+2025-11-12 10:18:05,983 ℹ          Creating analysis with 6 priors, 1 EOS-wide constraints, 2 global options, 1 manually-entered constraints and 0 fixed parameters.
+2025-11-12 10:18:05,983 DEBUG      priors:
+2025-11-12 10:18:05,984 DEBUG       - B_s->D_s::alpha^f+_0@BSZ2015 (uniform)
+2025-11-12 10:18:05,984 DEBUG       - B_s->D_s::alpha^f+_1@BSZ2015 (uniform)
+2025-11-12 10:18:05,984 DEBUG       - B_s->D_s::alpha^f+_2@BSZ2015 (uniform)
+2025-11-12 10:18:05,984 DEBUG       - B_s->D_s::alpha^f0_1@BSZ2015 (uniform)
+2025-11-12 10:18:05,984 DEBUG       - B_s->D_s::alpha^f0_2@BSZ2015 (uniform)
+2025-11-12 10:18:05,985 DEBUG       - CKM::abs(V_cb) (uniform)
+2025-11-12 10:18:05,985 DEBUG      constraints:
+2025-11-12 10:18:05,985 DEBUG       - B_s->D_s::f_++f_0@HPQCD:2019A
+2025-11-12 10:18:05,985 DEBUG      manual_constraints:
+2025-11-12 10:18:05,985 DEBUG       - B_s^0->D_s^+mu^-nu::KinematicalDistribution[kperp,response]@LHCb:2020C
+2025-11-12 10:18:05,985 DEBUG      fixed_parameters:
+2025-11-12 10:18:06,669 ℹ          likelihood probably depends on 57 parameter(s) that do not appear in the prior; check prior?
+2025-11-12 10:18:06,669 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-11-12 10:18:06,669 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-11-12 10:18:06,669 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-11-12 10:18:06,670 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-11-12 10:18:06,671 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-11-12 10:18:06,671 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-11-12 10:18:06,671 DEBUG      used, but not included in any prior: 'mass::W'
+2025-11-12 10:18:06,671 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-11-12 10:18:06,671 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@BSZ2015'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@BSZ2015'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@BSZ2015'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-11-12 10:18:06,672 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-11-12 10:18:06,673 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-11-12 10:18:06,673 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2025-11-12 10:18:06,673 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-11-12 10:18:06,673 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-11-12 10:18:06,673 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-11-12 10:18:06,673 DEBUG      used, but not included in any prior: 'life_time::B_s'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'mass::c'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-11-12 10:18:06,674 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-11-12 10:18:06,675 DEBUG      used, but not included in any prior: 'cbmunumu::mu'
+2025-11-12 10:18:06,675 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-11-12 10:18:06,675 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-11-12 10:18:06,675 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-11-12 10:18:06,675 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-11-12 10:18:06,675 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'mass::B_s'
+2025-11-12 10:18:06,676 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-11-12 10:18:06,677 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-11-12 10:18:06,677 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-11-12 10:18:06,677 DEBUG      used, but not included in any prior: 'mass::D_s'
+2025-11-12 10:18:06,677 …          Beginning minimization in 30 points
+2025-11-12 10:18:06,677 ℹ          Using a starting point based on the existing importance samples
+2025-11-12 10:18:06,683 ℹ          Using starting point [ 0.6628, -3.575, 1.379, -0.08254, -3.646, 0.03921 ]
+2025-11-12 10:18:22,887 🗸          Optimization goal achieved after 107 function evaluations
+2025-11-12 10:18:23,033 ℹ          First optimization finished
+2025-11-12 10:18:25,703 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:28,127 🗸          Optimization goal achieved after 15 function evaluations
+2025-11-12 10:18:30,996 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:33,839 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:36,686 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:41,020 🗸          Optimization goal achieved after 28 function evaluations
+2025-11-12 10:18:43,940 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:46,382 🗸          Optimization goal achieved after 15 function evaluations
+2025-11-12 10:18:49,307 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:52,133 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:18:54,347 🗸          Optimization goal achieved after 14 function evaluations
+2025-11-12 10:18:57,236 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:00,082 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:02,491 🗸          Optimization goal achieved after 15 function evaluations
+2025-11-12 10:19:05,295 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:08,131 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:10,521 🗸          Optimization goal achieved after 15 function evaluations
+2025-11-12 10:19:13,362 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:16,214 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:18,576 🗸          Optimization goal achieved after 15 function evaluations
+2025-11-12 10:19:21,395 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:24,219 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:27,035 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:29,103 🗸          Optimization goal achieved after 13 function evaluations
+2025-11-12 10:19:31,868 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:34,634 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:36,722 🗸          Optimization goal achieved after 13 function evaluations
+2025-11-12 10:19:39,521 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:42,303 🗸          Optimization goal achieved after 18 function evaluations
+2025-11-12 10:19:42,449 🗸          ... optimization finished
+2025-11-12 10:19:42,450 ℹ          The best-fit point is:
+2025-11-12 10:19:42,450 ℹ            - B_s->D_s::alpha^f+_0@BSZ2015 -> 0.6652588842530861
+2025-11-12 10:19:42,450 ℹ            - B_s->D_s::alpha^f+_1@BSZ2015 -> -3.322767963354127
+2025-11-12 10:19:42,451 ℹ            - B_s->D_s::alpha^f+_2@BSZ2015 -> -0.19448180894785416
+2025-11-12 10:19:42,451 ℹ            - B_s->D_s::alpha^f0_1@BSZ2015 -> 0.013701997015241663
+2025-11-12 10:19:42,451 ℹ            - B_s->D_s::alpha^f0_2@BSZ2015 -> -1.3219641223349008
+2025-11-12 10:19:42,451 ℹ            - CKM::abs(V_cb) -> 0.038635352825644786
+2025-11-12 10:19:42,451 ℹ          total chi^2 = 8.81
+2025-11-12 10:19:42,451 ℹ          total dof   = 19
+2025-11-12 10:19:42,453 ℹ          p value     = 97.66%
+2025-11-12 10:19:42,453 ℹ          individual test statistics:
+2025-11-12 10:19:42,454 ℹ            - B_s->D_s::f_++f_0@HPQCD:2019A: chi^2 / dof = 0.03 / 5, local_pvalue = 100.00%
+2025-11-12 10:19:42,454 ℹ            - B_s^0->D_s^+mu^-nu::KinematicalDistribution[kperp,response]@LHCb:2020C: chi^2 / dof = 8.77 / 20, local_pvalue = 98.54%
+2025-11-12 10:19:42,457 🗸          Final p value is 97.66%, indicating a successful fit

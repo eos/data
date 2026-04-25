@@ -1,0 +1,72 @@
+2025-11-13 22:41:43,670 ℹ          Creating analysis with 5 priors, 0 EOS-wide constraints, 2 global options, 1 manually-entered constraints and 1 fixed parameters.
+2025-11-13 22:41:43,670 DEBUG      priors:
+2025-11-13 22:41:43,670 DEBUG       - B_s->D_s::alpha^f+_0@BSZ2015 (uniform)
+2025-11-13 22:41:43,671 DEBUG       - B_s->D_s::alpha^f+_1@BSZ2015 (uniform)
+2025-11-13 22:41:43,671 DEBUG       - B_s->D_s::alpha^f+_2@BSZ2015 (uniform)
+2025-11-13 22:41:43,671 DEBUG       - B_s->D_s::alpha^f0_1@BSZ2015 (uniform)
+2025-11-13 22:41:43,671 DEBUG       - B_s->D_s::alpha^f0_2@BSZ2015 (uniform)
+2025-11-13 22:41:43,671 DEBUG      constraints:
+2025-11-13 22:41:43,671 DEBUG      manual_constraints:
+2025-11-13 22:41:43,672 DEBUG       - B_s^0->D_s^+mu^-nu::KinematicalDistribution[kperp,response]@LHCb:2020C
+2025-11-13 22:41:43,672 DEBUG      fixed_parameters:
+2025-11-13 22:41:43,672 DEBUG       - CKM::abs(V_cb)
+2025-11-13 22:41:43,714 ℹ          likelihood probably depends on 57 parameter(s) that do not appear in the prior; check prior?
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'WET::G_Fermi'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'CKM::arg(V_ud)'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'mass::mu'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'sbcu::mu_0'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'mass::s(2GeV)'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'CKM::abs(V_ts)'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'sbsb::mu_0'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'CKM::abs(V_cd)'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'dcnutautau::mu'
+2025-11-13 22:41:43,714 DEBUG      used, but not included in any prior: 'QCD::Lambda'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'QCD::mu_t'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'mass::B_s'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'cbmunumu::mu'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'scnutautau::mu'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@BSZ2015'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'mass::c'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'dcnumumu::mu'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@BSZ2015'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'CKM::arg(V_td)'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'mass::t(pole)'
+2025-11-13 22:41:43,715 DEBUG      used, but not included in any prior: 'dbcu::mu_0'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'scnumumu::mu'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'mass::D_s'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'b->s::mu_0t'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'scnuee::mu'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@BSZ2015'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'sbcu::mu'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'dbcu::mu'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'CKM::arg(V_cb)'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'CKM::abs(V_cs)'
+2025-11-13 22:41:43,716 DEBUG      used, but not included in any prior: 'sbnunu::mu_0'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'mass::d(2GeV)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::arg(V_cs)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'mass::b(MSbar)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'QCD::mu_b'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::abs(V_ub)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::arg(V_ub)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::arg(V_cd)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::arg(V_ts)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::abs(V_tb)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'mass::W'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'CKM::abs(V_ud)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'GSW::sin^2(theta)'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'QM::hbar'
+2025-11-13 22:41:43,717 DEBUG      used, but not included in any prior: 'QCD::mu_c'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'sbsb::mu'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'CKM::abs(V_us)'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'b->s::mu_0c'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'dcnuee::mu'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'CKM::arg(V_tb)'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'life_time::B_s'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'mass::Z'
+2025-11-13 22:41:43,718 DEBUG      used, but not included in any prior: 'mass::u(2GeV)'
+2025-11-13 22:41:43,738 …          Predicting observables from set 'results' for 12437 samples
+2025-11-13 22:41:44,126 🗸          ... done

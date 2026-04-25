@@ -1,0 +1,18 @@
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_0@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_2@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f0_1@BSZ2015
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f0_2@BSZ2015
+type: ImportanceSamples
+version: 1.0.18
