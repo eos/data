@@ -1,0 +1,462 @@
+kinematics_FFs: &ffs
+        [ {q2: -15.0}, {q2: -14.55}, {q2: -14.1}, {q2: -13.65}, {q2: -13.2}, {q2: -12.75}, {q2: -12.3},
+          {q2: -11.85}, {q2: -11.4}, {q2: -10.95}, {q2: -10.5}, {q2: -10.05}, {q2: -9.6}, {q2: -9.15},
+          {q2: -8.7}, {q2: -8.25}, {q2: -7.8}, {q2: -7.35}, {q2: -6.9}, {q2: -6.45}, {q2: -6.0}, {q2: -5.55},
+          {q2: -5.1}, {q2: -4.65}, {q2: -4.2}, {q2: -3.75}, {q2: -3.30}, {q2: -2.85}, {q2: -2.4}, {q2: -1.95},
+          {q2: -1.5}, {q2: -1.05}, {q2: -0.6}, {q2: -0.15}, {q2: 0.30}, {q2: 0.75}, {q2: 1.20}, {q2: 1.65},
+          {q2: 2.10}, {q2: 2.55}, {q2: 3.0}, {q2: 3.45}, {q2: 3.90}, {q2: 4.35}, {q2: 4.80}, {q2: 5.25},
+          {q2: 5.70}, {q2: 6.15}, {q2: 6.60}, {q2: 7.05}, {q2: 7.5}, {q2: 7.95}, {q2: 8.40}, {q2: 8.85},
+          {q2: 9.3}, {q2: 9.75}, {q2: 10.2}, {q2: 10.65}, {q2: 11.10}, {q2: 11.55}, {q2: 12.0}]
+
+kinematics_ratiosst: &ratiosst
+        [ {q2: 0.0112}, {q2: 0.15}, {q2: 0.30}, {q2: 0.45}, {q2: 0.60}, {q2: 0.75}, {q2: 0.90}, {q2: 1.05},
+          {q2: 1.20}, {q2: 1.35}, {q2: 1.50}, {q2: 1.65}, {q2: 1.80}, {q2: 1.95}, {q2: 2.10}, {q2: 2.25},
+          {q2: 2.40}, {q2: 2.55}, {q2: 2.70}, {q2: 2.85}, {q2: 3.00}, {q2: 3.15}, {q2: 3.30}, {q2: 3.45},
+          {q2: 3.60}, {q2: 3.75}, {q2: 3.90}, {q2: 4.05}, {q2: 4.20}, {q2: 4.35}, {q2: 4.50}, {q2: 4.65},
+          {q2: 4.80}, {q2: 4.95}, {q2: 5.10}, {q2: 5.25}, {q2: 5.40}, {q2: 5.55}, {q2: 5.70}, {q2: 5.85},
+          {q2: 6.00}, {q2: 6.15}, {q2: 6.30}, {q2: 6.45}, {q2: 6.60}, {q2: 6.75}, {q2: 6.90}, {q2: 7.05},
+          {q2: 7.20}, {q2: 7.35}, {q2: 7.50}, {q2: 7.65}, {q2: 7.80}, {q2: 7.95}, {q2: 8.10}, {q2: 8.25},
+          {q2: 8.40}, {q2: 8.55}, {q2: 8.70}, {q2: 8.85}, {q2: 9.00}, {q2: 9.15}, {q2: 9.30}, {q2: 9.45},
+          {q2: 9.60}, {q2: 9.75}, {q2: 9.90}, {q2: 10.05}, {q2: 10.20}, {q2: 10.35}, {q2: 10.50}, {q2: 10.65}]
+
+kinematics_ratiopsd: &ratiopsd
+        [ {q2: 0.0112}, {q2: 0.15}, {q2: 0.30}, {q2: 0.45}, {q2: 0.60}, {q2: 0.75}, {q2: 0.90}, {q2: 1.05},
+          {q2: 1.20}, {q2: 1.35}, {q2: 1.50}, {q2: 1.65}, {q2: 1.80}, {q2: 1.95}, {q2: 2.10}, {q2: 2.25},
+          {q2: 2.40}, {q2: 2.55}, {q2: 2.70}, {q2: 2.85}, {q2: 3.00}, {q2: 3.15}, {q2: 3.30}, {q2: 3.45},
+          {q2: 3.60}, {q2: 3.75}, {q2: 3.90}, {q2: 4.05}, {q2: 4.20}, {q2: 4.35}, {q2: 4.50}, {q2: 4.65},
+          {q2: 4.80}, {q2: 4.95}, {q2: 5.10}, {q2: 5.25}, {q2: 5.40}, {q2: 5.55}, {q2: 5.70}, {q2: 5.85},
+          {q2: 6.00}, {q2: 6.15}, {q2: 6.30}, {q2: 6.45}, {q2: 6.60}, {q2: 6.75}, {q2: 6.90}, {q2: 7.05},
+          {q2: 7.20}, {q2: 7.35}, {q2: 7.50}, {q2: 7.65}, {q2: 7.80}, {q2: 7.95}, {q2: 8.10}, {q2: 8.25},
+          {q2: 8.40}, {q2: 8.55}, {q2: 8.70}, {q2: 8.85}, {q2: 9.00}, {q2: 9.15}, {q2: 9.30}, {q2: 9.45},
+          {q2: 9.60}, {q2: 9.75}, {q2: 9.90}, {q2: 10.05}, {q2: 10.20}, {q2: 10.35}, {q2: 10.50}, {q2: 10.65},
+          {q2: 10.80}, {q2: 10.95}, {q2: 11.10}, {q2: 11.25}, {q2: 11.40}, {q2: 11.55}]
+
+observables:
+  "B_q->D_q::Rsd":
+    latex: $\frac{\Gamma(B_s^0\to D_s^-\mu^+\nu_\mu)}{\Gamma(B^0\to D^-\mu^+\nu_\mu)}$
+    unit: '1'
+    options: {}
+    expression: "<<B_s->D_slnu::Gamma;l=mu>>[q2_min=0.0112,q2_max=11.55] / <<B->Dlnu::Gamma;l=mu,q=d>>[q2_min=0.0112,q2_max=11.62]"
+  "B_q->D_q^*::Rsd^*":
+    latex: $\frac{\Gamma(B_s^0\to D_s^{*-}\mu^+\nu_\mu)}{\Gamma(B^0\to D^{*-}\mu^+\nu_\mu)}$
+    unit: '1'
+    options: {}
+    expression: "<<B_s->D_s^*lnu::Gamma;l=mu>>[q2_min=0.0112,q2_max=10.59] / <<B->D^*lnu::Gamma;l=mu,q=d>>[q2_min=0.0112,q2_max=10.68]"
+  "B_c->J/psi_B->D^*::Rcd^*":
+    latex: $\frac{\Gamma(B_c^0\to J/\psi\mu^+\nu_\mu)}{\Gamma(B^0\to D^{*-}\mu^+\nu_\mu)}$
+    unit: '1'
+    options: {}
+    expression: "<<B_c->J/psilnu::Gamma;l=mu>>[q2_min=0.0112,q2_max=10.10] / <<B->D^*lnu::Gamma;l=mu,q=d>>[q2_min=0.0112,q2_max=10.68]"
+  "B_c->J/psi_B->D::Rcd":
+    latex: $\frac{\Gamma(B_c^0\to J/\psi\mu^+\nu_\mu)}{\Gamma(B^0\to D^{-}\mu^+\nu_\mu)}$
+    unit: '1'
+    options: {}
+    expression: "<<B_c->J/psilnu::Gamma;l=mu>>[q2_min=0.0112,q2_max=10.10] / <<B->Dlnu::Gamma;l=mu,q=d>>[q2_min=0.0112,q2_max=11.62]"
+  "B_q->D_q::Rsd(q2)":
+    latex: $R_{sd}^D(q^2)$
+    unit: '1'
+    options: {}
+    expression: "<<B_s->D_slnu::dGamma/dq2;l=mu>> / <<B->Dlnu::dGamma/dq2;l=mu,q=d>>"
+  "B_q->D_q^*::Rsd^*(q2)":
+    latex: $R_{sd}^{D^*}(q^2)$
+    unit: '1'
+    options: {}
+    expression: "<<B_s->D_s^*lnu::dGamma/dq2;l=mu>> / <<B->D^*lnu::dGamma/dq2;l=mu,q=d>>"
+  "B_c->J/psi_B->D^*::Rcd^*(q2)":
+    latex: $R_{cd}^{J/\psi}(q^2)$
+    unit: '1'
+    options: {}
+    expression: "<<B_c->J/psilnu::dGamma/dq2;l=mu>> / <<B->D^*lnu::dGamma/dq2;l=mu,q=d>>"
+  "B_q->D_q::f_0(q2_num)/f_0(q2_denom)":
+    latex: $\frac{f_0^{B_s\to D_s}(q^2_\textrm{num})}{f_0^{B\to D}(q^2_\textrm{denom})}$
+    unit: '1'
+    options: {}
+    expression: "<<B_s->D_s::f_0(q2)>>[q2=>q2_num] / <<B->D::f_0(q2)>>[q2=>q2_denom]"
+
+priors:
+  - name: BToDFormFactors
+    descriptions:
+      - { 'parameter': 'B->D::a^f+_0@BGL1997', 'min':  0.00827, 'max':  0.00926, 'type': 'uniform'}
+      - { 'parameter': 'B->D::a^f+_1@BGL1997', 'min':  -0.03639, 'max':  -0.01612, 'type': 'uniform'}
+      - { 'parameter': 'B->D::a^f+_2@BGL1997', 'min':  -0.16729, 'max':  0.10011, 'type': 'uniform'}
+      - { 'parameter': 'B->D::a^f0_1@BGL1997', 'min':  -0.13330, 'max':  -0.04200, 'type': 'uniform'}
+      - { 'parameter': 'B->D::a^f0_2@BGL1997', 'min':  -0.66320, 'max':  0.37642, 'type': 'uniform'}
+
+  - name: BToDTensorFormFactors
+    descriptions:
+      - { 'parameter': 'B->D::a^fT_0@BGL1997', 'min':  0.01699, 'max':  0.02302, 'type': 'uniform'}
+      - { 'parameter': 'B->D::a^fT_1@BGL1997', 'min':  -0.07799, 'max':  0.01051, 'type': 'uniform'}
+      - { 'parameter': 'B->D::a^fT_2@BGL1997', 'min':  -0.38604, 'max':  0.49823, 'type': 'uniform'}
+
+  - name: BsToDsFormFactors
+    descriptions:
+      - { 'parameter': 'B_s->D_s::a^f+_0@BGL1997', 'min':  0.00459, 'max':  0.00579, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s::a^f+_1@BGL1997', 'min':  -0.02533, 'max':  0.00345, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s::a^f+_2@BGL1997', 'min':  -0.13432, 'max':  0.00278, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s::a^f0_1@BGL1997', 'min':  -0.07310, 'max':  -0.00092, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s::a^f0_2@BGL1997', 'min':  -0.37866, 'max':  0.21783, 'type': 'uniform'}
+
+  - name: BsToDsTensorFormFactors
+    descriptions:
+      - { 'parameter': 'B_s->D_s::a^fT_0@BGL1997', 'min':  0.00828, 'max':  0.01589, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s::a^fT_1@BGL1997', 'min':  -0.04937, 'max':  0.05186, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s::a^fT_2@BGL1997', 'min':  -0.58854, 'max':  0.48285, 'type': 'uniform'}
+
+  - name: BToDstarFormFactors
+    descriptions:
+      - { 'parameter': 'B->D^*::a^f_0@BGL1997', 'min':  0.00724, 'max':  0.00849, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^f_1@BGL1997', 'min':  -0.00973, 'max':  0.02234, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^f_2@BGL1997', 'min':  -0.15209, 'max':  0.25496, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^g_0@BGL1997', 'min':  0.01532, 'max':  0.02086, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^g_1@BGL1997', 'min':  -0.08050, 'max':  0.01305, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^g_2@BGL1997', 'min':  -0.49810, 'max':  0.94498, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^F1_1@BGL1997', 'min':  -0.00358, 'max':  0.00399, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^F1_2@BGL1997', 'min':  -0.03727, 'max':  0.09875, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^F2_1@BGL1997', 'min':  -0.14312, 'max':  0.01610, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^F2_2@BGL1997', 'min':  -0.47724, 'max':  1.86413, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T1_0@BGL1997', 'min':  0.00712, 'max':  0.00937, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T1_1@BGL1997', 'min':  -0.04122, 'max':  0.01384, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T1_2@BGL1997', 'min':  -0.34780, 'max':  0.45799, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T2_1@BGL1997', 'min':  -0.00717, 'max':  0.00786, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T2_2@BGL1997', 'min':  -0.10580, 'max':  0.12153, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T23_1@BGL1997', 'min':  -0.01948, 'max':  0.03267, 'type': 'uniform'}
+      - { 'parameter': 'B->D^*::a^T23_2@BGL1997', 'min':  -0.41643, 'max':  0.45324, 'type': 'uniform'}
+
+  - name: BsToDsstarFormFactors
+    descriptions:
+      - { 'parameter': 'B_s->D_s^*::a^f_0@BGL1997', 'min':  0.00349, 'max':  0.00401, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^f_1@BGL1997', 'min':  -0.00483, 'max':  0.01626, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^f_2@BGL1997', 'min':  -0.14519, 'max':  0.13464, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^g_0@BGL1997', 'min':  0.00961, 'max':  0.01417, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^g_1@BGL1997', 'min':  -0.08067, 'max':  0.04599, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^g_2@BGL1997', 'min':  -0.98532, 'max':  0.95765, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^F1_1@BGL1997', 'min':  -0.00199, 'max':  0.00314, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^F1_2@BGL1997', 'min':  -0.04480, 'max':  0.05789, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^F2_1@BGL1997', 'min':  -0.10050, 'max':  0.03046, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^F2_2@BGL1997', 'min':  -0.79808, 'max':  1.07777, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T1_0@BGL1997', 'min':  0.00474, 'max':  0.00575, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T1_1@BGL1997', 'min':  -0.02452, 'max':  0.00976, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T1_2@BGL1997', 'min':  -0.37461, 'max':  0.34191, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T2_1@BGL1997', 'min':  -0.00251, 'max':  0.00466, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T2_2@BGL1997', 'min':  -0.08096, 'max':  0.07004, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T23_1@BGL1997', 'min':  -0.00944, 'max':  0.02218, 'type': 'uniform'}
+      - { 'parameter': 'B_s->D_s^*::a^T23_2@BGL1997', 'min':  -0.39019, 'max':  0.38389, 'type': 'uniform'}
+
+  - name: BcToJpsiFormFactors
+    descriptions:
+      - { 'parameter': 'B_c->J/psi::a^f_0@BGL1997', 'min':  0.00006, 'max':  0.00008, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^f_1@BGL1997', 'min':  -0.00032, 'max':  0.00070, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^f_2@BGL1997', 'min':  -0.00847, 'max':  0.00394, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^g_0@BGL1997', 'min':  0.00068, 'max':  0.00111, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^g_1@BGL1997', 'min':  -0.01544, 'max':  0.00857, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^g_2@BGL1997', 'min':  -0.15212, 'max':  0.03555, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^F1_1@BGL1997', 'min':  -0.00006, 'max':  0.00010, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^F1_2@BGL1997', 'min':  -0.00379, 'max':  0.00155, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^F2_1@BGL1997', 'min':  -0.01692, 'max':  0.00146, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^F2_2@BGL1997', 'min':  -0.20049, 'max':  0.02007, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T1_0@BGL1997', 'min':  0.00027, 'max':  0.00033, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T1_1@BGL1997', 'min':  -0.00337, 'max':  0.00047, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T1_2@BGL1997', 'min':  -0.04770, 'max':  0.01904, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T2_1@BGL1997', 'min':  -0.00005, 'max':  0.00016, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T2_2@BGL1997', 'min':  -0.00363, 'max':  0.00111, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T23_1@BGL1997', 'min':  -0.00069, 'max':  0.00094, 'type': 'uniform'}
+      - { 'parameter': 'B_c->J/psi::a^T23_2@BGL1997', 'min':  -0.01288, 'max':  0.00706, 'type': 'uniform'}
+
+likelihoods:
+  - name: BToDLQCD
+    constraints:
+      - 'B->D::f_++f_0@HPQCD:2015A'
+      - 'B->D::f_++f_0@FNAL+MILC:2015B'
+
+  - name: BsToDsLQCD
+    constraints:
+      - 'B_s->D_s::f_++f_0@HPQCD:2019A'
+
+  - name: BqToDqRatioLQCD
+    manual_constraints:
+      "B_q->D_q::f_0(m_pi^2)/f_0(m_K^2)@FNAL+MILC:2012A": # 1202.6346
+        type: Gaussian
+        observable: B_q->D_q::f_0(q2_num)/f_0(q2_denom)
+        kinematics: { q2_num: 0.0194603, q2_denom: 0.24373969 }
+        options: { }
+        mean: 1.046
+        sigma-stat: { hi: 0.044, lo: 0.044 }
+        sigma-sys:  { hi: 0.015, lo: 0.015 }
+
+  - name: BToDstarLQCD
+    constraints:
+      - 'B->D^*::FormFactors@FNAL+MILC:2021A'
+      - 'B->D^*::FormFactors@JLQCD:2023A'
+
+  - name: BqToDqstarLQCD
+    constraints:
+      - 'B_(s)->D_(s)^*::FormFactors@HPQCD:2023A'
+
+  - name: BqToDqLCSR
+    constraints:
+      - 'B->D^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A'
+      - 'B_s->D_s^(*)::FormFactors[f_+,f_0,A_0,A_1,A_2,V,T_1,T_2,T_23]@BGJvD:2019A'
+
+  - name: BcToJpsiLQCD
+    constraints:
+      - 'B_c->J/psi::FormFactors@HPQCD:2025A'
+
+  - name: HQETTensorConstraint
+    manual_constraints:
+      'B_q->D_q::f_T@HQET':
+        type: MultivariateGaussian(Covariance)
+        observables: [ 'B->D::f_T(q2)', 'B->D::f_T(q2)', 'B->D::f_T(q2)',
+                       'B_s->D_s::f_T(q2)', 'B_s->D_s::f_T(q2)', 'B_s->D_s::f_T(q2)' ]
+        kinematics: [ {q2: 0}, {q2: 5}, {q2: 11}, {q2: 0}, {q2: 5}, {q2: 11} ]
+        options: [ {}, {}, {}, {}, {}, {} ]
+        means: [ 0.76817625, 0.96007676, 1.32255978, 0.82239122, 1.0090418, 1.34231913]
+        covariance:
+        - [ 6.10300949e-04, 5.77009418e-04, 5.01929696e-04, 7.23293156e-05, 7.71496187e-05, 8.28990865e-05]
+        - [ 5.77009418e-04, 6.24408013e-04, 6.61362172e-04, 7.99344012e-05, 8.54531897e-05, 1.05266714e-04]
+        - [ 5.01929696e-04, 6.61362172e-04, 9.15163806e-04, 8.13382642e-05, 9.64167870e-05, 1.61083894e-04]
+        - [ 7.23293156e-05, 7.99344012e-05, 8.13382642e-05, 2.24354115e-03, 2.34669432e-03, 2.65988894e-03]
+        - [ 7.71496187e-05, 8.54531897e-05, 9.64167870e-05, 2.34669432e-03, 2.84550092e-03, 3.75310556e-03]
+        - [ 8.28990865e-05, 1.05266714e-04, 1.61083894e-04, 2.65988894e-03, 3.75310556e-03, 5.72150101e-03]
+
+posteriors:
+  - name: BqToDq
+    global_options:
+      model: WET
+      form-factors: BGL1997
+    prior:
+      - BToDFormFactors
+      - BsToDsFormFactors
+      - BToDstarFormFactors
+      - BsToDsstarFormFactors
+    likelihood:
+      - BToDLQCD
+      - BsToDsLQCD
+      - BqToDqRatioLQCD
+      - BToDstarLQCD
+      - BqToDqstarLQCD
+      - BqToDqLCSR
+
+  - name: BqToDq-NP
+    global_options:
+      model: WET
+      form-factors: BGL1997
+    prior:
+      - BToDFormFactors
+      - BToDTensorFormFactors
+      - BsToDsFormFactors
+      - BsToDsTensorFormFactors
+      - BToDstarFormFactors
+      - BsToDsstarFormFactors
+    likelihood:
+      - BToDLQCD
+      - BsToDsLQCD
+      - BqToDqRatioLQCD
+      - BToDstarLQCD
+      - BqToDqstarLQCD
+      - BqToDqLCSR
+      - HQETTensorConstraint
+
+  - name: bToc
+    global_options:
+      model: WET
+      form-factors: BGL1997
+    prior:
+      - BToDFormFactors
+      - BsToDsFormFactors
+      - BToDstarFormFactors
+      - BsToDsstarFormFactors
+      - BcToJpsiFormFactors
+    likelihood:
+      - BToDLQCD
+      - BsToDsLQCD
+      - BqToDqRatioLQCD
+      - BToDstarLQCD
+      - BqToDqstarLQCD
+      - BqToDqLCSR
+      - BcToJpsiLQCD
+
+predictions:
+  - name: bTocRatios
+    observables:
+      - name: 'B_q->D_q::Rsd'
+        kinematics: {}
+      - name: 'B_q->D_q^*::Rsd^*'
+        kinematics: {}
+      - name: 'B_c->J/psi_B->D^*::Rcd^*'
+        kinematics: {}
+      - name: 'B_c->J/psi_B->D::Rcd'
+        kinematics: {}
+
+  - name: diffbTocRatios
+    observables:
+      - name: 'B_q->D_q::Rsd(q2)'
+        kinematics: *ratiopsd
+      - name: 'B_q->D_q^*::Rsd^*(q2)'
+        kinematics: *ratiosst
+      - name: 'B_c->J/psi_B->D^*::Rcd^*(q2)'
+        kinematics: *ratiosst
+
+  - name: ffs-BToDst
+    observables:
+      - name: B->D^*::V(q2)
+        kinematics: *ffs
+      - name: B->D^*::A_0(q2)
+        kinematics: *ffs
+      - name: B->D^*::A_1(q2)
+        kinematics: *ffs
+      - name: B->D^*::A_2(q2)
+        kinematics: *ffs
+      - name: B->D^*::A_12(q2)
+        kinematics: *ffs
+      - name: B->D^*::T_1(q2)
+        kinematics: *ffs
+      - name: B->D^*::T_2(q2)
+        kinematics: *ffs
+      - name: B->D^*::T_23(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::V(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::A_0(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::A_1(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::A_2(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::A_12(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::T_1(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::T_2(q2)
+        kinematics: *ffs
+      - name: B_s->D_s^*::T_23(q2)
+        kinematics: *ffs
+  - name: ffs-BToP
+    observables:
+      - name: B->D::f_+(q2)
+        kinematics: *ffs
+      - name: B->D::f_0(q2)
+        kinematics: *ffs
+      - name: B_s->D_s::f_+(q2)
+        kinematics: *ffs
+      - name: B_s->D_s::f_0(q2)
+        kinematics: *ffs
+  - name: ffs-BcToJpsi
+    observables:
+      - name: B_c->J/psi::V(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::A_0(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::A_1(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::A_2(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::A_12(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::T_1(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::T_2(q2)
+        kinematics: *ffs
+      - name: B_c->J/psi::T_23(q2)
+        kinematics: *ffs
+
+  - name: saturations0pV
+    observables:
+      - name: 'B->D::Saturation[0^+_V]'
+        kinematics: {}
+      - name: 'B->D::Saturation[0^+_V]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[0^+_V]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[0^+_V]'
+        kinematics: {}
+      - name: 'B_s->D_s::Saturation[0^+_V]'
+        kinematics: {}
+      - name: 'B_s->D_s^*::Saturation[0^+_V]'
+        kinematics: {}
+      - name: 'B_c->J/psi::Saturation[0^+_V]'
+        kinematics: {}
+
+  - name: saturations0mA
+    observables:
+      - name: 'B->D::Saturation[0^-_A]'
+        kinematics: {}
+      - name: 'B->D::Saturation[0^-_A]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[0^-_A]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[0^-_A]'
+        kinematics: {}
+      - name: 'B_s->D_s::Saturation[0^-_A]'
+        kinematics: {}
+      - name: 'B_s->D_s^*::Saturation[0^-_A]'
+        kinematics: {}
+      - name: 'B_c->J/psi::Saturation[0^-_A]'
+        kinematics: {}
+
+  - name: saturations1mV
+    observables:
+      - name: 'B->D::Saturation[1^-_V]'
+        kinematics: {}
+      - name: 'B->D::Saturation[1^-_V]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^-_V]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^-_V]'
+        kinematics: {}
+      - name: 'B_s->D_s::Saturation[1^-_V]'
+        kinematics: {}
+      - name: 'B_s->D_s^*::Saturation[1^-_V]'
+        kinematics: {}
+      - name: 'B_c->J/psi::Saturation[1^-_V]'
+        kinematics: {}
+
+  - name: saturations1pA
+    observables:
+      - name: 'B->D::Saturation[1^+_A]'
+        kinematics: {}
+      - name: 'B->D::Saturation[1^+_A]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^+_A]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^+_A]'
+        kinematics: {}
+      - name: 'B_s->D_s::Saturation[1^+_A]'
+        kinematics: {}
+      - name: 'B_s->D_s^*::Saturation[1^+_A]'
+        kinematics: {}
+      - name: 'B_c->J/psi::Saturation[1^+_A]'
+        kinematics: {}
+
+  - name: saturations1mT
+    observables:
+      - name: 'B->D::Saturation[1^-_T]'
+        kinematics: {}
+      - name: 'B->D::Saturation[1^-_T]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^-_T]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^-_T]'
+        kinematics: {}
+      - name: 'B_s->D_s::Saturation[1^-_T]'
+        kinematics: {}
+      - name: 'B_s->D_s^*::Saturation[1^-_T]'
+        kinematics: {}
+      - name: 'B_c->J/psi::Saturation[1^-_T]'
+        kinematics: {}
+
+  - name: saturations1pT5
+    observables:
+      - name: 'B->D::Saturation[1^+_T5]'
+        kinematics: {}
+      - name: 'B->D::Saturation[1^+_T5]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^+_T5]'
+        kinematics: {}
+      - name: 'B->D^*::Saturation[1^+_T5]'
+        kinematics: {}
+      - name: 'B_s->D_s::Saturation[1^+_T5]'
+        kinematics: {}
+      - name: 'B_s->D_s^*::Saturation[1^+_T5]'
+        kinematics: {}
+      - name: 'B_c->J/psi::Saturation[1^+_T5]'
+        kinematics: {}
