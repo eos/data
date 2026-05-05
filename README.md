@@ -10,6 +10,11 @@
   <th colspan=3>2026</th>
 </tr>
 <tr>
+  <td><a href="https://github.com/eos/data/tree/2026-02">2026-02</a></td>
+  <td>Extracting production fractions of $b$ hadrons from exclusive semi-leptonic decays</td>
+  <td>C.&nbsp;Bolognani<br/>M.&nbsp;Jung<br/>M.&nbsp;Reboud<br/>K.&nbsp;K.&nbsp;Vos</td>
+</tr>
+<tr>
   <td><a href="https://github.com/eos/data/tree/2026-01">2026-01</a></td>
   <td>Reconciling hadronic and partonic analyticity in $b \to s\ell\ell$ transitions</td>
   <td>M.&nbsp;Hoferichter<br/>B.&nbsp;Kubis<br/>S.&nbsp;Mutke</td>
