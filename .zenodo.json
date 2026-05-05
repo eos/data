@@ -1,0 +1,33 @@
+{
+ "upload_type": "dataset",
+ "title": "EOS/DATA-2026-02: Supplementary material for EOS/ANALYSIS-2024-03",
+ "description": "Supplementary material including input files, results, and figures for EOS/ANALYSIS-2024-03: Extracting fragmentation fractions from exclusive semi-leptonic decays.",
+ "license": "CC-BY-4.0",
+ "creators": [
+     {
+         "orcid": "0000-0003-3752-6789",
+         "affiliation": "Fakultät Physik, Technische Universität Dortmund, Otto-Hahn-Str. 4, D-44221 Dortmund, Germany",
+         "name": "Bolognani, Carolina"
+     },
+     {
+         "orcid": "0000-0002-8632-4991",
+         "affiliation": "Dipartimento di Fisica, Università di Torino & INFN, Sezione di Torino, Via Pietro Giuria 1, I-10125 Turin, Italy",
+         "name": "Jung, Martin"
+     },
+     {
+         "orcid": "0000-0001-6033-3606",
+         "affiliation": "Université Paris-Saclay, CNRS/IN2P3, IJCLab, 91405 Orsay, France",
+         "name": "Reboud, Méril"
+     },
+     {
+         "orcid": "0000-0002-4258-4062",
+         "affiliation": "Gravitational Waves and Fundamental Physics (GWFP), Maastricht University, Duboisdomein 30, NL-6229 GT Maastricht, the Netherlands",
+         "name": "Vos, K. Keri"
+     }
+ ],
+ "grants": [
+   {
+     "id": "10.13039/501100003246::VI.Vidi.223.083"
+   }
+ ]
+}
