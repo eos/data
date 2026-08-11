@@ -1,0 +1,79 @@
+"Lambda_c->neutron::a^(t,V)_1@BMRvD2022" :
+  central: 0.557873
+"Lambda_c->neutron::a^(t,V)_2@BMRvD2022" :
+  central: -0.261881
+"Lambda_c->neutron::a^(t,V)_3@BMRvD2022" :
+  central: -0.233634
+"Lambda_c->neutron::a^(0,V)_0@BMRvD2022" :
+  central: 0.44101
+"Lambda_c->neutron::a^(0,V)_1@BMRvD2022" :
+  central: 0.46779
+"Lambda_c->neutron::a^(0,V)_2@BMRvD2022" :
+  central: -0.425084
+"Lambda_c->neutron::a^(0,V)_3@BMRvD2022" :
+  central: -0.28276
+"Lambda_c->neutron::a^(perp,V)_0@BMRvD2022" :
+  central:  0.150609
+"Lambda_c->neutron::a^(perp,V)_1@BMRvD2022" :
+  central:  0.389043
+"Lambda_c->neutron::a^(perp,V)_2@BMRvD2022" :
+  central: -0.335599
+"Lambda_c->neutron::a^(perp,V)_3@BMRvD2022" :
+  central: -0.296484
+"Lambda_c->neutron::a^(t,A)_1@BMRvD2022" :
+  central:  0.139255
+"Lambda_c->neutron::a^(t,A)_2@BMRvD2022" :
+  central: -0.0380122
+"Lambda_c->neutron::a^(t,A)_3@BMRvD2022" :
+  central: -0.118681
+"Lambda_c->neutron::a^(0,A)_0@BMRvD2022" :
+  central:  0.14139
+"Lambda_c->neutron::a^(0,A)_1@BMRvD2022" :
+  central: -0.0853318
+"Lambda_c->neutron::a^(0,A)_2@BMRvD2022" :
+  central: -0.404809
+"Lambda_c->neutron::a^(0,A)_3@BMRvD2022" :
+  central: -0.179228
+"Lambda_c->neutron::a^(perp,A)_1@BMRvD2022" :
+  central:  0.244241
+"Lambda_c->neutron::a^(perp,A)_2@BMRvD2022" :
+  central: -0.00322474
+"Lambda_c->neutron::a^(perp,A)_3@BMRvD2022" :
+  central: -0.125874
+"Lambda_c->neutron::a^(0,T)_0@BMRvD2022" :
+  central: -0.113528
+"Lambda_c->neutron::a^(0,T)_1@BMRvD2022" :
+  central: 0.143923
+"Lambda_c->neutron::a^(0,T)_2@BMRvD2022" :
+  central: 0.0195125
+"Lambda_c->neutron::a^(0,T)_3@BMRvD2022" :
+  central: -0.0918705
+"Lambda_c->neutron::a^(perp,T)_1@BMRvD2022" :
+  central: -0.240742
+"Lambda_c->neutron::a^(perp,T)_2@BMRvD2022" :
+  central: 0.196887
+"Lambda_c->neutron::a^(perp,T)_3@BMRvD2022" :
+  central: 0.0280931
+"Lambda_c->neutron::a^(0,T5)_1@BMRvD2022" :
+  central: 0.340909
+"Lambda_c->neutron::a^(0,T5)_2@BMRvD2022" :
+  central: -0.0909084
+"Lambda_c->neutron::a^(0,T5)_3@BMRvD2022" :
+  central: -0.161359
+"Lambda_c->neutron::a^(perp,T5)_0@BMRvD2022" :
+  central: 0.0133261
+"Lambda_c->neutron::a^(perp,T5)_1@BMRvD2022" :
+  central: 0.273896
+"Lambda_c->neutron::a^(perp,T5)_2@BMRvD2022" :
+  central: 0.0757146
+"Lambda_c->neutron::a^(perp,T5)_3@BMRvD2022" :
+  central: -0.0574837
+"Lambda_c->proton::res_a_rho@GHM2021" :
+  central: +0.367351
+"Lambda_c->proton::res_a_omega@GHM2021" :
+  central: +0.0421683
+"Lambda_c->proton::res_a_phi@GHM2021" :
+  central: +0.104041
+"gamma::rho^0" :
+  central: 0.1474
+

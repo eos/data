@@ -1,0 +1,13 @@
+{
+ "upload_type": "dataset",
+ "title": "EOS/DATA-2026-03: Supplementary material for EOS/ANALYSIS-2026-06",
+ "description": "Supplementary material including input files, results, and figures for EOS/ANALYSIS-2026-06, an analysis as shown in Dominik Suelmann's thesis.",
+ "license": "CC-BY-4.0",
+ "creators": [
+     {
+         "orcid": "0009-0009-3986-0909",
+         "affiliation": "TU Dortmund University, Otto-Hahn-Straße 4, 44227 Dortmund, Germany",
+         "name": "Suelmann, Dominik"
+     }
+ ]
+}

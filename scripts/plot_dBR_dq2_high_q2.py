@@ -1,0 +1,94 @@
+import eos
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+from matplotlib.colors import to_rgb
+import copy
+
+parameters = eos.Parameters.Defaults()
+
+from matplotlib import rcParams
+
+rcParams.update({'font.size': 9})
+rcParams['xtick.labelsize'] = 9
+rcParams['ytick.labelsize'] = 9
+rcParams['axes.labelsize'] = 9
+pt = 1./72.27
+
+figure_args = {'plot': {
+  'legend': {'position': 'upper right'},
+  'xaxis': { 'label': r'$q^2\:/\:\mathrm{GeV}^2$', 'range': [1.1, 1.83]   },
+  'yaxis': { 'label': r'$\mathrm{d}\mathcal{B}(\Lambda_c\to p \mu^+\mu^-)/\mathrm{d}q^2 \:/\:\mathrm{GeV}^{-2}$ ', 'range': [1e-14, 5e-5], 'scale': 'log'  },
+  'items':
+    []
+  },
+  'size' : (426.0*pt, 3.0),
+  'watermark' : {'preliminary': False, 'position': 'lower left'},
+}
+
+items = []
+
+# NP contribution (without interference with resonances)
+
+item = { 'type': 'uncertainty', 'interpolation' : 'cubic', 'band': ['area', 'median'],
+      'variable': 'q2', 'range': [0.959, 1.83], 'resolution': 1000, 'datafile': 'data/C10-example/pred-dBR-dq2',
+      'label': r'$\mathcal{C}_{10} = 1$', 'color': 'purple'}
+items.append(item)
+
+# SM strong phases with uncertainties
+
+item = { 'type': 'uncertainty', 'interpolation' : 'cubic', 'band': ['area', 'median'],
+      'variable': 'q2', 'range': [0.959, 1.83], 'resolution': 1000, 'datafile': 'data/SM-fit/pred-dBR-dq2',  'levels': [68.27,95.44997361036416,99.73002039367398],
+      'label': r'resonant SM', 'color': 'orange'}
+items.append(item)
+
+# SM strong phases (without uncertainties)
+
+standard_item = { 'type': 'observable', 'observable': r'Lambda_c->protonll::dBR/dq2', 'options': { 'l': 'mu', 'form-factors': 'BMRvD2022' },
+      'variable': 'q2', 'range': [0.959, 1.83], 'resolution': 1000, 'fixed_parameters_from_file': 'input/parameters_fixed.yaml',
+      'color': 'black'}
+p_standard = {"Lambda_c->proton::res_delta_rho@GHM2021": 0, r'ucmumu::Re{c10}': 0.0, r'ucmumu::Re{c9}': 0.0, r'uc::Re{c7}':0.0}
+
+for val1,val2, name, style in [(np.pi,np.pi, r'\pi(\pi)','solid'),(0,0,r'0(0)','dotted'),(np.pi,0,r'\pi(0)','dashed'),(0,np.pi,r'0(\pi)','dashdot')]:
+    item = standard_item.copy()
+    p = p_standard.copy()
+    p["Lambda_c->proton::res_delta_omega_m_rho@GHM2021"] = val1
+    p["Lambda_c->proton::res_delta_phi_m_rho@GHM2021"] = val2
+    item['fixed_parameters'] = p
+    item['label'] = r'$\delta_{\omega(\phi)\mathrm{-}\rho} =' + name + r'$'
+    item['linestyle'] = style
+    items.append(item)
+
+figure_args['plot']['items'] = items
+figure = eos.figure.FigureFactory.from_dict(**figure_args)
+figure.draw(output='figures/dBR_dq2_high_q2.pdf')
+
+df = pd.read_csv('input/dBR_dq2_nonres.csv')
+plt.plot(df['q2'], df['dBR/dq2'], color='deepskyblue')
+plt.fill_between(df['q2'], df['dBR/dq2_lower'], df['dBR/dq2_upper'], color='deepskyblue', alpha=0.5,linewidth=0.0)
+
+legend_entries = []
+for item in figure.plot.items:
+      legend_entries.extend(item.legend())
+handles = [entry[0] for entry in legend_entries]
+labels = [entry[1] for entry in legend_entries]
+
+handle_nonres = copy.deepcopy(handles[0])
+handle_nonres.color='deepskyblue'
+
+rgb = to_rgb('deepskyblue')
+rgb_with_alpha = (rgb[0], rgb[1], rgb[2], 0.5)
+handle_nonres.facecolors = [rgb_with_alpha]
+handle_nonres.edgecolor = 'deepskyblue'
+handles.append(handle_nonres)
+labels.append('perturbative SM')
+
+# add dummy line
+l = plt.Line2D([0],[0],color="w")
+handles.insert(1,l)
+labels.insert(1,"")
+
+order = [0, 7,  2, 1, 3, 4, 5, 6]
+leg = plt.legend([handles[i] for i in order], [labels[i] for i in order], loc='upper right', ncols=2, fontsize='small',frameon=False)
+plt.savefig('figures/dBR_dq2_high_q2.pdf')
+plt.savefig('figures/dBR_dq2_high_q2.png', dpi=300)
