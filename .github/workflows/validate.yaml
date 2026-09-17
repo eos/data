@@ -1,35 +1,98 @@
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/validate.yaml'
-      - '.github/actions/validate-analysis/**'
+name: Validate analysis files
 
+on:
   workflow_dispatch:
 
   schedule:
     - cron: '0 8 * * WED'
 
+# Runs are serialised: reporting looks for an open issue and then creates one if it finds none,
+# which two overlapping runs would both do for the same finding. Queue rather than cancel, so that
+# a scheduled run is not dropped because someone started one by hand.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  EOS_IMAGE: docker.io/eoshep/eos:latest
+  LABEL: validation
+
 jobs:
+  matrix:
+    name: Determine the analysis files to validate
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.build.outputs.matrix }}
+      empty: ${{ steps.build.outputs.empty }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: pip3 install --quiet pyyaml
+
+      - name: Ensure the issue label exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh label create "${LABEL}" --repo "${{ github.repository }}" --color BFD4F2
+          --description 'Reported by the analysis-file validation workflow' --force
+
+      - name: Build the job matrix
+        id: build
+        run: python3 .github/scripts/build_matrix.py .github/analyses.yaml
+
   validate:
+    name: ${{ matrix.data_set }} / ${{ matrix.analysis_file }}
+    needs: matrix
+    if: needs.matrix.outputs.empty != 'true'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - { ref: '2023-01', analysis_file: 'b-to-u-l-nu.yaml'            }
-          - { ref: '2023-03', analysis_file: 'VubVcb-bs-to-k-ds-l-nu.yaml' }
-          - { ref: '2023-03', analysis_file: 'lcsr-bs-to-k.yaml'           }
-          - { ref: '2023-03', analysis_file: 'ff-bs-to-k.yaml'             }
-          - { ref: '2024-01', analysis_file: 'analysis.yaml'               }
+      matrix: ${{ fromJSON(needs.matrix.outputs.matrix) }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out the workflow scripts
+        uses: actions/checkout@v4
         with:
-          clean: false
-          set-safe-directory: false
+          path: workflow
 
-      - uses: ./.github/actions/validate-analysis
+      - name: Check out the data set
+        uses: actions/checkout@v4
         with:
-          ref: ${{ matrix.ref }}
-          analysis_file: ${{ matrix.analysis_file }}
+          # Fully qualified: a data set's name is both a tag and a branch, and it is the tip of
+          # the branch that is to be validated.
+          ref: refs/heads/${{ matrix.branch }}
+          path: analysis
+
+      - name: Validate the analysis file
+        env:
+          ANALYSIS_FILE: ${{ matrix.analysis_file }}
+        run: |
+          # The image runs as its own user, which does not own the checkout, so the result is
+          # written to a directory of its own that any user may write to.
+          mkdir -p "${GITHUB_WORKSPACE}/result"
+          chmod 777 "${GITHUB_WORKSPACE}/result"
+          docker run --rm \
+            --volume "${GITHUB_WORKSPACE}/analysis:/analysis:ro" \
+            --volume "${GITHUB_WORKSPACE}/workflow/.github/scripts:/scripts:ro" \
+            --volume "${GITHUB_WORKSPACE}/result:/result" \
+            --workdir /analysis \
+            "${EOS_IMAGE}" \
+            python3 /scripts/validate_analysis.py "${ANALYSIS_FILE}" --output /result/validation.json
+
+      - name: Report the outcome
+        env:
+          DATA_SET: ${{ matrix.data_set }}
+          ANALYSIS_FILE: ${{ matrix.analysis_file }}
+          BRANCH: ${{ matrix.branch }}
+          RESULT_FILE: ${{ github.workspace }}/result/validation.json
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          SERVER_URL: ${{ github.server_url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          COMMIT=$(git -C "${GITHUB_WORKSPACE}/analysis" rev-parse HEAD) \
+            workflow/.github/scripts/report_issue.sh
