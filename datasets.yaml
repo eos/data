@@ -8,6 +8,7 @@
   keywords:
     - Semileptonic decays
     - Form factors
+  eos_version: 1.0.19
 
 2025-05:
   authors:
@@ -20,6 +21,7 @@
     - Kaon decays
     - Semileptonic decays
     - Form factors
+  eos_version: 1.0.19
 
 2025-04:
   authors:
