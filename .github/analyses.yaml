@@ -1,0 +1,107 @@
+# Analysis files to be validated by .github/workflows/validate.yaml.
+#
+# One entry per data set, keyed by the data set id *without* its revision suffix. That key doubles
+# as the name of the branch carrying the data set: the workflow validates the tip of that branch,
+# which is expected to correspond to the tag of the most recent revision. The files listed for a
+# data set are therefore those of its highest revision presently released.
+#
+# An entry takes two optional keys:
+#
+#   analysis_files  The analysis files to validate. An entry without them -- an empty entry --
+#                   describes a data set that carries no analysis file, and nothing is validated
+#                   for it.
+#   skip            When true, the data set is recorded but not validated.
+#
+# datasets.yaml is deliberately not used for this record. It is the public registry, deserialised
+# by eos.Datasets into eos.DataSetDescription -- a dataclass that rejects unknown keys -- so adding
+# an 'analysis_files' key there would break every already-released EOS that refreshes the registry.
+
+2023-01:
+  # highest revision: 2023-01v2
+  skip: True
+  analysis_files:
+    - b-to-u-l-nu.yaml
+
+2023-02:
+  # highest revision: 2023-02v2
+  skip: True
+  analysis_files:
+    - BToK_FF.yaml
+    - BToKstar_FF.yaml
+    - BsToPhi_FF.yaml
+
+2023-03:
+  skip: True
+  analysis_files:
+    - VubVcb-bs-to-k-ds-l-nu.yaml
+    - ff-bs-to-k.yaml
+    - lcsr-bs-to-k.yaml
+
+2024-01:
+  # highest revision: 2024-01v2
+  skip: True
+  analysis_files:
+    - analysis.yaml
+
+2024-02:
+  skip: True
+  analysis_files:
+    - analysis.yaml
+
+2024-03:
+  skip: True
+  analysis_files:
+    - analysis.yaml
+    - form-factors.yaml
+    - likelihood.yaml
+
+2025-01:
+  skip: True
+  analysis_files:
+    - analysis.yaml
+    - form-factor-analysis.yaml
+
+2025-02:
+  skip: True
+  analysis_files:
+    - analysis.yaml
+
+2025-03:
+  skip: True
+  analysis_files:
+    - analysis_200.yaml
+    - analysis_210.yaml
+    - analysis_321.yaml
+
+2025-04:
+  skip: True
+  analysis_files:
+    - analysis.yaml
+
+2025-05:
+  analysis_files:
+    - analysis_BSM.yaml
+    - analysis_CKM.yaml
+    - analysis_FF.yaml
+
+2025-06:
+  analysis_files:
+    - analysis.yaml
+
+2026-01:
+
+2026-02:
+  skip: True
+  analysis_files:
+    - analysis.yaml
+
+2026-03:
+  analysis_files:
+    - analysis.yaml
+
+# Tagged ahead of publication, pending acceptance of the paper, and so recorded neither in
+# datasets.yaml nor in README.md yet.
+2026-04:
+  skip: True
+  analysis_files:
+    - analysis.yaml
