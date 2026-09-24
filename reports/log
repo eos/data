@@ -1,0 +1,4 @@
+2026-09-20 10:57:08,540 INPROGRESS Generating report from template 'reports/report.md.jinja' for analysis file '<eos.analysis_file.AnalysisFile object at 0x7f6351886ff0>'
+2026-09-20 10:57:08,540 INFO       Processing template 'reports/report.md.jinja' to intermediate 'reports/report.md'
+2026-09-20 10:57:09,578 INFO       Processing intermediate file 'reports/report.md' to final output 'reports/report.pdf'
+2026-09-20 10:57:16,094 COMPLETED  ... report generation finished

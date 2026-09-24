@@ -1,0 +1,93 @@
+dof: 22
+format_version: 2
+global_chi2: 1.6918377893950647
+mode:
+- 0.45872234326794653
+- -0.9623649017657638
+- 0.37570095893094013
+- 0.18829339887016727
+- 0.9180053507294295
+- 0.2354509443666974
+- 0.13346253788803608
+- 0.5289916849344055
+- -1.282038428301027
+- 1.2546242398103677
+- 0.443954003696291
+- -0.7830820059566941
+- -0.15860084978988453
+- 0.5920858001116955
+- -0.03212343491091918
+- 0.9791343893205866
+- -1.181013546575334
+parameters:
+- max: 0.79843
+  min: 0.11316
+  name: B->K^*::alpha^A0_0@SSE
+- max: 3.1446
+  min: -4.90826
+  name: B->K^*::alpha^A0_1@SSE
+- max: 13.43603
+  min: -13.2687
+  name: B->K^*::alpha^A0_2@SSE
+- max: 0.80253
+  min: -0.42859
+  name: B->K^*::alpha^A1_1@SSE
+- max: 3.12524
+  min: -1.29411
+  name: B->K^*::alpha^A1_2@SSE
+- max: 0.84945
+  min: -0.30493
+  name: B->K^*::alpha^A12_1@SSE
+- max: 6.69877
+  min: -6.77462
+  name: B->K^*::alpha^A12_2@SSE
+- max: 0.71381
+  min: 0.34796
+  name: B->K^*::alpha^V_0@SSE
+- max: 0.02635
+  min: -2.55654
+  name: B->K^*::alpha^V_1@SSE
+- max: 8.22514
+  min: -5.87242
+  name: B->K^*::alpha^V_2@SSE
+- max: 0.7873
+  min: 0.10853
+  name: B->K^*::alpha^T1_0@SSE
+- max: 2.99914
+  min: -4.60979
+  name: B->K^*::alpha^T1_1@SSE
+- max: 13.19657
+  min: -13.40746
+  name: B->K^*::alpha^T1_2@SSE
+- max: 4.43564
+  min: -3.16462
+  name: B->K^*::alpha^T2_1@SSE
+- max: 12.99052
+  min: -13.31566
+  name: B->K^*::alpha^T2_2@SSE
+- max: 5.06438
+  min: -3.73604
+  name: B->K^*::alpha^T23_1@SSE
+- max: 14.05282
+  min: -14.1372
+  name: B->K^*::alpha^T23_2@SSE
+pvalue: 0.9999999981649755
+test_statistics:
+- local_pvalue: 0.8370211781633046
+  name: B->K^*::A_12@HPQCD:2013B
+  type: chi^2
+  value: 0.3558118126952894
+- local_pvalue: 0.8577145628188696
+  name: B->K^*::A_1@HPQCD:2013B
+  type: chi^2
+  value: 0.3069678244217021
+- local_pvalue: 1.0
+  name: B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A
+  type: chi^2
+  value: 1.018615349983591
+- local_pvalue: 0.9947922066734639
+  name: B->K^*::V@HPQCD:2013B
+  type: chi^2
+  value: 0.010442802294482207
+type: Mode
+version: 1.0.20

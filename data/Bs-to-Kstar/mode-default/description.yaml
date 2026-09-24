@@ -1,0 +1,93 @@
+dof: 22
+format_version: 2
+global_chi2: 5.402364205165313
+mode:
+- 0.3848199849117778
+- -0.359119431739785
+- -0.7807933075014937
+- 0.11230701380337882
+- 0.9570579287609153
+- 0.2699646627097164
+- 0.23855302177241544
+- 0.42191090765020905
+- -0.8990978916096972
+- 1.3583216073042155
+- 0.3328070213045105
+- -0.17599832883525046
+- -0.9088800242598412
+- 0.589714012634964
+- 0.043683408333780704
+- 1.278483515485707
+- -1.4455057924744845
+parameters:
+- max: 0.78324
+  min: 0.00862
+  name: B_s->K^*::alpha^A0_0@SSE
+- max: 3.86186
+  min: -4.91334
+  name: B_s->K^*::alpha^A0_1@SSE
+- max: 13.06158
+  min: -13.57241
+  name: B_s->K^*::alpha^A0_2@SSE
+- max: 0.53068
+  min: -0.31563
+  name: B_s->K^*::alpha^A1_1@SSE
+- max: 2.60747
+  min: -0.6763
+  name: B_s->K^*::alpha^A1_2@SSE
+- max: 0.71889
+  min: -0.17905
+  name: B_s->K^*::alpha^A12_1@SSE
+- max: 4.26848
+  min: -3.93288
+  name: B_s->K^*::alpha^A12_2@SSE
+- max: 0.54882
+  min: 0.29499
+  name: B_s->K^*::alpha^V_0@SSE
+- max: -0.1299
+  min: -1.67338
+  name: B_s->K^*::alpha^V_1@SSE
+- max: 5.26119
+  min: -2.53054
+  name: B_s->K^*::alpha^V_2@SSE
+- max: 0.75845
+  min: -0.06774
+  name: B_s->K^*::alpha^T1_0@SSE
+- max: 4.10663
+  min: -4.77257
+  name: B_s->K^*::alpha^T1_1@SSE
+- max: 12.04655
+  min: -12.96596
+  name: B_s->K^*::alpha^T1_2@SSE
+- max: 4.74822
+  min: -3.4709
+  name: B_s->K^*::alpha^T2_1@SSE
+- max: 12.91139
+  min: -13.10495
+  name: B_s->K^*::alpha^T2_2@SSE
+- max: 5.60851
+  min: -3.94416
+  name: B_s->K^*::alpha^T23_1@SSE
+- max: 14.1233
+  min: -14.13356
+  name: B_s->K^*::alpha^T23_2@SSE
+pvalue: 0.9998794957130158
+test_statistics:
+- local_pvalue: 0.9603230737696314
+  name: B_s->K^*::A_12@HPQCD:2013B
+  type: chi^2
+  value: 0.08097103191763327
+- local_pvalue: 0.6329146942442682
+  name: B_s->K^*::A_1@HPQCD:2013B
+  type: chi^2
+  value: 0.914839260293079
+- local_pvalue: 0.9999999999999964
+  name: B_s->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A
+  type: chi^2
+  value: 1.967127319602989
+- local_pvalue: 0.2953148225292157
+  name: B_s->K^*::V@HPQCD:2013B
+  type: chi^2
+  value: 2.4394265933516115
+type: Mode
+version: 1.0.20

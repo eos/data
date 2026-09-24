@@ -1,0 +1,37 @@
+2026-07-29 12:12:31,258 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-29 12:12:31,258 DEBUG      priors:
+2026-07-29 12:12:31,258 DEBUG       - D_s->eta::alpha^f+_0@SSE (uniform)
+2026-07-29 12:12:31,259 DEBUG       - D_s->eta::alpha^f+_1@SSE (uniform)
+2026-07-29 12:12:31,259 DEBUG       - D_s->eta::alpha^f+_2@SSE (uniform)
+2026-07-29 12:12:31,259 DEBUG       - D_s->eta::alpha^f0_1@SSE (uniform)
+2026-07-29 12:12:31,260 DEBUG       - D_s->eta::alpha^f0_2@SSE (uniform)
+2026-07-29 12:12:31,260 DEBUG       - D_s->eta::alpha^fT_0@SSE (uniform)
+2026-07-29 12:12:31,260 DEBUG       - D_s->eta::alpha^fT_1@SSE (uniform)
+2026-07-29 12:12:31,260 DEBUG       - D_s->eta::alpha^fT_2@SSE (uniform)
+2026-07-29 12:12:31,260 DEBUG      constraints:
+2026-07-29 12:12:31,260 DEBUG       - D_s->eta::f_0+f_++f_T@MR:2025A
+2026-07-29 12:12:31,261 DEBUG      manual_constraints:
+2026-07-29 12:12:31,261 DEBUG      fixed_parameters:
+2026-07-29 12:12:31,794 INPROGRESS Beginning minimization in 3 points
+2026-07-29 12:12:31,795 INFO       Using a starting point based on the existing importance samples
+2026-07-29 12:12:31,802 INFO       Using starting point [ -0.4867, 0.5281, 0.7248, 0.7648, 2.276, -0.5183, 1.29, -1.185 ]
+2026-07-29 12:12:31,839 SUCCESS    Optimization goal achieved after 161 function evaluations
+2026-07-29 12:12:31,840 INFO       First optimization finished
+2026-07-29 12:12:31,844 SUCCESS    Optimization goal achieved after 20 function evaluations
+2026-07-29 12:12:31,847 SUCCESS    Optimization goal achieved after 20 function evaluations
+2026-07-29 12:12:31,847 COMPLETED  ... optimization finished
+2026-07-29 12:12:31,848 INFO       The best-fit point is:
+2026-07-29 12:12:31,848 INFO         - D_s->eta::alpha^f+_0@SSE -> -0.4811146261604001
+2026-07-29 12:12:31,848 INFO         - D_s->eta::alpha^f+_1@SSE -> 0.08428207304169533
+2026-07-29 12:12:31,848 INFO         - D_s->eta::alpha^f+_2@SSE -> 3.47916853047602
+2026-07-29 12:12:31,849 INFO         - D_s->eta::alpha^f0_1@SSE -> 0.34360758553090953
+2026-07-29 12:12:31,849 INFO         - D_s->eta::alpha^f0_2@SSE -> 0.4870663894024574
+2026-07-29 12:12:31,849 INFO         - D_s->eta::alpha^fT_0@SSE -> -0.45986771149341715
+2026-07-29 12:12:31,849 INFO         - D_s->eta::alpha^fT_1@SSE -> -0.15429475172507878
+2026-07-29 12:12:31,850 INFO         - D_s->eta::alpha^fT_2@SSE -> 5.0
+2026-07-29 12:12:31,850 INFO       total chi^2 = 0.07
+2026-07-29 12:12:31,850 INFO       total dof   = 3
+2026-07-29 12:12:31,851 INFO       p value     = 99.52%
+2026-07-29 12:12:31,851 INFO       individual test statistics:
+2026-07-29 12:12:31,852 INFO         - D_s->eta::f_0+f_++f_T@MR:2025A: chi^2 / dof = 0.07 / 11, local_pvalue = 100.00%
+2026-07-29 12:12:31,856 SUCCESS    Final p value is 99.52%, indicating a successful fit

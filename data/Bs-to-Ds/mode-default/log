@@ -1,0 +1,35 @@
+2026-07-28 11:59:21,876 INFO       Creating analysis with 5 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-28 11:59:21,876 DEBUG      priors:
+2026-07-28 11:59:21,876 DEBUG       - B_s->D_s::alpha^f+_0@SSE (uniform)
+2026-07-28 11:59:21,877 DEBUG       - B_s->D_s::alpha^f+_1@SSE (uniform)
+2026-07-28 11:59:21,877 DEBUG       - B_s->D_s::alpha^f+_2@SSE (uniform)
+2026-07-28 11:59:21,877 DEBUG       - B_s->D_s::alpha^f0_1@SSE (uniform)
+2026-07-28 11:59:21,877 DEBUG       - B_s->D_s::alpha^f0_2@SSE (uniform)
+2026-07-28 11:59:21,877 DEBUG      constraints:
+2026-07-28 11:59:21,877 DEBUG       - B_s->D_s::f_++f_0@HPQCD:2019A
+2026-07-28 11:59:21,877 DEBUG      manual_constraints:
+2026-07-28 11:59:21,877 DEBUG      fixed_parameters:
+2026-07-28 11:59:22,450 INFO       likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2026-07-28 11:59:22,450 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@SSE'
+2026-07-28 11:59:22,451 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@SSE'
+2026-07-28 11:59:22,451 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@SSE'
+2026-07-28 11:59:22,451 INPROGRESS Beginning minimization in 3 points
+2026-07-28 11:59:22,451 INFO       Using a starting point based on the existing importance samples
+2026-07-28 11:59:22,459 INFO       Using starting point [ 0.7685, -3.073, 1.943, 0.03948, -2.816 ]
+2026-07-28 11:59:22,467 SUCCESS    Optimization goal achieved after 69 function evaluations
+2026-07-28 11:59:22,467 INFO       First optimization finished
+2026-07-28 11:59:22,469 SUCCESS    Optimization goal achieved after 17 function evaluations
+2026-07-28 11:59:22,471 SUCCESS    Optimization goal achieved after 17 function evaluations
+2026-07-28 11:59:22,471 COMPLETED  ... optimization finished
+2026-07-28 11:59:22,472 INFO       The best-fit point is:
+2026-07-28 11:59:22,472 INFO         - B_s->D_s::alpha^f+_0@SSE -> 0.7636884284198154
+2026-07-28 11:59:22,472 INFO         - B_s->D_s::alpha^f+_1@SSE -> -3.043032115157188
+2026-07-28 11:59:22,472 INFO         - B_s->D_s::alpha^f+_2@SSE -> -0.5445751638972667
+2026-07-28 11:59:22,472 INFO         - B_s->D_s::alpha^f0_1@SSE -> 0.09323316580258181
+2026-07-28 11:59:22,473 INFO         - B_s->D_s::alpha^f0_2@SSE -> -1.0961455526443178
+2026-07-28 11:59:22,473 INFO       total chi^2 = 0.00
+2026-07-28 11:59:22,473 INFO       total dof   = 0
+2026-07-28 11:59:22,474 INFO       p value     = nan%
+2026-07-28 11:59:22,474 INFO       individual test statistics:
+2026-07-28 11:59:22,475 INFO         - B_s->D_s::f_++f_0@HPQCD:2019A: chi^2 / dof = 0.00 / 5, local_pvalue = 100.00%
+2026-07-28 11:59:22,478 SUCCESS    Final p value is nan%, indicating a successful fit

@@ -1,0 +1,45 @@
+dof: 3
+format_version: 2
+global_chi2: 0.000529662986564267
+mode:
+- 0.353354726793487
+- -0.7489592295132734
+- 0.43571101997487105
+- 0.015470684559132586
+- 0.4510682382038498
+- 0.3991932496092471
+- -0.8896289062051093
+- 0.5823707881700422
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^f+_0@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^f+_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^f+_2@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^f0_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^f0_2@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^fT_0@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^fT_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->eta_prime::alpha^fT_2@SSE
+pvalue: 0.9999967584760374
+test_statistics:
+- local_pvalue: 1.0
+  name: B_s->eta_prime::f_0+f_++f_T@MR:2025A
+  type: chi^2
+  value: 0.000529662986564267
+type: Mode
+version: 1.0.20

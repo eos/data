@@ -1,0 +1,59 @@
+2026-07-29 22:02:46,785 INFO       Creating analysis with 17 priors, 3 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-29 22:02:46,785 DEBUG      priors:
+2026-07-29 22:02:46,785 DEBUG       - B_s->phi::alpha^A0_0@SSE (uniform)
+2026-07-29 22:02:46,785 DEBUG       - B_s->phi::alpha^A0_1@SSE (uniform)
+2026-07-29 22:02:46,786 DEBUG       - B_s->phi::alpha^A0_2@SSE (uniform)
+2026-07-29 22:02:46,786 DEBUG       - B_s->phi::alpha^A1_1@SSE (uniform)
+2026-07-29 22:02:46,786 DEBUG       - B_s->phi::alpha^A1_2@SSE (uniform)
+2026-07-29 22:02:46,786 DEBUG       - B_s->phi::alpha^A12_1@SSE (uniform)
+2026-07-29 22:02:46,786 DEBUG       - B_s->phi::alpha^A12_2@SSE (uniform)
+2026-07-29 22:02:46,787 DEBUG       - B_s->phi::alpha^V_0@SSE (uniform)
+2026-07-29 22:02:46,787 DEBUG       - B_s->phi::alpha^V_1@SSE (uniform)
+2026-07-29 22:02:46,787 DEBUG       - B_s->phi::alpha^V_2@SSE (uniform)
+2026-07-29 22:02:46,787 DEBUG       - B_s->phi::alpha^T1_0@SSE (uniform)
+2026-07-29 22:02:46,787 DEBUG       - B_s->phi::alpha^T1_1@SSE (uniform)
+2026-07-29 22:02:46,788 DEBUG       - B_s->phi::alpha^T1_2@SSE (uniform)
+2026-07-29 22:02:46,788 DEBUG       - B_s->phi::alpha^T2_1@SSE (uniform)
+2026-07-29 22:02:46,788 DEBUG       - B_s->phi::alpha^T2_2@SSE (uniform)
+2026-07-29 22:02:46,788 DEBUG       - B_s->phi::alpha^T23_1@SSE (uniform)
+2026-07-29 22:02:46,788 DEBUG       - B_s->phi::alpha^T23_2@SSE (uniform)
+2026-07-29 22:02:46,789 DEBUG      constraints:
+2026-07-29 22:02:46,789 DEBUG       - B_s->phi::V+A_0+A_1+A_12@HLMW:2015A
+2026-07-29 22:02:46,789 DEBUG       - B_s->phi::T_1+T_2+T_23@HLMW:2015A
+2026-07-29 22:02:46,789 DEBUG       - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A
+2026-07-29 22:02:46,790 DEBUG      manual_constraints:
+2026-07-29 22:02:46,790 DEBUG      fixed_parameters:
+2026-07-29 22:02:47,372 INPROGRESS Beginning minimization in 3 points
+2026-07-29 22:02:47,372 INFO       Using a starting point based on the existing importance samples
+2026-07-29 22:02:47,386 INFO       Using starting point [ 0.4907, -1.211, 3.466, 0.4092, 1.416, 0.3525, 1.277, 0.5052, -0.9205, 4.192, 0.4484, -0.4305, -1.067, 0.5716, 2.123, 0.8192, 3.317 ]
+2026-07-29 22:02:47,588 SUCCESS    Optimization goal achieved after 503 function evaluations
+2026-07-29 22:02:47,589 INFO       First optimization finished
+2026-07-29 22:02:47,600 SUCCESS    Optimization goal achieved after 29 function evaluations
+2026-07-29 22:02:47,613 SUCCESS    Optimization goal achieved after 29 function evaluations
+2026-07-29 22:02:47,613 COMPLETED  ... optimization finished
+2026-07-29 22:02:47,614 INFO       The best-fit point is:
+2026-07-29 22:02:47,614 INFO         - B_s->phi::alpha^A0_0@SSE -> 0.5059619123998637
+2026-07-29 22:02:47,614 INFO         - B_s->phi::alpha^A0_1@SSE -> -1.1440640543760554
+2026-07-29 22:02:47,614 INFO         - B_s->phi::alpha^A0_2@SSE -> 0.6981234779635548
+2026-07-29 22:02:47,614 INFO         - B_s->phi::alpha^A1_1@SSE -> 0.1457443959545367
+2026-07-29 22:02:47,615 INFO         - B_s->phi::alpha^A1_2@SSE -> 1.1400563975590874
+2026-07-29 22:02:47,615 INFO         - B_s->phi::alpha^A12_1@SSE -> 0.30543375309384446
+2026-07-29 22:02:47,615 INFO         - B_s->phi::alpha^A12_2@SSE -> 0.07071324666328138
+2026-07-29 22:02:47,616 INFO         - B_s->phi::alpha^V_0@SSE -> 0.4788841250009058
+2026-07-29 22:02:47,616 INFO         - B_s->phi::alpha^V_1@SSE -> -1.0928295442388636
+2026-07-29 22:02:47,616 INFO         - B_s->phi::alpha^V_2@SSE -> 1.825281973588683
+2026-07-29 22:02:47,616 INFO         - B_s->phi::alpha^T1_0@SSE -> 0.4086138353907083
+2026-07-29 22:02:47,617 INFO         - B_s->phi::alpha^T1_1@SSE -> -0.6497883326994853
+2026-07-29 22:02:47,617 INFO         - B_s->phi::alpha^T1_2@SSE -> 0.14404218863985818
+2026-07-29 22:02:47,617 INFO         - B_s->phi::alpha^T2_1@SSE -> 0.331053417177136
+2026-07-29 22:02:47,617 INFO         - B_s->phi::alpha^T2_2@SSE -> 1.1684175812771889
+2026-07-29 22:02:47,618 INFO         - B_s->phi::alpha^T23_1@SSE -> 0.631555640424196
+2026-07-29 22:02:47,618 INFO         - B_s->phi::alpha^T23_2@SSE -> 1.5457559814918431
+2026-07-29 22:02:47,618 INFO       total chi^2 = 0.91
+2026-07-29 22:02:47,618 INFO       total dof   = 30
+2026-07-29 22:02:47,619 INFO       p value     = 100.00%
+2026-07-29 22:02:47,619 INFO       individual test statistics:
+2026-07-29 22:02:47,620 INFO         - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A: chi^2 / dof = 0.51 / 33, local_pvalue = 100.00%
+2026-07-29 22:02:47,621 INFO         - B_s->phi::T_1+T_2+T_23@HLMW:2015A: chi^2 / dof = 0.09 / 6, local_pvalue = 100.00%
+2026-07-29 22:02:47,621 INFO         - B_s->phi::V+A_0+A_1+A_12@HLMW:2015A: chi^2 / dof = 0.32 / 8, local_pvalue = 100.00%
+2026-07-29 22:02:47,627 SUCCESS    Final p value is 100.00%, indicating a successful fit

@@ -1,0 +1,81 @@
+dof: 7
+format_version: 2
+global_chi2: 3.192187076735015
+mode:
+- 0.6543559946279228
+- -4.252438214217123
+- -11.399465964658912
+- -0.6155498521589928
+- -8.7902919511939
+- -0.4980327300617784
+- -4.050251698779999
+- 0.8828905794511672
+- -4.266765488500772
+- 15.0
+- 0.7272340264601237
+- -3.693646124255561
+- -5.731616278594078
+- -0.6775962374653353
+- -12.366791756121216
+- -1.351512541123717
+- -15.0
+parameters:
+- max: 0.81613
+  min: 0.49383
+  name: B_s->D_s^*::alpha^A0_0@SSE
+- max: 0.95023
+  min: -8.88242
+  name: B_s->D_s^*::alpha^A0_1@SSE
+- max: 40.98251
+  min: -42.85878
+  name: B_s->D_s^*::alpha^A0_2@SSE
+- max: 2.0924
+  min: -2.70637
+  name: B_s->D_s^*::alpha^A1_1@SSE
+- max: 34.0188
+  min: -39.80179
+  name: B_s->D_s^*::alpha^A1_2@SSE
+- max: 0.60359
+  min: -1.50191
+  name: B_s->D_s^*::alpha^A12_1@SSE
+- max: 32.02782
+  min: -31.88571
+  name: B_s->D_s^*::alpha^A12_2@SSE
+- max: 1.12029
+  min: 0.64291
+  name: B_s->D_s^*::alpha^V_0@SSE
+- max: 3.54379
+  min: -12.6654
+  name: B_s->D_s^*::alpha^V_1@SSE
+- max: 43.16884
+  min: -42.5991
+  name: B_s->D_s^*::alpha^V_2@SSE
+- max: 0.82741
+  min: 0.63943
+  name: B_s->D_s^*::alpha^T1_0@SSE
+- max: 0.00487
+  min: -6.41544
+  name: B_s->D_s^*::alpha^T1_1@SSE
+- max: 41.51773
+  min: -38.22783
+  name: B_s->D_s^*::alpha^T1_2@SSE
+- max: 2.12725
+  min: -2.73654
+  name: B_s->D_s^*::alpha^T2_1@SSE
+- max: 27.21262
+  min: -37.13867
+  name: B_s->D_s^*::alpha^T2_2@SSE
+- max: 4.88667
+  min: -7.67838
+  name: B_s->D_s^*::alpha^T23_1@SSE
+- max: 43.31025
+  min: -43.2013
+  name: B_s->D_s^*::alpha^T23_2@SSE
+pvalue: 0.8666723824352975
+test_statistics:
+- local_pvalue: 0.9999998683279205
+  name: B_s->D_s^*::FormFactors@HPQCD:2023A
+  type: chi^2
+  value: 3.192187076735015
+type: Mode
+version: 1.0.20

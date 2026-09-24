@@ -1,0 +1,155 @@
+---
+title: '{{ metadata.title }}'
+{% if metadata.id %}
+id: '{{ metadata.id }}'
+{% endif %}
+{% if metadata.authors %}
+authors:
+{% for a in metadata.authors %}
+  - name: '{{ a.name }}'
+{% if a.affiliation %}
+    affiliation: '{{ a.affiliation }}'
+{% endif %}
+{% if a.email %}
+    email: '{{ a.email }}'
+{% endif %}
+{% endfor %}
+{% endif %}
+---
+
+# Overview
+
+This report was generated with EOS v{{ eos.version }} from the analysis file
+`{{ analysis_file.analysis_file if analysis_file.analysis_file else 'analysis.yaml' }}`.
+It documents the determination of the `SSE` form-factor coefficients for
+{{ analysis | length }} posterior{{ 's' if analysis | length != 1 }}, grouped by
+transition type. For each posterior it lists the local $p$ values of the individual
+constraints (and the global $p$ value where the fit is over-constrained), together
+with the posterior-predicted form factors overlaid on the input constraints.
+
+{# Classify every posterior by the structure of its varied SSE coefficients:
+   baryonic 1/2^+->1/2^+ coefficients are written alpha^(pol,current)_n (parenthesis),
+   the P->P coefficients are alpha^f{+,0,T}_n, and everything else is P->V. #}
+{% set groups = namespace(pp=[], pv=[], hh=[]) %}
+{% for posterior in analysis %}
+{% set joined = posterior.samples.varied_parameters | map(attribute='name') | join(' ') if posterior.samples else '' %}
+{% if 'alpha^(' in joined %}
+{% set _ = groups.hh.append(posterior) %}
+{% elif 'alpha^f' in joined %}
+{% set _ = groups.pp.append(posterior) %}
+{% else %}
+{% set _ = groups.pv.append(posterior) %}
+{% endif %}
+{% endfor %}
+
+{% set ordered = [
+  ('Pseudoscalar to pseudoscalar ($P \\to P$)', groups.pp),
+  ('Pseudoscalar to vector ($P \\to V$)',       groups.pv),
+  ('Spin-1/2 to spin-1/2 ($1/2^+ \\to 1/2^+$)', groups.hh)
+] %}
+{% for group_title, posteriors in ordered %}
+{% if posteriors %}
+# {{ group_title }}
+
+{% for posterior in posteriors %}
+## Posterior `{{ posterior.name }}`
+
+{% set joined = posterior.samples.varied_parameters | map(attribute='name') | join(' ') if posterior.samples else '' %}
+{% set is_baryon = 'alpha^(' in joined %}
+{% set is_pp = (not is_baryon) and ('alpha^f' in joined) %}
+{#- Collect the constraints of the identically-named likelihood and detect a PDG rescale. -#}
+{% set resc = namespace(factor=none) %}
+{% set constraints = [] %}
+{% if posterior.name in analysis_file._likelihoods %}
+{% for c in analysis_file._likelihoods[posterior.name].constraints %}
+{% set _ = constraints.append(c.constraint) %}
+{% if ';rescale-factor=' in c.constraint %}
+{% set resc.factor = c.constraint.split(';rescale-factor=')[1] %}
+{% endif %}
+{% endfor %}
+{% for c in analysis_file._likelihoods[posterior.name].manual_constraints %}
+{% set _ = constraints.append(c.name) %}
+{% endfor %}
+{% endif %}
+{#- Whether the tensor form factors are constrained/varied for this transition. -#}
+{% set no_tensor = (is_pp and 'alpha^fT' not in joined) or (is_baryon and ',T)' not in joined and ',T5)' not in joined) %}
+
+{% if posterior.samples %}
+This posterior varies {{ posterior.samples.varied_parameters | length }} `SSE` coefficient{{ 's' if posterior.samples.varied_parameters | length != 1 }}.
+{% endif %}
+{% if constraints %}
+It is constrained by:
+
+{% for c in constraints %}
+- `{{ c }}`
+{% endfor %}
+{% endif %}
+
+{% if no_tensor %}
+> **Note.** No (lattice or LCSR) tensor form-factor data are available for this
+> transition. The tensor coefficients are therefore not varied and retain their
+> database default values; the tensor form factors below are not determined by this fit.
+{% endif %}
+{% if resc.factor is not none %}
+> **Note.** The lattice inputs for this transition are mutually inconsistent. Their
+> covariances have been rescaled by the PDG factor $\mathcal{S}^2 = {{ resc.factor }}$
+> (scale factor $\mathcal{S} = {{ '%.2f' | format((resc.factor | float) ** 0.5) }}$),
+> as indicated by the `;rescale-factor` option on the constraints above.
+{% endif %}
+
+### Goodness of fit
+
+{% if posterior.has_mode %}
+{% set mode = posterior.mode %}
+{% set overconstrained = mode.global_chi2 is not none and mode.dof is not none and mode.dof > 0 %}
+{% if overconstrained %}
+The table lists the local $p$ value of each constraint together with the global $p$
+value and total $\chi^2$ of the best-fit point.
+{% else %}
+The table lists the local $p$ value of each constraint. The fit is saturated
+(the number of data points equals the number of coefficients, d.o.f. $= 0$), so no
+global $p$ value is defined.
+{% endif %}
+
+| Constraint | local $p$ value |
+|:-----------|----------------:|
+{% for name, pvalue in mode.local_pvalues.items() %}
+| `{{ name }}` | {{ '%.1f' | format(100 * pvalue) }}% |
+{% endfor %}
+{% if overconstrained %}
+| **total** ($\chi^2$ / d.o.f. $= {{ '%.2f' | format(mode.global_chi2) }}$ / {{ mode.dof }}) | **{{ '%.1f' | format(100 * mode.pvalue) }}%** |
+{% endif %}
+{% else %}
+No mode information has been recorded for this posterior. Run the `find-mode` task to produce it.
+{% endif %}
+
+### Posterior-predicted form factors
+
+{% set figs = [] %}
+{% for fn in analysis_file._figures.keys() | sort %}
+{% if fn.startswith(posterior.name ~ '-') and fn != posterior.name ~ '-marginals' %}
+{% set _ = figs.append(fn) %}
+{% endif %}
+{% endfor %}
+{% if figs %}
+The bands show the posterior-predicted form factors (`SSE`); the points show the
+constraints entering the fit.
+
+{% for fn in figs %}
+![Posterior-predicted form factor for `{{ posterior.name }}` (`{{ fn }}`).](../figures/{{ fn }}.pdf)
+
+{% endfor %}
+{% else %}
+No form-factor figures are recorded for this posterior.
+{% endif %}
+
+{#- Flush the accumulated image floats after each posterior so that LaTeX does not
+    run out of float slots ("Too many unprocessed floats") for the many figures.
+    The raw block is emitted for the PDF (LaTeX) path only and ignored otherwise. -#}
+```{=latex}
+\clearpage
+```
+
+{% endfor %}
+{% endif %}
+{% endfor %}

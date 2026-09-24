@@ -1,0 +1,73 @@
+dof: 2
+format_version: 2
+global_chi2: 0.006788787103037652
+mode:
+- 0.7150308908450078
+- -2.323325940191902
+- 7.777670396479536
+- 1.1896191548758914
+- -2.7473298780357545
+- 7.1330305287333315
+- -1.8462754208902594
+- 5.35944511723517
+- 0.607372654818385
+- -1.3026766366891012
+- 10.433848456755948
+- -1.2962956020484397
+- 4.647073670819376
+- -1.7894083517429975
+- 8.858127451186432
+parameters:
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(0,V)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(0,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(0,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(perp,V)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(perp,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(perp,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(t,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(t,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(0,A)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(0,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(0,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(perp,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(perp,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(t,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->Lambda::alpha^(t,A)_2@SSE
+pvalue: 0.9966113608894853
+test_statistics:
+- local_pvalue: 1.0
+  name: Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A
+  type: chi^2
+  value: 0.006788787103037652
+type: Mode
+version: 1.0.20

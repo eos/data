@@ -1,0 +1,49 @@
+dof: 9
+format_version: 2
+global_chi2: 7.057529042148646
+mode:
+- 0.40021240026376614
+- -0.700914086078829
+- -0.5205984382929648
+- 0.031963161800294695
+- -0.3508475591465482
+- 0.3917908759215686
+- -0.6947250510545895
+- -0.6545261690382008
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^f+_0@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^f+_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^f+_2@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^f0_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^f0_2@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^fT_0@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^fT_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B->pi::alpha^fT_2@SSE
+pvalue: 0.6311297312844586
+test_statistics:
+- local_pvalue: 0.9970475249062382
+  name: B->pi::f_++f_0+f_T@FNAL+MILC:2015C
+  type: chi^2
+  value: 2.3150202434120595
+- local_pvalue: 0.577236700623436
+  name: B->pi::f_++f_0@RBC+UKQCD:2015A
+  type: chi^2
+  value: 4.742508798736587
+type: Mode
+version: 1.0.20

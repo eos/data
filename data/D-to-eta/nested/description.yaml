@@ -1,0 +1,27 @@
+parameters:
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^f+_0@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^f+_1@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^f+_2@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^f0_1@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^f0_2@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^fT_0@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^fT_1@SSE
+- max: 0.0
+  min: 0.0
+  name: D->eta::alpha^fT_2@SSE
+type: DynestyResults
+version: 1.0.20

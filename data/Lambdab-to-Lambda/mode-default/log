@@ -1,0 +1,71 @@
+2026-07-27 21:37:10,526 INFO       Creating analysis with 25 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-27 21:37:10,526 DEBUG      priors:
+2026-07-27 21:37:10,527 DEBUG       - Lambda_b->Lambda::alpha^(0,V)_0@SSE (uniform)
+2026-07-27 21:37:10,527 DEBUG       - Lambda_b->Lambda::alpha^(0,V)_1@SSE (uniform)
+2026-07-27 21:37:10,527 DEBUG       - Lambda_b->Lambda::alpha^(0,V)_2@SSE (uniform)
+2026-07-27 21:37:10,528 DEBUG       - Lambda_b->Lambda::alpha^(perp,V)_0@SSE (uniform)
+2026-07-27 21:37:10,528 DEBUG       - Lambda_b->Lambda::alpha^(perp,V)_1@SSE (uniform)
+2026-07-27 21:37:10,528 DEBUG       - Lambda_b->Lambda::alpha^(perp,V)_2@SSE (uniform)
+2026-07-27 21:37:10,528 DEBUG       - Lambda_b->Lambda::alpha^(t,V)_1@SSE (uniform)
+2026-07-27 21:37:10,529 DEBUG       - Lambda_b->Lambda::alpha^(t,V)_2@SSE (uniform)
+2026-07-27 21:37:10,529 DEBUG       - Lambda_b->Lambda::alpha^(0,A)_0@SSE (uniform)
+2026-07-27 21:37:10,529 DEBUG       - Lambda_b->Lambda::alpha^(0,A)_1@SSE (uniform)
+2026-07-27 21:37:10,529 DEBUG       - Lambda_b->Lambda::alpha^(0,A)_2@SSE (uniform)
+2026-07-27 21:37:10,530 DEBUG       - Lambda_b->Lambda::alpha^(perp,A)_1@SSE (uniform)
+2026-07-27 21:37:10,530 DEBUG       - Lambda_b->Lambda::alpha^(perp,A)_2@SSE (uniform)
+2026-07-27 21:37:10,530 DEBUG       - Lambda_b->Lambda::alpha^(t,A)_1@SSE (uniform)
+2026-07-27 21:37:10,530 DEBUG       - Lambda_b->Lambda::alpha^(t,A)_2@SSE (uniform)
+2026-07-27 21:37:10,531 DEBUG       - Lambda_b->Lambda::alpha^(0,T)_0@SSE (uniform)
+2026-07-27 21:37:10,531 DEBUG       - Lambda_b->Lambda::alpha^(0,T)_1@SSE (uniform)
+2026-07-27 21:37:10,531 DEBUG       - Lambda_b->Lambda::alpha^(0,T)_2@SSE (uniform)
+2026-07-27 21:37:10,532 DEBUG       - Lambda_b->Lambda::alpha^(perp,T)_1@SSE (uniform)
+2026-07-27 21:37:10,532 DEBUG       - Lambda_b->Lambda::alpha^(perp,T)_2@SSE (uniform)
+2026-07-27 21:37:10,533 DEBUG       - Lambda_b->Lambda::alpha^(0,T5)_1@SSE (uniform)
+2026-07-27 21:37:10,533 DEBUG       - Lambda_b->Lambda::alpha^(0,T5)_2@SSE (uniform)
+2026-07-27 21:37:10,533 DEBUG       - Lambda_b->Lambda::alpha^(perp,T5)_0@SSE (uniform)
+2026-07-27 21:37:10,533 DEBUG       - Lambda_b->Lambda::alpha^(perp,T5)_1@SSE (uniform)
+2026-07-27 21:37:10,534 DEBUG       - Lambda_b->Lambda::alpha^(perp,T5)_2@SSE (uniform)
+2026-07-27 21:37:10,534 DEBUG      constraints:
+2026-07-27 21:37:10,534 DEBUG       - Lambda_b->Lambda::f_time+long+perp^V+A+T+T5[nominal,no-prior]@DM:2016A
+2026-07-27 21:37:10,535 DEBUG      manual_constraints:
+2026-07-27 21:37:10,535 DEBUG      fixed_parameters:
+2026-07-27 21:37:11,079 INPROGRESS Beginning minimization in 3 points
+2026-07-27 21:37:11,079 INFO       Using a starting point based on the existing importance samples
+2026-07-27 21:37:11,097 INFO       Using starting point [ 0.2752, -1.018, 2.483, 0.3297, -1.877, -1.101, -0.7787, 0.8989, 0.2517, -0.8008, 0.6648, -0.7991, 1.322, -0.9291, 0.6619, 0.3708, -1.185, 0.5347, -1.276, 1.764, -0.5017, 0.8152, 0.2579, -0.9071, -0.5452 ]
+2026-07-27 21:37:11,381 SUCCESS    Optimization goal achieved after 914 function evaluations
+2026-07-27 21:37:11,382 INFO       First optimization finished
+2026-07-27 21:37:11,393 SUCCESS    Optimization goal achieved after 37 function evaluations
+2026-07-27 21:37:11,404 SUCCESS    Optimization goal achieved after 37 function evaluations
+2026-07-27 21:37:11,405 COMPLETED  ... optimization finished
+2026-07-27 21:37:11,405 INFO       The best-fit point is:
+2026-07-27 21:37:11,405 INFO         - Lambda_b->Lambda::alpha^(0,V)_0@SSE -> 0.28846962092647144
+2026-07-27 21:37:11,405 INFO         - Lambda_b->Lambda::alpha^(0,V)_1@SSE -> -1.1658500226825517
+2026-07-27 21:37:11,406 INFO         - Lambda_b->Lambda::alpha^(0,V)_2@SSE -> 0.12440242650489532
+2026-07-27 21:37:11,406 INFO         - Lambda_b->Lambda::alpha^(perp,V)_0@SSE -> 0.35535782187714887
+2026-07-27 21:37:11,406 INFO         - Lambda_b->Lambda::alpha^(perp,V)_1@SSE -> -1.4497126503743853
+2026-07-27 21:37:11,406 INFO         - Lambda_b->Lambda::alpha^(perp,V)_2@SSE -> 0.155416787990893
+2026-07-27 21:37:11,406 INFO         - Lambda_b->Lambda::alpha^(t,V)_1@SSE -> -0.880789511285472
+2026-07-27 21:37:11,407 INFO         - Lambda_b->Lambda::alpha^(t,V)_2@SSE -> -0.21593075081074384
+2026-07-27 21:37:11,407 INFO         - Lambda_b->Lambda::alpha^(0,A)_0@SSE -> 0.2519632815697161
+2026-07-27 21:37:11,407 INFO         - Lambda_b->Lambda::alpha^(0,A)_1@SSE -> -0.8827480146990575
+2026-07-27 21:37:11,407 INFO         - Lambda_b->Lambda::alpha^(0,A)_2@SSE -> 0.20060279839222267
+2026-07-27 21:37:11,408 INFO         - Lambda_b->Lambda::alpha^(perp,A)_1@SSE -> -0.992127931840971
+2026-07-27 21:37:11,408 INFO         - Lambda_b->Lambda::alpha^(perp,A)_2@SSE -> 0.21172225923687785
+2026-07-27 21:37:11,408 INFO         - Lambda_b->Lambda::alpha^(t,A)_1@SSE -> -1.0647041294418536
+2026-07-27 21:37:11,408 INFO         - Lambda_b->Lambda::alpha^(t,A)_2@SSE -> -0.03513446702025192
+2026-07-27 21:37:11,408 INFO         - Lambda_b->Lambda::alpha^(0,T)_0@SSE -> 0.35986404731516164
+2026-07-27 21:37:11,409 INFO         - Lambda_b->Lambda::alpha^(0,T)_1@SSE -> -1.2262920202172194
+2026-07-27 21:37:11,409 INFO         - Lambda_b->Lambda::alpha^(0,T)_2@SSE -> 0.12998971928605643
+2026-07-27 21:37:11,409 INFO         - Lambda_b->Lambda::alpha^(perp,T)_1@SSE -> -0.9995197323101997
+2026-07-27 21:37:11,409 INFO         - Lambda_b->Lambda::alpha^(perp,T)_2@SSE -> 0.1378376370865802
+2026-07-27 21:37:11,409 INFO         - Lambda_b->Lambda::alpha^(0,T5)_1@SSE -> -0.7466203181222509
+2026-07-27 21:37:11,410 INFO         - Lambda_b->Lambda::alpha^(0,T5)_2@SSE -> 0.18500843836658112
+2026-07-27 21:37:11,410 INFO         - Lambda_b->Lambda::alpha^(perp,T5)_0@SSE -> 0.2546745883627683
+2026-07-27 21:37:11,410 INFO         - Lambda_b->Lambda::alpha^(perp,T5)_1@SSE -> -0.7800605525262128
+2026-07-27 21:37:11,410 INFO         - Lambda_b->Lambda::alpha^(perp,T5)_2@SSE -> 0.1894673696149647
+2026-07-27 21:37:11,410 INFO       total chi^2 = 0.00
+2026-07-27 21:37:11,411 INFO       total dof   = 0
+2026-07-27 21:37:11,413 INFO       p value     = nan%
+2026-07-27 21:37:11,414 INFO       individual test statistics:
+2026-07-27 21:37:11,415 INFO         - Lambda_b->Lambda::f_time+long+perp^V+A+T+T5[nominal,no-prior]@DM:2016A: chi^2 / dof = 0.00 / 25, local_pvalue = 100.00%
+2026-07-27 21:37:11,421 SUCCESS    Final p value is nan%, indicating a successful fit

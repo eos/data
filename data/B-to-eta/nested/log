@@ -1,0 +1,29 @@
+2026-07-29 11:30:52,524 INPROGRESS Beginning sampling...
+2026-07-29 11:30:52,603 INFO       Creating analysis with 8 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-29 11:30:52,603 DEBUG      priors:
+2026-07-29 11:30:52,603 DEBUG       - B->eta::alpha^f+_0@SSE (uniform)
+2026-07-29 11:30:52,604 DEBUG       - B->eta::alpha^f+_1@SSE (uniform)
+2026-07-29 11:30:52,604 DEBUG       - B->eta::alpha^f+_2@SSE (uniform)
+2026-07-29 11:30:52,604 DEBUG       - B->eta::alpha^f0_1@SSE (uniform)
+2026-07-29 11:30:52,604 DEBUG       - B->eta::alpha^f0_2@SSE (uniform)
+2026-07-29 11:30:52,605 DEBUG       - B->eta::alpha^fT_0@SSE (uniform)
+2026-07-29 11:30:52,605 DEBUG       - B->eta::alpha^fT_1@SSE (uniform)
+2026-07-29 11:30:52,605 DEBUG       - B->eta::alpha^fT_2@SSE (uniform)
+2026-07-29 11:30:52,605 DEBUG      constraints:
+2026-07-29 11:30:52,605 DEBUG       - B->eta::f_0+f_++f_T@MR:2025A
+2026-07-29 11:30:52,606 DEBUG      manual_constraints:
+2026-07-29 11:30:52,606 DEBUG      fixed_parameters:
+2026-07-29 11:31:08,144 INFO       iteration 6447 | batch: 0 | bound: 13 | nc: 28 | ncall: 154047 | eff(%):  4.174 | loglstar:   -inf < 34.999 <    inf | logz: 18.706 +/-  0.194 | dlogz:  5.063 >  0.200
+2026-07-29 11:31:23,144 INFO       iteration 11097 | batch: 1 | bound: 6 | nc: 28 | ncall: 273447 | eff(%):  3.899 | loglstar: 35.827 < 39.786 <    inf | logz: 21.005 +/-  0.276 | stop:  3.876
+2026-07-29 11:31:38,144 INFO       iteration 15874 | batch: 6 | bound: 1 | nc: 28 | ncall: 407203 | eff(%):  3.794 | loglstar: 33.040 < 33.108 < 38.668 | logz: 20.993 +/-  0.130 | stop:  1.166
+2026-07-29 11:31:53,147 INFO       iteration 22613 | batch: 7 | bound: 6 | nc: 28 | ncall: 563894 | eff(%):  4.007 | loglstar:   -inf < -37.314 <    inf | logz: 20.982 +/-  0.119 | stop:    nan
+2026-07-29 11:32:08,149 INFO       iteration 27751 | batch: 7 | bound: 16 | nc: 28 | ncall: 707758 | eff(%):  3.918 | loglstar:   -inf < 38.121 <    inf | logz: 20.982 +/-  0.119 | stop:    nan
+2026-07-29 11:32:23,151 INFO       iteration 34472 | batch: 8 | bound: 7 | nc: 28 | ncall: 850236 | eff(%):  4.052 | loglstar:   -inf < -14.540 <    inf | logz: 20.754 +/-  0.105 | stop:    nan
+2026-07-29 11:32:38,153 INFO       iteration 39548 | batch: 8 | bound: 17 | nc: 28 | ncall: 992364 | eff(%):  3.983 | loglstar:   -inf < 38.791 <    inf | logz: 20.754 +/-  0.105 | stop:    nan
+2026-07-29 11:32:53,155 INFO       iteration 46496 | batch: 9 | bound: 9 | nc: 28 | ncall: 1140383 | eff(%):  4.075 | loglstar:   -inf <  8.124 <    inf | logz: 20.748 +/-  0.095 | stop:    nan
+2026-07-29 11:33:08,156 INFO       iteration 51444 | batch: 9 | bound: 19 | nc: 28 | ncall: 1278927 | eff(%):  4.021 | loglstar:   -inf < 39.382 <    inf | logz: 20.748 +/-  0.095 | stop:    nan
+2026-07-29 11:33:23,159 INFO       iteration 58453 | batch: 10 | bound: 10 | nc: 28 | ncall: 1429171 | eff(%):  4.089 | loglstar:   -inf < 19.455 <    inf | logz: 20.734 +/-  0.089 | stop:    nan
+2026-07-29 11:33:38,270 INFO       iteration 63617 | batch: 11 | bound: 0 | nc: 1 | ncall: 1560263 | eff(%):  4.077 | loglstar:   -inf < -7310.487 <    inf | logz: 20.650 +/-  0.084 | stop:    nan
+2026-07-29 11:33:53,271 INFO       iteration 70449 | batch: 11 | bound: 10 | nc: 28 | ncall: 1717761 | eff(%):  4.100 | loglstar:   -inf < 27.193 <    inf | logz: 20.650 +/-  0.084 | stop:    nan
+2026-07-29 11:34:06,578 COMPLETED  ...finished!
+2026-07-29 11:34:06,578 INFO       Finished sampling with 74899 samples (effective sample size 27886) and evidence estimate 20.66 +/- 0.08

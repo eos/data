@@ -1,0 +1,57 @@
+dof: 25
+format_version: 2
+global_chi2: 19.685940740261298
+mode:
+- 0.402173176872753
+- -0.7098970826954623
+- 0.6460963834866478
+- 0.2230246253896435
+- -0.06078411664321959
+- 0.3625065500396847
+- -0.31964284894526607
+- -0.523222960534028
+parameters:
+- max: 0.43999
+  min: 0.23403
+  name: B_s->K::alpha^f+_0@SSE
+- max: -0.74946
+  min: -1.23465
+  name: B_s->K::alpha^f+_1@SSE
+- max: 3.2531
+  min: 1.18523
+  name: B_s->K::alpha^f+_2@SSE
+- max: 0.39364
+  min: 0.00696
+  name: B_s->K::alpha^f0_1@SSE
+- max: -0.16072
+  min: -1.52229
+  name: B_s->K::alpha^f0_2@SSE
+- max: 1.52836
+  min: -0.91005
+  name: B_s->K::alpha^fT_0@SSE
+- max: 13.49582
+  min: -14.42213
+  name: B_s->K::alpha^fT_1@SSE
+- max: 39.33452
+  min: -39.68093
+  name: B_s->K::alpha^fT_2@SSE
+pvalue: 0.7630996194150526
+test_statistics:
+- local_pvalue: 0.9999999387795747
+  name: B_s->K::FormFactors[f_+,f_0,f_T]@GvDV:2020A
+  type: chi^2
+  value: 0.6565770456213814
+- local_pvalue: 0.07516814928731363
+  name: B_s->K::f_++f_0@FNAL+MILC:2019A
+  type: chi^2
+  value: 14.262777508258477
+- local_pvalue: 0.9938164447500336
+  name: B_s->K::f_++f_0@HPQCD:2014A
+  type: chi^2
+  value: 0.730179804170149
+- local_pvalue: 0.5441863257651698
+  name: B_s->K::f_++f_0@RBC+UKQCD:2023A
+  type: chi^2
+  value: 4.036406382211291
+type: Mode
+version: 1.0.20

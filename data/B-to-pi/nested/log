@@ -1,0 +1,33 @@
+2026-07-23 19:04:53,813 INPROGRESS Beginning sampling...
+2026-07-23 19:04:53,884 INFO       Creating analysis with 8 priors, 2 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-23 19:04:53,884 DEBUG      priors:
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^f+_0@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^f+_1@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^f+_2@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^f0_1@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^f0_2@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^fT_0@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^fT_1@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG       - B->pi::alpha^fT_2@SSE (uniform)
+2026-07-23 19:04:53,885 DEBUG      constraints:
+2026-07-23 19:04:53,885 DEBUG       - B->pi::f_++f_0+f_T@FNAL+MILC:2015C
+2026-07-23 19:04:53,885 DEBUG       - B->pi::f_++f_0@RBC+UKQCD:2015A
+2026-07-23 19:04:53,886 DEBUG      manual_constraints:
+2026-07-23 19:04:53,886 DEBUG      fixed_parameters:
+2026-07-23 19:05:09,437 INFO       iteration 5170 | batch: 0 | bound: 11 | nc: 28 | ncall: 120328 | eff(%):  4.282 | loglstar:   -inf < 36.687 <    inf | logz: 23.726 +/-  0.169 | dlogz:  5.731 >  0.200
+2026-07-23 19:05:24,438 INFO       iteration 9352 | batch: 1 | bound: 4 | nc: 28 | ncall: 226624 | eff(%):  3.932 | loglstar: 38.166 < 41.352 <    inf | logz: 26.105 +/-  0.248 | stop:  3.567
+2026-07-23 19:05:39,440 INFO       iteration 13218 | batch: 4 | bound: 2 | nc: 28 | ncall: 334872 | eff(%):  3.819 | loglstar: 36.045 < 37.816 < 40.305 | logz: 26.131 +/-  0.133 | stop:  1.519
+2026-07-23 19:05:54,440 INFO       iteration 18329 | batch: 7 | bound: 0 | nc: 5 | ncall: 455163 | eff(%):  4.022 | loglstar:   -inf < -166.769 <    inf | logz: 26.084 +/-  0.109 | stop:    nan
+2026-07-23 19:06:09,441 INFO       iteration 23189 | batch: 7 | bound: 8 | nc: 28 | ncall: 580750 | eff(%):  3.990 | loglstar:   -inf < 34.407 <    inf | logz: 26.084 +/-  0.109 | stop:    nan
+2026-07-23 19:06:24,443 INFO       iteration 28726 | batch: 8 | bound: 0 | nc: 30 | ncall: 688408 | eff(%):  4.170 | loglstar:   -inf < -55.175 <    inf | logz: 26.222 +/-  0.095 | stop:    nan
+2026-07-23 19:06:39,445 INFO       iteration 33101 | batch: 8 | bound: 9 | nc: 28 | ncall: 811659 | eff(%):  4.076 | loglstar:   -inf < 35.136 <    inf | logz: 26.222 +/-  0.095 | stop:    nan
+2026-07-23 19:06:54,447 INFO       iteration 38729 | batch: 9 | bound: 1 | nc: 28 | ncall: 924153 | eff(%):  4.188 | loglstar:   -inf < -31.566 <    inf | logz: 26.225 +/-  0.087 | stop:    nan
+2026-07-23 19:07:09,450 INFO       iteration 42987 | batch: 9 | bound: 9 | nc: 28 | ncall: 1043377 | eff(%):  4.118 | loglstar:   -inf < 35.665 <    inf | logz: 26.225 +/-  0.087 | stop:    nan
+2026-07-23 19:07:24,451 INFO       iteration 48740 | batch: 10 | bound: 1 | nc: 28 | ncall: 1156721 | eff(%):  4.212 | loglstar:   -inf < -23.966 <    inf | logz: 26.225 +/-  0.081 | stop:    nan
+2026-07-23 19:07:39,455 INFO       iteration 53124 | batch: 10 | bound: 10 | nc: 28 | ncall: 1279473 | eff(%):  4.150 | loglstar:   -inf < 36.882 <    inf | logz: 26.225 +/-  0.081 | stop:    nan
+2026-07-23 19:07:54,456 INFO       iteration 58920 | batch: 11 | bound: 2 | nc: 28 | ncall: 1395045 | eff(%):  4.222 | loglstar:   -inf < -11.367 <    inf | logz: 26.195 +/-  0.076 | stop:    nan
+2026-07-23 19:08:09,459 INFO       iteration 63116 | batch: 11 | bound: 10 | nc: 28 | ncall: 1512533 | eff(%):  4.171 | loglstar:   -inf < 37.219 <    inf | logz: 26.195 +/-  0.076 | stop:    nan
+2026-07-23 19:08:24,461 INFO       iteration 68842 | batch: 12 | bound: 2 | nc: 28 | ncall: 1625678 | eff(%):  4.233 | loglstar:   -inf < -10.731 <    inf | logz: 26.169 +/-  0.072 | stop:    nan
+2026-07-23 19:08:39,464 INFO       iteration 73067 | batch: 12 | bound: 10 | nc: 28 | ncall: 1743978 | eff(%):  4.188 | loglstar:   -inf < 37.264 <    inf | logz: 26.169 +/-  0.072 | stop:    nan
+2026-07-23 19:08:50,570 COMPLETED  ...finished!
+2026-07-23 19:08:50,575 INFO       Finished sampling with 76313 samples (effective sample size 33480) and evidence estimate 26.13 +/- 0.07

@@ -1,0 +1,43 @@
+2026-07-29 15:11:34,827 INFO       Creating analysis with 8 priors, 4 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-29 15:11:34,827 DEBUG      priors:
+2026-07-29 15:11:34,827 DEBUG       - B_s->K::alpha^f+_0@SSE (uniform)
+2026-07-29 15:11:34,828 DEBUG       - B_s->K::alpha^f+_1@SSE (uniform)
+2026-07-29 15:11:34,828 DEBUG       - B_s->K::alpha^f+_2@SSE (uniform)
+2026-07-29 15:11:34,828 DEBUG       - B_s->K::alpha^f0_1@SSE (uniform)
+2026-07-29 15:11:34,828 DEBUG       - B_s->K::alpha^f0_2@SSE (uniform)
+2026-07-29 15:11:34,828 DEBUG       - B_s->K::alpha^fT_0@SSE (uniform)
+2026-07-29 15:11:34,829 DEBUG       - B_s->K::alpha^fT_1@SSE (uniform)
+2026-07-29 15:11:34,829 DEBUG       - B_s->K::alpha^fT_2@SSE (uniform)
+2026-07-29 15:11:34,829 DEBUG      constraints:
+2026-07-29 15:11:34,829 DEBUG       - B_s->K::f_++f_0@FNAL+MILC:2019A;rescale-factor=11.311
+2026-07-29 15:11:34,829 DEBUG       - B_s->K::f_++f_0@HPQCD:2014A;rescale-factor=11.311
+2026-07-29 15:11:34,829 DEBUG       - B_s->K::f_++f_0@RBC+UKQCD:2023A;rescale-factor=11.311
+2026-07-29 15:11:34,830 DEBUG       - B_s->K::FormFactors[f_+,f_0,f_T]@GvDV:2020A
+2026-07-29 15:11:34,830 DEBUG      manual_constraints:
+2026-07-29 15:11:34,830 DEBUG      fixed_parameters:
+2026-07-29 15:11:35,409 INPROGRESS Beginning minimization in 3 points
+2026-07-29 15:11:35,409 INFO       Using a starting point based on the existing importance samples
+2026-07-29 15:11:35,421 INFO       Using starting point [ 0.402, -0.7346, 0.5888, 0.2136, -0.08568, -0.06836, 3.676, -10.15 ]
+2026-07-29 15:11:35,481 SUCCESS    Optimization goal achieved after 302 function evaluations
+2026-07-29 15:11:35,481 INFO       First optimization finished
+2026-07-29 15:11:35,513 SUCCESS    Optimization goal achieved after 164 function evaluations
+2026-07-29 15:11:35,546 SUCCESS    Optimization goal achieved after 174 function evaluations
+2026-07-29 15:11:35,547 COMPLETED  ... optimization finished
+2026-07-29 15:11:35,547 INFO       The best-fit point is:
+2026-07-29 15:11:35,547 INFO         - B_s->K::alpha^f+_0@SSE -> 0.402173176872753
+2026-07-29 15:11:35,548 INFO         - B_s->K::alpha^f+_1@SSE -> -0.7098970826954623
+2026-07-29 15:11:35,548 INFO         - B_s->K::alpha^f+_2@SSE -> 0.6460963834866478
+2026-07-29 15:11:35,548 INFO         - B_s->K::alpha^f0_1@SSE -> 0.2230246253896435
+2026-07-29 15:11:35,548 INFO         - B_s->K::alpha^f0_2@SSE -> -0.06078411664321959
+2026-07-29 15:11:35,548 INFO         - B_s->K::alpha^fT_0@SSE -> 0.3625065500396847
+2026-07-29 15:11:35,549 INFO         - B_s->K::alpha^fT_1@SSE -> -0.31964284894526607
+2026-07-29 15:11:35,549 INFO         - B_s->K::alpha^fT_2@SSE -> -0.523222960534028
+2026-07-29 15:11:35,549 INFO       total chi^2 = 19.69
+2026-07-29 15:11:35,549 INFO       total dof   = 25
+2026-07-29 15:11:35,550 INFO       p value     = 76.31%
+2026-07-29 15:11:35,550 INFO       individual test statistics:
+2026-07-29 15:11:35,551 INFO         - B_s->K::FormFactors[f_+,f_0,f_T]@GvDV:2020A: chi^2 / dof = 0.66 / 14, local_pvalue = 100.00%
+2026-07-29 15:11:35,552 INFO         - B_s->K::f_++f_0@FNAL+MILC:2019A: chi^2 / dof = 14.26 / 8, local_pvalue = 7.52%
+2026-07-29 15:11:35,552 INFO         - B_s->K::f_++f_0@HPQCD:2014A: chi^2 / dof = 0.73 / 6, local_pvalue = 99.38%
+2026-07-29 15:11:35,553 INFO         - B_s->K::f_++f_0@RBC+UKQCD:2023A: chi^2 / dof = 4.04 / 5, local_pvalue = 54.42%
+2026-07-29 15:11:35,558 SUCCESS    Final p value is 76.31%, indicating a successful fit

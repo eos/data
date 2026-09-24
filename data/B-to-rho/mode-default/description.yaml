@@ -1,0 +1,81 @@
+dof: 16
+format_version: 2
+global_chi2: 0.014577715560921856
+mode:
+- 0.3089885299597761
+- -0.09614784654231157
+- -1.0431921854176407
+- 0.369831331907282
+- -0.5162926324624149
+- -0.4029272688397354
+- 0.5405842872542808
+- -0.4164155462833339
+- 0.695251769899385
+- -0.776475014484002
+- 0.2782894073076385
+- -0.17451774057073877
+- -0.6906463129521345
+- 0.5064551847458305
+- 0.05604957128353849
+- 1.2426467629764986
+- -1.3428395842638947
+parameters:
+- max: 1.341
+  min: -0.67469
+  name: B->rho::alpha^V_0@SSE
+- max: 4.87596
+  min: -5.63774
+  name: B->rho::alpha^V_1@SSE
+- max: 13.52558
+  min: -14.00732
+  name: B->rho::alpha^V_2@SSE
+- max: 1.06797
+  min: -0.31067
+  name: B->rho::alpha^A0_0@SSE
+- max: 4.34091
+  min: -5.59316
+  name: B->rho::alpha^A0_1@SSE
+- max: 13.94804
+  min: -14.07861
+  name: B->rho::alpha^A0_2@SSE
+- max: 4.85535
+  min: -3.98084
+  name: B->rho::alpha^A1_1@SSE
+- max: 12.53025
+  min: -12.78886
+  name: B->rho::alpha^A1_2@SSE
+- max: 6.71825
+  min: -5.9496
+  name: B->rho::alpha^A12_1@SSE
+- max: 14.0407
+  min: -14.00619
+  name: B->rho::alpha^A12_2@SSE
+- max: 1.16438
+  min: -0.57374
+  name: B->rho::alpha^T1_0@SSE
+- max: 4.79986
+  min: -5.52809
+  name: B->rho::alpha^T1_1@SSE
+- max: 13.41092
+  min: -13.73538
+  name: B->rho::alpha^T1_2@SSE
+- max: 5.23625
+  min: -4.15646
+  name: B->rho::alpha^T2_1@SSE
+- max: 13.82576
+  min: -13.85299
+  name: B->rho::alpha^T2_2@SSE
+- max: 6.17772
+  min: -4.60168
+  name: B->rho::alpha^T23_1@SSE
+- max: 14.03523
+  min: -14.02372
+  name: B->rho::alpha^T23_2@SSE
+pvalue: 1.0
+test_statistics:
+- local_pvalue: 1.0
+  name: B->rho::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GKvD:2018A
+  type: chi^2
+  value: 0.014577715560921856
+type: Mode
+version: 1.0.20

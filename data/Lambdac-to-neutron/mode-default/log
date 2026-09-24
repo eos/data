@@ -1,0 +1,71 @@
+2026-07-27 21:37:09,916 INFO       Creating analysis with 25 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-27 21:37:09,916 DEBUG      priors:
+2026-07-27 21:37:09,917 DEBUG       - Lambda_c->neutron::alpha^(0,V)_0@SSE (uniform)
+2026-07-27 21:37:09,917 DEBUG       - Lambda_c->neutron::alpha^(0,V)_1@SSE (uniform)
+2026-07-27 21:37:09,917 DEBUG       - Lambda_c->neutron::alpha^(0,V)_2@SSE (uniform)
+2026-07-27 21:37:09,917 DEBUG       - Lambda_c->neutron::alpha^(perp,V)_0@SSE (uniform)
+2026-07-27 21:37:09,917 DEBUG       - Lambda_c->neutron::alpha^(perp,V)_1@SSE (uniform)
+2026-07-27 21:37:09,918 DEBUG       - Lambda_c->neutron::alpha^(perp,V)_2@SSE (uniform)
+2026-07-27 21:37:09,918 DEBUG       - Lambda_c->neutron::alpha^(t,V)_1@SSE (uniform)
+2026-07-27 21:37:09,918 DEBUG       - Lambda_c->neutron::alpha^(t,V)_2@SSE (uniform)
+2026-07-27 21:37:09,918 DEBUG       - Lambda_c->neutron::alpha^(0,A)_0@SSE (uniform)
+2026-07-27 21:37:09,918 DEBUG       - Lambda_c->neutron::alpha^(0,A)_1@SSE (uniform)
+2026-07-27 21:37:09,918 DEBUG       - Lambda_c->neutron::alpha^(0,A)_2@SSE (uniform)
+2026-07-27 21:37:09,919 DEBUG       - Lambda_c->neutron::alpha^(perp,A)_1@SSE (uniform)
+2026-07-27 21:37:09,919 DEBUG       - Lambda_c->neutron::alpha^(perp,A)_2@SSE (uniform)
+2026-07-27 21:37:09,919 DEBUG       - Lambda_c->neutron::alpha^(t,A)_1@SSE (uniform)
+2026-07-27 21:37:09,919 DEBUG       - Lambda_c->neutron::alpha^(t,A)_2@SSE (uniform)
+2026-07-27 21:37:09,919 DEBUG       - Lambda_c->neutron::alpha^(0,T)_0@SSE (uniform)
+2026-07-27 21:37:09,920 DEBUG       - Lambda_c->neutron::alpha^(0,T)_1@SSE (uniform)
+2026-07-27 21:37:09,920 DEBUG       - Lambda_c->neutron::alpha^(0,T)_2@SSE (uniform)
+2026-07-27 21:37:09,920 DEBUG       - Lambda_c->neutron::alpha^(perp,T)_1@SSE (uniform)
+2026-07-27 21:37:09,920 DEBUG       - Lambda_c->neutron::alpha^(perp,T)_2@SSE (uniform)
+2026-07-27 21:37:09,921 DEBUG       - Lambda_c->neutron::alpha^(0,T5)_1@SSE (uniform)
+2026-07-27 21:37:09,921 DEBUG       - Lambda_c->neutron::alpha^(0,T5)_2@SSE (uniform)
+2026-07-27 21:37:09,921 DEBUG       - Lambda_c->neutron::alpha^(perp,T5)_0@SSE (uniform)
+2026-07-27 21:37:09,921 DEBUG       - Lambda_c->neutron::alpha^(perp,T5)_1@SSE (uniform)
+2026-07-27 21:37:09,922 DEBUG       - Lambda_c->neutron::alpha^(perp,T5)_2@SSE (uniform)
+2026-07-27 21:37:09,922 DEBUG      constraints:
+2026-07-27 21:37:09,922 DEBUG       - Lambda_c->neutron::f_time+long+perp^V+A+T+T5[HO]@M:2017A
+2026-07-27 21:37:09,922 DEBUG      manual_constraints:
+2026-07-27 21:37:09,923 DEBUG      fixed_parameters:
+2026-07-27 21:37:10,488 INPROGRESS Beginning minimization in 3 points
+2026-07-27 21:37:10,488 INFO       Using a starting point based on the existing importance samples
+2026-07-27 21:37:10,510 INFO       Using starting point [ 0.6531, -1.384, 9.687, 1.172, -0.5639, -3.798, -0.5722, 6.618, 0.599, -0.6839, 10.32, -0.8149, 5.857, -0.9422, 0.9043, 0.9515, -1.164, 2.127, -0.5071, -1.872, -1.252, 6.164, 0.5175, -0.9067, 6.539 ]
+2026-07-27 21:37:10,757 SUCCESS    Optimization goal achieved after 886 function evaluations
+2026-07-27 21:37:10,758 INFO       First optimization finished
+2026-07-27 21:37:10,767 SUCCESS    Optimization goal achieved after 30 function evaluations
+2026-07-27 21:37:10,778 SUCCESS    Optimization goal achieved after 34 function evaluations
+2026-07-27 21:37:10,778 COMPLETED  ... optimization finished
+2026-07-27 21:37:10,779 INFO       The best-fit point is:
+2026-07-27 21:37:10,779 INFO         - Lambda_c->neutron::alpha^(0,V)_0@SSE -> 0.6874323641288211
+2026-07-27 21:37:10,779 INFO         - Lambda_c->neutron::alpha^(0,V)_1@SSE -> -0.9727020977647817
+2026-07-27 21:37:10,779 INFO         - Lambda_c->neutron::alpha^(0,V)_2@SSE -> 8.154105209203921
+2026-07-27 21:37:10,779 INFO         - Lambda_c->neutron::alpha^(perp,V)_0@SSE -> 1.213978683861341
+2026-07-27 21:37:10,780 INFO         - Lambda_c->neutron::alpha^(perp,V)_1@SSE -> -1.4039835703854557
+2026-07-27 21:37:10,780 INFO         - Lambda_c->neutron::alpha^(perp,V)_2@SSE -> 0.7075329185991353
+2026-07-27 21:37:10,780 INFO         - Lambda_c->neutron::alpha^(t,V)_1@SSE -> -0.4695628264891178
+2026-07-27 21:37:10,780 INFO         - Lambda_c->neutron::alpha^(t,V)_2@SSE -> 8.72698339562009
+2026-07-27 21:37:10,781 INFO         - Lambda_c->neutron::alpha^(0,A)_0@SSE -> 0.6184050053544781
+2026-07-27 21:37:10,781 INFO         - Lambda_c->neutron::alpha^(0,A)_1@SSE -> -0.5837598688107635
+2026-07-27 21:37:10,781 INFO         - Lambda_c->neutron::alpha^(0,A)_2@SSE -> 4.4585004780822866
+2026-07-27 21:37:10,781 INFO         - Lambda_c->neutron::alpha^(perp,A)_1@SSE -> -0.5697782308988086
+2026-07-27 21:37:10,782 INFO         - Lambda_c->neutron::alpha^(perp,A)_2@SSE -> 1.4235435211955705
+2026-07-27 21:37:10,782 INFO         - Lambda_c->neutron::alpha^(t,A)_1@SSE -> -0.8511079017917355
+2026-07-27 21:37:10,782 INFO         - Lambda_c->neutron::alpha^(t,A)_2@SSE -> 1.914545602947011
+2026-07-27 21:37:10,782 INFO         - Lambda_c->neutron::alpha^(0,T)_0@SSE -> 1.0376529517444335
+2026-07-27 21:37:10,783 INFO         - Lambda_c->neutron::alpha^(0,T)_1@SSE -> -1.0344713550330624
+2026-07-27 21:37:10,783 INFO         - Lambda_c->neutron::alpha^(0,T)_2@SSE -> -2.128450940994096
+2026-07-27 21:37:10,783 INFO         - Lambda_c->neutron::alpha^(perp,T)_1@SSE -> -0.6731112187740885
+2026-07-27 21:37:10,783 INFO         - Lambda_c->neutron::alpha^(perp,T)_2@SSE -> 1.325186845135216
+2026-07-27 21:37:10,784 INFO         - Lambda_c->neutron::alpha^(0,T5)_1@SSE -> -0.6581670181052076
+2026-07-27 21:37:10,784 INFO         - Lambda_c->neutron::alpha^(0,T5)_2@SSE -> 5.320457800919394
+2026-07-27 21:37:10,784 INFO         - Lambda_c->neutron::alpha^(perp,T5)_0@SSE -> 0.541715396921075
+2026-07-27 21:37:10,784 INFO         - Lambda_c->neutron::alpha^(perp,T5)_1@SSE -> -0.8246025927188749
+2026-07-27 21:37:10,784 INFO         - Lambda_c->neutron::alpha^(perp,T5)_2@SSE -> 6.488130172976906
+2026-07-27 21:37:10,784 INFO       total chi^2 = 0.07
+2026-07-27 21:37:10,785 INFO       total dof   = 3
+2026-07-27 21:37:10,786 INFO       p value     = 99.49%
+2026-07-27 21:37:10,786 INFO       individual test statistics:
+2026-07-27 21:37:10,787 INFO         - Lambda_c->neutron::f_time+long+perp^V+A+T+T5[HO]@M:2017A: chi^2 / dof = 0.07 / 28, local_pvalue = 100.00%
+2026-07-27 21:37:10,792 SUCCESS    Final p value is 99.49%, indicating a successful fit

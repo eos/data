@@ -1,0 +1,27 @@
+parameters:
+- max: 0.43999
+  min: 0.23403
+  name: B_s->K::alpha^f+_0@SSE
+- max: -0.74946
+  min: -1.23465
+  name: B_s->K::alpha^f+_1@SSE
+- max: 3.2531
+  min: 1.18523
+  name: B_s->K::alpha^f+_2@SSE
+- max: 0.39364
+  min: 0.00696
+  name: B_s->K::alpha^f0_1@SSE
+- max: -0.16072
+  min: -1.52229
+  name: B_s->K::alpha^f0_2@SSE
+- max: 1.52836
+  min: -0.91005
+  name: B_s->K::alpha^fT_0@SSE
+- max: 13.49582
+  min: -14.42213
+  name: B_s->K::alpha^fT_1@SSE
+- max: 39.33452
+  min: -39.68093
+  name: B_s->K::alpha^fT_2@SSE
+type: DynestyResults
+version: 1.0.20

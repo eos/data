@@ -1,0 +1,40 @@
+{
+    "upload_type": "dataset",
+    "title": "EOS/DATA-2026-04: Supplementary material for EOS/ANALYSIS-2026-05",
+    "description": "Supplementary material including the analysis file, posterior samples, and figures for EOS/ANALYSIS-2026-05, a determination of the SSE form-factor parameters that serve as defaults in EOS v1.1.",
+    "license": "CC-BY-4.0",
+    "creators": [
+        {
+            "affiliation": "Technische Universität Dortmund",
+            "name": "Bolognani, C."
+        },
+        {
+            "affiliation": "University of Bonn",
+            "name": "Gubernari, N."
+        },
+        {
+            "affiliation": "University of Zurich",
+            "name": "Herren, F."
+        },
+        {
+            "affiliation": "Institute for Particle Physics Phenomenology, Durham University",
+            "name": "Kirk, M."
+        },
+        {
+            "affiliation": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie",
+            "name": "Reboud, M."
+        },
+        {
+            "affiliation": "Institute for Particle Physics Phenomenology, Durham University",
+            "name": "van Dyk, D."
+        }
+    ],
+    "grants": [
+        {
+            "id": "10.13039/100014013::ST/V003941/1"
+        },
+        {
+            "id": "10.13039/501100001659::558599025"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+dof: 0
+format_version: 2
+global_chi2: 1.481064616541016e-13
+mode:
+- 0.7636884284198154
+- -3.043032115157188
+- -0.5445751638972667
+- 0.09323316580258181
+- -1.0961455526443178
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_0@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f+_2@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f0_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B_s->D_s::alpha^f0_2@SSE
+pvalue: .nan
+test_statistics:
+- local_pvalue: 1.0
+  name: B_s->D_s::f_++f_0@HPQCD:2019A
+  type: chi^2
+  value: 1.481064616541016e-13
+type: Mode
+version: 1.0.20

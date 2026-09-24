@@ -1,0 +1,62 @@
+2026-07-27 21:35:01,225 INFO       Creating analysis with 15 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-27 21:35:01,226 DEBUG      priors:
+2026-07-27 21:35:01,226 DEBUG       - Lambda_c->Lambda::alpha^(0,V)_0@SSE (uniform)
+2026-07-27 21:35:01,227 DEBUG       - Lambda_c->Lambda::alpha^(0,V)_1@SSE (uniform)
+2026-07-27 21:35:01,227 DEBUG       - Lambda_c->Lambda::alpha^(0,V)_2@SSE (uniform)
+2026-07-27 21:35:01,227 DEBUG       - Lambda_c->Lambda::alpha^(perp,V)_0@SSE (uniform)
+2026-07-27 21:35:01,227 DEBUG       - Lambda_c->Lambda::alpha^(perp,V)_1@SSE (uniform)
+2026-07-27 21:35:01,228 DEBUG       - Lambda_c->Lambda::alpha^(perp,V)_2@SSE (uniform)
+2026-07-27 21:35:01,228 DEBUG       - Lambda_c->Lambda::alpha^(t,V)_1@SSE (uniform)
+2026-07-27 21:35:01,228 DEBUG       - Lambda_c->Lambda::alpha^(t,V)_2@SSE (uniform)
+2026-07-27 21:35:01,228 DEBUG       - Lambda_c->Lambda::alpha^(0,A)_0@SSE (uniform)
+2026-07-27 21:35:01,229 DEBUG       - Lambda_c->Lambda::alpha^(0,A)_1@SSE (uniform)
+2026-07-27 21:35:01,229 DEBUG       - Lambda_c->Lambda::alpha^(0,A)_2@SSE (uniform)
+2026-07-27 21:35:01,229 DEBUG       - Lambda_c->Lambda::alpha^(perp,A)_1@SSE (uniform)
+2026-07-27 21:35:01,229 DEBUG       - Lambda_c->Lambda::alpha^(perp,A)_2@SSE (uniform)
+2026-07-27 21:35:01,230 DEBUG       - Lambda_c->Lambda::alpha^(t,A)_1@SSE (uniform)
+2026-07-27 21:35:01,230 DEBUG       - Lambda_c->Lambda::alpha^(t,A)_2@SSE (uniform)
+2026-07-27 21:35:01,230 DEBUG      constraints:
+2026-07-27 21:35:01,230 DEBUG       - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A
+2026-07-27 21:35:01,231 DEBUG      manual_constraints:
+2026-07-27 21:35:01,231 DEBUG      fixed_parameters:
+2026-07-27 21:35:01,891 INFO       likelihood probably depends on 10 parameter(s) that do not appear in the prior; check prior?
+2026-07-27 21:35:01,892 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(perp,T5)_0@SSE'
+2026-07-27 21:35:01,892 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(perp,T)_2@SSE'
+2026-07-27 21:35:01,892 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(0,T)_1@SSE'
+2026-07-27 21:35:01,893 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(0,T5)_2@SSE'
+2026-07-27 21:35:01,893 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(perp,T)_1@SSE'
+2026-07-27 21:35:01,893 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(perp,T5)_1@SSE'
+2026-07-27 21:35:01,893 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(0,T5)_1@SSE'
+2026-07-27 21:35:01,893 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(0,T)_2@SSE'
+2026-07-27 21:35:01,894 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(perp,T5)_2@SSE'
+2026-07-27 21:35:01,894 DEBUG      used, but not included in any prior: 'Lambda_c->Lambda::alpha^(0,T)_0@SSE'
+2026-07-27 21:35:01,894 INPROGRESS Beginning minimization in 3 points
+2026-07-27 21:35:01,895 INFO       Using a starting point based on the existing importance samples
+2026-07-27 21:35:01,908 INFO       Using starting point [ 0.7559, -2.328, 5.473, 1.171, -3.806, 1.079, -1.372, 4.698, 0.6134, -0.9813, 9.533, -1.134, 4.661, -1.949, 9.684 ]
+2026-07-27 21:35:01,985 SUCCESS    Optimization goal achieved after 388 function evaluations
+2026-07-27 21:35:01,985 INFO       First optimization finished
+2026-07-27 21:35:01,991 SUCCESS    Optimization goal achieved after 27 function evaluations
+2026-07-27 21:35:01,995 SUCCESS    Optimization goal achieved after 19 function evaluations
+2026-07-27 21:35:01,996 COMPLETED  ... optimization finished
+2026-07-27 21:35:01,996 INFO       The best-fit point is:
+2026-07-27 21:35:01,996 INFO         - Lambda_c->Lambda::alpha^(0,V)_0@SSE -> 0.7150308908450078
+2026-07-27 21:35:01,996 INFO         - Lambda_c->Lambda::alpha^(0,V)_1@SSE -> -2.323325940191902
+2026-07-27 21:35:01,997 INFO         - Lambda_c->Lambda::alpha^(0,V)_2@SSE -> 7.777670396479536
+2026-07-27 21:35:01,997 INFO         - Lambda_c->Lambda::alpha^(perp,V)_0@SSE -> 1.1896191548758914
+2026-07-27 21:35:01,997 INFO         - Lambda_c->Lambda::alpha^(perp,V)_1@SSE -> -2.7473298780357545
+2026-07-27 21:35:01,997 INFO         - Lambda_c->Lambda::alpha^(perp,V)_2@SSE -> 7.1330305287333315
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(t,V)_1@SSE -> -1.8462754208902594
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(t,V)_2@SSE -> 5.35944511723517
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(0,A)_0@SSE -> 0.607372654818385
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(0,A)_1@SSE -> -1.3026766366891012
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(0,A)_2@SSE -> 10.433848456755948
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(perp,A)_1@SSE -> -1.2962956020484397
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(perp,A)_2@SSE -> 4.647073670819376
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(t,A)_1@SSE -> -1.7894083517429975
+2026-07-27 21:35:01,998 INFO         - Lambda_c->Lambda::alpha^(t,A)_2@SSE -> 8.858127451186432
+2026-07-27 21:35:01,999 INFO       total chi^2 = 0.01
+2026-07-27 21:35:01,999 INFO       total dof   = 2
+2026-07-27 21:35:02,000 INFO       p value     = 99.66%
+2026-07-27 21:35:02,000 INFO       individual test statistics:
+2026-07-27 21:35:02,001 INFO         - Lambda_c->Lambda::f_time+long+perp^V+A@M:2016A: chi^2 / dof = 0.01 / 17, local_pvalue = 100.00%
+2026-07-27 21:35:02,006 SUCCESS    Final p value is 99.66%, indicating a successful fit

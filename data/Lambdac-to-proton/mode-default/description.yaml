@@ -1,0 +1,113 @@
+dof: 3
+format_version: 2
+global_chi2: 0.07263179051149746
+mode:
+- 0.6876260104752854
+- -0.9759437345969963
+- 8.154185333070155
+- 1.214258130760459
+- -1.4042591721172164
+- 0.707347492153364
+- -0.4730247654076315
+- 8.727148999013071
+- 0.6184862910775407
+- -0.5841720858318696
+- 4.443465638838786
+- -0.5701845402879148
+- 1.42378749269094
+- -0.8336405114316076
+- 1.8419758026768152
+- 1.0378585581888962
+- -1.0336225143312263
+- -2.128626597259313
+- -0.6736361277468367
+- 1.325154659606168
+- -0.6605740649789261
+- 5.331279732894551
+- 0.5418457268420415
+- -0.8266517914511348
+- 6.488201749433684
+parameters:
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,V)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,V)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(t,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(t,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,A)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(t,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(t,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,T)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,T)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,T)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,T)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,T)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,T5)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(0,T5)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,T5)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,T5)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->proton::alpha^(perp,T5)_2@SSE
+pvalue: 0.9949059228810289
+test_statistics:
+- local_pvalue: 1.0
+  name: Lambda_c->proton::f_time+long+perp^V+A+T+T5[HO]@M:2017A
+  type: chi^2
+  value: 0.07263179051149746
+type: Mode
+version: 1.0.20

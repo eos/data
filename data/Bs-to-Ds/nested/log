@@ -1,0 +1,26 @@
+2026-07-28 11:57:13,044 INPROGRESS Beginning sampling...
+2026-07-28 11:57:13,118 INFO       Creating analysis with 5 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-28 11:57:13,118 DEBUG      priors:
+2026-07-28 11:57:13,119 DEBUG       - B_s->D_s::alpha^f+_0@SSE (uniform)
+2026-07-28 11:57:13,119 DEBUG       - B_s->D_s::alpha^f+_1@SSE (uniform)
+2026-07-28 11:57:13,119 DEBUG       - B_s->D_s::alpha^f+_2@SSE (uniform)
+2026-07-28 11:57:13,119 DEBUG       - B_s->D_s::alpha^f0_1@SSE (uniform)
+2026-07-28 11:57:13,119 DEBUG       - B_s->D_s::alpha^f0_2@SSE (uniform)
+2026-07-28 11:57:13,119 DEBUG      constraints:
+2026-07-28 11:57:13,120 DEBUG       - B_s->D_s::f_++f_0@HPQCD:2019A
+2026-07-28 11:57:13,120 DEBUG      manual_constraints:
+2026-07-28 11:57:13,120 DEBUG      fixed_parameters:
+2026-07-28 11:57:13,675 INFO       likelihood probably depends on 3 parameter(s) that do not appear in the prior; check prior?
+2026-07-28 11:57:13,675 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_2@SSE'
+2026-07-28 11:57:13,675 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_0@SSE'
+2026-07-28 11:57:13,675 DEBUG      used, but not included in any prior: 'B_s->D_s::alpha^fT_1@SSE'
+2026-07-28 11:57:28,679 INFO       iteration 7037 | batch: 1 | bound: 7 | nc: 25 | ncall: 144299 | eff(%):  4.561 | loglstar: 16.455 < 19.603 <    inf | logz: 11.075 +/-  0.202 | stop:  4.566
+2026-07-28 11:57:43,680 INFO       iteration 15138 | batch: 8 | bound: 0 | nc: 18 | ncall: 318826 | eff(%):  4.741 | loglstar:   -inf <  6.205 <    inf | logz: 11.127 +/-  0.073 | stop:    nan
+2026-07-28 11:57:58,680 INFO       iteration 23285 | batch: 9 | bound: 6 | nc: 25 | ncall: 483117 | eff(%):  4.815 | loglstar:   -inf < 18.269 <    inf | logz: 11.256 +/-  0.066 | stop:    nan
+2026-07-28 11:58:13,682 INFO       iteration 32985 | batch: 11 | bound: 4 | nc: 25 | ncall: 644961 | eff(%):  5.110 | loglstar:   -inf < 15.912 <    inf | logz: 11.258 +/-  0.058 | stop:    nan
+2026-07-28 11:58:28,682 INFO       iteration 42395 | batch: 13 | bound: 1 | nc: 25 | ncall: 801512 | eff(%):  5.286 | loglstar:   -inf <  9.425 <    inf | logz: 11.223 +/-  0.053 | stop:    nan
+2026-07-28 11:58:43,684 INFO       iteration 50508 | batch: 14 | bound: 7 | nc: 25 | ncall: 964802 | eff(%):  5.232 | loglstar:   -inf < 18.729 <    inf | logz: 11.234 +/-  0.051 | stop:    nan
+2026-07-28 11:58:58,685 INFO       iteration 60407 | batch: 16 | bound: 5 | nc: 25 | ncall: 1132282 | eff(%):  5.333 | loglstar:   -inf < 17.335 <    inf | logz: 11.229 +/-  0.047 | stop:    nan
+2026-07-28 11:59:13,686 INFO       iteration 70213 | batch: 18 | bound: 3 | nc: 25 | ncall: 1297752 | eff(%):  5.408 | loglstar:   -inf < 14.653 <    inf | logz: 11.222 +/-  0.045 | stop:    nan
+2026-07-28 11:59:18,731 COMPLETED  ...finished!
+2026-07-28 11:59:18,731 INFO       Finished sampling with 72765 samples (effective sample size 40763) and evidence estimate 11.22 +/- 0.04

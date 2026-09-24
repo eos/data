@@ -1,0 +1,55 @@
+2026-07-30 12:39:04,183 INFO       Creating analysis with 17 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-30 12:39:04,183 DEBUG      priors:
+2026-07-30 12:39:04,183 DEBUG       - B_c->J/psi::alpha^A0_0@SSE (uniform)
+2026-07-30 12:39:04,184 DEBUG       - B_c->J/psi::alpha^A0_1@SSE (uniform)
+2026-07-30 12:39:04,184 DEBUG       - B_c->J/psi::alpha^A0_2@SSE (uniform)
+2026-07-30 12:39:04,184 DEBUG       - B_c->J/psi::alpha^A1_1@SSE (uniform)
+2026-07-30 12:39:04,184 DEBUG       - B_c->J/psi::alpha^A1_2@SSE (uniform)
+2026-07-30 12:39:04,184 DEBUG       - B_c->J/psi::alpha^A12_1@SSE (uniform)
+2026-07-30 12:39:04,185 DEBUG       - B_c->J/psi::alpha^A12_2@SSE (uniform)
+2026-07-30 12:39:04,185 DEBUG       - B_c->J/psi::alpha^V_0@SSE (uniform)
+2026-07-30 12:39:04,185 DEBUG       - B_c->J/psi::alpha^V_1@SSE (uniform)
+2026-07-30 12:39:04,185 DEBUG       - B_c->J/psi::alpha^V_2@SSE (uniform)
+2026-07-30 12:39:04,186 DEBUG       - B_c->J/psi::alpha^T1_0@SSE (uniform)
+2026-07-30 12:39:04,186 DEBUG       - B_c->J/psi::alpha^T1_1@SSE (uniform)
+2026-07-30 12:39:04,186 DEBUG       - B_c->J/psi::alpha^T1_2@SSE (uniform)
+2026-07-30 12:39:04,186 DEBUG       - B_c->J/psi::alpha^T2_1@SSE (uniform)
+2026-07-30 12:39:04,187 DEBUG       - B_c->J/psi::alpha^T2_2@SSE (uniform)
+2026-07-30 12:39:04,187 DEBUG       - B_c->J/psi::alpha^T23_1@SSE (uniform)
+2026-07-30 12:39:04,187 DEBUG       - B_c->J/psi::alpha^T23_2@SSE (uniform)
+2026-07-30 12:39:04,187 DEBUG      constraints:
+2026-07-30 12:39:04,187 DEBUG       - B_c->J/psi::FormFactors@HPQCD:2025A
+2026-07-30 12:39:04,188 DEBUG      manual_constraints:
+2026-07-30 12:39:04,188 DEBUG      fixed_parameters:
+2026-07-30 12:39:04,753 INPROGRESS Beginning minimization in 3 points
+2026-07-30 12:39:04,753 INFO       Using a starting point based on the existing importance samples
+2026-07-30 12:39:04,767 INFO       Using starting point [ 0.634, -4.823, 7.09, -2.378, 7.166, -0.3956, -1.481, 1.003, -7.005, -5.809, 0.6162, -5.266, 9.832, -2.227, -1.462, -2.018, -2.608 ]
+2026-07-30 12:39:04,897 SUCCESS    Optimization goal achieved after 662 function evaluations
+2026-07-30 12:39:04,897 INFO       First optimization finished
+2026-07-30 12:39:04,919 SUCCESS    Optimization goal achieved after 103 function evaluations
+2026-07-30 12:39:04,968 SUCCESS    Optimization goal achieved after 231 function evaluations
+2026-07-30 12:39:04,968 COMPLETED  ... optimization finished
+2026-07-30 12:39:04,968 INFO       The best-fit point is:
+2026-07-30 12:39:04,968 INFO         - B_c->J/psi::alpha^A0_0@SSE -> 0.6174873314373588
+2026-07-30 12:39:04,968 INFO         - B_c->J/psi::alpha^A0_1@SSE -> -4.951701941769865
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^A0_2@SSE -> 4.943861348677931
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^A1_1@SSE -> -2.3809182031330396
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^A1_2@SSE -> 6.221339990858429
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^A12_1@SSE -> -0.4514309461005272
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^A12_2@SSE -> -1.8129178925534752
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^V_0@SSE -> 0.9724185202483925
+2026-07-30 12:39:04,969 INFO         - B_c->J/psi::alpha^V_1@SSE -> -7.842935184642171
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^V_2@SSE -> 1.4269628669512784
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^T1_0@SSE -> 0.6197810197926926
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^T1_1@SSE -> -5.178301767184058
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^T1_2@SSE -> 16.577542332551936
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^T2_1@SSE -> -2.2214340828966055
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^T2_2@SSE -> -2.9483030002946045
+2026-07-30 12:39:04,970 INFO         - B_c->J/psi::alpha^T23_1@SSE -> -3.021002403242473
+2026-07-30 12:39:04,971 INFO         - B_c->J/psi::alpha^T23_2@SSE -> 3.8126248548642856
+2026-07-30 12:39:04,971 INFO       total chi^2 = 4.78
+2026-07-30 12:39:04,971 INFO       total dof   = 7
+2026-07-30 12:39:04,972 INFO       p value     = 68.66%
+2026-07-30 12:39:04,972 INFO       individual test statistics:
+2026-07-30 12:39:04,973 INFO         - B_c->J/psi::FormFactors@HPQCD:2025A: chi^2 / dof = 4.78 / 24, local_pvalue = 100.00%
+2026-07-30 12:39:04,977 SUCCESS    Final p value is 68.66%, indicating a successful fit

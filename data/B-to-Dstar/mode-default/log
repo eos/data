@@ -1,0 +1,59 @@
+2026-07-29 21:01:33,453 INFO       Creating analysis with 17 priors, 3 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-29 21:01:33,453 DEBUG      priors:
+2026-07-29 21:01:33,453 DEBUG       - B->D^*::alpha^A0_0@SSE (uniform)
+2026-07-29 21:01:33,454 DEBUG       - B->D^*::alpha^A0_1@SSE (uniform)
+2026-07-29 21:01:33,454 DEBUG       - B->D^*::alpha^A0_2@SSE (uniform)
+2026-07-29 21:01:33,454 DEBUG       - B->D^*::alpha^A1_1@SSE (uniform)
+2026-07-29 21:01:33,454 DEBUG       - B->D^*::alpha^A1_2@SSE (uniform)
+2026-07-29 21:01:33,454 DEBUG       - B->D^*::alpha^A12_1@SSE (uniform)
+2026-07-29 21:01:33,455 DEBUG       - B->D^*::alpha^A12_2@SSE (uniform)
+2026-07-29 21:01:33,455 DEBUG       - B->D^*::alpha^V_0@SSE (uniform)
+2026-07-29 21:01:33,455 DEBUG       - B->D^*::alpha^V_1@SSE (uniform)
+2026-07-29 21:01:33,455 DEBUG       - B->D^*::alpha^V_2@SSE (uniform)
+2026-07-29 21:01:33,456 DEBUG       - B->D^*::alpha^T1_0@SSE (uniform)
+2026-07-29 21:01:33,456 DEBUG       - B->D^*::alpha^T1_1@SSE (uniform)
+2026-07-29 21:01:33,456 DEBUG       - B->D^*::alpha^T1_2@SSE (uniform)
+2026-07-29 21:01:33,456 DEBUG       - B->D^*::alpha^T2_1@SSE (uniform)
+2026-07-29 21:01:33,456 DEBUG       - B->D^*::alpha^T2_2@SSE (uniform)
+2026-07-29 21:01:33,457 DEBUG       - B->D^*::alpha^T23_1@SSE (uniform)
+2026-07-29 21:01:33,457 DEBUG       - B->D^*::alpha^T23_2@SSE (uniform)
+2026-07-29 21:01:33,457 DEBUG      constraints:
+2026-07-29 21:01:33,457 DEBUG       - B->D^*::FormFactors@HPQCD:2023A
+2026-07-29 21:01:33,458 DEBUG       - B->D^*::FormFactors@FNAL+MILC:2021A
+2026-07-29 21:01:33,458 DEBUG       - B->D^*::FormFactors@JLQCD:2023A
+2026-07-29 21:01:33,458 DEBUG      manual_constraints:
+2026-07-29 21:01:33,458 DEBUG      fixed_parameters:
+2026-07-29 21:01:34,037 INPROGRESS Beginning minimization in 3 points
+2026-07-29 21:01:34,037 INFO       Using a starting point based on the existing importance samples
+2026-07-29 21:01:34,049 INFO       Using starting point [ 0.6667, -4.345, 7.575, -0.4189, 0.268, -0.386, -0.9818, 0.8376, -5.751, 0.5379, 0.7543, -2.986, 9.126, 0.2058, -1.633, 0.7279, 1.609 ]
+2026-07-29 21:01:34,350 SUCCESS    Optimization goal achieved after 803 function evaluations
+2026-07-29 21:01:34,351 INFO       First optimization finished
+2026-07-29 21:01:34,405 SUCCESS    Optimization goal achieved after 139 function evaluations
+2026-07-29 21:01:34,463 SUCCESS    Optimization goal achieved after 148 function evaluations
+2026-07-29 21:01:34,463 COMPLETED  ... optimization finished
+2026-07-29 21:01:34,463 INFO       The best-fit point is:
+2026-07-29 21:01:34,463 INFO         - B->D^*::alpha^A0_0@SSE -> 0.6687378623924158
+2026-07-29 21:01:34,464 INFO         - B->D^*::alpha^A0_1@SSE -> -3.7652803267878654
+2026-07-29 21:01:34,464 INFO         - B->D^*::alpha^A0_2@SSE -> 1.6907947479567191
+2026-07-29 21:01:34,464 INFO         - B->D^*::alpha^A1_1@SSE -> -0.042746535581486
+2026-07-29 21:01:34,464 INFO         - B->D^*::alpha^A1_2@SSE -> -1.9231875401632124
+2026-07-29 21:01:34,464 INFO         - B->D^*::alpha^A12_1@SSE -> -0.3047033664082013
+2026-07-29 21:01:34,465 INFO         - B->D^*::alpha^A12_2@SSE -> -1.414637622006028
+2026-07-29 21:01:34,465 INFO         - B->D^*::alpha^V_0@SSE -> 0.8468683230830689
+2026-07-29 21:01:34,465 INFO         - B->D^*::alpha^V_1@SSE -> -4.942355044470758
+2026-07-29 21:01:34,465 INFO         - B->D^*::alpha^V_2@SSE -> -7.871556620329947
+2026-07-29 21:01:34,466 INFO         - B->D^*::alpha^T1_0@SSE -> 0.7211249448746113
+2026-07-29 21:01:34,466 INFO         - B->D^*::alpha^T1_1@SSE -> -3.4596336378488566
+2026-07-29 21:01:34,466 INFO         - B->D^*::alpha^T1_2@SSE -> 4.271573511896609
+2026-07-29 21:01:34,466 INFO         - B->D^*::alpha^T2_1@SSE -> -0.37600348195707056
+2026-07-29 21:01:34,466 INFO         - B->D^*::alpha^T2_2@SSE -> -6.783572705092192
+2026-07-29 21:01:34,467 INFO         - B->D^*::alpha^T23_1@SSE -> -1.231747095997667
+2026-07-29 21:01:34,467 INFO         - B->D^*::alpha^T23_2@SSE -> -13.540283133162765
+2026-07-29 21:01:34,467 INFO       total chi^2 = 20.76
+2026-07-29 21:01:34,467 INFO       total dof   = 31
+2026-07-29 21:01:34,468 INFO       p value     = 91.82%
+2026-07-29 21:01:34,469 INFO       individual test statistics:
+2026-07-29 21:01:34,469 INFO         - B->D^*::FormFactors@FNAL+MILC:2021A: chi^2 / dof = 8.74 / 12, local_pvalue = 72.49%
+2026-07-29 21:01:34,470 INFO         - B->D^*::FormFactors@HPQCD:2023A: chi^2 / dof = 5.57 / 24, local_pvalue = 100.00%
+2026-07-29 21:01:34,470 INFO         - B->D^*::FormFactors@JLQCD:2023A: chi^2 / dof = 6.44 / 12, local_pvalue = 89.21%
+2026-07-29 21:01:34,476 SUCCESS    Final p value is 91.82%, indicating a successful fit

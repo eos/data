@@ -1,0 +1,39 @@
+2026-07-23 19:08:52,576 INFO       Creating analysis with 8 priors, 2 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-23 19:08:52,576 DEBUG      priors:
+2026-07-23 19:08:52,576 DEBUG       - B->pi::alpha^f+_0@SSE (uniform)
+2026-07-23 19:08:52,577 DEBUG       - B->pi::alpha^f+_1@SSE (uniform)
+2026-07-23 19:08:52,577 DEBUG       - B->pi::alpha^f+_2@SSE (uniform)
+2026-07-23 19:08:52,577 DEBUG       - B->pi::alpha^f0_1@SSE (uniform)
+2026-07-23 19:08:52,577 DEBUG       - B->pi::alpha^f0_2@SSE (uniform)
+2026-07-23 19:08:52,578 DEBUG       - B->pi::alpha^fT_0@SSE (uniform)
+2026-07-23 19:08:52,578 DEBUG       - B->pi::alpha^fT_1@SSE (uniform)
+2026-07-23 19:08:52,578 DEBUG       - B->pi::alpha^fT_2@SSE (uniform)
+2026-07-23 19:08:52,578 DEBUG      constraints:
+2026-07-23 19:08:52,578 DEBUG       - B->pi::f_++f_0+f_T@FNAL+MILC:2015C
+2026-07-23 19:08:52,579 DEBUG       - B->pi::f_++f_0@RBC+UKQCD:2015A
+2026-07-23 19:08:52,579 DEBUG      manual_constraints:
+2026-07-23 19:08:52,579 DEBUG      fixed_parameters:
+2026-07-23 19:08:53,146 INPROGRESS Beginning minimization in 3 points
+2026-07-23 19:08:53,146 INFO       Using a starting point based on the existing importance samples
+2026-07-23 19:08:53,154 INFO       Using starting point [ 0.3979, -0.6974, -0.3595, 0.05561, -0.3487, 0.395, -0.856, -0.7343 ]
+2026-07-23 19:08:53,186 SUCCESS    Optimization goal achieved after 230 function evaluations
+2026-07-23 19:08:53,186 INFO       First optimization finished
+2026-07-23 19:08:53,193 SUCCESS    Optimization goal achieved after 51 function evaluations
+2026-07-23 19:08:53,206 SUCCESS    Optimization goal achieved after 89 function evaluations
+2026-07-23 19:08:53,206 COMPLETED  ... optimization finished
+2026-07-23 19:08:53,206 INFO       The best-fit point is:
+2026-07-23 19:08:53,207 INFO         - B->pi::alpha^f+_0@SSE -> 0.40021239905559847
+2026-07-23 19:08:53,207 INFO         - B->pi::alpha^f+_1@SSE -> -0.7009140838015867
+2026-07-23 19:08:53,207 INFO         - B->pi::alpha^f+_2@SSE -> -0.520598438826888
+2026-07-23 19:08:53,207 INFO         - B->pi::alpha^f0_1@SSE -> 0.03196316254458531
+2026-07-23 19:08:53,208 INFO         - B->pi::alpha^f0_2@SSE -> -0.35084756299075076
+2026-07-23 19:08:53,208 INFO         - B->pi::alpha^fT_0@SSE -> 0.39179087585382943
+2026-07-23 19:08:53,208 INFO         - B->pi::alpha^fT_1@SSE -> -0.6947250515533885
+2026-07-23 19:08:53,208 INFO         - B->pi::alpha^fT_2@SSE -> -0.6545261695746062
+2026-07-23 19:08:53,209 INFO       total chi^2 = 7.06
+2026-07-23 19:08:53,209 INFO       total dof   = 9
+2026-07-23 19:08:53,211 INFO       p value     = 63.11%
+2026-07-23 19:08:53,211 INFO       individual test statistics:
+2026-07-23 19:08:53,212 INFO         - B->pi::f_++f_0+f_T@FNAL+MILC:2015C: chi^2 / dof = 2.32 / 11, local_pvalue = 99.70%
+2026-07-23 19:08:53,212 INFO         - B->pi::f_++f_0@RBC+UKQCD:2015A: chi^2 / dof = 4.74 / 6, local_pvalue = 57.72%
+2026-07-23 19:08:53,217 SUCCESS    Final p value is 63.11%, indicating a successful fit

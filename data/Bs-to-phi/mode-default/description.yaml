@@ -1,0 +1,89 @@
+dof: 30
+format_version: 2
+global_chi2: 0.9135416520588115
+mode:
+- 0.5059619123998637
+- -1.1440640543760554
+- 0.6981234779635548
+- 0.1457443959545367
+- 1.1400563975590874
+- 0.30543375309384446
+- 0.07071324666328138
+- 0.4788841250009058
+- -1.0928295442388636
+- 1.825281973588683
+- 0.4086138353907083
+- -0.6497883326994853
+- 0.14404218863985818
+- 0.331053417177136
+- 1.1684175812771889
+- 0.631555640424196
+- 1.5457559814918431
+parameters:
+- max: 0.67961
+  min: 0.3343
+  name: B_s->phi::alpha^A0_0@SSE
+- max: 0.08096
+  min: -2.35005
+  name: B_s->phi::alpha^A0_1@SSE
+- max: 10.17041
+  min: -8.92812
+  name: B_s->phi::alpha^A0_2@SSE
+- max: 0.955
+  min: -0.67258
+  name: B_s->phi::alpha^A1_1@SSE
+- max: 6.02414
+  min: -3.65776
+  name: B_s->phi::alpha^A1_2@SSE
+- max: 0.88632
+  min: -0.26216
+  name: B_s->phi::alpha^A12_1@SSE
+- max: 7.24568
+  min: -7.22948
+  name: B_s->phi::alpha^A12_2@SSE
+- max: 0.66764
+  min: 0.29974
+  name: B_s->phi::alpha^V_0@SSE
+- max: 0.40807
+  min: -2.52539
+  name: B_s->phi::alpha^V_1@SSE
+- max: 11.43519
+  min: -8.56884
+  name: B_s->phi::alpha^V_2@SSE
+- max: 0.54553
+  min: 0.2716
+  name: B_s->phi::alpha^T1_0@SSE
+- max: 0.45389
+  min: -1.7554
+  name: B_s->phi::alpha^T1_1@SSE
+- max: 8.42123
+  min: -8.09992
+  name: B_s->phi::alpha^T1_2@SSE
+- max: 1.19041
+  min: -0.5388
+  name: B_s->phi::alpha^T2_1@SSE
+- max: 7.90157
+  min: -5.51472
+  name: B_s->phi::alpha^T2_2@SSE
+- max: 2.10041
+  min: -0.76629
+  name: B_s->phi::alpha^T23_1@SSE
+- max: 11.73603
+  min: -9.54772
+  name: B_s->phi::alpha^T23_2@SSE
+pvalue: 1.0
+test_statistics:
+- local_pvalue: 1.0
+  name: B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A
+  type: chi^2
+  value: 0.5086882193727245
+- local_pvalue: 0.9999855612187044
+  name: B_s->phi::T_1+T_2+T_23@HLMW:2015A
+  type: chi^2
+  value: 0.08949043673641877
+- local_pvalue: 0.9999772870879111
+  name: B_s->phi::V+A_0+A_1+A_12@HLMW:2015A
+  type: chi^2
+  value: 0.3153629959496683
+type: Mode
+version: 1.0.20

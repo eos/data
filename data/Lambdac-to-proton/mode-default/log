@@ -1,0 +1,71 @@
+2026-07-27 21:37:53,972 INFO       Creating analysis with 25 priors, 1 EOS-wide constraints, 1 global options, 0 manually-entered constraints and 0 fixed parameters.
+2026-07-27 21:37:53,973 DEBUG      priors:
+2026-07-27 21:37:53,973 DEBUG       - Lambda_c->proton::alpha^(0,V)_0@SSE (uniform)
+2026-07-27 21:37:53,973 DEBUG       - Lambda_c->proton::alpha^(0,V)_1@SSE (uniform)
+2026-07-27 21:37:53,973 DEBUG       - Lambda_c->proton::alpha^(0,V)_2@SSE (uniform)
+2026-07-27 21:37:53,974 DEBUG       - Lambda_c->proton::alpha^(perp,V)_0@SSE (uniform)
+2026-07-27 21:37:53,974 DEBUG       - Lambda_c->proton::alpha^(perp,V)_1@SSE (uniform)
+2026-07-27 21:37:53,974 DEBUG       - Lambda_c->proton::alpha^(perp,V)_2@SSE (uniform)
+2026-07-27 21:37:53,974 DEBUG       - Lambda_c->proton::alpha^(t,V)_1@SSE (uniform)
+2026-07-27 21:37:53,974 DEBUG       - Lambda_c->proton::alpha^(t,V)_2@SSE (uniform)
+2026-07-27 21:37:53,975 DEBUG       - Lambda_c->proton::alpha^(0,A)_0@SSE (uniform)
+2026-07-27 21:37:53,975 DEBUG       - Lambda_c->proton::alpha^(0,A)_1@SSE (uniform)
+2026-07-27 21:37:53,975 DEBUG       - Lambda_c->proton::alpha^(0,A)_2@SSE (uniform)
+2026-07-27 21:37:53,976 DEBUG       - Lambda_c->proton::alpha^(perp,A)_1@SSE (uniform)
+2026-07-27 21:37:53,976 DEBUG       - Lambda_c->proton::alpha^(perp,A)_2@SSE (uniform)
+2026-07-27 21:37:53,976 DEBUG       - Lambda_c->proton::alpha^(t,A)_1@SSE (uniform)
+2026-07-27 21:37:53,976 DEBUG       - Lambda_c->proton::alpha^(t,A)_2@SSE (uniform)
+2026-07-27 21:37:53,976 DEBUG       - Lambda_c->proton::alpha^(0,T)_0@SSE (uniform)
+2026-07-27 21:37:53,977 DEBUG       - Lambda_c->proton::alpha^(0,T)_1@SSE (uniform)
+2026-07-27 21:37:53,977 DEBUG       - Lambda_c->proton::alpha^(0,T)_2@SSE (uniform)
+2026-07-27 21:37:53,977 DEBUG       - Lambda_c->proton::alpha^(perp,T)_1@SSE (uniform)
+2026-07-27 21:37:53,977 DEBUG       - Lambda_c->proton::alpha^(perp,T)_2@SSE (uniform)
+2026-07-27 21:37:53,977 DEBUG       - Lambda_c->proton::alpha^(0,T5)_1@SSE (uniform)
+2026-07-27 21:37:53,978 DEBUG       - Lambda_c->proton::alpha^(0,T5)_2@SSE (uniform)
+2026-07-27 21:37:53,978 DEBUG       - Lambda_c->proton::alpha^(perp,T5)_0@SSE (uniform)
+2026-07-27 21:37:53,978 DEBUG       - Lambda_c->proton::alpha^(perp,T5)_1@SSE (uniform)
+2026-07-27 21:37:53,978 DEBUG       - Lambda_c->proton::alpha^(perp,T5)_2@SSE (uniform)
+2026-07-27 21:37:53,979 DEBUG      constraints:
+2026-07-27 21:37:53,979 DEBUG       - Lambda_c->proton::f_time+long+perp^V+A+T+T5[HO]@M:2017A
+2026-07-27 21:37:53,979 DEBUG      manual_constraints:
+2026-07-27 21:37:53,979 DEBUG      fixed_parameters:
+2026-07-27 21:37:54,523 INPROGRESS Beginning minimization in 3 points
+2026-07-27 21:37:54,523 INFO       Using a starting point based on the existing importance samples
+2026-07-27 21:37:54,552 INFO       Using starting point [ 0.674, -0.7493, 2.635, 1.138, -1.09, 6.401, -1.066, 7.445, 0.6037, -0.4065, -0.2267, -0.4713, -4.563, -0.3766, -4.549, 0.973, -0.971, -5.09, -0.8518, 1.974, -0.8596, 6.109, 0.5452, -1.034, 5.427 ]
+2026-07-27 21:37:54,736 SUCCESS    Optimization goal achieved after 912 function evaluations
+2026-07-27 21:37:54,736 INFO       First optimization finished
+2026-07-27 21:37:54,747 SUCCESS    Optimization goal achieved after 37 function evaluations
+2026-07-27 21:37:54,753 SUCCESS    Optimization goal achieved after 30 function evaluations
+2026-07-27 21:37:54,754 COMPLETED  ... optimization finished
+2026-07-27 21:37:54,754 INFO       The best-fit point is:
+2026-07-27 21:37:54,754 INFO         - Lambda_c->proton::alpha^(0,V)_0@SSE -> 0.6876260104752854
+2026-07-27 21:37:54,754 INFO         - Lambda_c->proton::alpha^(0,V)_1@SSE -> -0.9759437345969963
+2026-07-27 21:37:54,755 INFO         - Lambda_c->proton::alpha^(0,V)_2@SSE -> 8.154185333070155
+2026-07-27 21:37:54,755 INFO         - Lambda_c->proton::alpha^(perp,V)_0@SSE -> 1.214258130760459
+2026-07-27 21:37:54,755 INFO         - Lambda_c->proton::alpha^(perp,V)_1@SSE -> -1.4042591721172164
+2026-07-27 21:37:54,755 INFO         - Lambda_c->proton::alpha^(perp,V)_2@SSE -> 0.707347492153364
+2026-07-27 21:37:54,755 INFO         - Lambda_c->proton::alpha^(t,V)_1@SSE -> -0.4730247654076315
+2026-07-27 21:37:54,756 INFO         - Lambda_c->proton::alpha^(t,V)_2@SSE -> 8.727148999013071
+2026-07-27 21:37:54,756 INFO         - Lambda_c->proton::alpha^(0,A)_0@SSE -> 0.6184862910775407
+2026-07-27 21:37:54,756 INFO         - Lambda_c->proton::alpha^(0,A)_1@SSE -> -0.5841720858318696
+2026-07-27 21:37:54,756 INFO         - Lambda_c->proton::alpha^(0,A)_2@SSE -> 4.443465638838786
+2026-07-27 21:37:54,757 INFO         - Lambda_c->proton::alpha^(perp,A)_1@SSE -> -0.5701845402879148
+2026-07-27 21:37:54,757 INFO         - Lambda_c->proton::alpha^(perp,A)_2@SSE -> 1.42378749269094
+2026-07-27 21:37:54,757 INFO         - Lambda_c->proton::alpha^(t,A)_1@SSE -> -0.8336405114316076
+2026-07-27 21:37:54,757 INFO         - Lambda_c->proton::alpha^(t,A)_2@SSE -> 1.8419758026768152
+2026-07-27 21:37:54,758 INFO         - Lambda_c->proton::alpha^(0,T)_0@SSE -> 1.0378585581888962
+2026-07-27 21:37:54,758 INFO         - Lambda_c->proton::alpha^(0,T)_1@SSE -> -1.0336225143312263
+2026-07-27 21:37:54,758 INFO         - Lambda_c->proton::alpha^(0,T)_2@SSE -> -2.128626597259313
+2026-07-27 21:37:54,758 INFO         - Lambda_c->proton::alpha^(perp,T)_1@SSE -> -0.6736361277468367
+2026-07-27 21:37:54,758 INFO         - Lambda_c->proton::alpha^(perp,T)_2@SSE -> 1.325154659606168
+2026-07-27 21:37:54,759 INFO         - Lambda_c->proton::alpha^(0,T5)_1@SSE -> -0.6605740649789261
+2026-07-27 21:37:54,759 INFO         - Lambda_c->proton::alpha^(0,T5)_2@SSE -> 5.331279732894551
+2026-07-27 21:37:54,759 INFO         - Lambda_c->proton::alpha^(perp,T5)_0@SSE -> 0.5418457268420415
+2026-07-27 21:37:54,759 INFO         - Lambda_c->proton::alpha^(perp,T5)_1@SSE -> -0.8266517914511348
+2026-07-27 21:37:54,760 INFO         - Lambda_c->proton::alpha^(perp,T5)_2@SSE -> 6.488201749433684
+2026-07-27 21:37:54,760 INFO       total chi^2 = 0.07
+2026-07-27 21:37:54,760 INFO       total dof   = 3
+2026-07-27 21:37:54,761 INFO       p value     = 99.49%
+2026-07-27 21:37:54,761 INFO       individual test statistics:
+2026-07-27 21:37:54,762 INFO         - Lambda_c->proton::f_time+long+perp^V+A+T+T5[HO]@M:2017A: chi^2 / dof = 0.07 / 28, local_pvalue = 100.00%
+2026-07-27 21:37:54,767 SUCCESS    Final p value is 99.49%, indicating a successful fit

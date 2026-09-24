@@ -1,0 +1,18 @@
+parameters:
+- max: 0.0
+  min: 0.0
+  name: B->D::alpha^f+_0@SSE
+- max: 0.0
+  min: 0.0
+  name: B->D::alpha^f+_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B->D::alpha^f+_2@SSE
+- max: 0.0
+  min: 0.0
+  name: B->D::alpha^f0_1@SSE
+- max: 0.0
+  min: 0.0
+  name: B->D::alpha^f0_2@SSE
+type: DynestyResults
+version: 1.0.20

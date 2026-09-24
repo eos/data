@@ -1,0 +1,113 @@
+dof: 3
+format_version: 2
+global_chi2: 0.07303934573193586
+mode:
+- 0.6874323641288211
+- -0.9727020977647817
+- 8.154105209203921
+- 1.213978683861341
+- -1.4039835703854557
+- 0.7075329185991353
+- -0.4695628264891178
+- 8.72698339562009
+- 0.6184050053544781
+- -0.5837598688107635
+- 4.4585004780822866
+- -0.5697782308988086
+- 1.4235435211955705
+- -0.8511079017917355
+- 1.914545602947011
+- 1.0376529517444335
+- -1.0344713550330624
+- -2.128450940994096
+- -0.6731112187740885
+- 1.325186845135216
+- -0.6581670181052076
+- 5.320457800919394
+- 0.541715396921075
+- -0.8246025927188749
+- 6.488130172976906
+parameters:
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,V)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,V)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(t,V)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(t,V)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,A)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(t,A)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(t,A)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,T)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,T)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,T)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,T)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,T)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,T5)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(0,T5)_2@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,T5)_0@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,T5)_1@SSE
+- max: 1.0
+  min: -1.0
+  name: Lambda_c->neutron::alpha^(perp,T5)_2@SSE
+pvalue: 0.9948636119990738
+test_statistics:
+- local_pvalue: 1.0
+  name: Lambda_c->neutron::f_time+long+perp^V+A+T+T5[HO]@M:2017A
+  type: chi^2
+  value: 0.07303934573193586
+type: Mode
+version: 1.0.20
