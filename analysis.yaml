@@ -373,7 +373,7 @@ steps:
   - title: find mode of FF-only posterior
     id: FF-only.mode
     depends_on:
-      FF-only.sample
+      - FF-only.sample
     tasks:
       - task: find-mode
         arguments:
@@ -459,7 +459,7 @@ steps:
   - title: Find CKM mode
     id: CKM.mode
     depends_on:
-      CKM.sample
+      - CKM.sample
     tasks:
       - task: find-mode
         arguments:
