@@ -7,41 +7,41 @@
 2026-08-04 12:47:57,464 DEBUG       - Lambda_c->proton::res_delta_omega_m_rho@GHM2021 (uniform)
 2026-08-04 12:47:57,464 DEBUG       - Lambda_c->proton::res_delta_phi_m_rho@GHM2021 (uniform)
 2026-08-04 12:47:57,464 DEBUG       - Lambda_c->proton::res_delta_rho@GHM2021 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,V)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,V)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,V)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_0@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_0@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,A)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,A)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,A)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_0@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,A)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,A)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,A)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_0@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T5)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T5)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T5)_3@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_0@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_1@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_2@BMRvD2022 (uniform)
-2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_3@BMRvD2022 (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,V)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,V)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,V)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_0@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,V)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_0@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,V)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,A)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,A)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(t,A)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_0@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,A)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,A)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,A)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,A)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_0@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T5)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T5)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(0,T5)_3@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_0@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_1@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_2@SE (uniform)
+2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::a^(perp,T5)_3@SE (uniform)
 2026-08-04 12:47:57,464 DEBUG      constraints:
 2026-08-04 12:47:57,464 DEBUG      manual_constraints:
 2026-08-04 12:47:57,464 DEBUG       - Lambda_c->neutron::formfactors_all@M:2017A
@@ -61,9 +61,9 @@
 2026-08-04 12:47:57,464 DEBUG       - uc::Re{c7'}
 2026-08-04 12:47:57,464 DEBUG       - uc::Im{c7'}
 2026-08-04 12:47:57,464 DEBUG       - ucmumu::Re{c9}
-2026-08-04 12:47:57,494 WARNING    [ExpressionObservableEntry.make] Observable 'Lambda_c->protonll::BR1/BR2' forces option key 'form-factors' to value 'BMRvD2022', overriding user-provided value 'BMRvD2022'
+2026-08-04 12:47:57,494 WARNING    [ExpressionObservableEntry.make] Observable 'Lambda_c->protonll::BR1/BR2' forces option key 'form-factors' to value 'SE', overriding user-provided value 'SE'
 2026-08-04 12:47:57,494 WARNING    [ExpressionObservableEntry.make] Observable 'Lambda_c->protonll::BR1/BR2' forces option key 'l' to value 'mu', overriding user-provided value 'mu'
-2026-08-04 12:47:57,516 WARNING    [ExpressionObservableEntry.make] Observable 'Lambda_c->protonll::(BR1+BR2)/BR3' forces option key 'form-factors' to value 'BMRvD2022', overriding user-provided value 'BMRvD2022'
+2026-08-04 12:47:57,516 WARNING    [ExpressionObservableEntry.make] Observable 'Lambda_c->protonll::(BR1+BR2)/BR3' forces option key 'form-factors' to value 'SE', overriding user-provided value 'SE'
 2026-08-04 12:47:57,516 WARNING    [ExpressionObservableEntry.make] Observable 'Lambda_c->protonll::(BR1+BR2)/BR3' forces option key 'l' to value 'mu', overriding user-provided value 'mu'
 2026-08-04 12:47:57,523 INFO       likelihood probably depends on 419 parameter(s) that do not appear in the prior; check prior?
 2026-08-04 12:47:57,523 DEBUG      used, but not included in any prior: 'QED::alpha_e(m_c)'
@@ -111,7 +111,7 @@
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'CKM::abs(V_td)'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'ucee::Re{c10'}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'dbcu::Im{c2}'
-2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,A)_4@BMRvD2022'
+2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,A)_4@SE'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'dcnuee::Im{cVL}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'sbsb::Re{c1'}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'usenue::Re{cVL}'
@@ -139,7 +139,7 @@
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'cbmunumu::Re{cVL}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'cbmunumu::Re{cVR}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'uc::Re{c1}'
-2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_4@BMRvD2022'
+2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_4@SE'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'sbsb::Im{c2'}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'dcnumumu::Re{cVL}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'sbsb::Im{c1}'
@@ -177,13 +177,13 @@
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'b->smumu::Re{cT}'
 2026-08-04 12:47:57,524 DEBUG      used, but not included in any prior: 'cbtaunutau::Im{cSL}'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'uc::Re{c3}'
-2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,V)_4@BMRvD2022'
+2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,V)_4@SE'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'ucmumu::Im{c9'}'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'uc::Im{c7}'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'ucee::Im{cP'}'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'mass::phi'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'b->see::Im{cS'}'
-2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_4@BMRvD2022'
+2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_4@SE'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'cbmunumu::Re{cT}'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'life_time::omega'
 2026-08-04 12:47:57,525 DEBUG      used, but not included in any prior: 'sbnunu::Im{cSL}'
@@ -274,7 +274,7 @@
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'sbcu::Im{c4'}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'CKM::arg(V_us)'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'sbcu::Im{c6'}'
-2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_4@BMRvD2022'
+2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_4@SE'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'sbcu::Im{c8'}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'dbcu::Re{c5'}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'cbenue::Re{cVR}'
@@ -285,7 +285,7 @@
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'sbnunu::Im{cSR}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'uc::Re{c8'}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'b->see::Im{c10'}'
-2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,A)_4@BMRvD2022'
+2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,A)_4@SE'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'ucmumu::Re{cP'}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'QCD::alpha_s(MZ)'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'ucmumu::Im{c10}'
@@ -328,7 +328,7 @@
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'scnutautau::Im{cT}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'dbcu::Re{c6}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'sbnunu::Im{cVR}'
-2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,V)_4@BMRvD2022'
+2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,V)_4@SE'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'sbcu::Im{c5}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'b->smumu::Re{c10'}'
 2026-08-04 12:47:57,526 DEBUG      used, but not included in any prior: 'dbcu::Im{c10'}'
@@ -391,7 +391,7 @@
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'ubenue::Re{cVL}'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'sbcu::Re{c6}'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'dbcu::Re{c6'}'
-2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,V)_4@BMRvD2022'
+2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,V)_4@SE'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'b->s::Re{c7}'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'ubenue::Re{cVR}'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'dcnumumu::Im{cVR}'
@@ -442,7 +442,7 @@
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'b->s::c4'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'CKM::abs(V_cb)'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'cbtaunutau::Im{cVR}'
-2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_4@BMRvD2022'
+2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_4@SE'
 2026-08-04 12:47:57,527 DEBUG      used, but not included in any prior: 'usmunumu::Im{cVR}'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'ucmumu::Im{cS'}'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'dcnuee::Im{cT}'
@@ -455,7 +455,7 @@
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'ubtaunutau::Re{cSL}'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'cbenue::Im{cSL}'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'b->see::Im{cS}'
-2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,A)_4@BMRvD2022'
+2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,A)_4@SE'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'ucmumu::Re{cP}'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'dbcu::Im{c4'}'
 2026-08-04 12:47:57,528 DEBUG      used, but not included in any prior: 'ucmumu::Re{cT5}'

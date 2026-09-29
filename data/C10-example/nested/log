@@ -1,27 +1,27 @@
 2026-08-07 09:11:42,939 INPROGRESS Beginning sampling...
 2026-08-07 09:11:42,941 INFO       Creating analysis with 21 priors, 0 EOS-wide constraints, 1 global options, 5 manually-entered constraints and 7 fixed parameters.
 2026-08-07 09:11:42,941 DEBUG      priors:
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,V)_1@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,V)_2@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,V)_3@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_0@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_1@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_2@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_3@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_0@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_1@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_2@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_3@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,A)_1@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,A)_2@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,A)_3@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_0@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_1@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_2@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_3@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,A)_1@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,A)_2@BMRvD2022 (uniform)
-2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,A)_3@BMRvD2022 (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,V)_1@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,V)_2@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,V)_3@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_0@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_1@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_2@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,V)_3@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_0@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_1@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_2@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,V)_3@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,A)_1@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,A)_2@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(t,A)_3@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_0@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_1@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_2@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(0,A)_3@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,A)_1@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,A)_2@SE (uniform)
+2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::a^(perp,A)_3@SE (uniform)
 2026-08-07 09:11:42,941 DEBUG      constraints:
 2026-08-07 09:11:42,941 DEBUG      manual_constraints:
 2026-08-07 09:11:42,941 DEBUG       - Lambda_c->neutron::formfactors@M:2017A
@@ -38,30 +38,30 @@
 2026-08-07 09:11:42,941 DEBUG       - Lambda_c->proton::res_a_phi@GHM2021
 2026-08-07 09:11:42,941 DEBUG       - Lambda_c->proton::res_a_omega@GHM2021
 2026-08-07 09:11:42,978 INFO       likelihood probably depends on 24 parameter(s) that do not appear in the prior; check prior?
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,V)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_1@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_3@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,V)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,V)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_3@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,A)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_2@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,A)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_0@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_1@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_2@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_1@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,A)_4@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_2@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_1@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_3@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_0@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_2@BMRvD2022'
-2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_3@BMRvD2022'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,V)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_1@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_3@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,V)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,V)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_3@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,A)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_2@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(t,A)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_0@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_1@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_2@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_1@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,A)_4@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_2@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_1@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T5)_3@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(0,T)_0@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T)_2@SE'
+2026-08-07 09:11:42,979 DEBUG      used, but not included in any prior: 'Lambda_c->neutron::a^(perp,T5)_3@SE'
 2026-08-07 09:11:57,982 INFO       iteration 4378 | batch: 0 | bound: 5 | nc: 123 | ncall: 145004 | eff(%):  2.999 | loglstar: -294202.571 | logz: -294214.547 +/-  0.109 | dlogz: 279216.303 >  5.000
 2026-08-07 09:12:12,989 INFO       iteration 5654 | batch: 0 | bound: 12 | nc: 179 | ncall: 315549 | eff(%):  1.786 | loglstar: -158174.401 | logz: -158187.654 +/-  0.115 | dlogz: 149726.867 >  5.000
 2026-08-07 09:12:27,997 INFO       iteration 6948 | batch: 0 | bound: 19 | nc: 136 | ncall: 488069 | eff(%):  1.421 | loglstar: -90955.770 | logz: -90970.315 +/-  0.121 | dlogz: 82392.875 >  5.000
