@@ -35,7 +35,7 @@ items.append(item)
 
 # SM strong phases (without uncertainties)
 
-standard_item = { 'type': 'observable', 'observable': r'Lambda_c->protonll::F_L(q2)', 'options': { 'l': 'mu', 'form-factors': 'BMRvD2022' },
+standard_item = { 'type': 'observable', 'observable': r'Lambda_c->protonll::F_L(q2)', 'options': { 'l': 'mu', 'form-factors': 'SE' },
       'variable': 'q2', 'range': [0.04456, 1.83], 'resolution': 1000, 'fixed_parameters_from_file': 'input/parameters_fixed.yaml',
       'color': 'black'}
 p_standard = {"Lambda_c->proton::res_delta_rho@GHM2021": 0 , r'ucmumu::Re{c10}': 0.0, r'ucmumu::Re{c9}': 0.0, r'uc::Re{c7}': -346.8401235494036, r'uc::Im{c7}' : -919.8543681799476}

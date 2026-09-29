@@ -2,19 +2,19 @@ observables:
   'Lambda_c->protonll::BR1/BR2':
     latex: '\frac{\mathcal{B}_{[q2min1,q2max1]}}{\mathcal{B}_{[q2min2,q2max2]}}(\Lambda_c\to p \mu^+\mu^-)'
     unit: '1'
-    options: {l : mu, form-factors: BMRvD2022}
+    options: {l : mu, form-factors: SE}
     expression:
       '<<Lambda_c->protonll::BR>>[q2_min=>q2_1_min,q2_max=>q2_1_max]/<<Lambda_c->protonll::BR>>[q2_min=>q2_2_min,q2_max=>q2_2_max]'
   'Lambda_c->protonll::BR1+BR2':
     latex: '\mathcal{B}_{[q2min1,q2max1]}(\Lambda_c\to p \mu^+\mu^-) + \mathcal{B}_{[q2min2,q2max2]} (\Lambda_c\to p \mu^+\mu^-)'
     unit: '1'
-    options: {l : mu, form-factors: BMRvD2022}
+    options: {l : mu, form-factors: SE}
     expression:
       '<<Lambda_c->protonll::BR>>[q2_min=>q2_1_min,q2_max=>q2_1_max]+<<Lambda_c->protonll::BR>>[q2_min=>q2_2_min,q2_max=>q2_2_max]'
   'Lambda_c->protonll::(BR1+BR2)/BR3':
     latex: 'frac{\mathcal{B}_{[q2min1,q2max1]}+\mathcal{B}_{[q2min2,q2max2]}}{\mathcal{B}_{[q2min3,q2max3]}}(\Lambda_c\to p \mu^+\mu^-)'
     unit: '1'
-    options: {l : mu, form-factors: BMRvD2022}
+    options: {l : mu, form-factors: SE}
     expression:
       '(<<Lambda_c->protonll::BR>>[q2_min=>q2_1_min,q2_max=>q2_1_max]+<<Lambda_c->protonll::BR>>[q2_min=>q2_2_min,q2_max=>q2_2_max])/<<Lambda_c->protonll::BR>>[q2_min=>q2_3_min,q2_max=>q2_3_max]'
   'Lambda_c->protonll::F_L(bin1+bin2)':
@@ -61,90 +61,90 @@ priors:
 
   - name: FFs-2
     descriptions:
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_0@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_0@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
   - name: FFs-3
     descriptions:
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_0@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_3@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_3@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_0@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_3@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_3@SE",   min: -1.0, max: +1.0, type: "uniform" }
   - name: FFs-3-tensor
     descriptions:
-      - {  parameter: "Lambda_c->neutron::a^(0,T)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,T)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,T)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,T)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T)_3@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,T5)_1@BMRvD2022",     min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,T5)_2@BMRvD2022",     min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,T5)_3@BMRvD2022",     min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_0@BMRvD2022",  min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_1@BMRvD2022",  min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_2@BMRvD2022",  min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_3@BMRvD2022",  min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T)_3@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T5)_1@SE",     min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T5)_2@SE",     min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,T5)_3@SE",     min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_0@SE",  min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_1@SE",  min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_2@SE",  min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,T5)_3@SE",  min: -1.0, max: +1.0, type: "uniform" }
 
   - name: FFs-4
     descriptions:
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,V)_4@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,V)_4@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_0@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_3@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,V)_4@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(t,A)_4@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_0@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_1@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_2@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_3@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(0,A)_4@BMRvD2022",      min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_1@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_2@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_3@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
-      - {  parameter: "Lambda_c->neutron::a^(perp,A)_4@BMRvD2022",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,V)_4@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,V)_4@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_0@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_3@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,V)_4@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(t,A)_4@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_0@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_1@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_2@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_3@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(0,A)_4@SE",      min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_1@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_2@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_3@SE",   min: -1.0, max: +1.0, type: "uniform" }
+      - {  parameter: "Lambda_c->neutron::a^(perp,A)_4@SE",   min: -1.0, max: +1.0, type: "uniform" }
 likelihoods:
   - name: FF-LQCD
     manual_constraints:
@@ -168,10 +168,10 @@ likelihoods:
         - Lambda_c->neutron::f_time^A(q2)
         - Lambda_c->neutron::f_time^A(q2)
         - Lambda_c->neutron::f_time^A(q2)
-        options: [{ form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }]
+        options: [{ form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }]
         kinematics: [{ q2: 0.2726415997406325 }, { q2: 0.7270442659750201 }, { q2: 1.272327465456285 },
                      { q2: 0.2726415997406325 }, { q2: 0.7270442659750201 }, { q2: 1.272327465456285 },
                      { q2: 0.2726415997406325 }, { q2: 0.7270442659750201 }, { q2: 1.272327465456285 },
@@ -235,13 +235,13 @@ likelihoods:
         - Lambda_c->neutron::f_long^T5(q2)
         - Lambda_c->neutron::f_long^T5(q2)
         - Lambda_c->neutron::f_long^T5(q2)
-        options: [{ form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 },
-                  { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }, { form-factors: BMRvD2022 }]
+        options: [{ form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE },
+                  { form-factors: SE }, { form-factors: SE }, { form-factors: SE }, { form-factors: SE }]
         kinematics: [ { q2: 0.2726415997406325 }, { q2: 0.7270442659750201 }, { q2: 1.272327465456285 },
                       { q2: 0.2726415997406325 }, { q2: 0.7270442659750201 }, { q2: 1.272327465456285 },
                       { q2: 0.2726415997406325 }, { q2: 0.7270442659750201 }, { q2: 1.272327465456285 },
@@ -502,7 +502,7 @@ likelihoods:
 posteriors:
   - name: Lc-to-n-FFs-3
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - FFs-3
     likelihood:
@@ -511,7 +511,7 @@ posteriors:
 
   - name: Lc-to-n-FFs-4
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - FFs-4
     likelihood:
@@ -520,7 +520,7 @@ posteriors:
 
   - name: SM-fit
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -537,7 +537,7 @@ posteriors:
 
   - name: NP-fit-C10-C10p-AFB
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -557,7 +557,7 @@ posteriors:
 
   - name: NP-fit-C10-C10p-AFB-fixed-phases-v1
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - FFs-3
@@ -578,7 +578,7 @@ posteriors:
 
   - name: NP-fit-C10-C10p-AFB-fixed-rel-phases-v1
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhasesGlobal
@@ -599,7 +599,7 @@ posteriors:
 
   - name: NP-fit-C10-C10p-future-AFB
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -619,7 +619,7 @@ posteriors:
 
   - name: NP-fit-C10-C10p-future-AFB-fixed-phases-v1
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - FFs-3
@@ -640,7 +640,7 @@ posteriors:
 
   - name: NP-fit-C10-C10p-future-AFB-fixed-rel-phases-v1
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhasesGlobal
@@ -661,7 +661,7 @@ posteriors:
 
   - name: SM-fit-4
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -678,7 +678,7 @@ posteriors:
 
   - name: NP-fit-C7
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -698,7 +698,7 @@ posteriors:
 
   - name: NP-fit-C7p
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -719,7 +719,7 @@ posteriors:
 
   - name: C10-example
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - FFs-3
     likelihood:
@@ -736,7 +736,7 @@ posteriors:
 
   - name: C10-unc
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - resPhases
@@ -755,7 +755,7 @@ posteriors:
 
   - name: C10-a
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - FFs-3
@@ -775,7 +775,7 @@ posteriors:
 
   - name: C10-b
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - FFs-3
@@ -795,7 +795,7 @@ posteriors:
 
   - name: C10-c
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - FFs-3
@@ -815,7 +815,7 @@ posteriors:
 
   - name: C10-d
     global_options:
-      form-factors: BMRvD2022
+      form-factors: SE
     prior:
       - resParams
       - FFs-3
@@ -836,7 +836,7 @@ posteriors:
 predictions:
   - name: FF-Lc-to-n-fperpV
     observables:
-      - name: 'Lambda_c->neutron::f_perp^V(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_perp^V(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -845,7 +845,7 @@ predictions:
 
   - name: FF-Lc-to-n-fperpA
     observables:
-      - name: 'Lambda_c->neutron::f_perp^A(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_perp^A(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -854,7 +854,7 @@ predictions:
 
   - name: FF-Lc-to-n-flongV
     observables:
-      - name: 'Lambda_c->neutron::f_long^V(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_long^V(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -863,7 +863,7 @@ predictions:
 
   - name: FF-Lc-to-n-flongA
     observables:
-      - name: 'Lambda_c->neutron::f_long^A(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_long^A(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -872,7 +872,7 @@ predictions:
 
   - name: FF-Lc-to-n-ftimeV
     observables:
-      - name: 'Lambda_c->neutron::f_time^V(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_time^V(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -881,7 +881,7 @@ predictions:
 
   - name: FF-Lc-to-n-ftimeA
     observables:
-      - name: 'Lambda_c->neutron::f_time^A(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_time^A(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -891,7 +891,7 @@ predictions:
 
   - name: FF-Lc-to-n-flongT
     observables:
-      - name: 'Lambda_c->neutron::f_long^T(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_long^T(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -900,7 +900,7 @@ predictions:
 
   - name: FF-Lc-to-n-flongT5
     observables:
-      - name: 'Lambda_c->neutron::f_long^T5(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_long^T5(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -909,7 +909,7 @@ predictions:
 
   - name: FF-Lc-to-n-fperpT
     observables:
-      - name: 'Lambda_c->neutron::f_perp^T(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_perp^T(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -918,7 +918,7 @@ predictions:
 
   - name: FF-Lc-to-n-fperpT5
     observables:
-      - name: 'Lambda_c->neutron::f_perp^T5(q2);form-factors=BMRvD2022'
+      - name: 'Lambda_c->neutron::f_perp^T5(q2);form-factors=SE'
         kinematics:
           [{'q2': -0.5}, {'q2': -0.4}, {'q2': -0.3}, {'q2': -0.2}, {'q2': -0.1}, {'q2':  0.0},
            {'q2':  0.1}, {'q2':  0.2}, {'q2':  0.3}, {'q2':  0.4}, {'q2':  0.5}, {'q2':  0.6},
@@ -927,61 +927,61 @@ predictions:
 
   - name: BRs-compare
     observables:
-      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=SE'
         kinematics: { q2_min: 0.959, q2_max: 1.122 }
-      - name: 'Lambda_c->protonll::BR1/BR2;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::BR1/BR2;l=mu,form-factors=SE'
         kinematics: { q2_min_1: 0.552, q2_max_1: 0.677, q2_min_2: 0.959, q2_max_2: 1.122 }
-      - name: 'Lambda_c->protonll::(BR1+BR2)/BR3;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::(BR1+BR2)/BR3;l=mu,form-factors=SE'
         kinematics: { q2_min_1: 0.346, q2_max_1: 0.552, q2_min_2: 0.677, q2_max_2: 0.932, q2_min_3: 0.959, q2_max_3: 1.122 }
 
 
   - name: BR_bin
     observables:
-      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.046,'q2_max': 0.258}, {'q2_min': 0.346,'q2_max': 0.552}, {'q2_min': 0.552,'q2_max': 0.677}, {'q2_min': 0.677,'q2_max': 0.932},
           {'q2_min': 0.959,'q2_max': 1.122}, {'q2_min': 1.122,'q2_max': 1.817}]
   - name: FL_bin
     observables:
-      - name: 'Lambda_c->protonll::F_L;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::F_L;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.046,'q2_max': 0.258}, {'q2_min': 0.346,'q2_max': 0.552}, {'q2_min': 0.552,'q2_max': 0.677}, {'q2_min': 0.677,'q2_max': 0.932},
           {'q2_min': 0.959,'q2_max': 1.122}, {'q2_min': 1.122,'q2_max': 1.817}]
 
   - name: BR_full
     observables:
-      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.046,'q2_max': 1.817}]
   - name: FL_full
     observables:
-      - name: 'Lambda_c->protonll::F_L;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::F_L;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.046,'q2_max': 1.817}]
   - name: FL_full_NP
     observables:
-      - name: 'Lambda_c->protonll::F_L;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::F_L;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.046,'q2_max': 1.817, q2_3_min: 1.0, q2_3_max: 1.5}]
 
   - name: BR_bin_combined
     observables:
-      - name: 'Lambda_c->protonll::BR1+BR2;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::BR1+BR2;l=mu,form-factors=SE'
         kinematics: [{'q2_1_min': 0.046,'q2_1_max': 0.259, 'q2_2_min': 1.122,'q2_2_max': 1.817, q2_3_min: 0.0, q2_3_max: 0.5 },
                      {'q2_1_min': 0.346,'q2_1_max': 0.552, 'q2_2_min': 0.677,'q2_2_max': 0.932, q2_3_min: 0.5, q2_3_max: 1.0 }]
   - name: FL_bin_combined
     observables:
-      - name: 'Lambda_c->protonll::F_L(bin1+bin2);l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::F_L(bin1+bin2);l=mu,form-factors=SE'
         kinematics: [{'q2_1_min': 0.046,'q2_1_max': 0.259, 'q2_2_min': 1.122,'q2_2_max': 1.817, q2_3_min: 0.0, q2_3_max: 0.5 },
                      {'q2_1_min': 0.346,'q2_1_max': 0.552, 'q2_2_min': 0.677,'q2_2_max': 0.932, q2_3_min: 0.5, q2_3_max: 1.0 }]
 
   - name: BR_AFB_bins
     observables:
-      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::BR;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.045,'q2_max': 0.478}, {'q2_min': 0.346,'q2_max': 0.613}, {'q2_min': 0.613,'q2_max': 0.932}, {'q2_min': 0.677,'q2_max': 0.932}, {'q2_min': 0.959,'q2_max': 1.122}
                    , {'q2_min': 0.959,'q2_max': 1.039}, {'q2_min': 1.039,'q2_max': 1.122}, {'q2_min': 1.052,'q2_max': 1.817}, {'q2_min': 1.562,'q2_max': 1.817}]
-      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.045,'q2_max': 0.478}, {'q2_min': 0.346,'q2_max': 0.613}, {'q2_min': 0.613,'q2_max': 0.932}, {'q2_min': 0.677,'q2_max': 0.932}, {'q2_min': 0.959,'q2_max': 1.122}
                    , {'q2_min': 0.959,'q2_max': 1.039}, {'q2_min': 1.039,'q2_max': 1.122}, {'q2_min': 1.052,'q2_max': 1.817}, {'q2_min': 1.562,'q2_max': 1.817}]
 
   - name: FL-q2
     observables:
-      - name: 'Lambda_c->protonll::F_L(q2);l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::F_L(q2);l=mu,form-factors=SE'
         kinematics:
          [
           {'q2': 0.045654}, {'q2': 0.06035558620689655}, {'q2': 0.0760571724137931},
@@ -1047,7 +1047,7 @@ predictions:
 
   - name: dBR-dq2-full
     observables:
-      - name: 'Lambda_c->protonll::dBR/dq2;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::dBR/dq2;l=mu,form-factors=SE'
         kinematics:
          [
           {'q2': 0.045654}, {'q2': 0.06035558620689655}, {'q2': 0.0760571724137931},
@@ -1113,7 +1113,7 @@ predictions:
 
   - name: dBR-dq2
     observables:
-      - name: 'Lambda_c->protonll::dBR/dq2;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::dBR/dq2;l=mu,form-factors=SE'
         kinematics:
           [{'q2': 0.959}, {'q2': 0.9639183673469387}, {'q2': 0.9688367346938775}, {'q2': 0.9737551020408163}, {'q2': 0.978673469387755},
            {'q2': 0.9835918367346939}, {'q2': 0.9885102040816326}, {'q2': 0.9934285714285714}, {'q2': 0.9983469387755102}, {'q2': 1.003265306122449},
@@ -1135,15 +1135,15 @@ predictions:
 
   - name: AFB-bin-a
     observables:
-      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.959, 'q2_max':1.122}]
   - name: AFB-bin-b
     observables:
-      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=SE'
         kinematics: [{'q2_min': 0.959, 'q2_max':1.0393007305209998}, {'q2_min': 1.0393007305209998, 'q2_max':1.122}]
   - name: AFB-bin-c
     observables:
-      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::A_FB^l;l=mu,form-factors=SE'
         kinematics: [
           {'q2_min': 0.959, 'q2_max': 0.9822857142857143},
           {'q2_min': 0.9822857142857143, 'q2_max': 1.0055714285714286},
@@ -1155,7 +1155,7 @@ predictions:
 
   - name: AFB-q2
     observables:
-      - name: 'Lambda_c->protonll::binAFB(q2);l=mu,form-factors=BMRvD2022'
+      - name: 'Lambda_c->protonll::binAFB(q2);l=mu,form-factors=SE'
         kinematics:
           [{'q2': 0.959}, {'q2': 0.9598190954773869}, {'q2': 0.9606381909547739}, {'q2': 0.9614572864321608},
           {'q2': 0.9622763819095477}, {'q2': 0.9630954773869347}, {'q2': 0.9639145728643216}, {'q2': 0.9647336683417085},
