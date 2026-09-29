@@ -930,9 +930,9 @@ predictions:
       - name: 'Lambda_c->protonll::BR;l=mu,form-factors=SE'
         kinematics: { q2_min: 0.959, q2_max: 1.122 }
       - name: 'Lambda_c->protonll::BR1/BR2;l=mu,form-factors=SE'
-        kinematics: { q2_min_1: 0.552, q2_max_1: 0.677, q2_min_2: 0.959, q2_max_2: 1.122 }
+        kinematics: { q2_1_min: 0.552, q2_1_max: 0.677, q2_2_min: 0.959, q2_2_max: 1.122 }
       - name: 'Lambda_c->protonll::(BR1+BR2)/BR3;l=mu,form-factors=SE'
-        kinematics: { q2_min_1: 0.346, q2_max_1: 0.552, q2_min_2: 0.677, q2_max_2: 0.932, q2_min_3: 0.959, q2_max_3: 1.122 }
+        kinematics: { q2_1_min: 0.346, q2_1_max: 0.552, q2_2_min: 0.677, q2_2_max: 0.932, q2_3_min: 0.959, q2_3_max: 1.122 }
 
 
   - name: BR_bin
