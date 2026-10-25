@@ -317,6 +317,20 @@ predictions:
     - name: 0->Kpi::f_+(0)
 
 
+figures:
+  - name: CKM_2_2_3_3-marginals
+    type: 'corner'
+    contents: [ { path: 'data/CKM_2_2_3_3/samples', label: '' } ]
+  - name: CKM_2_2_4_4-marginals
+    type: 'corner'
+    contents: [ { path: 'data/CKM_2_2_4_4/samples', label: '' } ]
+  - name: CKM_3_2_4_4-marginals
+    type: 'corner'
+    contents: [ { path: 'data/CKM_3_2_4_4/samples', label: '' } ]
+  - name: CKM_3_2_5_5-marginals
+    type: 'corner'
+    contents: [ { path: 'data/CKM_3_2_5_5/samples', label: '' } ]
+
 steps:
   - title: 'Sample from CKM_2_2_3_3 posterior'
     id: 'CKM_2_2_3_3.sample'
@@ -327,13 +341,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for CKM_2_2_3_3 posterior'
-    id: 'CKM_2_2_3_3.corner-plot'
+    id: 'CKM_2_2_3_3.marginals'
     depends_on:
       - 'CKM_2_2_3_3.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'CKM_2_2_3_3'
+          figure_name: 'CKM_2_2_3_3-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from CKM_2_2_3_3 posterior'
     id: 'CKM_2_2_3_3.find-mode'
     depends_on:
@@ -363,13 +378,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for CKM_2_2_4_4 posterior'
-    id: 'CKM_2_2_4_4.corner-plot'
+    id: 'CKM_2_2_4_4.marginals'
     depends_on:
       - 'CKM_2_2_4_4.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'CKM_2_2_4_4'
+          figure_name: 'CKM_2_2_4_4-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from CKM_2_2_4_4 posterior'
     id: 'CKM_2_2_4_4.find-mode'
     depends_on:
@@ -399,13 +415,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for CKM_3_2_4_4 posterior'
-    id: 'CKM_3_2_4_4.corner-plot'
+    id: 'CKM_3_2_4_4.marginals'
     depends_on:
       - 'CKM_3_2_4_4.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'CKM_3_2_4_4'
+          figure_name: 'CKM_3_2_4_4-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from CKM_3_2_4_4 posterior'
     id: 'CKM_3_2_4_4.find-mode'
     depends_on:
@@ -435,13 +452,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for CKM_3_2_5_5 posterior'
-    id: 'CKM_3_2_5_5.corner-plot'
+    id: 'CKM_3_2_5_5.marginals'
     depends_on:
       - 'CKM_3_2_5_5.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'CKM_3_2_5_5'
+          figure_name: 'CKM_3_2_5_5-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from CKM_3_2_5_5 posterior'
     id: 'CKM_3_2_5_5.find-mode'
     depends_on:

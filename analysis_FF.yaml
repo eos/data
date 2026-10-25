@@ -315,6 +315,20 @@ predictions:
         kinematics: [ { 'q2': 3.4956285156 } , { 'q2': 3.8744017225 } ] # m_{D+}^2, m_{D_s}^2
 
 
+figures:
+  - name: FF_2_2_3_3-marginals
+    type: 'corner'
+    contents: [ { path: 'data/FF_2_2_3_3/samples', label: '' } ]
+  - name: FF_2_2_4_4-marginals
+    type: 'corner'
+    contents: [ { path: 'data/FF_2_2_4_4/samples', label: '' } ]
+  - name: FF_3_2_4_4-marginals
+    type: 'corner'
+    contents: [ { path: 'data/FF_3_2_4_4/samples', label: '' } ]
+  - name: FF_3_2_5_5-marginals
+    type: 'corner'
+    contents: [ { path: 'data/FF_3_2_5_5/samples', label: '' } ]
+
 steps:
   - title: 'Sample from FF_2_2_3_3 posterior'
     id: 'FF_2_2_3_3.sample'
@@ -325,13 +339,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for FF_2_2_3_3 posterior'
-    id: 'FF_2_2_3_3.corner-plot'
+    id: 'FF_2_2_3_3.marginals'
     depends_on:
       - 'FF_2_2_3_3.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'FF_2_2_3_3'
+          figure_name: 'FF_2_2_3_3-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from FF_2_2_3_3 posterior'
     id: 'FF_2_2_3_3.find-mode'
     depends_on:
@@ -377,13 +392,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for FF_2_2_4_4 posterior'
-    id: 'FF_2_2_4_4.corner-plot'
+    id: 'FF_2_2_4_4.marginals'
     depends_on:
       - 'FF_2_2_4_4.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'FF_2_2_4_4'
+          figure_name: 'FF_2_2_4_4-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from FF_2_2_4_4 posterior'
     id: 'FF_2_2_4_4.find-mode'
     depends_on:
@@ -429,13 +445,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for FF_3_2_4_4 posterior'
-    id: 'FF_3_2_4_4.corner-plot'
+    id: 'FF_3_2_4_4.marginals'
     depends_on:
       - 'FF_3_2_4_4.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'FF_3_2_4_4'
+          figure_name: 'FF_3_2_4_4-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from FF_3_2_4_4 posterior'
     id: 'FF_3_2_4_4.find-mode'
     depends_on:
@@ -481,13 +498,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for FF_3_2_5_5 posterior'
-    id: 'FF_3_2_5_5.corner-plot'
+    id: 'FF_3_2_5_5.marginals'
     depends_on:
       - 'FF_3_2_5_5.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'FF_3_2_5_5'
+          figure_name: 'FF_3_2_5_5-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from FF_3_2_5_5 posterior'
     id: 'FF_3_2_5_5.find-mode'
     depends_on:

@@ -58,4 +58,91 @@ The files in this directory represent inputs and results of an EOS-based analysi
    Joint distribution of $|V_{us}|$, $f_{K^-}$, and $f_+(0)$ in our CKM fit model, along with a comparison to the $f_+(0)$ posterior in our FF fit model and the FLAG 2024 average.
   </td>
 </tr>
+<tr>
+  <th colspan=2>Supplementary Material</th>
+</tr>
+<tr>
+  <td><a href="figures/FF_2_2_3_3-marginals.pdf?raw=true"><img src="/figures/FF_2_2_3_3-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>FF_2_2_3_3</code>
+    posterior: the form-factor-only fit with the truncation orders 2/2/3/3.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF_2_2_4_4-marginals.pdf?raw=true"><img src="/figures/FF_2_2_4_4-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>FF_2_2_4_4</code>
+    posterior: the form-factor-only fit with the truncation orders 2/2/4/4.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF_3_2_4_4-marginals.pdf?raw=true"><img src="/figures/FF_3_2_4_4-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>FF_3_2_4_4</code>
+    posterior: the form-factor-only fit with the truncation orders 3/2/4/4.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/FF_3_2_5_5-marginals.pdf?raw=true"><img src="/figures/FF_3_2_5_5-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>FF_3_2_5_5</code>
+    posterior: the form-factor-only fit with the truncation orders 3/2/5/5.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/CKM_2_2_3_3-marginals.pdf?raw=true"><img src="/figures/CKM_2_2_3_3-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>CKM_2_2_3_3</code>
+    posterior: the CKM fit with the truncation orders 2/2/3/3.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/CKM_2_2_4_4-marginals.pdf?raw=true"><img src="/figures/CKM_2_2_4_4-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>CKM_2_2_4_4</code>
+    posterior: the CKM fit with the truncation orders 2/2/4/4.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/CKM_3_2_4_4-marginals.pdf?raw=true"><img src="/figures/CKM_3_2_4_4-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>CKM_3_2_4_4</code>
+    posterior: the CKM fit with the truncation orders 3/2/4/4.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/CKM_3_2_5_5-marginals.pdf?raw=true"><img src="/figures/CKM_3_2_5_5-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>CKM_3_2_5_5</code>
+    posterior: the CKM fit with the truncation orders 3/2/5/5.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/BSM_2_2_3_3-marginals.pdf?raw=true"><img src="/figures/BSM_2_2_3_3-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>BSM_2_2_3_3</code>
+    posterior: the BSM fit with the truncation orders 2/2/3/3.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/BSM_2_2_4_4-marginals.pdf?raw=true"><img src="/figures/BSM_2_2_4_4-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>BSM_2_2_4_4</code>
+    posterior: the BSM fit with the truncation orders 2/2/4/4.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/BSM_3_2_4_4-marginals.pdf?raw=true"><img src="/figures/BSM_3_2_4_4-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>BSM_3_2_4_4</code>
+    posterior: the BSM fit with the truncation orders 3/2/4/4.
+  </td>
+</tr>
+<tr>
+  <td><a href="figures/BSM_3_2_5_5-marginals.pdf?raw=true"><img src="/figures/BSM_3_2_5_5-marginals.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>
+    Marginal posterior distributions, one- and two-dimensional, for the <code>BSM_3_2_5_5</code>
+    posterior: the BSM fit with the truncation orders 3/2/5/5.
+  </td>
+</tr>
 </table>

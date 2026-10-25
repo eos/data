@@ -317,6 +317,20 @@ posteriors:
       - LAT-fplus0
 
 
+figures:
+  - name: BSM_2_2_3_3-marginals
+    type: 'corner'
+    contents: [ { path: 'data/BSM_2_2_3_3/samples', label: '' } ]
+  - name: BSM_2_2_4_4-marginals
+    type: 'corner'
+    contents: [ { path: 'data/BSM_2_2_4_4/samples', label: '' } ]
+  - name: BSM_3_2_4_4-marginals
+    type: 'corner'
+    contents: [ { path: 'data/BSM_3_2_4_4/samples', label: '' } ]
+  - name: BSM_3_2_5_5-marginals
+    type: 'corner'
+    contents: [ { path: 'data/BSM_3_2_5_5/samples', label: '' } ]
+
 steps:
   - title: 'Sample from BSM_2_2_3_3 posterior'
     id: 'BSM_2_2_3_3.sample'
@@ -327,13 +341,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for BSM_2_2_3_3 posterior'
-    id: 'BSM_2_2_3_3.corner-plot'
+    id: 'BSM_2_2_3_3.marginals'
     depends_on:
       - 'BSM_2_2_3_3.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'BSM_2_2_3_3'
+          figure_name: 'BSM_2_2_3_3-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from BSM_2_2_3_3 posterior'
     id: 'BSM_2_2_3_3.find-mode'
     depends_on:
@@ -354,13 +369,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for BSM_2_2_4_4 posterior'
-    id: 'BSM_2_2_4_4.corner-plot'
+    id: 'BSM_2_2_4_4.marginals'
     depends_on:
       - 'BSM_2_2_4_4.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'BSM_2_2_4_4'
+          figure_name: 'BSM_2_2_4_4-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from BSM_2_2_4_4 posterior'
     id: 'BSM_2_2_4_4.find-mode'
     depends_on:
@@ -381,13 +397,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for BSM_3_2_4_4 posterior'
-    id: 'BSM_3_2_4_4.corner-plot'
+    id: 'BSM_3_2_4_4.marginals'
     depends_on:
       - 'BSM_3_2_4_4.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'BSM_3_2_4_4'
+          figure_name: 'BSM_3_2_4_4-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from BSM_3_2_4_4 posterior'
     id: 'BSM_3_2_4_4.find-mode'
     depends_on:
@@ -408,13 +425,14 @@ steps:
           sampling-method: 'rwalk'
           nlive: 500
   - title: 'Produce corner plot for BSM_3_2_5_5 posterior'
-    id: 'BSM_3_2_5_5.corner-plot'
+    id: 'BSM_3_2_5_5.marginals'
     depends_on:
       - 'BSM_3_2_5_5.sample'
     tasks:
-      - task: 'corner-plot'
+      - task: 'draw-figure'
         arguments:
-          posterior: 'BSM_3_2_5_5'
+          figure_name: 'BSM_3_2_5_5-marginals'
+          format: ['pdf', 'png']
   - title: 'Find mode from BSM_3_2_5_5 posterior'
     id: 'BSM_3_2_5_5.find-mode'
     depends_on:

@@ -1,0 +1,48 @@
+2026-10-25 08:29:24,476 INPROGRESS Drawing figure FF_2_2_3_3-marginals
+2026-10-25 08:29:30,819 INFO       Saving figure FF_2_2_3_3-marginals in 'pdf' format
+2026-10-25 08:29:34,651 INFO       Saving figure FF_2_2_3_3-marginals in 'png' format
+2026-10-25 08:29:36,079 COMPLETED  ... drawing finished
+2026-10-25 08:29:45,735 INPROGRESS Drawing figure FF_2_2_4_4-marginals
+2026-10-25 08:29:52,784 INFO       Saving figure FF_2_2_4_4-marginals in 'pdf' format
+2026-10-25 08:29:59,202 INFO       Saving figure FF_2_2_4_4-marginals in 'png' format
+2026-10-25 08:30:01,086 COMPLETED  ... drawing finished
+2026-10-25 08:30:04,456 INPROGRESS Drawing figure FF_3_2_4_4-marginals
+2026-10-25 08:30:11,634 INFO       Saving figure FF_3_2_4_4-marginals in 'pdf' format
+2026-10-25 08:30:17,568 INFO       Saving figure FF_3_2_4_4-marginals in 'png' format
+2026-10-25 08:30:19,396 COMPLETED  ... drawing finished
+2026-10-25 08:30:22,686 INPROGRESS Drawing figure FF_3_2_5_5-marginals
+2026-10-25 08:30:31,540 INFO       Saving figure FF_3_2_5_5-marginals in 'pdf' format
+2026-10-25 08:30:40,268 INFO       Saving figure FF_3_2_5_5-marginals in 'png' format
+2026-10-25 08:30:42,569 COMPLETED  ... drawing finished
+2026-10-25 08:30:46,476 INPROGRESS Drawing figure CKM_2_2_3_3-marginals
+2026-10-25 08:30:53,339 INFO       Saving figure CKM_2_2_3_3-marginals in 'pdf' format
+2026-10-25 08:30:58,595 INFO       Saving figure CKM_2_2_3_3-marginals in 'png' format
+2026-10-25 08:31:00,219 COMPLETED  ... drawing finished
+2026-10-25 08:31:03,363 INPROGRESS Drawing figure CKM_2_2_4_4-marginals
+2026-10-25 08:31:12,627 INFO       Saving figure CKM_2_2_4_4-marginals in 'pdf' format
+2026-10-25 08:31:19,909 INFO       Saving figure CKM_2_2_4_4-marginals in 'png' format
+2026-10-25 08:31:22,035 COMPLETED  ... drawing finished
+2026-10-25 08:31:25,479 INPROGRESS Drawing figure CKM_3_2_4_4-marginals
+2026-10-25 08:31:33,728 INFO       Saving figure CKM_3_2_4_4-marginals in 'pdf' format
+2026-10-25 08:31:41,901 INFO       Saving figure CKM_3_2_4_4-marginals in 'png' format
+2026-10-25 08:31:44,027 COMPLETED  ... drawing finished
+2026-10-25 08:31:47,523 INPROGRESS Drawing figure CKM_3_2_5_5-marginals
+2026-10-25 08:31:57,273 INFO       Saving figure CKM_3_2_5_5-marginals in 'pdf' format
+2026-10-25 08:32:07,854 INFO       Saving figure CKM_3_2_5_5-marginals in 'png' format
+2026-10-25 08:32:10,498 COMPLETED  ... drawing finished
+2026-10-25 08:32:14,034 INPROGRESS Drawing figure BSM_2_2_3_3-marginals
+2026-10-25 08:32:21,936 INFO       Saving figure BSM_2_2_3_3-marginals in 'pdf' format
+2026-10-25 08:32:28,311 INFO       Saving figure BSM_2_2_3_3-marginals in 'png' format
+2026-10-25 08:32:30,188 COMPLETED  ... drawing finished
+2026-10-25 08:32:33,604 INPROGRESS Drawing figure BSM_2_2_4_4-marginals
+2026-10-25 08:32:43,216 INFO       Saving figure BSM_2_2_4_4-marginals in 'pdf' format
+2026-10-25 08:32:52,532 INFO       Saving figure BSM_2_2_4_4-marginals in 'png' format
+2026-10-25 08:32:54,919 COMPLETED  ... drawing finished
+2026-10-25 08:32:58,496 INPROGRESS Drawing figure BSM_3_2_4_4-marginals
+2026-10-25 08:33:08,012 INFO       Saving figure BSM_3_2_4_4-marginals in 'pdf' format
+2026-10-25 08:33:17,542 INFO       Saving figure BSM_3_2_4_4-marginals in 'png' format
+2026-10-25 08:33:19,925 COMPLETED  ... drawing finished
+2026-10-25 08:33:23,672 INPROGRESS Drawing figure BSM_3_2_5_5-marginals
+2026-10-25 08:33:33,920 INFO       Saving figure BSM_3_2_5_5-marginals in 'pdf' format
+2026-10-25 08:33:47,680 INFO       Saving figure BSM_3_2_5_5-marginals in 'png' format
+2026-10-25 08:33:50,602 COMPLETED  ... drawing finished
