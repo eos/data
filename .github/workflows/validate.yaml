@@ -29,10 +29,12 @@ jobs:
       matrix: ${{ steps.build.outputs.matrix }}
       empty: ${{ steps.build.outputs.empty }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install dependencies
-        run: pip3 install --quiet pyyaml
+        # Installed only where it is missing: as ubuntu-latest moves on, the system Python is
+        # externally managed (PEP 668) and refuses a plain install.
+        run: python3 -c 'import yaml' 2>/dev/null || pip3 install --quiet --break-system-packages pyyaml
 
       - name: Ensure the issue label exists
         env:
@@ -55,12 +57,12 @@ jobs:
       matrix: ${{ fromJSON(needs.matrix.outputs.matrix) }}
     steps:
       - name: Check out the workflow scripts
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: workflow
 
       - name: Check out the data set
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # Fully qualified: a data set's name is both a tag and a branch, and it is the tip of
           # the branch that is to be validated.
